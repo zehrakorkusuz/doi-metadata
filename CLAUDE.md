@@ -9,33 +9,49 @@ Given a DOI, retrieve, reconcile, and unify metadata from every relevant scholar
 ```
 DOI (input)
  │
- ├─► Resolver Layer        Classify DOI (article vs dataset vs preprint vs software)
- │                         via DOI prefix → registration agency (CrossRef / DataCite)
- │
- ├─► Fetcher Layer         Parallel async calls to all relevant APIs
+ ├─► Phase 1: Fetch Everything (parallel, all 11 APIs)
+ │   404s are expected and fine — not every DOI exists in every source
  │   ├── crossref.py       Journal articles, references, funders, licenses
  │   ├── datacite.py       Datasets, software, versioning, relatedIdentifiers
  │   ├── openalex.py       Merged scholarly graph, concepts, institutions, citations
  │   ├── semantic_scholar.py  Citation intents, influential citations, TLDR
  │   ├── unpaywall.py      Open access status and best OA location
  │   ├── europe_pmc.py     Full-text mined entities, grants, citation counts
- │   ├── nih_reporter.py   NIH grant → publication linkages
+ │   ├── openaire.py       EU funding, BIP! indicators, related software
+ │   ├── nih_reporter.py   NIH grant → publication linkages (many-to-many)
  │   ├── zenodo.py         Repository files, communities, version chains
  │   ├── dryad.py          Dataset files, related works, usage stats
- │   ├── orcid.py          Author disambiguation, affiliation history
- │   └── dimensions.py     Patents, clinical trials, policy documents (optional, key required)
+ │   └── orcid.py          Author disambiguation, affiliation history
+ │
+ ├─► Phase 2: Build Identifier Crosswalk
+ │   Harvest PMID, PMCID, arXiv, ORCIDs, ROR IDs, grant numbers,
+ │   related DOIs, handles from ALL responses. OpenAIRE alternate_ids
+ │   is a goldmine (DOI + PMID + PMC + MAG + handles in one field).
+ │
+ ├─► Phase 3: Follow Discovered Links (selective)
+ │   ├── DataCite reverse search: find datasets citing this article
+ │   │   (ENCODE→1158 datasets, TCGA→327, GTEx→927)
+ │   ├── NIH grant → sibling publications (all papers under same grant)
+ │   ├── DataCite relatedIdentifiers → linked articles/software/versions
+ │   └── Zenodo conceptdoi → full version chain
  │
  ├─► Normalization Layer   Map each source's schema → unified internal model
  │
  ├─► Reconciliation Layer  Detect and report conflicts across sources
- │   ├── citations         Compare citation counts (OpenAlex vs S2 vs CrossRef vs Dimensions)
- │   ├── authors           Match author lists across sources (name variants, ORCID linking)
+ │   ├── citations         Compare counts (can diverge 100x for arXiv preprints)
+ │   ├── authors           Match author lists (ORCID linking, name variants)
  │   ├── references        Union/intersect of cited-by and references graphs
- │   ├── oa_status          Cross-check Unpaywall vs OpenAlex vs Europe PMC
- │   └── related_works     Merge DataCite relatedIdentifier, CrossRef references, OpenAlex concepts
+ │   ├── oa_status          Cross-check Unpaywall vs OpenAlex vs OpenAIRE vs Europe PMC
+ │   ├── funding           Merge NIH Reporter + Europe PMC + OpenAIRE + CrossRef + Zenodo
+ │   └── related_works     Merge DataCite relatedIdentifier, Dryad relatedWorks, OpenAIRE
  │
  └─► Output Layer          Unified JSON, per-source raw responses, conflict report
 ```
+
+### Documentation
+
+- **[docs/api-reference.md](docs/api-reference.md)** — Full JSON schemas for all 11 APIs
+- **[docs/source-connections.md](docs/source-connections.md)** — How sources connect, real-data patterns, identifier crosswalk
 
 ## Tech Stack
 
@@ -163,14 +179,34 @@ doi-metadata lookup 10.5061/dryad.8sf3tx0h5
 doi-metadata lookup 10.1038/s41586-023-06647-8 --format json --include-raw
 ```
 
-## Example Workflow
+## Example Workflows
 
-1. User provides DOI: `10.5061/dryad.8sf3tx0h5`
-2. Resolver hits `doi.org` → determines this is a DataCite DOI (Dryad dataset)
-3. Fetchers fire in parallel: DataCite (primary), Dryad, OpenAlex, Semantic Scholar, Europe PMC, CrossRef (may 404 — that's fine)
-4. Normalization maps each response to unified model
-5. Reconciliation compares overlapping fields, flags conflicts
-6. Output renders unified record + conflict report
+### Article DOI: `10.1038/nature11247` (ENCODE)
+1. Phase 1: Hit all 11 APIs in parallel
+   - CrossRef: full article metadata, 84 references, funders ✓
+   - DataCite: 404 (not a DataCite DOI) — expected
+   - OpenAlex: 18,767 citations, concepts, institutions ✓
+   - Semantic Scholar: citation intents, TLDR ✓
+   - Unpaywall: OA status (bronze) ✓
+   - Europe PMC: PMID 22955616, grants, MeSH ✓
+   - OpenAIRE: alternate_ids (handles, PMC, MAG), 5 related GitHub repos, EU funding links ✓
+   - NIH Reporter: 5 grants (U01HG004695, U54HG004592, ...), each with 20-724 sibling publications ✓
+   - Zenodo/Dryad: 404 — expected
+   - ORCID: author ORCIDs ✓
+2. Phase 2: Build crosswalk — PMID, PMC, MAG, handles, ORCIDs, grant numbers
+3. Phase 3: DataCite reverse search → 1,158 linked datasets (figshare, Zenodo)
+4. Reconcile: citation counts diverge (OpenAlex 18,767 vs OpenAIRE 15,938)
+5. Output: unified record + per-source raw + conflict report
+
+### Dataset DOI: `10.5061/dryad.8sf3tx0h5` (Dryad)
+1. Phase 1: Hit all 11 APIs in parallel
+   - DataCite: full metadata, relatedIdentifiers (IsSupplementTo → article DOI) ✓
+   - Dryad: dataset details, files, relatedWorks, ROR-linked affiliations ✓
+   - OpenAlex: merged record ✓
+   - CrossRef: 404 — expected
+   - Others: varying coverage
+2. Phase 2: Follow DataCite `IsSupplementTo` → fetch the linked article
+3. Output: dataset record + linked article metadata + version chain
 
 ## Non-Goals (for now)
 

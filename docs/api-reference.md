@@ -755,75 +755,129 @@ GET https://api.openaire.eu/search/researchProducts?doi={doi}&format=json
 
 ## 8. NIH Reporter
 
-### Call Pattern
+### Call Patterns
+
+**Publications by DOI:**
 ```
 POST https://api.reporter.nih.gov/v2/publications/search
 Content-Type: application/json
 
-{
-  "criteria": {"doi": "10.1038/s41586-020-2649-2"},
-  "offset": 0,
-  "limit": 10
-}
+{"criteria": {"doi": "10.1038/s41586-020-2649-2"}, "offset": 0, "limit": 50}
+```
+
+**Projects by project number (follow-up):**
+```
+POST https://api.reporter.nih.gov/v2/projects/search
+Content-Type: application/json
+
+{"criteria": {"project_nums": ["U01HG004695"]}, "offset": 0, "limit": 10}
 ```
 
 **Auth:** None required.
 
-### Response
+### Critical Design Insight: Many-to-Many Linkage
+
+A single publication often links to **multiple grants** (5+ is common for consortium papers like ENCODE, TCGA, GTEx, TOPMed). Each grant carries its own project details, PIs, funding breakdowns.
+
+The response is structured as `{coreProjectNum → {project_details, publications[]}}` where publications is a list of `{coreproject, pmid, applid}` tuples.
+
+### Response — Per-Grant Object
+
 ```json
 {
-  "meta": {"offset": 0, "limit": 10, "total": 1, "properties": {}},
-  "results": [ /* Publication objects */ ]
+  "U01HG004695": {
+    "total_project_records": 2913550,
+    "total_publications": 46,
+    "latest_project": { /* Project object */ },
+    "publications": [
+      {"coreproject": "U01HG004695", "pmid": 25164755, "applid": 8494858},
+      {"coreproject": "U01HG004695", "pmid": 25504731, "applid": 8494858}
+    ]
+  },
+  "R01HL120393": {
+    "total_publications": 545,
+    "latest_project": { /* ... */ },
+    "publications": [ /* ... */ ]
+  }
 }
 ```
 
-### Publication Object
+### Project Object (`latest_project`)
 | Key | Type | Notes |
 |-----|------|-------|
-| `pmid` | Integer | PubMed ID |
-| `doi` | String | |
-| `title` | String | |
-| `authors` | String | Formatted author string |
-| `authorList` | [Author] | Structured |
-| `journal` | String | |
-| `journalTitleAbbr` | String | |
-| `journalVolume` | String | |
-| `journalIssue` | String | |
-| `pagination` | String | |
-| `pubYear` | Integer | |
-| `pubDate` | String | |
-| `language` | String | |
-| `affiliation` | String | |
-| `applId` | Integer | **NIH application ID** |
-| `coreProjectNum` | String | **NIH core project number** |
-| `projectNum` | String | Full project number |
-| `activityCode` | String | e.g. `"R01"` |
-| `adminPhsOrgCode` | String | |
-| `nihFundingIcs` | String | NIH institutes/centers |
-| `pmcId` | String | PMC ID |
-| `isPublicAccess` | String | |
-| `citationCount` | Integer | |
-| `relCitationRatio` | Float | Relative citation ratio |
+| `appl_id` | Integer | NIH application ID |
+| `subproject_id` | Integer/null | |
+| `fiscal_year` | Integer | |
+| `project_num` | String | Full project number, e.g. `"1R01NR014792-01"` |
+| `project_serial_num` | String | e.g. `"NR014792"` |
+| `award_type` | String | `"1"` (new), `"4N"` (non-competing renewal) |
+| `activity_code` | String | `"R01"`, `"U01"`, `"U54"`, `"P41"`, `"U24"` |
+| `award_amount` | Integer | Total award in USD |
+| `project_start_date` | String | ISO datetime |
+| `project_end_date` | String | |
+| `project_title` | String | |
+| `abstract_text` | String | Full project abstract |
+| `phr_text` | String | Public health relevance statement |
+| `spending_categories_desc` | String | Semicolon-separated RCDC categories |
+| `cong_dist` | String | Congressional district, e.g. `"TX-09"` |
 
-**Author in authorList:**
+**Organization:**
 ```json
 {
-  "firstName": "...", "middleName": "...", "lastName": "...",
-  "affiliation": "...", "orcid": "0000-...", "isCorrespondingAuthor": true
+  "org_name": "BAYLOR COLLEGE OF MEDICINE",
+  "org_city": "HOUSTON", "org_state": "TX", "org_country": "UNITED STATES",
+  "dept_type": "OBSTETRICS & GYNECOLOGY",
+  "org_duns": ["051113330"], "org_ueis": ["FXKMA43NTV21"],
+  "primary_duns": "051113330", "primary_uei": "FXKMA43NTV21",
+  "org_fips": "US", "org_ipf_code": "481201", "org_zipcode": "770303411"
 }
 ```
 
-### Unique Data
-- **NIH award linkage:** `applId`, `coreProjectNum`, `projectNum`, `activityCode`
-- **Relative Citation Ratio** (NIH's own impact metric)
-- **Public access compliance** status
-- This is primarily a **linkage table** connecting publications to NIH grants
+**Principal Investigators:**
+```json
+[{
+  "profile_id": 8196581, "first_name": "Kjersti", "middle_name": "Marie",
+  "last_name": "Aagaard", "full_name": "Kjersti Marie Aagaard",
+  "is_contact_pi": true, "title": "PROFESSOR"
+}]
+```
 
-### Related Endpoint: Projects
+**Program Officers:**
+```json
+[{"first_name": "LOIS", "middle_name": "", "last_name": "TULLY", "full_name": "LOIS  TULLY"}]
 ```
-POST https://api.reporter.nih.gov/v2/projects/search
-{"criteria": {"advanced_text_search": {"operator": "and", "search_field": "projectnum", "search_text": "R01GM120592"}}}
+
+**Agency/IC Funding Breakdown:**
+```json
+[{
+  "fy": 2013, "code": "NR",
+  "name": "National Institute of Nursing Research", "abbreviation": "NINR",
+  "total_cost": 560670.0, "direct_cost_ic": 382840.0, "indirect_cost_ic": 177830.0
+}]
 ```
+
+### Publication Linkage Tuple
+```json
+{"coreproject": "U01HG004695", "pmid": 25164755, "applid": 8494858}
+```
+- `coreproject`: the grant that funded this publication
+- `pmid`: PubMed ID → **bridges to Europe PMC, OpenAlex, Semantic Scholar**
+- `applid`: links back to the specific application/award year
+
+### Unique Data
+- **Many-to-many grant↔publication linkage** (one paper → multiple grants, one grant → hundreds of papers)
+- **Full project metadata:** abstract, public health relevance, spending categories
+- **Institutional detail:** UEI/DUNS identifiers, department, congressional district
+- **PI profiles** with profile_id for cross-referencing
+- **IC-level funding breakdown** (which NIH institute, direct vs indirect costs)
+- **Activity code taxonomy** (R01, U01, P41, etc.) indicating grant mechanism
+- **Relative Citation Ratio** (NIH's own impact metric, on publications endpoint)
+
+### Connection Strategy
+1. Query publications by DOI → get list of `coreProjectNum` values
+2. For each project number → query projects endpoint for full grant details
+3. Each grant's `publications[]` gives **PMIDs** of all sibling publications
+4. These PMIDs bridge to Europe PMC, OpenAlex, S2 for full metadata on each
 
 ---
 
