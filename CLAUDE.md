@@ -76,26 +76,33 @@ Zenodo uses "concept DOIs" (parent) → version DOIs (children). DataCite's `rel
 - Unpaywall: requires email in query param.
 - Store API keys in environment variables, never in code.
 
-## Data Source Details
+## Data Sources (11 APIs)
 
-### Free, No Key Required
-| Source | Endpoint Pattern | Returns |
+Full response schemas, nested objects, and call examples: **[docs/api-reference.md](docs/api-reference.md)**
+
+| Source | Call Pattern | Auth | Unique Data |
+|---|---|---|---|
+| CrossRef | `GET api.crossref.org/works/{doi}?mailto=` | None (mailto for polite pool) | Crossmark, corrections, clinical trials, funder registry |
+| DataCite | `GET api.datacite.org/dois/{doi}` | None | Version chains, geolocations, resource type taxonomy |
+| OpenAlex | `GET api.openalex.org/works/doi:{doi}?mailto=` | **API key required after Feb 13, 2026** | FWCI, concept hierarchy, citation percentiles |
+| Semantic Scholar | `GET api.semanticscholar.org/graph/v1/paper/DOI:{doi}?fields=` | x-api-key header (optional) | Citation intents, TLDR, influential citations, SPECTER2 |
+| Unpaywall | `GET api.unpaywall.org/v2/{doi}?email=` | Email required | Per-location OA version tracking, DOAJ, evidence |
+| Europe PMC | `GET ebi.ac.uk/.../rest/search?query=DOI:{doi}&resultType=core` | None | MeSH headings, chemicals, text-mined accessions, grants |
+| OpenAIRE | `GET api.openaire.eu/graph/v2/researchProducts?search={doi}` | Bearer token (optional) | EU project linkages, BIP! indicators, FOS/SDG with trust |
+| NIH Reporter | `POST api.reporter.nih.gov/v2/publications/search` | None | NIH award linkages, relative citation ratio |
+| Zenodo | `GET zenodo.org/api/records?q=doi:{doi}` | Bearer token (optional) | Files with checksums, download stats, communities |
+| Dryad | `GET datadryad.org/api/v2/datasets/doi%3A{encoded_doi}` | None | Methods, usage notes, ROR-linked affiliations |
+| ORCID | `GET pub.orcid.org/v3.0/expanded-search?q=doi-self:{doi}` | OAuth2 /read-public | Employment/education history, peer reviews, funding |
+
+### Cross-Source Conflict Points
+| Data Point | Sources That Disagree | Risk |
 |---|---|---|
-| CrossRef | `api.crossref.org/works/{doi}` | Full article metadata, references, funders |
-| DataCite | `api.datacite.org/dois/{doi}` | Dataset/software metadata, related identifiers |
-| OpenAlex | `api.openalex.org/works/doi:{doi}` | Merged record, concepts, institutions, cited_by_count |
-| Semantic Scholar | `api.semanticscholar.org/graph/v1/paper/DOI:{doi}` | Citations, references, TLDR, citation intents |
-| Unpaywall | `api.unpaywall.org/v2/{doi}?email=` | OA status, best OA URL |
-| Europe PMC | `www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:{doi}` | PMC metadata, grants, full-text links |
-| Zenodo | `zenodo.org/api/records?q=doi:{doi}` | Files, communities, version info |
-| Dryad | `datadryad.org/api/v2/datasets/doi:{doi}` | Dataset files, related works |
-
-### Key Required (Optional)
-| Source | Notes |
-|---|---|
-| NIH Reporter | `api.reporter.nih.gov/v2/publications/search` — search by DOI |
-| Dimensions | Requires API key; provides patents, clinical trials, policy docs |
-| ORCID | Public API free; member API for richer data |
+| Citation count | CrossRef, OpenAlex, S2, Europe PMC, DataCite, OpenAIRE, NIH | HIGH |
+| OA status | Unpaywall, OpenAlex, OpenAIRE, Europe PMC | MEDIUM |
+| Author names | CrossRef, DataCite, OpenAlex, S2, Europe PMC, ORCID, Dryad | HIGH |
+| Affiliations | CrossRef, OpenAlex, ORCID, Europe PMC, Dryad, NIH | HIGH |
+| References | CrossRef, OpenAlex, S2, DataCite | MEDIUM |
+| Funding | CrossRef, Europe PMC, OpenAIRE, NIH, Zenodo, Dryad, DataCite | MEDIUM |
 
 ## Project Layout
 
