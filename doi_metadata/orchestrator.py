@@ -85,7 +85,7 @@ async def lookup(doi: str, *, include_raw: bool = False, follow_links: bool = Tr
     # Phase 4: Derived analyses
     logger.info("Phase 4: Running derived analyses...")
     aggregated.analyses = _run_analyses(aggregated)
-    logger.info("  Analyses complete: %s", ", ".join(aggregated.analyses.keys()))
+    logger.info("  Analyses complete: %s", ", ".join(aggregated.analyses.model_fields.keys()))
 
     return aggregated
 

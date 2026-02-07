@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import logging
+import re
 
 from doi_metadata.fetchers.base import fetch_json
 from doi_metadata.models import (
@@ -23,28 +24,45 @@ from doi_metadata.models import (
 logger = logging.getLogger(__name__)
 SOURCE = SourceName.ZENODO
 
+# Match Zenodo DOIs: 10.5281/zenodo.{record_id}
+_ZENODO_DOI_RE = re.compile(r"^10\.5281/zenodo\.(\d+)$", re.IGNORECASE)
+
 
 async def fetch_zenodo(doi: str) -> SourceResult:
     result = SourceResult(source=SOURCE, doi=doi)
 
-    try:
-        data = await fetch_json(
-            "https://zenodo.org/api/records",
-            params={"q": f'doi:"{doi}"', "size": "1"},
-            source_name="Zenodo",
-        )
-    except Exception as exc:
-        result.error = str(exc)
-        return result
+    rec: dict | None = None
+    m = _ZENODO_DOI_RE.match(doi)
+    if m:
+        # Direct record lookup — works for both version DOIs and concept DOIs
+        # (concept DOIs redirect to the latest version via 302)
+        record_id = m.group(1)
+        try:
+            rec = await fetch_json(
+                f"https://zenodo.org/api/records/{record_id}",
+                source_name="Zenodo",
+            )
+        except Exception as exc:
+            result.error = str(exc)
+            return result
+    else:
+        # Non-Zenodo DOI — fall back to search
+        try:
+            data = await fetch_json(
+                "https://zenodo.org/api/records",
+                params={"q": f'pids.doi.identifier:"{doi}"', "size": "1"},
+                source_name="Zenodo",
+            )
+        except Exception as exc:
+            result.error = str(exc)
+            return result
+        if data:
+            hits = data.get("hits", {}).get("hits", [])
+            if hits:
+                rec = hits[0]
 
-    if not data:
+    if not rec:
         return result
-
-    hits = data.get("hits", {}).get("hits", [])
-    if not hits:
-        return result
-
-    rec = hits[0]
     result.found = True
     result.raw = rec
 

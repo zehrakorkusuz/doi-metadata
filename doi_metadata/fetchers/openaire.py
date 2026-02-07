@@ -31,16 +31,23 @@ async def fetch_openaire(doi: str) -> SourceResult:
     if settings.openaire_api_key:
         headers["Authorization"] = f"Bearer {settings.openaire_api_key}"
 
+    # Use pid= for exact DOI match (search= does full-text and returns irrelevant results)
+    url = "https://api.openaire.eu/graph/v2/researchProducts"
+    params = {"pid": doi, "pageSize": "1"}
     try:
-        data = await fetch_json(
-            "https://api.openaire.eu/graph/v2/researchProducts",
-            params={"search": doi, "pageSize": "1"},
-            headers=headers,
-            source_name="OpenAIRE",
-        )
-    except Exception as exc:
-        result.error = str(exc)
-        return result
+        data = await fetch_json(url, params=params, headers=headers, source_name="OpenAIRE")
+    except Exception as first_exc:
+        # Token may be expired (403) — retry without auth
+        if headers:
+            logger.info("OpenAIRE: auth failed (%s), retrying without token", first_exc)
+            try:
+                data = await fetch_json(url, params=params, source_name="OpenAIRE")
+            except Exception as exc:
+                result.error = str(exc)
+                return result
+        else:
+            result.error = str(first_exc)
+            return result
 
     if not data:
         return result
@@ -82,13 +89,20 @@ async def fetch_openaire(doi: str) -> SourceResult:
         for alt_id in inst.get("alternateIdentifiers", []):
             id_str = f"{alt_id.get('scheme', '')}:{alt_id.get('value', '')}"
             result.alternate_ids.append(id_str)
+        # Also harvest PIDs from instances
+        for inst_pid in inst.get("pids", []):
+            id_str = f"{inst_pid.get('scheme', '')}:{inst_pid.get('value', '')}"
+            if id_str not in result.alternate_ids:
+                result.alternate_ids.append(id_str)
 
-    # Authors
+    # Authors — v2 nests ORCID under pid.id
     for a in rec.get("authors", []):
         orcid = None
         pid = a.get("pid")
-        if pid and pid.get("scheme") == "orcid":
-            orcid = pid.get("value")
+        if pid:
+            pid_id = pid.get("id", pid)  # v2: nested under "id"; v1: flat
+            if isinstance(pid_id, dict) and pid_id.get("scheme") == "orcid":
+                orcid = pid_id.get("value")
 
         result.authors.append(
             Author(
@@ -136,10 +150,17 @@ async def fetch_openaire(doi: str) -> SourceResult:
     # Impact indicators (BIP!)
     indicators = rec.get("indicators", {}) or {}
     citation_impact = indicators.get("citationImpact", {}) or {}
+    # v2 uses e.g. "citationClass" not "citationCountClass"
+    class_key_map = {
+        "citationCount": "citationClass",
+        "influence": "influenceClass",
+        "popularity": "popularityClass",
+        "impulse": "impulseClass",
+    }
     for name in ["citationCount", "influence", "popularity", "impulse"]:
         val = citation_impact.get(name)
         if val is not None:
-            cls = citation_impact.get(f"{name}Class")
+            cls = citation_impact.get(class_key_map.get(name, f"{name}Class"))
             result.impact_indicators.append(
                 ImpactIndicator(name=f"bip_{name}", value=val, class_label=cls, source=SOURCE)
             )
@@ -160,18 +181,29 @@ async def fetch_openaire(doi: str) -> SourceResult:
 
     # Projects & Funding (UNIQUE VALUE of OpenAIRE)
     for proj in rec.get("projects", []):
-        funder = proj.get("funder", {}) or {}
+        funder_raw = proj.get("funder", {}) or {}
+        # v2 API returns funder as a string; v1 returned a dict
+        if isinstance(funder_raw, str):
+            funder_name = funder_raw
+            funder_short = None
+            funder_stream = None
+            funder_jurisdiction = None
+        else:
+            funder_name = funder_raw.get("name")
+            funder_short = funder_raw.get("shortName")
+            funder_stream = funder_raw.get("fundingStream")
+            funder_jurisdiction = funder_raw.get("jurisdiction")
         prov = proj.get("provenance", {}) or {}
         validated = proj.get("validated", {}) or {}
         result.openaire_projects.append(
             Grant(
                 grant_id=proj.get("code"),
-                agency=funder.get("name"),
-                agency_abbreviation=funder.get("shortName"),
+                agency=funder_name,
+                agency_abbreviation=funder_short,
                 title=proj.get("title"),
                 openaire_project_id=proj.get("id"),
-                funding_stream=funder.get("fundingStream"),
-                jurisdiction=funder.get("jurisdiction"),
+                funding_stream=funder_stream,
+                jurisdiction=funder_jurisdiction,
                 validated_by_funder=validated.get("validatedByFunder"),
                 trust_score=float(prov["trust"]) if prov.get("trust") else None,
                 source=SOURCE,
@@ -180,13 +212,21 @@ async def fetch_openaire(doi: str) -> SourceResult:
         result.grants.append(result.openaire_projects[-1])
 
     # Subjects with provenance (FOS, SDG)
+    # v2 nests subject data under "subject" key
     for s in rec.get("subjects", []):
+        subj = s.get("subject", s)  # v2: nested; v1: flat
+        if isinstance(subj, dict):
+            value = subj.get("value", "")
+            scheme = subj.get("scheme")
+        else:
+            value = str(subj)
+            scheme = None
         prov = s.get("provenance", {}) or {}
         result.subjects.append(
             Subject(
-                value=s.get("value", ""),
-                scheme=s.get("scheme"),
-                score=float(prov["trust"]) if prov.get("trust") else None,
+                value=value,
+                scheme=scheme,
+                score=float(prov["trust"]) if prov and prov.get("trust") else None,
                 source=SOURCE,
             )
         )
