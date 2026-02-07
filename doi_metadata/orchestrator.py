@@ -11,6 +11,7 @@ from doi_metadata.fetchers import ALL_FETCHERS
 from doi_metadata.fetchers.base import close_client, fetch_json
 from doi_metadata.models import (
     AggregatedResult,
+    AnalysesResult,
     RelatedWork,
     SourceName,
     SourceResult,
@@ -89,8 +90,8 @@ async def lookup(doi: str, *, include_raw: bool = False, follow_links: bool = Tr
     return aggregated
 
 
-def _run_analyses(result: AggregatedResult) -> dict[str, object]:
-    """Run all derived analyses and return serializable results."""
+def _run_analyses(result: AggregatedResult) -> AnalysesResult:
+    """Run all derived analyses and return typed results."""
     from doi_metadata.analyses import (
         analyze_authors,
         analyze_dataset_reuse,
@@ -101,7 +102,7 @@ def _run_analyses(result: AggregatedResult) -> dict[str, object]:
         analyze_topics,
     )
 
-    analyses: dict[str, object] = {}
+    data: dict[str, object] = {}
     for name, fn in [
         ("impact", analyze_impact),
         ("funding", analyze_funding),
@@ -112,12 +113,12 @@ def _run_analyses(result: AggregatedResult) -> dict[str, object]:
         ("topics", analyze_topics),
     ]:
         try:
-            analyses[name] = fn(result).model_dump(exclude_none=True)
+            data[name] = fn(result).model_dump(exclude_none=True)
         except Exception as e:
             logger.warning("Analysis '%s' failed: %s", name, e)
-            analyses[name] = {"error": str(e)}
+            data[name] = {"error": str(e)}
 
-    return analyses
+    return AnalysesResult(**data)
 
 
 async def _datacite_reverse_search(doi: str, max_results: int = 25) -> list[RelatedWork]:

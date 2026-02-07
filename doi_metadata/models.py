@@ -417,6 +417,17 @@ class ConflictReport(BaseModel):
 # Aggregated result
 # ---------------------------------------------------------------------------
 
+class AnalysesResult(BaseModel):
+    """Typed wrapper for all 7 derived analysis outputs."""
+    impact: dict[str, Any] = Field(default_factory=dict)
+    funding: dict[str, Any] = Field(default_factory=dict)
+    dataset_reuse: dict[str, Any] = Field(default_factory=dict)
+    authors: dict[str, Any] = Field(default_factory=dict)
+    grant_siblings: dict[str, Any] = Field(default_factory=dict)
+    oa_audit: dict[str, Any] = Field(default_factory=dict)
+    topics: dict[str, Any] = Field(default_factory=dict)
+
+
 class AggregatedResult(BaseModel):
     """The final output: all source results + crosswalk + conflicts."""
     doi: str
@@ -428,4 +439,4 @@ class AggregatedResult(BaseModel):
     # Phase 3 discoveries
     datacite_linked_datasets: list[RelatedWork] = Field(default_factory=list)
     # Derived analyses (populated after aggregation)
-    analyses: dict[str, Any] = Field(default_factory=dict)
+    analyses: AnalysesResult = Field(default_factory=AnalysesResult)

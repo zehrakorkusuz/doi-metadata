@@ -120,8 +120,9 @@ def to_summary(result: AggregatedResult) -> str:
             "oa_audit": "OA Audit",
             "topics": "Topic Profile",
         }
+        analyses_dict = result.analyses.model_dump(exclude_none=True)
         for key, label in analysis_labels.items():
-            data = result.analyses.get(key)
+            data = analyses_dict.get(key)
             if isinstance(data, dict):
                 narrative = data.get("narrative", "")
                 if narrative and "error" not in data:
