@@ -71,7 +71,7 @@ async def lookup(doi: str, *, include_raw: bool = False, follow_links: bool = Tr
     # Close HTTP client
     await close_client()
 
-    return AggregatedResult(
+    aggregated = AggregatedResult(
         doi=doi,
         registration_agency=agency,
         retrieved_at=datetime.now(timezone.utc),
@@ -80,6 +80,44 @@ async def lookup(doi: str, *, include_raw: bool = False, follow_links: bool = Tr
         conflicts=conflicts,
         datacite_linked_datasets=datacite_linked_datasets,
     )
+
+    # Phase 4: Derived analyses
+    logger.info("Phase 4: Running derived analyses...")
+    aggregated.analyses = _run_analyses(aggregated)
+    logger.info("  Analyses complete: %s", ", ".join(aggregated.analyses.keys()))
+
+    return aggregated
+
+
+def _run_analyses(result: AggregatedResult) -> dict[str, object]:
+    """Run all derived analyses and return serializable results."""
+    from doi_metadata.analyses import (
+        analyze_authors,
+        analyze_dataset_reuse,
+        analyze_funding,
+        analyze_grant_siblings,
+        analyze_impact,
+        analyze_oa,
+        analyze_topics,
+    )
+
+    analyses: dict[str, object] = {}
+    for name, fn in [
+        ("impact", analyze_impact),
+        ("funding", analyze_funding),
+        ("dataset_reuse", analyze_dataset_reuse),
+        ("authors", analyze_authors),
+        ("grant_siblings", analyze_grant_siblings),
+        ("oa_audit", analyze_oa),
+        ("topics", analyze_topics),
+    ]:
+        try:
+            analyses[name] = fn(result).model_dump(exclude_none=True)
+        except Exception as e:
+            logger.warning("Analysis '%s' failed: %s", name, e)
+            analyses[name] = {"error": str(e)}
+
+    return analyses
 
 
 async def _datacite_reverse_search(doi: str, max_results: int = 25) -> list[RelatedWork]:

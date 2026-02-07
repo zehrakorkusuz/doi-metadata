@@ -107,4 +107,27 @@ def to_summary(result: AggregatedResult) -> str:
         if len(result.datacite_linked_datasets) > 10:
             lines.append(f"  ... and {len(result.datacite_linked_datasets) - 10} more")
 
+    # Derived analyses narratives
+    if result.analyses:
+        lines.append("")
+        lines.append("Analyses:")
+        analysis_labels = {
+            "impact": "Impact Profile",
+            "funding": "Funding Landscape",
+            "dataset_reuse": "Dataset Reuse",
+            "authors": "Author Network",
+            "grant_siblings": "Grant Siblings",
+            "oa_audit": "OA Audit",
+            "topics": "Topic Profile",
+        }
+        for key, label in analysis_labels.items():
+            data = result.analyses.get(key)
+            if isinstance(data, dict):
+                narrative = data.get("narrative", "")
+                if narrative and "error" not in data:
+                    lines.append(f"  {label}:")
+                    lines.append(f"    {narrative}")
+                elif "error" in data:
+                    lines.append(f"  {label}: error — {data['error']}")
+
     return "\n".join(lines)

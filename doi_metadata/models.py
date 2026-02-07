@@ -427,3 +427,5 @@ class AggregatedResult(BaseModel):
     conflicts: ConflictReport
     # Phase 3 discoveries
     datacite_linked_datasets: list[RelatedWork] = Field(default_factory=list)
+    # Derived analyses (populated after aggregation)
+    analyses: dict[str, Any] = Field(default_factory=dict)
