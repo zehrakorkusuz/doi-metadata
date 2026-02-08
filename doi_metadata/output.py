@@ -2,8 +2,6 @@
 
 from __future__ import annotations
 
-import json
-
 from doi_metadata.models import AggregatedResult
 
 
@@ -60,6 +58,14 @@ def to_summary(result: AggregatedResult) -> str:
                 parts.append(f"software={len(src.related_software)}")
             if src.communities:
                 parts.append(f"communities={len(src.communities)}")
+            if src.publication_types:
+                parts.append(f"pub_types={len(src.publication_types)}")
+            if src.gene_symbols:
+                parts.append(f"genes={len(src.gene_symbols)}")
+            if src.databank_accessions:
+                parts.append(f"databanks={len(src.databank_accessions)}")
+            if src.conflict_of_interest:
+                parts.append("has_coi")
             if parts:
                 extra = f" ({', '.join(parts)})"
         lines.append(f"  {name:22s} {status}{extra}")

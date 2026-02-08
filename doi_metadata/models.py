@@ -8,7 +8,6 @@ from typing import Any
 
 from pydantic import BaseModel, Field
 
-
 # ---------------------------------------------------------------------------
 # Enums
 # ---------------------------------------------------------------------------
@@ -25,6 +24,7 @@ class SourceName(str, Enum):
     ZENODO = "zenodo"
     DRYAD = "dryad"
     ORCID = "orcid"
+    ENTREZ = "entrez"
 
 
 class OAStatus(str, Enum):
@@ -392,6 +392,15 @@ class SourceResult(BaseModel):
 
     # Zenodo-specific
     communities: list[str] = Field(default_factory=list)
+
+    # Entrez/PubMed-specific
+    publication_types: list[str] = Field(default_factory=list)
+    gene_symbols: list[str] = Field(default_factory=list)
+    databank_accessions: list[dict[str, Any]] = Field(default_factory=list)  # {databank, accession_numbers}
+    conflict_of_interest: str | None = None
+    article_dates: dict[str, str] = Field(default_factory=dict)  # received, accepted, published, revised
+    structured_abstract: dict[str, str] = Field(default_factory=dict)  # label → text
+    vernacular_title: str | None = None  # title in original non-English language
 
 
 # ---------------------------------------------------------------------------

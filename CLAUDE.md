@@ -9,7 +9,7 @@ Given a DOI, retrieve, reconcile, and unify metadata from every relevant scholar
 ```
 DOI (input)
  │
- ├─► Phase 1: Fetch Everything (parallel, all 11 APIs)
+ ├─► Phase 1: Fetch Everything (parallel, all 12 APIs)
  │   404s are expected and fine — not every DOI exists in every source
  │   ├── crossref.py       Journal articles, references, funders, licenses
  │   ├── datacite.py       Datasets, software, versioning, relatedIdentifiers
@@ -21,7 +21,8 @@ DOI (input)
  │   ├── nih_reporter.py   NIH grant → publication linkages (many-to-many)
  │   ├── zenodo.py         Repository files, communities, version chains
  │   ├── dryad.py          Dataset files, related works, usage stats
- │   └── orcid.py          Author disambiguation, affiliation history
+ │   ├── orcid.py          Author disambiguation, affiliation history
+ │   └── entrez.py         Authoritative PMID, MeSH, publication types, gene symbols
  │
  ├─► Phase 2: Build Identifier Crosswalk
  │   Harvest PMID, PMCID, arXiv, ORCIDs, ROR IDs, grant numbers,
@@ -50,7 +51,7 @@ DOI (input)
 
 ### Documentation
 
-- **[docs/api-reference.md](docs/api-reference.md)** — Full JSON schemas for all 11 APIs
+- **[docs/api-reference.md](docs/api-reference.md)** — Full JSON schemas for all 12 APIs
 - **[docs/source-connections.md](docs/source-connections.md)** — How sources connect, real-data patterns, identifier crosswalk
 
 ## Tech Stack
@@ -92,7 +93,7 @@ Zenodo uses "concept DOIs" (parent) → version DOIs (children). DataCite's `rel
 - Unpaywall: requires email in query param.
 - Store API keys in environment variables, never in code.
 
-## Data Sources (11 APIs)
+## Data Sources (12 APIs)
 
 Full response schemas, nested objects, and call examples: **[docs/api-reference.md](docs/api-reference.md)**
 
@@ -109,16 +110,18 @@ Full response schemas, nested objects, and call examples: **[docs/api-reference.
 | Zenodo | `GET zenodo.org/api/records?q=doi:{doi}` | Bearer token (optional) | Files with checksums, download stats, communities |
 | Dryad | `GET datadryad.org/api/v2/datasets/doi%3A{encoded_doi}` | None | Methods, usage notes, ROR-linked affiliations |
 | ORCID | `GET pub.orcid.org/v3.0/expanded-search?q=doi-self:{doi}` | OAuth2 /read-public | Employment/education history, peer reviews, funding |
+| Entrez/PubMed | `esearch.fcgi?db=pubmed&term={doi}[doi]` → `efetch.fcgi?id={pmid}` | api_key + email (optional) | Authoritative PMID, publication types, gene symbols, databank accessions, structured abstracts, conflict of interest |
 
 ### Cross-Source Conflict Points
 | Data Point | Sources That Disagree | Risk |
 |---|---|---|
 | Citation count | CrossRef, OpenAlex, S2, Europe PMC, DataCite, OpenAIRE, NIH | HIGH |
 | OA status | Unpaywall, OpenAlex, OpenAIRE, Europe PMC | MEDIUM |
-| Author names | CrossRef, DataCite, OpenAlex, S2, Europe PMC, ORCID, Dryad | HIGH |
-| Affiliations | CrossRef, OpenAlex, ORCID, Europe PMC, Dryad, NIH | HIGH |
-| References | CrossRef, OpenAlex, S2, DataCite | MEDIUM |
-| Funding | CrossRef, Europe PMC, OpenAIRE, NIH, Zenodo, Dryad, DataCite | MEDIUM |
+| Author names | CrossRef, DataCite, OpenAlex, S2, Europe PMC, ORCID, Dryad, Entrez | HIGH |
+| Affiliations | CrossRef, OpenAlex, ORCID, Europe PMC, Dryad, NIH, Entrez | HIGH |
+| References | CrossRef, OpenAlex, S2, DataCite, Entrez | MEDIUM |
+| Funding | CrossRef, Europe PMC, OpenAIRE, NIH, Zenodo, Dryad, DataCite, Entrez | MEDIUM |
+| MeSH terms | Europe PMC, Entrez | LOW |
 
 ## Project Layout
 
@@ -140,7 +143,8 @@ doi_metadata/
 │   ├── nih_reporter.py
 │   ├── zenodo.py
 │   ├── dryad.py
-│   └── orcid.py
+│   ├── orcid.py
+│   └── entrez.py
 ├── reconciliation/
 │   ├── __init__.py
 │   ├── citations.py    # Compare citation counts across sources
@@ -182,7 +186,7 @@ doi-metadata lookup 10.1038/s41586-023-06647-8 --format json --include-raw
 ## Example Workflows
 
 ### Article DOI: `10.1038/nature11247` (ENCODE)
-1. Phase 1: Hit all 11 APIs in parallel
+1. Phase 1: Hit all 12 APIs in parallel
    - CrossRef: full article metadata, 84 references, funders ✓
    - DataCite: 404 (not a DataCite DOI) — expected
    - OpenAlex: 18,767 citations, concepts, institutions ✓
@@ -193,13 +197,14 @@ doi-metadata lookup 10.1038/s41586-023-06647-8 --format json --include-raw
    - NIH Reporter: 5 grants (U01HG004695, U54HG004592, ...), each with 20-724 sibling publications ✓
    - Zenodo/Dryad: 404 — expected
    - ORCID: author ORCIDs ✓
+   - Entrez/PubMed: authoritative PMID, MeSH headings, publication types, grants, structured abstract ✓
 2. Phase 2: Build crosswalk — PMID, PMC, MAG, handles, ORCIDs, grant numbers
 3. Phase 3: DataCite reverse search → 1,158 linked datasets (figshare, Zenodo)
 4. Reconcile: citation counts diverge (OpenAlex 18,767 vs OpenAIRE 15,938)
 5. Output: unified record + per-source raw + conflict report
 
 ### Dataset DOI: `10.5061/dryad.8sf3tx0h5` (Dryad)
-1. Phase 1: Hit all 11 APIs in parallel
+1. Phase 1: Hit all 12 APIs in parallel
    - DataCite: full metadata, relatedIdentifiers (IsSupplementTo → article DOI) ✓
    - Dryad: dataset details, files, relatedWorks, ROR-linked affiliations ✓
    - OpenAlex: merged record ✓

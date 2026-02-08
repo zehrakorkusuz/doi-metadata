@@ -9,8 +9,9 @@ def build_crosswalk(doi: str, results: dict[str, SourceResult]) -> IdentifierCro
     """Merge identifiers discovered across all source results."""
     cw = IdentifierCrosswalk(doi=doi)
 
-    # Priority order for PMID: Europe PMC > OpenAlex > S2 > NIH Reporter > OpenAIRE
+    # Priority order for PMID: Entrez > Europe PMC > OpenAlex > S2 > NIH Reporter > OpenAIRE
     pmid_priority = [
+        SourceName.ENTREZ,
         SourceName.EUROPE_PMC,
         SourceName.OPENALEX,
         SourceName.SEMANTIC_SCHOLAR,

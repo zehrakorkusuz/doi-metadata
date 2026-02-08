@@ -29,6 +29,10 @@ class Settings(BaseSettings):
     orcid_client_id: str = ""
     orcid_client_secret: str = ""
 
+    # Entrez / PubMed
+    entrez_email: str = ""
+    entrez_api_key: str = ""  # 10 req/s with key, 3 req/s without
+
     # NIH Reporter
     nih_reporter_base_url: str = "https://api.reporter.nih.gov/v2"
 
