@@ -440,3 +440,5 @@ class AggregatedResult(BaseModel):
     datacite_linked_datasets: list[RelatedWork] = Field(default_factory=list)
     # Derived analyses (populated after aggregation)
     analyses: AnalysesResult = Field(default_factory=AnalysesResult)
+    # Comprehensive cross-source discrepancy report
+    discrepancy_report: dict[str, Any] | None = None

@@ -18,6 +18,7 @@ console = Console()
 class OutputFormat(str, Enum):
     summary = "summary"
     json = "json"
+    discrepancies = "discrepancies"
 
 
 @app.command()
@@ -45,6 +46,10 @@ def lookup(
         from doi_metadata.output import to_json
 
         console.print_json(to_json(result))
+    elif format == OutputFormat.discrepancies:
+        from doi_metadata.output import to_discrepancy_report
+
+        console.print(to_discrepancy_report(result))
     else:
         from doi_metadata.output import to_summary
 
