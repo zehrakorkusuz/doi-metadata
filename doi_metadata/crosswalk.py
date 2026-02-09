@@ -9,8 +9,9 @@ def build_crosswalk(doi: str, results: dict[str, SourceResult]) -> IdentifierCro
     """Merge identifiers discovered across all source results."""
     cw = IdentifierCrosswalk(doi=doi)
 
-    # Priority order for PMID: Europe PMC > OpenAlex > S2 > NIH Reporter > OpenAIRE
+    # Priority order for PMID: Entrez > Europe PMC > OpenAlex > S2 > NIH Reporter > OpenAIRE
     pmid_priority = [
+        SourceName.ENTREZ,
         SourceName.EUROPE_PMC,
         SourceName.OPENALEX,
         SourceName.SEMANTIC_SCHOLAR,
@@ -91,5 +92,40 @@ def build_crosswalk(doi: str, results: dict[str, SourceResult]) -> IdentifierCro
                 cw.handles.append(alt_id.replace("handle:", ""))
             elif alt_id.startswith("mag_id:"):
                 cw.mag_id = alt_id.replace("mag_id:", "")
+
+    # PII (Publisher Item Identifier) from Entrez
+    entrez = results.get(SourceName.ENTREZ.value)
+    if entrez and entrez.found:
+        if entrez.pii:
+            cw.pii = entrez.pii
+        if entrez.nlm_journal_id:
+            cw.nlm_unique_id = entrez.nlm_journal_id
+
+    # Collect all grant IDs from all sources
+    grant_ids: set[str] = set()
+    for r in results.values():
+        if not r.found:
+            continue
+        for grant in r.grants + r.nih_grants + r.openaire_projects:
+            if grant.grant_id:
+                grant_ids.add(grant.grant_id.strip())
+    cw.grant_ids = sorted(grant_ids)
+
+    # Also collect ORCIDs from Entrez investigators (consortium members)
+    if entrez and entrez.found:
+        for inv in entrez.investigators:
+            if inv.name.orcid:
+                orcids.add(inv.name.orcid)
+        cw.orcids = sorted(orcids)
+
+    # Collect NCT IDs from CrossRef clinical-trial-number
+    nct_ids: set[str] = set()
+    crossref = results.get(SourceName.CROSSREF.value)
+    if crossref and crossref.found:
+        for ctn in crossref.clinical_trial_numbers:
+            num = ctn.get("clinical-trial-number", "") if isinstance(ctn, dict) else str(ctn)
+            if num and num.upper().startswith("NCT"):
+                nct_ids.add(num.strip())
+    cw.nct_ids = sorted(nct_ids)
 
     return cw
