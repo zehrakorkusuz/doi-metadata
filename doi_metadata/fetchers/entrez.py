@@ -1,4 +1,28 @@
-"""Entrez/PubMed fetcher — authoritative PMID, MeSH, publication types, gene symbols, databank accessions."""
+"""Entrez/PubMed fetcher — comprehensive PubMed XML extraction.
+
+Extracts everything available from the PubmedArticle XML:
+- Authoritative PMID/PMCID/PII identifiers
+- Structured abstracts (labeled sections) + other-language abstracts
+- Publication types (controlled vocabulary: Clinical Trial, Review, etc.)
+- Full MeSH headings with descriptor/qualifier UIDs and major topic flags
+- Supplementary MeSH concepts (drugs, chemicals, organisms)
+- Authors with ORCIDs, affiliations, collective names
+- Investigators (consortium/collaborative group members)
+- Grants with agency, acronym, country
+- Gene symbols
+- Databank accession numbers (GenBank, ClinicalTrials.gov, PDB, GEO, etc.)
+- Chemicals/substances with NLM UIDs and registry numbers
+- Comments/corrections (ErratumFor, RetractionOf, CommentOn, etc.)
+- Article date history (received, accepted, revised, published)
+- Electronic publication date
+- Conflict of interest statement
+- Keywords with major topic flags
+- Personal name subjects (biography subjects)
+- MedlineJournalInfo (NLM ID, country, MedlineTA)
+- Publication status, citation subsets
+- Individual references with PMIDs/DOIs
+- ObjectList (related objects)
+"""
 
 from __future__ import annotations
 
@@ -13,6 +37,7 @@ from doi_metadata.models import (
     Grant,
     MeSHTerm,
     PersonName,
+    Reference,
     SourceName,
     SourceResult,
     Subject,
@@ -61,10 +86,66 @@ def _all_text(el: ET.Element, path: str) -> list[str]:
     return [n.text for n in el.findall(path) if n.text]
 
 
+def _parse_person(el: ET.Element, index: int) -> Author:
+    """Parse an Author or Investigator element into an Author model."""
+    orcid = None
+    for ident in el.findall("Identifier"):
+        if ident.get("Source") == "ORCID" and ident.text:
+            orcid_val = ident.text.strip()
+            if "/" in orcid_val:
+                orcid_val = orcid_val.rsplit("/", 1)[-1]
+            orcid = orcid_val
+
+    affiliations = []
+    for aff in el.findall("AffiliationInfo/Affiliation"):
+        if aff.text:
+            affiliations.append(Affiliation(name=aff.text, source=SOURCE))
+
+    given = _text(el, "ForeName")
+    family = _text(el, "LastName")
+    suffix = _text(el, "Suffix")
+    collective = _text(el, "CollectiveName")
+
+    # Build full_name: prefer collective name, else construct from parts
+    full_name = collective
+    if not full_name and given and family:
+        full_name = f"{given} {family}"
+        if suffix:
+            full_name += f" {suffix}"
+    elif not full_name and family:
+        # Fall back to initials + family if no given name
+        initials = _text(el, "Initials")
+        if initials:
+            full_name = f"{initials} {family}"
+
+    return Author(
+        name=PersonName(
+            given=given,
+            family=family,
+            full_name=full_name,
+            sequence="first" if index == 0 else "additional",
+            orcid=orcid,
+            source=SOURCE,
+        ),
+        affiliations=affiliations,
+        sources=[SOURCE],
+    )
+
+
+def _parse_date_element(el: ET.Element) -> str | None:
+    """Parse a PubMed date element (Year/Month/Day) into YYYY-MM-DD."""
+    year = _text(el, "Year")
+    if not year:
+        return None
+    month = _text(el, "Month") or "01"
+    day = _text(el, "Day") or "01"
+    return f"{year}-{month.zfill(2)}-{day.zfill(2)}"
+
+
 async def fetch_entrez(doi: str) -> SourceResult:
     result = SourceResult(source=SOURCE, doi=doi)
 
-    # Step 1: esearch — find PMID for this DOI
+    # ── Step 1: esearch — find PMID for this DOI ──
     search_params = {
         **_eutils_params(),
         "db": "pubmed",
@@ -91,7 +172,7 @@ async def fetch_entrez(doi: str) -> SourceResult:
 
     pmid = id_list[0]
 
-    # Step 2: efetch — get full PubMed XML record
+    # ── Step 2: efetch — get full PubMed XML record ──
     fetch_params = {
         **_eutils_params(),
         "db": "pubmed",
@@ -120,13 +201,20 @@ async def fetch_entrez(doi: str) -> SourceResult:
     # Store raw as a simple dict summary (XML doesn't map cleanly to raw dict)
     result.raw = {"pmid": pmid, "source_format": "pubmed_xml"}
 
-    # --- Basic metadata ---
+    # ══════════════════════════════════════════════════════════════════════
+    # ARTICLE METADATA
+    # ══════════════════════════════════════════════════════════════════════
+
+    # --- Title ---
     result.title = _text(article, "ArticleTitle")
     result.vernacular_title = _text(article, "VernacularTitle")
 
+    # --- Journal ---
     journal = article.find("Journal")
     if journal is not None:
-        result.container_title = _text(journal, "Title") or _text(journal, "ISOAbbreviation")
+        result.container_title = (
+            _text(journal, "Title") or _text(journal, "ISOAbbreviation")
+        )
         ji = journal.find("JournalIssue")
         if ji is not None:
             result.volume = _text(ji, "Volume")
@@ -146,21 +234,31 @@ async def fetch_entrez(doi: str) -> SourceResult:
                     if parts and parts[0].isdigit():
                         result.publication_year = int(parts[0])
 
-        issn_el = journal.find("ISSN")
-        if issn_el is not None and issn_el.text:
-            result.issn = [issn_el.text]
+        # ISSN (print and/or electronic)
+        issns = []
+        for issn_el in journal.findall("ISSN"):
+            if issn_el.text:
+                issns.append(issn_el.text)
+        if issns:
+            result.issn = issns
 
+    # --- Pagination & ELocationID ---
     result.pages = _text(article, "Pagination/MedlinePgn")
+    for eloc in article.findall("ELocationID"):
+        eid_type = eloc.get("EIdType")
+        if eid_type == "pii" and eloc.text:
+            result.pii = eloc.text
+        # DOI from ELocationID is redundant with input DOI
+
     result.language = _text(article, "Language")
 
-    # --- Abstract ---
+    # --- Abstract (structured) ---
     abstract_el = article.find("Abstract")
     if abstract_el is not None:
         parts = []
         structured: dict[str, str] = {}
         for at in abstract_el.findall("AbstractText"):
             label = at.get("Label")
-            # AbstractText can contain mixed content; get all text including tail of children
             text = "".join(at.itertext()).strip()
             if text:
                 parts.append(f"{label}: {text}" if label else text)
@@ -173,8 +271,9 @@ async def fetch_entrez(doi: str) -> SourceResult:
     # --- Publication types ---
     pub_type_list = article.find("PublicationTypeList")
     if pub_type_list is not None:
-        result.publication_types = [pt.text for pt in pub_type_list.findall("PublicationType") if pt.text]
-        # Map to work_type: pick the most specific
+        result.publication_types = [
+            pt.text for pt in pub_type_list.findall("PublicationType") if pt.text
+        ]
         pt_set = {pt.lower() for pt in result.publication_types}
         if "review" in pt_set:
             result.work_type = "review"
@@ -193,41 +292,50 @@ async def fetch_entrez(doi: str) -> SourceResult:
     author_list = article.find("AuthorList")
     if author_list is not None:
         for i, a in enumerate(author_list.findall("Author")):
-            orcid = None
-            for ident in a.findall("Identifier"):
-                if ident.get("Source") == "ORCID" and ident.text:
-                    # Normalize: may be full URL or just the ID
-                    orcid_val = ident.text.strip()
-                    if "/" in orcid_val:
-                        orcid_val = orcid_val.rsplit("/", 1)[-1]
-                    orcid = orcid_val
+            result.authors.append(_parse_person(a, i))
 
-            affiliations = []
-            for aff in a.findall("AffiliationInfo/Affiliation"):
-                if aff.text:
-                    affiliations.append(Affiliation(name=aff.text, source=SOURCE))
+    # --- ArticleDate (electronic publication date) ---
+    for article_date in article.findall("ArticleDate"):
+        if article_date.get("DateType") == "Electronic":
+            result.electronic_publication_date = _parse_date_element(article_date)
 
-            given = _text(a, "ForeName")
-            family = _text(a, "LastName")
-            collective = _text(a, "CollectiveName")
-
-            result.authors.append(
-                Author(
-                    name=PersonName(
-                        given=given,
-                        family=family,
-                        full_name=collective or (f"{given} {family}" if given and family else None),
-                        sequence="first" if i == 0 else "additional",
-                        orcid=orcid,
-                        source=SOURCE,
-                    ),
-                    affiliations=affiliations,
-                    sources=[SOURCE],
+    # --- Grants (with acronym and country) ---
+    grant_list = article.find("GrantList")
+    if grant_list is not None:
+        for g in grant_list.findall("Grant"):
+            result.grants.append(
+                Grant(
+                    grant_id=_text(g, "GrantID"),
+                    agency=_text(g, "Agency"),
+                    agency_abbreviation=_text(g, "Acronym"),
+                    jurisdiction=_text(g, "Country"),
+                    source=SOURCE,
                 )
             )
 
-    # --- MeSH headings ---
+    # --- Databank accession numbers ---
+    dbi_list = article.find("DataBankList")
+    if dbi_list is not None:
+        for db in dbi_list.findall("DataBank"):
+            db_name = _text(db, "DataBankName")
+            accessions = _all_text(db, "AccessionNumberList/AccessionNumber")
+            if db_name:
+                result.databank_accessions.append({
+                    "databank": db_name,
+                    "accession_numbers": accessions,
+                })
+
+    # --- Conflict of interest ---
+    coi = article.find("CoiStatement")
+    if coi is not None:
+        result.conflict_of_interest = "".join(coi.itertext()).strip() or None
+
+    # ══════════════════════════════════════════════════════════════════════
+    # MEDLINE CITATION METADATA
+    # ══════════════════════════════════════════════════════════════════════
+
     if medline is not None:
+        # --- MeSH headings ---
         mesh_list = medline.find("MeshHeadingList")
         if mesh_list is not None:
             for mh in mesh_list.findall("MeshHeading"):
@@ -254,94 +362,208 @@ async def fetch_entrez(doi: str) -> SourceResult:
                                 )
                             )
 
-        # --- Keywords ---
+        # --- Supplementary MeSH concepts (drugs, diseases, organisms) ---
+        suppl_mesh = medline.find("SupplMeshList")
+        if suppl_mesh is not None:
+            for sm in suppl_mesh.findall("SupplMeshName"):
+                if sm.text:
+                    result.supplementary_mesh.append({
+                        "name": sm.text,
+                        "type": sm.get("Type", ""),  # Disease, Protocol, Organism
+                        "ui": sm.get("UI", ""),
+                    })
+
+        # --- Keywords (with major topic tracking) ---
         for kw_list in medline.findall("KeywordList"):
             for kw in kw_list.findall("Keyword"):
                 if kw.text:
                     result.keywords.append(kw.text)
+                    if kw.get("MajorTopicYN") == "Y":
+                        result.major_topic_keywords.append(kw.text)
 
         # --- Chemicals / substances ---
         chem_list = medline.find("ChemicalList")
         if chem_list is not None:
-            result.chemicals = [
-                {
+            result.chemicals = []
+            for c in chem_list.findall("Chemical"):
+                nos = c.find("NameOfSubstance")
+                result.chemicals.append({
                     "name": _text(c, "NameOfSubstance") or "",
                     "registry_number": _text(c, "RegistryNumber") or "",
-                    "substance_ui": (
-                        c.find("NameOfSubstance").get("UI", "")
-                        if c.find("NameOfSubstance") is not None
-                        else ""
-                    ),
-                }
-                for c in chem_list.findall("Chemical")
-            ]
+                    "substance_ui": nos.get("UI", "") if nos is not None else "",
+                })
 
         # --- Gene symbols ---
         gene_list = medline.find("GeneSymbolList")
         if gene_list is not None:
-            result.gene_symbols = [gs.text for gs in gene_list.findall("GeneSymbol") if gs.text]
+            result.gene_symbols = [
+                gs.text for gs in gene_list.findall("GeneSymbol") if gs.text
+            ]
 
-    # --- Grants ---
-    grant_list = article.find("GrantList")
-    if grant_list is not None:
-        for g in grant_list.findall("Grant"):
-            result.grants.append(
-                Grant(
-                    grant_id=_text(g, "GrantID"),
-                    agency=_text(g, "Agency"),
-                    source=SOURCE,
-                )
-            )
+        # --- Comments/Corrections (retractions, errata, comments) ---
+        cc_list = medline.find("CommentsCorrectionsList")
+        if cc_list is not None:
+            for cc in cc_list.findall("CommentsCorrections"):
+                entry: dict[str, str] = {
+                    "ref_type": cc.get("RefType", ""),
+                }
+                ref_source = _text(cc, "RefSource")
+                if ref_source:
+                    entry["ref_source"] = ref_source
+                cc_pmid = _text(cc, "PMID")
+                if cc_pmid:
+                    entry["pmid"] = cc_pmid
+                note = _text(cc, "Note")
+                if note:
+                    entry["note"] = note
+                result.comment_corrections.append(entry)
 
-    # --- Databank accession numbers ---
-    dbi_list = article.find("DataBankList")
-    if dbi_list is not None:
-        for db in dbi_list.findall("DataBank"):
-            db_name = _text(db, "DataBankName")
-            accessions = _all_text(db, "AccessionNumberList/AccessionNumber")
-            if db_name:
-                result.databank_accessions.append({
-                    "databank": db_name,
-                    "accession_numbers": accessions,
+        # --- Investigators (consortium/collaborative group members) ---
+        investigator_list = medline.find("InvestigatorList")
+        if investigator_list is not None:
+            for i, inv in enumerate(investigator_list.findall("Investigator")):
+                result.investigators.append(_parse_person(inv, i))
+
+        # --- Other abstracts (translated abstracts) ---
+        for other_abs in medline.findall("OtherAbstract"):
+            abs_type = other_abs.get("Type", "")
+            abs_lang = other_abs.get("Language", "")
+            parts = []
+            for at in other_abs.findall("AbstractText"):
+                label = at.get("Label")
+                text = "".join(at.itertext()).strip()
+                if text:
+                    parts.append(f"{label}: {text}" if label else text)
+            if parts:
+                result.other_abstracts.append({
+                    "type": abs_type,
+                    "language": abs_lang,
+                    "text": "\n".join(parts),
                 })
 
-    # --- Article IDs (DOI, PMC, PII, etc.) ---
+        # --- MedlineJournalInfo ---
+        mji = medline.find("MedlineJournalInfo")
+        if mji is not None:
+            result.country_of_publication = _text(mji, "Country")
+            result.nlm_journal_id = _text(mji, "NlmUniqueID")
+            result.medline_ta = _text(mji, "MedlineTA")
+            # ISSNLinking: add to ISSN list if not already there
+            linking_issn = _text(mji, "ISSNLinking")
+            if linking_issn and linking_issn not in result.issn:
+                result.issn.append(linking_issn)
+
+        # --- Citation subsets ---
+        for cs in medline.findall("CitationSubset"):
+            if cs.text:
+                result.citation_subsets.append(cs.text)
+
+        # --- Personal name subjects (biographies) ---
+        pns_list = medline.find("PersonalNameSubjectList")
+        if pns_list is not None:
+            for pns in pns_list.findall("PersonalNameSubject"):
+                entry = {}
+                given = _text(pns, "ForeName")
+                family = _text(pns, "LastName")
+                if given:
+                    entry["given"] = given
+                if family:
+                    entry["family"] = family
+                initials = _text(pns, "Initials")
+                if initials:
+                    entry["initials"] = initials
+                suffix = _text(pns, "Suffix")
+                if suffix:
+                    entry["suffix"] = suffix
+                if entry:
+                    result.personal_name_subjects.append(entry)
+
+    # ══════════════════════════════════════════════════════════════════════
+    # PUBMED DATA
+    # ══════════════════════════════════════════════════════════════════════
+
     if pubmed_data is not None:
+        # --- Article IDs (DOI, PMC, PII, MID, etc.) ---
         for aid in pubmed_data.findall("ArticleIdList/ArticleId"):
             id_type = aid.get("IdType")
             if id_type == "pmc" and aid.text:
                 result.pmcid = aid.text
-            elif id_type == "doi" and aid.text:
-                # Confirm DOI matches
-                pass
+            elif id_type == "pii" and aid.text and not result.pii:
+                result.pii = aid.text
+            elif id_type == "mid" and aid.text:
+                # Manuscript ID (NIH Manuscript Submission System)
+                result.raw["mid"] = aid.text
 
-        # --- Article dates ---
+        # --- Publication status ---
+        pub_status = _text(pubmed_data, "PublicationStatus")
+        if pub_status:
+            result.publication_status = pub_status
+
+        # --- Article date history ---
         history = pubmed_data.find("History")
         if history is not None:
             for pd in history.findall("PubMedPubDate"):
                 status = pd.get("PubStatus")
-                year = _text(pd, "Year")
-                month = _text(pd, "Month") or "01"
-                day = _text(pd, "Day") or "01"
-                if status and year:
-                    result.article_dates[status] = f"{year}-{month.zfill(2)}-{day.zfill(2)}"
+                date_str = _parse_date_element(pd)
+                if status and date_str:
+                    result.article_dates[status] = date_str
 
-        # --- Reference count ---
+        # --- References (individual, with PMIDs and DOIs) ---
         ref_list = pubmed_data.find("ReferenceList")
         if ref_list is not None:
             refs = ref_list.findall("Reference")
             result.reference_count = len(refs)
+            for ref_el in refs:
+                citation_text = _text(ref_el, "Citation")
+                ref_doi = None
+                ref_pmid = None
+                for aid in ref_el.findall("ArticleIdList/ArticleId"):
+                    id_type = aid.get("IdType")
+                    if id_type == "doi" and aid.text:
+                        ref_doi = aid.text
+                    elif id_type == "pubmed" and aid.text:
+                        ref_pmid = aid.text
+                result.references.append(
+                    Reference(
+                        doi=ref_doi,
+                        pmid=ref_pmid,
+                        unstructured=citation_text,
+                        source=SOURCE,
+                    )
+                )
 
-    # --- Conflict of interest ---
-    coi = article.find("CoiStatement")
-    if coi is not None:
-        result.conflict_of_interest = "".join(coi.itertext()).strip() or None
+        # --- ObjectList (related objects) ---
+        obj_list = pubmed_data.find("ObjectList")
+        if obj_list is not None:
+            for obj in obj_list.findall("Object"):
+                obj_entry: dict[str, str] = {
+                    "type": obj.get("Type", ""),
+                }
+                for param in obj.findall("Param"):
+                    param_name = param.get("Name", "")
+                    if param.text:
+                        obj_entry[param_name] = param.text
+                result.objects.append(obj_entry)
 
-    # --- Subjects from MeSH (also add as Subject for topic profile) ---
+    # ══════════════════════════════════════════════════════════════════════
+    # DERIVED FIELDS
+    # ══════════════════════════════════════════════════════════════════════
+
+    # --- Subjects from MeSH (feed into topic profile analysis) ---
     for mt in result.mesh_terms:
-        if mt.qualifier_name is None:  # Only descriptors, not qualifier variants
+        if mt.qualifier_name is None:
             result.subjects.append(
                 Subject(value=mt.descriptor_name, scheme="MeSH", source=SOURCE)
+            )
+
+    # --- Supplementary MeSH as subjects too ---
+    for sm in result.supplementary_mesh:
+        if sm.get("name"):
+            result.subjects.append(
+                Subject(
+                    value=sm["name"],
+                    scheme=f"SupplMeSH-{sm.get('type', 'Unknown')}",
+                    source=SOURCE,
+                )
             )
 
     return result

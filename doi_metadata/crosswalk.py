@@ -93,4 +93,29 @@ def build_crosswalk(doi: str, results: dict[str, SourceResult]) -> IdentifierCro
             elif alt_id.startswith("mag_id:"):
                 cw.mag_id = alt_id.replace("mag_id:", "")
 
+    # PII (Publisher Item Identifier) from Entrez
+    entrez = results.get(SourceName.ENTREZ.value)
+    if entrez and entrez.found:
+        if entrez.pii:
+            cw.pii = entrez.pii
+        if entrez.nlm_journal_id:
+            cw.nlm_unique_id = entrez.nlm_journal_id
+
+    # Collect all grant IDs from all sources
+    grant_ids: set[str] = set()
+    for r in results.values():
+        if not r.found:
+            continue
+        for grant in r.grants + r.nih_grants + r.openaire_projects:
+            if grant.grant_id:
+                grant_ids.add(grant.grant_id.strip())
+    cw.grant_ids = sorted(grant_ids)
+
+    # Also collect ORCIDs from Entrez investigators (consortium members)
+    if entrez and entrez.found:
+        for inv in entrez.investigators:
+            if inv.name.orcid:
+                orcids.add(inv.name.orcid)
+        cw.orcids = sorted(orcids)
+
     return cw

@@ -83,9 +83,12 @@ class IdentifierCrosswalk(BaseModel):
     concept_doi: str | None = None
     concept_recid: str | None = None
     dblp_id: str | None = None
+    pii: str | None = None  # Publisher Item Identifier (from Entrez ArticleIdList)
+    nlm_unique_id: str | None = None  # NLM journal catalog ID (from Entrez MedlineJournalInfo)
     handles: list[str] = Field(default_factory=list)
     orcids: list[str] = Field(default_factory=list)
     ror_ids: list[str] = Field(default_factory=list)
+    grant_ids: list[str] = Field(default_factory=list)  # All unique grant IDs across sources
     # Track which source provided which ID
     pmid_source: SourceName | None = None
     pmcid_source: SourceName | None = None
@@ -173,6 +176,7 @@ class License(BaseModel):
 class Reference(BaseModel):
     """An outbound reference (work this DOI cites)."""
     doi: str | None = None
+    pmid: str | None = None  # From Entrez ReferenceList
     title: str | None = None
     year: int | None = None
     author: str | None = None
@@ -394,13 +398,27 @@ class SourceResult(BaseModel):
     communities: list[str] = Field(default_factory=list)
 
     # Entrez/PubMed-specific
-    publication_types: list[str] = Field(default_factory=list)
+    publication_types: list[str] = Field(default_factory=list)  # Journal Article, Clinical Trial, Review, etc.
     gene_symbols: list[str] = Field(default_factory=list)
     databank_accessions: list[dict[str, Any]] = Field(default_factory=list)  # {databank, accession_numbers}
     conflict_of_interest: str | None = None
-    article_dates: dict[str, str] = Field(default_factory=dict)  # received, accepted, published, revised
+    article_dates: dict[str, str] = Field(default_factory=dict)  # received, accepted, published, revised, etc.
     structured_abstract: dict[str, str] = Field(default_factory=dict)  # label → text
     vernacular_title: str | None = None  # title in original non-English language
+    comment_corrections: list[dict[str, str]] = Field(default_factory=list)  # {ref_type, ref_source, pmid, note}
+    supplementary_mesh: list[dict[str, str]] = Field(default_factory=list)  # {name, type, ui}
+    investigators: list[Author] = Field(default_factory=list)  # consortium/collaborative group members
+    other_abstracts: list[dict[str, str]] = Field(default_factory=list)  # {type, language, text}
+    publication_status: str | None = None  # epublish, ppublish, aheadofprint
+    country_of_publication: str | None = None
+    nlm_journal_id: str | None = None  # NLM unique journal catalog ID
+    medline_ta: str | None = None  # MedlineTA abbreviation
+    citation_subsets: list[str] = Field(default_factory=list)  # IM, AIM, etc.
+    pii: str | None = None  # Publisher Item Identifier
+    electronic_publication_date: str | None = None  # ArticleDate[@DateType='Electronic']
+    major_topic_keywords: list[str] = Field(default_factory=list)  # Keywords with MajorTopicYN=Y
+    personal_name_subjects: list[dict[str, str]] = Field(default_factory=list)  # biography subjects
+    objects: list[dict[str, str]] = Field(default_factory=list)  # related objects from ObjectList
 
 
 # ---------------------------------------------------------------------------
