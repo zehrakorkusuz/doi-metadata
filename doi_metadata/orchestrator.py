@@ -87,6 +87,19 @@ async def lookup(doi: str, *, include_raw: bool = False, follow_links: bool = Tr
     aggregated.analyses = _run_analyses(aggregated)
     logger.info("  Analyses complete: %s", ", ".join(aggregated.analyses.model_fields.keys()))
 
+    # Phase 5: Comprehensive discrepancy report
+    logger.info("Phase 5: Building cross-source discrepancy report...")
+    from doi_metadata.reconciliation.discrepancy_report import build_discrepancy_report
+    try:
+        dr = build_discrepancy_report(aggregated)
+        aggregated.discrepancy_report = dr.model_dump(exclude_none=True)
+        logger.info("  %d discrepancies (%d high, %d medium, %d low risk)",
+                     dr.total_discrepancies, dr.high_risk_count,
+                     dr.medium_risk_count, dr.low_risk_count)
+    except Exception as e:
+        logger.warning("Discrepancy report failed: %s", e)
+        aggregated.discrepancy_report = {"error": str(e)}
+
     return aggregated
 
 

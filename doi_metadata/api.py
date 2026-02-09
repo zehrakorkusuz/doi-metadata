@@ -64,6 +64,25 @@ async def lookup_doi(
     return result
 
 
+@app.get(
+    "/v1/discrepancies/{doi:path}",
+    summary="Get cross-source discrepancy report for a DOI",
+    description=(
+        "Returns a comprehensive discrepancy report showing where sources disagree "
+        "on citations, OA status, authors, funding, references, and more."
+    ),
+)
+async def discrepancies(
+    doi: str,
+    follow_links: Annotated[bool, Query(description="Follow discovered links (Phase 3)")] = True,
+) -> dict:
+    """Cross-source discrepancy report for a DOI."""
+    from doi_metadata.orchestrator import lookup
+
+    result = await lookup(doi, include_raw=False, follow_links=follow_links)
+    return result.discrepancy_report or {"error": "Discrepancy report not generated"}
+
+
 @app.exception_handler(Exception)
 async def global_exception_handler(request, exc: Exception) -> JSONResponse:
     logger.exception("Unhandled error: %s", exc)
