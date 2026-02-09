@@ -1200,6 +1200,177 @@ Solr/Lucene syntax: `q=family-name:Einstein+AND+keyword:Relativity`
 
 ---
 
+## 12. Europe PMC Annotations (Phase 3)
+
+### Call Pattern
+```
+GET https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=PMC:{pmcid}&format=JSON
+```
+
+**Auth:** None required.
+
+**Prerequisite:** Requires a PMCID — obtained from the Phase 2 crosswalk (Europe PMC, OpenAlex, or OpenAIRE typically provide it).
+
+**API docs:** https://europepmc.org/AnnotationsApi
+
+### Response Structure
+```json
+[
+  {
+    "source": "PMC",
+    "pmcid": "PMC7116644",
+    "annotations": [
+      {
+        "type": "Gene_Proteins",
+        "exact": "BRCA1",
+        "prefix": "mutations in ",
+        "postfix": " are linked to",
+        "section": "Abstract",
+        "tags": [
+          {"name": "BRCA1", "uri": "https://identifiers.org/uniprot:P38398"}
+        ],
+        "provider": "Europe PMC"
+      }
+    ]
+  }
+]
+```
+
+### Annotation Types
+| Type | Description | Tag URI Scheme |
+|------|-------------|----------------|
+| `Gene_Proteins` | Gene and protein mentions | UniProt, Ensembl |
+| `Diseases` | Disease names and variants | EFO, MONDO |
+| `Organisms` | Species and taxonomic names | NCBI Taxonomy |
+| `Chemicals` | Chemical compound names | ChEBI |
+| `GO_Terms` | Gene Ontology terms | GO |
+| `Accession_Numbers` | Database accession numbers | Various (GenBank, PDB, etc.) |
+
+### Annotation Object
+| Key | Type | Notes |
+|-----|------|-------|
+| `type` | String | One of the annotation types above |
+| `exact` | String | The exact text matched in the article |
+| `prefix` | String | Text before the match (context) |
+| `postfix` | String | Text after the match (context) |
+| `section` | String | Where in the article: `Title`, `Abstract`, `Body`, `References` |
+| `tags` | [Object] | `{name, uri}` — linked identifiers for the entity |
+| `provider` | String | Usually `"Europe PMC"` |
+
+### Unique Data
+- **Text-mined gene/protein mentions** with UniProt/Ensembl links
+- **Disease mentions** with ontology URIs (EFO, MONDO)
+- **Organism mentions** with NCBI Taxonomy links
+- **Chemical mentions** with ChEBI identifiers
+- **GO term annotations** from full text
+- **Section-level context** — know if an entity appears in title, abstract, or body
+- Coverage: any article with a PMCID (full text in Europe PMC)
+
+### Connection to Base Europe PMC Fetcher
+The base `europe_pmc.py` fetcher (Phase 1) returns structured metadata: grants, MeSH headings, chemicals list, and text-mined accession _types_. This annotations endpoint provides the actual text-mined _entity instances_ with their positions and ontology links — a much richer view of what the paper discusses.
+
+---
+
+## 13. ClinicalTrials.gov (Phase 3)
+
+### Call Pattern
+```
+GET https://clinicaltrials.gov/api/v2/studies/{nct_id}
+```
+
+**Auth:** None required.
+
+**Prerequisite:** Requires NCT IDs — obtained from CrossRef's `clinical-trial-number` field in Phase 1.
+
+**API docs:** https://clinicaltrials.gov/data-api/api
+
+### Response Structure (v2 API)
+```json
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02793414",
+      "briefTitle": "Study of Drug X in Advanced Cancer",
+      "officialTitle": "A Phase 3, Randomized Study of Drug X vs Placebo..."
+    },
+    "statusModule": {
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {"date": "2016-06-01"},
+      "completionDateStruct": {"date": "2020-12-31"},
+      "primaryCompletionDateStruct": {"date": "2020-06-30"}
+    },
+    "descriptionModule": {
+      "briefSummary": "This study evaluates Drug X in patients..."
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": ["PHASE3"],
+      "enrollmentInfo": {"count": 500}
+    },
+    "conditionsModule": {
+      "conditions": ["Advanced Cancer", "Solid Tumors"]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {"type": "DRUG", "name": "Drug X", "description": "Experimental drug"},
+        {"type": "DRUG", "name": "Placebo", "description": "Placebo comparator"}
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {"name": "Pharma Corp"},
+      "collaborators": [{"name": "National Cancer Institute"}]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {"measure": "Overall Survival", "timeFrame": "Up to 5 years"}
+      ],
+      "secondaryOutcomes": [
+        {"measure": "Progression Free Survival", "timeFrame": "Up to 3 years"}
+      ]
+    }
+  }
+}
+```
+
+### Key Modules
+| Module | Key Fields | Notes |
+|--------|------------|-------|
+| `identificationModule` | `nctId`, `briefTitle`, `officialTitle` | Trial identity |
+| `statusModule` | `overallStatus`, `startDateStruct`, `completionDateStruct` | Status: RECRUITING, COMPLETED, TERMINATED, etc. |
+| `descriptionModule` | `briefSummary`, `detailedDescription` | Protocol description |
+| `designModule` | `studyType`, `phases`, `enrollmentInfo` | INTERVENTIONAL/OBSERVATIONAL, phase, enrollment count |
+| `conditionsModule` | `conditions[]` | Medical conditions studied |
+| `armsInterventionsModule` | `interventions[]` | `{type, name, description}` — DRUG, PROCEDURE, DEVICE, etc. |
+| `sponsorCollaboratorsModule` | `leadSponsor`, `collaborators[]` | Study sponsor and partners |
+| `outcomesModule` | `primaryOutcomes[]`, `secondaryOutcomes[]` | `{measure, timeFrame}` |
+| `eligibilityModule` | `minimumAge`, `maximumAge`, `sex`, `stdAge[]` | Enrollment criteria |
+
+### Study Status Values
+`NOT_YET_RECRUITING`, `RECRUITING`, `ENROLLING_BY_INVITATION`, `ACTIVE_NOT_RECRUITING`, `COMPLETED`, `SUSPENDED`, `TERMINATED`, `WITHDRAWN`
+
+### Phase Values
+`EARLY_PHASE1`, `PHASE1`, `PHASE2`, `PHASE3`, `PHASE4`, `NA`
+
+### Study Type Values
+`INTERVENTIONAL`, `OBSERVATIONAL`, `EXPANDED_ACCESS`
+
+### Connection Strategy
+1. CrossRef returns `clinical-trial-number` field with NCT IDs
+2. After Phase 1 + crosswalk, collect all NCT IDs
+3. Fetch each from ClinicalTrials.gov v2 API
+4. Result: full trial protocol linked to the publication
+
+### Unique Data
+- **Full trial protocol** — conditions, interventions, arms, outcomes
+- **Sponsor and collaborator** information
+- **Enrollment data** — participant counts, eligibility criteria
+- **Trial status** — whether recruiting, completed, terminated
+- **Phase information** — Phase 1-4
+- **Outcome measures** — primary and secondary endpoints with time frames
+- Bridges the gap between clinical research publications and trial registrations
+
+---
+
 ## Cross-Source Conflict Matrix
 
 This table shows where the same data exists in multiple sources and may conflict:
@@ -1228,9 +1399,11 @@ This table shows where the same data exists in multiple sources and may conflict
 | **NIH Reporter** | NIH award linkages, activity codes, relative citation ratio |
 | **Unpaywall** | Per-location OA version tracking, evidence/discovery method, DOAJ membership |
 | **Europe PMC** | MeSH headings, chemicals, text-mined accessions, corrections/errata |
+| **Europe PMC Annotations** | Text-mined gene/protein, disease, organism, chemical, GO term mentions with ontology URIs |
 | **Zenodo** | Files with checksums, download stats, community membership |
 | **Dryad** | Dataset methods, usage notes, ROR-linked author affiliations |
 | **ORCID** | Author employment/education history, peer reviews, funding records |
 | **OpenAlex** | FWCI, concept hierarchy, citation percentiles, abstract inverted index |
 | **DataCite** | Full version chains, geolocations, resource type taxonomy |
 | **CrossRef** | Crossmark assertions, update-to (corrections), clinical trial numbers |
+| **ClinicalTrials.gov** | Full trial protocol, conditions, interventions, sponsors, outcomes, enrollment |

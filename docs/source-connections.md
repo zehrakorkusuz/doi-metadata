@@ -17,7 +17,14 @@ CrossRef works/{doi}
  ├─ reference[].DOI             → outbound citation DOIs (sparse)
  ├─ ISSN / issn-type            → journal identity
  ├─ alternative-id              → publisher-assigned IDs
- └─ clinical-trial-number       → clinical trial registries
+ └─ clinical-trial-number       → NCT IDs → ClinicalTrials.gov API (Phase 3)
+
+ClinicalTrials.gov api/v2/studies/{nct_id}
+ └─ protocolSection              → full trial protocol
+     ├─ conditionsModule         → diseases/conditions studied
+     ├─ armsInterventionsModule  → drugs, procedures, devices
+     ├─ sponsorCollaboratorsModule → sponsor, collaborating institutions
+     └─ outcomesModule           → primary/secondary outcome measures
 
 DataCite dois/{doi}
  ├─ relatedIdentifiers[]        → OTHER DOIs (articles, software, versions)
@@ -62,12 +69,20 @@ Unpaywall v2/{doi}
 Europe PMC search?query=DOI:{doi}
  ├─ pmid                        → PubMed ID
  ├─ pmcid                       → PMC ID (e.g. "PMC7116644")
+ │                                 → Europe PMC Annotations API (Phase 3)
  ├─ grantsList[].grantId        → grant identifiers → NIH Reporter
  ├─ grantsList[].agency         → funding agency name
  ├─ authorList[].authorId       → {type: "ORCID", value: "0000-..."}
  ├─ chemicalList                → registry numbers
  ├─ tmAccessionTypeList         → text-mined accession types (GenBank, PDB)
  └─ commentCorrectionList       → linked corrections/errata DOIs
+
+Europe PMC Annotations annotationsByArticleIds?articleIds=PMC:{pmcid}
+ └─ annotations[]               → text-mined entities from full text
+     ├─ type                    → Gene_Proteins, Diseases, Organisms, Chemicals, GO_Terms
+     ├─ exact                   → matched text
+     ├─ section                 → Title, Abstract, Body
+     └─ tags[].{name, uri}     → ontology links (UniProt, EFO, NCBI Taxonomy, ChEBI, GO)
 
 OpenAIRE researchProducts?search={doi}
  ├─ pids[]                      → DOI, PMID, arXiv, Handle
@@ -126,6 +141,7 @@ class IdentifierCrosswalk:
     handles: list[str] = []           # from OpenAIRE, DataCite
     orcids: set[str] = set()          # union from ALL sources
     ror_ids: set[str] = set()         # from OpenAlex, DataCite, Dryad
+    nct_ids: list[str] = []           # from CrossRef clinical-trial-number → ClinicalTrials.gov
     grant_ids: list[GrantId] = []     # from NIH, Europe PMC, OpenAIRE, CrossRef, Zenodo, Dryad
     related_dois: list[RelatedDOI] = []  # from DataCite, Dryad, Zenodo, CrossRef refs
     registration_agency: str = ""     # "crossref" or "datacite"
@@ -261,7 +277,44 @@ OpenAIRE related_software:
 
 No other source provides this. OpenAIRE harvests GitHub-Zenodo integration and text-mining.
 
-### Pattern 8: Version Chain Resolution
+### Pattern 8: Medical Paper Enrichment (Phase 3 — New Sources)
+
+**Europe PMC Annotations + ClinicalTrials.gov bridge clinical research to structured entities.**
+
+```
+Input: article DOI (medical paper)
+ ↓
+Phase 1: CrossRef → clinical-trial-number = ["NCT02793414"]
+         Europe PMC → pmcid = "PMC7116644", MeSH terms, grants
+ ↓
+Phase 2: Crosswalk → pmcid = "PMC7116644", nct_ids = ["NCT02793414"]
+ ↓
+Phase 3:
+  Europe PMC Annotations API (via PMCID):
+    → Gene_Proteins: ["BRCA1", "TP53", "HER2"]  (with UniProt URIs)
+    → Diseases: ["breast cancer", "triple-negative"]  (with EFO URIs)
+    → Organisms: ["Homo sapiens"]  (with NCBI Taxonomy)
+    → Chemicals: ["doxorubicin", "paclitaxel"]  (with ChEBI IDs)
+    → GO_Terms: ["apoptotic process"]  (with GO URIs)
+
+  ClinicalTrials.gov (via NCT IDs):
+    → NCT02793414:
+       Status: COMPLETED
+       Phase: PHASE3
+       Conditions: ["Advanced Cancer", "Solid Tumors"]
+       Interventions: [{type: "DRUG", name: "Drug X"}]
+       Sponsor: "Pharma Corp"
+       Primary Outcome: "Overall Survival (5 years)"
+       Enrollment: 500 participants
+```
+
+**Key insights:**
+- Europe PMC Annotations requires a PMCID (not DOI) → depends on crosswalk
+- ClinicalTrials.gov requires NCT IDs → depends on CrossRef clinical-trial-number
+- Both are Phase 3 fetchers: they enrich with data unavailable from the DOI alone
+- Together they bridge from: DOI → clinical trial registration → biomedical entities
+
+### Pattern 9: Version Chain Resolution
 
 ```
 Input: Zenodo version DOI (e.g. 10.5281/zenodo.3509134)
@@ -334,6 +387,16 @@ for grant in crosswalk.grant_ids:
 # DataCite reverse search: find datasets that reference this DOI
 datacite_reuse = await search_datacite_reverse(doi)
 # This is how ENCODE→1158 datasets, TCGA→327, GTEx→927 were found
+
+# Europe PMC Annotations: text-mined entities from full text (if PMCID available)
+if crosswalk.pmcid:
+    annotations = await fetch_europe_pmc_annotations(crosswalk.pmcid)
+    # → diseases, genes/proteins, organisms, chemicals, GO terms with ontology URIs
+
+# ClinicalTrials.gov: trial details (if NCT IDs found in CrossRef)
+if crosswalk.nct_ids:
+    trials = await fetch_clinical_trials(crosswalk.nct_ids)
+    # → conditions, interventions, sponsors, outcomes, enrollment
 ```
 
 ### Phase 4: Reconcile and Output

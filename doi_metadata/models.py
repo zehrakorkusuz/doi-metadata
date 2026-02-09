@@ -20,11 +20,13 @@ class SourceName(str, Enum):
     SEMANTIC_SCHOLAR = "semantic_scholar"
     UNPAYWALL = "unpaywall"
     EUROPE_PMC = "europe_pmc"
+    EUROPE_PMC_ANNOTATIONS = "europe_pmc_annotations"
     OPENAIRE = "openaire"
     NIH_REPORTER = "nih_reporter"
     ZENODO = "zenodo"
     DRYAD = "dryad"
     ORCID = "orcid"
+    CLINICAL_TRIALS = "clinical_trials"
 
 
 class OAStatus(str, Enum):
@@ -86,6 +88,7 @@ class IdentifierCrosswalk(BaseModel):
     handles: list[str] = Field(default_factory=list)
     orcids: list[str] = Field(default_factory=list)
     ror_ids: list[str] = Field(default_factory=list)
+    nct_ids: list[str] = Field(default_factory=list)
     # Track which source provided which ID
     pmid_source: SourceName | None = None
     pmcid_source: SourceName | None = None
@@ -263,6 +266,38 @@ class Subject(BaseModel):
     source: SourceName | None = None
 
 
+class TextMinedAnnotation(BaseModel):
+    """A text-mined annotation from Europe PMC Annotations API."""
+    annotation_type: str  # Gene_Proteins, Diseases, Organisms, Chemicals, GO_Terms, Accession_Numbers
+    exact_text: str | None = None
+    prefix: str | None = None
+    postfix: str | None = None
+    section: str | None = None  # Title, Abstract, Body, etc.
+    tags: list[dict[str, str]] = Field(default_factory=list)  # [{name, uri}]
+    provider: str | None = None  # e.g. "Europe PMC"
+    source: SourceName | None = None
+
+
+class ClinicalTrial(BaseModel):
+    """A clinical trial study from ClinicalTrials.gov."""
+    nct_id: str
+    title: str | None = None
+    brief_summary: str | None = None
+    overall_status: str | None = None  # RECRUITING, COMPLETED, etc.
+    phase: str | None = None  # PHASE1, PHASE2, PHASE3, PHASE4, NA
+    study_type: str | None = None  # INTERVENTIONAL, OBSERVATIONAL
+    conditions: list[str] = Field(default_factory=list)
+    interventions: list[dict[str, str]] = Field(default_factory=list)  # [{type, name}]
+    sponsor: str | None = None
+    collaborators: list[str] = Field(default_factory=list)
+    enrollment: int | None = None
+    start_date: str | None = None
+    completion_date: str | None = None
+    primary_outcomes: list[dict[str, str]] = Field(default_factory=list)  # [{measure, timeFrame}]
+    secondary_outcomes: list[dict[str, str]] = Field(default_factory=list)
+    source: SourceName | None = None
+
+
 class ImpactIndicator(BaseModel):
     """An impact/citation metric."""
     name: str  # cited_by_count, fwci, relative_citation_ratio, etc.
@@ -392,6 +427,13 @@ class SourceResult(BaseModel):
 
     # Zenodo-specific
     communities: list[str] = Field(default_factory=list)
+
+    # Europe PMC Annotations-specific
+    annotations: list[TextMinedAnnotation] = Field(default_factory=list)
+
+    # ClinicalTrials.gov-specific
+    clinical_trials: list[ClinicalTrial] = Field(default_factory=list)
+    nct_ids: list[str] = Field(default_factory=list)
 
 
 # ---------------------------------------------------------------------------
