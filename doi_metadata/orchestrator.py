@@ -9,6 +9,8 @@ from datetime import datetime, timezone
 from doi_metadata.crosswalk import build_crosswalk
 from doi_metadata.fetchers import ALL_FETCHERS
 from doi_metadata.fetchers.base import close_client, fetch_json
+from doi_metadata.fetchers.clinical_trials import fetch_clinical_trials
+from doi_metadata.fetchers.europe_pmc_annotations import fetch_europe_pmc_annotations
 from doi_metadata.models import (
     AggregatedResult,
     AnalysesResult,
@@ -63,6 +65,29 @@ async def lookup(doi: str, *, include_raw: bool = False, follow_links: bool = Tr
         datacite_linked_datasets = await _datacite_reverse_search(doi)
         if datacite_linked_datasets:
             logger.info("  DataCite reverse search: %d linked datasets", len(datacite_linked_datasets))
+
+        # Europe PMC Annotations: fetch text-mined entities if we have a PMCID
+        if crosswalk.pmcid:
+            logger.info("  Fetching Europe PMC annotations for %s...", crosswalk.pmcid)
+            ann_result = await fetch_europe_pmc_annotations(crosswalk.pmcid)
+            if ann_result.found:
+                ann_result.doi = doi
+                if not include_raw:
+                    ann_result.raw = {}
+                results[ann_result.source.value] = ann_result
+                logger.info("  Europe PMC annotations: %d entities", len(ann_result.annotations))
+
+        # ClinicalTrials.gov: fetch trial details if NCT IDs were discovered
+        nct_ids = _collect_nct_ids(results)
+        if nct_ids:
+            logger.info("  Fetching ClinicalTrials.gov data for %d NCT IDs...", len(nct_ids))
+            ct_result = await fetch_clinical_trials(nct_ids)
+            if ct_result.found:
+                ct_result.doi = doi
+                if not include_raw:
+                    ct_result.raw = {}
+                results[ct_result.source.value] = ct_result
+                logger.info("  ClinicalTrials.gov: %d trials fetched", len(ct_result.clinical_trials))
 
     # Reconcile conflicts
     logger.info("Reconciling conflicts...")
@@ -119,6 +144,21 @@ def _run_analyses(result: AggregatedResult) -> AnalysesResult:
             data[name] = {"error": str(e)}
 
     return AnalysesResult(**data)
+
+
+def _collect_nct_ids(results: dict[str, SourceResult]) -> list[str]:
+    """Collect NCT IDs from CrossRef clinical-trial-number and other sources."""
+    nct_ids: set[str] = set()
+
+    # CrossRef: clinical-trial-number field
+    crossref = results.get(SourceName.CROSSREF.value)
+    if crossref and crossref.found:
+        for ctn in crossref.clinical_trial_numbers:
+            num = ctn.get("clinical-trial-number", "") if isinstance(ctn, dict) else str(ctn)
+            if num and num.upper().startswith("NCT"):
+                nct_ids.add(num.strip())
+
+    return sorted(nct_ids)
 
 
 async def _datacite_reverse_search(doi: str, max_results: int = 25) -> list[RelatedWork]:

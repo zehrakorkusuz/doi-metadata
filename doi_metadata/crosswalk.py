@@ -118,4 +118,14 @@ def build_crosswalk(doi: str, results: dict[str, SourceResult]) -> IdentifierCro
                 orcids.add(inv.name.orcid)
         cw.orcids = sorted(orcids)
 
+    # Collect NCT IDs from CrossRef clinical-trial-number
+    nct_ids: set[str] = set()
+    crossref = results.get(SourceName.CROSSREF.value)
+    if crossref and crossref.found:
+        for ctn in crossref.clinical_trial_numbers:
+            num = ctn.get("clinical-trial-number", "") if isinstance(ctn, dict) else str(ctn)
+            if num and num.upper().startswith("NCT"):
+                nct_ids.add(num.strip())
+    cw.nct_ids = sorted(nct_ids)
+
     return cw
