@@ -2,7 +2,7 @@
 
 ## Philosophy: Fetch Everything First, Connect After
 
-Don't try to be clever about which sources to query. **Hit all 11 APIs in parallel** for the input DOI. Many will return 404/empty — that's fine. Then use the identifiers and relationships discovered across all responses to build the connection graph.
+Don't try to be clever about which sources to query. **Hit all 12 APIs in parallel** for the input DOI. Many will return 404/empty — that's fine. Then use the identifiers and relationships discovered across all responses to build the connection graph.
 
 ## What Each Source Gives You (Identifier Harvest)
 
@@ -104,6 +104,22 @@ ORCID expanded-search?q=doi-self:{doi}
  ├─ orcid-id                    → canonical ORCID
  ├─ institution-name[]          → current affiliations
  └─ (follow-up: /works, /employments, /fundings per ORCID)
+
+Entrez/PubMed esearch→efetch pipeline
+ ├─ PMID                        → authoritative PubMed ID (highest priority)
+ ├─ ArticleIdList[pmc]          → PMC ID
+ ├─ ArticleIdList[pii]          → Publisher Item Identifier
+ ├─ ArticleIdList[mid]          → Manuscript ID
+ ├─ Author[].Identifier[ORCID]  → ORCIDs
+ ├─ Investigator[].Identifier[ORCID] → investigator ORCIDs
+ ├─ GrantList[].GrantID         → grant identifiers → NIH Reporter
+ ├─ MeshHeadingList             → MeSH descriptors with UIDs
+ ├─ GeneSymbolList              → HUGO gene symbols
+ ├─ DataBankList[].AccessionNumber → GenBank, ClinicalTrials.gov, PDB, GEO
+ ├─ CommentsCorrectionsList     → linked errata/retractions (PMIDs)
+ ├─ ReferenceList[].ArticleId   → cited PMIDs and DOIs
+ ├─ MedlineJournalInfo.NlmUniqueID → NLM catalog ID
+ └─ ChemicalList                → substance UIDs and registry numbers
 ```
 
 ## The Identifier Crosswalk
@@ -114,8 +130,8 @@ After Phase 1 (all parallel fetches complete), build this crosswalk from whateve
 @dataclass
 class IdentifierCrosswalk:
     doi: str                          # input
-    pmid: str | None = None           # from OpenAlex, S2, Europe PMC, NIH, OpenAIRE
-    pmcid: str | None = None          # from OpenAlex, S2, Europe PMC, NIH, OpenAIRE
+    pmid: str | None = None           # from Entrez, OpenAlex, S2, Europe PMC, NIH, OpenAIRE
+    pmcid: str | None = None          # from Entrez, OpenAlex, S2, Europe PMC, NIH, OpenAIRE
     arxiv_id: str | None = None       # from S2, OpenAIRE, DataCite
     mag_id: str | None = None         # from OpenAlex (legacy), OpenAIRE
     openalex_id: str | None = None    # from OpenAlex
@@ -124,18 +140,20 @@ class IdentifierCrosswalk:
     concept_doi: str | None = None    # from Zenodo (version-independent)
     concept_recid: str | None = None  # from Zenodo
     handles: list[str] = []           # from OpenAIRE, DataCite
-    orcids: set[str] = set()          # union from ALL sources
+    orcids: set[str] = set()          # union from ALL sources (incl. Entrez investigators)
     ror_ids: set[str] = set()         # from OpenAlex, DataCite, Dryad
-    grant_ids: list[GrantId] = []     # from NIH, Europe PMC, OpenAIRE, CrossRef, Zenodo, Dryad
+    grant_ids: list[GrantId] = []     # from NIH, Europe PMC, OpenAIRE, CrossRef, Zenodo, Dryad, Entrez
     related_dois: list[RelatedDOI] = []  # from DataCite, Dryad, Zenodo, CrossRef refs
+    pii: str | None = None            # from Entrez (Publisher Item Identifier)
+    nlm_unique_id: str | None = None  # from Entrez (NLM catalog ID)
     registration_agency: str = ""     # "crossref" or "datacite"
 ```
 
 ### Priority Rules for Conflicting IDs
 
 When multiple sources return the same identifier type, prefer:
-- **PMID**: Europe PMC > OpenAlex > S2 > NIH (Europe PMC is canonical for PMIDs)
-- **ORCID**: ORCID API > CrossRef (authenticated) > OpenAlex > DataCite (ORCID API is ground truth)
+- **PMID**: Entrez > Europe PMC > OpenAlex > S2 > NIH (Entrez is the authoritative PMID source from NCBI)
+- **ORCID**: ORCID API > CrossRef (authenticated) > OpenAlex > DataCite > Entrez (ORCID API is ground truth)
 - **DOI**: all sources agree (it's the input)
 - **arXiv**: S2 > OpenAIRE (S2 has best arXiv coverage)
 
@@ -220,6 +238,7 @@ OpenAIRE also uniquely provides:
 Input: article DOI
  ↓
 Europe PMC:  grantsList[].grantId → ["U01HG004695"]
+Entrez:      GrantList[].GrantID → ["U01 HG004695"] (with agency + country)
 NIH Reporter: search by grant → 46 publications (PMIDs)
 OpenAIRE:    projects[].code → "727929" (EU Horizon 2020)
 CrossRef:    funder[].DOI → "10.13039/100000001" (NSF)
@@ -301,6 +320,7 @@ results = await asyncio.gather(
     fetch_zenodo(doi),             # only Zenodo DOIs (usually 404)
     fetch_dryad(doi),              # only Dryad DOIs (usually 404)
     fetch_orcid_by_doi(doi),       # author lookup
+    fetch_entrez(doi),             # PubMed — authoritative PMID, MeSH, pub types
     return_exceptions=True,        # don't fail on individual errors
 )
 ```
@@ -309,11 +329,14 @@ results = await asyncio.gather(
 ```python
 crosswalk = build_crosswalk(results)
 # Merges all identifiers discovered across sources:
-# - PMID from OpenAlex or S2 or Europe PMC or OpenAIRE
-# - ORCIDs from all sources
-# - Grant IDs from NIH, Europe PMC, OpenAIRE, CrossRef
+# - PMID from Entrez (highest priority) or OpenAlex or S2 or Europe PMC or OpenAIRE
+# - PMCID from Entrez ArticleIdList or OpenAlex or Europe PMC
+# - ORCIDs from all sources (incl. Entrez author + investigator ORCIDs)
+# - Grant IDs from NIH, Europe PMC, OpenAIRE, CrossRef, Entrez
 # - Related DOIs from DataCite, Dryad, Zenodo, CrossRef refs
 # - OpenAIRE alternate_ids (handles, mag_id, etc.)
+# - PII from Entrez (Publisher Item Identifier)
+# - NLM Unique ID from Entrez (journal catalog)
 ```
 
 ### Phase 3: Follow Discovered Links (Selective)

@@ -1,10 +1,10 @@
 # DOI Metadata Aggregator
 
-Given a DOI, query 11 scholarly APIs in parallel, normalize the results, detect cross-source conflicts, and return unified metadata with derived analyses.
+Given a DOI, query 12 scholarly APIs in parallel, normalize the results, detect cross-source conflicts, and return unified metadata with derived analyses.
 
 ## Why
 
-No single API has the full picture. CrossRef knows references and funders. OpenAlex has citation graphs and FWCI. Semantic Scholar provides citation intents. Unpaywall tracks OA locations. DataCite maps dataset version chains. NIH Reporter links grants to publications. This tool queries all of them, reconciles the disagreements, and gives you everything in one response.
+No single API has the full picture. CrossRef knows references and funders. OpenAlex has citation graphs and FWCI. Semantic Scholar provides citation intents. Unpaywall tracks OA locations. DataCite maps dataset version chains. NIH Reporter links grants to publications. Entrez/PubMed provides authoritative PMIDs, MeSH headings, publication types, and gene symbols. This tool queries all of them, reconciles the disagreements, and gives you everything in one response.
 
 ## Quick Start
 
@@ -38,6 +38,8 @@ CROSSREF_EMAIL=you@example.com
 # Optional
 OPENAIRE_API_KEY=...          # Bearer token for higher rate limits
 SEMANTIC_SCHOLAR_API_KEY=...  # Higher rate limits
+ENTREZ_EMAIL=you@example.com  # Recommended for NCBI E-utilities
+ENTREZ_API_KEY=...            # 10 req/s with key, 3 req/s without
 ```
 
 ## How It Works
@@ -45,9 +47,10 @@ SEMANTIC_SCHOLAR_API_KEY=...  # Higher rate limits
 ```
 DOI (input)
  |
- +--> Phase 1: Fetch all 11 APIs in parallel
+ +--> Phase 1: Fetch all 12 APIs in parallel
  |    CrossRef, DataCite, OpenAlex, Semantic Scholar, Unpaywall,
- |    Europe PMC, OpenAIRE, NIH Reporter, Zenodo, Dryad, ORCID
+ |    Europe PMC, OpenAIRE, NIH Reporter, Zenodo, Dryad, ORCID,
+ |    Entrez/PubMed
  |    (404s are expected -- not every DOI exists in every source)
  |
  +--> Phase 2: Build identifier crosswalk
@@ -60,7 +63,7 @@ DOI (input)
       Detect conflicts, run 7 derived analyses
 ```
 
-### 11 Data Sources
+### 12 Data Sources
 
 | Source | Unique Value |
 |--------|-------------|
@@ -75,13 +78,14 @@ DOI (input)
 | Zenodo | Files with checksums, download stats, version chains, communities |
 | Dryad | Dataset methods, usage notes, ROR-linked affiliations |
 | ORCID | Author disambiguation, employment/education history |
+| Entrez/PubMed | Authoritative PMID, publication types, gene symbols, databank accessions |
 
 ### 7 Derived Analyses
 
 Each lookup produces these cross-source analyses:
 
 - **Impact Profile** -- FWCI, citation trends, influential citation ratio
-- **Funding Landscape** -- Merged funders from CrossRef + Europe PMC + OpenAIRE + NIH + Zenodo
+- **Funding Landscape** -- Merged funders from CrossRef + Europe PMC + OpenAIRE + NIH + Zenodo + Entrez
 - **Dataset Reuse** -- DataCite reverse search, related software/data counts
 - **Author Network** -- ORCID coverage, institutional breakdown, country distribution
 - **Grant Siblings** -- Other publications under the same NIH grants
@@ -167,7 +171,7 @@ doi_metadata/
 ├── resolver.py         # DOI registration agency detection
 ├── crosswalk.py        # Identifier crosswalk builder
 ├── output.py           # Output formatters
-├── fetchers/           # 11 API fetchers
+├── fetchers/           # 12 API fetchers
 │   ├── base.py         # Shared HTTP client with retry/backoff
 │   ├── crossref.py
 │   ├── datacite.py
@@ -179,7 +183,8 @@ doi_metadata/
 │   ├── nih_reporter.py
 │   ├── zenodo.py
 │   ├── dryad.py
-│   └── orcid.py
+│   ├── orcid.py
+│   └── entrez.py
 ├── reconciliation/     # Cross-source conflict detection
 │   └── engine.py
 └── analyses/           # 7 derived analysis modules
@@ -205,5 +210,5 @@ mypy doi_metadata/
 
 - **Never pick a winner** -- When sources disagree, surface all values with provenance. Let the consumer decide.
 - **404 is not an error** -- Not every DOI exists in every source. A DataCite 404 for a CrossRef article is expected.
-- **Parallel everything** -- All 11 API calls run concurrently via `asyncio.gather`.
+- **Parallel everything** -- All 12 API calls run concurrently via `asyncio.gather`.
 - **Schema-first** -- 50+ Pydantic models ensure type safety and serialization.
