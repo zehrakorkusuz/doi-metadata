@@ -58,6 +58,22 @@ def to_summary(result: AggregatedResult) -> str:
                 parts.append(f"software={len(src.related_software)}")
             if src.communities:
                 parts.append(f"communities={len(src.communities)}")
+            if src.publication_types:
+                parts.append(f"pub_types={len(src.publication_types)}")
+            if src.gene_symbols:
+                parts.append(f"genes={len(src.gene_symbols)}")
+            if src.databank_accessions:
+                parts.append(f"databanks={len(src.databank_accessions)}")
+            if src.conflict_of_interest:
+                parts.append("has_coi")
+            if src.comment_corrections:
+                parts.append(f"corrections={len(src.comment_corrections)}")
+            if src.investigators:
+                parts.append(f"investigators={len(src.investigators)}")
+            if src.supplementary_mesh:
+                parts.append(f"suppl_mesh={len(src.supplementary_mesh)}")
+            if src.chemicals:
+                parts.append(f"chemicals={len(src.chemicals)}")
             if parts:
                 extra = f" ({', '.join(parts)})"
         lines.append(f"  {name:22s} {status}{extra}")
@@ -85,6 +101,12 @@ def to_summary(result: AggregatedResult) -> str:
         lines.append(f"  ROR IDs:   {len(cw.ror_ids)} unique")
     if cw.handles:
         lines.append(f"  Handles:   {len(cw.handles)}")
+    if cw.pii:
+        lines.append(f"  PII:       {cw.pii}")
+    if cw.nlm_unique_id:
+        lines.append(f"  NLM ID:    {cw.nlm_unique_id}")
+    if cw.grant_ids:
+        lines.append(f"  Grants:    {len(cw.grant_ids)} unique IDs")
 
     # Conflicts
     lines.append("")

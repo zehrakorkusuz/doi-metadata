@@ -84,6 +84,31 @@ def reconcile(doi: str, results: dict[str, SourceResult]) -> ConflictReport:
     if c:
         conflicts.append(c)
 
+    # --- MeSH term count (LOW risk — Entrez vs Europe PMC) ---
+    c = _compare_scalar(
+        "mesh_term_count",
+        results,
+        lambda r: len(r.mesh_terms) if r.mesh_terms else None,
+        risk="low",
+    )
+    if c:
+        conflicts.append(c)
+
+    # --- Language ---
+    c = _compare_scalar("language", results, lambda r: r.language, risk="low")
+    if c:
+        conflicts.append(c)
+
+    # --- Grant count (MEDIUM risk — funding reconciliation) ---
+    c = _compare_scalar(
+        "grant_count",
+        results,
+        lambda r: len(r.grants) if r.grants else None,
+        risk="medium",
+    )
+    if c:
+        conflicts.append(c)
+
     report.conflicts = conflicts
     report.conflict_count = len(conflicts)
 

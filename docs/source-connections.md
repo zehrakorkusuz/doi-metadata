@@ -2,7 +2,7 @@
 
 ## Philosophy: Fetch Everything First, Connect After
 
-Don't try to be clever about which sources to query. **Hit all 11 APIs in parallel** for the input DOI. Many will return 404/empty — that's fine. Then use the identifiers and relationships discovered across all responses to build the connection graph.
+Don't try to be clever about which sources to query. **Hit all 12 APIs in parallel** for the input DOI. Many will return 404/empty — that's fine. Then use the identifiers and relationships discovered across all responses to build the connection graph.
 
 ## What Each Source Gives You (Identifier Harvest)
 
@@ -17,7 +17,14 @@ CrossRef works/{doi}
  ├─ reference[].DOI             → outbound citation DOIs (sparse)
  ├─ ISSN / issn-type            → journal identity
  ├─ alternative-id              → publisher-assigned IDs
- └─ clinical-trial-number       → clinical trial registries
+ └─ clinical-trial-number       → NCT IDs → ClinicalTrials.gov API (Phase 3)
+
+ClinicalTrials.gov api/v2/studies/{nct_id}
+ └─ protocolSection              → full trial protocol
+     ├─ conditionsModule         → diseases/conditions studied
+     ├─ armsInterventionsModule  → drugs, procedures, devices
+     ├─ sponsorCollaboratorsModule → sponsor, collaborating institutions
+     └─ outcomesModule           → primary/secondary outcome measures
 
 DataCite dois/{doi}
  ├─ relatedIdentifiers[]        → OTHER DOIs (articles, software, versions)
@@ -62,12 +69,20 @@ Unpaywall v2/{doi}
 Europe PMC search?query=DOI:{doi}
  ├─ pmid                        → PubMed ID
  ├─ pmcid                       → PMC ID (e.g. "PMC7116644")
+ │                                 → Europe PMC Annotations API (Phase 3)
  ├─ grantsList[].grantId        → grant identifiers → NIH Reporter
  ├─ grantsList[].agency         → funding agency name
  ├─ authorList[].authorId       → {type: "ORCID", value: "0000-..."}
  ├─ chemicalList                → registry numbers
  ├─ tmAccessionTypeList         → text-mined accession types (GenBank, PDB)
  └─ commentCorrectionList       → linked corrections/errata DOIs
+
+Europe PMC Annotations annotationsByArticleIds?articleIds=PMC:{pmcid}
+ └─ annotations[]               → text-mined entities from full text
+     ├─ type                    → Gene_Proteins, Diseases, Organisms, Chemicals, GO_Terms
+     ├─ exact                   → matched text
+     ├─ section                 → Title, Abstract, Body
+     └─ tags[].{name, uri}     → ontology links (UniProt, EFO, NCBI Taxonomy, ChEBI, GO)
 
 OpenAIRE researchProducts?search={doi}
  ├─ pids[]                      → DOI, PMID, arXiv, Handle
@@ -104,6 +119,22 @@ ORCID expanded-search?q=doi-self:{doi}
  ├─ orcid-id                    → canonical ORCID
  ├─ institution-name[]          → current affiliations
  └─ (follow-up: /works, /employments, /fundings per ORCID)
+
+Entrez/PubMed esearch→efetch pipeline
+ ├─ PMID                        → authoritative PubMed ID (highest priority)
+ ├─ ArticleIdList[pmc]          → PMC ID
+ ├─ ArticleIdList[pii]          → Publisher Item Identifier
+ ├─ ArticleIdList[mid]          → Manuscript ID
+ ├─ Author[].Identifier[ORCID]  → ORCIDs
+ ├─ Investigator[].Identifier[ORCID] → investigator ORCIDs
+ ├─ GrantList[].GrantID         → grant identifiers → NIH Reporter
+ ├─ MeshHeadingList             → MeSH descriptors with UIDs
+ ├─ GeneSymbolList              → HUGO gene symbols
+ ├─ DataBankList[].AccessionNumber → GenBank, ClinicalTrials.gov, PDB, GEO
+ ├─ CommentsCorrectionsList     → linked errata/retractions (PMIDs)
+ ├─ ReferenceList[].ArticleId   → cited PMIDs and DOIs
+ ├─ MedlineJournalInfo.NlmUniqueID → NLM catalog ID
+ └─ ChemicalList                → substance UIDs and registry numbers
 ```
 
 ## The Identifier Crosswalk
@@ -114,8 +145,8 @@ After Phase 1 (all parallel fetches complete), build this crosswalk from whateve
 @dataclass
 class IdentifierCrosswalk:
     doi: str                          # input
-    pmid: str | None = None           # from OpenAlex, S2, Europe PMC, NIH, OpenAIRE
-    pmcid: str | None = None          # from OpenAlex, S2, Europe PMC, NIH, OpenAIRE
+    pmid: str | None = None           # from Entrez, OpenAlex, S2, Europe PMC, NIH, OpenAIRE
+    pmcid: str | None = None          # from Entrez, OpenAlex, S2, Europe PMC, NIH, OpenAIRE
     arxiv_id: str | None = None       # from S2, OpenAIRE, DataCite
     mag_id: str | None = None         # from OpenAlex (legacy), OpenAIRE
     openalex_id: str | None = None    # from OpenAlex
@@ -124,18 +155,21 @@ class IdentifierCrosswalk:
     concept_doi: str | None = None    # from Zenodo (version-independent)
     concept_recid: str | None = None  # from Zenodo
     handles: list[str] = []           # from OpenAIRE, DataCite
-    orcids: set[str] = set()          # union from ALL sources
+    orcids: set[str] = set()          # union from ALL sources (incl. Entrez investigators)
     ror_ids: set[str] = set()         # from OpenAlex, DataCite, Dryad
-    grant_ids: list[GrantId] = []     # from NIH, Europe PMC, OpenAIRE, CrossRef, Zenodo, Dryad
+    nct_ids: list[str] = []           # from CrossRef clinical-trial-number → ClinicalTrials.gov
+    grant_ids: list[GrantId] = []     # from NIH, Europe PMC, OpenAIRE, CrossRef, Zenodo, Dryad, Entrez
     related_dois: list[RelatedDOI] = []  # from DataCite, Dryad, Zenodo, CrossRef refs
+    pii: str | None = None            # from Entrez (Publisher Item Identifier)
+    nlm_unique_id: str | None = None  # from Entrez (NLM catalog ID)
     registration_agency: str = ""     # "crossref" or "datacite"
 ```
 
 ### Priority Rules for Conflicting IDs
 
 When multiple sources return the same identifier type, prefer:
-- **PMID**: Europe PMC > OpenAlex > S2 > NIH (Europe PMC is canonical for PMIDs)
-- **ORCID**: ORCID API > CrossRef (authenticated) > OpenAlex > DataCite (ORCID API is ground truth)
+- **PMID**: Entrez > Europe PMC > OpenAlex > S2 > NIH (Entrez is the authoritative PMID source from NCBI)
+- **ORCID**: ORCID API > CrossRef (authenticated) > OpenAlex > DataCite > Entrez (ORCID API is ground truth)
 - **DOI**: all sources agree (it's the input)
 - **arXiv**: S2 > OpenAIRE (S2 has best arXiv coverage)
 
@@ -220,6 +254,7 @@ OpenAIRE also uniquely provides:
 Input: article DOI
  ↓
 Europe PMC:  grantsList[].grantId → ["U01HG004695"]
+Entrez:      GrantList[].GrantID → ["U01 HG004695"] (with agency + country)
 NIH Reporter: search by grant → 46 publications (PMIDs)
 OpenAIRE:    projects[].code → "727929" (EU Horizon 2020)
 CrossRef:    funder[].DOI → "10.13039/100000001" (NSF)
@@ -261,7 +296,44 @@ OpenAIRE related_software:
 
 No other source provides this. OpenAIRE harvests GitHub-Zenodo integration and text-mining.
 
-### Pattern 8: Version Chain Resolution
+### Pattern 8: Medical Paper Enrichment (Phase 3 — New Sources)
+
+**Europe PMC Annotations + ClinicalTrials.gov bridge clinical research to structured entities.**
+
+```
+Input: article DOI (medical paper)
+ ↓
+Phase 1: CrossRef → clinical-trial-number = ["NCT02793414"]
+         Europe PMC → pmcid = "PMC7116644", MeSH terms, grants
+ ↓
+Phase 2: Crosswalk → pmcid = "PMC7116644", nct_ids = ["NCT02793414"]
+ ↓
+Phase 3:
+  Europe PMC Annotations API (via PMCID):
+    → Gene_Proteins: ["BRCA1", "TP53", "HER2"]  (with UniProt URIs)
+    → Diseases: ["breast cancer", "triple-negative"]  (with EFO URIs)
+    → Organisms: ["Homo sapiens"]  (with NCBI Taxonomy)
+    → Chemicals: ["doxorubicin", "paclitaxel"]  (with ChEBI IDs)
+    → GO_Terms: ["apoptotic process"]  (with GO URIs)
+
+  ClinicalTrials.gov (via NCT IDs):
+    → NCT02793414:
+       Status: COMPLETED
+       Phase: PHASE3
+       Conditions: ["Advanced Cancer", "Solid Tumors"]
+       Interventions: [{type: "DRUG", name: "Drug X"}]
+       Sponsor: "Pharma Corp"
+       Primary Outcome: "Overall Survival (5 years)"
+       Enrollment: 500 participants
+```
+
+**Key insights:**
+- Europe PMC Annotations requires a PMCID (not DOI) → depends on crosswalk
+- ClinicalTrials.gov requires NCT IDs → depends on CrossRef clinical-trial-number
+- Both are Phase 3 fetchers: they enrich with data unavailable from the DOI alone
+- Together they bridge from: DOI → clinical trial registration → biomedical entities
+
+### Pattern 9: Version Chain Resolution
 
 ```
 Input: Zenodo version DOI (e.g. 10.5281/zenodo.3509134)
@@ -301,6 +373,7 @@ results = await asyncio.gather(
     fetch_zenodo(doi),             # only Zenodo DOIs (usually 404)
     fetch_dryad(doi),              # only Dryad DOIs (usually 404)
     fetch_orcid_by_doi(doi),       # author lookup
+    fetch_entrez(doi),             # PubMed — authoritative PMID, MeSH, pub types
     return_exceptions=True,        # don't fail on individual errors
 )
 ```
@@ -309,11 +382,14 @@ results = await asyncio.gather(
 ```python
 crosswalk = build_crosswalk(results)
 # Merges all identifiers discovered across sources:
-# - PMID from OpenAlex or S2 or Europe PMC or OpenAIRE
-# - ORCIDs from all sources
-# - Grant IDs from NIH, Europe PMC, OpenAIRE, CrossRef
+# - PMID from Entrez (highest priority) or OpenAlex or S2 or Europe PMC or OpenAIRE
+# - PMCID from Entrez ArticleIdList or OpenAlex or Europe PMC
+# - ORCIDs from all sources (incl. Entrez author + investigator ORCIDs)
+# - Grant IDs from NIH, Europe PMC, OpenAIRE, CrossRef, Entrez
 # - Related DOIs from DataCite, Dryad, Zenodo, CrossRef refs
 # - OpenAIRE alternate_ids (handles, mag_id, etc.)
+# - PII from Entrez (Publisher Item Identifier)
+# - NLM Unique ID from Entrez (journal catalog)
 ```
 
 ### Phase 3: Follow Discovered Links (Selective)
@@ -334,6 +410,16 @@ for grant in crosswalk.grant_ids:
 # DataCite reverse search: find datasets that reference this DOI
 datacite_reuse = await search_datacite_reverse(doi)
 # This is how ENCODE→1158 datasets, TCGA→327, GTEx→927 were found
+
+# Europe PMC Annotations: text-mined entities from full text (if PMCID available)
+if crosswalk.pmcid:
+    annotations = await fetch_europe_pmc_annotations(crosswalk.pmcid)
+    # → diseases, genes/proteins, organisms, chemicals, GO terms with ontology URIs
+
+# ClinicalTrials.gov: trial details (if NCT IDs found in CrossRef)
+if crosswalk.nct_ids:
+    trials = await fetch_clinical_trials(crosswalk.nct_ids)
+    # → conditions, interventions, sponsors, outcomes, enrollment
 ```
 
 ### Phase 4: Reconcile and Output

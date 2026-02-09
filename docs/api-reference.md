@@ -1200,6 +1200,366 @@ Solr/Lucene syntax: `q=family-name:Einstein+AND+keyword:Relativity`
 
 ---
 
+## 12. Entrez/PubMed (NCBI E-utilities)
+
+### Call Pattern
+
+Two-step pipeline: **esearch** (find PMID by DOI) → **efetch** (get full PubMed XML).
+
+**Step 1 — Search for PMID:**
+```
+GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term={doi}[doi]&retmode=json&email={email}&api_key={key}
+```
+
+**Step 2 — Fetch full record:**
+```
+GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id={pmid}&rettype=xml&email={email}&api_key={key}
+```
+
+**Auth:** Optional. `email` recommended (NCBI contact). `api_key` increases rate limit from 3 req/s to 10 req/s. Register at https://www.ncbi.nlm.nih.gov/account/.
+
+**Rate Limits:** 3 req/s without key, 10 req/s with key. HTTP 429 on exceeded.
+
+**Errors:** esearch returns `{"esearchresult": {"count": "0"}}` when no PMID found for the DOI.
+
+### esearch Response (JSON)
+```json
+{
+  "header": {"type": "esearch", "version": "0.3"},
+  "esearchresult": {
+    "count": "1",
+    "retmax": "1",
+    "retstart": "0",
+    "idlist": ["32939066"],
+    "translationset": [],
+    "querytranslation": "10.1038/s41586-020-2649-2[doi]"
+  }
+}
+```
+
+### efetch Response (PubMed XML) — Full Key Hierarchy
+
+The PubMed XML response wraps in `<PubmedArticleSet><PubmedArticle>` with two main sections:
+
+#### MedlineCitation
+| Path | Type | Notes |
+|------|------|-------|
+| `PMID` | String | Authoritative PubMed ID (with `@Version` attribute) |
+| `DateCompleted` | Date | Year/Month/Day |
+| `DateRevised` | Date | Year/Month/Day |
+| `Article/Journal/ISSN` | String | With `@IssnType` (Print/Electronic) |
+| `Article/Journal/JournalIssue/Volume` | String | |
+| `Article/Journal/JournalIssue/Issue` | String | |
+| `Article/Journal/JournalIssue/PubDate` | Date | Year + Month or MedlineDate |
+| `Article/Journal/Title` | String | Full journal name |
+| `Article/Journal/ISOAbbreviation` | String | ISO-abbreviated title |
+| `Article/ArticleTitle` | String | Full article title |
+| `Article/Pagination/StartPage` | String | First page |
+| `Article/Pagination/EndPage` | String | Last page |
+| `Article/Pagination/MedlinePgn` | String | e.g. `"357-362"` |
+| `Article/ELocationID` | String | DOI and/or PII (with `@EIdType`, `@ValidYN`) |
+| `Article/Abstract/AbstractText` | [String] | Labeled sections (`@Label`: BACKGROUND, METHODS, etc.) |
+| `Article/AuthorList/Author` | [Author] | See below |
+| `Article/Language` | String | e.g. `"eng"` |
+| `Article/PublicationTypeList/PublicationType` | [String] | NLM controlled vocabulary with `@UI` |
+| `Article/ArticleDate` | Date | `@DateType="Electronic"` |
+| `Article/GrantList/Grant` | [Grant] | See below |
+| `Article/DataBankList/DataBank` | [DataBank] | See below |
+| `Article/VernacularTitle` | String | Title in original language |
+| `MeshHeadingList/MeshHeading` | [MeSH] | See below |
+| `SupplMeshList/SupplMeshName` | [String] | With `@Type` (Disease/Protocol/Organism) and `@UI` |
+| `KeywordList/Keyword` | [String] | With `@MajorTopicYN` flag |
+| `ChemicalList/Chemical` | [Chemical] | See below |
+| `GeneSymbolList/GeneSymbol` | [String] | HUGO gene symbols |
+| `CoiStatement` | String | Conflict of interest disclosure |
+| `CommentsCorrectionsList/CommentsCorrections` | [CC] | See below |
+| `InvestigatorList/Investigator` | [Person] | Consortium/collaborative group members |
+| `PersonalNameSubjectList/PersonalNameSubject` | [Person] | Biography subjects |
+| `SpaceFlightMission` | String | (rare, space medicine papers) |
+| `MedlineJournalInfo/Country` | String | Country of publication |
+| `MedlineJournalInfo/MedlineTA` | String | Abbreviated journal title |
+| `MedlineJournalInfo/NlmUniqueID` | String | NLM catalog ID |
+| `MedlineJournalInfo/ISSNLinking` | String | Linking ISSN |
+| `CitationSubset` | [String] | e.g. `"IM"` (Index Medicus) |
+| `OtherAbstract` | [Abstract] | Abstracts in other languages with `@Type` and `@Language` |
+| `ObjectList/Object` | [Object] | With `@Type` (keyword, grant link, etc.) |
+
+#### PubmedData
+| Path | Type | Notes |
+|------|------|-------|
+| `PublicationStatus` | String | `"ppublish"`, `"epublish"`, `"aheadofprint"` |
+| `ArticleIdList/ArticleId` | [String] | With `@IdType`: `pubmed`, `pmc`, `doi`, `pii`, `mid` |
+| `History/PubMedPubDate` | [Date] | With `@PubStatus`: `received`, `accepted`, `revised`, `pubmed`, `medline`, `entrez` |
+| `ReferenceList/Reference` | [Ref] | See below |
+
+### Nested Objects
+
+**Author:**
+```xml
+<Author ValidYN="Y">
+  <LastName>Harris</LastName>
+  <ForeName>Charles R</ForeName>
+  <Initials>CR</Initials>
+  <Identifier Source="ORCID">0000-0002-7833-3745</Identifier>
+  <AffiliationInfo>
+    <Affiliation>Stony Brook University, Stony Brook, NY, USA</Affiliation>
+  </AffiliationInfo>
+  <!-- or CollectiveName for groups -->
+  <CollectiveName>NumPy Contributors</CollectiveName>
+</Author>
+```
+
+**Grant:**
+```xml
+<Grant>
+  <GrantID>U01 HG004695</GrantID>
+  <Acronym>HG</Acronym>
+  <Agency>NHGRI NIH HHS</Agency>
+  <Country>United States</Country>
+</Grant>
+```
+
+**MeSH Heading:**
+```xml
+<MeshHeading>
+  <DescriptorName UI="D000465" MajorTopicYN="N">Algorithms</DescriptorName>
+  <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+</MeshHeading>
+```
+
+**Chemical:**
+```xml
+<Chemical>
+  <RegistryNumber>EC 2.7.11.24</RegistryNumber>
+  <NameOfSubstance UI="D048051">p38 Mitogen-Activated Protein Kinases</NameOfSubstance>
+</Chemical>
+```
+
+**DataBank:**
+```xml
+<DataBank>
+  <DataBankName>ClinicalTrials.gov</DataBankName>
+  <AccessionNumberList>
+    <AccessionNumber>NCT01234567</AccessionNumber>
+  </AccessionNumberList>
+</DataBank>
+```
+
+**CommentsCorrections:**
+```xml
+<CommentsCorrections RefType="ErratumFor">
+  <RefSource>Nature. 2020;585(7824):E3</RefSource>
+  <PMID Version="1">32939086</PMID>
+</CommentsCorrections>
+```
+RefTypes include: `ErratumFor`, `ErratumIn`, `RetractionOf`, `RetractionIn`, `CommentOn`, `CommentIn`, `RepublishedFrom`, `RepublishedIn`, `ExpressionOfConcernFor`, `ExpressionOfConcernIn`, `UpdateOf`, `UpdateIn`, `CitesMethods`, `OriginalReportIn`.
+
+**Reference:**
+```xml
+<Reference>
+  <Citation>van der Walt S, et al. The NumPy array. Comput Sci Eng. 2011;13:22-30.</Citation>
+  <ArticleIdList>
+    <ArticleId IdType="pubmed">21977015</ArticleId>
+    <ArticleId IdType="doi">10.1109/MCSE.2011.37</ArticleId>
+  </ArticleIdList>
+</Reference>
+```
+
+### Publication Types (NLM Controlled Vocabulary)
+Common values:
+| UI | Value |
+|----|-------|
+| `D016428` | Journal Article |
+| `D016454` | Review |
+| `D016449` | Randomized Controlled Trial |
+| `D017418` | Meta-Analysis |
+| `D016422` | Letter |
+| `D016420` | Comment |
+| `D016421` | Editorial |
+| `D016427` | Case Reports |
+| `D013485` | Research Support, Non-U.S. Gov't |
+| `D052061` | Research Support, N.I.H., Extramural |
+
+### Recommended Fetcher Strategy
+1. `esearch.fcgi?db=pubmed&term={doi}[doi]&retmode=json` → get PMID
+2. `efetch.fcgi?db=pubmed&id={pmid}&rettype=xml` → parse full PubmedArticle XML
+3. Extract all identifiers from `ArticleIdList` (PMID, PMCID, PII, DOI, MID)
+4. Parse MeSH, chemicals, grants, gene symbols, databank accessions
+5. Parse CommentsCorrectionsList for errata/retractions
+
+---
+
+## 13. Europe PMC Annotations (Phase 3)
+
+### Call Pattern
+```
+GET https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=PMC:{pmcid}&format=JSON
+```
+
+**Auth:** None required.
+
+**Prerequisite:** Requires a PMCID — obtained from the Phase 2 crosswalk (Europe PMC, OpenAlex, or OpenAIRE typically provide it).
+
+**API docs:** https://europepmc.org/AnnotationsApi
+
+### Response Structure
+```json
+[
+  {
+    "source": "PMC",
+    "pmcid": "PMC7116644",
+    "annotations": [
+      {
+        "type": "Gene_Proteins",
+        "exact": "BRCA1",
+        "prefix": "mutations in ",
+        "postfix": " are linked to",
+        "section": "Abstract",
+        "tags": [
+          {"name": "BRCA1", "uri": "https://identifiers.org/uniprot:P38398"}
+        ],
+        "provider": "Europe PMC"
+      }
+    ]
+  }
+]
+```
+
+### Annotation Types
+| Type | Description | Tag URI Scheme |
+|------|-------------|----------------|
+| `Gene_Proteins` | Gene and protein mentions | UniProt, Ensembl |
+| `Diseases` | Disease names and variants | EFO, MONDO |
+| `Organisms` | Species and taxonomic names | NCBI Taxonomy |
+| `Chemicals` | Chemical compound names | ChEBI |
+| `GO_Terms` | Gene Ontology terms | GO |
+| `Accession_Numbers` | Database accession numbers | Various (GenBank, PDB, etc.) |
+
+### Annotation Object
+| Key | Type | Notes |
+|-----|------|-------|
+| `type` | String | One of the annotation types above |
+| `exact` | String | The exact text matched in the article |
+| `prefix` | String | Text before the match (context) |
+| `postfix` | String | Text after the match (context) |
+| `section` | String | Where in the article: `Title`, `Abstract`, `Body`, `References` |
+| `tags` | [Object] | `{name, uri}` — linked identifiers for the entity |
+| `provider` | String | Usually `"Europe PMC"` |
+
+### Unique Data
+- **Text-mined gene/protein mentions** with UniProt/Ensembl links
+- **Disease mentions** with ontology URIs (EFO, MONDO)
+- **Organism mentions** with NCBI Taxonomy links
+- **Chemical mentions** with ChEBI identifiers
+- **GO term annotations** from full text
+- **Section-level context** — know if an entity appears in title, abstract, or body
+- Coverage: any article with a PMCID (full text in Europe PMC)
+
+### Connection to Base Europe PMC Fetcher
+The base `europe_pmc.py` fetcher (Phase 1) returns structured metadata: grants, MeSH headings, chemicals list, and text-mined accession _types_. This annotations endpoint provides the actual text-mined _entity instances_ with their positions and ontology links — a much richer view of what the paper discusses.
+
+---
+
+## 14. ClinicalTrials.gov (Phase 3)
+
+### Call Pattern
+```
+GET https://clinicaltrials.gov/api/v2/studies/{nct_id}
+```
+
+**Auth:** None required.
+
+**Prerequisite:** Requires NCT IDs — obtained from CrossRef's `clinical-trial-number` field in Phase 1.
+
+**API docs:** https://clinicaltrials.gov/data-api/api
+
+### Response Structure (v2 API)
+```json
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02793414",
+      "briefTitle": "Study of Drug X in Advanced Cancer",
+      "officialTitle": "A Phase 3, Randomized Study of Drug X vs Placebo..."
+    },
+    "statusModule": {
+      "overallStatus": "COMPLETED",
+      "startDateStruct": {"date": "2016-06-01"},
+      "completionDateStruct": {"date": "2020-12-31"},
+      "primaryCompletionDateStruct": {"date": "2020-06-30"}
+    },
+    "descriptionModule": {
+      "briefSummary": "This study evaluates Drug X in patients..."
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": ["PHASE3"],
+      "enrollmentInfo": {"count": 500}
+    },
+    "conditionsModule": {
+      "conditions": ["Advanced Cancer", "Solid Tumors"]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {"type": "DRUG", "name": "Drug X", "description": "Experimental drug"},
+        {"type": "DRUG", "name": "Placebo", "description": "Placebo comparator"}
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {"name": "Pharma Corp"},
+      "collaborators": [{"name": "National Cancer Institute"}]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {"measure": "Overall Survival", "timeFrame": "Up to 5 years"}
+      ],
+      "secondaryOutcomes": [
+        {"measure": "Progression Free Survival", "timeFrame": "Up to 3 years"}
+      ]
+    }
+  }
+}
+```
+
+### Key Modules
+| Module | Key Fields | Notes |
+|--------|------------|-------|
+| `identificationModule` | `nctId`, `briefTitle`, `officialTitle` | Trial identity |
+| `statusModule` | `overallStatus`, `startDateStruct`, `completionDateStruct` | Status: RECRUITING, COMPLETED, TERMINATED, etc. |
+| `descriptionModule` | `briefSummary`, `detailedDescription` | Protocol description |
+| `designModule` | `studyType`, `phases`, `enrollmentInfo` | INTERVENTIONAL/OBSERVATIONAL, phase, enrollment count |
+| `conditionsModule` | `conditions[]` | Medical conditions studied |
+| `armsInterventionsModule` | `interventions[]` | `{type, name, description}` — DRUG, PROCEDURE, DEVICE, etc. |
+| `sponsorCollaboratorsModule` | `leadSponsor`, `collaborators[]` | Study sponsor and partners |
+| `outcomesModule` | `primaryOutcomes[]`, `secondaryOutcomes[]` | `{measure, timeFrame}` |
+| `eligibilityModule` | `minimumAge`, `maximumAge`, `sex`, `stdAge[]` | Enrollment criteria |
+
+### Study Status Values
+`NOT_YET_RECRUITING`, `RECRUITING`, `ENROLLING_BY_INVITATION`, `ACTIVE_NOT_RECRUITING`, `COMPLETED`, `SUSPENDED`, `TERMINATED`, `WITHDRAWN`
+
+### Phase Values
+`EARLY_PHASE1`, `PHASE1`, `PHASE2`, `PHASE3`, `PHASE4`, `NA`
+
+### Study Type Values
+`INTERVENTIONAL`, `OBSERVATIONAL`, `EXPANDED_ACCESS`
+
+### Connection Strategy
+1. CrossRef returns `clinical-trial-number` field with NCT IDs
+2. After Phase 1 + crosswalk, collect all NCT IDs
+3. Fetch each from ClinicalTrials.gov v2 API
+4. Result: full trial protocol linked to the publication
+
+### Unique Data
+- **Full trial protocol** — conditions, interventions, arms, outcomes
+- **Sponsor and collaborator** information
+- **Enrollment data** — participant counts, eligibility criteria
+- **Trial status** — whether recruiting, completed, terminated
+- **Phase information** — Phase 1-4
+- **Outcome measures** — primary and secondary endpoints with time frames
+- Bridges the gap between clinical research publications and trial registrations
+
+---
+
 ## Cross-Source Conflict Matrix
 
 This table shows where the same data exists in multiple sources and may conflict:
@@ -1208,16 +1568,16 @@ This table shows where the same data exists in multiple sources and may conflict
 |------------|---------|---------------|
 | **Citation count** | CrossRef, OpenAlex, S2, Europe PMC, DataCite, OpenAIRE, NIH Reporter | HIGH — each counts differently |
 | **OA status** | Unpaywall, OpenAlex, OpenAIRE, Europe PMC | MEDIUM — different taxonomies |
-| **Author names** | CrossRef, DataCite, OpenAlex, S2, Europe PMC, ORCID, Dryad | HIGH — spelling/ordering varies |
-| **Author ORCIDs** | CrossRef, DataCite, OpenAlex, ORCID, Dryad, NIH Reporter | LOW — but coverage varies widely |
-| **Affiliations** | CrossRef, OpenAlex, ORCID, Europe PMC, Dryad, NIH Reporter | HIGH — different granularity, time |
-| **Abstract** | CrossRef (XML), OpenAlex (inverted index), S2, Europe PMC | LOW — usually same content, different format |
-| **References** | CrossRef, OpenAlex, S2, DataCite | MEDIUM — different completeness |
-| **Funding** | CrossRef, Europe PMC, OpenAIRE, NIH Reporter, Zenodo, Dryad, DataCite | MEDIUM — different coverage |
+| **Author names** | CrossRef, DataCite, OpenAlex, S2, Europe PMC, ORCID, Dryad, Entrez | HIGH — spelling/ordering varies |
+| **Author ORCIDs** | CrossRef, DataCite, OpenAlex, ORCID, Dryad, NIH Reporter, Entrez | LOW — but coverage varies widely |
+| **Affiliations** | CrossRef, OpenAlex, ORCID, Europe PMC, Dryad, NIH Reporter, Entrez | HIGH — different granularity, time |
+| **Abstract** | CrossRef (XML), OpenAlex (inverted index), S2, Europe PMC, Entrez (structured) | LOW — usually same content, different format |
+| **References** | CrossRef, OpenAlex, S2, DataCite, Entrez | MEDIUM — different completeness |
+| **Funding** | CrossRef, Europe PMC, OpenAIRE, NIH Reporter, Zenodo, Dryad, DataCite, Entrez | MEDIUM — different coverage |
 | **License** | CrossRef, Unpaywall, OpenAlex, DataCite, Zenodo, Dryad | LOW — usually agree |
 | **Publication date** | All sources | LOW — but format/precision varies |
 | **Related works** | DataCite, Dryad, Zenodo, OpenAlex | MEDIUM — different relationship types |
-| **MeSH terms** | Europe PMC, OpenAlex | LOW — same vocabulary |
+| **MeSH terms** | Europe PMC, OpenAlex, Entrez | LOW — same vocabulary |
 | **Version info** | DataCite, Zenodo, Dryad | LOW within source, HIGH across |
 
 ### Data Unique to Single Sources
@@ -1228,9 +1588,12 @@ This table shows where the same data exists in multiple sources and may conflict
 | **NIH Reporter** | NIH award linkages, activity codes, relative citation ratio |
 | **Unpaywall** | Per-location OA version tracking, evidence/discovery method, DOAJ membership |
 | **Europe PMC** | MeSH headings, chemicals, text-mined accessions, corrections/errata |
+| **Europe PMC Annotations** | Text-mined gene/protein, disease, organism, chemical, GO term mentions with ontology URIs |
 | **Zenodo** | Files with checksums, download stats, community membership |
 | **Dryad** | Dataset methods, usage notes, ROR-linked author affiliations |
 | **ORCID** | Author employment/education history, peer reviews, funding records |
 | **OpenAlex** | FWCI, concept hierarchy, citation percentiles, abstract inverted index |
 | **DataCite** | Full version chains, geolocations, resource type taxonomy |
+| **Entrez/PubMed** | Publication types (NLM vocabulary), gene symbols, databank accessions, conflict of interest statements, comments/corrections with RefType, supplementary MeSH, investigators, personal name subjects, NLM journal info, citation subsets |
 | **CrossRef** | Crossmark assertions, update-to (corrections), clinical trial numbers |
+| **ClinicalTrials.gov** | Full trial protocol, conditions, interventions, sponsors, outcomes, enrollment |
