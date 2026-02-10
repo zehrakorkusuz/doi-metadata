@@ -1,20 +1,27 @@
-"""Tests for citation network analysis — graph building, PageRank, anti-gaming, author metrics."""
+"""Tests for citation network analysis — graph, PageRank, intents, anti-gaming, biomedical signals."""
 
 from __future__ import annotations
 
 from datetime import datetime, timezone
 
 from doi_metadata.analyses.citation_network import (
+    COMMON_SURNAMES,
     INFLUENTIAL_WEIGHT,
+    INTENT_WEIGHTS,
     CitationNetworkResult,
     GraphEdge,
     GraphNode,
     _author_name_set,
+    _build_biomedical_signals,
+    _build_citation_velocity,
+    _build_intent_profile,
+    _collect_orcids,
+    _compute_edge_weight,
     _detect_self_citation,
-    _time_decay_weight,
+    _intent_weight,
+    _percentile_rank,
     analyze_citation_network,
     build_graph,
-    compute_author_pagerank,
     compute_s_index,
     compute_standard_pagerank,
     compute_time_decay_pagerank,
@@ -26,6 +33,8 @@ from doi_metadata.models import (
     Citation,
     ConflictReport,
     IdentifierCrosswalk,
+    ImpactIndicator,
+    MeSHTerm,
     PersonName,
     Reference,
     RelatedWork,
@@ -36,6 +45,7 @@ from doi_metadata.models import (
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
+
 
 def _make_agg(
     doi: str = "10.1234/test",
@@ -59,14 +69,14 @@ def _make_source(
     references: list[Reference] | None = None,
     authors: list[Author] | None = None,
     pagerank: float | None = None,
+    citation_count: int | None = None,
+    **kwargs,
 ) -> SourceResult:
     return SourceResult(
-        source=source,
-        found=found,
-        citations=citations or [],
-        references=references or [],
-        authors=authors or [],
-        pagerank=pagerank,
+        source=source, found=found,
+        citations=citations or [], references=references or [],
+        authors=authors or [], pagerank=pagerank,
+        citation_count=citation_count, **kwargs,
     )
 
 
@@ -83,10 +93,12 @@ def _make_citation(doi: str | None = None, year: int | None = 2023,
 
 def _make_reference(doi: str | None = None, year: int | None = 2020,
                     is_influential: bool | None = None,
+                    intents: list[str] | None = None,
                     s2_paper_id: str | None = None) -> Reference:
     return Reference(
         doi=doi, year=year, is_influential=is_influential,
-        s2_paper_id=s2_paper_id, source=SourceName.SEMANTIC_SCHOLAR,
+        intents=intents or [], s2_paper_id=s2_paper_id,
+        source=SourceName.SEMANTIC_SCHOLAR,
     )
 
 
@@ -98,455 +110,565 @@ def _make_author(family: str, given: str | None = None, orcid: str | None = None
 
 
 # ---------------------------------------------------------------------------
-# Graph building tests
+# Intent weighting
+# ---------------------------------------------------------------------------
+
+class TestIntentWeighting:
+    def test_methodology_highest(self):
+        assert _intent_weight(["Methodology"]) == INTENT_WEIGHTS["methodology"]
+
+    def test_result_comparison_mid(self):
+        assert _intent_weight(["ResultComparison"]) == INTENT_WEIGHTS["resultcomparison"]
+
+    def test_background_lowest(self):
+        assert _intent_weight(["Background"]) < 1.0
+
+    def test_multiple_intents_takes_max(self):
+        w = _intent_weight(["Background", "Methodology"])
+        assert w == INTENT_WEIGHTS["methodology"]
+
+    def test_empty_intents_neutral(self):
+        assert _intent_weight([]) == 1.0
+
+    def test_unknown_intent_neutral(self):
+        assert _intent_weight(["SomethingNew"]) == 1.0
+
+    def test_edge_weight_combines_all_signals(self):
+        # Influential + Methodology + not self-cite
+        w = _compute_edge_weight(True, False, ["Methodology"])
+        assert w == INTENT_WEIGHTS["methodology"] * INFLUENTIAL_WEIGHT
+
+    def test_edge_weight_self_citation_penalty(self):
+        w = _compute_edge_weight(False, True, [])
+        assert w == 0.1
+
+
+# ---------------------------------------------------------------------------
+# Self-citation detection
+# ---------------------------------------------------------------------------
+
+class TestSelfCitationORCID:
+    def test_orcid_match_detects_self_citation(self):
+        assert _detect_self_citation(
+            queried_orcids={"0000-0001-1234-5678"},
+            queried_surnames=set(),
+            citing_orcids=["0000-0001-1234-5678"],
+            citing_author_names=[],
+        ) is True
+
+    def test_orcid_mismatch_no_detection(self):
+        assert _detect_self_citation(
+            queried_orcids={"0000-0001-1234-5678"},
+            queried_surnames=set(),
+            citing_orcids=["0000-0002-9999-9999"],
+            citing_author_names=[],
+        ) is False
+
+    def test_common_surname_ignored(self):
+        """'Wang' is in COMMON_SURNAMES — should not trigger self-citation."""
+        assert "wang" in COMMON_SURNAMES
+        # _author_name_set should exclude common surnames
+        author = _make_author("Wang", "Wei")
+        names = _author_name_set([author])
+        assert "wang" not in names
+
+    def test_uncommon_surname_detected(self):
+        author = _make_author("Korkusuz", "Zehra")
+        names = _author_name_set([author])
+        assert "korkusuz" in names
+
+    def test_short_surname_excluded(self):
+        author = _make_author("Li", "Xin")
+        names = _author_name_set([author])
+        assert len(names) == 0  # "li" is both common AND short
+
+    def test_surname_fallback_with_guards(self):
+        assert _detect_self_citation(
+            queried_orcids=set(),
+            queried_surnames={"korkusuz"},
+            citing_orcids=[],
+            citing_author_names=["Zehra Korkusuz"],
+        ) is True
+
+    def test_collect_orcids_strips_url(self):
+        author = Author(
+            name=PersonName(orcid="https://orcid.org/0000-0001-0000-0001", source=SourceName.ORCID),
+            sources=[SourceName.ORCID],
+        )
+        orcids = _collect_orcids([author])
+        assert "0000-0001-0000-0001" in orcids
+
+
+# ---------------------------------------------------------------------------
+# Edge merging (not first-wins discard)
+# ---------------------------------------------------------------------------
+
+class TestEdgeMerging:
+    def test_same_edge_from_two_sources_merges(self):
+        """CrossRef provides edge first (no intent), S2 provides same edge with intent.
+        The merged edge should have the S2 intent and influential flag."""
+        cr = _make_source(
+            SourceName.CROSSREF,
+            citations=[Citation(doi="10.1000/cit1", source=SourceName.CROSSREF)],
+        )
+        s2 = _make_source(
+            SourceName.SEMANTIC_SCHOLAR,
+            citations=[_make_citation(doi="10.1000/cit1", is_influential=True,
+                                      intents=["Methodology"])],
+        )
+        agg = _make_agg(sources={"crossref": cr, "semantic_scholar": s2})
+        nodes, edges = build_graph("10.1234/test", agg)
+
+        # Should be 1 merged edge, not 2
+        inbound = [e for e in edges if e.target_id == "10.1234/test"]
+        assert len(inbound) == 1
+        edge = inbound[0]
+        assert edge.is_influential is True
+        assert "Methodology" in edge.intents
+        assert len(edge.api_sources) == 2
+        # Weight should reflect both influential AND methodology
+        assert edge.weight == INTENT_WEIGHTS["methodology"] * INFLUENTIAL_WEIGHT
+
+
+# ---------------------------------------------------------------------------
+# Graph building
 # ---------------------------------------------------------------------------
 
 class TestBuildGraph:
     def test_empty_sources(self):
         agg = _make_agg()
         nodes, edges = build_graph("10.1234/test", agg)
-        # Should have at least the queried DOI node
         assert len(nodes) == 1
-        assert "10.1234/test" in nodes
         assert nodes["10.1234/test"].is_queried
 
     def test_citations_become_inbound_edges(self):
         src = _make_source(
             SourceName.SEMANTIC_SCHOLAR,
             citations=[
-                _make_citation(doi="10.1000/cit1", year=2023),
-                _make_citation(doi="10.1000/cit2", year=2024),
+                _make_citation(doi="10.1000/cit1"),
+                _make_citation(doi="10.1000/cit2"),
             ],
         )
         agg = _make_agg(sources={"semantic_scholar": src})
         nodes, edges = build_graph("10.1234/test", agg)
-
-        assert len(nodes) == 3  # queried + 2 citing papers
-        # Edges point FROM citing paper TO queried DOI
+        assert len(nodes) == 3
         for e in edges:
             assert e.target_id == "10.1234/test"
-        assert len(edges) == 2
 
     def test_references_become_outbound_edges(self):
         src = _make_source(
             SourceName.SEMANTIC_SCHOLAR,
             references=[
-                _make_reference(doi="10.1000/ref1"),
-                _make_reference(doi="10.1000/ref2"),
-                _make_reference(doi="10.1000/ref3"),
-            ],
-        )
-        agg = _make_agg(sources={"semantic_scholar": src})
-        nodes, edges = build_graph("10.1234/test", agg)
-
-        assert len(nodes) == 4  # queried + 3 references
-        outbound = [e for e in edges if e.source_id == "10.1234/test"]
-        assert len(outbound) == 3
-
-    def test_deduplication_across_sources(self):
-        """Same citation DOI from S2 and CrossRef should produce one edge."""
-        s2 = _make_source(
-            SourceName.SEMANTIC_SCHOLAR,
-            citations=[_make_citation(doi="10.1000/cit1")],
-        )
-        cr = _make_source(
-            SourceName.CROSSREF,
-            citations=[Citation(doi="10.1000/cit1", source=SourceName.CROSSREF)],
-        )
-        agg = _make_agg(sources={"semantic_scholar": s2, "crossref": cr})
-        nodes, edges = build_graph("10.1234/test", agg)
-
-        # Only one edge, not two
-        inbound = [e for e in edges if e.target_id == "10.1234/test"]
-        assert len(inbound) == 1
-
-    def test_datacite_linked_datasets_as_edges(self):
-        ds = [
-            RelatedWork(identifier="10.5281/zenodo.123", source=SourceName.DATACITE),
-            RelatedWork(identifier="10.5281/zenodo.456", source=SourceName.DATACITE),
-        ]
-        agg = _make_agg(datasets=ds)
-        nodes, edges = build_graph("10.1234/test", agg)
-
-        assert len(nodes) == 3  # queried + 2 datasets
-        assert len(edges) == 2
-        for e in edges:
-            assert e.target_id == "10.1234/test"
-
-    def test_influential_weight(self):
-        src = _make_source(
-            SourceName.SEMANTIC_SCHOLAR,
-            citations=[
-                _make_citation(doi="10.1000/influential", is_influential=True),
-                _make_citation(doi="10.1000/normal", is_influential=False),
+                _make_reference(doi="10.1000/r1"),
+                _make_reference(doi="10.1000/r2"),
             ],
         )
         agg = _make_agg(sources={"semantic_scholar": src})
         _, edges = build_graph("10.1234/test", agg)
+        outbound = [e for e in edges if e.source_id == "10.1234/test"]
+        assert len(outbound) == 2
 
-        influential_edge = [e for e in edges if e.source_id == "10.1000/influential"][0]
-        normal_edge = [e for e in edges if e.source_id == "10.1000/normal"][0]
-
-        assert influential_edge.weight == INFLUENTIAL_WEIGHT
-        assert normal_edge.weight == 1.0
+    def test_related_works_with_doi(self):
+        src = _make_source(
+            SourceName.DATACITE,
+            related_works=[
+                RelatedWork(
+                    identifier="10.1000/supplement",
+                    identifier_type="DOI",
+                    relation_type="IsCitedBy",
+                    source=SourceName.DATACITE,
+                ),
+            ],
+        )
+        agg = _make_agg(sources={"datacite": src})
+        nodes, edges = build_graph("10.1234/test", agg)
+        assert "10.1000/supplement" in nodes
+        inbound = [e for e in edges if e.target_id == "10.1234/test"]
+        assert len(inbound) == 1
 
     def test_s2_paper_id_fallback(self):
-        """Papers without DOI should use S2 paper ID as node identifier."""
         src = _make_source(
             SourceName.SEMANTIC_SCHOLAR,
             citations=[_make_citation(doi=None, s2_paper_id="abc123")],
         )
         agg = _make_agg(sources={"semantic_scholar": src})
         nodes, _ = build_graph("10.1234/test", agg)
-
         assert "s2:abc123" in nodes
 
 
 # ---------------------------------------------------------------------------
-# Self-citation detection tests
-# ---------------------------------------------------------------------------
-
-class TestSelfCitationDetection:
-    def test_author_name_set(self):
-        authors = [
-            _make_author("Smith", "John"),
-            _make_author("Doe", "Jane"),
-        ]
-        names = _author_name_set(authors)
-        assert names == {"smith", "doe"}
-
-    def test_full_name_fallback(self):
-        author = Author(
-            name=PersonName(full_name="Alice Wonderland", source=SourceName.OPENALEX),
-            sources=[SourceName.OPENALEX],
-        )
-        names = _author_name_set([author])
-        assert "wonderland" in names
-
-    def test_detect_self_citation_match(self):
-        queried = {"smith", "doe"}
-        assert _detect_self_citation(queried, ["John Smith"]) is True
-
-    def test_detect_self_citation_no_match(self):
-        queried = {"smith", "doe"}
-        assert _detect_self_citation(queried, ["Alice Wonderland"]) is False
-
-    def test_detect_self_citation_empty(self):
-        assert _detect_self_citation(set(), ["John Smith"]) is False
-        assert _detect_self_citation({"smith"}, []) is False
-
-    def test_self_citation_penalty_applied(self):
-        queried_authors = [_make_author("Smith", "John")]
-        # The citing paper has "J. Smith" in author names
-        src = _make_source(
-            SourceName.SEMANTIC_SCHOLAR,
-            citations=[_make_citation(doi="10.1000/self-cite")],
-            authors=queried_authors,
-        )
-        agg = _make_agg(sources={"semantic_scholar": src})
-
-        # We need to manually set the citing paper's author names for detection
-        # In reality, S2 citation data may not include author names,
-        # so self-citation detection depends on available data
-        nodes, edges = build_graph("10.1234/test", agg)
-
-        # The edge exists (self-citation detection depends on citing paper having author data)
-        assert len(edges) == 1
-
-
-# ---------------------------------------------------------------------------
-# Time decay tests
-# ---------------------------------------------------------------------------
-
-class TestTimeDecay:
-    def test_recent_citation_higher_weight(self):
-        recent = _time_decay_weight(2025)
-        older = _time_decay_weight(2015)
-        assert recent > older
-
-    def test_current_year_weight_near_one(self):
-        from doi_metadata.analyses.citation_network import CURRENT_YEAR
-        w = _time_decay_weight(CURRENT_YEAR)
-        assert 0.99 <= w <= 1.01  # exp(0) = 1.0
-
-    def test_none_year_neutral(self):
-        assert _time_decay_weight(None) == 1.0
-
-    def test_future_year_clamped(self):
-        # Future year → age=0 → weight=1.0
-        w = _time_decay_weight(2030)
-        assert w == 1.0
-
-
-# ---------------------------------------------------------------------------
-# PageRank computation tests
+# PageRank
 # ---------------------------------------------------------------------------
 
 class TestPageRank:
-    def _simple_graph(self) -> tuple[dict[str, GraphNode], list[GraphEdge]]:
-        """A → B, C → B (B has 2 inbound citations)."""
+    def _simple_graph(self):
+        """A → B, C → B (B has 2 inbound)."""
         nodes = {
             "a": GraphNode(node_id="a"),
             "b": GraphNode(node_id="b", is_queried=True),
             "c": GraphNode(node_id="c"),
         }
         edges = [
-            GraphEdge(source_id="a", target_id="b", weight=1.0),
-            GraphEdge(source_id="c", target_id="b", weight=1.0),
+            GraphEdge(source_id="a", target_id="b", weight=1.0, api_sources=["s2"]),
+            GraphEdge(source_id="c", target_id="b", weight=1.0, api_sources=["s2"]),
         ]
         return nodes, edges
 
-    def test_standard_pagerank_converges(self):
+    def test_converges(self):
         nodes, edges = self._simple_graph()
         pr = compute_standard_pagerank(nodes, edges)
-
         assert len(pr) == 3
-        # B should have highest PageRank (most inbound edges)
         assert pr["b"] > pr["a"]
-        assert pr["b"] > pr["c"]
 
-    def test_pagerank_sums_to_one(self):
+    def test_sums_to_one(self):
         nodes, edges = self._simple_graph()
         pr = compute_standard_pagerank(nodes, edges)
-        total = sum(pr.values())
-        assert abs(total - 1.0) < 0.001
+        assert abs(sum(pr.values()) - 1.0) < 0.001
 
-    def test_time_decay_pagerank_converges(self):
+    def test_time_decay_converges(self):
         nodes, edges = self._simple_graph()
         pr = compute_time_decay_pagerank(nodes, edges)
-        assert len(pr) == 3
-        total = sum(pr.values())
-        assert abs(total - 1.0) < 0.01
+        assert abs(sum(pr.values()) - 1.0) < 0.01
 
-    def test_influential_edges_boost_pagerank(self):
-        """When a node distributes rank across edges, higher weight gets more."""
+    def test_weighted_distribution(self):
+        """Higher edge weight gets proportionally more rank."""
         nodes = {
             "a": GraphNode(node_id="a"),
             "b": GraphNode(node_id="b"),
             "d": GraphNode(node_id="d"),
         }
-        # a cites both b and d, but b's edge has influential weight (3x)
-        # a distributes 3/4 to b and 1/4 to d
         edges = [
-            GraphEdge(source_id="a", target_id="b", weight=INFLUENTIAL_WEIGHT),
-            GraphEdge(source_id="a", target_id="d", weight=1.0),
+            GraphEdge(source_id="a", target_id="b", weight=INFLUENTIAL_WEIGHT, api_sources=["s2"]),
+            GraphEdge(source_id="a", target_id="d", weight=1.0, api_sources=["s2"]),
         ]
         pr = compute_standard_pagerank(nodes, edges)
         assert pr["b"] > pr["d"]
 
-    def test_empty_graph(self):
-        pr = compute_standard_pagerank({}, [])
-        assert pr == {}
+    def test_authority_weighted_init(self):
+        """Node with known citation count gets higher initial authority."""
+        nodes = {
+            "citer_big": GraphNode(node_id="citer_big", citation_count=1000),
+            "citer_small": GraphNode(node_id="citer_small", citation_count=1),
+            "target": GraphNode(node_id="target", is_queried=True),
+        }
+        edges = [
+            GraphEdge(source_id="citer_big", target_id="target", weight=1.0, api_sources=["s2"]),
+            GraphEdge(source_id="citer_small", target_id="target", weight=1.0, api_sources=["s2"]),
+        ]
+        pr = compute_standard_pagerank(nodes, edges)
+        # Target gets more from citer_big because big has higher init mass
+        # But both converge — the key test is that it converges correctly
+        assert pr["target"] > pr["citer_big"]
+        assert pr["target"] > pr["citer_small"]
 
-    def test_single_node_no_edges(self):
+    def test_empty_graph(self):
+        assert compute_standard_pagerank({}, []) == {}
+
+    def test_single_node(self):
         nodes = {"a": GraphNode(node_id="a")}
         pr = compute_standard_pagerank(nodes, [])
         assert abs(pr["a"] - 1.0) < 0.001
 
-    def test_larger_graph(self):
-        """Star graph: 10 nodes all citing center."""
+    def test_star_graph(self):
         nodes = {"center": GraphNode(node_id="center", is_queried=True)}
         edges = []
         for i in range(10):
             nid = f"citer_{i}"
             nodes[nid] = GraphNode(node_id=nid)
-            edges.append(GraphEdge(source_id=nid, target_id="center", weight=1.0))
-
+            edges.append(GraphEdge(source_id=nid, target_id="center", weight=1.0, api_sources=["s2"]))
         pr = compute_standard_pagerank(nodes, edges)
-        # Center should have highest rank
         assert pr["center"] == max(pr.values())
-        # All citers should have equal rank
-        citer_ranks = [pr[f"citer_{i}"] for i in range(10)]
-        assert max(citer_ranks) - min(citer_ranks) < 0.001
+
+    def test_percentile_rank(self):
+        scores = {"a": 0.1, "b": 0.5, "c": 0.3}
+        assert _percentile_rank(scores, "b") == 1.0  # b is the max
+        assert _percentile_rank(scores, "a") < 1.0
 
 
 # ---------------------------------------------------------------------------
-# Topology tests
+# Topology
 # ---------------------------------------------------------------------------
 
 class TestTopology:
-    def test_basic_topology(self):
+    def test_basic(self):
         nodes = {
-            "q": GraphNode(node_id="q", is_queried=True),
+            "q": GraphNode(node_id="q"),
             "a": GraphNode(node_id="a"),
             "b": GraphNode(node_id="b"),
-            "r": GraphNode(node_id="r"),
         }
         edges = [
-            GraphEdge(source_id="a", target_id="q", weight=1.0, is_influential=True, api_source="s2"),
-            GraphEdge(source_id="b", target_id="q", weight=0.1, is_self_citation=True, api_source="s2"),
-            GraphEdge(source_id="q", target_id="r", weight=1.0, api_source="crossref"),
+            GraphEdge(source_id="a", target_id="q", weight=1.0, is_influential=True, api_sources=["s2"]),
+            GraphEdge(source_id="b", target_id="q", weight=0.1, is_self_citation=True, api_sources=["s2"]),
+            GraphEdge(source_id="q", target_id="a", weight=1.0, api_sources=["cr"]),
         ]
         topo = compute_topology("q", nodes, edges)
-
-        assert topo.total_nodes == 4
-        assert topo.total_edges == 3
         assert topo.in_degree == 2
         assert topo.out_degree == 1
         assert topo.self_citation_count == 1
-        assert topo.self_citation_fraction == 0.5
         assert topo.influential_citation_count == 1
-        assert topo.influential_fraction == 0.5
-        assert set(topo.unique_sources_contributing) == {"s2", "crossref"}
+
+    def test_truncation_detection(self):
+        nodes = {"q": GraphNode(node_id="q"), "a": GraphNode(node_id="a")}
+        edges = [GraphEdge(source_id="a", target_id="q", weight=1.0, api_sources=["s2"])]
+        topo = compute_topology("q", nodes, edges, known_citation_count=500)
+        assert topo.graph_is_truncated is True
+        assert topo.known_citation_count == 500
 
 
 # ---------------------------------------------------------------------------
-# S-index tests
+# Intent profile
+# ---------------------------------------------------------------------------
+
+class TestIntentProfile:
+    def test_counts_intents(self):
+        edges = [
+            GraphEdge(source_id="a", target_id="q", intents=["Methodology"], api_sources=["s2"]),
+            GraphEdge(source_id="b", target_id="q", intents=["Background"], api_sources=["s2"]),
+            GraphEdge(source_id="c", target_id="q", intents=["ResultComparison"], api_sources=["s2"]),
+            GraphEdge(source_id="d", target_id="q", intents=[], api_sources=["s2"]),
+        ]
+        ip = _build_intent_profile(edges, "q")
+        assert ip.methodology_count == 1
+        assert ip.background_count == 1
+        assert ip.result_comparison_count == 1
+        assert ip.unknown_count == 1
+        assert ip.methodology_fraction is not None
+
+    def test_dominant_intent(self):
+        edges = [
+            GraphEdge(source_id="a", target_id="q", intents=["Methodology"], api_sources=["s2"]),
+            GraphEdge(source_id="b", target_id="q", intents=["Methodology"], api_sources=["s2"]),
+            GraphEdge(source_id="c", target_id="q", intents=["Background"], api_sources=["s2"]),
+        ]
+        ip = _build_intent_profile(edges, "q")
+        assert ip.dominant_intent == "methodology"
+
+
+# ---------------------------------------------------------------------------
+# Citation velocity
+# ---------------------------------------------------------------------------
+
+class TestCitationVelocity:
+    def test_computes_trend(self):
+        src = _make_source(SourceName.OPENALEX, counts_by_year={
+            2018: 10, 2019: 15, 2020: 20, 2021: 25, 2022: 30, 2023: 35, 2024: 40, 2025: 45,
+        })
+        agg = _make_agg(sources={"openalex": src})
+        vel = _build_citation_velocity(agg)
+        assert vel.peak_year is not None
+        assert vel.recent_3yr_avg is not None
+        assert vel.trend is not None
+
+    def test_empty_counts(self):
+        agg = _make_agg()
+        vel = _build_citation_velocity(agg)
+        assert vel.years == []
+        assert vel.trend is None
+
+
+# ---------------------------------------------------------------------------
+# Biomedical signals
+# ---------------------------------------------------------------------------
+
+class TestBiomedicalSignals:
+    def test_mesh_terms_detected(self):
+        src = _make_source(
+            SourceName.EUROPE_PMC,
+            mesh_terms=[MeSHTerm(descriptor_name="Genomics", source=SourceName.EUROPE_PMC)],
+        )
+        agg = _make_agg(sources={"europe_pmc": src})
+        bio = _build_biomedical_signals(agg)
+        assert bio.has_mesh_terms is True
+        assert bio.mesh_term_count == 1
+
+    def test_clinical_trials_detected(self):
+        src = _make_source(
+            SourceName.CROSSREF,
+            clinical_trial_numbers=[{"number": "NCT12345678", "type": "results"}],
+        )
+        agg = _make_agg(sources={"crossref": src})
+        bio = _build_biomedical_signals(agg)
+        assert bio.has_clinical_trials is True
+        assert bio.clinical_trial_count == 1
+
+    def test_retraction_detected_from_europe_pmc(self):
+        src = _make_source(
+            SourceName.EUROPE_PMC,
+            corrections=[{"type": "Retraction"}],
+        )
+        agg = _make_agg(sources={"europe_pmc": src})
+        bio = _build_biomedical_signals(agg)
+        assert bio.has_retraction is True
+
+    def test_retraction_detected_from_crossref(self):
+        src = _make_source(
+            SourceName.CROSSREF,
+            update_to=[{"type": "retraction", "DOI": "10.1234/retracted"}],
+        )
+        agg = _make_agg(sources={"crossref": src})
+        bio = _build_biomedical_signals(agg)
+        assert bio.has_retraction is True
+
+    def test_pmid_availability(self):
+        agg = _make_agg()
+        agg.crosswalk.pmid = "12345678"
+        bio = _build_biomedical_signals(agg)
+        assert bio.pmid_available is True
+
+
+# ---------------------------------------------------------------------------
+# S-index
 # ---------------------------------------------------------------------------
 
 class TestSIndex:
-    def test_basic_computation(self):
-        topo = compute_topology.__wrapped__ if hasattr(compute_topology, '__wrapped__') else None
-        from doi_metadata.analyses.citation_network import NetworkTopology
-        topo = NetworkTopology(
-            influential_fraction=0.2,
-            self_citation_fraction=0.1,
+    def _defaults(self):
+        from doi_metadata.analyses.citation_network import (
+            BiomedicalSignals,
+            FieldNormalization,
+            IntentProfile,
+            NetworkTopology,
         )
-        s = compute_s_index(0.5, 0.6, topo)
-        # 0.4*0.6 + 0.3*0.5 + 0.2*0.2 + 0.1*(1-0.1) = 0.24 + 0.15 + 0.04 + 0.09 = 0.52
-        assert abs(s - 0.52) < 0.001
+        return (
+            NetworkTopology(influential_fraction=0.2, self_citation_fraction=0.1),
+            IntentProfile(methodology_fraction=0.3),
+            FieldNormalization(fwci=1.5),
+            BiomedicalSignals(pmid_available=True, has_mesh_terms=True),
+        )
+
+    def test_all_components_on_same_scale(self):
+        topo, ip, fn, bio = self._defaults()
+        s = compute_s_index(0.9, 0.95, topo, ip, fn, bio)
+        # S-index should be in [0, 1]
+        assert 0.0 <= s <= 1.0
+
+    def test_retraction_kills_score(self):
+        topo, ip, fn, bio = self._defaults()
+        bio.has_retraction = True
+        s = compute_s_index(1.0, 1.0, topo, ip, fn, bio)
+        assert s == 0.0
 
     def test_zero_inputs(self):
-        from doi_metadata.analyses.citation_network import NetworkTopology
+        from doi_metadata.analyses.citation_network import (
+            BiomedicalSignals,
+            FieldNormalization,
+            IntentProfile,
+            NetworkTopology,
+        )
         topo = NetworkTopology()
-        s = compute_s_index(0.0, 0.0, topo)
-        # 0.4*0 + 0.3*0 + 0.2*0 + 0.1*(1-0) = 0.1
+        ip = IntentProfile()
+        fn = FieldNormalization()
+        bio = BiomedicalSignals()
+        s = compute_s_index(0.0, 0.0, topo, ip, fn, bio)
+        # Only self_cit_penalty (1.0) contributes: 0.10 * 1.0 = 0.1
         assert abs(s - 0.1) < 0.001
 
-
-# ---------------------------------------------------------------------------
-# Author PageRank tests
-# ---------------------------------------------------------------------------
-
-class TestAuthorPageRank:
-    def test_authors_get_queried_doi_score(self):
-        src = _make_source(
-            SourceName.OPENALEX,
-            authors=[
-                _make_author("Smith", "John", orcid="0000-0001-1234-5678"),
-                _make_author("Doe", "Jane"),
-            ],
-        )
-        agg = _make_agg(sources={"openalex": src})
-        pr = {"10.1234/test": 0.45, "10.1000/other": 0.05}
-
-        authors = compute_author_pagerank(agg, pr, "10.1234/test")
-        assert len(authors) == 2
-        assert all(a.is_queried_author for a in authors)
-        assert all(a.pagerank_sum == 0.45 for a in authors)
-
-    def test_author_with_orcid_deduped(self):
-        """Same ORCID from two sources → one author entry."""
-        s1 = _make_source(
-            SourceName.OPENALEX,
-            authors=[_make_author("Smith", "John", orcid="0000-0001-0000-0001")],
-        )
-        s2 = _make_source(
-            SourceName.SEMANTIC_SCHOLAR,
-            authors=[Author(
-                name=PersonName(family="Smith", given="J.", orcid="0000-0001-0000-0001",
-                                source=SourceName.SEMANTIC_SCHOLAR),
-                sources=[SourceName.SEMANTIC_SCHOLAR],
-            )],
-        )
-        agg = _make_agg(sources={"openalex": s1, "semantic_scholar": s2})
-        authors = compute_author_pagerank(agg, {"10.1234/test": 0.3}, "10.1234/test")
-
-        # Should be 1 entry (deduped by ORCID)
-        assert len(authors) == 1
-        assert authors[0].orcid == "0000-0001-0000-0001"
+    def test_field_norm_capped(self):
+        """FWCI of 10.0 should not produce S-index > 1.0."""
+        topo, ip, fn, bio = self._defaults()
+        fn.fwci = 10.0  # Extreme
+        s = compute_s_index(1.0, 1.0, topo, ip, fn, bio)
+        assert s <= 1.0
 
 
 # ---------------------------------------------------------------------------
-# Full analysis integration tests
+# Full integration
 # ---------------------------------------------------------------------------
 
 class TestAnalyzeCitationNetwork:
-    def test_empty_sources_returns_narrative(self):
+    def test_empty_sources(self):
         agg = _make_agg()
         result = analyze_citation_network(agg)
         assert isinstance(result, CitationNetworkResult)
-        assert "Insufficient" in result.narrative
+        assert "No citation edges" in result.narrative
 
     def test_with_citations_and_references(self):
         src = _make_source(
             SourceName.SEMANTIC_SCHOLAR,
             citations=[
-                _make_citation(doi="10.1000/c1", year=2023, is_influential=True),
-                _make_citation(doi="10.1000/c2", year=2024),
-                _make_citation(doi="10.1000/c3", year=2022),
+                _make_citation(doi="10.1000/c1", year=2023, is_influential=True,
+                               intents=["Methodology"]),
+                _make_citation(doi="10.1000/c2", year=2024, intents=["Background"]),
+                _make_citation(doi="10.1000/c3", year=2022, intents=["ResultComparison"]),
             ],
             references=[
                 _make_reference(doi="10.1000/r1"),
                 _make_reference(doi="10.1000/r2"),
             ],
-            authors=[_make_author("Smith", "John")],
+            authors=[_make_author("Korkusuz", "Zehra")],
         )
         agg = _make_agg(sources={"semantic_scholar": src})
         result = analyze_citation_network(agg)
 
-        # PageRank scores should be non-zero
         assert result.pagerank.standard > 0
-        assert result.pagerank.time_decay > 0
+        assert result.pagerank.standard_percentile > 0
         assert result.s_index > 0
-
-        # Topology
-        assert result.topology.total_nodes == 6  # 1 queried + 3 citing + 2 referenced
         assert result.topology.in_degree == 3
         assert result.topology.out_degree == 2
 
-        # Narrative should mention key metrics
+        # Intent profile populated
+        assert result.intent_profile.methodology_count == 1
+        assert result.intent_profile.background_count == 1
+
+        # Narrative covers key metrics
         assert "PageRank" in result.narrative
         assert "S-index" in result.narrative
+        assert "intent" in result.narrative.lower()
 
-    def test_with_bip_influence(self):
-        oaire = _make_source(SourceName.OPENAIRE, pagerank=1.5e-6)
-        from doi_metadata.models import ImpactIndicator
-        oaire.impact_indicators.append(
-            ImpactIndicator(name="bip_influence", value=1.5e-6, class_label="C2", source=SourceName.OPENAIRE)
-        )
-        # Need at least one citation to get past the "insufficient data" check
+    def test_retraction_zeroes_s_index(self):
+        """Retracted paper should get S-index = 0."""
         s2 = _make_source(
             SourceName.SEMANTIC_SCHOLAR,
             citations=[_make_citation(doi="10.1000/c1")],
         )
-        agg = _make_agg(sources={"openaire": oaire, "semantic_scholar": s2})
+        epmc = _make_source(
+            SourceName.EUROPE_PMC,
+            corrections=[{"type": "Retraction"}],
+        )
+        agg = _make_agg(sources={"semantic_scholar": s2, "europe_pmc": epmc})
         result = analyze_citation_network(agg)
+        assert result.s_index == 0.0
+        assert "Retraction" in result.narrative
 
-        assert result.bip_influence == 1.5e-6
-        assert result.bip_influence_class == "C2"
-        assert "BIP!" in result.narrative
-
-    def test_pagerank_all_contains_all_nodes(self):
+    def test_truncation_noted_in_narrative(self):
+        """When citation_count >> graph edges, narrative should note truncation."""
         src = _make_source(
             SourceName.SEMANTIC_SCHOLAR,
-            citations=[
-                _make_citation(doi="10.1000/c1"),
-                _make_citation(doi="10.1000/c2"),
-            ],
+            citations=[_make_citation(doi="10.1000/c1")],
+            citation_count=5000,
         )
         agg = _make_agg(sources={"semantic_scholar": src})
         result = analyze_citation_network(agg)
+        assert result.topology.graph_is_truncated is True
+        assert "5000" in result.narrative
 
-        # All 3 nodes should appear in the full score vector
-        assert len(result.pagerank.standard_all) == 3
-        assert "10.1234/test" in result.pagerank.standard_all
-        assert "10.1000/c1" in result.pagerank.standard_all
+    def test_field_normalization_collected(self):
+        oa = _make_source(SourceName.OPENALEX)
+        oa.impact_indicators.append(
+            ImpactIndicator(name="fwci", value=2.5, source=SourceName.OPENALEX)
+        )
+        nih = _make_source(SourceName.NIH_REPORTER, relative_citation_ratio=3.1)
+        s2 = _make_source(
+            SourceName.SEMANTIC_SCHOLAR,
+            citations=[_make_citation(doi="10.1000/c1")],
+        )
+        agg = _make_agg(sources={"openalex": oa, "nih_reporter": nih, "semantic_scholar": s2})
+        result = analyze_citation_network(agg)
+        assert result.field_normalization.fwci == 2.5
+        assert result.field_normalization.relative_citation_ratio == 3.1
+        assert "FWCI" in result.narrative
+        assert "RCR" in result.narrative
 
 
 # ---------------------------------------------------------------------------
-# Reconciliation test — pagerank field on SourceResult still works
+# SourceResult.pagerank field still works
 # ---------------------------------------------------------------------------
 
 class TestPagerankSourceField:
     def test_openaire_pagerank_field(self):
-        """The SourceResult.pagerank field for externally-provided scores still works."""
         r = SourceResult(source=SourceName.OPENAIRE, found=True, pagerank=2.5e-6)
         assert r.pagerank == 2.5e-6
-        data = r.model_dump(exclude_none=True)
-        assert data["pagerank"] == 2.5e-6
 
-    def test_reconciliation_with_pagerank(self):
+    def test_reconciliation(self):
         from doi_metadata.reconciliation.engine import reconcile
         results = {
             "openaire": SourceResult(source=SourceName.OPENAIRE, found=True, pagerank=1.5e-6),

@@ -136,7 +136,6 @@ async def fetch_openaire(doi: str) -> SourceResult:
     for inst in rec.get("instances", []):
         for url in inst.get("urls", []):
             hosted_by = inst.get("hostedby", {}) or {}
-            access_right = inst.get("accessRight", {}) or {}
             result.oa_locations.append(
                 OALocation(
                     url=url,

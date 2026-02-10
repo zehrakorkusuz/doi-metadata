@@ -5,7 +5,9 @@ from __future__ import annotations
 from doi_metadata.models import ConflictReport, FieldConflict, SourceResult
 
 
-def _compare_scalar(field: str, results: dict[str, SourceResult], extractor, risk: str = "medium") -> FieldConflict | None:
+def _compare_scalar(
+    field: str, results: dict[str, SourceResult], extractor, risk: str = "medium",
+) -> FieldConflict | None:
     """Compare a scalar field across sources. Returns a conflict if values disagree."""
     values: dict[str, object] = {}
     for name, r in results.items():
