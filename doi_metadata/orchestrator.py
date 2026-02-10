@@ -94,6 +94,7 @@ def _run_analyses(result: AggregatedResult) -> AnalysesResult:
     """Run all derived analyses and return typed results."""
     from doi_metadata.analyses import (
         analyze_authors,
+        analyze_citation_network,
         analyze_dataset_reuse,
         analyze_funding,
         analyze_grant_siblings,
@@ -111,6 +112,7 @@ def _run_analyses(result: AggregatedResult) -> AnalysesResult:
         ("grant_siblings", analyze_grant_siblings),
         ("oa_audit", analyze_oa),
         ("topics", analyze_topics),
+        ("citation_network", analyze_citation_network),
     ]:
         try:
             data[name] = fn(result).model_dump(exclude_none=True)

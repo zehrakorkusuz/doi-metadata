@@ -8,7 +8,6 @@ from typing import Any
 
 from pydantic import BaseModel, Field
 
-
 # ---------------------------------------------------------------------------
 # Enums
 # ---------------------------------------------------------------------------
@@ -355,6 +354,7 @@ class SourceResult(BaseModel):
     # Impact indicators
     impact_indicators: list[ImpactIndicator] = Field(default_factory=list)
     usage_stats: UsageStat | None = None
+    pagerank: float | None = None  # PageRank or PageRank-derived score (e.g. BIP! influence)
 
     # S2-specific
     tldr: str | None = None
@@ -418,7 +418,7 @@ class ConflictReport(BaseModel):
 # ---------------------------------------------------------------------------
 
 class AnalysesResult(BaseModel):
-    """Typed wrapper for all 7 derived analysis outputs."""
+    """Typed wrapper for all 8 derived analysis outputs."""
     impact: dict[str, Any] = Field(default_factory=dict)
     funding: dict[str, Any] = Field(default_factory=dict)
     dataset_reuse: dict[str, Any] = Field(default_factory=dict)
@@ -426,6 +426,7 @@ class AnalysesResult(BaseModel):
     grant_siblings: dict[str, Any] = Field(default_factory=dict)
     oa_audit: dict[str, Any] = Field(default_factory=dict)
     topics: dict[str, Any] = Field(default_factory=dict)
+    citation_network: dict[str, Any] = Field(default_factory=dict)
 
 
 class AggregatedResult(BaseModel):

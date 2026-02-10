@@ -84,6 +84,11 @@ def reconcile(doi: str, results: dict[str, SourceResult]) -> ConflictReport:
     if c:
         conflicts.append(c)
 
+    # --- PageRank (MEDIUM risk — different algorithms produce different scores) ---
+    c = _compare_scalar("pagerank", results, lambda r: r.pagerank, risk="medium")
+    if c:
+        conflicts.append(c)
+
     report.conflicts = conflicts
     report.conflict_count = len(conflicts)
 

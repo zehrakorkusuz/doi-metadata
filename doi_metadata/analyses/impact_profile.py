@@ -57,6 +57,13 @@ class ImpactProfile(BaseModel):
     bip_impulse: float | None = None
     bip_impulse_class: str | None = None
 
+    # PageRank — externally-provided scores (e.g. BIP! influence)
+    pagerank: dict[str, float] = Field(default_factory=dict)
+    # Computed PageRank from local citation network (see citation_network analysis)
+    computed_pagerank: float | None = None
+    computed_pagerank_time_decay: float | None = None
+    s_index: float | None = None
+
     # Usage (reads vs cites)
     downloads: int | None = None
     views: int | None = None
@@ -152,6 +159,21 @@ def analyze_impact(result: AggregatedResult) -> ImpactProfile:
             profile.views = oaire.usage_stats.views
             profile.download_source = "openaire"
 
+    # --- PageRank: external scores from API sources ---
+    for name, src in result.sources.items():
+        if src.found and src.pagerank is not None:
+            profile.pagerank[name] = src.pagerank
+
+    # --- PageRank: computed from local citation network ---
+    from doi_metadata.analyses.citation_network import analyze_citation_network
+    try:
+        cn = analyze_citation_network(result)
+        profile.computed_pagerank = cn.pagerank.standard
+        profile.computed_pagerank_time_decay = cn.pagerank.time_decay
+        profile.s_index = cn.s_index
+    except Exception:
+        pass  # Citation network analysis is best-effort in impact profile
+
     # --- Zenodo usage stats (if OpenAIRE didn't have them) ---
     zen = result.sources.get(SourceName.ZENODO.value)
     if zen and zen.found and zen.usage_stats and profile.downloads is None:
@@ -186,6 +208,14 @@ def analyze_impact(result: AggregatedResult) -> ImpactProfile:
 
     if profile.relative_citation_ratio is not None:
         parts.append(f"RCR {profile.relative_citation_ratio:.1f}x NIH median")
+
+    if profile.computed_pagerank is not None and profile.computed_pagerank > 0:
+        parts.append(f"Computed PageRank {profile.computed_pagerank:.4e}")
+        if profile.s_index is not None:
+            parts.append(f"S-index {profile.s_index:.6f}")
+    if profile.pagerank:
+        pr_parts = [f"{src}: {val:.2e}" for src, val in profile.pagerank.items()]
+        parts.append(f"External PageRank {', '.join(pr_parts)}")
 
     if profile.trend_direction:
         parts.append(f"Citation trend: {profile.trend_direction}")

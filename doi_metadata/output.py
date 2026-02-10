@@ -2,8 +2,6 @@
 
 from __future__ import annotations
 
-import json
-
 from doi_metadata.models import AggregatedResult
 
 
@@ -36,6 +34,8 @@ def to_summary(result: AggregatedResult) -> str:
             parts = []
             if src.citation_count is not None:
                 parts.append(f"citations={src.citation_count}")
+            if src.pagerank is not None:
+                parts.append(f"pagerank={src.pagerank:.2e}")
             if src.authors:
                 parts.append(f"authors={len(src.authors)}")
             if src.grants:
@@ -113,6 +113,7 @@ def to_summary(result: AggregatedResult) -> str:
         lines.append("Analyses:")
         analysis_labels = {
             "impact": "Impact Profile",
+            "citation_network": "Citation Network & PageRank",
             "funding": "Funding Landscape",
             "dataset_reuse": "Dataset Reuse",
             "authors": "Author Network",

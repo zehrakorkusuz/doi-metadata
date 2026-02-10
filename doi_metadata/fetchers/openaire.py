@@ -165,6 +165,11 @@ async def fetch_openaire(doi: str) -> SourceResult:
                 ImpactIndicator(name=f"bip_{name}", value=val, class_label=cls, source=SOURCE)
             )
 
+    # PageRank — BIP! influence is a PageRank-derived score on the citation graph
+    bip_influence = citation_impact.get("influence")
+    if bip_influence is not None:
+        result.pagerank = float(bip_influence)
+
     # Citation count from BIP
     bip_citations = citation_impact.get("citationCount")
     if bip_citations is not None:
