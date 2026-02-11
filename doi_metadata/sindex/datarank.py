@@ -130,6 +130,7 @@ async def compute_datarank_corpus(
     max_citers: int = 200,
     concurrency: int = 5,
     offline: bool = False,
+    max_papers: int = 0,
 ) -> DataRankCorpus:
     """Compute DataRank for all benchmark results.
 
@@ -138,6 +139,7 @@ async def compute_datarank_corpus(
         max_citers: Max citers to fetch per paper from OpenAlex.
         concurrency: Max concurrent OpenAlex requests.
         offline: If True, skip API calls (endowment-only ranking).
+        max_papers: Limit to first N papers (0 = no limit).
     """
     # Load all results
     logger.info("Loading benchmark results from %s ...", results_dir)
@@ -147,6 +149,9 @@ async def compute_datarank_corpus(
             all_results.append(json.loads(f.read_text()))
         except (json.JSONDecodeError, OSError) as exc:
             logger.warning("Skipping %s: %s", f.name, exc)
+
+    if max_papers > 0:
+        all_results = all_results[:max_papers]
 
     logger.info("Loaded %d results", len(all_results))
 

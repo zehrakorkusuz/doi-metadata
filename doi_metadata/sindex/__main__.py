@@ -56,6 +56,12 @@ def main() -> None:
         help="Concurrent OpenAlex requests (default: 5)",
     )
     parser.add_argument(
+        "--max-papers",
+        type=int,
+        default=0,
+        help="Limit to first N papers, 0 = all (default: 0)",
+    )
+    parser.add_argument(
         "--format",
         choices=["text", "json"],
         default="text",
@@ -86,6 +92,7 @@ def main() -> None:
             max_citers=args.max_citers,
             concurrency=args.concurrency,
             offline=args.offline,
+            max_papers=args.max_papers,
         )
     )
 
