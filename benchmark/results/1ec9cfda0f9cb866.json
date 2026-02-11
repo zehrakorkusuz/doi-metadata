@@ -1,0 +1,3881 @@
+{
+  "doi": "10.1093/bioinformatics/bty560",
+  "registration_agency": "unknown",
+  "retrieved_at": "2026-02-11T13:46:09.668979Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "fastp: an ultra-fast all-in-one FASTQ preprocessor",
+      "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:sec>\n                    <jats:title>Motivation</jats:title>\n                    <jats:p>Quality control and preprocessing of FASTQ files are essential to providing clean data for downstream analysis. Traditionally, a different tool is used for each operation, such as quality control, adapter trimming and quality filtering. These tools are often insufficiently fast as most are developed using high-level programming languages (e.g. Python and Java) and provide limited multi-threading support. Reading and loading data multiple times also renders preprocessing slow and I/O inefficient.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results</jats:title>\n                    <jats:p>We developed fastp as an ultra-fast FASTQ preprocessor with useful quality control and data-filtering features. It can perform quality control, adapter trimming, quality filtering, per-read quality pruning and many other operations with a single scan of the FASTQ data. This tool is developed in C++ and has multi-threading support. Based on our evaluation, fastp is 2\u20135 times faster than other FASTQ preprocessing tools such as Trimmomatic or Cutadapt despite performing far more operations than similar tools.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Availability and implementation</jats:title>\n                    <jats:p>The open-source code and corresponding instructions are available at https://github.com/OpenGene/fastp.</jats:p>\n                  </jats:sec>",
+      "publication_date": "2018-09-01",
+      "publication_year": 2018,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "Bioinformatics",
+      "volume": "34",
+      "issue": "17",
+      "pages": "i884-i890",
+      "issn": [
+        "1367-4803",
+        "1367-4811"
+      ],
+      "doi": "10.1093/bioinformatics/bty560",
+      "authors": [
+        {
+          "name": {
+            "given": "Shifu",
+            "family": "Chen",
+            "full_name": "Shifu Chen",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Bioinformatics, HaploX Biotechnology, Shenzhen, China",
+              "source": "crossref"
+            },
+            {
+              "name": "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Yanqing",
+            "family": "Zhou",
+            "full_name": "Yanqing Zhou",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Bioinformatics, HaploX Biotechnology, Shenzhen, China",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Yaru",
+            "family": "Chen",
+            "full_name": "Yaru Chen",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Bioinformatics, HaploX Biotechnology, Shenzhen, China",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jia",
+            "family": "Gu",
+            "full_name": "Jia Gu",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 23484,
+      "reference_count": 16,
+      "references": [
+        {
+          "unstructured": "Andrews\n       \u00a0S.\n           (2010) \nA quality control tool for high throughput sequence data. http://www.bioinformatics.babraham.ac.uk/projects/fastqc/.",
+          "key": "2023061313520485800_bty560-B1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1001/jama.2015.7120",
+          "title": "Noninvasive prenatal testing and incidental detection of occult maternal malignancies",
+          "year": 2015,
+          "author": "Bianchi",
+          "key": "2023061313520485800_bty560-B2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btu170",
+          "title": "Trimmomatic: a flexible trimmer for Illumina sequence data",
+          "year": 2014,
+          "author": "Bolger",
+          "key": "2023061313520485800_bty560-B3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Brad Chapman\n       \u00a0R.K.\n      \u00a0et al. (2018) Validated, Scalable, Community Developed Variant Calling, RNA-Seq and Small RNA Analysis, https://github.com/chapmanb/bcbio-nextgen.",
+          "key": "2023061313520485800_bty560-B4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s12859-017-1469-3",
+          "title": "AfterQC: automatic filtering, trimming, error removing and quality control for fastq data",
+          "year": 2017,
+          "author": "Chen",
+          "key": "2023061313520485800_bty560-B5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/gigascience/gix120",
+          "title": "SOAPnuke: a MapReduce acceleration-supported software for integrated quality control and preprocessing of high-throughput sequencing data",
+          "year": 2018,
+          "author": "Chen",
+          "key": "2023061313520485800_bty560-B6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nmeth.3505",
+          "title": "SpeedSeq: ultra-fast personal genome analysis and interpretation",
+          "year": 2015,
+          "author": "Chiang",
+          "key": "2023061313520485800_bty560-B7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/s11912-017-0564-y",
+          "title": "The emerging role of \u201cLiquid Biopsies,\u201d circulating tumor cells, and circulating cell-free tumor dna in lung cancer diagnosis and identification of resistance mutations",
+          "year": 2017,
+          "author": "Esposito",
+          "key": "2023061313520485800_bty560-B8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nprot.2014.170",
+          "title": "Detecting ultralow-frequency mutations by duplex sequencing",
+          "year": 2014,
+          "author": "Kennedy",
+          "key": "2023061313520485800_bty560-B9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nmeth.1923",
+          "title": "Fast gapped-read alignment with Bowtie 2",
+          "year": 2012,
+          "author": "Langmead",
+          "key": "2023061313520485800_bty560-B10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btp324",
+          "title": "Fast and accurate short read alignment with Burrows-Wheeler transform",
+          "year": 2009,
+          "author": "Li",
+          "key": "2023061313520485800_bty560-B11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btp352",
+          "title": "The Sequence Alignment/Map format and SAMtools",
+          "year": 2009,
+          "author": "Li",
+          "key": "2023061313520485800_bty560-B12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.14806/ej.17.1.200",
+          "title": "Cutadapt removes adapter sequences from high-throughput sequencing reads",
+          "year": 2011,
+          "author": "Martin",
+          "key": "2023061313520485800_bty560-B13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nbt.3520",
+          "title": "Integrated digital error suppression for improved detection of circulating tumor DNA",
+          "year": 2016,
+          "author": "Newman",
+          "key": "2023061313520485800_bty560-B14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/gr.209601.116",
+          "title": "UMI-tools: modelling sequencing errors in Unique Molecular Identifiers to improve quantification accuracy",
+          "year": 2017,
+          "author": "Smith",
+          "key": "2023061313520485800_bty560-B15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Valentine Svensson\n       \u00a0R.K.\n      \u00a0et al. (2018) Tools for Processing UMI RNA-Tag Data, https://github.com/vals/umis.",
+          "key": "2023061313520485800_bty560-B16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i884/50582648/bioinformatics_34_17_i884.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i884/50582648/bioinformatics_34_17_i884.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [
+        {
+          "name": "Special Funds for Future Industries of Shenzhen",
+          "award_numbers": [
+            "JSGG20160229123927512"
+          ],
+          "source": "crossref"
+        },
+        {
+          "name": "National Science Foundation of China",
+          "doi": "10.13039/501100001809",
+          "award_numbers": [
+            "61472411"
+          ],
+          "source": "crossref"
+        }
+      ],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "http://creativecommons.org/licenses/by-nc/4.0/",
+          "content_version": "vor",
+          "delay_in_days": 8,
+          "source": "crossref"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/bty560",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "fastp: an ultra-fast all-in-one FASTQ preprocessor",
+      "abstract": "Abstract Motivation Quality control and preprocessing of FASTQ files are essential to providing clean data for downstream analysis. Traditionally, a different tool is used for each operation, such as quality control, adapter trimming and quality filtering. These tools are often insufficiently fast as most are developed using high-level programming languages (e.g. Python and Java) and provide limited multi-threading support. Reading and loading data multiple times also renders preprocessing slow and I/O inefficient. Results We developed fastp as an ultra-fast FASTQ preprocessor with useful quality control and data-filtering features. It can perform quality control, adapter trimming, quality filtering, per-read quality pruning and many other operations with a single scan of the FASTQ data. This tool is developed in C++ and has multi-threading support. Based on our evaluation, fastp is 2\u20135 times faster than other FASTQ preprocessing tools such as Trimmomatic or Cutadapt despite performing far more operations than similar tools. Availability and implementation The open-source code and corresponding instructions are available at https://github.com/OpenGene/fastp.",
+      "publication_date": "2018-07-07",
+      "publication_year": 2018,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310311648",
+      "container_title": "Bioinformatics",
+      "volume": "34",
+      "issue": "17",
+      "pages": "i884-i890",
+      "issn": [
+        "1367-4803",
+        "1367-4811"
+      ],
+      "doi": "10.1093/bioinformatics/bty560",
+      "pmid": "30423086",
+      "openalex_id": "https://openalex.org/W2951912016",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Shifu Chen",
+            "orcid": "0000-0001-5799-653X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Shenzhen Institutes of Advanced Technology",
+              "ror_id": "https://ror.org/04gh4er46",
+              "country_code": "CN",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5002901852",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Yanqing Zhou",
+            "orcid": "0000-0002-9319-2579",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5052814282",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Yaru Chen",
+            "orcid": "0000-0003-2549-8880",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5037446400",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jia Gu",
+            "orcid": "0000-0001-7498-9892",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Shenzhen Institutes of Advanced Technology",
+              "ror_id": "https://ror.org/04gh4er46",
+              "country_code": "CN",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5100755117",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 26590,
+      "reference_count": 14,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2026": 844,
+        "2025": 7275,
+        "2024": 7077,
+        "2023": 4723,
+        "2022": 3443,
+        "2021": 2062,
+        "2020": 921,
+        "2019": 208,
+        "2018": 14,
+        "2017": 2,
+        "2016": 1,
+        "2013": 1
+      },
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/bty560",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i884/25702346/bty560.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/bty560",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by-nc",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/bty560",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i884/25702346/bty560.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/bty560",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by-nc",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30423086",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/30423086",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "http://europepmc.org/pmc/articles/PMC6129281",
+          "landing_page_url": "http://europepmc.org/pmc/articles/PMC6129281",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1303153112",
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6129281",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6129281",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i884/25702346/bty560.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "cc-by-nc",
+          "source": "openalex"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Advanced Data Storage Technologies",
+          "scheme": "openalex_topic",
+          "score": 0.9957000017166138,
+          "source": "openalex"
+        },
+        {
+          "value": "Parallel Computing and Optimization Techniques",
+          "scheme": "openalex_topic",
+          "score": 0.9876000285148621,
+          "source": "openalex"
+        },
+        {
+          "value": "Medical Imaging Techniques and Applications",
+          "scheme": "openalex_topic",
+          "score": 0.9836999773979187,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.8609876036643982,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Preprocessor",
+          "scheme": "openalex_concept",
+          "score": 0.8018463850021362,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Trimming",
+          "scheme": "openalex_concept",
+          "score": 0.7430148720741272,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Python (programming language)",
+          "scheme": "openalex_concept",
+          "score": 0.7330666780471802,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Adapter (computing)",
+          "scheme": "openalex_concept",
+          "score": 0.635664701461792,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Java",
+          "scheme": "openalex_concept",
+          "score": 0.55821692943573,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Data mining",
+          "scheme": "openalex_concept",
+          "score": 0.47421860694885254,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Data pre-processing",
+          "scheme": "openalex_concept",
+          "score": 0.47121161222457886,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Programming language",
+          "scheme": "openalex_concept",
+          "score": 0.43911799788475037,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Source code",
+          "scheme": "openalex_concept",
+          "score": 0.4322468638420105,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Operating system",
+          "scheme": "openalex_concept",
+          "score": 0.22665691375732422,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Industry, innovation and infrastructure",
+          "scheme": "SDG",
+          "score": 0.5099999904632568,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Programming Languages",
+          "descriptor_ui": "D011381",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Programming Languages",
+          "descriptor_ui": "D011381",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Programming Languages",
+          "descriptor_ui": "D011381",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Quality Control",
+          "descriptor_ui": "D011786",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Quality Control",
+          "descriptor_ui": "D011786",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Quality Control",
+          "descriptor_ui": "D011786",
+          "is_major_topic": true,
+          "source": "openalex"
+        }
+      ],
+      "keywords": [
+        "Computer science",
+        "Preprocessor",
+        "Trimming",
+        "Python (programming language)",
+        "Adapter (computing)",
+        "Java",
+        "Data mining",
+        "Data pre-processing",
+        "Programming language",
+        "Source code",
+        "Operating system"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 727.21011689,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 1.0,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 3618.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": true,
+      "raw": {},
+      "title": "fastp: an ultra-fast all-in-one FASTQ preprocessor",
+      "abstract": "Motivation Quality control and preprocessing of FASTQ files are essential to providing clean data for downstream analysis. Traditionally, a different tool is used for each operation, such as quality control, adapter trimming, and quality filtering. These tools are often insufficiently fast as most are developed using high-level programming languages (e.g., Python and Java) and provide limited multi-threading support. Reading and loading data multiple times also renders preprocessing slow and I/O inefficient. Results We developed fastp as an ultra-fast FASTQ preprocessor with useful quality control and data-filtering features. It can perform quality control, adapter trimming, quality filtering, per-read quality cutting, and many other operations with a single scan of the FASTQ data. It also supports unique molecular identifier preprocessing, poly tail trimming, output splitting, and base correction for paired-end data. It can automatically detect adapters for single-end and paired-end FASTQ data. This tool is developed in C++ and has multi-threading support. Based on our evaluation, fastp is 2\u20135 times faster than other FASTQ preprocessing tools such as Trimmomatic or Cutadapt despite performing far more operations than similar tools. Availability and Implementation The open-source code and corresponding instructions are available at https://github.com/OpenGene/fastp Contact chen@haplox.com",
+      "publication_date": "2018-03-01",
+      "publication_year": 2018,
+      "work_type": "JournalArticle",
+      "container_title": "Bioinformatics",
+      "volume": "34",
+      "pages": "i884 - i890",
+      "issn": [],
+      "doi": "10.1093/bioinformatics/bty560",
+      "pmid": "30423086",
+      "pmcid": "6129281",
+      "s2_paper_id": "0fa56e9ad5cc3da874ce5d1d9a1e868f6528db1b",
+      "s2_corpus_id": "52196534",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Shifu Chen",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "2107899473",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Yanqing Zhou",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "1693392242",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Yaru Chen",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "2108965220",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jia Gu",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "2216588748",
+          "sources": [
+            "semantic_scholar"
+          ]
+        }
+      ],
+      "citation_count": 20625,
+      "reference_count": 18,
+      "influential_citation_count": 4356,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2018/04/09/274100.full.pdf",
+          "host_type": "GREEN",
+          "is_best": false,
+          "source": "semantic_scholar"
+        }
+      ],
+      "best_oa_url": "https://www.biorxiv.org/content/biorxiv/early/2018/04/09/274100.full.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Biology",
+          "scheme": "s2_external",
+          "source": "semantic_scholar"
+        },
+        {
+          "value": "Computer Science",
+          "scheme": "s2_external",
+          "source": "semantic_scholar"
+        },
+        {
+          "value": "Medicine",
+          "scheme": "s2_external",
+          "source": "semantic_scholar"
+        },
+        {
+          "value": "Computer Science",
+          "scheme": "s2_s2-fos-model",
+          "source": "semantic_scholar"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "influential_citation_count",
+          "value": 4356.0,
+          "source": "semantic_scholar"
+        }
+      ],
+      "tldr": "Fastp is developed as an ultra-fast FASTQ preprocessor with useful quality control and data-filtering features that can perform quality control, adapter trimming, quality filtering, per-read quality cutting, and many other operations with a single scan of the FastQ data.",
+      "citation_styles": {
+        "bibtex": "@Article{Chen2018fastpAU,\n author = {Shifu Chen and Yanqing Zhou and Yaru Chen and Jia Gu},\n booktitle = {bioRxiv},\n journal = {Bioinformatics},\n pages = {i884 - i890},\n title = {fastp: an ultra-fast all-in-one FASTQ preprocessor},\n volume = {34},\n year = {2018}\n}\n"
+      },
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "fastp: an ultra-fast all-in-one FASTQ preprocessor",
+      "publication_date": "2018-07-07",
+      "publication_year": 2018,
+      "work_type": "journal-article",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "Bioinformatics",
+      "issn": [
+        "1367-4803",
+        "1367-4811"
+      ],
+      "doi": "10.1093/bioinformatics/bty560",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_locations": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i884/25702346/bty560.pdf",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i884/25702346/bty560.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/bty560",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by-nc",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i884/25702346/bty560.pdf",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i884/25702346/bty560.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/bty560",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by-nc",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6129281",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6129281",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i884/25702346/bty560.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "fastp: an ultra-fast all-in-one FASTQ preprocessor.",
+      "abstract": "<h4>Motivation</h4>Quality control and preprocessing of FASTQ files are essential to providing clean data for downstream analysis. Traditionally, a different tool is used for each operation, such as quality control, adapter trimming and quality filtering. These tools are often insufficiently fast as most are developed using high-level programming languages (e.g. Python and Java) and provide limited multi-threading support. Reading and loading data multiple times also renders preprocessing slow and I/O inefficient.<h4>Results</h4>We developed fastp as an ultra-fast FASTQ preprocessor with useful quality control and data-filtering features. It can perform quality control, adapter trimming, quality filtering, per-read quality pruning and many other operations with a single scan of the FASTQ data. This tool is developed in C++ and has multi-threading support. Based on our evaluation, fastp is 2-5 times faster than other FASTQ preprocessing tools such as Trimmomatic or Cutadapt despite performing far more operations than similar tools.<h4>Availability and implementation</h4>The open-source code and corresponding instructions are available at https://github.com/OpenGene/fastp.",
+      "publication_year": 2018,
+      "language": "eng",
+      "container_title": "Bioinformatics (Oxford, England)",
+      "volume": "34",
+      "issue": "17",
+      "pages": "i884-i890",
+      "issn": [],
+      "doi": "10.1093/bioinformatics/bty560",
+      "pmid": "30423086",
+      "pmcid": "PMC6129281",
+      "authors": [
+        {
+          "name": {
+            "given": "Shifu",
+            "family": "Chen",
+            "full_name": "Chen S",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Bioinformatics, HaploX Biotechnology, Shenzhen, China.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Yanqing",
+            "family": "Zhou",
+            "full_name": "Zhou Y",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Bioinformatics, HaploX Biotechnology, Shenzhen, China.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Yaru",
+            "family": "Chen",
+            "full_name": "Chen Y",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Bioinformatics, HaploX Biotechnology, Shenzhen, China.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jia",
+            "family": "Gu",
+            "full_name": "Gu J",
+            "orcid": "0000-0001-7498-9892",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 18103,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i884/25702346/bty560.pdf",
+          "host_type": "Unpaywall",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC6129281",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC6129281?pdf=render",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "61472411",
+          "agency": "National Science Foundation of China",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "JSGG20160229123927512",
+          "agency": "Special Funds for Future Industries of Shenzhen",
+          "pi_names": [],
+          "source": "europe_pmc"
+        }
+      ],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Humans",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Quality Control",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Programming Languages",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 18103.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [
+        {
+          "type": "Preprint in",
+          "id": "PPR14867",
+          "source": "PPR"
+        }
+      ],
+      "full_text_urls": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i884/25702346/bty560.pdf",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Unpaywall"
+        },
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/bty560",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC6129281",
+          "availability": "Open access",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC6129281?pdf=render",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openaire": {
+      "source": "openaire",
+      "found": false,
+      "error": "",
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/bty560",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/bty560",
+      "pmid": "19683066",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/bty560",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/bty560",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/bty560",
+      "authors": [
+        {
+          "name": {
+            "given": "Shifu",
+            "family": "Chen",
+            "full_name": "Shifu Chen",
+            "orcid": "0000-0001-5799-653X",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jia",
+            "family": "Gu",
+            "full_name": "Jia Gu",
+            "orcid": "0000-0001-7498-9892",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0001-5799-653X",
+          "given_names": "Shifu",
+          "family_names": "Chen",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "American Society of Clinical Oncology",
+            "Chinese Academy of Sciences"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0001-7498-9892",
+          "given_names": "Jia",
+          "family_names": "Gu",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "City University of Macau"
+          ],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "error": "",
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/bty560",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc_annotations": {
+      "source": "europe_pmc_annotations",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/bty560",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [
+        {
+          "annotation_type": "Cell Line",
+          "exact_text": "com",
+          "prefix": "e at https://github.",
+          "postfix": "/OpenGene/fastp.\n",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "CoMS",
+              "uri": "http://web.expasy.org/cellosaurus/CVCL_L345"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Diseases",
+          "exact_text": "cancer",
+          "prefix": "2015 ) and",
+          "postfix": "diagnosis.",
+          "section": "Introduction (http://purl.org/orb/Introduction)",
+          "tags": [
+            {
+              "name": "malignant neoplastic primary",
+              "uri": "http://linkedlifedata.com/resource/umls-concept/C1306459"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Experimental Methods",
+          "exact_text": "biopsy",
+          "prefix": "For example, liquid",
+          "postfix": "technology ( Esposito",
+          "section": "Introduction (http://purl.org/orb/Introduction)",
+          "tags": [
+            {
+              "name": "biopsy",
+              "uri": "http://www.ebi.ac.uk/efo/EFO_0009120"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Diseases",
+          "exact_text": "cancer",
+          "prefix": "which seeks out",
+          "postfix": "-related biomarkers in the",
+          "section": "Introduction (http://purl.org/orb/Introduction)",
+          "tags": [
+            {
+              "name": "malignant neoplastic primary",
+              "uri": "http://linkedlifedata.com/resource/umls-concept/C1306459"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Diseases",
+          "exact_text": "cancer",
+          "prefix": "used to facilitate",
+          "postfix": "diagnosis and personalized",
+          "section": "Introduction (http://purl.org/orb/Introduction)",
+          "tags": [
+            {
+              "name": "malignant neoplastic primary",
+              "uri": "http://linkedlifedata.com/resource/umls-concept/C1306459"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Experimental Methods",
+          "exact_text": "biopsy",
+          "prefix": "technology in liquid",
+          "postfix": ", cell-free tumor DNA",
+          "section": "Introduction (http://purl.org/orb/Introduction)",
+          "tags": [
+            {
+              "name": "biopsy",
+              "uri": "http://www.ebi.ac.uk/efo/EFO_0009120"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Diseases",
+          "exact_text": "tumor",
+          "prefix": "liquid biopsy, cell-free",
+          "postfix": "DNA (ctDNA) sequencing",
+          "section": "Introduction (http://purl.org/orb/Introduction)",
+          "tags": [
+            {
+              "name": "tumor mass",
+              "uri": "http://linkedlifedata.com/resource/umls-concept/C3273930"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Diseases",
+          "exact_text": "tumor",
+          "prefix": "used to detect",
+          "postfix": "-derived DNA fragments from",
+          "section": "Introduction (http://purl.org/orb/Introduction)",
+          "tags": [
+            {
+              "name": "tumor mass",
+              "uri": "http://linkedlifedata.com/resource/umls-concept/C3273930"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Chemicals",
+          "exact_text": "nucleotide",
+          "prefix": "er(seed) forward_tree = build_",
+          "postfix": "_tree(seqs_after_seed) found =",
+          "section": "Methods (http://purl.org/orb/Methods)",
+          "tags": [
+            {
+              "name": "nucleotide",
+              "uri": "http://purl.obolibrary.org/obo/CHEBI_36976"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Chemicals",
+          "exact_text": "nucleotide",
+          "prefix": "e(seed) backward_tree = build_",
+          "postfix": "_tree(seqs_before_seed) node =",
+          "section": "Methods (http://purl.org/orb/Methods)",
+          "tags": [
+            {
+              "name": "nucleotide",
+              "uri": "http://purl.obolibrary.org/obo/CHEBI_36976"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Chemicals",
+          "exact_text": "nucleotide",
+          "prefix": "1, the function build_",
+          "postfix": "_tree() is used to",
+          "section": "Methods (http://purl.org/orb/Methods)",
+          "tags": [
+            {
+              "name": "nucleotide",
+              "uri": "http://purl.obolibrary.org/obo/CHEBI_36976"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Chemicals",
+          "exact_text": "nucleotide",
+          "prefix": "node is a",
+          "postfix": "and each path",
+          "section": "Methods (http://purl.org/orb/Methods)",
+          "tags": [
+            {
+              "name": "nucleotide",
+              "uri": "http://purl.obolibrary.org/obo/CHEBI_36976"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Gene Ontology",
+          "exact_text": "synthesis",
+          "prefix": "the sequencing by",
+          "postfix": "proceeds to subsequent",
+          "section": "Methods (http://purl.org/orb/Methods)",
+          "tags": [
+            {
+              "name": "pseudouridine synthesis",
+              "uri": "http://identifiers.org/GO:0001522"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Experimental Methods",
+          "exact_text": "PCR",
+          "prefix": "artifacts such as",
+          "postfix": "over-duplication, polyG tails",
+          "section": "Methods (http://purl.org/orb/Methods)",
+          "tags": [
+            {
+              "name": "pcr",
+              "uri": "http://purl.obolibrary.org/obo/OBI_0000415"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Organisms",
+          "exact_text": "humans",
+          "prefix": "easily readable by",
+          "postfix": ".",
+          "section": "Methods (http://purl.org/orb/Methods)",
+          "tags": [
+            {
+              "name": "humans",
+              "uri": "http://identifiers.org/taxonomy/9605"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Diseases",
+          "exact_text": "cancer",
+          "prefix": "widely used in",
+          "postfix": "sequencing, especially ctDNA",
+          "section": "Results (http://purl.org/orb/Results)",
+          "tags": [
+            {
+              "name": "malignant neoplastic primary",
+              "uri": "http://linkedlifedata.com/resource/umls-concept/C1306459"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        }
+      ],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1093/bioinformatics/bty560",
+    "pmid": "30423086",
+    "pmcid": "PMC6129281",
+    "openalex_id": "https://openalex.org/W2951912016",
+    "s2_paper_id": "0fa56e9ad5cc3da874ce5d1d9a1e868f6528db1b",
+    "s2_corpus_id": "52196534",
+    "handles": [],
+    "orcids": [
+      "0000-0001-5799-653X",
+      "0000-0001-7498-9892",
+      "0000-0002-9319-2579",
+      "0000-0003-2549-8880"
+    ],
+    "ror_ids": [
+      "https://ror.org/04gh4er46"
+    ],
+    "grant_ids": [
+      "61472411",
+      "JSGG20160229123927512"
+    ],
+    "nct_ids": [],
+    "pmid_source": "europe_pmc",
+    "pmcid_source": "europe_pmc"
+  },
+  "conflicts": {
+    "doi": "10.1093/bioinformatics/bty560",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 23484,
+          "openalex": 26590,
+          "semantic_scholar": 20625,
+          "europe_pmc": 18103
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 16,
+          "openalex": 14,
+          "semantic_scholar": 18
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "semantic_scholar": "JournalArticle",
+          "unpaywall": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 4,
+          "openalex": 4,
+          "semantic_scholar": 4,
+          "unpaywall": 4,
+          "europe_pmc": 4,
+          "orcid": 2
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Oxford University Press (OUP)",
+          "openalex": "https://openalex.org/P4310311648",
+          "unpaywall": "Oxford University Press (OUP)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Bioinformatics",
+          "openalex": "Bioinformatics",
+          "semantic_scholar": "Bioinformatics",
+          "unpaywall": "Bioinformatics",
+          "europe_pmc": "Bioinformatics (Oxford, England)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "mesh_term_count",
+        "values": {
+          "openalex": 9,
+          "europe_pmc": 3
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 2,
+    "conflict_count": 8
+  },
+  "datacite_linked_datasets": [
+    {
+      "identifier": "10.26008/1912/bco-dmo.942938.1",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Gene expression of Pocillopora damicornis collected from reef of Heron Island, southern Great Barrier Reef from Jan 2021 to Feb 2021",
+      "publisher": "Biological and Chemical Oceanography Data Management Office (BCO-DMO)",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.26008/1912/bco-dmo.969228.1",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Metagenome profiles of common emergent Caribbean sponges collected from temporary artificial reef in the Florida Keys, USA in Jan 2022",
+      "publisher": "Biological and Chemical Oceanography Data Management Office (BCO-DMO)",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.25333388.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Additional file 1 of Host genotype-specific rhizosphere fungus enhances drought resistance in wheat",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.24123918.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Additional file 1 of Genome and whole-genome resequencing of Cinnamomum camphora elucidate its dominance in subtropical urban landscapes",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26743277.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Additional file 5 of Congenital syndromic Chiari-like malformation (CSCM) in Holstein cattle: towards unravelling of possible genetic causes",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.24715466.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Additional file 1 of A comprehensive multiomics approach reveals that high levels of sphingolipids in cardiac cachexia adipose tissue are associated with inflammatory and fibrotic changes",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26648178.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Additional file 4 of A comprehensive multiomics approach reveals that high levels of sphingolipids in cardiac cachexia adipose tissue are associated with inflammatory and fibrotic changes",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26648175.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Additional file 3 of A comprehensive multiomics approach reveals that high levels of sphingolipids in cardiac cachexia adipose tissue are associated with inflammatory and fibrotic changes",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26643529.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Additional file 2 of Integrating compositional and functional content to describe vaginal microbiomes in health and disease",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26702611.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Additional file 3 of Integrative metagenomic analysis reveals distinct gut microbial signatures related to obesity",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26682025.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Additional file 2 of Validated WGS and WES protocols proved saliva-derived gDNA as an equivalent to blood-derived gDNA for clinical and population genomic analyses",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26643547.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Additional file 7 of Integrating compositional and functional content to describe vaginal microbiomes in health and disease",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.27129528",
+      "identifier_type": "DOI",
+      "resource_type": "Image",
+      "title": "Additional file 1 of An efficient multiplex approach to CRISPR/Cas9 gene editing in citrus",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.27129528.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Image",
+      "title": "Additional file 1 of An efficient multiplex approach to CRISPR/Cas9 gene editing in citrus",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.27129531",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Additional file 2 of An efficient multiplex approach to CRISPR/Cas9 gene editing in citrus",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.27129531.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Additional file 2 of An efficient multiplex approach to CRISPR/Cas9 gene editing in citrus",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.27129563.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of Whole genome sequencing and characterization of Corynebacterium isolated from the healthy and dry eye ocular surface",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.27129563",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of Whole genome sequencing and characterization of Corynebacterium isolated from the healthy and dry eye ocular surface",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.27042284.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Additional file 2 of Application and insights of targeted next-generation sequencing in a large cohort of 46,XY disorders of sex development in Chinese",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.27042284",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Additional file 2 of Application and insights of targeted next-generation sequencing in a large cohort of 46,XY disorders of sex development in Chinese",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.27042281",
+      "identifier_type": "DOI",
+      "resource_type": "Image",
+      "title": "Additional file 1 of Application and insights of targeted next-generation sequencing in a large cohort of 46,XY disorders of sex development in Chinese",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.27042281.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Image",
+      "title": "Additional file 1 of Application and insights of targeted next-generation sequencing in a large cohort of 46,XY disorders of sex development in Chinese",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.27022788",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of Late Pleistocene polar bear genomes reveal the timing of allele fixation in key genes associated with Arctic adaptation",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.27022791",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Additional file 2 of Late Pleistocene polar bear genomes reveal the timing of allele fixation in key genes associated with Arctic adaptation",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.27022788.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of Late Pleistocene polar bear genomes reveal the timing of allele fixation in key genes associated with Arctic adaptation",
+      "publisher": "figshare",
+      "source": "datacite"
+    }
+  ],
+  "analyses": {
+    "impact": {
+      "doi": "10.1093/bioinformatics/bty560",
+      "citation_comparison": {
+        "values": {
+          "crossref": 23484,
+          "openalex": 26590,
+          "semantic_scholar": 20625,
+          "europe_pmc": 18103
+        },
+        "min": 18103,
+        "max": 26590,
+        "spread": 8487,
+        "median": 23484
+      },
+      "fwci": 727.21011689,
+      "citation_percentile": 1.0,
+      "influential_citation_count": 4356,
+      "influential_ratio": 0.211,
+      "citation_trend": [
+        {
+          "year": 2013,
+          "count": 1
+        },
+        {
+          "year": 2016,
+          "count": 1
+        },
+        {
+          "year": 2017,
+          "count": 2
+        },
+        {
+          "year": 2018,
+          "count": 14
+        },
+        {
+          "year": 2019,
+          "count": 208
+        },
+        {
+          "year": 2020,
+          "count": 921
+        },
+        {
+          "year": 2021,
+          "count": 2062
+        },
+        {
+          "year": 2022,
+          "count": 3443
+        },
+        {
+          "year": 2023,
+          "count": 4723
+        },
+        {
+          "year": 2024,
+          "count": 7077
+        },
+        {
+          "year": 2025,
+          "count": 7275
+        },
+        {
+          "year": 2026,
+          "count": 844
+        }
+      ],
+      "trend_direction": "declining",
+      "dataset_reuse_count": 25,
+      "narrative": "Cited ~23484 times across sources. (counts range 18103\u201326590, significant cross-source divergence). FWCI 727.2x field average. 21% of citations are influential (S2), well above typical ~2%. Citation trend: declining. 25 downstream datasets reference this work."
+    },
+    "funding": {
+      "doi": "10.1093/bioinformatics/bty560",
+      "total_funders": 2,
+      "total_grants": 2,
+      "entries": [
+        {
+          "grant_id": "JSGG20160229123927512",
+          "funder_name": "Special Funds for Future Industries of Shenzhen",
+          "award_numbers": [],
+          "pi_names": [],
+          "sources": [
+            "crossref",
+            "europe_pmc"
+          ]
+        },
+        {
+          "grant_id": "61472411",
+          "funder_name": "National Science Foundation of China",
+          "funder_doi": "10.13039/501100001809",
+          "award_numbers": [],
+          "pi_names": [],
+          "sources": [
+            "crossref",
+            "europe_pmc"
+          ]
+        }
+      ],
+      "nih_grants": [],
+      "eu_grants": [],
+      "other_grants": [
+        {
+          "grant_id": "JSGG20160229123927512",
+          "funder_name": "Special Funds for Future Industries of Shenzhen",
+          "award_numbers": [],
+          "pi_names": [],
+          "sources": [
+            "crossref",
+            "europe_pmc"
+          ]
+        },
+        {
+          "grant_id": "61472411",
+          "funder_name": "National Science Foundation of China",
+          "funder_doi": "10.13039/501100001809",
+          "award_numbers": [],
+          "pi_names": [],
+          "sources": [
+            "crossref",
+            "europe_pmc"
+          ]
+        }
+      ],
+      "funding_agencies": [
+        "National Science Foundation of China",
+        "Special Funds for Future Industries of Shenzhen"
+      ],
+      "narrative": "Funded by 2 agencies across 2 grants. 2 grants confirmed by multiple sources."
+    },
+    "dataset_reuse": {
+      "doi": "10.1093/bioinformatics/bty560",
+      "datacite_linked_datasets": [
+        {
+          "identifier": "10.26008/1912/bco-dmo.942938.1",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Gene expression of Pocillopora damicornis collected from reef of Heron Island, southern Great Barrier Reef from Jan 2021 to Feb 2021",
+          "publisher": "Biological and Chemical Oceanography Data Management Office (BCO-DMO)",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.26008/1912/bco-dmo.969228.1",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Metagenome profiles of common emergent Caribbean sponges collected from temporary artificial reef in the Florida Keys, USA in Jan 2022",
+          "publisher": "Biological and Chemical Oceanography Data Management Office (BCO-DMO)",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.25333388.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Additional file 1 of Host genotype-specific rhizosphere fungus enhances drought resistance in wheat",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.24123918.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Additional file 1 of Genome and whole-genome resequencing of Cinnamomum camphora elucidate its dominance in subtropical urban landscapes",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26743277.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Additional file 5 of Congenital syndromic Chiari-like malformation (CSCM) in Holstein cattle: towards unravelling of possible genetic causes",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.24715466.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Additional file 1 of A comprehensive multiomics approach reveals that high levels of sphingolipids in cardiac cachexia adipose tissue are associated with inflammatory and fibrotic changes",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26648178.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Additional file 4 of A comprehensive multiomics approach reveals that high levels of sphingolipids in cardiac cachexia adipose tissue are associated with inflammatory and fibrotic changes",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26648175.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Additional file 3 of A comprehensive multiomics approach reveals that high levels of sphingolipids in cardiac cachexia adipose tissue are associated with inflammatory and fibrotic changes",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26643529.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Additional file 2 of Integrating compositional and functional content to describe vaginal microbiomes in health and disease",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26702611.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Additional file 3 of Integrative metagenomic analysis reveals distinct gut microbial signatures related to obesity",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26682025.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Additional file 2 of Validated WGS and WES protocols proved saliva-derived gDNA as an equivalent to blood-derived gDNA for clinical and population genomic analyses",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26643547.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Additional file 7 of Integrating compositional and functional content to describe vaginal microbiomes in health and disease",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.27129528",
+          "identifier_type": "DOI",
+          "resource_type": "Image",
+          "title": "Additional file 1 of An efficient multiplex approach to CRISPR/Cas9 gene editing in citrus",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.27129528.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Image",
+          "title": "Additional file 1 of An efficient multiplex approach to CRISPR/Cas9 gene editing in citrus",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.27129531",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Additional file 2 of An efficient multiplex approach to CRISPR/Cas9 gene editing in citrus",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.27129531.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Additional file 2 of An efficient multiplex approach to CRISPR/Cas9 gene editing in citrus",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.27129563.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of Whole genome sequencing and characterization of Corynebacterium isolated from the healthy and dry eye ocular surface",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.27129563",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of Whole genome sequencing and characterization of Corynebacterium isolated from the healthy and dry eye ocular surface",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.27042284.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Additional file 2 of Application and insights of targeted next-generation sequencing in a large cohort of 46,XY disorders of sex development in Chinese",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.27042284",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Additional file 2 of Application and insights of targeted next-generation sequencing in a large cohort of 46,XY disorders of sex development in Chinese",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.27042281",
+          "identifier_type": "DOI",
+          "resource_type": "Image",
+          "title": "Additional file 1 of Application and insights of targeted next-generation sequencing in a large cohort of 46,XY disorders of sex development in Chinese",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.27042281.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Image",
+          "title": "Additional file 1 of Application and insights of targeted next-generation sequencing in a large cohort of 46,XY disorders of sex development in Chinese",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.27022788",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of Late Pleistocene polar bear genomes reveal the timing of allele fixation in key genes associated with Arctic adaptation",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.27022791",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Additional file 2 of Late Pleistocene polar bear genomes reveal the timing of allele fixation in key genes associated with Arctic adaptation",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.27022788.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of Late Pleistocene polar bear genomes reveal the timing of allele fixation in key genes associated with Arctic adaptation",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        }
+      ],
+      "datacite_linked_count": 25,
+      "publishers_breakdown": {
+        "figshare": 23,
+        "Biological and Chemical Oceanography Data Management Office (BCO-DMO)": 2
+      },
+      "supplements_to": [],
+      "supplemented_by": [],
+      "cites": [],
+      "cited_by": [],
+      "derived_from": [],
+      "source_of": [],
+      "parts": [],
+      "other_relations": [],
+      "related_software": [],
+      "related_data": [],
+      "file_count": 0,
+      "file_types": [],
+      "narrative": "25 downstream datasets reference this work (mostly from figshare: 23)."
+    },
+    "authors": {
+      "doi": "10.1093/bioinformatics/bty560",
+      "authors": [
+        {
+          "given": "Shifu",
+          "family": "Chen",
+          "full_name": "Shifu Chen",
+          "orcid": "0000-0001-5799-653X",
+          "authenticated_orcid": false,
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5002901852",
+          "affiliations": [
+            {
+              "name": "Shenzhen Institutes of Advanced Technology",
+              "ror_id": "https://ror.org/04gh4er46",
+              "country_code": "CN",
+              "source": "openalex"
+            },
+            {
+              "name": "Department of Bioinformatics, HaploX Biotechnology, Shenzhen, China",
+              "source": "crossref"
+            },
+            {
+              "name": "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China",
+              "source": "crossref"
+            },
+            {
+              "name": "Department of Bioinformatics, HaploX Biotechnology, Shenzhen, China.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "openalex",
+            "orcid",
+            "crossref",
+            "europe_pmc"
+          ],
+          "name_variants": [
+            "Shifu Chen",
+            "Chen S"
+          ]
+        },
+        {
+          "full_name": "Yanqing Zhou",
+          "orcid": "0000-0002-9319-2579",
+          "authenticated_orcid": false,
+          "openalex_author_id": "https://openalex.org/A5052814282",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": [
+            "Yanqing Zhou"
+          ]
+        },
+        {
+          "full_name": "Yaru Chen",
+          "orcid": "0000-0003-2549-8880",
+          "authenticated_orcid": false,
+          "openalex_author_id": "https://openalex.org/A5037446400",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": [
+            "Yaru Chen"
+          ]
+        },
+        {
+          "given": "Jia",
+          "family": "Gu",
+          "full_name": "Jia Gu",
+          "orcid": "0000-0001-7498-9892",
+          "authenticated_orcid": false,
+          "openalex_author_id": "https://openalex.org/A5100755117",
+          "affiliations": [
+            {
+              "name": "Shenzhen Institutes of Advanced Technology",
+              "ror_id": "https://ror.org/04gh4er46",
+              "country_code": "CN",
+              "source": "openalex"
+            },
+            {
+              "name": "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "openalex",
+            "europe_pmc",
+            "orcid",
+            "crossref"
+          ],
+          "name_variants": [
+            "Gu J",
+            "Jia Gu"
+          ]
+        },
+        {
+          "given": "Yanqing",
+          "family": "Zhou",
+          "full_name": "Yanqing Zhou",
+          "authenticated_orcid": false,
+          "sequence": "additional",
+          "affiliations": [
+            {
+              "name": "Department of Bioinformatics, HaploX Biotechnology, Shenzhen, China",
+              "source": "crossref"
+            },
+            {
+              "name": "Department of Bioinformatics, HaploX Biotechnology, Shenzhen, China.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "crossref",
+            "europe_pmc"
+          ],
+          "name_variants": [
+            "Zhou Y"
+          ]
+        },
+        {
+          "given": "Yaru",
+          "family": "Chen",
+          "full_name": "Yaru Chen",
+          "authenticated_orcid": false,
+          "sequence": "additional",
+          "affiliations": [
+            {
+              "name": "Department of Bioinformatics, HaploX Biotechnology, Shenzhen, China",
+              "source": "crossref"
+            },
+            {
+              "name": "Department of Bioinformatics, HaploX Biotechnology, Shenzhen, China.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "crossref",
+            "europe_pmc"
+          ],
+          "name_variants": [
+            "Chen Y"
+          ]
+        },
+        {
+          "full_name": "Shifu Chen",
+          "authenticated_orcid": false,
+          "s2_author_id": "2107899473",
+          "affiliations": [],
+          "sources": [
+            "semantic_scholar"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Yanqing Zhou",
+          "authenticated_orcid": false,
+          "s2_author_id": "1693392242",
+          "affiliations": [],
+          "sources": [
+            "semantic_scholar"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Yaru Chen",
+          "authenticated_orcid": false,
+          "s2_author_id": "2108965220",
+          "affiliations": [],
+          "sources": [
+            "semantic_scholar"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Jia Gu",
+          "authenticated_orcid": false,
+          "s2_author_id": "2216588748",
+          "affiliations": [],
+          "sources": [
+            "semantic_scholar"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        }
+      ],
+      "total_authors": 14,
+      "authors_with_orcid": 4,
+      "authors_with_authenticated_orcid": 0,
+      "unique_institutions": [
+        "Department of Bioinformatics, HaploX Biotechnology, Shenzhen, China",
+        "Department of Bioinformatics, HaploX Biotechnology, Shenzhen, China.",
+        "Shenzhen Institutes of Advanced Technology",
+        "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China",
+        "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China."
+      ],
+      "unique_countries": [
+        "CN"
+      ],
+      "orcid_coverage": 0.286,
+      "author_count_by_source": {
+        "crossref": 4,
+        "openalex": 4,
+        "semantic_scholar": 4,
+        "unpaywall": 4,
+        "europe_pmc": 4,
+        "orcid": 2
+      },
+      "narrative": "14 unique authors across 6 sources. 4 have ORCID (28% coverage). 5 institutions. Spanning 1 countries (CN). Author count varies: 2\u20134 across sources. 4 authors confirmed by multiple sources."
+    },
+    "grant_siblings": {
+      "doi": "10.1093/bioinformatics/bty560",
+      "grants_with_siblings": [
+        {
+          "grant_id": "61472411",
+          "agency": "National Science Foundation of China",
+          "pi_names": [],
+          "sibling_pmid_count": 0,
+          "sibling_pmids": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "grant_id": "JSGG20160229123927512",
+          "agency": "Special Funds for Future Industries of Shenzhen",
+          "pi_names": [],
+          "sibling_pmid_count": 0,
+          "sibling_pmids": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "total_sibling_pmids": 0,
+      "unique_sibling_pmids": 0,
+      "most_prolific_count": 0,
+      "multi_grant_pmids": 0,
+      "narrative": "2 grants identified but no sibling publication data available."
+    },
+    "oa_audit": {
+      "doi": "10.1093/bioinformatics/bty560",
+      "source_claims": [
+        {
+          "source": "openalex",
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "best_url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i884/25702346/bty560.pdf",
+          "version": "publishedVersion",
+          "license": "cc-by-nc",
+          "host_type": "journal"
+        },
+        {
+          "source": "semantic_scholar",
+          "is_oa": true,
+          "best_url": "https://www.biorxiv.org/content/biorxiv/early/2018/04/09/274100.full.pdf",
+          "host_type": "GREEN"
+        },
+        {
+          "source": "unpaywall",
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "best_url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i884/25702346/bty560.pdf",
+          "version": "publishedVersion",
+          "license": "cc-by-nc",
+          "host_type": "publisher",
+          "evidence": "deprecated"
+        },
+        {
+          "source": "europe_pmc",
+          "is_oa": true,
+          "host_type": "Unpaywall"
+        }
+      ],
+      "consensus_is_oa": true,
+      "consensus_status": "hybrid",
+      "status_agrees": true,
+      "all_locations": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i884/50582648/bioinformatics_34_17_i884.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/bty560",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i884/25702346/bty560.pdf",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by-nc",
+          "repository": "https://openalex.org/P4310311648",
+          "is_best": true,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30423086",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "repository": "https://openalex.org/I1299303238",
+          "is_best": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "url": "http://europepmc.org/pmc/articles/PMC6129281",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "repository": "https://openalex.org/I1303153112",
+          "is_best": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6129281",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "repository": "https://openalex.org/I1299303238",
+          "is_best": false,
+          "sources": [
+            "openalex",
+            "unpaywall"
+          ]
+        },
+        {
+          "url": "https://www.biorxiv.org/content/biorxiv/early/2018/04/09/274100.full.pdf",
+          "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2018/04/09/274100.full.pdf",
+          "host_type": "GREEN",
+          "is_best": false,
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i884/25702346/bty560.pdf",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i884/25702346/bty560.pdf",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by-nc",
+          "is_best": true,
+          "evidence": "deprecated",
+          "sources": [
+            "unpaywall",
+            "europe_pmc"
+          ]
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC6129281",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC6129281?pdf=render",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "total_locations": 9,
+      "has_publisher_version": true,
+      "has_accepted_manuscript": false,
+      "has_repository_copy": true,
+      "licenses_found": [
+        "cc-by-nc",
+        "http://creativecommons.org/licenses/by-nc/4.0/"
+      ],
+      "status_conflict": false,
+      "conflicting_statuses": {},
+      "narrative": "Open Access (hybrid). 9 unique OA locations found. Publisher version available. Repository copy available. 2 locations confirmed by multiple sources. Licenses: cc-by-nc, http://creativecommons.org/licenses/by-nc/4.0/."
+    },
+    "topics": {
+      "doi": "10.1093/bioinformatics/bty560",
+      "fields_of_study": [
+        {
+          "value": "Advanced Data Storage Technologies",
+          "scheme": "openalex_topic",
+          "score": 0.9957000017166138,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Parallel Computing and Optimization Techniques",
+          "scheme": "openalex_topic",
+          "score": 0.9876000285148621,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Medical Imaging Techniques and Applications",
+          "scheme": "openalex_topic",
+          "score": 0.9836999773979187,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Biology",
+          "scheme": "s2_external",
+          "is_major": false,
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "value": "Computer Science",
+          "scheme": "s2_external",
+          "is_major": false,
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "value": "Medicine",
+          "scheme": "s2_external",
+          "is_major": false,
+          "sources": [
+            "semantic_scholar"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "value": "Computer science",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Preprocessor",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Trimming",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Python (programming language)",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Adapter (computing)",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Java",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Data mining",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Data pre-processing",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Programming language",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Source code",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Operating system",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Programming Languages",
+          "descriptor_ui": "D011381",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Programming Languages",
+          "descriptor_ui": "D011381",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Programming Languages",
+          "descriptor_ui": "D011381",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Quality Control",
+          "descriptor_ui": "D011786",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Quality Control",
+          "descriptor_ui": "D011786",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Quality Control",
+          "descriptor_ui": "D011786",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Humans",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Quality Control",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Programming Languages",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "sdg_mappings": [
+        {
+          "sdg_label": "Industry, innovation and infrastructure",
+          "score": 0.5099999904632568,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "openalex_concepts": [
+        {
+          "value": "Data mining",
+          "scheme": "openalex_concept",
+          "score": 0.47421860694885254,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Programming language",
+          "scheme": "openalex_concept",
+          "score": 0.43911799788475037,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Operating system",
+          "scheme": "openalex_concept",
+          "score": 0.22665691375732422,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Preprocessor",
+          "scheme": "openalex_concept",
+          "score": 0.8018463850021362,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Trimming",
+          "scheme": "openalex_concept",
+          "score": 0.7430148720741272,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Python (programming language)",
+          "scheme": "openalex_concept",
+          "score": 0.7330666780471802,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Adapter (computing)",
+          "scheme": "openalex_concept",
+          "score": 0.635664701461792,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Java",
+          "scheme": "openalex_concept",
+          "score": 0.55821692943573,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Data pre-processing",
+          "scheme": "openalex_concept",
+          "score": 0.47121161222457886,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Source code",
+          "scheme": "openalex_concept",
+          "score": 0.4322468638420105,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.8609876036643982,
+          "level": 0,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "s2_fields": [],
+      "asjc_subjects": [],
+      "all_topics_flat": [
+        "Adapter (computing)",
+        "Advanced Data Storage Technologies",
+        "Biology",
+        "Computer Science",
+        "Computer science",
+        "Data mining",
+        "Data pre-processing",
+        "Humans",
+        "Java",
+        "Medical Imaging Techniques and Applications",
+        "Medicine",
+        "Operating system",
+        "Parallel Computing and Optimization Techniques",
+        "Preprocessor",
+        "Programming Languages",
+        "Programming language",
+        "Python (programming language)",
+        "Quality Control",
+        "Source code",
+        "Trimming"
+      ],
+      "vocabulary_count": 7,
+      "topics_by_vocabulary": {
+        "openalex_topic": 1,
+        "OpenAlex_Concepts": 1,
+        "SDG": 1,
+        "Keywords": 1,
+        "MeSH": 12,
+        "s2_external": 1,
+        "FOS": 1
+      },
+      "narrative": "Classified in 7 vocabularies. Fields of study: Advanced Data Storage Technologies, Parallel Computing and Optimization Techniques, Medical Imaging Techniques and Applications. Major MeSH terms: Quality Control, Quality Control, Quality Control. SDG alignment: Industry, innovation and infrastructure. Broad concepts: Data mining, Programming language, Operating system. 11 unique keywords."
+    }
+  },
+  "discrepancy_report": {
+    "doi": "10.1093/bioinformatics/bty560",
+    "sources_queried": 11,
+    "sources_found": 8,
+    "sources_not_found": 5,
+    "sources_errored": 0,
+    "total_discrepancies": 6,
+    "high_risk_count": 1,
+    "medium_risk_count": 1,
+    "low_risk_count": 4,
+    "data_completeness_score": 1.0,
+    "source_coverage": [
+      {
+        "source": "crossref",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": false,
+        "has_funding": true,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "datacite",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "openalex",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": false,
+        "has_subjects": true,
+        "has_related_works": false
+      },
+      {
+        "source": "semantic_scholar",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": false,
+        "has_subjects": true,
+        "has_related_works": false
+      },
+      {
+        "source": "unpaywall",
+        "found": true,
+        "has_title": true,
+        "has_citations": false,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "europe_pmc",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": true,
+        "has_subjects": true,
+        "has_related_works": false
+      },
+      {
+        "source": "openaire",
+        "found": false,
+        "error": "",
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "nih_reporter",
+        "found": true,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "zenodo",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "dryad",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "orcid",
+        "found": true,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": true,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "entrez",
+        "found": false,
+        "error": "",
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "europe_pmc_annotations",
+        "found": true,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      }
+    ],
+    "scalar_discrepancies": [
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "semantic_scholar": "JournalArticle",
+          "unpaywall": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Oxford University Press (OUP)",
+          "openalex": "https://openalex.org/P4310311648",
+          "unpaywall": "Oxford University Press (OUP)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Bioinformatics",
+          "openalex": "Bioinformatics",
+          "semantic_scholar": "Bioinformatics",
+          "unpaywall": "Bioinformatics",
+          "europe_pmc": "Bioinformatics (Oxford, England)"
+        },
+        "risk": "low"
+      }
+    ],
+    "citations": {
+      "counts_by_source": {
+        "crossref": 23484,
+        "openalex": 26590,
+        "semantic_scholar": 20625,
+        "europe_pmc": 18103
+      },
+      "min_count": 18103,
+      "max_count": 26590,
+      "median_count": 22054,
+      "spread": 8487,
+      "spread_pct": 31.9,
+      "divergence_level": "medium",
+      "outlier_sources": []
+    },
+    "oa_status": {
+      "is_oa_by_source": {
+        "openalex": true,
+        "semantic_scholar": true,
+        "unpaywall": true,
+        "europe_pmc": true
+      },
+      "status_by_source": {
+        "openalex": "hybrid",
+        "unpaywall": "hybrid"
+      },
+      "is_oa_agrees": true,
+      "status_agrees": true,
+      "consensus_is_oa": true,
+      "consensus_status": "hybrid",
+      "unique_oa_urls": 9,
+      "sources_only_in": {
+        "openalex": [
+          "https://pubmed.ncbi.nlm.nih.gov/30423086",
+          "http://europepmc.org/pmc/articles/PMC6129281"
+        ],
+        "semantic_scholar": [
+          "https://www.biorxiv.org/content/biorxiv/early/2018/04/09/274100.full.pdf"
+        ],
+        "europe_pmc": [
+          "https://europepmc.org/articles/PMC6129281",
+          "https://europepmc.org/articles/PMC6129281?pdf=render"
+        ]
+      }
+    },
+    "authors": {
+      "count_by_source": {
+        "crossref": 4,
+        "openalex": 4,
+        "semantic_scholar": 4,
+        "unpaywall": 4,
+        "europe_pmc": 4,
+        "orcid": 2
+      },
+      "count_agrees": false,
+      "min_count": 2,
+      "max_count": 4,
+      "orcid_coverage": 0.286,
+      "sources_missing_orcids": [
+        "crossref",
+        "semantic_scholar",
+        "unpaywall"
+      ],
+      "name_variant_examples": [
+        "Shifu Chen / Chen S",
+        "Gu J / Jia Gu"
+      ]
+    },
+    "funding": {
+      "grant_count_by_source": {
+        "crossref": 2,
+        "europe_pmc": 2
+      },
+      "total_unique_grants": 2,
+      "grants_single_source": 0,
+      "grants_multi_source": 2,
+      "sources_with_no_funding": [
+        "openalex",
+        "semantic_scholar",
+        "unpaywall",
+        "nih_reporter",
+        "orcid",
+        "europe_pmc_annotations"
+      ],
+      "sources_with_funding": [
+        "crossref",
+        "europe_pmc"
+      ]
+    },
+    "references": {
+      "count_by_source": {
+        "crossref": 16,
+        "openalex": 14,
+        "semantic_scholar": 18
+      },
+      "count_agrees": false,
+      "min_count": 14,
+      "max_count": 18
+    },
+    "topics": {
+      "vocabulary_count": 7,
+      "topics_by_source": {
+        "openalex": 35,
+        "semantic_scholar": 4,
+        "europe_pmc": 3
+      },
+      "multi_source_topics": 0,
+      "single_source_topics": 17
+    },
+    "related_works": {
+      "related_count_by_source": {},
+      "datacite_reverse_count": 25,
+      "software_links": 0,
+      "data_links": 0,
+      "has_version_chain": false
+    },
+    "narrative": "8 of 13 sources returned data. Data completeness: 100% of key fields have 2+ source coverage. CITATIONS: 18,103\u201326,590 across 4 sources (medium divergence, 32% spread). 5 OA URLs found by only one source. AUTHOR COUNT VARIES: 2\u20134 (crossref: 4, openalex: 4, semantic_scholar: 4, unpaywall: 4, europe_pmc: 4, orcid: 2). Name variants detected: Shifu Chen / Chen S; Gu J / Jia Gu. FUNDING: 2 unique grants \u2014 2 confirmed by multiple sources, 0 from single source only. REFERENCES: 14\u201318 across sources. WORK_TYPE DIFFERS: crossref: journal-article, openalex: article, semantic_scholar: JournalArticle, unpaywall: journal-article. PUBLISHER DIFFERS: crossref: Oxford University Press (OUP), openalex: https://openalex.org/P4310311648, unpaywall: Oxford University Press (OUP). CONTAINER_TITLE DIFFERS: crossref: Bioinformatics, openalex: Bioinformatics, semantic_scholar: Bioinformatics, unpaywall: Bioinformatics, europe_pmc: Bioinformatics (Oxford, England). Total: 6 discrepancies (1 high, 1 medium, 4 low risk)."
+  },
+  "_benchmark": {
+    "doi": "10.1093/bioinformatics/bty560",
+    "fetched_at": "2026-02-11T13:46:09.675679+00:00"
+  }
+}

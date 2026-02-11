@@ -1,0 +1,3129 @@
+{
+  "doi": "10.1093/bioinformatics/btz682",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T16:11:19.674697Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "BioBERT: a pre-trained biomedical language representation model for biomedical text mining",
+      "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:sec>\n                    <jats:title>Motivation</jats:title>\n                    <jats:p>Biomedical text mining is becoming increasingly important as the number of biomedical documents rapidly grows. With the progress in natural language processing (NLP), extracting valuable information from biomedical literature has gained popularity among researchers, and deep learning has boosted the development of effective biomedical text mining models. However, directly applying the advancements in NLP to biomedical text mining often yields unsatisfactory results due to a word distribution shift from general domain corpora to biomedical corpora. In this article, we investigate how the recently introduced pre-trained language model BERT can be adapted for biomedical corpora.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results</jats:title>\n                    <jats:p>We introduce BioBERT (Bidirectional Encoder Representations from Transformers for Biomedical Text Mining), which is a domain-specific language representation model pre-trained on large-scale biomedical corpora. With almost the same architecture across tasks, BioBERT largely outperforms BERT and previous state-of-the-art models in a variety of biomedical text mining tasks when pre-trained on biomedical corpora. While BERT obtains performance comparable to that of previous state-of-the-art models, BioBERT significantly outperforms them on the following three representative biomedical text mining tasks: biomedical named entity recognition (0.62% F1 score improvement), biomedical relation extraction (2.80% F1 score improvement) and biomedical question answering (12.24% MRR improvement). Our analysis results show that pre-training BERT on biomedical corpora helps it to understand complex biomedical texts.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Availability and implementation</jats:title>\n                    <jats:p>We make the pre-trained weights of BioBERT freely available at https://github.com/naver/biobert-pretrained, and the source code for fine-tuning BioBERT available at https://github.com/dmis-lab/biobert.</jats:p>\n                  </jats:sec>",
+      "publication_date": "2019-09-10",
+      "publication_year": 2019,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "Bioinformatics",
+      "volume": "36",
+      "issue": "4",
+      "pages": "1234-1240",
+      "issn": [
+        "1367-4803",
+        "1367-4811"
+      ],
+      "doi": "10.1093/bioinformatics/btz682",
+      "authors": [
+        {
+          "name": {
+            "given": "Jinhyuk",
+            "family": "Lee",
+            "full_name": "Jinhyuk Lee",
+            "sequence": "first",
+            "orcid": "0000-0003-4972-239X",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Computer Science and Engineering, Korea University , Seoul 02841, Korea",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Wonjin",
+            "family": "Yoon",
+            "full_name": "Wonjin Yoon",
+            "sequence": "additional",
+            "orcid": "0000-0002-6435-548X",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Computer Science and Engineering, Korea University , Seoul 02841, Korea",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sungdong",
+            "family": "Kim",
+            "full_name": "Sungdong Kim",
+            "sequence": "additional",
+            "orcid": "0000-0002-0240-6210",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Clova AI Research, Naver Corp , Seong-Nam 13561, Korea",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Donghyeon",
+            "family": "Kim",
+            "full_name": "Donghyeon Kim",
+            "sequence": "additional",
+            "orcid": "0000-0002-8224-8354",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Computer Science and Engineering, Korea University , Seoul 02841, Korea",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sunkyu",
+            "family": "Kim",
+            "full_name": "Sunkyu Kim",
+            "sequence": "additional",
+            "orcid": "0000-0002-0240-6210",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Computer Science and Engineering, Korea University , Seoul 02841, Korea",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Chan Ho",
+            "family": "So",
+            "full_name": "Chan Ho So",
+            "sequence": "additional",
+            "orcid": "0000-0001-7633-1074",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Interdisciplinary Graduate Program in Bioinformatics, Korea University , Seoul 02841, Korea",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jaewoo",
+            "family": "Kang",
+            "full_name": "Jaewoo Kang",
+            "sequence": "additional",
+            "orcid": "0000-0001-6798-9106",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Computer Science and Engineering, Korea University , Seoul 02841, Korea",
+              "source": "crossref"
+            },
+            {
+              "name": "Interdisciplinary Graduate Program in Bioinformatics, Korea University , Seoul 02841, Korea",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 4641,
+      "reference_count": 38,
+      "references": [
+        {
+          "doi": "10.18653/v1/W19-1909",
+          "title": "Publicly available clinical bert embeddings",
+          "year": 2019,
+          "author": "Alsentzer",
+          "key": "2023013110145762300_btz682-B1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pone.0200699",
+          "title": "Automatic extraction of gene-disease associations from literature using joint ensemble learning",
+          "year": 2018,
+          "author": "Bhasuran",
+          "key": "2023013110145762300_btz682-B2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s12859-015-0472-9",
+          "title": "Extraction of relations between genes and diseases from text and large-scale data analysis: implications for translational research",
+          "year": 2015,
+          "author": "Bravo",
+          "key": "2023013110145762300_btz682-B3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Bert: pre-training of deep bidirectional transformers for language understanding",
+          "year": 2019,
+          "author": "Devlin",
+          "key": "2023013110145762300_btz682-B4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jbi.2013.12.006",
+          "title": "NCBI disease corpus: a resource for disease name recognition and concept normalization",
+          "year": 2014,
+          "author": "Do\u011fan",
+          "key": "2023013110145762300_btz682-B5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-11-85",
+          "title": "Linnaeus: a species name identification system for biomedical literature",
+          "year": 2010,
+          "author": "Gerner",
+          "key": "2023013110145762300_btz682-B6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/bty449",
+          "title": "Transfer learning for biomedical named entity recognition with neural networks",
+          "year": 2018,
+          "author": "Giorgi",
+          "key": "2023013110145762300_btz682-B7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btx228",
+          "title": "Deep learning with word embeddings improves biomedical named entity recognition",
+          "year": 2017,
+          "author": "Habibi",
+          "key": "2023013110145762300_btz682-B8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2004,
+          "author": "Kim",
+          "key": "2023013110145762300_btz682-B9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1758-2946-7-S1-S2",
+          "title": "The chemdner corpus of chemicals and drugs and its annotation principles",
+          "year": 2015,
+          "author": "Krallinger",
+          "key": "2023013110145762300_btz682-B10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Overview of the BioCreative VI chemical-protein interaction track",
+          "year": 2017,
+          "author": "Krallinger",
+          "key": "2023013110145762300_btz682-B11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Biocreative V CDR task corpus: a resource for chemical disease relation extraction",
+          "year": 2016,
+          "author": "Li",
+          "key": "2023013110145762300_btz682-B12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/database/bay060",
+          "title": "Chemical\u2013gene relation extraction using recursive neural network",
+          "year": 2018,
+          "author": "Lim",
+          "key": "2023013110145762300_btz682-B13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.18653/v1/W19-1908",
+          "title": "A bert-based universal model for both within-and cross-sentence clinical temporal relation extraction",
+          "year": 2019,
+          "author": "Lin",
+          "key": "2023013110145762300_btz682-B14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btx172",
+          "title": "A transition-based joint model for disease named entity recognition and normalization",
+          "year": 2017,
+          "author": "Lou",
+          "key": "2023013110145762300_btz682-B15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btx761",
+          "title": "An attention-based BiLSTM-CRF approach to document-level chemical named entity recognition",
+          "year": 2018,
+          "author": "Luo",
+          "key": "2023013110145762300_btz682-B16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Learned in translation: contextualized word vectors",
+          "year": 2017,
+          "author": "McCann",
+          "key": "2023013110145762300_btz682-B17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Distributed representations of words and phrases and their compositionality",
+          "year": 2013,
+          "author": "Mikolov",
+          "key": "2023013110145762300_btz682-B18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2019,
+          "author": "Mohan",
+          "key": "2023013110145762300_btz682-B19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pone.0065390",
+          "title": "The species and organisms resources for fast and accurate identification of taxonomic names in text",
+          "year": 2013,
+          "author": "Pafilis",
+          "key": "2023013110145762300_btz682-B20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3115/v1/D14-1162",
+          "title": "Glove: Global vectors for word representation",
+          "year": 2014,
+          "author": "Pennington",
+          "key": "2023013110145762300_btz682-B21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2018,
+          "author": "Peters",
+          "key": "2023013110145762300_btz682-B22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Distributional semantics resources for biomedical text processing",
+          "year": 2013,
+          "author": "Pyysalo",
+          "key": "2023013110145762300_btz682-B23",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2016,
+          "author": "Rajpurkar",
+          "key": "2023013110145762300_btz682-B24",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2018,
+          "author": "Sachan",
+          "key": "2023013110145762300_btz682-B25",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/gb-2008-9-s2-s2",
+          "title": "Overview of biocreative ii gene mention recognition",
+          "year": 2008,
+          "author": "Smith",
+          "key": "2023013110145762300_btz682-B26",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "A silver standard corpus of human phenotype-gene relations",
+          "year": 2019,
+          "author": "Sousa",
+          "key": "2023013110145762300_btz682-B27",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2017,
+          "author": "Sung",
+          "key": "2023013110145762300_btz682-B28",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s12859-015-0564-6",
+          "title": "An overview of the BIOASQ large-scale biomedical semantic indexing and question answering competition",
+          "year": 2015,
+          "author": "Tsatsaronis",
+          "key": "2023013110145762300_btz682-B29",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1136/amiajnl-2011-000203",
+          "title": "2010 i2b2/VA challenge on concepts, assertions, and relations in clinical text",
+          "year": 2011,
+          "author": "Uzuner",
+          "key": "2023013110145762300_btz682-B30",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jbi.2012.04.004",
+          "title": "The EU-ADR corpus: annotated drugs, diseases, targets, and their relationships",
+          "year": 2012,
+          "author": "Van Mulligen",
+          "key": "2023013110145762300_btz682-B31",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Attention is all you need",
+          "year": 2017,
+          "author": "Vaswani",
+          "key": "2023013110145762300_btz682-B32",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2018,
+          "author": "Wang",
+          "key": "2023013110145762300_btz682-B33",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2017,
+          "author": "Wiese",
+          "key": "2023013110145762300_btz682-B34",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2016,
+          "author": "Wu",
+          "key": "2023013110145762300_btz682-B35",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.compbiomed.2019.04.002",
+          "title": "Document-level attention-based BiLSTM-CRF incorporating disease dictionary for disease named entity recognition",
+          "year": 2019,
+          "author": "Xu",
+          "key": "2023013110145762300_btz682-B36",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s12859-019-2813-6",
+          "title": "Collabonet: collaboration of deep neural networks for biomedical named entity recognition",
+          "year": 2019,
+          "author": "Yoon",
+          "key": "2023013110145762300_btz682-B37",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2018,
+          "author": "Zhu",
+          "key": "2023013110145762300_btz682-B38",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "http://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btz682/30132027/btz682.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/36/4/1234/48983216/bioinformatics_36_4_1234.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/36/4/1234/48983216/bioinformatics_36_4_1234.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [
+        {
+          "name": "National Research Foundation of Korea(NRF) funded by the Korea government",
+          "award_numbers": [
+            "NRF-2017R1A2A1A17069645"
+          ],
+          "source": "crossref"
+        },
+        {
+          "name": "National Research Foundation of Korea(NRF) funded by the Korea government",
+          "award_numbers": [
+            "NRF-2017M3C4A7065887"
+          ],
+          "source": "crossref"
+        },
+        {
+          "name": "National Research Foundation of Korea(NRF) funded by the Korea government",
+          "award_numbers": [
+            "NRF-2014M3C9A3063541"
+          ],
+          "source": "crossref"
+        }
+      ],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "http://creativecommons.org/licenses/by/4.0/",
+          "content_version": "vor",
+          "delay_in_days": 0,
+          "source": "crossref"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btz682",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "BioBERT: a pre-trained biomedical language representation model for biomedical text mining",
+      "abstract": "Abstract Motivation Biomedical text mining is becoming increasingly important as the number of biomedical documents rapidly grows. With the progress in natural language processing (NLP), extracting valuable information from biomedical literature has gained popularity among researchers, and deep learning has boosted the development of effective biomedical text mining models. However, directly applying the advancements in NLP to biomedical text mining often yields unsatisfactory results due to a word distribution shift from general domain corpora to biomedical corpora. In this article, we investigate how the recently introduced pre-trained language model BERT can be adapted for biomedical corpora. Results We introduce BioBERT (Bidirectional Encoder Representations from Transformers for Biomedical Text Mining), which is a domain-specific language representation model pre-trained on large-scale biomedical corpora. With almost the same architecture across tasks, BioBERT largely outperforms BERT and previous state-of-the-art models in a variety of biomedical text mining tasks when pre-trained on biomedical corpora. While BERT obtains performance comparable to that of previous state-of-the-art models, BioBERT significantly outperforms them on the following three representative biomedical text mining tasks: biomedical named entity recognition (0.62% F1 score improvement), biomedical relation extraction (2.80% F1 score improvement) and biomedical question answering (12.24% MRR improvement). Our analysis results show that pre-training BERT on biomedical corpora helps it to understand complex biomedical texts. Availability and implementation We make the pre-trained weights of BioBERT freely available at https://github.com/naver/biobert-pretrained, and the source code for fine-tuning BioBERT available at https://github.com/dmis-lab/biobert.",
+      "publication_date": "2019-09-05",
+      "publication_year": 2019,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310311648",
+      "container_title": "Bioinformatics",
+      "volume": "36",
+      "issue": "4",
+      "pages": "1234-1240",
+      "issn": [
+        "1367-4803",
+        "1367-4811"
+      ],
+      "doi": "10.1093/bioinformatics/btz682",
+      "pmid": "31501885",
+      "openalex_id": "https://openalex.org/W2911489562",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Jinhyuk Lee",
+            "orcid": "0000-0003-4972-239X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Korea University",
+              "ror_id": "https://ror.org/047dqcg40",
+              "country_code": "KR",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5002413587",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Wonjin Yoon",
+            "orcid": "0000-0002-6435-548X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Korea University",
+              "ror_id": "https://ror.org/047dqcg40",
+              "country_code": "KR",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5012809586",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Sungdong Kim",
+            "orcid": "0000-0002-9208-8286",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Naver (South Korea)",
+              "ror_id": "https://ror.org/04nzrnx83",
+              "country_code": "KR",
+              "source": "openalex"
+            },
+            {
+              "name": "Korea University",
+              "ror_id": "https://ror.org/047dqcg40",
+              "country_code": "KR",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5109196469",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Donghyeon Kim",
+            "orcid": "0000-0002-8224-8354",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Korea University",
+              "ror_id": "https://ror.org/047dqcg40",
+              "country_code": "KR",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5100334099",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Sunkyu Kim",
+            "orcid": "0000-0002-0240-6210",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Naver (South Korea)",
+              "ror_id": "https://ror.org/04nzrnx83",
+              "country_code": "KR",
+              "source": "openalex"
+            },
+            {
+              "name": "Korea University",
+              "ror_id": "https://ror.org/047dqcg40",
+              "country_code": "KR",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5000850685",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Chan Ho So",
+            "orcid": "0000-0001-7633-1074",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Korea University",
+              "ror_id": "https://ror.org/047dqcg40",
+              "country_code": "KR",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5030764601",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jaewoo Kang",
+            "orcid": "0000-0001-6798-9106",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Korea University",
+              "ror_id": "https://ror.org/047dqcg40",
+              "country_code": "KR",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5076917278",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 6446,
+      "reference_count": 61,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2026": 113,
+        "2025": 1314,
+        "2024": 1174,
+        "2023": 1175,
+        "2022": 973,
+        "2021": 943,
+        "2020": 604,
+        "2019": 145,
+        "2018": 1,
+        "2013": 1,
+        "2012": 1
+      },
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btz682",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btz682",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btz682",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btz682",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31501885",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/31501885",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "https://drops.dagstuhl.de/entities/document/10.4230/OASIcs.SLATE.2020.8",
+          "landing_page_url": "https://drops.dagstuhl.de/entities/document/10.4230/OASIcs.SLATE.2020.8",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I2799853480",
+          "source": "openalex"
+        },
+        {
+          "url": "http://arxiv.org/abs/1901.08746",
+          "pdf_url": "https://arxiv.org/pdf/1901.08746",
+          "landing_page_url": "http://arxiv.org/abs/1901.08746",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I205783295",
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7703786",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7703786",
+          "host_type": "journal",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.4230/oasics.slate.2020.8",
+          "landing_page_url": "https://doi.org/10.4230/oasics.slate.2020.8",
+          "host_type": "repository",
+          "license": "cc-by",
+          "is_best": false,
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://doi.org/10.1093/bioinformatics/btz682",
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "cc-by",
+          "source": "openalex"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Topic Modeling",
+          "scheme": "openalex_topic",
+          "score": 0.9994000196456909,
+          "source": "openalex"
+        },
+        {
+          "value": "Biomedical Text Mining and Ontologies",
+          "scheme": "openalex_topic",
+          "score": 0.9994000196456909,
+          "source": "openalex"
+        },
+        {
+          "value": "Natural Language Processing Techniques",
+          "scheme": "openalex_topic",
+          "score": 0.9902999997138977,
+          "source": "openalex"
+        },
+        {
+          "value": "Biomedical text mining",
+          "scheme": "openalex_concept",
+          "score": 0.9010728597640991,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.8267199993133545,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Artificial intelligence",
+          "scheme": "openalex_concept",
+          "score": 0.6924192309379578,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Natural language processing",
+          "scheme": "openalex_concept",
+          "score": 0.6470961570739746,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Language model",
+          "scheme": "openalex_concept",
+          "score": 0.5682085156440735,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Named-entity recognition",
+          "scheme": "openalex_concept",
+          "score": 0.5129515528678894,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Relationship extraction",
+          "scheme": "openalex_concept",
+          "score": 0.47019705176353455,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Text mining",
+          "scheme": "openalex_concept",
+          "score": 0.45421943068504333,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Text corpus",
+          "scheme": "openalex_concept",
+          "score": 0.44848760962486267,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Representation (politics)",
+          "scheme": "openalex_concept",
+          "score": 0.42542409896850586,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "F1 score",
+          "scheme": "openalex_concept",
+          "score": 0.42138534784317017,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Domain (mathematical analysis)",
+          "scheme": "openalex_concept",
+          "score": 0.4135907292366028,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Source code",
+          "scheme": "openalex_concept",
+          "score": 0.4129321575164795,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Information extraction",
+          "scheme": "openalex_concept",
+          "score": 0.33334529399871826,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Law",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Economics",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Task (project management)",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Operating system",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Politics",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Management",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Mathematical analysis",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Political science",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Mathematics",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Quality Education",
+          "scheme": "SDG",
+          "score": 0.800000011920929,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Language",
+          "descriptor_ui": "D007802",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Language",
+          "descriptor_ui": "D007802",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Language",
+          "descriptor_ui": "D007802",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Natural Language Processing",
+          "descriptor_ui": "D009323",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Natural Language Processing",
+          "descriptor_ui": "D009323",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Natural Language Processing",
+          "descriptor_ui": "D009323",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Data Mining",
+          "descriptor_ui": "D057225",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Data Mining",
+          "descriptor_ui": "D057225",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Data Mining",
+          "descriptor_ui": "D057225",
+          "is_major_topic": true,
+          "source": "openalex"
+        }
+      ],
+      "keywords": [
+        "Biomedical text mining",
+        "Computer science",
+        "Artificial intelligence",
+        "Natural language processing",
+        "Language model",
+        "Named-entity recognition",
+        "Relationship extraction",
+        "Text mining",
+        "Text corpus",
+        "Representation (politics)",
+        "F1 score",
+        "Domain (mathematical analysis)",
+        "Source code",
+        "Information extraction"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 410.31299831,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.99996805,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 3618.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btz682",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "BioBERT: a pre-trained biomedical language representation model for biomedical text mining",
+      "publication_date": "2019-09-05",
+      "publication_year": 2019,
+      "work_type": "journal-article",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "Bioinformatics",
+      "issn": [
+        "1367-4811",
+        "1367-4803"
+      ],
+      "doi": "10.1093/bioinformatics/btz682",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btz682",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btz682",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btz682",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btz682",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://drops.dagstuhl.de/entities/document/10.4230/OASIcs.SLATE.2020.8",
+          "landing_page_url": "https://drops.dagstuhl.de/entities/document/10.4230/OASIcs.SLATE.2020.8",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "Schloss Dagstuhl \u2013 Leibniz Center for Informatics",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://arxiv.org/pdf/1901.08746",
+          "pdf_url": "https://arxiv.org/pdf/1901.08746",
+          "landing_page_url": "http://arxiv.org/abs/1901.08746",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "Cornell University",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7703786",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7703786",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://doi.org/10.4230/oasics.slate.2020.8",
+          "landing_page_url": "https://doi.org/10.4230/oasics.slate.2020.8",
+          "host_type": "repository",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://doi.org/10.1093/bioinformatics/btz682",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "BioBERT: a pre-trained biomedical language representation model for biomedical text mining.",
+      "abstract": "<h4>Motivation</h4>Biomedical text mining is becoming increasingly important as the number of biomedical documents rapidly grows. With the progress in natural language processing (NLP), extracting valuable information from biomedical literature has gained popularity among researchers, and deep learning has boosted the development of effective biomedical text mining models. However, directly applying the advancements in NLP to biomedical text mining often yields unsatisfactory results due to a word distribution shift from general domain corpora to biomedical corpora. In this article, we investigate how the recently introduced pre-trained language model BERT can be adapted for biomedical corpora.<h4>Results</h4>We introduce BioBERT (Bidirectional Encoder Representations from Transformers for Biomedical Text Mining), which is a domain-specific language representation model pre-trained on large-scale biomedical corpora. With almost the same architecture across tasks, BioBERT largely outperforms BERT and previous state-of-the-art models in a variety of biomedical text mining tasks when pre-trained on biomedical corpora. While BERT obtains performance comparable to that of previous state-of-the-art models, BioBERT significantly outperforms them on the following three representative biomedical text mining tasks: biomedical named entity recognition (0.62% F1 score improvement), biomedical relation extraction (2.80% F1 score improvement) and biomedical question answering (12.24% MRR improvement). Our analysis results show that pre-training BERT on biomedical corpora helps it to understand complex biomedical texts.<h4>Availability and implementation</h4>We make the pre-trained weights of BioBERT freely available at https://github.com/naver/biobert-pretrained, and the source code for fine-tuning BioBERT available at https://github.com/dmis-lab/biobert.",
+      "publication_year": 2020,
+      "language": "eng",
+      "container_title": "Bioinformatics (Oxford, England)",
+      "volume": "36",
+      "issue": "4",
+      "pages": "1234-1240",
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btz682",
+      "pmid": "31501885",
+      "pmcid": "PMC7703786",
+      "authors": [
+        {
+          "name": {
+            "given": "Jinhyuk",
+            "family": "Lee",
+            "full_name": "Lee J",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Computer Science and Engineering, Korea University, Seoul 02841, Korea.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Wonjin",
+            "family": "Yoon",
+            "full_name": "Yoon W",
+            "orcid": "0000-0002-6435-548X",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Computer Science and Engineering, Korea University, Seoul 02841, Korea.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sungdong",
+            "family": "Kim",
+            "full_name": "Kim S",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Clova AI Research, Naver Corp, Seong-Nam 13561, Korea.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Donghyeon",
+            "family": "Kim",
+            "full_name": "Kim D",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Computer Science and Engineering, Korea University, Seoul 02841, Korea.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sunkyu",
+            "family": "Kim",
+            "full_name": "Kim S",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Computer Science and Engineering, Korea University, Seoul 02841, Korea.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Chan Ho",
+            "family": "So",
+            "full_name": "So CH",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Interdisciplinary Graduate Program in Bioinformatics, Korea University, Seoul 02841, Korea.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jaewoo",
+            "family": "Kang",
+            "full_name": "Kang J",
+            "orcid": "0000-0001-6798-9106",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Computer Science and Engineering, Korea University, Seoul 02841, Korea.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Interdisciplinary Graduate Program in Bioinformatics, Korea University, Seoul 02841, Korea.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 1541,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "url": "https://europepmc.org/articles/PMC7703786",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC7703786?pdf=render",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "NRF-2014M3C9A3063541",
+          "agency": "National Research Foundation of Korea(NRF) funded by the Korea government",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "NRF-2017M3C4A7065887",
+          "agency": "National Research Foundation of Korea(NRF) funded by the Korea government",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "NRF-2017R1A2A1A17069645",
+          "agency": "National Research Foundation of Korea(NRF) funded by the Korea government",
+          "pi_names": [],
+          "source": "europe_pmc"
+        }
+      ],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Language",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Natural Language Processing",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Software",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Data Mining",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 1541.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btz682",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC7703786",
+          "availability": "Open access",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC7703786?pdf=render",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btz682",
+      "pmid": "19683066",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btz682",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btz682",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btz682",
+      "authors": [
+        {
+          "name": {
+            "given": "Jinhyuk",
+            "family": "Lee",
+            "full_name": "Jinhyuk Lee",
+            "orcid": "0000-0003-4972-239X",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Chan Ho",
+            "family": "So",
+            "full_name": "Chan Ho So",
+            "orcid": "0000-0001-7633-1074",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Wonjin",
+            "family": "Yoon",
+            "full_name": "Wonjin Yoon",
+            "orcid": "0000-0002-6435-548X",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jaewoo",
+            "family": "Kang",
+            "full_name": "Jaewoo Kang",
+            "orcid": "0000-0001-6798-9106",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sunkyu",
+            "family": "Kim",
+            "full_name": "Sunkyu Kim",
+            "orcid": "0000-0002-0240-6210",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0003-4972-239X",
+          "given_names": "Jinhyuk",
+          "family_names": "Lee",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0001-7633-1074",
+          "given_names": "Chan Ho",
+          "family_names": "So",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Korea University"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-6435-548X",
+          "given_names": "Wonjin",
+          "family_names": "Yoon",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Boston Children's Hospital",
+            "Harvard University",
+            "Korea University"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0001-6798-9106",
+          "given_names": "Jaewoo",
+          "family_names": "Kang",
+          "credit_name": null,
+          "other_names": [
+            "\uac15\uc7ac\uc6b0"
+          ],
+          "institutions": [
+            "Korea University",
+            "University of Wisconsin Madison"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-0240-6210",
+          "given_names": "Sunkyu",
+          "family_names": "Kim",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "AIGEN Sciences",
+            "Korea University"
+          ],
+          "emails": [
+            "sunkyu4276@gmail.com"
+          ]
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": true,
+      "raw": {},
+      "title": "BioBERT: a pre-trained biomedical language representation model for biomedical text mining.",
+      "abstract": "MOTIVATION: Biomedical text mining is becoming increasingly important as the number of biomedical documents rapidly grows. With the progress in natural language processing (NLP), extracting valuable information from biomedical literature has gained popularity among researchers, and deep learning has boosted the development of effective biomedical text mining models. However, directly applying the advancements in NLP to biomedical text mining often yields unsatisfactory results due to a word distribution shift from general domain corpora to biomedical corpora. In this article, we investigate how the recently introduced pre-trained language model BERT can be adapted for biomedical corpora.\nRESULTS: We introduce BioBERT (Bidirectional Encoder Representations from Transformers for Biomedical Text Mining), which is a domain-specific language representation model pre-trained on large-scale biomedical corpora. With almost the same architecture across tasks, BioBERT largely outperforms BERT and previous state-of-the-art models in a variety of biomedical text mining tasks when pre-trained on biomedical corpora. While BERT obtains performance comparable to that of previous state-of-the-art models, BioBERT significantly outperforms them on the following three representative biomedical text mining tasks: biomedical named entity recognition (0.62% F1 score improvement), biomedical relation extraction (2.80% F1 score improvement) and biomedical question answering (12.24% MRR improvement). Our analysis results show that pre-training BERT on biomedical corpora helps it to understand complex biomedical texts.\nAVAILABILITY AND IMPLEMENTATION: We make the pre-trained weights of BioBERT freely available at https://github.com/naver/biobert-pretrained, and the source code for fine-tuning BioBERT available at https://github.com/dmis-lab/biobert.",
+      "publication_date": "2020-Feb-15",
+      "publication_year": 2020,
+      "work_type": "journal-article",
+      "language": "eng",
+      "container_title": "Bioinformatics (Oxford, England)",
+      "volume": "36",
+      "issue": "4",
+      "pages": "1234-1240",
+      "issn": [
+        "1367-4811",
+        "1367-4803"
+      ],
+      "doi": "10.1093/bioinformatics/btz682",
+      "pmid": "31501885",
+      "pmcid": "PMC7703786",
+      "authors": [
+        {
+          "name": {
+            "given": "Jinhyuk",
+            "family": "Lee",
+            "full_name": "Jinhyuk Lee",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Computer Science and Engineering, Korea University, Seoul 02841, Korea.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Wonjin",
+            "family": "Yoon",
+            "full_name": "Wonjin Yoon",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Computer Science and Engineering, Korea University, Seoul 02841, Korea.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sungdong",
+            "family": "Kim",
+            "full_name": "Sungdong Kim",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Clova AI Research, Naver Corp, Seong-Nam 13561, Korea.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Donghyeon",
+            "family": "Kim",
+            "full_name": "Donghyeon Kim",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Computer Science and Engineering, Korea University, Seoul 02841, Korea.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sunkyu",
+            "family": "Kim",
+            "full_name": "Sunkyu Kim",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Computer Science and Engineering, Korea University, Seoul 02841, Korea.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Chan Ho",
+            "family": "So",
+            "full_name": "Chan Ho So",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Interdisciplinary Graduate Program in Bioinformatics, Korea University, Seoul 02841, Korea.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jaewoo",
+            "family": "Kang",
+            "full_name": "Jaewoo Kang",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Computer Science and Engineering, Korea University, Seoul 02841, Korea.",
+              "source": "entrez"
+            },
+            {
+              "name": "Interdisciplinary Graduate Program in Bioinformatics, Korea University, Seoul 02841, Korea.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        }
+      ],
+      "reference_count": 38,
+      "references": [
+        {
+          "unstructured": "\nAlsentzer E.\net al.  (2019) \nPublicly available clinical bert embeddings. In: Proceedings of the 2nd Clinical Natural Language Processing Workshop, Minneapolis, MN, USA. pp. 72\u201378. Association for Computational Linguistics. https://www.aclweb.org/anthology/W19-1909.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "30048465",
+          "unstructured": "Bhasuran B., Natarajan J. (2018) Automatic extraction of gene-disease associations from literature using joint ensemble learning. PLoS One, 13, e0200699.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "25886734",
+          "unstructured": "Bravo \u00c0. et al. (2015) Extraction of relations between genes and diseases from text and large-scale data analysis: implications for translational research. BMC Bioinformatics, 16, 55.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nDevlin J.\net al.  (2019) \nBert: pre-training of deep bidirectional transformers for language understanding. In: Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), Minneapolis, MN, USA. pp. 4171\u20134186. Association for Computational Linguistics. https://www.aclweb.org/anthology/N19-1423.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "24393765",
+          "unstructured": "Do\u011fan R.I. et al. (2014) NCBI disease corpus: a resource for disease name recognition and concept normalization. J. Biomed. Inform., 47, 1\u201310.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "20149233",
+          "unstructured": "Gerner M. et al. (2010) Linnaeus: a species name identification system for biomedical literature. BMC Bioinformatics, 11, 85.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "29868832",
+          "unstructured": "Giorgi J.M., Bader G.D. (2018) Transfer learning for biomedical named entity recognition with neural networks. Bioinformatics, 34, 4087.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "28881963",
+          "unstructured": "Habibi M. et al. (2017) Deep learning with word embeddings improves biomedical named entity recognition. Bioinformatics, 33, i37\u2013i48.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nKim J.-D.\net al.  (2004) Introduction to the bio-entity recognition task at JNLPBA In: ",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "25810773",
+          "unstructured": "Krallinger M. et al. (2015) The chemdner corpus of chemicals and drugs and its annotation principles. J. Cheminform., 7.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/database/bay073/5055578",
+          "unstructured": "\nKrallinger M.\net al.  (2017) \nOverview of the BioCreative VI chemical-protein interaction track. In: Proceedings of the BioCreative VI Workshop, Bethesda, MD, USA, pp. 141\u2013146. https://academic.oup.com/database/article/doi/10.1093/database/bay073/5055578.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "27161011",
+          "unstructured": "Li J. et al. (2016) Biocreative V CDR task corpus: a resource for chemical disease relation extraction. Database, 2016.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "29961818",
+          "unstructured": "Lim S., Kang J. (2018) Chemical\u2013gene relation extraction using recursive neural network. Database, 2018.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nLin C.\net al.  (2019) \nA bert-based universal model for both within-and cross-sentence clinical temporal relation extraction. In: Proceedings of the 2nd Clinical Natural Language Processing Workshop, Minneapolis, MN, USA. pp. 65\u201371. Association for Computational Linguistics. https://www.aclweb.org/anthology/W19-1908.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "28369171",
+          "unstructured": "Lou Y. et al. (2017) A transition-based joint model for disease named entity recognition and normalization. Bioinformatics, 33, 2363\u20132371.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "29186323",
+          "unstructured": "Luo L. et al. (2018) An attention-based BiLSTM-CRF approach to document-level chemical named entity recognition. Bioinformatics, 34, 1381\u20131388.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nMcCann B.\net al.  (2017) \nLearned in translation: contextualized word vectors. In: Guyon,I. ",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nMikolov T.\net al.  (2013) \nDistributed representations of words and phrases and their compositionality. In: Burges,C.J.C. (eds.), Advances in Neural Information Processing Systems 26, Curran Associates, Inc., pp. 3111\u20133119. http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nMohan S., Li D. (2019) Medmentions: a large biomedical corpus annotated with UMLS concepts. ",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "23823062",
+          "unstructured": "Pafilis E. et al. (2013) The species and organisms resources for fast and accurate identification of taxonomic names in text. PLoS One, 8, e65390.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nPennington J.\net al.  (2014) \nGlove: Global vectors for word representation. In: Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP), Doha, Qatar. pp. 1532\u20131543. Association for Computational Linguistics. https://www.aclweb.org/anthology/D14-1162.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nPeters M.E.\net al.  (2018) Deep contextualized word representations. In: ",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nPyysalo S.\net al.  (2013) \nDistributional semantics resources for biomedical text processing. In: Proceedings of the 5th International Symposium on Languages in Biology and Medicine, Tokyo, Japan, pp. 39\u201343. https://academic.oup.com/bioinformatics/article/33/14/i37/3953940.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nRajpurkar P.\net al.  (2016) Squad: 100,000+ questions for machine comprehension of text. In: ",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nSachan D.S.\net al.  (2018) Effective use of bidirectional language modeling for transfer learning in biomedical named entity recognition. In: Finale,D.-V. ",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "18834493",
+          "unstructured": "Smith L. et al. (2008) Overview of biocreative ii gene mention recognition. Genome Biol., 9, S2.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nSousa D.\net al.  (2019) \nA silver standard corpus of human phenotype-gene relations. In: Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), Minneapolis, MN. pp. 1487\u20131492. Association for Computational Linguistics. https://www.aclweb.org/anthology/N19-1152.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nSung N.\net al.  (2017) NSML: A machine learning platform that enables you to focus on your models. ",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "25925131",
+          "unstructured": "Tsatsaronis G. et al. (2015) An overview of the BIOASQ large-scale biomedical semantic indexing and question answering competition. BMC Bioinformatics, 16, 138.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "21685143",
+          "unstructured": "Uzuner \u00d6. et al. (2011) 2010 i2b2/VA challenge on concepts, assertions, and relations in clinical text. J. Am. Med. Inform. Assoc., 18, 552\u2013556.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "22554700",
+          "unstructured": "Van Mulligen E.M. et al. (2012) The EU-ADR corpus: annotated drugs, diseases, targets, and their relationships. J. Biomed. Inform., 45, 879\u2013884.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nVaswani A.\net al.  (2017) \nAttention is all you need. In: Guyon,I. ",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "30307536",
+          "unstructured": "\nWang X.\net al.  (2018) Cross-type biomedical named entity recognition with deep multi-task learning. ",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nWiese G.\net al.  (2017) Neural domain adaptation for biomedical question answering. In: ",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nWu Y.\net al.  (2016) Google\u2019s neural machine translation system: Bridging the gap between human and machine translation. ",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "31003175",
+          "unstructured": "Xu K. et al. (2019) Document-level attention-based BiLSTM-CRF incorporating disease dictionary for disease named entity recognition. Comput. Biol. Med., 108, 122\u2013132.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "31138109",
+          "unstructured": "Yoon W. et al. (2019) Collabonet: collaboration of deep neural networks for biomedical named entity recognition. BMC Bioinformatics, 20, 249.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nZhu H.\net al.  (2018) Clinical concept extraction with contextual word embedding. ",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Data Mining",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Language",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Natural Language Processing",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Software",
+          "scheme": "MeSH",
+          "source": "entrez"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Data Mining",
+          "descriptor_ui": "D057225",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Language",
+          "descriptor_ui": "D007802",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Natural Language Processing",
+          "descriptor_ui": "D009323",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "entrez"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {
+        "received": "2019-05-16",
+        "revised": "2019-07-29",
+        "accepted": "2019-09-05",
+        "pubmed": "2019-09-11",
+        "medline": "2020-09-18",
+        "entrez": "2019-09-11",
+        "pmc-release": "2019-09-10"
+      },
+      "structured_abstract": {
+        "MOTIVATION": "Biomedical text mining is becoming increasingly important as the number of biomedical documents rapidly grows. With the progress in natural language processing (NLP), extracting valuable information from biomedical literature has gained popularity among researchers, and deep learning has boosted the development of effective biomedical text mining models. However, directly applying the advancements in NLP to biomedical text mining often yields unsatisfactory results due to a word distribution shift from general domain corpora to biomedical corpora. In this article, we investigate how the recently introduced pre-trained language model BERT can be adapted for biomedical corpora.",
+        "RESULTS": "We introduce BioBERT (Bidirectional Encoder Representations from Transformers for Biomedical Text Mining), which is a domain-specific language representation model pre-trained on large-scale biomedical corpora. With almost the same architecture across tasks, BioBERT largely outperforms BERT and previous state-of-the-art models in a variety of biomedical text mining tasks when pre-trained on biomedical corpora. While BERT obtains performance comparable to that of previous state-of-the-art models, BioBERT significantly outperforms them on the following three representative biomedical text mining tasks: biomedical named entity recognition (0.62% F1 score improvement), biomedical relation extraction (2.80% F1 score improvement) and biomedical question answering (12.24% MRR improvement). Our analysis results show that pre-training BERT on biomedical corpora helps it to understand complex biomedical texts.",
+        "AVAILABILITY AND IMPLEMENTATION": "We make the pre-trained weights of BioBERT freely available at https://github.com/naver/biobert-pretrained, and the source code for fine-tuning BioBERT available at https://github.com/dmis-lab/biobert."
+      },
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "publication_status": "ppublish",
+      "country_of_publication": "England",
+      "nlm_journal_id": "9808944",
+      "medline_ta": "Bioinformatics",
+      "citation_subsets": [
+        "IM"
+      ],
+      "pii": "5566506",
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1093/bioinformatics/btz682",
+    "pmid": "31501885",
+    "pmcid": "PMC7703786",
+    "openalex_id": "https://openalex.org/W2911489562",
+    "pii": "5566506",
+    "nlm_unique_id": "9808944",
+    "handles": [],
+    "orcids": [
+      "0000-0001-6798-9106",
+      "0000-0001-7633-1074",
+      "0000-0002-0240-6210",
+      "0000-0002-6435-548X",
+      "0000-0002-8224-8354",
+      "0000-0002-9208-8286",
+      "0000-0003-4972-239X"
+    ],
+    "ror_ids": [
+      "https://ror.org/047dqcg40",
+      "https://ror.org/04nzrnx83"
+    ],
+    "grant_ids": [
+      "NRF-2014M3C9A3063541",
+      "NRF-2017M3C4A7065887",
+      "NRF-2017R1A2A1A17069645"
+    ],
+    "nct_ids": [],
+    "pmid_source": "entrez",
+    "pmcid_source": "entrez"
+  },
+  "conflicts": {
+    "doi": "10.1093/bioinformatics/btz682",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 4641,
+          "openalex": 6446,
+          "europe_pmc": 1541
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 38,
+          "openalex": 61,
+          "entrez": 38
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publication_year",
+        "values": {
+          "crossref": 2019,
+          "openalex": 2019,
+          "unpaywall": 2019,
+          "europe_pmc": 2020,
+          "entrez": 2020
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article",
+          "entrez": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 7,
+          "openalex": 7,
+          "unpaywall": 7,
+          "europe_pmc": 7,
+          "orcid": 5,
+          "entrez": 7
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Oxford University Press (OUP)",
+          "openalex": "https://openalex.org/P4310311648",
+          "unpaywall": "Oxford University Press (OUP)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Bioinformatics",
+          "openalex": "Bioinformatics",
+          "unpaywall": "Bioinformatics",
+          "europe_pmc": "Bioinformatics (Oxford, England)",
+          "entrez": "Bioinformatics (Oxford, England)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "mesh_term_count",
+        "values": {
+          "openalex": 12,
+          "europe_pmc": 4,
+          "entrez": 4
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng",
+          "entrez": "eng"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 1,
+    "conflict_count": 9
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1093/bioinformatics/btz682",
+    "fetched_at": "2026-02-11T16:11:19.677654+00:00"
+  }
+}

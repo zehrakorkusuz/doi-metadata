@@ -1,0 +1,3454 @@
+{
+  "doi": "10.1101/2020.11.13.382119",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T18:50:12.111522Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "ISA API: An open platform for interoperable life science experimental metadata",
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>The Investigation/Study/Assay (ISA) Metadata Framework is an established and widely used set of open-source community specifications and software tools for enabling discovery, exchange and publication of metadata from experiments in the life sciences. The original ISA software suite provided a set of user-facing Java tools for creating and manipulating the information structured in ISA-Tab \u2013 a now widely used tabular format. To make the ISA framework more accessible to machines and enable programmatic manipulation of experiment metadata, a JSON serialization ISA-JSON was developed.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>In this work, we present the ISA API, a Python library for the creation, editing, parsing, and validating of ISA-Tab and ISA-JSON formats by using a common data model engineered as Python object classes. We describe the ISA API feature set, early adopters and its growing user community.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>The ISA API provides users with rich programmatic metadata handling functionality to support automation, a common interface and an interoperable medium between the two ISA formats, as well as with other life science data formats required for depositing data in public databases.</jats:p>\n                </jats:sec>",
+      "publication_date": "2020-11-16",
+      "publication_year": 2020,
+      "work_type": "posted-content",
+      "publisher": "openRxiv",
+      "issn": [],
+      "doi": "10.1101/2020.11.13.382119",
+      "authors": [
+        {
+          "name": {
+            "given": "David",
+            "family": "Johnson",
+            "full_name": "David Johnson",
+            "sequence": "first",
+            "orcid": "0000-0002-2323-6847",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Keeva",
+            "family": "Cochrane",
+            "full_name": "Keeva Cochrane",
+            "sequence": "additional",
+            "orcid": "0000-0001-7961-0474",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Robert P.",
+            "family": "Davey",
+            "full_name": "Robert P. Davey",
+            "sequence": "additional",
+            "orcid": "0000-0002-5589-7754",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Anthony",
+            "family": "Etuk",
+            "full_name": "Anthony Etuk",
+            "sequence": "additional",
+            "orcid": "0000-0001-8320-660X",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Alejandra",
+            "family": "Gonzalez-Beltran",
+            "full_name": "Alejandra Gonzalez-Beltran",
+            "sequence": "additional",
+            "orcid": "0000-0003-3499-8262",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Kenneth",
+            "family": "Haug",
+            "full_name": "Kenneth Haug",
+            "sequence": "additional",
+            "orcid": "0000-0003-3168-4145",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Massimiliano",
+            "family": "Izzo",
+            "full_name": "Massimiliano Izzo",
+            "sequence": "additional",
+            "orcid": "0000-0002-8100-6142",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Martin",
+            "family": "Larralde",
+            "full_name": "Martin Larralde",
+            "sequence": "additional",
+            "orcid": "0000-0002-3947-4444",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Thomas N.",
+            "family": "Lawson",
+            "full_name": "Thomas N. Lawson",
+            "sequence": "additional",
+            "orcid": "0000-0002-5915-7980",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Alice",
+            "family": "Minotto",
+            "full_name": "Alice Minotto",
+            "sequence": "additional",
+            "orcid": "0000-0002-1670-1675",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Pablo",
+            "family": "Moreno",
+            "full_name": "Pablo Moreno",
+            "sequence": "additional",
+            "orcid": "0000-0002-9856-1679",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Venkata Chandrasekhar",
+            "family": "Nainala",
+            "full_name": "Venkata Chandrasekhar Nainala",
+            "sequence": "additional",
+            "orcid": "0000-0002-2564-3243",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Claire",
+            "family": "O\u2019Donovan",
+            "full_name": "Claire O\u2019Donovan",
+            "sequence": "additional",
+            "orcid": "0000-0001-8051-7429",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Luca",
+            "family": "Pireddu",
+            "full_name": "Luca Pireddu",
+            "sequence": "additional",
+            "orcid": "0000-0002-4663-5613",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Pierrick",
+            "family": "Roger",
+            "full_name": "Pierrick Roger",
+            "sequence": "additional",
+            "orcid": "0000-0001-8177-4873",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Felix",
+            "family": "Shaw",
+            "full_name": "Felix Shaw",
+            "sequence": "additional",
+            "orcid": "0000-0001-9649-5906",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Christoph",
+            "family": "Steinbeck",
+            "full_name": "Christoph Steinbeck",
+            "sequence": "additional",
+            "orcid": "0000-0001-6966-0814",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ralf J. M.",
+            "family": "Weber",
+            "full_name": "Ralf J. M. Weber",
+            "sequence": "additional",
+            "orcid": "0000-0002-8796-4771",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Susanna-Assunta",
+            "family": "Sansone",
+            "full_name": "Susanna-Assunta Sansone",
+            "sequence": "additional",
+            "orcid": "0000-0001-5306-5690",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Philippe",
+            "family": "Rocca-Serra",
+            "full_name": "Philippe Rocca-Serra",
+            "sequence": "additional",
+            "orcid": "0000-0001-9853-5668",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 0,
+      "reference_count": 83,
+      "references": [
+        {
+          "doi": "10.1162/dint_a_00037",
+          "key": "2024080423570998000_2020.11.13.382119v2.1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.5281/zenodo.161355",
+          "key": "2024080423570998000_2020.11.13.382119v2.2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "FAIRsharing.org: ISA-Tab; Investigation Study Assay Tabular; DOI: https://doi.org/10.25504/FAIRsharing.53gp75; Last edited: Feb. 8, 2021, 1:22 p.m.; Last accessed: Mar 03 2021 7:54 a.m.",
+          "key": "2024080423570998000_2020.11.13.382119v2.3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.5281/zenodo.163640",
+          "key": "2024080423570998000_2020.11.13.382119v2.4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "FAIRsharing.org: ISA-JSON; Investigation Study Assay JSON; DOI: https://doi.org/10.25504/FAIRsharing.yhLgTV; Last edited: March 10, 2021, 1:08 p.m.; Last accessed: Mar 12 2021 10:33 a.m.",
+          "key": "2024080423570998000_2020.11.13.382119v2.5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1145/2872427.2883029",
+          "unstructured": "Pezoa F , Reutter JL , Suarez F , Ugarte M , Vrgo\u010d D. Foundations of JSON Schema. In: Bourdeau J , editor. Proceedings of the 25th International Conference on World Wide Web (WWW \u201816). New York: ACM; 2016. p. 263\u2013273.",
+          "key": "2024080423570998000_2020.11.13.382119v2.6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkr469",
+          "key": "2024080423570998000_2020.11.13.382119v2.7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "FAIRsharing.org: BioPortal; BioPortal; DOI: https://doi.org/10.25504/FAIRsharing.4m97ah; Last edited: Dec. 16, 2020, 1:20 p.m.; Last accessed: Mar 03 2021 8:03 a.m.",
+          "key": "2024080423570998000_2020.11.13.382119v2.8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Jupp S , Burdett T , Leroy C , Parkinson HE . A new ontology lookup service at EMBL-EBI. In: Malone J , Stevens R , Forsberg K , Splendiani Al , editors. Proceedings of the 8th International Conference on Semantic Web Applications and Tools for Life Sciences (SWAT4LS 2015). Aachen: CEUR-WS.org; 2015.",
+          "key": "2024080423570998000_2020.11.13.382119v2.9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "FAIRsharing.org: OLS; Ontology Lookup Service; DOI: https://doi.org/10.25504/FAIRsharing.Mkl9RR; Last edited: Jan. 25, 2021, 4:27 p.m.; Last accessed: Mar 03 2021 8:12 a.m.",
+          "key": "2024080423570998000_2020.11.13.382119v2.10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "ISA Model and Serialization Specifications. https://isa-specs.readthedocs.io/en/latest/isamodel.html. Accessed 9 Oct 2020.",
+          "key": "2024080423570998000_2020.11.13.382119v2.11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btq415",
+          "key": "2024080423570998000_2020.11.13.382119v2.12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/bts718",
+          "key": "2024080423570998000_2020.11.13.382119v2.13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "BioInvestigation Index on GitHub. https://github.com/ISA-tools/BioInvIndex. Accessed 2 Mar 2021.",
+          "key": "2024080423570998000_2020.11.13.382119v2.14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Gonzalez-Beltran A. ISA-explorer: A demo tool for discovering and exploring Scientific Data\u2019s ISA-tab metadata. http://blogs.nature.com/scientificdata/2015/12/17/isa-explorer/. Accessed 11 Nov 2020.",
+          "key": "2024080423570998000_2020.11.13.382119v2.15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-15-S1-S11",
+          "key": "2024080423570998000_2020.11.13.382119v2.16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "ISA commons. https://www.isacommons.org/. (2018). Accessed 9 Oct 2020.",
+          "key": "2024080423570998000_2020.11.13.382119v2.17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.4337/9781849803311.00013",
+          "unstructured": "Eisenmann TR , Parker G , Van Alstyne M. Opening platforms: how, when and why? In: Gawer A , editor. Platforms, markets and innovation. Cheltenham: Edward Elgar Publishing; 2009. p. 131\u2013162.",
+          "key": "2024080423570998000_2020.11.13.382119v2.18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Kluyver T , Ragan-Kelley B , P\u00e9rez F , Granger BE , Bussonnier M , Frederic J , et al. Jupyter Notebooks - a publishing format for reproducible computational workflows. In: Proceedings of the 20th International Conference on Electronic Publishing (ELPUB 2016). Amsterdam: IOS Press; 2016. p. 87\u201390.",
+          "key": "2024080423570998000_2020.11.13.382119v2.19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "ISA-tools/isa-api on GitHub. https://github.com/ISA-tools/isa-api/. Accessed 9 Oct 2020.",
+          "key": "2024080423570998000_2020.11.13.382119v2.20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "The Python Package Index. https://pypi.org/. Accessed 29 Oct 2020.",
+          "key": "2024080423570998000_2020.11.13.382119v2.21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41592-018-0046-7",
+          "key": "2024080423570998000_2020.11.13.382119v2.22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "ISA API (isatools) on PyPI. https://pypi.org/project/isatools/. Accessed 9 Oct 2020.",
+          "key": "2024080423570998000_2020.11.13.382119v2.23",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "ISA API (isatools) on Bioconda. https://anaconda.org/bioconda/isatools/. Accessed 9 Oct 2020.",
+          "key": "2024080423570998000_2020.11.13.382119v2.24",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "bobular/Bio-Parser-ISATab on GitHub. https://github.com/bobular/Bio-Parser-",
+          "key": "2024080423570998000_2020.11.13.382119v2.25",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "ISATab. Accessed 2 Mar 2021.",
+          "key": "2024080423570998000_2020.11.13.382119v2.26",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "ISA-tools/biopy-isatab on GitHub. https://github.com/ISA-tools/biopy-isatab. Accessed 2 Mar 2021.",
+          "key": "2024080423570998000_2020.11.13.382119v2.27",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Brad Chapman, Rory Kirchner, Lorena Pantano, Sergey Naumenko, Matthias De Smet, Luca Beltrame, et al. bcbio/bcbio-nextgen: v1.2.7. Zenodo; 2021.",
+          "key": "2024080423570998000_2020.11.13.382119v2.28",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.21105/joss.01610",
+          "key": "2024080423570998000_2020.11.13.382119v2.29",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.12688/f1000research.27188.1",
+          "key": "2024080423570998000_2020.11.13.382119v2.30",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pone.0205898",
+          "key": "2024080423570998000_2020.11.13.382119v2.31",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/MCSE.2007.53",
+          "unstructured": "P\u00e9rez F , Granger BE . IPython: a system for interactive scientific computing. Comput Sci Eng. 2007:9:21-29.",
+          "key": "2024080423570998000_2020.11.13.382119v2.32",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "MetaboLights RESTful WebService API specification. https://www.ebi.ac.uk/metabolights/ws/api/spec.html. Accessed 9 Oct 2020.",
+          "key": "2024080423570998000_2020.11.13.382119v2.33",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-7-489",
+          "key": "2024080423570998000_2020.11.13.382119v2.34",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "FAIRsharing.org: MAGE-TAB; MicroArray Gene Expression Tabular Format; DOI: https://doi.org/10.25504/FAIRsharing.ak8p5g; Last edited: Jan. 8, 2019, 1:40 p.m.; Last accessed: Mar 03 2021 8:26 a.m.",
+          "key": "2024080423570998000_2020.11.13.382119v2.35",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gky1061",
+          "key": "2024080423570998000_2020.11.13.382119v2.36",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "FAIRsharing.org: SampleTab; Sample Tabular Format; DOI: https://doi.org/10.25504/FAIRsharing.hgnk8v; Last edited: March 9, 2020, 10:30 a.m.; Last accessed: Mar 03 2021 8:28 a.m",
+          "key": "2024080423570998000_2020.11.13.382119v2.37",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1074/mcp.R110.000133",
+          "unstructured": "Martens L , Chambers M , Sturm M , Kessner D , Levander F , Shofstahl J , et al. mzML-a community standard for mass spectrometry data. Mol Cell Proteomics. 2011;10.",
+          "key": "2024080423570998000_2020.11.13.382119v2.38",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "FAIRsharing.org: mzML; mz Markup Language; DOI: https://doi.org/10.25504/FAIRsharing.26dmba; Last edited: Jan. 8, 2019, 1:27 p.m.; Last accessed: Mar 03 2021 8:30 a.m.",
+          "key": "2024080423570998000_2020.11.13.382119v2.39",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1021/acs.analchem.7b02795",
+          "key": "2024080423570998000_2020.11.13.382119v2.40",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "FAIRsharing.org: NMR-ML; Nuclear Magnetic Resonance Markup Language; DOI: https://doi.org/10.25504/FAIRsharing.es03fk; Last edited: Jan. 8, 2019, 1:31 p.m.; Last accessed: Mar 03 2021 8:31 a.m.",
+          "key": "2024080423570998000_2020.11.13.382119v2.41",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkr854",
+          "key": "2024080423570998000_2020.11.13.382119v2.42",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "FAIRsharing.org: SRA-XML; Short Read Archive eXtensible Markup Language; DOI: https://doi.org/10.25504/FAIRsharing.q72e3w; Last edited: Feb. 11, 2020, 9:01 p.m.; Last accessed: Mar 03 2021 8:34 a.m.",
+          "key": "2024080423570998000_2020.11.13.382119v2.43",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btu813",
+          "key": "2024080423570998000_2020.11.13.382119v2.44",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gky964",
+          "key": "2024080423570998000_2020.11.13.382119v2.45",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "FAIRsharing.org: ArrayExpress; ArrayExpress; DOI: https://doi.org/10.25504/FAIRsharing.6k0kwd; Last edited: Feb. 8, 2021, 8:54 p.m.; Last accessed: Mar 03 2021 8:35 a.m.",
+          "key": "2024080423570998000_2020.11.13.382119v2.46",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "The European Nucleotide Archive in 2019",
+          "year": 2020,
+          "key": "2024080423570998000_2020.11.13.382119v2.47",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "FAIRsharing.org: ENA; European Nucleotide Archive; DOI: https://doi.org/10.25504/FAIRsharing.dj8nt8; Last edited: Feb. 23, 2021, 3:55 p.m.; Last accessed: Mar 03 2021 8:37 a.m.",
+          "key": "2024080423570998000_2020.11.13.382119v2.48",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkz1019",
+          "key": "2024080423570998000_2020.11.13.382119v2.49",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "FAIRsharing.org: MTBLS; MetaboLights; DOI: https://doi.org/10.25504/FAIRsharing.kkdpxe; Last edited: Feb. 4, 2021, 2:47 p.m.; Last accessed: Mar 03 2021 8:39 a.m.",
+          "key": "2024080423570998000_2020.11.13.382119v2.50",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/bts258",
+          "unstructured": "Brandizi M , Kurbatova N , Sarkans U , Rocca-Serra P. graph2tab, a library to convert experimental workflow graphs into tabular formats. Bioinformatics. Oxford University Press; 28:1665\u201316672012;",
+          "key": "2024080423570998000_2020.11.13.382119v2.51",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Google Colaboratory. https://colab.research.google.com/. Accessed 22 Oct 2020.",
+          "key": "2024080423570998000_2020.11.13.382119v2.52",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Microsoft Azure Notebooks. https://notebooks.azure.com/. Accessed 22 Oct 2020.",
+          "key": "2024080423570998000_2020.11.13.382119v2.53",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Amazon SageMaker. https://aws.amazon.com/sagemaker/. Accessed 22 Oct 2020.",
+          "key": "2024080423570998000_2020.11.13.382119v2.54",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Example Jupyter notebooks using the ISA-API on GitHub. https://github.com/ISA-tools/isatools-notebooks/. Accessed 28 Oct 2020.",
+          "key": "2024080423570998000_2020.11.13.382119v2.55",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "The ISA cookbook . https://isa-tools.org/isa-api/content/index.html. Accessed 2 Mar 2021.",
+          "key": "2024080423570998000_2020.11.13.382119v2.56",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "The FAIR Guiding Principles for scientific data management and stewardship",
+          "year": 2016,
+          "key": "2024080423570998000_2020.11.13.382119v2.57",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1145/2857274.2857276",
+          "key": "2024080423570998000_2020.11.13.382119v2.58",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nbt1346",
+          "key": "2024080423570998000_2020.11.13.382119v2.59",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/bty884",
+          "title": "GeneLab: Omics database for spaceflight experiments",
+          "year": 2019,
+          "key": "2024080423570998000_2020.11.13.382119v2.60",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "FAIRsharing.org: genelab; NASA GeneLab; DOI: https://doi.org/10.25504/FAIRsharing.64mr5a; Last edited: Feb. 5, 2021, 12:42 p.m.; Last accessed: Mar 03 2021 8:43 a.m",
+          "key": "2024080423570998000_2020.11.13.382119v2.61",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Shaw F , Etuk A , Gonzalez-Beltran A , Rocca-Serra P , Kersey PJ , Bastow R , et al. COPO-Linked Open Infrastructure for Plant Data. In: Malone J , Stevens R , Forsberg K , Splendiani Al , editors. Proceedings of the 8th International Conference on Semantic Web Applications and Tools for Life Sciences (SWAT4LS 2015). Aachen: CEUR-WS.org; 2015.",
+          "key": "2024080423570998000_2020.11.13.382119v2.62",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s12918-014-0137-8",
+          "key": "2024080423570998000_2020.11.13.382119v2.63",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "FAIRsharing.org: FAIRDOMHub; FAIRDOMHub; DOI: https://doi.org/10.25504/FAIRsharing.nnvcr9; Last edited: Aug. 1, 2020, 7:24 p.m.; Last accessed: Mar 03 2021 8:47 a.m.",
+          "key": "2024080423570998000_2020.11.13.382119v2.64",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkr1051",
+          "key": "2024080423570998000_2020.11.13.382119v2.65",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "FAIRsharing.org: SCDE; Stem Cell Discovery Engine; DOI: https://doi.org/10.25504/FAIRsharing.490xfb; Last edited: Feb. 8, 2021, 8:54 p.m.; Last accessed: Mar 03 2021 8:49 a.m.",
+          "key": "2024080423570998000_2020.11.13.382119v2.66",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.7490/f1000research.1115757.1",
+          "key": "2024080423570998000_2020.11.13.382119v2.67",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "PhenoMeNal: processing and analysis of metabolomics data in the cloud",
+          "year": 2019,
+          "key": "2024080423570998000_2020.11.13.382119v2.68",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/488643",
+          "unstructured": "Moreno P , Pireddu L , Roger P , Goonasekera N , Afgan E , Van Den Beek M , et al. Galaxy-Kubernetes integration: scaling bioinformatics workflows in the cloud. bioRxiv. 2018;bioRxiv.488643.",
+          "key": "2024080423570998000_2020.11.13.382119v2.69",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "ISA Galaxy tools, tours, and other enhancements on GitHub. https://github.com/ISA-tools/isatools-galaxy/. Accessed 9 Oct 2020.",
+          "key": "2024080423570998000_2020.11.13.382119v2.70",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.12688/f1000research.23889.1",
+          "key": "2024080423570998000_2020.11.13.382119v2.71",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btz190",
+          "key": "2024080423570998000_2020.11.13.382119v2.72",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s13007-016-0144-4",
+          "key": "2024080423570998000_2020.11.13.382119v2.73",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "FAIRsharing.org: MIAPPE; Minimum Information about Plant Phenotyping Experiment; DOI: https://doi.org/10.25504/FAIRsharing.nd9ce9; Last edited: Feb. 7, 2021, 9:09 p.m.; Last accessed: Mar 03 2021 8:54 a.m.",
+          "key": "2024080423570998000_2020.11.13.382119v2.74",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Analyzing PyPI package downloads - Python Packaging User Guide. https://packaging.python.org/guides/analyzing-pypi-package-downloads/. Accessed 28 Oct 2020.",
+          "key": "2024080423570998000_2020.11.13.382119v2.75",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "ELIXIR-NL represented at ELIXIR UK\u2019s \u201cISA as a FAIR research object\u201d event. https://www.dtls.nl/2015/09/16/defining-standards-to-describe-experiments-as-part-of-good-research-practices-the-isa-standard/. Accessed 2 Mar 2021.",
+          "key": "2024080423570998000_2020.11.13.382119v2.76",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "CUDDELing up to metabolomics in Hong Kong. http://gigasciencejournal.com/blog/cuddeling-up-to-metabolomics-in-hong-kong/. Accessed 2 Mar 2021.",
+          "key": "2024080423570998000_2020.11.13.382119v2.77",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/MC.2006.58",
+          "key": "2024080423570998000_2020.11.13.382119v2.78",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Williams L , Maximilien EM , Vouk M. Test-driven development as a defect-reduction practice. 14th Int Symp Softw Reliab Eng 2003 ISSRE 2003.",
+          "key": "2024080423570998000_2020.11.13.382119v2.79",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "The Linehaul Statistics Daemon. https://github.com/pypa/linehaul/. Accessed 28 Oct 2020.",
+          "key": "2024080423570998000_2020.11.13.382119v2.80",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "BigQuery: Cloud Data Warehouse. https://cloud.google.com/bigquery/. Accessed 28 Oct 2020.",
+          "key": "2024080423570998000_2020.11.13.382119v2.81",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.5281/zenodo.4019146",
+          "key": "2024080423570998000_2020.11.13.382119v2.82",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/gigascience/giab060",
+          "unstructured": "Johnson D. Code for the ISA API download statistics visualizations in \u201cISA API: An open platform for interoperable life science experimental metadata\u201d [Source Code]. Code Ocean. 2020. https://doi.org/10.24433/CO.8813991.v1",
+          "key": "2024080423570998000_2020.11.13.382119v2.83",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://syndication.highwire.org/content/doi/10.1101/2020.11.13.382119",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "https://www.biorxiv.org/about/FAQ#license",
+          "content_version": "vor",
+          "delay_in_days": 0,
+          "source": "crossref"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/2020.11.13.382119",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "ISA API: An open platform for interoperable life science experimental metadata",
+      "abstract": "Abstract Background The Investigation/Study/Assay (ISA) Metadata Framework is an established and widely used set of open-source community specifications and software tools for enabling discovery, exchange and publication of metadata from experiments in the life sciences. The original ISA software suite provided a set of user-facing Java tools for creating and manipulating the information structured in ISA-Tab \u2013 a now widely used tabular format. To make the ISA framework more accessible to machines and enable programmatic manipulation of experiment metadata, a JSON serialization ISA-JSON was developed. Results In this work, we present the ISA API, a Python library for the creation, editing, parsing, and validating of ISA-Tab and ISA-JSON formats by using a common data model engineered as Python object classes. We describe the ISA API feature set, early adopters and its growing user community. Conclusions The ISA API provides users with rich programmatic metadata handling functionality to support automation, a common interface and an interoperable medium between the two ISA formats, as well as with other life science data formats required for depositing data in public databases.",
+      "publication_date": "2020-11-16",
+      "publication_year": 2020,
+      "work_type": "preprint",
+      "language": "en",
+      "issn": [],
+      "doi": "10.1101/2020.11.13.382119",
+      "openalex_id": "https://openalex.org/W3104376636",
+      "authors": [
+        {
+          "name": {
+            "full_name": "David Johnson",
+            "orcid": "0000-0002-2323-6847",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Uppsala University",
+              "ror_id": "https://ror.org/048a87296",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Oxford",
+              "ror_id": "https://ror.org/052gg0110",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5065955048",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Keeva Cochrane",
+            "orcid": "0000-0001-7961-0474",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "European Bioinformatics Institute",
+              "ror_id": "https://ror.org/02catss52",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5080504478",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Robert Davey",
+            "orcid": "0000-0002-5589-7754",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Earlham Institute",
+              "ror_id": "https://ror.org/018cxtf62",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "Norwich Research Park",
+              "ror_id": "https://ror.org/0062dz060",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5025528976",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Anthony Etuk",
+            "orcid": "0000-0001-8320-660X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Earlham Institute",
+              "ror_id": "https://ror.org/018cxtf62",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "Norwich Research Park",
+              "ror_id": "https://ror.org/0062dz060",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5048606312",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Alejandra Gonz\u00e1lez-Beltr\u00e1n",
+            "orcid": "0000-0003-3499-8262",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Rutherford Appleton Laboratory",
+              "ror_id": "https://ror.org/03gq8fr08",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "Science and Technology Facilities Council",
+              "ror_id": "https://ror.org/057g20z61",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Oxford",
+              "ror_id": "https://ror.org/052gg0110",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5086246448",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kenneth Haug",
+            "orcid": "0000-0003-3168-4145",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "European Bioinformatics Institute",
+              "ror_id": "https://ror.org/02catss52",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "Wellcome Sanger Institute",
+              "ror_id": "https://ror.org/05cy4wa09",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5014348944",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Massimiliano Izzo",
+            "orcid": "0000-0002-8100-6142",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Oxford",
+              "ror_id": "https://ror.org/052gg0110",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5000815495",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Martin Larralde",
+            "orcid": "0000-0002-3947-4444",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "European Molecular Biology Laboratory",
+              "ror_id": "https://ror.org/050589e39",
+              "country_code": "DE",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5061398546",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Thomas N. Lawson",
+            "orcid": "0000-0002-5915-7980",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Birmingham",
+              "ror_id": "https://ror.org/03angcq70",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5047088143",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Alice Minotto",
+            "orcid": "0000-0002-1670-1675",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Earlham Institute",
+              "ror_id": "https://ror.org/018cxtf62",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "Norwich Research Park",
+              "ror_id": "https://ror.org/0062dz060",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5022255321",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Pablo Moreno",
+            "orcid": "0000-0002-9856-1679",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "European Bioinformatics Institute",
+              "ror_id": "https://ror.org/02catss52",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5101428806",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Venkata Chandrasekhar Nainala",
+            "orcid": "0000-0002-2564-3243",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "European Bioinformatics Institute",
+              "ror_id": "https://ror.org/02catss52",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5064873292",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Claire O\u2019Donovan",
+            "orcid": "0000-0001-8051-7429",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "European Bioinformatics Institute",
+              "ror_id": "https://ror.org/02catss52",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5066278201",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Luca Pireddu",
+            "orcid": "0000-0002-4663-5613",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Center for Advanced Studies Research and Development in Sardinia",
+              "ror_id": "https://ror.org/03jdxdk20",
+              "country_code": "IT",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5047833562",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Pierrick Roger",
+            "orcid": "0000-0001-8177-4873",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Laboratoire d'Int\u00e9gration des Syst\u00e8mes et des Technologies",
+              "ror_id": "https://ror.org/000dbcc61",
+              "country_code": "FR",
+              "source": "openalex"
+            },
+            {
+              "name": "Commissariat \u00e0 l'\u00c9nergie Atomique et aux \u00c9nergies Alternatives",
+              "ror_id": "https://ror.org/00jjx8s55",
+              "country_code": "FR",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5000556534",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Felix Shaw",
+            "orcid": "0000-0001-9649-5906",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Earlham Institute",
+              "ror_id": "https://ror.org/018cxtf62",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "Norwich Research Park",
+              "ror_id": "https://ror.org/0062dz060",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5002872376",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Christoph Steinbeck",
+            "orcid": "0000-0001-6966-0814",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5040194803",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ralf J. M. Weber",
+            "orcid": "0000-0002-8796-4771",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Birmingham",
+              "ror_id": "https://ror.org/03angcq70",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5013377183",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Susanna\u2010Assunta Sansone",
+            "orcid": "0000-0001-5306-5690",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Oxford",
+              "ror_id": "https://ror.org/052gg0110",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5008806860",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Philippe Rocca\u2010Serra",
+            "orcid": "0000-0001-9853-5668",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Oxford",
+              "ror_id": "https://ror.org/052gg0110",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5018395535",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 4,
+      "reference_count": 65,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2025": 1,
+        "2024": 1,
+        "2023": 1,
+        "2021": 1
+      },
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1101/2020.11.13.382119",
+          "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2021/03/29/2020.11.13.382119.full.pdf",
+          "landing_page_url": "https://doi.org/10.1101/2020.11.13.382119",
+          "version": "acceptedVersion",
+          "license": "cc-by",
+          "is_best": true,
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1101/2020.11.13.382119",
+          "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2021/03/29/2020.11.13.382119.full.pdf",
+          "landing_page_url": "https://doi.org/10.1101/2020.11.13.382119",
+          "version": "acceptedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://www.biorxiv.org/content/biorxiv/early/2021/03/29/2020.11.13.382119.full.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "cc-by",
+          "source": "openalex"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Biomedical Text Mining and Ontologies",
+          "scheme": "openalex_topic",
+          "score": 0.9984999895095825,
+          "source": "openalex"
+        },
+        {
+          "value": "Scientific Computing and Data Management",
+          "scheme": "openalex_topic",
+          "score": 0.9980999827384949,
+          "source": "openalex"
+        },
+        {
+          "value": "Research Data Management Practices",
+          "scheme": "openalex_topic",
+          "score": 0.9958999752998352,
+          "source": "openalex"
+        },
+        {
+          "value": "JSON",
+          "scheme": "openalex_concept",
+          "score": 0.9340248107910156,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.7733579874038696,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Metadata",
+          "scheme": "openalex_concept",
+          "score": 0.7681536674499512,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Interoperability",
+          "scheme": "openalex_concept",
+          "score": 0.7218462228775024,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Python (programming language)",
+          "scheme": "openalex_concept",
+          "score": 0.6572821736335754,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Serialization",
+          "scheme": "openalex_concept",
+          "score": 0.5395544767379761,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "World Wide Web",
+          "scheme": "openalex_concept",
+          "score": 0.522655725479126,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Software",
+          "scheme": "openalex_concept",
+          "score": 0.42459070682525635,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Software engineering",
+          "scheme": "openalex_concept",
+          "score": 0.41350191831588745,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Database",
+          "scheme": "openalex_concept",
+          "score": 0.37176835536956787,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Programming language",
+          "scheme": "openalex_concept",
+          "score": 0.21023869514465332,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Responsible consumption and production",
+          "scheme": "SDG",
+          "score": 0.550000011920929,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "JSON",
+        "Computer science",
+        "Metadata",
+        "Interoperability",
+        "Python (programming language)",
+        "Serialization",
+        "World Wide Web",
+        "Software",
+        "Software engineering",
+        "Database",
+        "Programming language"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/2020.11.13.382119",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "ISA API: An open platform for interoperable life science experimental metadata",
+      "publication_date": "2020-11-16",
+      "publication_year": 2020,
+      "work_type": "posted-content",
+      "publisher": "openRxiv",
+      "issn": [],
+      "doi": "10.1101/2020.11.13.382119",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://www.biorxiv.org/content/biorxiv/early/2021/03/29/2020.11.13.382119.full.pdf",
+          "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2021/03/29/2020.11.13.382119.full.pdf",
+          "landing_page_url": "https://doi.org/10.1101/2020.11.13.382119",
+          "version": "acceptedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.biorxiv.org/content/biorxiv/early/2021/03/29/2020.11.13.382119.full.pdf",
+          "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2021/03/29/2020.11.13.382119.full.pdf",
+          "landing_page_url": "https://doi.org/10.1101/2020.11.13.382119",
+          "version": "acceptedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://www.biorxiv.org/content/biorxiv/early/2021/03/29/2020.11.13.382119.full.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "ISA API: An open platform for interoperable life science experimental metadata",
+      "abstract": "<h4>Background</h4> The Investigation/Study/Assay (ISA) Metadata Framework is an established and widely used set of open-source community specifications and software tools for enabling discovery, exchange and publication of metadata from experiments in the life sciences. The original ISA software suite provided a set of user-facing Java tools for creating and manipulating the information structured in ISA-Tab \u2013 a now widely used tabular format. To make the ISA framework more accessible to machines and enable programmatic manipulation of experiment metadata, a JSON serialization ISA-JSON was developed. <h4>Results</h4> In this work, we present the ISA API, a Python library for the creation, editing, parsing, and validating of ISA-Tab and ISA-JSON formats by using a common data model engineered as Python object classes. We describe the ISA API feature set, early adopters and its growing user community. <h4>Conclusions</h4> The ISA API provides users with rich programmatic metadata handling functionality to support automation, a common interface and an interoperable medium between the two ISA formats, as well as with other life science data formats required for depositing data in public databases.",
+      "publication_year": 2020,
+      "issn": [],
+      "doi": "10.1101/2020.11.13.382119",
+      "authors": [
+        {
+          "name": {
+            "given": "David",
+            "family": "Johnson",
+            "full_name": "Johnson D",
+            "orcid": "0000-0002-2323-6847",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Keeva",
+            "family": "Cochrane",
+            "full_name": "Cochrane K",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Robert",
+            "family": "Davey",
+            "full_name": "Davey RP",
+            "orcid": "0000-0002-5589-7754",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Anthony",
+            "family": "Etuk",
+            "full_name": "Etuk A",
+            "orcid": "0000-0001-8320-660X",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Alejandra",
+            "family": "Gonzalez-Beltran",
+            "full_name": "Gonzalez-Beltran A",
+            "orcid": "0000-0003-3499-8262",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Kenneth",
+            "family": "Haug",
+            "full_name": "Haug K",
+            "orcid": "0000-0003-3168-4145",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Massimiliano",
+            "family": "Izzo",
+            "full_name": "Izzo M",
+            "orcid": "0000-0002-8100-6142",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Martin",
+            "family": "Larralde",
+            "full_name": "Larralde M",
+            "orcid": "0000-0002-3947-4444",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Thomas",
+            "family": "Lawson",
+            "full_name": "Lawson TN",
+            "orcid": "0000-0002-5915-7980",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Alice",
+            "family": "Minotto",
+            "full_name": "Minotto A",
+            "orcid": "0000-0002-1670-1675",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Pablo",
+            "family": "Moreno",
+            "full_name": "Moreno P",
+            "orcid": "0000-0002-9856-1679",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Venkata Chandrasekhar",
+            "family": "Nainala",
+            "full_name": "Nainala VC",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Claire",
+            "family": "O\u2019Donovan",
+            "full_name": "O\u2019Donovan C",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Luca",
+            "family": "Pireddu",
+            "full_name": "Pireddu L",
+            "orcid": "0000-0002-4663-5613",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Pierrick",
+            "family": "Roger",
+            "full_name": "Roger P",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Felix",
+            "family": "Shaw",
+            "full_name": "Shaw F",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Christoph",
+            "family": "Steinbeck",
+            "full_name": "Steinbeck C",
+            "orcid": "0000-0001-6966-0814",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ralf",
+            "family": "Weber",
+            "full_name": "Weber RJM",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Susanna-Assunta",
+            "family": "Sansone",
+            "full_name": "Sansone S",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Philippe",
+            "family": "Rocca-Serra",
+            "full_name": "Rocca-Serra P",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 0,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": false,
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 0.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [
+        {
+          "type": "Preprint of",
+          "id": "34528664",
+          "source": "MED"
+        }
+      ],
+      "full_text_urls": [
+        {
+          "url": "https://www.biorxiv.org/content/biorxiv/early/2021/03/29/2020.11.13.382119.full.pdf",
+          "availability": "Free",
+          "document_style": "pdf",
+          "site": "Unpaywall"
+        },
+        {
+          "url": "https://doi.org/10.1101/2020.11.13.382119",
+          "availability": "Free",
+          "document_style": "doi",
+          "site": "DOI"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/2020.11.13.382119",
+      "pmid": "19683066",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/2020.11.13.382119",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/2020.11.13.382119",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/2020.11.13.382119",
+      "authors": [
+        {
+          "name": {
+            "given": "Thomas N",
+            "family": "Lawson",
+            "full_name": "Thomas N Lawson",
+            "orcid": "0000-0002-5915-7980",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Luca",
+            "family": "Pireddu",
+            "full_name": "Luca Pireddu",
+            "orcid": "0000-0002-4663-5613",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Alice",
+            "family": "Minotto",
+            "full_name": "Alice Minotto",
+            "orcid": "0000-0002-1670-1675",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ove Kenneth",
+            "family": "Haug",
+            "full_name": "Ove Kenneth Haug",
+            "orcid": "0000-0003-3168-4145",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Anthony",
+            "family": "Etuk",
+            "full_name": "Anthony Etuk",
+            "orcid": "0000-0001-8320-660X",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Massimiliano",
+            "family": "Izzo",
+            "full_name": "Massimiliano Izzo",
+            "orcid": "0000-0002-8100-6142",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "David",
+            "family": "Johnson",
+            "full_name": "Dr David Johnson",
+            "orcid": "0000-0002-2323-6847",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Alejandra",
+            "family": "Gonzalez-Beltran",
+            "full_name": "Alejandra Gonzalez-Beltran",
+            "orcid": "0000-0003-3499-8262",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Pablo",
+            "family": "Moreno",
+            "full_name": "Pablo Moreno",
+            "orcid": "0000-0002-9856-1679",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Robert",
+            "family": "Davey",
+            "full_name": "Robert Davey",
+            "orcid": "0000-0002-5589-7754",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Martin",
+            "family": "Larralde",
+            "full_name": "Martin Larralde",
+            "orcid": "0000-0002-3947-4444",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Christoph",
+            "family": "Steinbeck",
+            "full_name": "Christoph Steinbeck",
+            "orcid": "0000-0001-6966-0814",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0002-5915-7980",
+          "given_names": "Thomas N",
+          "family_names": "Lawson",
+          "credit_name": "Thomas N Lawson",
+          "other_names": [
+            "Tom Lawson",
+            "Thomas Lawson",
+            "Thomas Nigel Lawson"
+          ],
+          "institutions": [
+            "Michabo Health Science Ltd.",
+            "University of Birmingham"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-4663-5613",
+          "given_names": "Luca",
+          "family_names": "Pireddu",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Center for Advanced Studies Research and Development (CRS4)",
+            "Laurentian University",
+            "University of Alberta",
+            "Universit\u00e0 degli Studi di Cagliari"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-1670-1675",
+          "given_names": "Alice",
+          "family_names": "Minotto",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Digital Science (United Kingdom)",
+            "Earlham Institute",
+            "Sainsbury Laboratory",
+            "Universit\u00e0 degli Studi di Milano Dipartimento di Matematica Federigo Enriques"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0003-3168-4145",
+          "given_names": "Ove Kenneth",
+          "family_names": "Haug",
+          "credit_name": null,
+          "other_names": [
+            "Ken"
+          ],
+          "institutions": [
+            "Genome Research Ltd"
+          ],
+          "emails": [
+            "kh14@sanger.ac.uk"
+          ]
+        },
+        {
+          "orcid_id": "0000-0001-8320-660X",
+          "given_names": "Anthony",
+          "family_names": "Etuk",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Genome Analysis Centre",
+            "University of Aberdeen"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-8100-6142",
+          "given_names": "Massimiliano",
+          "family_names": "Izzo",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Istituto Giannina Gaslini",
+            "University of Oxford",
+            "Universit\u00e0 degli Studi di Genova"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-2323-6847",
+          "given_names": "David",
+          "family_names": "Johnson",
+          "credit_name": "Dr David Johnson",
+          "other_names": [],
+          "institutions": [
+            "Association for Computing Machinery",
+            "Imperial College London",
+            "University of Oxford",
+            "University of Reading",
+            "Uppsala Universitet",
+            "Uppsala University"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0003-3499-8262",
+          "given_names": "Alejandra",
+          "family_names": "Gonzalez-Beltran",
+          "credit_name": null,
+          "other_names": [
+            "Alejandra Noem\u00ed Gonz\u00e1lez Beltr\u00e1n"
+          ],
+          "institutions": [
+            "Queen's University Belfast",
+            "Science and Technology Facilities Council",
+            "University of Oxford"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-9856-1679",
+          "given_names": "Pablo",
+          "family_names": "Moreno",
+          "credit_name": null,
+          "other_names": [
+            "Pablo Moreno Cortez"
+          ],
+          "institutions": [
+            "AstraZeneca (United Kingdom)",
+            "Cambridge Institute for Medical Research",
+            "European Bioinformatics Institute"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-5589-7754",
+          "given_names": "Robert",
+          "family_names": "Davey",
+          "credit_name": null,
+          "other_names": [
+            "froggleston"
+          ],
+          "institutions": [
+            "DivSeek",
+            "Earlham Institute",
+            "The Carpentries",
+            "University of East Anglia"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-3947-4444",
+          "given_names": "Martin",
+          "family_names": "Larralde",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "CRC 1371",
+            "EMBL",
+            "Ecole Normale Sup\u00e9rieure Paris-Saclay",
+            "Leiden University Medical Center",
+            "Universit\u00e9 Paris-Sud"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0001-6966-0814",
+          "given_names": "Christoph",
+          "family_names": "Steinbeck",
+          "credit_name": "Christoph Steinbeck",
+          "other_names": [],
+          "institutions": [
+            "Eberhard Karls Universit\u00e4t T\u00fcbingen",
+            "European Bioinformatics Institute",
+            "Friedrich-Schiller-Universitat Jena",
+            "Friedrich-Schiller-Universit\u00e4t Jena",
+            "Max-Planck-Institute for Chemical Ecology",
+            "Rheinische Friedrich Wilhelms Universitat Bonn",
+            "Tufts University",
+            "Universit\u00e4t zu K\u00f6ln"
+          ],
+          "emails": [
+            "christoph.steinbeck@uni-jena.de"
+          ]
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/2020.11.13.382119",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1101/2020.11.13.382119",
+    "pmid": "19683066",
+    "openalex_id": "https://openalex.org/W3104376636",
+    "handles": [],
+    "orcids": [
+      "0000-0001-5306-5690",
+      "0000-0001-6966-0814",
+      "0000-0001-7961-0474",
+      "0000-0001-8051-7429",
+      "0000-0001-8177-4873",
+      "0000-0001-8320-660X",
+      "0000-0001-9649-5906",
+      "0000-0001-9853-5668",
+      "0000-0002-1670-1675",
+      "0000-0002-2323-6847",
+      "0000-0002-2564-3243",
+      "0000-0002-3947-4444",
+      "0000-0002-4663-5613",
+      "0000-0002-5589-7754",
+      "0000-0002-5915-7980",
+      "0000-0002-8100-6142",
+      "0000-0002-8796-4771",
+      "0000-0002-9856-1679",
+      "0000-0003-3168-4145",
+      "0000-0003-3499-8262"
+    ],
+    "ror_ids": [
+      "https://ror.org/000dbcc61",
+      "https://ror.org/0062dz060",
+      "https://ror.org/00jjx8s55",
+      "https://ror.org/018cxtf62",
+      "https://ror.org/02catss52",
+      "https://ror.org/03angcq70",
+      "https://ror.org/03gq8fr08",
+      "https://ror.org/03jdxdk20",
+      "https://ror.org/048a87296",
+      "https://ror.org/050589e39",
+      "https://ror.org/052gg0110",
+      "https://ror.org/057g20z61",
+      "https://ror.org/05cy4wa09"
+    ],
+    "grant_ids": [],
+    "nct_ids": [],
+    "pmid_source": "nih_reporter"
+  },
+  "conflicts": {
+    "doi": "10.1101/2020.11.13.382119",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 0,
+          "openalex": 4,
+          "europe_pmc": 0
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 83,
+          "openalex": 65
+        },
+        "risk": "low"
+      },
+      {
+        "field": "is_oa",
+        "values": {
+          "openalex": true,
+          "unpaywall": true,
+          "europe_pmc": false
+        },
+        "risk": "medium"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "posted-content",
+          "openalex": "preprint",
+          "unpaywall": "posted-content"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 20,
+          "openalex": 20,
+          "unpaywall": 20,
+          "europe_pmc": 20,
+          "orcid": 12
+        },
+        "risk": "high"
+      }
+    ],
+    "agreement_count": 2,
+    "conflict_count": 5
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1101/2020.11.13.382119",
+    "fetched_at": "2026-02-11T18:50:12.112514+00:00"
+  }
+}

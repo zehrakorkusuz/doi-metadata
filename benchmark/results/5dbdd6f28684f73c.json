@@ -1,0 +1,3960 @@
+{
+  "doi": "10.1186/2041-1480-4-s1-s1",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T18:41:02.187412Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "Ontology-Based Querying with Bio2RDF\u2019s Linked Open Data",
+      "abstract": "<jats:title>Abstract</jats:title>\n          <jats:sec>\n            <jats:title>Background</jats:title>\n            <jats:p>A key activity for life scientists in this post \u201c-omics\u201d age involves searching for and integrating biological data from a multitude of independent databases. However, our ability to find relevant data is hampered by non-standard web and database interfaces backed by an enormous variety of data formats. This heterogeneity presents an overwhelming barrier to the discovery and reuse of resources which have been developed at great public expense.To address this issue, the open-source Bio2RDF project promotes a simple convention to integrate diverse biological data using Semantic Web technologies. However, querying Bio2RDF remains difficult due to the lack of uniformity in the representation of Bio2RDF datasets.</jats:p>\n          </jats:sec>\n          <jats:sec>\n            <jats:title>Results</jats:title>\n            <jats:p>We describe an update to Bio2RDF that includes tighter integration across 19 new and updated RDF datasets. All available open-source scripts were first consolidated to a single GitHub repository and then redeveloped using a common API that generates normalized IRIs using a centralized dataset registry. We then mapped dataset specific types and relations to the Semanticscience Integrated Ontology (SIO) and demonstrate simplified federated queries across multiple Bio2RDF endpoints.</jats:p>\n          </jats:sec>\n          <jats:sec>\n            <jats:title>Conclusions</jats:title>\n            <jats:p>This coordinated release marks an important milestone for the Bio2RDF open source linked data framework. Principally, it improves the quality of linked data in the Bio2RDF network and makes it easier to access or recreate the linked data locally. We hope to continue improving the Bio2RDF network of linked data by identifying priority databases and increasing the vocabulary coverage to additional dataset vocabularies beyond SIO.</jats:p>\n          </jats:sec>",
+      "publication_date": "2013-04",
+      "publication_year": 2013,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Springer Science and Business Media LLC",
+      "container_title": "Journal of Biomedical Semantics",
+      "volume": "4",
+      "issue": "S1",
+      "pages": "S1",
+      "issn": [
+        "2041-1480"
+      ],
+      "doi": "10.1186/2041-1480-4-s1-s1",
+      "authors": [
+        {
+          "name": {
+            "given": "Alison",
+            "family": "Callahan",
+            "full_name": "Alison Callahan",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jos\u00e9",
+            "family": "Cruz-Toledo",
+            "full_name": "Jos\u00e9 Cruz-Toledo",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michel",
+            "family": "Dumontier",
+            "full_name": "Michel Dumontier",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 39,
+      "reference_count": 38,
+      "references": [
+        {
+          "doi": "10.1093/nar/gkr1184",
+          "year": 2012,
+          "author": "EW Sayers",
+          "unstructured": "Sayers EW, Barrett T, Benson DA, Bolton E, Bryant SH, Canese K, Chetvernin V, Church DM, Dicuccio M, Federhen S: Database resources of the National Center for Biotechnology Information. Nucleic Acids Res. 2012, 40 (Database issue): D13-25.",
+          "key": "113_CR1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkp986",
+          "year": 2010,
+          "author": "C Brooksbank",
+          "unstructured": "Brooksbank C, Cameron G, Thornton J: The European Bioinformatics Institute's data resources. Nucleic Acids Res. 2010, 38 (Database issue): D17-25.",
+          "key": "113_CR2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-9-405",
+          "year": 2008,
+          "author": "S Razick",
+          "unstructured": "Razick S, Magklaras G, Donaldson IM: iRefIndex: a consolidated protein interaction database with provenance. BMC Bioinformatics. 2008, 9: 405-",
+          "key": "113_CR3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/database/bar009",
+          "year": 2011,
+          "author": "M Magrane",
+          "unstructured": "Magrane M, Consortium U: UniProt Knowledgebase: a hub of integrated protein data. Database (Oxford). 2011, 2011: bar009-",
+          "key": "113_CR4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jbi.2008.01.008",
+          "year": 2008,
+          "author": "C Goble",
+          "unstructured": "Goble C, Stevens R: State of the nation in data integration for bioinformatics. J Biomed Inform. 2008, 41 (5): 687-693.",
+          "key": "113_CR5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jbi.2008.03.004",
+          "year": 2008,
+          "author": "F Belleau",
+          "unstructured": "Belleau F, Nolin M-A, Tourigny N, Rigault P, Morissette J: Bio2RDF: towards a mashup to build bioinformatics knowledge systems. Journal of Biomedical Informatics. 2008, 41 (5): 706-716.",
+          "key": "113_CR6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2011,
+          "author": "MA Nolin",
+          "unstructured": "Nolin MA, Dumontier M, Belleau F, Corbeil J: Building an HIV data mashup using Bio2RDF. Briefings in Bioinformatics. 2011",
+          "key": "113_CR7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2008,
+          "author": "M-A Nolin",
+          "unstructured": "Nolin M-A, Ansell P, Belleau F, Idehen K, Rigault P, Tourigny N, Roe P, Hogan JM, Dumontier M: Bio2RDF Network of Linked Data. Semantic Web Challenge; International Semantic Web Conference (ISWC 2008). 2008, Karlsruhe, Germany",
+          "key": "113_CR8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Linked Data. [http://www.w3.org/DesignIssues/LinkedData.html]",
+          "key": "113_CR9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bib/bbp004",
+          "year": 2009,
+          "author": "A Ruttenberg",
+          "unstructured": "Ruttenberg A, Rees JA, Samwald M, Marshall MS: Life sciences on the Semantic Web: the Neurocommons and beyond. Brief Bioinform. 2009, 10 (2): 193-204.",
+          "key": "113_CR10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2009,
+          "author": "V Momtchev",
+          "unstructured": "Momtchev V, Peychev D, Primov T, Georgiev G: Expanding the Pathway and Interaction Knowledge inLinked Life Data. Semantic Web Challenge: 2009; Amsterdam. 2009",
+          "key": "113_CR11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1758-2946-3-19",
+          "year": 2011,
+          "author": "M Samwald",
+          "unstructured": "Samwald M, Jentzsch A, Bouton C, Kallesoe CS, Willighagen E, Hajagos J, Marshall MS, Prud'hommeaux E, Hassenzadeh O, Pichler E: Linked open drug data for pharmaceutical research and development. J Cheminform. 2011, 3 (1): 19-",
+          "key": "113_CR12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-11-255",
+          "year": 2010,
+          "author": "B Chen",
+          "unstructured": "Chen B, Dong X, Jiao D, Wang H, Zhu Q, Ding Y, Wild DJ: Chem2Bio2RDF: a semantic framework for linking and data mining chemogenomic and systems chemical biology data. BMC bioinformatics. 2010, 11: 255-",
+          "key": "113_CR13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "BioLOD - Biological Linked Open Databases. [http://biolod.org/]",
+          "key": "113_CR14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-7-497",
+          "year": 2006,
+          "author": "EG Cerami",
+          "unstructured": "Cerami EG, Bader GD, Gross BE, Sander C: cPath: open source software for collecting, storing, and querying biological pathways. BMC Bioinformatics. 2006, 7: 497-",
+          "key": "113_CR15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1049/iet-syb.2009.0007",
+          "year": 2009,
+          "author": "O Ruebenacker",
+          "unstructured": "Ruebenacker O, Moraru II, Schaff JC, Blinov ML: Integrating BioPAX pathway knowledge with SBML models. IET Syst Biol. 2009, 3 (5): 317-328.",
+          "key": "113_CR16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2012,
+          "author": "H Chen",
+          "unstructured": "Chen H, Yu T, Chen JY: Semantic Web meets Integrative Biology: a survey. Brief Bioinform. 2012",
+          "key": "113_CR17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/ng.1054",
+          "year": 2012,
+          "author": "SA Sansone",
+          "unstructured": "Sansone SA, Rocca-Serra P, Field D, Maguire E, Taylor C, Hofmann O, Fang H, Neumann S, Tong W, Amaral-Zettler L: Toward interoperable bioscience data. Nat Genet. 2012, 44 (2): 121-126.",
+          "key": "113_CR18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pone.0022006",
+          "year": 2011,
+          "author": "R Hoehndorf",
+          "unstructured": "Hoehndorf R, Dumontier M, Oellrich A, Rebholz-Schuhmann D, Schofield PN, Gkoutos GV: Interoperability between biomedical ontologies through relation expansion, upper-level ontologies and automatic reasoning. PLoS One. 2011, 6 (7): e22006-",
+          "key": "113_CR19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1752-0509-5-124",
+          "year": 2011,
+          "author": "R Hoehndorf",
+          "unstructured": "Hoehndorf R, Dumontier M, Gennari JH, Wimalaratne S, de Bono B, Cook DL, Gkoutos GV: Integrating systems biology models and biomedical ontologies. BMC Syst Biol. 2011, 5: 124-",
+          "key": "113_CR20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jbi.2010.06.007",
+          "year": 2011,
+          "author": "JH Gennari",
+          "unstructured": "Gennari JH, Neal ML, Galdzicki M, Cook DL: Multiple ontologies in action: composite annotations for biosimulation models. J Biomed Inform. 2011, 44 (1): 146-154.",
+          "key": "113_CR21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.websem.2011.06.005",
+          "year": 2011,
+          "author": "C Jonquet",
+          "unstructured": "Jonquet C, Lependu P, Falconer S, Coulet A, Noy NF, Musen MA, Shah NH: NCBO Resource Index: Ontology-Based Search and Mining of Biomedical Resources. Web Semant. 2011, 9 (3): 316-324.",
+          "key": "113_CR22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-13-S1-S6",
+          "year": 2012,
+          "author": "R Berlanga",
+          "unstructured": "Berlanga R, Jimenez-Ruiz E, Nebot V: Exploring and linking biomedical resources through multidimensional semantic spaces. BMC bioinformatics. 2012, 13 (Suppl 1): S6-",
+          "key": "113_CR23",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "The Semanticscience Integrated Ontology (SIO). [http://code.google.com/p/semanticscience/wiki/SIO]",
+          "key": "113_CR24",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1758-2946-3-16",
+          "year": 2011,
+          "author": "LL Chepelev",
+          "unstructured": "Chepelev LL, Dumontier M: Semantic Web integration of Cheminformatics resources with the SADI framework. J Cheminform. 2011, 3: 16-",
+          "key": "113_CR25",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-12-303",
+          "year": 2011,
+          "author": "LL Chepelev",
+          "unstructured": "Chepelev LL, Riazanov A, Kouznetsov A, Low HS, Dumontier M, Baker CJ: Prototype semantic infrastructure for automated small molecule classification and annotation in lipidomics. BMC bioinformatics. 2011, 12: 303-",
+          "key": "113_CR26",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/2041-1480-2-8",
+          "year": 2011,
+          "author": "MD Wilkinson",
+          "unstructured": "Wilkinson MD, Vandervalk B, McCarthy L: The Semantic Automated Discovery and Integration (SADI) Web service Design-Pattern, API and Reference Implementation. J Biomed Semantics. 2011, 2 (1): 8-",
+          "key": "113_CR27",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "[http://www.w3.org/TR/sparql11-federated-query/#simpleService]",
+          "key": "113_CR28",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pone.0025513",
+          "year": 2011,
+          "author": "J Hastings",
+          "unstructured": "Hastings J, Chepelev L, Willighagen E, Adams N, Steinbeck C, Dumontier M: The chemical information ontology: provenance and disambiguation for chemical data on the biological semantic web. PLoS One. 2011, 6 (10): e25513-",
+          "key": "113_CR29",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2004,
+          "author": "D Pisanelli",
+          "unstructured": "Pisanelli D: Biodynamic ontology: applying BFO in the biomedical domain. Ontologies in Medicine. 2004, 102: 20-",
+          "key": "113_CR30",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/gb-2005-6-5-r46",
+          "year": 2005,
+          "author": "B Smith",
+          "unstructured": "Smith B, Ceusters W, Klagges B, Kohler J, Kumar A, Lomax J, Mungall C, Neuhaus F, Rector AL, Rosse C: Relations in biomedical ontologies. Genome Biol. 2005, 6 (5): R46-",
+          "key": "113_CR31",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pone.0030004",
+          "year": 2012,
+          "author": "L Vogt",
+          "unstructured": "Vogt L, Grobe P, Quast B, Bartolomaeus T: Accommodating ontologies to biological reality--top-level categories of cumulative-constitutively organized material entities. PLoS One. 2012, 7 (1): e30004-",
+          "key": "113_CR32",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/2041-1480-3-17",
+          "year": 2012,
+          "author": "Y Lin",
+          "unstructured": "Lin Y, He Y: Ontology representation and analysis of vaccine formulation and administration and their effects on vaccine immune responses. J Biomed Semantics. 2012, 3 (1): 17-",
+          "key": "113_CR33",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "SIO Ontology Design Principles. [https://code.google.com/p/semanticscience/wiki/ODP]",
+          "key": "113_CR34",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/2041-1480-1-S1-S7",
+          "year": 2010,
+          "author": "RR Brinkman",
+          "unstructured": "Brinkman RR, Courtot M, Derom D, Fostel JM, He Y, Lord P, Malone J, Parkinson H, Peters B, Rocca-Serra P: Modeling biomedical experimental processes with OBI. J Biomed Semantics. 2010, 1 (Suppl 1): S7-",
+          "key": "113_CR35",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1472-6947-8-S1-S6",
+          "year": 2008,
+          "author": "P Ruch",
+          "unstructured": "Ruch P, Gobeill J, Lovis C, Geissbuhler A: Automatic medical encoding with SNOMED categories. BMC Med Inform Decis Mak. 2008, 8 (Suppl 1): S6-",
+          "key": "113_CR36",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2009,
+          "author": "C Jonquet",
+          "unstructured": "Jonquet C, Shah NH, Musen MA: The open biomedical annotator. Summit on Translat Bioinforma. 2009, 2009: 56-60.",
+          "key": "113_CR37",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "A PHP utility library . [https://github.com/micheldumontier/php-lib/]",
+          "key": "113_CR38",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://link.springer.com/content/pdf/10.1186/2041-1480-4-S1-S1.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [
+        {
+          "value": "15 April 2013",
+          "order": 1,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        }
+      ],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/2041-1480-4-s1-s1",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "Ontology-Based Querying with Bio2RDF\u2019s Linked Open Data",
+      "abstract": "Abstract Background A key activity for life scientists in this post \u201c-omics\u201d age involves searching for and integrating biological data from a multitude of independent databases. However, our ability to find relevant data is hampered by non-standard web and database interfaces backed by an enormous variety of data formats. This heterogeneity presents an overwhelming barrier to the discovery and reuse of resources which have been developed at great public expense.To address this issue, the open-source Bio2RDF project promotes a simple convention to integrate diverse biological data using Semantic Web technologies. However, querying Bio2RDF remains difficult due to the lack of uniformity in the representation of Bio2RDF datasets. Results We describe an update to Bio2RDF that includes tighter integration across 19 new and updated RDF datasets. All available open-source scripts were first consolidated to a single GitHub repository and then redeveloped using a common API that generates normalized IRIs using a centralized dataset registry. We then mapped dataset specific types and relations to the Semanticscience Integrated Ontology (SIO) and demonstrate simplified federated queries across multiple Bio2RDF endpoints. Conclusions This coordinated release marks an important milestone for the Bio2RDF open source linked data framework. Principally, it improves the quality of linked data in the Bio2RDF network and makes it easier to access or recreate the linked data locally. We hope to continue improving the Bio2RDF network of linked data by identifying priority databases and increasing the vocabulary coverage to additional dataset vocabularies beyond SIO.",
+      "publication_date": "2013-04-01",
+      "publication_year": 2013,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310320256",
+      "container_title": "Journal of Biomedical Semantics",
+      "volume": "4",
+      "issue": "S1",
+      "pages": "S1-S1",
+      "issn": [
+        "2041-1480"
+      ],
+      "doi": "10.1186/2041-1480-4-s1-s1",
+      "pmid": "23735196",
+      "openalex_id": "https://openalex.org/W2124308436",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Alison Callahan",
+            "orcid": "0000-0001-5163-380X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Carleton University",
+              "ror_id": "https://ror.org/02qtvee93",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5062800749",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jos\u00e9 Cruz-Toledo",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Carleton University",
+              "ror_id": "https://ror.org/02qtvee93",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5015165323",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Michel Dumontier",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Carleton University",
+              "ror_id": "https://ror.org/02qtvee93",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5044836472",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 72,
+      "reference_count": 32,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2024": 2,
+        "2023": 4,
+        "2022": 2,
+        "2021": 3,
+        "2020": 8,
+        "2019": 8,
+        "2018": 6,
+        "2017": 3,
+        "2016": 6,
+        "2015": 9,
+        "2014": 14,
+        "2013": 7
+      },
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1186/2041-1480-4-s1-s1",
+          "pdf_url": "https://jbiomedsem.biomedcentral.com/track/pdf/10.1186/2041-1480-4-S1-S1",
+          "landing_page_url": "https://doi.org/10.1186/2041-1480-4-s1-s1",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310320256",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1186/2041-1480-4-s1-s1",
+          "pdf_url": "https://jbiomedsem.biomedcentral.com/track/pdf/10.1186/2041-1480-4-S1-S1",
+          "landing_page_url": "https://doi.org/10.1186/2041-1480-4-s1-s1",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310320256",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23735196",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/23735196",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "https://cris.maastrichtuniversity.nl/en/publications/f0b7d827-53eb-48ff-b1dd-071741eb823e",
+          "landing_page_url": "https://cris.maastrichtuniversity.nl/en/publications/f0b7d827-53eb-48ff-b1dd-071741eb823e",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "source": "openalex"
+        },
+        {
+          "url": "http://europepmc.org/articles/PMC3632999",
+          "landing_page_url": "http://europepmc.org/articles/PMC3632999",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1303153112",
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3632999",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3632999",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://jbiomedsem.biomedcentral.com/track/pdf/10.1186/2041-1480-4-S1-S1",
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "cc-by",
+          "source": "openalex"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Biomedical Text Mining and Ontologies",
+          "scheme": "openalex_topic",
+          "score": 0.9998000264167786,
+          "source": "openalex"
+        },
+        {
+          "value": "Semantic Web and Ontologies",
+          "scheme": "openalex_topic",
+          "score": 0.996399998664856,
+          "source": "openalex"
+        },
+        {
+          "value": "Bioinformatics and Genomic Networks",
+          "scheme": "openalex_topic",
+          "score": 0.9868999719619751,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.8582780361175537,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Scripting language",
+          "scheme": "openalex_concept",
+          "score": 0.5482783317565918,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Ontology",
+          "scheme": "openalex_concept",
+          "score": 0.5328013896942139,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Data integration",
+          "scheme": "openalex_concept",
+          "score": 0.511641800403595,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Linked data",
+          "scheme": "openalex_concept",
+          "score": 0.4787035286426544,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Information retrieval",
+          "scheme": "openalex_concept",
+          "score": 0.4609966278076172,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "World Wide Web",
+          "scheme": "openalex_concept",
+          "score": 0.44788405299186707,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Vocabulary",
+          "scheme": "openalex_concept",
+          "score": 0.44782838225364685,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Semantic Web",
+          "scheme": "openalex_concept",
+          "score": 0.42957520484924316,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Data science",
+          "scheme": "openalex_concept",
+          "score": 0.4148951470851898,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Database",
+          "scheme": "openalex_concept",
+          "score": 0.33617866039276123,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Data mining",
+          "scheme": "openalex_concept",
+          "score": 0.3338473439216614,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Linguistics",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Epistemology",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Philosophy",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Operating system",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Computer science",
+        "Scripting language",
+        "Ontology",
+        "Data integration",
+        "Linked data",
+        "Information retrieval",
+        "World Wide Web",
+        "Vocabulary",
+        "Semantic Web",
+        "Data science",
+        "Database",
+        "Data mining"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 5.10440231,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.96717532,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 1459.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": true,
+      "raw": {},
+      "title": "Ontology-Based Querying with Bio2RDF\u2019s Linked Open Data",
+      "abstract": "A key activity for life scientists in this post \u201c-omics\u201d age involves searching for and integrating biological data from a multitude of independent databases. However, our ability to find relevant data is hampered by non-standard web and database interfaces backed by an enormous variety of data formats. This heterogeneity presents an overwhelming barrier to the discovery and reuse of resources which have been developed at great public expense.To address this issue, the open-source Bio2RDF project promotes a simple convention to integrate diverse biological data using Semantic Web technologies. However, querying Bio2RDF remains difficult due to the lack of uniformity in the representation of Bio2RDF datasets. We describe an update to Bio2RDF that includes tighter integration across 19 new and updated RDF datasets. All available open-source scripts were first consolidated to a single GitHub repository and then redeveloped using a common API that generates normalized IRIs using a centralized dataset registry. We then mapped dataset specific types and relations to the Semanticscience Integrated Ontology (SIO) and demonstrate simplified federated queries across multiple Bio2RDF endpoints. This coordinated release marks an important milestone for the Bio2RDF open source linked data framework. Principally, it improves the quality of linked data in the Bio2RDF network and makes it easier to access or recreate the linked data locally. We hope to continue improving the Bio2RDF network of linked data by identifying priority databases and increasing the vocabulary coverage to additional dataset vocabularies beyond SIO.",
+      "publication_date": "2013-04-01",
+      "publication_year": 2013,
+      "work_type": "JournalArticle",
+      "container_title": "Journal of Biomedical Semantics",
+      "volume": "4",
+      "pages": "S1 - S1",
+      "issn": [],
+      "doi": "10.1186/2041-1480-4-s1-s1",
+      "pmid": "23735196",
+      "pmcid": "3632999",
+      "s2_paper_id": "02f7521297669e25517fa210b0c800e5963528d2",
+      "s2_corpus_id": "3934245",
+      "authors": [
+        {
+          "name": {
+            "full_name": "A. Callahan",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "2840689",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jose Cruz-Toledo",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "1403851557",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "M. Dumontier",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "1736389",
+          "sources": [
+            "semantic_scholar"
+          ]
+        }
+      ],
+      "citation_count": 73,
+      "reference_count": 39,
+      "influential_citation_count": 1,
+      "references": [
+        {
+          "doi": "10.1186/2041-1480-3-17",
+          "title": "Ontology representation and analysis of vaccine formulation and administration and their effects on vaccine immune responses",
+          "year": 2012,
+          "s2_paper_id": "4f93249f6aaa1f598d2ab2c01b571c52577b0c02",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "SIO also contrasts OBO domain ontologies such as the Vaccine Ontology [33] in that it does not suffer from a proliferation of classes and object properties as a result of attempting to integrate multiple OBO ontologies."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1038/ng.1054",
+          "title": "Toward interoperable bioscience data",
+          "year": 2012,
+          "s2_paper_id": "fc3da030b1a588dd87a233f9ee4324bf7c90d65e",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Several approaches for integrating biological data have been reported [15-17], but they rely on a variety of data formats and standards, making sustainable large-scale integration challenging [18]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/1471-2105-13-S1-S6",
+          "title": "Exploring and linking biomedical resources through multidimensional semantic spaces",
+          "year": 2012,
+          "s2_paper_id": "06fe4e918bfa776838006b4f2637ffa7e9350aeb",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Ontologies have also been used as a means to integrate data at a global level [19-23] but these efforts typically involve creating a new application ontology or re-using domain specific ontologies."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1371/journal.pone.0030004",
+          "title": "Accommodating Ontologies to Biological Reality\u2014Top-Level Categories of Cumulative-Constitutively Organized Material Entities",
+          "year": 2012,
+          "s2_paper_id": "7fd75178beac8c95e5dbca450e4f3e9c16a56e9e",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "SIO also enables the representation of cumulative-constitutively organized material entities [32], which are common in biological domains but not captured by BFO."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1371/journal.pone.0025513",
+          "title": "The Chemical Information Ontology: Provenance and Disambiguation for Chemical Data on the Biological Semantic Web",
+          "year": 2011,
+          "s2_paper_id": "6b7a8c9184ddfe1a863bc322da8da51439de869d",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "In this way, it would become possible to categorize each kind of literal, as has been demonstrated with the Chemical Information Ontology [29]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/1752-0509-5-124",
+          "title": "Integrating systems biology models and biomedical ontologies",
+          "year": 2011,
+          "s2_paper_id": "8d21d1761de4f40a732c24c0e578b81e902b89b7",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Ontologies have also been used as a means to integrate data at a global level [19-23] but these efforts typically involve creating a new application ontology or re-using domain specific ontologies."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/1471-2105-12-303",
+          "title": "Prototype semantic infrastructure for automated small molecule classification and annotation in lipidomics",
+          "year": 2011,
+          "s2_paper_id": "82e557fd68fc145f8a451b28b47d291e840e4edc",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1371/journal.pone.0022006",
+          "title": "Interoperability between Biomedical Ontologies through Relation Expansion, Upper-Level Ontologies and Automatic Reasoning",
+          "year": 2011,
+          "s2_paper_id": "9cb89f6c9ada4837bfaab24e52caf1407ea757b8",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Ontologies have also been used as a means to integrate data at a global level [19-23] but these efforts typically involve creating a new application ontology or re-using domain specific ontologies."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/1758-2946-3-19",
+          "title": "Linked open drug data for pharmaceutical research and development",
+          "year": 2011,
+          "s2_paper_id": "e3d38f7c1a4101d28f06780840888072bd2bbff8",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Although there are several efforts for provisioning life science linked data such as Neurocommons [10], LinkedLifeData [11], W3C HCLS [12], Chem2Bio2RDF [13] and BioLOD [14], Bio2RDF is unique in several ways."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/1758-2946-3-16",
+          "title": "Semantic Web integration of Cheminformatics resources with the SADI framework",
+          "year": 2011,
+          "s2_paper_id": "740f494727384d36bbcfaadbe5354a83d80d6340",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Here, we report the mapping of Bio2RDF dataset vocabularies to the Semanticscience Integrated Ontology (SIO) [24], an ontology that is being used to integrate SADI-based Semantic Web services [25-27]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/database/bar009",
+          "title": "UniProt Knowledgebase: a hub of integrated protein data",
+          "year": 2011,
+          "s2_paper_id": "b766885b3486b7156e538f1de9d6603a5a197a10",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "While some resources provide links to other databases ( e.g. UniProt links its entries to hundreds of other databases [4]), these often lack a semantic richness required to understand the intent or limitation of the linkage."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jbi.2010.06.007",
+          "title": "Multiple ontologies in action: Composite annotations for biosimulation models",
+          "year": 2011,
+          "s2_paper_id": "2051b16900cf141a1b713267aab39a298e282b3d",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Ontologies have also been used as a means to integrate data at a global level [19-23] but these efforts typically involve creating a new application ontology or re-using domain specific ontologies."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/J.WEBSEM.2011.06.005",
+          "title": "NCBO Resource Index: Ontology-based search and mining of biomedical resources",
+          "year": 2010,
+          "s2_paper_id": "63c86c7ae98a899a3ab6cab606ab2e6c34935f4e",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "A related NCBO effort is its Resource Index [22], which uses the NCBO Annotator [37] to annotate text fields in records from 27 biological databases (including DrugBank, OMIM, PharmGKB, PubMed and UniProt) to link their content to NCBO bio-ontologies."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/2041-1480-1-S1-S7",
+          "title": "Modeling biomedical experimental processes with OBI",
+          "year": 2010,
+          "s2_paper_id": "38eb611384cd2d3083ec0a04658615f7466a46d6",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "A search for the term \u2018 vaccine \u2019 in NCBO BioPortal \u2019 s ontology index returns many hits, including a class in the Ontology for Biomedical Investigations (OBI) [35] and in SNOMED Clinical Terms [36]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/1471-2105-11-255",
+          "title": "Chem2Bio2RDF: a semantic framework for linking and data mining chemogenomic and systems chemical biology data",
+          "year": 2010,
+          "s2_paper_id": "f7eed7941a3e209085bf31ac4aae39657932b571",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Although there are several efforts for provisioning life science linked data such as Neurocommons [10], LinkedLifeData [11], W3C HCLS [12], Chem2Bio2RDF [13] and BioLOD [14], Bio2RDF is unique in several ways."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/nar/gkp986",
+          "title": "The European Bioinformatics Institute\u2019s data resources",
+          "year": 2009,
+          "s2_paper_id": "c93a37dcbdc1659fba7dcc73906c14ec9752b9f4",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "This task usually involves a tedious manual search and assimilation of isolated and diverse collections of life sciences data hosted by both large organizations such as the National Center for Biotechnology Information (NCBI) [1] and the European Bioinformatics Institute (EBI) [2], as well as smaller groups such as the one that publishes iRefIndex [3], a database of molecular interactions aggregated from 13 data sources."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1049/iet-syb.2009.0007",
+          "title": "Integrating BioPAX pathway knowledge with SBML models.",
+          "year": 2009,
+          "s2_paper_id": "c8b4a84b1f1db16b802489966dc5b357fcaaa4ea",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Several approaches for integrating biological data have been reported [15-17], but they rely on a variety of data formats and standards, making sustainable large-scale integration challenging [18]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/bib/bbp004",
+          "title": "Life sciences on the Semantic Web: the Neurocommons and beyond",
+          "year": 2009,
+          "s2_paper_id": "9af3dfc0d2326d90b7ae48ae167c133d88b6c54b",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Although there are several efforts for provisioning life science linked data such as Neurocommons [10], LinkedLifeData [11], W3C HCLS [12], Chem2Bio2RDF [13] and BioLOD [14], Bio2RDF is unique in several ways."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "The Open Biomedical Annotator",
+          "year": 2009,
+          "s2_paper_id": "e7524611e3b3b87bf8aef24ee66ad833c7b0333b",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "A related NCBO effort is its Resource Index [22], which uses the NCBO Annotator [37] to annotate text fields in records from 27 biological databases (including DrugBank, OMIM, PharmGKB, PubMed and UniProt) to link their content to NCBO bio-ontologies."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jbi.2008.03.004",
+          "title": "Bio2RDF: Towards a mashup to build bioinformatics knowledge systems",
+          "year": 2008,
+          "s2_paper_id": "a51badd5461c1650b2bfba7d0a5a89949186fb67",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "The open-source Bio2RDF project [6-8] uses Semantic Web technologies and a set of conventions to provide linked data [9] for the life sciences."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jbi.2008.01.008",
+          "title": "State of the nation in data integration for bioinformatics",
+          "year": 2008,
+          "s2_paper_id": "cb18c300bf209370736472b244e66911ac02a8f1",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "With thousands of biological databases and hundreds of thousands if not millions of datasets, our ability to find relevant data is hampered by non-standard interfaces backed by an enormous diversity of data formats [5]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/1471-2105-9-405",
+          "title": "iRefIndex: A consolidated protein interaction database with provenance",
+          "year": 2008,
+          "s2_paper_id": "a4379a159ff5a4540dd81f00b3a3fd1adc44e399",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "This task usually involves a tedious manual search and assimilation of isolated and diverse collections of life sciences data hosted by both large organizations such as the National Center for Biotechnology Information (NCBI) [1] and the European Bioinformatics Institute (EBI) [2], as well as smaller groups such as the one that publishes iRefIndex [3], a database of molecular interactions aggregated from 13 data sources."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/1471-2105-7-497",
+          "title": "cPath: open source software for collecting, storing, and querying biological pathways",
+          "year": 2006,
+          "s2_paper_id": "0ebdccea94be7b525be9860578d68e99729a175b",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Several approaches for integrating biological data have been reported [15-17], but they rely on a variety of data formats and standards, making sustainable large-scale integration challenging [18].",
+            "This has the significant advantage of allowing sophisticated reasoning to classify and check the consistency of the data itself, as was demonstrated in finding curation errors in the BioModels database [15]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/gb-2005-6-5-r46",
+          "title": "Relations in biomedical ontologies",
+          "year": 2005,
+          "s2_paper_id": "eba2b5178afb99647dec22824a0b51d8e96fd0fb",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Unlike upper level ontologies such as the Basic Formal Ontology (BFO) [30] and its associated Relation Ontology [31], SIO contains unified and rich axiomatic descriptions of its classes and properties."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/nar/gkh073",
+          "title": "Database resources of the National Center for Biotechnology Information: update",
+          "year": 2004,
+          "s2_paper_id": "00bc156bac2b39fab1689fe047b23c9f216d7f29",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "This task usually involves a tedious manual search and assimilation of isolated and diverse collections of life sciences data hosted by both large organizations such as the National Center for Biotechnology Information (NCBI) [1] and the European Bioinformatics Institute (EBI) [2], as well as smaller groups such as the one that publishes iRefIndex [3], a database of molecular interactions aggregated from 13 data sources."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/bib/bbs014",
+          "title": "Semantic Web meets Integrative Biology: a survey",
+          "year": 2013,
+          "s2_paper_id": "604485f552beaebf36a4dce94ccd22d627393035",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Several approaches for integrating biological data have been reported [15-17], but they rely on a variety of data formats and standards, making sustainable large-scale integration challenging [18]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "utility library",
+          "year": 2013,
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "org/namespace:identifier where the namespace is drawn from a resource registry of data providers and their preferred short name that currently maintained as part of PHP-LIB project [38]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Ontology-Based Querying with Bio2RDF's Linked Open Data",
+          "year": 2013,
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/bib/bbr003",
+          "title": "Building an HIV data mashup using Bio2RDF",
+          "year": 2012,
+          "s2_paper_id": "c0bc1da351be2a94dbf96d285355db85d235bd14",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "The open-source Bio2RDF project [6-8] uses Semantic Web technologies and a set of conventions to provide linked data [9] for the life sciences."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "The Semantic Automated Discovery and Integration (SADI) Web service Design-Pattern, API and Reference Implementation",
+          "year": 2011,
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Here, we report the mapping of Bio2RDF dataset vocabularies to the Semanticscience Integrated Ontology (SIO) [24], an ontology that is being used to integrate SADI-based Semantic Web services [25-27]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Expanding the Pathway and Interaction Knowledge inLinked Life Data",
+          "year": 2009,
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Bio2RDF Network Of Linked Data",
+          "year": 2008,
+          "s2_paper_id": "d4cc0c2881147f8efcfbdfe286d140559dc54db9",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "The open-source Bio2RDF project [6-8] uses Semantic Web technologies and a set of conventions to provide linked data [9] for the life sciences."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Biodynamic ontology: applying BFO in the biomedical domain.",
+          "year": 2004,
+          "s2_paper_id": "628bb7664cba27c94022b0f563a74dd9c9ea3d2d",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Unlike upper level ontologies such as the Basic Formal Ontology (BFO) [30] and its associated Relation Ontology [31], SIO contains unified and rich axiomatic descriptions of its classes and properties."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Bmc Medical Informatics and Decision Making Automatic Medical Encoding with Snomed Categories",
+          "s2_paper_id": "2e7aa9bedf9c5415d45232310aa4b07f9fc0fba3",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "A search for the term \u2018 vaccine \u2019 in NCBO BioPortal \u2019 s ontology index returns many hits, including a class in the Ontology for Biomedical Investigations (OBI) [35] and in SNOMED Clinical Terms [36]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "A PHP utility library . [https://github.com/micheldumontier",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "http://www.w3.org/TR/sparql11-federated-query/#simpleService",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "The Semanticscience Integrated Ontology (SIO). [http://code.google.com/p/semanticscience/wiki",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "BioLOD -Biological Linked Open Databases",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "SIO Ontology Design Principles",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "\u2026SIO provides a well-described upper level that acts as an anchor for other domain specific classes and object properties as well as design patterns [34] for developing new classes and their Figure 2 Graphical representation of results of the SPARQL query for CTD chemicals that participate in the\u2026"
+          ],
+          "source": "semantic_scholar"
+        }
+      ],
+      "citations": [
+        {
+          "doi": "10.1002/pra2.1023",
+          "title": "Primary Sources as Linked Data: Exploring Motives Across the Sciences and Social Sciences",
+          "year": 2024,
+          "s2_paper_id": "f60964d7d09ab255667fb68c36979f30c97b7cd2",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "7a., n.d.; Callahan et al., 2013)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/s13326-023-00284-w",
+          "title": "Constructing a knowledge graph for open government data: the case of Nova Scotia disease datasets",
+          "year": 2023,
+          "s2_paper_id": "3f2e9d0fadd8e048851070cfbc46842eef8e07cd",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Rules Complex formal semantics in a knowledge graph allows a reasoner to infer the relationship between data items in different datasets [16]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fdsfr.2022.1016042",
+          "title": "An open-source platform integrating emerging data sources to support multi-modal active pharmacovigilance",
+          "year": 2023,
+          "s2_paper_id": "e0305daa92c60ce9cee7c3547363a43145fd16ca",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "The RDF version of MedDRA and the ATC was retrieved via NCBO BioPortal (Salvadores et al., 2013) 10 , and the RDF version of DrugBank was retrieved using the Bio2RDF (Callahan et al., 2013) transformation script 11,12 .",
+            ", 2013)(10), and the RDF version of DrugBank was retrieved using the Bio2RDF (Callahan et al., 2013) transformation script(11,12)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/database/baae008",
+          "title": "Visualization and exploration of linked data using virtual reality",
+          "year": 2023,
+          "s2_paper_id": "99a410a2d6df7e6276705e6cae635da470c2e374",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1124/pharmrev.122.000715",
+          "title": "Review of Natural Language Processing in Pharmacology",
+          "year": 2022,
+          "s2_paper_id": "a28f9187b8c213182bdcbfaeaa4d4f04ae6366dd",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "org) is an open-source project which creates RDF datasets from various life science resources and databases and interconnects them into one network [14, 29, 30]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.7717/peerj-cs.281",
+          "title": "Towards FAIR protocols and workflows: the OpenPREDICT use case",
+          "year": 2020,
+          "s2_paper_id": "be736bd65e021d6601273c6919e0d6cead2c37e2",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1111/geb.13164",
+          "title": "Towards a systematics of ecodiversity: The EcoSyst framework",
+          "year": 2020,
+          "s2_paper_id": "849781154a119112e336fed012139d1129b375c2",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.4018/ijswis.2020070104",
+          "title": "Applications, Methodologies, and Technologies for Linked Open Data: A Systematic Literature Review",
+          "year": 2020,
+          "s2_paper_id": "9abfdee4b6fdec1e0868e12f68731d49d561843e",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.12688/f1000research.18236.1",
+          "title": "BioHackathon 2015: Semantics of data for life sciences and reproducible research",
+          "year": 2020,
+          "s2_paper_id": "59773ed2a44eecb1cb4d86e08d38065dad2b7eaa",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.2174/1574893614666190409112025",
+          "title": "Integration and Querying of Heterogeneous Omics Semantic Annotations for Biomedical and Biomolecular Knowledge Discovery",
+          "year": 2020,
+          "s2_paper_id": "bea69cd76591ffb759262c8626baf3d94d09a7e5",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Int\u00e9gration de donn\u00e9es multi-\u00e9chelles et extraction de connaissances en agronomie : exemples et perspectives. (Multi-scale Data Integration and Knowledge Extraction in Agronomy: Examples and Prospects)",
+          "year": 2019,
+          "s2_paper_id": "f0f238a54eea0f7c1e62ab548be03db04687ad93",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Towards FAIR protocols and workflows: The OpenPREDICT case study",
+          "year": 2019,
+          "s2_paper_id": "37974019723ac45a0cd69eb299135c4bf18e57fa",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "We have collected data from Linked Data repositories such as Bio2RDF project whenever possible.",
+            "For that, we made use of Bio2RDF (Callahan et al., 2013), which is a key Linked Data resource for the biomedical sciences, providing a network of data from several major biological databases.",
+            "Linked data versions of these datasets (Drugbank, KEGG, HGNC and SIDER) can be downloaded from the Bio2RDF project."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btz835",
+          "title": "The Cytoscape BioGateway App: explorative network building from an RDF store",
+          "year": 2019,
+          "s2_paper_id": "362c04dd12cff2533c27497d4d6b0c4293523590",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.35940/ijrte.c6816.098319",
+          "title": "De-Centralized Hash URI Procedure for Making Digital Artifacts as Immutable, Reliable, Verifiable on Web",
+          "year": 2019,
+          "s2_paper_id": "09bbb422c17e51ea72e4ccf58d04d9e621298968",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.12688/f1000research.18238.1",
+          "title": "BioHackathon series in 2013 and 2014: improvements of semantic interoperability in life science data and services",
+          "year": 2019,
+          "s2_paper_id": "15bd70ba6a2d71f2566240898803620a56f9f83b",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1371/journal.pone.0219992",
+          "title": "SinoPedia\u2014A Linked Data Services platform for decentralized knowledge base",
+          "year": 2019,
+          "s2_paper_id": "2d299e63f8a77d0a5bdc5ff45f5e0814cf71e2ad",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1609/AAAI.V33I01.33012736",
+          "title": "From Horn-SRIQ to Datalog: A Data-Independent Transformation that Preserves Assertion Entailment",
+          "year": 2019,
+          "s2_paper_id": "39d06f166258385df72560012f34bf5bbf3f651b",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Enjeux li\u00e9s aux ressources termino-ontologiques en sant\u00e9. (Issues related to termino-ontological resources in health)",
+          "year": 2019,
+          "s2_paper_id": "07f8bd771ef0dc8b9a0d3e74b5e09b3f157f3b53",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "ont exploit\u00e9 une ontologie comme pivot pour faire correspondre les connaissances de plusieurs RTOs int\u00e9gr\u00e9es dans Bio2RDF [231]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1109/ICEDEG.2019.8734452",
+          "title": "A Survey on the Problems Affecting the Development of Open Government Data Initiatives",
+          "year": 2019,
+          "s2_paper_id": "0ade06e46967b8259910c7921c5b604f45cff053",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Second, data interoperability problems refer to that it is necessary that data sets from different organizations are linked with each other in order to provide richer data and to facilitate information discovery [61, 62]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/J.FUTURE.2018.06.015",
+          "title": "Visualizing large knowledge graphs: A performance analysis",
+          "year": 2018,
+          "s2_paper_id": "36f2bd265d91ffbd5620e5bee6d7d6ceb8ee0739",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/978-3-030-00374-6_33",
+          "title": "GraphDL: An Ontology for Linked Data Visualization",
+          "year": 2018,
+          "s2_paper_id": "88aecca37e618c5579222b71f466b6954502801b",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1145/3209914.3209940",
+          "title": "An Approach for Information Discovery Using Ontology In Semantic Web Content",
+          "year": 2018,
+          "s2_paper_id": "82106b28f2ef61337840ca0749b2953b6d95afbd",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "In Bio2RDF, the linked data stored in platform can be explored and queried online [9]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/978-3-319-96553-6_12",
+          "title": "PROPheT - Ontology Population and Semantic Enrichment from Linked Data Sources",
+          "year": 2017,
+          "s2_paper_id": "e1a4c6ce80e14e0dcd7edf50dd76ea91e2ab3c5b",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Indicative paradigms include cultural heritage [24] 14 , telecommunications and news [25], health and biomedicine [26, 27]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/J.ENGSTRUCT.2016.12.012",
+          "title": "Next directions in experimental data for seismic hazard mitigation",
+          "year": 2017,
+          "s2_paper_id": "f6711483553088eec6c5cc2ae0ce0a5381965f1f",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/s13326-016-0111-z",
+          "title": "Consolidating drug data on a global scale using Linked Data",
+          "year": 2017,
+          "s2_paper_id": "dd1b55ed74508fb9b3593a2566243f1657753e50",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Bio2RDF [39] is an open-source project which creates RDF datasets from various life science resources and databases, and interconnects them following the Linked Data principles into one comprehensive network [40\u201342]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Towards Autonomic and Cognitive IoT Systems, Application to Patients' Treatments Management. (Vers les syst\u00e8mes IoT autonomiques et cognitifs, application pour la gestion des traitements des patients)",
+          "year": 2016,
+          "s2_paper_id": "c725b07d83a56a65afcc7ab84d5ac242e8264ba0",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Noticeably, drug-drug interactions, drug-food interactions and adverse drug reactions are being published and accessible as linked data [177, 178]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/978-3-319-46547-0_17",
+          "title": "The OWL Reasoner Evaluation (ORE) 2015 Resources",
+          "year": 2016,
+          "s2_paper_id": "dcbae46548c830827193fae8640520857bb26ca5",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jbi.2016.08.012",
+          "title": "Clinical Trial Information Mediator",
+          "year": 2016,
+          "s2_paper_id": "2d6740b5af301d9f5ae7e1760518927f9bc6faa5",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.18293/SEKE2016-155",
+          "title": "An Ontology-driven Adaptive System for the Patient Treatment Management",
+          "year": 2016,
+          "s2_paper_id": "d30ce801cff8dbaf9f4dad239f8b3e06605f9f41",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Noticeably, drugdrug interactions, drug-food interactions and adverse drug reactions are being published and accessible as linked data [3, 4]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1109/TCBB.2015.2453944",
+          "title": "Integration and Querying of Genomic and Proteomic Semantic Annotations for Biomedical Knowledge Extraction",
+          "year": 2016,
+          "s2_paper_id": "b81362cce2e1c7a057c705207a60eb27f3483847",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Recently, a lot of emphasis has been placed on the use of linked data for biological information [23]; yet, linked data provide only binary connections between pairs of source items and querying them still remains difficult due to the lack of uniformity in the representation of linked data datasets [24]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1609/aaai.v30i1.9993",
+          "title": "Column-Oriented Datalog Materialization for Large Knowledge Graphs",
+          "year": 2015,
+          "s2_paper_id": "16e4250424c8c58b4edb4704b468e2ee54376993",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "On the Web, the most prominent such format is RDF (Cyganiak, Wood, and Lanthaler 2014), and large KGs such as Bio2RDF (Callahan, Cruz-Toledo, and Dumontier 2013), DBpedia (Bizer et al. 2009), Wikidata (Vrande\u02c7ci\u00b4c and Kr\u00f6tzsch 2014), and YAGO (Ho \ufb00 art et al. 2013) are published in this format."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/978-3-319-18818-8_40",
+          "title": "From Symptoms to Diseases - Creating the Missing Link",
+          "year": 2015,
+          "s2_paper_id": "602661f1bcd8643ba145343e2852e95755428f18",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "To allow and simplify federated queries across different resources specific types and relations are mapped to the Semanticscience Integrated Ontology [2]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/s12859-015-0559-3",
+          "title": "KaBOB: ontology-based semantic integration of biomedical databases",
+          "year": 2015,
+          "s2_paper_id": "d7d2c54957f4b7a527cff910814191cc989bfde4",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Subsequent work points out that \u201cquerying Bio2RDF remains difficult due to the lack of uniformity in the representation of Bio2RDF datasets\u201d [74].",
+            "[74] require one-to-one relations between the source classes and properties in the Bio2RDF ontologies to those in the SIO, which they acknowledge are often imprecise matches to highlevel concepts."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Cyc and the Big C: Reading that Produces and Uses Hypotheses about Complex Molecular Biology Mechanisms",
+          "year": 2015,
+          "s2_paper_id": "262bb241937fcb29ed45ed8d887691a795bf1834",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "A significant fraction of the knowledge that The Big C will assemble into mechanisms will be found in existing formal biological knowledge sources, including the sources comprising the 3.5x10 9 RDF triples of Bio2RDF (e.g., Go, OBO, iProClass, etc.) (Belleau et al ., 2008) (Callahan et al. , 2013).",
+            "\u2026the knowledge representation language used in these existing sources limits both their scope for fully representing the content of a scientific paper, and the complexity of the reasoning that can be directly performed with them, even when integrated with a single ontology (Callahan et al. , 2013)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Mining Electronic Health Records using Linked Data",
+          "year": 2015,
+          "s2_paper_id": "e4f01f46ccdb79845fc733c18394dba739b54d55",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Figure 1 demonstrates the workflow to annotate clinical notes in STRIDE 14,15,16,17 .",
+            "We developed PHP and Python scripts to transform a de-identified extract of the STRIDE CDW into RDF using Bio2RDF guidelines 14,15,16 .",
+            "Each RDF dataset is loaded into an RDF-specific data store (aka triple store) which enables query answering using the SPARQL query language over the web-friendly HTTP protocol 14,15,16 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/s40264-015-0278-8",
+          "title": "Computational Approaches for Pharmacovigilance Signal Detection: Toward Integrated and Semantically-Enriched Frameworks",
+          "year": 2015,
+          "s2_paper_id": "c92dce4150541e16fa0a3ada5dcd554e8b829a43",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "This feature is possible thanks to the public availability of exploitable repositories of linked data in the domain of life sciences, such as Bio2RDF [53] and the EBI RDF platform [54], which provide programmatic access to resources such as chEMBL (https://www.",
+            "This feature is possible thanks to the public availability of exploitable repositories of linked data in the domain of life sciences, such as Bio2RDF [53] and the EBI RDF platform [54], which provide programmatic access to resources such as chEMBL (https://www.ebi.ac.uk/chembl/), Clinical Trials.gov (http://clinicaltrials.gov/), DrugBank (http://www.drugbank.ca/) and SIDER (http:// sideeffects.embl.de/), to name a few."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/1471-2105-15-S14-S4",
+          "title": "linkedISA: semantic representation of ISA-Tab experimental metadata",
+          "year": 2014,
+          "s2_paper_id": "b1acba679b7e659f0959f6a9a36dfa755c408938",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Deus et al [47] also presented a methodology using RDF for integrating microarray-based transcriptomics experimental descriptions from three different source representations: the Gene Expression Atlas [48], the W3C BioRDF task force [36] and the Harvard Stem Cell Institute (HSCI) blood genomics project [49].",
+            "ISA-SIO mapping: The SIO ontology has been used for the annotation of the resources available in BIO2RDF [36]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/2041-1480-5-46",
+          "title": "Automatically exposing OpenLifeData via SADI semantic Web Services",
+          "year": 2014,
+          "s2_paper_id": "2283764265645435c51c1e75ab34b45e7daa023e",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Bio2RDF is an open source project that uses Semantic Web technologies to create a sustainable infrastructure for publishing biological data in a manner that eases the task of data integration [10-12]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Desiderata for an authoritative Representation of MeSH in RDF",
+          "year": 2014,
+          "s2_paper_id": "f71d60ae2c6c5fe9bc6007fa15bc4235c937ac17",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Bio2RDF MeSH Started in 2006, the Bio2RDF project uses Semantic Web technologies to provide linked data from publicly available databases in the life sciences 23, 24 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.2196/medinform.3531",
+          "title": "Design and Development of a Linked Open Data-Based Health Information Representation and Visualization System: Potentials and Preliminary Evaluation",
+          "year": 2014,
+          "s2_paper_id": "fea66b347322890e9787ff787ea9fa9997fa96b9",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Bio2RDF Release 3: A larger, more connected network of Linked Data for the Life Sciences",
+          "year": 2014,
+          "s2_paper_id": "0748362466f02bf939e9a58a79062cbd73c7c71e",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "ogy [4]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1109/TCBB.2014.2330616",
+          "title": "A Genomic Analysis Pipeline and Its Application to Pediatric Cancers",
+          "year": 2014,
+          "s2_paper_id": "7d68c1c853b053816334f6fa59696b34b33b2839",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "These include Bio2RDF [26], [27], Chem2Bio2RDF [28], and LinkedOpen Drug Data (LODD) [29]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/2041-1480-5-S1-S1",
+          "title": "SEE: structured representation of scientific evidence in the biomedical domain using Semantic Web techniques",
+          "year": 2014,
+          "s2_paper_id": "3412933961fb253848087144860d1e1a736d6622",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Accordingly, the Resource Description Framework (RDF, [6]) is increasingly employed to represent and disseminate new and legacy biomedical data [7,8] and biomedical ontologies specified in the Web Ontology Language (OWL, [9]) are being developed to encode domainspecific knowledge and annotate data from biomedical investigations [10-12]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/2041-1480-5-S1-S5",
+          "title": "Evolving BioAssay Ontology (BAO): modularization, integration and applications",
+          "year": 2014,
+          "s2_paper_id": "93d5e429279ae4ea460d46a9d1b411f728874cad",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Semantic Web technologies have become increasingly popular to integrate biomedical research information; a prominent example is the Bio2RDF project [14]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/2041-1480-5-S1-S3",
+          "title": "Semantic Web repositories for genomics data using the eXframe platform",
+          "year": 2014,
+          "s2_paper_id": "5e94ed8a741a94747353bc279350dcf19bf54e03",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "For example, the Bio2RDF project successfully applies Semantic Web technologies to create a mashup of key publicly available databases using a common ontology and normalized Uniform Resource Identifiers (URI) [19,20].",
+            "While the old URIs resolve to the new ones, our databases and SPARQL endpoint had to be manually updated.",
+            "For example, the new version of the CL ontology includes identifiers (URIs) whose path is different from the old ones."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Supporting trial recruitment and design by automatically interpreting eligibility criteria",
+          "year": 2014,
+          "s2_paper_id": "d37e8c14b85fd3a043a4058db020e796cdf83eeb",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "It uses open-source Semantic Web technologies to integrate them aiming to support knowledge discovery [25]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/2041-1480-5-14",
+          "title": "The Semanticscience Integrated Ontology (SIO) for biomedical research and knowledge discovery",
+          "year": 2014,
+          "s2_paper_id": "c53692ba562818cf8488bd03936eaac9de42d2bf",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Recent work [20] mapped SIO types and relations to Bio2RDF\u2019s dataset-specific types and relations, thereby enabling SIO-based queries over linked data."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/2041-1480-5-5",
+          "title": "BioHackathon series in 2011 and 2012: penetration of ontology and linked data in life science domains",
+          "year": 2014,
+          "s2_paper_id": "e1c1091719d20ac3de8e1c633e6298dee9346511",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "BioHackathon activities included surveying, mapping, and normalizing the IRIs present in the RDF-based ontologies found in the BioPortal SPARQL endpoint to a canonical set of IRIs in a custom dataset and namespace registry, primarily used by the Bio2RDF project [44]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Hash-URIs for Verifiable, Immutable, and Permanent Digital Artifacts",
+          "year": 2014,
+          "s2_paper_id": "7edcb78ca923debf3dc91492c24334406b1df65a",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Over 1 billion triples for 19 resources were made available in the second coordinated release of Bio2RDF [4], and mappings to the Semanticscience Integrated Ontology [5] have been established."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/978-3-319-07443-6_27",
+          "title": "Trusty URIs: Verifiable, Immutable, and Permanent Digital Artifacts for Linked Data",
+          "year": 2014,
+          "s2_paper_id": "405ccd934323e97dc95c64c6816763a037f83f60",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Over 1 billion triples for 19 resources were made available in the second coordinated release of Bio2RDF [6], and mappings to the Semanticscience Integrated Ontology [7] have been established."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.4161/viru.26893",
+          "title": "Biosurveillance enterprise for operational awareness, a genomic-based approach for tracking pathogen virulence",
+          "year": 2013,
+          "s2_paper_id": "004360a8f9c9b03d241bf4ccb52daca201815f3c",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "However, the narrow number of microbial species supported in the database, lack of interoperability, and the proprietary schema of many of these efforts requires new formats that federate this information within a biosurveillance enterprise.(41,42) The development of most data management systems focuses on the current state of the technology without considering how their design will affect the legacy of sensors and assays."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ecoinf.2014.07.002",
+          "title": "Semantic annotation of the CEREALAB database by the AGROVOC linked dataset",
+          "year": 2013,
+          "s2_paper_id": "a301f1854e1c22e9b4ba127ff3c8947dca80a10f",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Ovopub: Modular data publication with minimal provenance",
+          "year": 2013,
+          "s2_paper_id": "ec8c8b7aa4a7f02853de865d1cf3b0c8d6422d0b",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Massive open data integration efforts such as Bio2RDF [17, 18] could establish the ovopub as a finer grained model for assertion publishing and provenance and better describe dataset processing and provenance, perhaps drawing from recently developed vocabularies such as PAV [19] and PROV [4]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/2041-1480-4-37",
+          "title": "PAV ontology: provenance, authoring and versioning",
+          "year": 2013,
+          "s2_paper_id": "d55156009fc555fbea346d219a09b1cdfd926ad1",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/2041-1480-4-S1-I1",
+          "title": "Selected papers from the 15th Annual Bio-Ontologies Special Interest Group Meeting",
+          "year": 2013,
+          "s2_paper_id": "a89e078c5fb2cdf9e3d1c294d56e92a3c3019bcc",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "The paper titled \u201c Ontology-Based Querying with Bio2RDF \u2019 s Linked Open Data \u201d by Call-ahan et al reports on an update to Bio2RDF [1].",
+            "The papers include research on web-based querying over multiple ontologies [1,2,7], analysis of the Gene Ontology [3], reports on advances in knowledge representations, e.g. the representation of physiological processes [4] and probabilistic reasoning [6], advances in the annotation of patent\u2026"
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Constructing a Knowledge Graph from Open Statistical Data: The Case of Nova Scotia Disease Datasets",
+          "year": 2022,
+          "s2_paper_id": "c55c0333bb1935ec3cda8c3050195bce380e819a",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Complex formal semantics in a knowledge graph allows a reasoner to infer the relationship between data items in different datasets [20]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.48550/arXiv.2208.10228",
+          "title": "Survey of NLP in Pharmacology: Methodology, Tasks, Resources, Knowledge, and Tools",
+          "year": 2022,
+          "s2_paper_id": "8f541cf5b193654d262dbdaea2b8a0d7d913e8dc",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Bio2RDF 48 [29] is an open-source project which creates RDF datasets from various life science resources and databases and interconnects them into one network [14; 29; 30]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1109/ACCESS.2021.3052025",
+          "title": "Systematic Mapping of Open Data Studies: Classification and Trends From a Technological Perspective",
+          "year": 2021,
+          "s2_paper_id": "0a7b951dd4efeca06fd00e57539f9c99f54964e2",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Hunter College 10-25-2014 Design and Development of a Linked Open Data-Based Health Information Representation and Visualization System : Potentials and Preliminary Evaluation",
+          "year": 2019,
+          "s2_paper_id": "7482233b291fbd40db286a960182a168fc3381bf",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": true,
+          "contexts": [
+            "Additionally, we automatically linked 5312 data elements from DBpedia, Bio2RDF, and LinkedCT using the Silk framework.",
+            "For the enrichment, DBpedia, Bio2RDF and LinkedCT were used as sources.",
+            "We manually enriched the dataset with links to some sources such as DBpedia, while large numbers of links to sources such as Bio2RDF were generated automatically.",
+            "We enriched the data with links to data sources generated by related initiatives such as Bio2RDF [24], LinkedCT [25], Pubmed [26], and other geospatial and health-related initiatives using standard RDF and Unified Medical Language System (UMLS) vocabularies."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/978-1-4939-9089-4_4",
+          "title": "How to Develop a Drug Target Ontology: KNowledge Acquisition and Representation Methodology (KNARM).",
+          "year": 2019,
+          "s2_paper_id": "5e3471eb60cedaee63d14ef34dc794172bea2d11",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Marco de referencia para la publicaci\u00f3n de datos abiertos comprensibles basado en est\u00e1ndares de calidad",
+          "year": 2019,
+          "s2_paper_id": "1f2cd234c16e666531c22c7601ce2aad8eb34514",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Adem\u00e1s, hoy en d\u00eda, las fases relacionadas con la publicaci\u00f3n de los datos son cruciales debido al r\u00e1pido proceso de digitalizaci\u00f3n de los datos, que plantea problemas de normalizaci\u00f3n de formatos y de conexi\u00f3n a fuentes de datos heterog\u00e9neas [46] [47] [48] [49]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.25368/2022.249",
+          "title": "From Horn-SRIQ to Datalog: A Data-Independent Transformation that Preserves Assertion Entailment (Extended Version)",
+          "year": 2018,
+          "s2_paper_id": "40634699f3b36a9ea638e9de9006dc845e2f5b7b",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "For instance, the computation of AR can be used to solve SPARQL query answering, and to compute statistics on the implicit inferences of dataintensive ontologies such as in [3, 23]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "A Domain-Agnostic Tool for Scalable Ontology Population and Enrichment from Diverse Linked Data Sources",
+          "year": 2017,
+          "s2_paper_id": "b3e903970287610dd2fb81f7217cd4d9bbc1577b",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "the telecommunications and news industry [2], and health and biomedicine [6], [14]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Ontology Mapping for Life Science Linked Data",
+          "year": 2016,
+          "s2_paper_id": "c9988926be7b7912f72845602ac43428b85720a8",
+          "intents": [
+            "background",
+            "methodology"
+          ],
+          "is_influential": true,
+          "contexts": [
+            "Specifically, we infer Bio2RDF-SIO mappings by mapping Bio2RDF and SIO classes to biomedical ontologies contained in the NCBO BioPortal [11], and consequently use their hierarchies to find indirect Bio2RDF type to SIO class mappings.",
+            "Bio2RDF is an open-source project that provides Linked Data across 35 life science datasets [1][2].",
+            "We have previously reported the generation and use of manually curated mappings between Bio2RDF and SIO [2].",
+            "1 Available at https://bioportal.bioontology.org/ontologies/SIO\nThe aim of this work is to develop a (semi)automated procedure to generate high quality mappings between Bio2RDF and SIO."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Easy-to-use Semantic Search of Pharmacological Data",
+          "year": 2016,
+          "s2_paper_id": "c147449ced23ce9b6e546cce60492f827291cb80",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "[10] discussed difficulties with searching and integrating biological data in the opensource Bio2RDF project."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Personalized and Adaptive Semantic Information Filtering for Social Media",
+          "year": 2016,
+          "s2_paper_id": "a16916ff2aa8130e148a4faa185b6eaab4bac513",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "2009], and biomedical information [Callahan et al. 2013], to music [Raimond 2007], and news [New-York-Times 2014]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "A Computational Framework for Unified Biological Databank to Overcome Heterogeneity of Biological Data Format",
+          "year": 2015,
+          "s2_paper_id": "fb182d77c578424d7d8247416bb0187ea87feb13",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "It is observed that this heterogeneity leads to numerous hurdles towards the storage, retrieval, data mining [2], semantic search, integration [7], discovery and optimized utilization of existing biological data [8]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Large Scale Integration, Analysis, and Visualization of Biological Data",
+          "year": 2014,
+          "s2_paper_id": "a0a7a552634c860eb25cff63d5905b497dec6b17",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "These include Bio2RDF (Belleau et al., 2008; Callahan et al., 2013), Chem2Bio2RDF (Chen et al."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "A Large-scale Gene-centric Semantic Web Knowledge Base for Molecular Biology",
+          "year": 2013,
+          "s2_paper_id": "aa3799134889167923b687372760cbe064f6245e",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "We focus our attention on one of the larger datasets in the Bio2RDF project [3] - NCBI Gene - and consider queries that extend from this dataset into other datasets and ontologies that together form a large \u2018Gene-World\u2019 knowledge base."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Possibilities for Integrating Model-related Data in Computational Biology",
+          "year": 2013,
+          "s2_paper_id": "6e9f06183bede0df5da5818b071612acc5f0a70b",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "org/) is an international project that uses Semantic Web technologies to provide a global network of linked data for the life sciences [6]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "ELSEWeb Meets SADI: Supporting Data-to-Model Integration for Biodiversity Forecasting",
+          "year": 2013,
+          "s2_paper_id": "0c044af351a3c8717b5ade626ff62e3ea48c8d18",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "SADI has been used in the biomedical domain, in particular, to enable data integration for personalized medicine (Vandervalk, McCarthy, and Wilkinson 2010; Vandervalk et al. 2013) and the integration of biological data (Riazanov et al. 2012; Callahan et al. 2013).",
+            "ELSEWeb leverages SADI best practices and lessons learned from other scientific communities (Vandervalk, McCarthy, and Wilkinson 2010; Vandervalk et al. 2013; Callahan et al. 2013; Riazanov et al. 2012) and enables scientist to employ the \u201cIf-Then-ELSE\u201d mechanism in their research."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Bio2RDF: Linked Data for the Life Sciences",
+          "year": 2013,
+          "s2_paper_id": "5020b215d7d0dc68ac1d3e69739a57fdaaac6d6f",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "which now renders it possible to query Bio2RDF data with SIO terms[3]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Ieee Transactions on Knowledge and Data Engineering 1 Making Digital Artifacts on the Web Verifiable and Reliable",
+          "s2_paper_id": "bd144f4137233d39ecd9c53f50c5a41a6c384ba8",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        }
+      ],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "pdf_url": "https://jbiomedsem.biomedcentral.com/track/pdf/10.1186/2041-1480-4-S1-S1",
+          "host_type": "GOLD",
+          "is_best": false,
+          "source": "semantic_scholar"
+        }
+      ],
+      "best_oa_url": "https://jbiomedsem.biomedcentral.com/track/pdf/10.1186/2041-1480-4-S1-S1",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Medicine",
+          "scheme": "s2_external",
+          "source": "semantic_scholar"
+        },
+        {
+          "value": "Computer Science",
+          "scheme": "s2_external",
+          "source": "semantic_scholar"
+        },
+        {
+          "value": "Biology",
+          "scheme": "s2_s2-fos-model",
+          "source": "semantic_scholar"
+        },
+        {
+          "value": "Computer Science",
+          "scheme": "s2_s2-fos-model",
+          "source": "semantic_scholar"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "influential_citation_count",
+          "value": 1.0,
+          "source": "semantic_scholar"
+        }
+      ],
+      "tldr": "An update to Bio2RDF is described that improves the quality of linked data in the Bio2RDF network and makes it easier to access or recreate the linked data locally and increases the vocabulary coverage to additional dataset vocabularies beyond SIO.",
+      "citation_styles": {
+        "bibtex": "@Article{Callahan2013OntologyBasedQW,\n author = {A. Callahan and Jose Cruz-Toledo and M. Dumontier},\n booktitle = {Journal of Biomedical Semantics},\n journal = {Journal of Biomedical Semantics},\n pages = {S1 - S1},\n title = {Ontology-Based Querying with Bio2RDF\u2019s Linked Open Data},\n volume = {4},\n year = {2013}\n}\n"
+      },
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "Ontology-Based Querying with Bio2RDF\u2019s Linked Open Data",
+      "publication_date": "2013-04-01",
+      "publication_year": 2013,
+      "work_type": "journal-article",
+      "publisher": "Springer Science and Business Media LLC",
+      "container_title": "Journal of Biomedical Semantics",
+      "issn": [
+        "2041-1480"
+      ],
+      "doi": "10.1186/2041-1480-4-s1-s1",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://jbiomedsem.biomedcentral.com/track/pdf/10.1186/2041-1480-4-S1-S1",
+          "pdf_url": "https://jbiomedsem.biomedcentral.com/track/pdf/10.1186/2041-1480-4-S1-S1",
+          "landing_page_url": "https://doi.org/10.1186/2041-1480-4-s1-s1",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://jbiomedsem.biomedcentral.com/track/pdf/10.1186/2041-1480-4-S1-S1",
+          "pdf_url": "https://jbiomedsem.biomedcentral.com/track/pdf/10.1186/2041-1480-4-S1-S1",
+          "landing_page_url": "https://doi.org/10.1186/2041-1480-4-s1-s1",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://cris.maastrichtuniversity.nl/en/publications/f0b7d827-53eb-48ff-b1dd-071741eb823e",
+          "landing_page_url": "https://cris.maastrichtuniversity.nl/en/publications/f0b7d827-53eb-48ff-b1dd-071741eb823e",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "Maastricht University",
+          "source": "unpaywall"
+        },
+        {
+          "url": "http://europepmc.org/articles/PMC3632999",
+          "landing_page_url": "http://europepmc.org/articles/PMC3632999",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "European Bioinformatics Institute",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3632999",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3632999",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://jbiomedsem.biomedcentral.com/track/pdf/10.1186/2041-1480-4-S1-S1",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "Ontology-Based Querying with Bio2RDF's Linked Open Data.",
+      "abstract": "<h4>Background</h4>A key activity for life scientists in this post \"-omics\" age involves searching for and integrating biological data from a multitude of independent databases. However, our ability to find relevant data is hampered by non-standard web and database interfaces backed by an enormous variety of data formats. This heterogeneity presents an overwhelming barrier to the discovery and reuse of resources which have been developed at great public expense.To address this issue, the open-source Bio2RDF project promotes a simple convention to integrate diverse biological data using Semantic Web technologies. However, querying Bio2RDF remains difficult due to the lack of uniformity in the representation of Bio2RDF datasets.<h4>Results</h4>We describe an update to Bio2RDF that includes tighter integration across 19 new and updated RDF datasets. All available open-source scripts were first consolidated to a single GitHub repository and then redeveloped using a common API that generates normalized IRIs using a centralized dataset registry. We then mapped dataset specific types and relations to the Semanticscience Integrated Ontology (SIO) and demonstrate simplified federated queries across multiple Bio2RDF endpoints.<h4>Conclusions</h4>This coordinated release marks an important milestone for the Bio2RDF open source linked data framework. Principally, it improves the quality of linked data in the Bio2RDF network and makes it easier to access or recreate the linked data locally. We hope to continue improving the Bio2RDF network of linked data by identifying priority databases and increasing the vocabulary coverage to additional dataset vocabularies beyond SIO.",
+      "publication_year": 2013,
+      "language": "eng",
+      "container_title": "Journal of biomedical semantics",
+      "volume": "4 Suppl 1",
+      "pages": "S1",
+      "issn": [],
+      "doi": "10.1186/2041-1480-4-s1-s1",
+      "pmid": "23735196",
+      "pmcid": "PMC3632999",
+      "authors": [
+        {
+          "name": {
+            "given": "Alison",
+            "family": "Callahan",
+            "full_name": "Callahan A",
+            "orcid": "0000-0001-5163-380X",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Biology, Carleton University, 1125 Colonel By Drive, Ottawa, ON, Canada. michel_dumontier@carleton.ca.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jos\u00e9",
+            "family": "Cruz-Toledo",
+            "full_name": "Cruz-Toledo J",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michel",
+            "family": "Dumontier",
+            "full_name": "Dumontier M",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 27,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "url": "https://jbiomedsem.biomedcentral.com/track/pdf/10.1186/2041-1480-4-S1-S1",
+          "host_type": "Unpaywall",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC3632999",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC3632999?pdf=render",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 27.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [
+        "uniprot"
+      ],
+      "corrections": [],
+      "full_text_urls": [
+        {
+          "url": "https://jbiomedsem.biomedcentral.com/track/pdf/10.1186/2041-1480-4-S1-S1",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Unpaywall"
+        },
+        {
+          "url": "https://doi.org/10.1186/2041-1480-4-S1-S1",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC3632999",
+          "availability": "Open access",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC3632999?pdf=render",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openaire": {
+      "source": "openaire",
+      "found": true,
+      "raw": {},
+      "title": "Ontology-Based Querying with Bio2RDF\u2019s Linked Open Data",
+      "abstract": "<jats:title>Abstract</jats:title>           <jats:sec>             <jats:title>Background</jats:title>             <jats:p>A key activity for life scientists in this post \u201c-omics\u201d age involves searching for and integrating biological data from a multitude of independent databases. However, our ability to find relevant data is hampered by non-standard web and database interfaces backed by an enormous variety of data formats. This heterogeneity presents an overwhelming barrier to the discovery and reuse of resources which have been developed at great public expense.To address this issue, the open-source Bio2RDF project promotes a simple convention to integrate diverse biological data using Semantic Web technologies. However, querying Bio2RDF remains difficult due to the lack of uniformity in the representation of Bio2RDF datasets.</jats:p>           </jats:sec>           <jats:sec>             <jats:title>Results</jats:title>             <jats:p>We describe an update to Bio2RDF that includes tighter integration across 19 new and updated RDF datasets. All available open-source scripts were first consolidated to a single GitHub repository and then redeveloped using a common API that generates normalized IRIs using a centralized dataset registry. We then mapped dataset specific types and relations to the Semanticscience Integrated Ontology (SIO) and demonstrate simplified federated queries across multiple Bio2RDF endpoints.</jats:p>           </jats:sec>           <jats:sec>             <jats:title>Conclusions</jats:title>             <jats:p>This coordinated release marks an important milestone for the Bio2RDF open source linked data framework. Principally, it improves the quality of linked data in the Bio2RDF network and makes it easier to access or recreate the linked data locally. We hope to continue improving the Bio2RDF network of linked data by identifying priority databases and increasing the vocabulary coverage to additional dataset vocabularies beyond SIO.</jats:p>           </jats:sec>",
+      "publication_date": "2013-04-01",
+      "publication_year": 2013,
+      "work_type": "publication",
+      "language": "eng",
+      "publisher": "Springer Science and Business Media LLC",
+      "issn": [],
+      "doi": "10.1186/2041-1480-4-s1-s1",
+      "pmid": "23735196",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Callahan, Alison",
+            "orcid": "0000-0001-5163-380x",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Cruz-Toledo, Jos\u00e9",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Dumontier, Michel",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "citation_count": 44,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1186/2041-1480-4-s1-s1",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://jbiomedsem.biomedcentral.com/track/pdf/10.1186/2041-1480-4-S1-S1",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23735196",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1186/2041-1480-4-S1-S1",
+          "version": "Other literature type",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1186/2041-1480-4-s1-s1",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://www.jbiomedsem.com/content/4/S1/S1",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1186/2041-1480-4-S1-S1",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://cris.maastrichtuniversity.nl/en/publications/f0b7d827-53eb-48ff-b1dd-071741eb823e",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://dx.doi.org/10.1186/2041-1480-4-s1-s1",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "unidentified",
+          "agency": "Natural Sciences and Engineering Research Council of Canada",
+          "title": "unidentified",
+          "pi_names": [],
+          "openaire_project_id": "nserc_______::1e5e62235d094afd01cd56e65112fc63",
+          "source": "openaire"
+        }
+      ],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "0301 basic medicine",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "03 medical and health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "Proceedings",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "0206 medical engineering",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "Journal Article",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "02 engineering and technology",
+          "scheme": "FOS",
+          "source": "openaire"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "bip_citationCount",
+          "value": 44.0,
+          "class_label": "C4",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_influence",
+          "value": 8.097595e-09,
+          "class_label": "C4",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_popularity",
+          "value": 1.0532629e-08,
+          "class_label": "C4",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_impulse",
+          "value": 20.0,
+          "class_label": "C4",
+          "source": "openaire"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [
+        {
+          "grant_id": "unidentified",
+          "agency": "Natural Sciences and Engineering Research Council of Canada",
+          "title": "unidentified",
+          "pi_names": [],
+          "openaire_project_id": "nserc_______::1e5e62235d094afd01cd56e65112fc63",
+          "source": "openaire"
+        }
+      ],
+      "alternate_ids": [
+        "doi:10.1186/2041-1480-4-s1-s1",
+        "doi:10.1186/2041-1480-4-s1-s1",
+        "pmid:23735196",
+        "pmc:PMC3632999",
+        "doi:10.1186/2041-1480-4-s1-s1",
+        "doi:10.1186/2041-1480-4-s1-s1",
+        "doi:10.1186/2041-1480-4-s1-s1",
+        "mag_id:2124308436",
+        "doi:10.1186/2041-1480-4-s1-s1"
+      ],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/2041-1480-4-s1-s1",
+      "pmid": "23671333",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/2041-1480-4-s1-s1",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/2041-1480-4-s1-s1",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/2041-1480-4-s1-s1",
+      "authors": [
+        {
+          "name": {
+            "given": "Alison",
+            "family": "Callahan",
+            "full_name": "Alison Callahan",
+            "orcid": "0000-0001-5163-380X",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0001-5163-380X",
+          "given_names": "Alison",
+          "family_names": "Callahan",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Carleton University",
+            "Stanford University",
+            "University of Toronto"
+          ],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": true,
+      "raw": {},
+      "title": "Ontology-Based Querying with Bio2RDF's Linked Open Data.",
+      "abstract": "BACKGROUND: A key activity for life scientists in this post \"-omics\" age involves searching for and integrating biological data from a multitude of independent databases. However, our ability to find relevant data is hampered by non-standard web and database interfaces backed by an enormous variety of data formats. This heterogeneity presents an overwhelming barrier to the discovery and reuse of resources which have been developed at great public expense.To address this issue, the open-source Bio2RDF project promotes a simple convention to integrate diverse biological data using Semantic Web technologies. However, querying Bio2RDF remains difficult due to the lack of uniformity in the representation of Bio2RDF datasets.\nRESULTS: We describe an update to Bio2RDF that includes tighter integration across 19 new and updated RDF datasets. All available open-source scripts were first consolidated to a single GitHub repository and then redeveloped using a common API that generates normalized IRIs using a centralized dataset registry. We then mapped dataset specific types and relations to the Semanticscience Integrated Ontology (SIO) and demonstrate simplified federated queries across multiple Bio2RDF endpoints.\nCONCLUSIONS: This coordinated release marks an important milestone for the Bio2RDF open source linked data framework. Principally, it improves the quality of linked data in the Bio2RDF network and makes it easier to access or recreate the linked data locally. We hope to continue improving the Bio2RDF network of linked data by identifying priority databases and increasing the vocabulary coverage to additional dataset vocabularies beyond SIO.",
+      "publication_date": "2013-Apr-15",
+      "publication_year": 2013,
+      "work_type": "journal-article",
+      "language": "eng",
+      "container_title": "Journal of biomedical semantics",
+      "volume": "4 Suppl 1",
+      "issue": "Suppl 1",
+      "pages": "S1",
+      "issn": [
+        "2041-1480"
+      ],
+      "doi": "10.1186/2041-1480-4-s1-s1",
+      "pmid": "23735196",
+      "pmcid": "PMC3632999",
+      "authors": [
+        {
+          "name": {
+            "given": "Alison",
+            "family": "Callahan",
+            "full_name": "Alison Callahan",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Biology, Carleton University, 1125 Colonel By Drive, Ottawa, ON, Canada. michel_dumontier@carleton.ca.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jos\u00e9",
+            "family": "Cruz-Toledo",
+            "full_name": "Jos\u00e9 Cruz-Toledo",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michel",
+            "family": "Dumontier",
+            "full_name": "Michel Dumontier",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [],
+          "sources": [
+            "entrez"
+          ]
+        }
+      ],
+      "reference_count": 38,
+      "references": [
+        {
+          "pmid": "22140104",
+          "unstructured": "Sayers EW, Barrett T, Benson DA, Bolton E, Bryant SH, Canese K, Chetvernin V, Church DM, Dicuccio M, Federhen S. et al. Database resources of the National Center for Biotechnology Information. Nucleic Acids Res. 2012;40(Database issue):D13\u201325.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "19934258",
+          "unstructured": "Brooksbank C, Cameron G, Thornton J. The European Bioinformatics Institute's data resources. Nucleic Acids Res. 2010;38(Database issue):D17\u201325.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "18823568",
+          "unstructured": "Razick S, Magklaras G, Donaldson IM. iRefIndex: a consolidated protein interaction database with provenance. BMC Bioinformatics. 2008;9:405.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "21447597",
+          "unstructured": "Magrane M, Consortium U. UniProt Knowledgebase: a hub of integrated protein data. Database (Oxford) 2011;2011:bar009.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "18358788",
+          "unstructured": "Goble C, Stevens R. State of the nation in data integration for bioinformatics. J Biomed Inform. 2008;41(5):687\u2013693.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "18472304",
+          "unstructured": "Belleau F, Nolin M-A, Tourigny N, Rigault P, Morissette J. Bio2RDF: towards a mashup to build bioinformatics knowledge systems. Journal of Biomedical Informatics. 2008;41(5):706\u2013716.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "22223742",
+          "unstructured": "Nolin MA, Dumontier M, Belleau F, Corbeil J. Building an HIV data mashup using Bio2RDF. Briefings in Bioinformatics. 2011.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Nolin M-A, Ansell P, Belleau F, Idehen K, Rigault P, Tourigny N, Roe P, Hogan JM, Dumontier M. Semantic Web Challenge; International Semantic Web Conference (ISWC 2008) Karlsruhe, Germany; 2008. Bio2RDF Network of Linked Data.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Linked Data. http://www.w3.org/DesignIssues/LinkedData.html",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "19282504",
+          "unstructured": "Ruttenberg A, Rees JA, Samwald M, Marshall MS. Life sciences on the Semantic Web: the Neurocommons and beyond. Brief Bioinform. 2009;10(2):193\u2013204.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Momtchev V, Peychev D, Primov T, Georgiev G. Expanding the Pathway and Interaction Knowledge inLinked Life Data. Semantic Web Challenge: 2009; Amsterdam. 2009.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "21575203",
+          "unstructured": "Samwald M, Jentzsch A, Bouton C, Kallesoe CS, Willighagen E, Hajagos J, Marshall MS, Prud'hommeaux E, Hassenzadeh O, Pichler E. et al. Linked open drug data for pharmaceutical research and development. J Cheminform. 2011;3(1):19.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "20478034",
+          "unstructured": "Chen B, Dong X, Jiao D, Wang H, Zhu Q, Ding Y, Wild DJ. Chem2Bio2RDF: a semantic framework for linking and data mining chemogenomic and systems chemical biology data. BMC bioinformatics. 2010;11:255.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "BioLOD - Biological Linked Open Databases. http://biolod.org/",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "17101041",
+          "unstructured": "Cerami EG, Bader GD, Gross BE, Sander C. cPath: open source software for collecting, storing, and querying biological pathways. BMC Bioinformatics. 2006;7:497.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "21028923",
+          "unstructured": "Ruebenacker O, Moraru II, Schaff JC, Blinov ML. Integrating BioPAX pathway knowledge with SBML models. IET Syst Biol. 2009;3(5):317\u2013328.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "22492191",
+          "unstructured": "Chen H, Yu T, Chen JY. Semantic Web meets Integrative Biology: a survey. Brief Bioinform. 2012.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "22281772",
+          "unstructured": "Sansone SA, Rocca-Serra P, Field D, Maguire E, Taylor C, Hofmann O, Fang H, Neumann S, Tong W, Amaral-Zettler L. et al. Toward interoperable bioscience data. Nat Genet. 2012;44(2):121\u2013126.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "21789201",
+          "unstructured": "Hoehndorf R, Dumontier M, Oellrich A, Rebholz-Schuhmann D, Schofield PN, Gkoutos GV. Interoperability between biomedical ontologies through relation expansion, upper-level ontologies and automatic reasoning. PLoS One. 2011;6(7):e22006.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "21835028",
+          "unstructured": "Hoehndorf R, Dumontier M, Gennari JH, Wimalaratne S, de Bono B, Cook DL, Gkoutos GV. Integrating systems biology models and biomedical ontologies. BMC Syst Biol. 2011;5:124.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "20601121",
+          "unstructured": "Gennari JH, Neal ML, Galdzicki M, Cook DL. Multiple ontologies in action: composite annotations for biosimulation models. J Biomed Inform. 2011;44(1):146\u2013154.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "21918645",
+          "unstructured": "Jonquet C, Lependu P, Falconer S, Coulet A, Noy NF, Musen MA, Shah NH. NCBO Resource Index: Ontology-Based Search and Mining of Biomedical Resources. Web Semant. 2011;9(3):316\u2013324.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "22373409",
+          "unstructured": "Berlanga R, Jimenez-Ruiz E, Nebot V. Exploring and linking biomedical resources through multidimensional semantic spaces. BMC bioinformatics. 2012;13(Suppl 1):S6.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "The Semanticscience Integrated Ontology (SIO) http://code.google.com/p/semanticscience/wiki/SIO",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "21575200",
+          "unstructured": "Chepelev LL, Dumontier M. Semantic Web integration of Cheminformatics resources with the SADI framework. J Cheminform. 2011;3:16.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "21791100",
+          "unstructured": "Chepelev LL, Riazanov A, Kouznetsov A, Low HS, Dumontier M, Baker CJ. Prototype semantic infrastructure for automated small molecule classification and annotation in lipidomics. BMC bioinformatics. 2011;12:303.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "22024447",
+          "unstructured": "Wilkinson MD, Vandervalk B, McCarthy L. The Semantic Automated Discovery and Integration (SADI) Web service Design-Pattern, API and Reference Implementation. J Biomed Semantics. 2011;2(1):8.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "http://www.w3.org/TR/sparql11-federated-query/#simpleService",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "21991315",
+          "unstructured": "Hastings J, Chepelev L, Willighagen E, Adams N, Steinbeck C, Dumontier M. The chemical information ontology: provenance and disambiguation for chemical data on the biological semantic web. PLoS One. 2011;6(10):e25513.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "15853262",
+          "unstructured": "Pisanelli D. Biodynamic ontology: applying BFO in the biomedical domain. Ontologies in Medicine. 2004;102:20.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "15892874",
+          "unstructured": "Smith B, Ceusters W, Klagges B, Kohler J, Kumar A, Lomax J, Mungall C, Neuhaus F, Rector AL, Rosse C. Relations in biomedical ontologies. Genome Biol. 2005;6(5):R46.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "22253856",
+          "unstructured": "Vogt L, Grobe P, Quast B, Bartolomaeus T. Accommodating ontologies to biological reality--top-level categories of cumulative-constitutively organized material entities. PLoS One. 2012;7(1):e30004.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "23256535",
+          "unstructured": "Lin Y, He Y. Ontology representation and analysis of vaccine formulation and administration and their effects on vaccine immune responses. J Biomed Semantics. 2012;3(1):17.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "SIO Ontology Design Principles. https://code.google.com/p/semanticscience/wiki/ODP",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "20626927",
+          "unstructured": "Brinkman RR, Courtot M, Derom D, Fostel JM, He Y, Lord P, Malone J, Parkinson H, Peters B, Rocca-Serra P. et al. Modeling biomedical experimental processes with OBI. J Biomed Semantics. 2010;1(Suppl 1):S7.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "19007443",
+          "unstructured": "Ruch P, Gobeill J, Lovis C, Geissbuhler A. Automatic medical encoding with SNOMED categories. BMC Med Inform Decis Mak. 2008;8(Suppl 1):S6.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "21347171",
+          "unstructured": "Jonquet C, Shah NH, Musen MA. The open biomedical annotator. Summit on Translat Bioinforma. 2009;2009:56\u201360.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "A PHP utility library . https://github.com/micheldumontier/php-lib/",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {
+        "entrez": "2013-06-06",
+        "pubmed": "2013-06-06",
+        "medline": "2013-06-06",
+        "pmc-release": "2013-04-15"
+      },
+      "structured_abstract": {
+        "BACKGROUND": "A key activity for life scientists in this post \"-omics\" age involves searching for and integrating biological data from a multitude of independent databases. However, our ability to find relevant data is hampered by non-standard web and database interfaces backed by an enormous variety of data formats. This heterogeneity presents an overwhelming barrier to the discovery and reuse of resources which have been developed at great public expense.To address this issue, the open-source Bio2RDF project promotes a simple convention to integrate diverse biological data using Semantic Web technologies. However, querying Bio2RDF remains difficult due to the lack of uniformity in the representation of Bio2RDF datasets.",
+        "RESULTS": "We describe an update to Bio2RDF that includes tighter integration across 19 new and updated RDF datasets. All available open-source scripts were first consolidated to a single GitHub repository and then redeveloped using a common API that generates normalized IRIs using a centralized dataset registry. We then mapped dataset specific types and relations to the Semanticscience Integrated Ontology (SIO) and demonstrate simplified federated queries across multiple Bio2RDF endpoints.",
+        "CONCLUSIONS": "This coordinated release marks an important milestone for the Bio2RDF open source linked data framework. Principally, it improves the quality of linked data in the Bio2RDF network and makes it easier to access or recreate the linked data locally. We hope to continue improving the Bio2RDF network of linked data by identifying priority databases and increasing the vocabulary coverage to additional dataset vocabularies beyond SIO."
+      },
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "publication_status": "ppublish",
+      "country_of_publication": "England",
+      "nlm_journal_id": "101531992",
+      "medline_ta": "J Biomed Semantics",
+      "citation_subsets": [],
+      "pii": "2041-1480-4-S1-S1",
+      "electronic_publication_date": "2013-04-15",
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1186/2041-1480-4-s1-s1",
+    "pmid": "23735196",
+    "pmcid": "PMC3632999",
+    "mag_id": "2124308436",
+    "openalex_id": "https://openalex.org/W2124308436",
+    "s2_paper_id": "02f7521297669e25517fa210b0c800e5963528d2",
+    "s2_corpus_id": "3934245",
+    "pii": "2041-1480-4-S1-S1",
+    "nlm_unique_id": "101531992",
+    "handles": [],
+    "orcids": [
+      "0000-0001-5163-380X",
+      "0000-0001-5163-380x",
+      "0000-0003-4727-9435"
+    ],
+    "ror_ids": [
+      "https://ror.org/02qtvee93"
+    ],
+    "grant_ids": [
+      "unidentified"
+    ],
+    "nct_ids": [],
+    "pmid_source": "entrez",
+    "pmcid_source": "entrez"
+  },
+  "conflicts": {
+    "doi": "10.1186/2041-1480-4-s1-s1",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 39,
+          "openalex": 72,
+          "semantic_scholar": 73,
+          "europe_pmc": 27,
+          "openaire": 44
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 38,
+          "openalex": 32,
+          "semantic_scholar": 39,
+          "entrez": 38
+        },
+        "risk": "low"
+      },
+      {
+        "field": "title",
+        "values": {
+          "crossref": "Ontology-Based Querying with Bio2RDF\u2019s Linked Open Data",
+          "openalex": "Ontology-Based Querying with Bio2RDF\u2019s Linked Open Data",
+          "semantic_scholar": "Ontology-Based Querying with Bio2RDF\u2019s Linked Open Data",
+          "unpaywall": "Ontology-Based Querying with Bio2RDF\u2019s Linked Open Data",
+          "europe_pmc": "Ontology-Based Querying with Bio2RDF's Linked Open Data",
+          "openaire": "Ontology-Based Querying with Bio2RDF\u2019s Linked Open Data",
+          "entrez": "Ontology-Based Querying with Bio2RDF's Linked Open Data"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "semantic_scholar": "JournalArticle",
+          "unpaywall": "journal-article",
+          "openaire": "publication",
+          "entrez": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 3,
+          "openalex": 3,
+          "semantic_scholar": 3,
+          "unpaywall": 3,
+          "europe_pmc": 3,
+          "openaire": 3,
+          "orcid": 1,
+          "entrez": 3
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Springer Science and Business Media LLC",
+          "openalex": "https://openalex.org/P4310320256",
+          "unpaywall": "Springer Science and Business Media LLC",
+          "openaire": "Springer Science and Business Media LLC"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Journal of Biomedical Semantics",
+          "openalex": "Journal of Biomedical Semantics",
+          "semantic_scholar": "Journal of Biomedical Semantics",
+          "unpaywall": "Journal of Biomedical Semantics",
+          "europe_pmc": "Journal of biomedical semantics",
+          "entrez": "Journal of biomedical semantics"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng",
+          "openaire": "eng",
+          "entrez": "eng"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 2,
+    "conflict_count": 8
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1186/2041-1480-4-s1-s1",
+    "fetched_at": "2026-02-11T18:41:02.188585+00:00"
+  }
+}

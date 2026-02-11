@@ -1,0 +1,3131 @@
+{
+  "doi": "10.7717/peerj-cs.281",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T18:43:00.586890Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "Towards FAIR protocols and workflows: the OpenPREDICT use case",
+      "abstract": "<jats:p>It is essential for the advancement of science that researchers share, reuse and reproduce each other\u2019s workflows and protocols. The FAIR principles are a set of guidelines that aim to maximize the value and usefulness of research data, and emphasize the importance of making digital objects findable and reusable by others. The question of how to apply these principles not just to data but also to the workflows and protocols that consume and produce them is still under debate and poses a number of challenges. In this paper we describe a two-fold approach of simultaneously applying the FAIR principles to scientific workflows as well as the involved data. We apply and evaluate our approach on the case of the PREDICT workflow, a highly cited drug repurposing workflow. This includes FAIRification of the involved datasets, as well as applying semantic technologies to represent and store data about the detailed versions of the general protocol, of the concrete workflow instructions, and of their execution traces. We propose a semantic model to address these specific requirements and was evaluated by answering competency questions. This semantic model consists of classes and relations from a number of existing ontologies, including Workflow4ever, PROV, EDAM, and BPMN. This allowed us then to formulate and answer new kinds of competency questions. Our evaluation shows the high degree to which our FAIRified OpenPREDICT workflow now adheres to the FAIR principles and the practicality and usefulness of being able to answer our new competency questions.</jats:p>",
+      "publication_date": "2020-09-21",
+      "publication_year": 2020,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "PeerJ",
+      "container_title": "PeerJ Computer Science",
+      "volume": "6",
+      "pages": "e281",
+      "issn": [
+        "2376-5992"
+      ],
+      "doi": "10.7717/peerj-cs.281",
+      "authors": [
+        {
+          "name": {
+            "given": "Remzi",
+            "family": "Celebi",
+            "full_name": "Remzi Celebi",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Institute of Data Science, Maastricht University, Maastricht, Netherlands",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Joao",
+            "family": "Rebelo Moreira",
+            "full_name": "Joao Rebelo Moreira",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Computer Science, VU University Amsterdam, Amsterdam, Netherlands",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ahmed A.",
+            "family": "Hassan",
+            "full_name": "Ahmed A. Hassan",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Pharmacology & Personalised Medicine, Maastricht University, Maastricht, Netherlands",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sandeep",
+            "family": "Ayyar",
+            "full_name": "Sandeep Ayyar",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Medical Informatics, Stanford University, Palo Alto, CA, United States of America",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Lars",
+            "family": "Ridder",
+            "full_name": "Lars Ridder",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Netherlands eScience Center, Amsterdam, Netherlands",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Tobias",
+            "family": "Kuhn",
+            "full_name": "Tobias Kuhn",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Computer Science, VU University Amsterdam, Amsterdam, Netherlands",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michel",
+            "family": "Dumontier",
+            "full_name": "Michel Dumontier",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Institute of Data Science, Maastricht University, Maastricht, Netherlands",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 14,
+      "reference_count": 62,
+      "references": [
+        {
+          "doi": "10.1038/nrd1468",
+          "title": "Drug repositioning: identifying and developing new uses for existing drugs",
+          "year": 2004,
+          "author": "Ashburn",
+          "key": "10.7717/peerj-cs.281/ref-1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/533452a",
+          "title": "1,500 scientists lift the lid on reproducibility",
+          "year": 2016,
+          "author": "Baker",
+          "key": "10.7717/peerj-cs.281/ref-2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkn803",
+          "title": "The GOA database in 2009\u2014an integrated Gene Ontology Annotation resource",
+          "year": 2009,
+          "author": "Barrell",
+          "key": "10.7717/peerj-cs.281/ref-3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S0076-6879(06)11019-8",
+          "title": "Gene expression omnibus: microarray data storage, submission, retrieval, and analysis",
+          "year": 2006,
+          "author": "Barrett",
+          "key": "10.7717/peerj-cs.281/ref-4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/483531a",
+          "title": "Drug development: raise standards for preclinical cancer research",
+          "year": 2012,
+          "author": "Begley",
+          "key": "10.7717/peerj-cs.281/ref-5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.websem.2015.01.003",
+          "title": "Using a suite of ontologies for preserving workflow-centric research objects",
+          "year": 2015,
+          "author": "Belhajjame",
+          "key": "10.7717/peerj-cs.281/ref-6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-15-267",
+          "title": "A phenome-guided drug repositioning through a latent variable model",
+          "year": 2014,
+          "author": "Bisgin",
+          "key": "10.7717/peerj-cs.281/ref-7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.4018/jswis.2009081901",
+          "title": "Linked data-the story so far",
+          "year": 2009,
+          "author": "Bizer",
+          "key": "10.7717/peerj-cs.281/ref-8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/978-90-481-8847-5_13978-90-481-8847-5",
+          "title": "Ontological foundations of dolce",
+          "year": 2010,
+          "author": "Borgo",
+          "key": "10.7717/peerj-cs.281/ref-9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/2041-1480-4-S1-S1",
+          "title": "Ontology-based querying with Bio2RDFs linked open data",
+          "year": 2013,
+          "author": "Callahan",
+          "key": "10.7717/peerj-cs.281/ref-10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/srep17658",
+          "title": "A network medicine approach to quantify distance between hereditary disease modules on the interactome",
+          "year": 2015,
+          "author": "Caniza",
+          "key": "10.7717/peerj-cs.281/ref-11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1002503",
+          "title": "Prediction of Drug-Target Interactions and Drug Repositioning via Network-Based Inference",
+          "year": 2012,
+          "author": "Cheng",
+          "key": "10.7717/peerj-cs.281/ref-12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.future.2017.01.012",
+          "title": "Scientific workflows for computational reproducibility in the life sciences: Status, challenges and opportunities",
+          "year": 2017,
+          "author": "Cohen-Boulakia",
+          "key": "10.7717/peerj-cs.281/ref-13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.2777/15242",
+          "year": 2018,
+          "author": "Collins",
+          "key": "10.7717/peerj-cs.281/ref-14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "ML-Schema: exposing the semantics of machine learning with schemas and ontologies",
+          "year": 2018,
+          "author": "Correa\u00a0Publio",
+          "key": "10.7717/peerj-cs.281/ref-15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Data science report",
+          "year": 2016,
+          "author": "CrowdFlower",
+          "key": "10.7717/peerj-cs.281/ref-16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "A foundational ontology to support scientific experiments",
+          "year": 2012,
+          "author": "Da\u00a0Cruz",
+          "key": "10.7717/peerj-cs.281/ref-17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Augmenting PROV with plans in P-PLAN: scientific processes as linked data",
+          "year": 2012,
+          "author": "Garijo",
+          "key": "10.7717/peerj-cs.281/ref-18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s13326-017-0160-y",
+          "title": "Using semantics for representing experimental protocols",
+          "year": 2017,
+          "author": "Giraldo",
+          "key": "10.7717/peerj-cs.281/ref-19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/978-3-319-68204-4_10",
+          "title": "The CEDAR workbench: an ontology-assisted environment for authoring metadata that describe scientific experiments",
+          "year": 2017,
+          "author": "Gonalves",
+          "key": "10.7717/peerj-cs.281/ref-20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/msb.2011.26",
+          "title": "PREDICT: a method for inferring novel drug indications with application to personalized medicine",
+          "year": 2011,
+          "author": "Gottlieb",
+          "key": "10.7717/peerj-cs.281/ref-21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gku1071",
+          "title": "Genenames. org: the HGNC resources in 2015",
+          "year": 2015,
+          "author": "Gray",
+          "key": "10.7717/peerj-cs.281/ref-22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3233/AO-150157",
+          "title": "Towards ontological foundations for conceptual modeling: the unified foundational ontology (UFO) story",
+          "year": 2015,
+          "author": "Guizzardi",
+          "key": "10.7717/peerj-cs.281/ref-23",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Warning criterion ontology for measuring of compliance in standard operating procedure implementation",
+          "year": 2017,
+          "author": "Hartanto",
+          "key": "10.7717/peerj-cs.281/ref-24",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Best practices for workflow design: how to prevent workflow decay",
+          "year": 2012,
+          "author": "Hettne",
+          "key": "10.7717/peerj-cs.281/ref-25",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btt613",
+          "title": "Mouse model phenotypes provide information about human drug targets",
+          "year": 2013,
+          "author": "Hoehndorf",
+          "key": "10.7717/peerj-cs.281/ref-26",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/s00766-017-0280-z",
+          "title": "Goal-oriented requirements engineering: an extended systematic mapping study",
+          "year": 2019,
+          "author": "Horkoff",
+          "key": "10.7717/peerj-cs.281/ref-27",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2018,
+          "author": "Imming",
+          "key": "10.7717/peerj-cs.281/ref-28",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1001/jama.294.2.218",
+          "title": "Contradicted and initially stronger effects in highly cited clinical research",
+          "year": 2005,
+          "author": "Ioannidis",
+          "key": "10.7717/peerj-cs.281/ref-29",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pmed.0020124",
+          "title": "Why most published research findings are false",
+          "year": 2005,
+          "author": "Ioannidis",
+          "key": "10.7717/peerj-cs.281/ref-30",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1162/dint_a_00028",
+          "title": "A generic workflow for the data fairification process",
+          "year": 2019,
+          "author": "Jacobsen",
+          "key": "10.7717/peerj-cs.281/ref-31",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.compind.2016.03.002",
+          "title": "A novel flexible activity refinement approach for improving workflow process flexibility",
+          "year": 2016,
+          "author": "Jiang",
+          "key": "10.7717/peerj-cs.281/ref-32",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkm882",
+          "title": "KEGG for linking genomes to life and the environment",
+          "year": 2007,
+          "author": "Kanehisa",
+          "key": "10.7717/peerj-cs.281/ref-33",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.5281/zenodo.1966881",
+          "title": "Sharing interoperable work ow provenance: a review of best practices and their practical application in CWLProv",
+          "year": 2019,
+          "author": "Khan",
+          "key": "10.7717/peerj-cs.281/ref-34",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1027/1864-9335/a000178",
+          "title": "Investigating variation in replicability: A \u201cmany labs\u201d replication project",
+          "year": 2014,
+          "author": "Klein",
+          "key": "10.7717/peerj-cs.281/ref-35",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.scico.2018.09.007",
+          "title": "Checking business process evolution",
+          "year": 2019,
+          "author": "Krishna",
+          "key": "10.7717/peerj-cs.281/ref-36",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/msb.2009.98",
+          "title": "A side effect resource to capture phenotypic effects of drugs",
+          "year": 2010,
+          "author": "Kuhn",
+          "key": "10.7717/peerj-cs.281/ref-37",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1126/science.1132939",
+          "title": "The connectivity map: using gene-expression signatures to connect small molecules, genes, and disease",
+          "year": 2006,
+          "author": "Lamb",
+          "key": "10.7717/peerj-cs.281/ref-38",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3233/DS-190026",
+          "title": "Towards FAIR principles for research software",
+          "year": 2019,
+          "author": "Lamprecht",
+          "key": "10.7717/peerj-cs.281/ref-39",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Prov-o: the prov ontology",
+          "year": 2013,
+          "author": "Lebo",
+          "key": "10.7717/peerj-cs.281/ref-40",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1126/science.1257601",
+          "title": "Uncovering disease-disease relationships through the incomplete interactome",
+          "year": 2015,
+          "author": "Menche",
+          "key": "10.7717/peerj-cs.281/ref-41",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "The open provenance model: an overview",
+          "year": 2008,
+          "author": "Moreau",
+          "key": "10.7717/peerj-cs.281/ref-42",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Menthor editor: an ontology-driven conceptual modeling platform",
+          "year": 2016,
+          "author": "Moreira",
+          "key": "10.7717/peerj-cs.281/ref-43",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Multi-paradigm process management",
+          "year": 2004,
+          "author": "Muehlen",
+          "key": "10.7717/peerj-cs.281/ref-44",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.6084/m9.figshare.7449239.v2",
+          "title": "FAIR enough? Can we (already) benefit from applying the FAIR data principles to software?",
+          "year": 2018,
+          "author": "Neil",
+          "key": "10.7717/peerj-cs.281/ref-45",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkp440",
+          "title": "BioPortal: ontologies and integrated data resources at the click of a mouse",
+          "year": 2009,
+          "author": "Noy",
+          "key": "10.7717/peerj-cs.281/ref-46",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "A large-scale study about quality and reproducibility of jupyter notebooks",
+          "year": 2019,
+          "author": "Pimentel",
+          "key": "10.7717/peerj-cs.281/ref-47",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nrd3439-c1",
+          "title": "Believe it or not: how much can we rely on published data on potential drug targets?",
+          "year": 2011,
+          "author": "Prinz",
+          "key": "10.7717/peerj-cs.281/ref-48",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Process refinement validation and explanation with ontology reasoning",
+          "year": 2013,
+          "author": "Ren",
+          "key": "10.7717/peerj-cs.281/ref-49",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/978-3-642-45100-3_5978-3-642-45100-3",
+          "title": "The six core elements of business process management",
+          "year": 2015,
+          "author": "Rosemann",
+          "key": "10.7717/peerj-cs.281/ref-50",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "An ontology for the business process modelling notation",
+          "year": 2014,
+          "author": "Rospocher",
+          "key": "10.7717/peerj-cs.281/ref-51",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Combining P-Plan and the REPRODUCE-ME ontology to achieve semantic enrichment of scientific experiments using interactive notebooks",
+          "year": 2018,
+          "author": "Samuel",
+          "key": "10.7717/peerj-cs.281/ref-52",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "ProvBook: provenance-based semantic enrichment of interactive notebooks for reproducibility",
+          "year": 2018,
+          "author": "Samuel",
+          "key": "10.7717/peerj-cs.281/ref-53",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nrd3681",
+          "title": "Diagnosing the decline in pharmaceutical R&D efficiency",
+          "year": 2012,
+          "author": "Scannell",
+          "key": "10.7717/peerj-cs.281/ref-54",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1126/scitranslmed.3001318",
+          "title": "Discovery and preclinical validation of drug indications using compendia of public gene expression data",
+          "year": 2011,
+          "author": "Sirota",
+          "key": "10.7717/peerj-cs.281/ref-55",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/bf03256811",
+          "title": "Repurposing strategies for therapeutics",
+          "year": 2010,
+          "author": "Sleigh",
+          "key": "10.7717/peerj-cs.281/ref-56",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Capturing interoperable reproducible workflows",
+          "year": 2018,
+          "author": "Soiland-Reyes",
+          "key": "10.7717/peerj-cs.281/ref-57",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.4018/978-1-61350-159-7.ch0079781613501597",
+          "title": "Bridging the gap between business process models and service composition specifications",
+          "year": 2012,
+          "author": "Stephan",
+          "key": "10.7717/peerj-cs.281/ref-58",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.7717/peerj.148",
+          "title": "On the reproducibility of science: unique identification of research resources in the biomedical literature",
+          "year": 2013,
+          "author": "Vasilevsky",
+          "key": "10.7717/peerj-cs.281/ref-59",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/sdata.2016.18",
+          "title": "The FAIR guiding principles for scientific data management and stewardship",
+          "year": 2016,
+          "author": "Wilkinson",
+          "key": "10.7717/peerj-cs.281/ref-60",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkm958",
+          "title": "DrugBank: a knowledgebase for drugs, drug actions and drug targets",
+          "year": 2008,
+          "author": "Wishart",
+          "key": "10.7717/peerj-cs.281/ref-61",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1752-0509-7-S5-S6",
+          "title": "Computational drug repositioning through heterogeneous network clustering",
+          "year": 2013,
+          "author": "Wu",
+          "key": "10.7717/peerj-cs.281/ref-62",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://peerj.com/articles/cs-281.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://peerj.com/articles/cs-281.xml",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://peerj.com/articles/cs-281.html",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://peerj.com/articles/cs-281.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [
+        {
+          "name": "Dutch Research Council",
+          "award_numbers": [
+            "628.011.011"
+          ],
+          "source": "crossref"
+        },
+        {
+          "name": "Netherlands eScience Center",
+          "doi": "10.13039/100013407",
+          "award_numbers": [
+            "NLeSC P 17.0201"
+          ],
+          "source": "crossref"
+        }
+      ],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "content_version": "unspecified",
+          "delay_in_days": 0,
+          "source": "crossref"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.7717/peerj-cs.281",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "Towards FAIR protocols and workflows: the OpenPREDICT use case",
+      "abstract": "It is essential for the advancement of science that researchers share, reuse and reproduce each other\u2019s workflows and protocols. The FAIR principles are a set of guidelines that aim to maximize the value and usefulness of research data, and emphasize the importance of making digital objects findable and reusable by others. The question of how to apply these principles not just to data but also to the workflows and protocols that consume and produce them is still under debate and poses a number of challenges. In this paper we describe a two-fold approach of simultaneously applying the FAIR principles to scientific workflows as well as the involved data. We apply and evaluate our approach on the case of the PREDICT workflow, a highly cited drug repurposing workflow. This includes FAIRification of the involved datasets, as well as applying semantic technologies to represent and store data about the detailed versions of the general protocol, of the concrete workflow instructions, and of their execution traces. We propose a semantic model to address these specific requirements and was evaluated by answering competency questions. This semantic model consists of classes and relations from a number of existing ontologies, including Workflow4ever, PROV, EDAM, and BPMN. This allowed us then to formulate and answer new kinds of competency questions. Our evaluation shows the high degree to which our FAIRified OpenPREDICT workflow now adheres to the FAIR principles and the practicality and usefulness of being able to answer our new competency questions.",
+      "publication_date": "2020-09-21",
+      "publication_year": 2020,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310320104",
+      "container_title": "PeerJ Computer Science",
+      "volume": "6",
+      "pages": "e281-e281",
+      "issn": [
+        "2376-5992"
+      ],
+      "doi": "10.7717/peerj-cs.281",
+      "pmid": "33816932",
+      "openalex_id": "https://openalex.org/W3087554161",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Remzi \u00c7elebi",
+            "orcid": "0000-0001-7769-4272",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Maastricht University",
+              "ror_id": "https://ror.org/02jz4aj89",
+              "country_code": "NL",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5026467079",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jo\u00e3o Moreira",
+            "orcid": "0000-0002-4547-7000",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Vrije Universiteit Amsterdam",
+              "ror_id": "https://ror.org/008xxew50",
+              "country_code": "NL",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5024989940",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ahmed Hassan",
+            "orcid": "0000-0002-9725-2794",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Maastricht University",
+              "ror_id": "https://ror.org/02jz4aj89",
+              "country_code": "NL",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5100760329",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Sandeep Ayyar",
+            "orcid": "0000-0002-2181-8886",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Stanford University",
+              "ror_id": "https://ror.org/00f54p054",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5008925649",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Lars Ridder",
+            "orcid": "0000-0002-7635-9533",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Netherlands eScience Center",
+              "ror_id": "https://ror.org/00rbjv475",
+              "country_code": "NL",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5012277204",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Tobias Kuhn",
+            "orcid": "0000-0002-1267-0234",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Vrije Universiteit Amsterdam",
+              "ror_id": "https://ror.org/008xxew50",
+              "country_code": "NL",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5016394820",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Michel Dumontier",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Maastricht University",
+              "ror_id": "https://ror.org/02jz4aj89",
+              "country_code": "NL",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5044836472",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 20,
+      "reference_count": 75,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2025": 3,
+        "2024": 5,
+        "2023": 6,
+        "2022": 3,
+        "2021": 3
+      },
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.7717/peerj-cs.281",
+          "landing_page_url": "https://doi.org/10.7717/peerj-cs.281",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310320104",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.7717/peerj-cs.281",
+          "landing_page_url": "https://doi.org/10.7717/peerj-cs.281",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310320104",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33816932",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/33816932",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "https://cris.maastrichtuniversity.nl/en/publications/1d0eb9e8-61f5-4f9e-9d07-c5c16097b216",
+          "landing_page_url": "https://cris.maastrichtuniversity.nl/en/publications/1d0eb9e8-61f5-4f9e-9d07-c5c16097b216",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "source": "openalex"
+        },
+        {
+          "url": "https://doaj.org/article/e3339c7f439d4843822785f5308945c9",
+          "landing_page_url": "https://doaj.org/article/e3339c7f439d4843822785f5308945c9",
+          "host_type": "journal",
+          "version": "submittedVersion",
+          "license": "cc-by-sa",
+          "is_best": false,
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7924452",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7924452",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "source": "openalex"
+        },
+        {
+          "url": "http://www.scopus.com/inward/citedby.url?scp=85092652339&partnerID=8YFLogxK",
+          "landing_page_url": "http://www.scopus.com/inward/citedby.url?scp=85092652339&partnerID=8YFLogxK",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "is_best": false,
+          "source": "openalex"
+        },
+        {
+          "version": "submittedVersion",
+          "is_best": false,
+          "source": "openalex"
+        },
+        {
+          "url": "https://research.utwente.nl/en/publications/a399460a-b0c3-4690-b7f1-948d3f9b0c00",
+          "landing_page_url": "https://research.utwente.nl/en/publications/a399460a-b0c3-4690-b7f1-948d3f9b0c00",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1322597698",
+          "source": "openalex"
+        },
+        {
+          "url": "https://research.vu.nl/en/publications/ec2f326f-1b16-4e81-b8e1-2d0a178119fc",
+          "landing_page_url": "https://research.vu.nl/en/publications/ec2f326f-1b16-4e81-b8e1-2d0a178119fc",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1322597698",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://doi.org/10.7717/peerj-cs.281",
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "cc-by",
+          "source": "openalex"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Scientific Computing and Data Management",
+          "scheme": "openalex_topic",
+          "score": 0.9986000061035156,
+          "source": "openalex"
+        },
+        {
+          "value": "Research Data Management Practices",
+          "scheme": "openalex_topic",
+          "score": 0.9965999722480774,
+          "source": "openalex"
+        },
+        {
+          "value": "Biomedical Text Mining and Ontologies",
+          "scheme": "openalex_topic",
+          "score": 0.9896000027656555,
+          "source": "openalex"
+        },
+        {
+          "value": "Workflow",
+          "scheme": "openalex_concept",
+          "score": 0.9124362468719482,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.8449161648750305,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Reuse",
+          "scheme": "openalex_concept",
+          "score": 0.5346165299415588,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Repurposing",
+          "scheme": "openalex_concept",
+          "score": 0.5087020993232727,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Protocol (science)",
+          "scheme": "openalex_concept",
+          "score": 0.4888984262943268,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Data science",
+          "scheme": "openalex_concept",
+          "score": 0.4848829209804535,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Set (abstract data type)",
+          "scheme": "openalex_concept",
+          "score": 0.4722413718700409,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Software engineering",
+          "scheme": "openalex_concept",
+          "score": 0.3888995051383972,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Database",
+          "scheme": "openalex_concept",
+          "score": 0.22952935099601746,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Programming language",
+          "scheme": "openalex_concept",
+          "score": 0.1270013451576233,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Biology",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Pathology",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Medicine",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Alternative medicine",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Ecology",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Workflow",
+        "Computer science",
+        "Reuse",
+        "Repurposing",
+        "Protocol (science)",
+        "Data science",
+        "Set (abstract data type)",
+        "Software engineering",
+        "Database",
+        "Programming language"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 4.91329363,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.95566363,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 1395.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.7717/peerj-cs.281",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "Towards FAIR protocols and workflows: the OpenPREDICT use case",
+      "publication_date": "2020-09-21",
+      "publication_year": 2020,
+      "work_type": "journal-article",
+      "publisher": "PeerJ",
+      "container_title": "PeerJ Computer Science",
+      "issn": [
+        "2376-5992"
+      ],
+      "doi": "10.7717/peerj-cs.281",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.7717/peerj-cs.281",
+          "landing_page_url": "https://doi.org/10.7717/peerj-cs.281",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://doi.org/10.7717/peerj-cs.281",
+          "landing_page_url": "https://doi.org/10.7717/peerj-cs.281",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://cris.maastrichtuniversity.nl/en/publications/1d0eb9e8-61f5-4f9e-9d07-c5c16097b216",
+          "landing_page_url": "https://cris.maastrichtuniversity.nl/en/publications/1d0eb9e8-61f5-4f9e-9d07-c5c16097b216",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "Maastricht University",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://doaj.org/article/e3339c7f439d4843822785f5308945c9",
+          "landing_page_url": "https://doaj.org/article/e3339c7f439d4843822785f5308945c9",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by-sa",
+          "evidence": "deprecated",
+          "is_best": false,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7924452",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7924452",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        },
+        {
+          "url": "http://www.scopus.com/inward/citedby.url?scp=85092652339&partnerID=8YFLogxK",
+          "landing_page_url": "http://www.scopus.com/inward/citedby.url?scp=85092652339&partnerID=8YFLogxK",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "Vrije Universiteit Amsterdam",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://research.utwente.nl/en/publications/a399460a-b0c3-4690-b7f1-948d3f9b0c00",
+          "landing_page_url": "https://research.utwente.nl/en/publications/a399460a-b0c3-4690-b7f1-948d3f9b0c00",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "Royal Netherlands Academy of Arts and Sciences",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://research.vu.nl/en/publications/ec2f326f-1b16-4e81-b8e1-2d0a178119fc",
+          "landing_page_url": "https://research.vu.nl/en/publications/ec2f326f-1b16-4e81-b8e1-2d0a178119fc",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "Royal Netherlands Academy of Arts and Sciences",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://doi.org/10.7717/peerj-cs.281",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "Towards FAIR protocols and workflows: the OpenPREDICT use case.",
+      "abstract": "It is essential for the advancement of science that researchers share, reuse and reproduce each other's workflows and protocols. The FAIR principles are a set of guidelines that aim to maximize the value and usefulness of research data, and emphasize the importance of making digital objects findable and reusable by others. The question of how to apply these principles not just to data but also to the workflows and protocols that consume and produce them is still under debate and poses a number of challenges. In this paper we describe a two-fold approach of simultaneously applying the FAIR principles to scientific workflows as well as the involved data. We apply and evaluate our approach on the case of the PREDICT workflow, a highly cited drug repurposing workflow. This includes FAIRification of the involved datasets, as well as applying semantic technologies to represent and store data about the detailed versions of the general protocol, of the concrete workflow instructions, and of their execution traces. We propose a semantic model to address these specific requirements and was evaluated by answering competency questions. This semantic model consists of classes and relations from a number of existing ontologies, including Workflow4ever, PROV, EDAM, and BPMN. This allowed us then to formulate and answer new kinds of competency questions. Our evaluation shows the high degree to which our FAIRified OpenPREDICT workflow now adheres to the FAIR principles and the practicality and usefulness of being able to answer our new competency questions.",
+      "publication_year": 2020,
+      "language": "eng",
+      "container_title": "PeerJ. Computer science",
+      "volume": "6",
+      "pages": "e281",
+      "issn": [],
+      "doi": "10.7717/peerj-cs.281",
+      "pmid": "33816932",
+      "pmcid": "PMC7924452",
+      "authors": [
+        {
+          "name": {
+            "given": "Remzi",
+            "family": "Celebi",
+            "full_name": "Celebi R",
+            "orcid": "0000-0001-7769-4272",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Institute of Data Science, Maastricht University, Maastricht, Netherlands.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Joao",
+            "family": "Rebelo Moreira",
+            "full_name": "Rebelo Moreira J",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Computer Science, VU University Amsterdam, Amsterdam, Netherlands.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ahmed A",
+            "family": "Hassan",
+            "full_name": "Hassan AA",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Pharmacology & Personalised Medicine, Maastricht University, Maastricht, Netherlands.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sandeep",
+            "family": "Ayyar",
+            "full_name": "Ayyar S",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Medical Informatics, Stanford University, Palo Alto, CA, United States of America.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Lars",
+            "family": "Ridder",
+            "full_name": "Ridder L",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Netherlands eScience Center, Amsterdam, Netherlands.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Tobias",
+            "family": "Kuhn",
+            "full_name": "Kuhn T",
+            "orcid": "0000-0002-1267-0234",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Computer Science, VU University Amsterdam, Amsterdam, Netherlands.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michel",
+            "family": "Dumontier",
+            "full_name": "Dumontier M",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Institute of Data Science, Maastricht University, Maastricht, Netherlands.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 6,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.7717/peerj-cs.281",
+          "host_type": "Unpaywall",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC7924452",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC7924452?pdf=render",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "628.011.011",
+          "agency": "Dutch Research Council (NWO)",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "NLeSC P 17.0201",
+          "agency": "Netherlands eScience Center",
+          "pi_names": [],
+          "source": "europe_pmc"
+        }
+      ],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [
+        "Reproducibility",
+        "Semantic Web",
+        "Drug Repurposing",
+        "Research Object",
+        "Fair Data Principles",
+        "Fair Workflows",
+        "Ontology-Driven Healthcare",
+        "Scientific Workflows And Protocols"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 6.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [
+        "doi"
+      ],
+      "corrections": [],
+      "full_text_urls": [
+        {
+          "url": "https://doi.org/10.7717/peerj-cs.281",
+          "availability": "Open access",
+          "document_style": "doi",
+          "site": "Unpaywall"
+        },
+        {
+          "url": "https://doi.org/10.7717/peerj-cs.281",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC7924452",
+          "availability": "Open access",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC7924452?pdf=render",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openaire": {
+      "source": "openaire",
+      "found": true,
+      "raw": {},
+      "title": "Towards FAIR protocols and workflows: the OpenPREDICT use case",
+      "abstract": "<jats:p>It is essential for the advancement of science that researchers share, reuse and reproduce each other\u2019s workflows and protocols. The FAIR principles are a set of guidelines that aim to maximize the value and usefulness of research data, and emphasize the importance of making digital objects findable and reusable by others. The question of how to apply these principles not just to data but also to the workflows and protocols that consume and produce them is still under debate and poses a number of challenges. In this paper we describe a two-fold approach of simultaneously applying the FAIR principles to scientific workflows as well as the involved data. We apply and evaluate our approach on the case of the PREDICT workflow, a highly cited drug repurposing workflow. This includes FAIRification of the involved datasets, as well as applying semantic technologies to represent and store data about the detailed versions of the general protocol, of the concrete workflow instructions, and of their execution traces. We propose a semantic model to address these specific requirements and was evaluated by answering competency questions. This semantic model consists of classes and relations from a number of existing ontologies, including Workflow4ever, PROV, EDAM, and BPMN. This allowed us then to formulate and answer new kinds of competency questions. Our evaluation shows the high degree to which our FAIRified OpenPREDICT workflow now adheres to the FAIR principles and the practicality and usefulness of being able to answer our new competency questions.</jats:p>",
+      "publication_date": "2020-09-21",
+      "publication_year": 2020,
+      "work_type": "publication",
+      "language": "eng",
+      "publisher": "PeerJ",
+      "issn": [],
+      "doi": "10.7717/peerj-cs.281",
+      "pmid": "33816932",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Remzi Celebi",
+            "orcid": "0000-0001-7769-4272",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Joao Rebelo Moreira",
+            "orcid": "0000-0002-4547-7000",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ahmed A. Hassan",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Sandeep Ayyar",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Lars Ridder",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Tobias Kuhn",
+            "orcid": "0000-0002-1267-0234",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Michel Dumontier",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "citation_count": 14,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.7717/peerj-cs.281",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.7717/peerj-cs.281",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33816932",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.7717/peerj-cs.281",
+          "version": "Other literature type",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.7717/peerj-cs.281",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doaj.org/article/e3339c7f439d4843822785f5308945c9",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://research.vu.nl/en/publications/ec2f326f-1b16-4e81-b8e1-2d0a178119fc",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.7717/PEERJ-CS.281",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://hdl.handle.net/1871.1/ec2f326f-1b16-4e81-b8e1-2d0a178119fc",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://research.utwente.nl/en/publications/a399460a-b0c3-4690-b7f1-948d3f9b0c00",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.7717/peerj-cs.281",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://cris.maastrichtuniversity.nl/en/publications/1d0eb9e8-61f5-4f9e-9d07-c5c16097b216",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.7717/peerj-cs.281",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://dx.doi.org/10.7717/peerj-cs.281",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "628.011.011",
+          "agency": "Netherlands Organisation for Scientific Research (NWO)",
+          "title": "FAIR is as FAIR does: Integrating data publishing principles in scientific workflows",
+          "pi_names": [],
+          "openaire_project_id": "nwo_________::ec0f89c9f04c5bedb65c5717d03a9b9b",
+          "source": "openaire"
+        }
+      ],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "0301 basic medicine",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "0303 health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "RESOURCES",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Bioinformatics",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Drug repurposing",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "QA75.5-76.95",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "FAIR data principles",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Reproducibility",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "ONTOLOGIES",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Ontology-driven healthcare",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "03 medical and health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "FAIR workflows",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Electronic computers. Computer science",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Scientific workflows and protocols",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Research object",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Research Object",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Semantic web",
+          "scheme": "keyword",
+          "source": "openaire"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "bip_citationCount",
+          "value": 14.0,
+          "class_label": "C4",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_influence",
+          "value": 3.000353e-09,
+          "class_label": "C5",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_popularity",
+          "value": 1.2074715e-08,
+          "class_label": "C4",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_impulse",
+          "value": 8.0,
+          "class_label": "C4",
+          "source": "openaire"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [
+        {
+          "grant_id": "628.011.011",
+          "agency": "Netherlands Organisation for Scientific Research (NWO)",
+          "title": "FAIR is as FAIR does: Integrating data publishing principles in scientific workflows",
+          "pi_names": [],
+          "openaire_project_id": "nwo_________::ec0f89c9f04c5bedb65c5717d03a9b9b",
+          "source": "openaire"
+        }
+      ],
+      "alternate_ids": [
+        "doi:10.7717/peerj-cs.281",
+        "doi:10.7717/peerj-cs.281",
+        "pmid:33816932",
+        "pmc:PMC7924452",
+        "doi:10.7717/peerj-cs.281",
+        "doi:10.7717/peerj-cs.281",
+        "doi:10.7717/peerj-cs.281",
+        "doi:10.7717/peerj-cs.281",
+        "handle:1871.1/ec2f326f-1b16-4e81-b8e1-2d0a178119fc",
+        "doi:10.7717/peerj-cs.281",
+        "doi:10.7717/peerj-cs.281",
+        "doi:10.7717/peerj-cs.281",
+        "mag_id:3087554161"
+      ],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.7717/peerj-cs.281",
+      "pmid": "23671333",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.7717/peerj-cs.281",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.7717/peerj-cs.281",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.7717/peerj-cs.281",
+      "authors": [
+        {
+          "name": {
+            "given": "Remzi",
+            "family": "\u00c7elebi",
+            "full_name": "Remzi \u00c7elebi",
+            "orcid": "0000-0001-7769-4272",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Joao",
+            "family": "Moreira",
+            "full_name": "Joao Moreira",
+            "orcid": "0000-0002-4547-7000",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0001-7769-4272",
+          "given_names": "Remzi",
+          "family_names": "\u00c7elebi",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Maastricht University"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-4547-7000",
+          "given_names": "Joao",
+          "family_names": "Moreira",
+          "credit_name": null,
+          "other_names": [
+            "https://dblp.uni-trier.de/pid/254/2074.html",
+            "https://dblp.org/pid/74/7740.html"
+          ],
+          "institutions": [
+            "University of Twente",
+            "VU University Amsterdam"
+          ],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.7717/peerj-cs.281",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.7717/peerj-cs.281",
+    "pmid": "33816932",
+    "pmcid": "PMC7924452",
+    "mag_id": "3087554161",
+    "openalex_id": "https://openalex.org/W3087554161",
+    "handles": [
+      "1871.1/ec2f326f-1b16-4e81-b8e1-2d0a178119fc"
+    ],
+    "orcids": [
+      "0000-0001-7769-4272",
+      "0000-0002-1267-0234",
+      "0000-0002-2181-8886",
+      "0000-0002-4547-7000",
+      "0000-0002-7635-9533",
+      "0000-0002-9725-2794",
+      "0000-0003-4727-9435"
+    ],
+    "ror_ids": [
+      "https://ror.org/008xxew50",
+      "https://ror.org/00f54p054",
+      "https://ror.org/00rbjv475",
+      "https://ror.org/02jz4aj89"
+    ],
+    "grant_ids": [
+      "628.011.011",
+      "NLeSC P 17.0201"
+    ],
+    "nct_ids": [],
+    "pmid_source": "europe_pmc",
+    "pmcid_source": "europe_pmc"
+  },
+  "conflicts": {
+    "doi": "10.7717/peerj-cs.281",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 14,
+          "openalex": 20,
+          "europe_pmc": 6,
+          "openaire": 14
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 62,
+          "openalex": 75
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article",
+          "openaire": "publication"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 7,
+          "openalex": 7,
+          "unpaywall": 7,
+          "europe_pmc": 7,
+          "openaire": 7,
+          "orcid": 2
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "PeerJ",
+          "openalex": "https://openalex.org/P4310320104",
+          "unpaywall": "PeerJ",
+          "openaire": "PeerJ"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "PeerJ Computer Science",
+          "openalex": "PeerJ Computer Science",
+          "unpaywall": "PeerJ Computer Science",
+          "europe_pmc": "PeerJ. Computer science"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng",
+          "openaire": "eng"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "grant_count",
+        "values": {
+          "europe_pmc": 2,
+          "openaire": 1
+        },
+        "risk": "medium"
+      }
+    ],
+    "agreement_count": 2,
+    "conflict_count": 8
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.7717/peerj-cs.281",
+    "fetched_at": "2026-02-11T18:43:00.589216+00:00"
+  }
+}

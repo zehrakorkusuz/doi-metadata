@@ -1,0 +1,6238 @@
+{
+  "doi": "10.1073/pnas.2016239118",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T13:18:30.350509Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences",
+      "abstract": "<jats:title>Significance</jats:title>\n                  <jats:p>Learning biological properties from sequence data is a logical step toward generative and predictive artificial intelligence for biology. Here, we propose scaling a deep contextual language model with unsupervised learning to sequences spanning evolutionary diversity. We find that without prior knowledge, information emerges in the learned representations on fundamental properties of proteins such as secondary structure, contacts, and biological activity. We show the learned representations are useful across benchmarks for remote homology detection, prediction of secondary structure, long-range residue\u2013residue contacts, and mutational effect. Unsupervised representation learning enables state-of-the-art supervised prediction of mutational effect and secondary structure and improves state-of-the-art features for long-range contact prediction.</jats:p>",
+      "publication_date": "2021-04-05",
+      "publication_year": 2021,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Proceedings of the National Academy of Sciences",
+      "container_title": "Proceedings of the National Academy of Sciences",
+      "volume": "118",
+      "issue": "15",
+      "pages": "e2016239118",
+      "issn": [
+        "0027-8424",
+        "1091-6490"
+      ],
+      "doi": "10.1073/pnas.2016239118",
+      "authors": [
+        {
+          "name": {
+            "given": "Alexander",
+            "family": "Rives",
+            "full_name": "Alexander Rives",
+            "sequence": "first",
+            "orcid": "0000-0003-2208-0796",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Facebook AI Research, New York, NY 10003;",
+              "source": "crossref"
+            },
+            {
+              "name": "Department of Computer Science, New York University, New York, NY 10012;",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Joshua",
+            "family": "Meier",
+            "full_name": "Joshua Meier",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Facebook AI Research, New York, NY 10003;",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Tom",
+            "family": "Sercu",
+            "full_name": "Tom Sercu",
+            "sequence": "additional",
+            "orcid": "0000-0003-2947-6064",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Facebook AI Research, New York, NY 10003;",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Siddharth",
+            "family": "Goyal",
+            "full_name": "Siddharth Goyal",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Facebook AI Research, New York, NY 10003;",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Zeming",
+            "family": "Lin",
+            "full_name": "Zeming Lin",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Computer Science, New York University, New York, NY 10012;",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jason",
+            "family": "Liu",
+            "full_name": "Jason Liu",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Facebook AI Research, New York, NY 10003;",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Demi",
+            "family": "Guo",
+            "full_name": "Demi Guo",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Harvard University, Cambridge, MA 02138;",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Myle",
+            "family": "Ott",
+            "full_name": "Myle Ott",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Facebook AI Research, New York, NY 10003;",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "C. Lawrence",
+            "family": "Zitnick",
+            "full_name": "C. Lawrence Zitnick",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Facebook AI Research, New York, NY 10003;",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jerry",
+            "family": "Ma",
+            "full_name": "Jerry Ma",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Booth School of Business, University of Chicago, Chicago, IL 60637;",
+              "source": "crossref"
+            },
+            {
+              "name": "Yale Law School, New Haven, CT 06511",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Rob",
+            "family": "Fergus",
+            "full_name": "Rob Fergus",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Computer Science, New York University, New York, NY 10012;",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 2484,
+      "reference_count": 80,
+      "references": [
+        {
+          "doi": "10.1126/science.146.3651.1593",
+          "key": "e_1_3_4_1_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/0022-2836(87)90352-4",
+          "key": "e_1_3_4_2_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/protein/2.3.193",
+          "key": "e_1_3_4_3_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/prot.340180402",
+          "key": "e_1_3_4_4_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1080/00437956.1954.11659520",
+          "key": "e_1_3_4_5_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "J. Devlin M.-W. Chang K. Lee K. Toutanova BERT: Pre-training of deep bidirectional transformers for language understanding. arXiv [Preprint] (2018). arXiv:1810.04805 (Accessed 6 August 2020).",
+          "key": "e_1_3_4_6_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1145/1390156.1390177",
+          "key": "e_1_3_4_7_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2015,
+          "author": "Dai A. M.",
+          "unstructured": "A. M. Dai, Q. V. Le, \u201cSemi-supervised sequence learning\u201d in Advances in Neural Information Processing Systems, C. Cortes, N. Lawrence, D. Lee, M. Sugiyama, R. Garnett, Eds. (Curran Associates, Inc., Red Hook, NY, 2015), pp. 3079\u20133087.",
+          "key": "e_1_3_4_8_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.18653/v1/N18-1202",
+          "key": "e_1_3_4_9_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.18653/v1/D19-1539",
+          "unstructured": "A. Baevski S. Edunov Y. Liu L. Zettlemoyer M. Auli Cloze-driven pretraining of self-attention networks. arXiv [Preprint] (2019). arXiv:1903.07785 (Accessed 6 August 2020).",
+          "key": "e_1_3_4_10_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "A. Radford . Language models are unsupervised multitask learners. OpenAI Blog [Preprint] (2019). https://openai.com/blog/better-language-models (Accessed 6 August 2020).",
+          "key": "e_1_3_4_11_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S0022-2836(05)80360-2",
+          "key": "e_1_3_4_12_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S0968-0004(98)01298-5",
+          "key": "e_1_3_4_13_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/14.9.755",
+          "key": "e_1_3_4_14_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nmeth.1818",
+          "key": "e_1_3_4_15_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1021/bi00613a026",
+          "key": "e_1_3_4_16_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1214/lnms/1215455556",
+          "unstructured": "A. S. Lapedes B. G. Giraud L. Liu G. D. Stormo Correlated mutations in models of protein sequences: Phylogenetic and structural effects. Lecture Notes-Monograph Series 236\u2013256 (1999).",
+          "key": "e_1_3_4_17_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/TCBB.2007.70225",
+          "key": "e_1_3_4_18_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1073/pnas.0805923106",
+          "key": "e_1_3_4_19_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1073/pnas.1111471108",
+          "key": "e_1_3_4_20_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btr638",
+          "key": "e_1_3_4_21_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/prot.22934",
+          "key": "e_1_3_4_22_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1103/PhysRevE.87.012707",
+          "key": "e_1_3_4_23_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/molbev/msv211",
+          "key": "e_1_3_4_24_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nbt.3769",
+          "key": "e_1_3_4_25_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41592-018-0138-4",
+          "key": "e_1_3_4_26_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "A neural probabilistic language model",
+          "year": 2003,
+          "author": "Bengio Y.",
+          "unstructured": "Y. Bengio, R. Ducharme, P. Vincent, C. Jauvin, A neural probabilistic language model. J. Mach. Learn. Res. 3, 1137\u20131155 (2003).",
+          "key": "e_1_3_4_27_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "A. Radford K. Narasimhan T. Salimans I. Sutskever Improving language understanding by generative pre-training. OpenAI Blog [Preprint] (2018). https://openai.com/blog/language-unsupervised (Accessed 6 August 2020).",
+          "key": "e_1_3_4_28_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "T. Mikolov K. Chen G. Corrado J. Dean Efficient estimation of word representations in vector space. arXiv [Preprint] (2013). https://arxiv.org/abs/1301.3781 (Accessed 6 August 2020).",
+          "key": "e_1_3_4_29_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "T. Mikolov . Subword language modeling with neural networks. The website of T. Mikolov [Preprint] (2012). http://www.fit.vutbr.cz/\u223cimikolov/rnnlm/char.pdf (Accessed 14 March 2021).",
+          "key": "e_1_3_4_30_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2016,
+          "author": "Kim Y.",
+          "unstructured": "Y. Kim, Y. Jernite, D. Sontag, A. M. Rush, \u201cCharacter-aware neural language models\u201d in Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence, February 12-17, 2016, D. Schuurmans, M. Wellman, Eds. (AAAI Press, Palo Alto, CA, 2016), pp. 2741\u20132749.",
+          "key": "e_1_3_4_31_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2017,
+          "author": "Vaswani A.",
+          "unstructured": "A. Vaswani ., \u201cAttention is all you need\u201d in Advances in Neural Information Processing Systems, I. Guyon, Ed. . (Curran Associates, Inc., Red Hook, NY, 2017), pp. 5998\u20136008.",
+          "key": "e_1_3_4_32_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkm895",
+          "key": "e_1_3_4_33_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btu739",
+          "key": "e_1_3_4_34_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btm098",
+          "key": "e_1_3_4_35_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/srep02919",
+          "key": "e_1_3_4_36_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Evolution of proteins and proteomes: A phylogenetics approach",
+          "year": 2007,
+          "author": "Gabald\u00f3n T.",
+          "unstructured": "T. Gabald\u00f3n, Evolution of proteins and proteomes: A phylogenetics approach. Evol. Bioinform. Online 1, 51\u201361 (2007).",
+          "key": "e_1_3_4_37_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1007010",
+          "key": "e_1_3_4_38_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1126/science.1059128",
+          "key": "e_1_3_4_39_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/hmg/ddg359",
+          "key": "e_1_3_4_40_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/ICCV.2009.5459469",
+          "key": "e_1_3_4_41_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Visualizing data using t-SNE",
+          "year": 2008,
+          "author": "van der Maaten L.",
+          "unstructured": "L. van der Maaten, G. Hinton, Visualizing data using t-SNE. J. Mach. Learn. Res. 9, 2579\u20132605 (2008).",
+          "key": "e_1_3_4_42_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gky1085",
+          "key": "e_1_3_4_43_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkt1240",
+          "key": "e_1_3_4_44_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.sbi.2011.03.005",
+          "key": "e_1_3_4_45_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1003500",
+          "key": "e_1_3_4_46_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "J. Johnson M. Douze H. J\u00e9gou Billion-scale similarity search with GPUs. arXiv [Preprint] (2017). arXiv:1702.08734 (Accessed 6 August 2020).",
+          "key": "e_1_3_4_47_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkt1223",
+          "key": "e_1_3_4_48_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pone.0028766",
+          "key": "e_1_3_4_49_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1073/pnas.1702664114",
+          "key": "e_1_3_4_50_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btu500",
+          "key": "e_1_3_4_51_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkw1081",
+          "key": "e_1_3_4_52_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/prot.25674",
+          "key": "e_1_3_4_53_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/465955",
+          "unstructured": "J. Xu Distance-based protein folding powered by deep learning. arXiv [Preprint] (2018). arXiv:1811.03481 (Accessed 6 August 2020).",
+          "key": "e_1_3_4_54_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/bty341",
+          "key": "e_1_3_4_55_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41586-019-1923-7",
+          "key": "e_1_3_4_56_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/(SICI)1097-0134(19990301)34:4<508::AID-PROT10>3.0.CO;2-4",
+          "key": "e_1_3_4_57_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/prot.25823",
+          "key": "e_1_3_4_58_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1005324",
+          "key": "e_1_3_4_59_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/prot.25064",
+          "key": "e_1_3_4_60_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/prot.25415",
+          "key": "e_1_3_4_61_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nmeth.3027",
+          "key": "e_1_3_4_62_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41592-019-0496-6",
+          "key": "e_1_3_4_63_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.cels.2017.11.003",
+          "key": "e_1_3_4_64_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/622803",
+          "unstructured": "A. Rives . Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences. bioRxiv [Preprint] (2019). https://doi.org/10.1101/622803 (Accessed 6 August 2020).",
+          "key": "e_1_3_4_65_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41592-019-0598-1",
+          "key": "e_1_3_4_66_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s12859-019-3220-8",
+          "key": "e_1_3_4_67_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/676825",
+          "key": "e_1_3_4_68_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/bty178",
+          "key": "e_1_3_4_69_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "T. Bepler B. Berger \u201cLearning protein sequence embeddings using information from structure\u201d in International Conference on Learning Representations (OpenReview.net 2019).",
+          "key": "e_1_3_4_70_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/757252",
+          "unstructured": "A. J. Riesselman . Accelerating protein design using autoregressive generative models. bioRxiv [Preprint] (2019). https://doi.org/10.1101/757252 (Accessed 6 August 2020).",
+          "key": "e_1_3_4_71_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/2020.03.07.982272",
+          "unstructured": "A. Madani . ProGen: Language modeling for protein generation. arXiv [Preprint] (2020). arXiv:2004.03497 (Accessed 6 August 2020).",
+          "key": "e_1_3_4_72_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/2020.06.26.174417",
+          "unstructured": "J. Vig . BERTology meets biology: Interpreting attention in protein language models. arXiv [Preprint] (2020). arXiv:2006.15222 (Accessed 6 August 2020).",
+          "key": "e_1_3_4_73_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/864405",
+          "unstructured": "A. Elnaggar M. Heinzinger C. Dallago B. Rost End-to-end multitask learning from protein language to protein features without alignments. bioRxiv [Preprint] (2019). https://doi.org/10.1101/864405 (Accessed 6 August 2020).",
+          "key": "e_1_3_4_74_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btaa003",
+          "key": "e_1_3_4_75_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/789719",
+          "unstructured": "D. Repecka . Expanding functional protein sequence space using generative adversarial networks. bioRxiv [Preprint] (2019). https://doi.org/10.1101/789719 (Accessed 6 August 2020).",
+          "key": "e_1_3_4_76_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/2020.04.07.029264",
+          "unstructured": "A. Hawkins-Hooker . Generating functional protein variants with variational autoencoders. bioRxiv [Preprint] (2019). https://doi.org/10.1101/2020.04.07.029264 (Accessed 6 August 2020).",
+          "key": "e_1_3_4_77_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/2020.04.12.024844",
+          "unstructured": "T. Amimeur . Designing feature-controlled humanoid antibody discovery libraries using generative adversarial networks. bioRxiv [Preprint] (2019). https://doi.org/10.1101/2020.04.12.024844 (Accessed 6 August 2020).",
+          "key": "e_1_3_4_78_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "A. Wang K. Cho BERT has a mouth and it must speak: BERT as a markov random field language model. arXiv [Preprint] (2019). arXiv:1902.04094 (Accessed 6 August 2020).",
+          "key": "e_1_3_4_79_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/2020.01.16.908509",
+          "unstructured": "Y. Luo . Evolutionary context-integrated deep sequence modeling for protein engineering. bioRxiv [Preprint] (2020). https://doi.org/10.1101/2020.01.16.908509 (Accessed 6 August 2020).",
+          "key": "e_1_3_4_80_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "http://www.pnas.org/syndication/doi/10.1073/pnas.2016239118",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://pnas.org/doi/pdf/10.1073/pnas.2016239118",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [
+        {
+          "name": "National Science Foundation",
+          "doi": "10.13039/100000001",
+          "award_numbers": [
+            "1339362"
+          ],
+          "source": "crossref"
+        }
+      ],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "content_version": "vor",
+          "delay_in_days": 0,
+          "source": "crossref"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [
+        {
+          "value": "2021-04-05",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1073/pnas.2016239118",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences",
+      "abstract": "Significance Learning biological properties from sequence data is a logical step toward generative and predictive artificial intelligence for biology. Here, we propose scaling a deep contextual language model with unsupervised learning to sequences spanning evolutionary diversity. We find that without prior knowledge, information emerges in the learned representations on fundamental properties of proteins such as secondary structure, contacts, and biological activity. We show the learned representations are useful across benchmarks for remote homology detection, prediction of secondary structure, long-range residue\u2013residue contacts, and mutational effect. Unsupervised representation learning enables state-of-the-art supervised prediction of mutational effect and secondary structure and improves state-of-the-art features for long-range contact prediction.",
+      "publication_date": "2021-04-05",
+      "publication_year": 2021,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310320052",
+      "container_title": "Proceedings of the National Academy of Sciences",
+      "volume": "118",
+      "issue": "15",
+      "issn": [
+        "0027-8424",
+        "1091-6490"
+      ],
+      "doi": "10.1073/pnas.2016239118",
+      "pmid": "33876751",
+      "openalex_id": "https://openalex.org/W3146944767",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Alexander Rives",
+            "orcid": "0000-0003-2208-0796",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Meta (United States)",
+              "ror_id": "https://ror.org/01zbnvs85",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "New York University",
+              "ror_id": "https://ror.org/0190ak572",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5029063409",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Joshua Meier",
+            "orcid": "0000-0001-5934-2097",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Meta (United States)",
+              "ror_id": "https://ror.org/01zbnvs85",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5013933539",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Tom Sercu",
+            "orcid": "0000-0003-2947-6064",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Meta (United States)",
+              "ror_id": "https://ror.org/01zbnvs85",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5006044037",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Siddharth Goyal",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Meta (United States)",
+              "ror_id": "https://ror.org/01zbnvs85",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5109633499",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Zeming Lin",
+            "orcid": "0000-0002-0883-1373",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "New York University",
+              "ror_id": "https://ror.org/0190ak572",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5101484037",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jason Liu",
+            "orcid": "0000-0001-7197-7319",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Meta (United States)",
+              "ror_id": "https://ror.org/01zbnvs85",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5101968034",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Demi Guo",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Harvard University Press",
+              "ror_id": "https://ror.org/006v7bf86",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5049260750",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Myle Ott",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Meta (United States)",
+              "ror_id": "https://ror.org/01zbnvs85",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5076248976",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "C. Lawrence Zitnick",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Meta (United States)",
+              "ror_id": "https://ror.org/01zbnvs85",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5058450549",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jerry Ma",
+            "orcid": "0000-0003-4853-0724",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Chicago",
+              "ror_id": "https://ror.org/024mw5h28",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Yale University",
+              "ror_id": "https://ror.org/03v76x132",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5101481224",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Rob Fergus",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "New York University",
+              "ror_id": "https://ror.org/0190ak572",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5089960673",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 2767,
+      "reference_count": 92,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2026": 75,
+        "2025": 827,
+        "2024": 774,
+        "2023": 530,
+        "2022": 336,
+        "2021": 171,
+        "2020": 41,
+        "2019": 11,
+        "2012": 2
+      },
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1073/pnas.2016239118",
+          "pdf_url": "https://www.pnas.org/content/pnas/118/15/e2016239118.full.pdf",
+          "landing_page_url": "https://doi.org/10.1073/pnas.2016239118",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by-nc-nd",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310320052",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1073/pnas.2016239118",
+          "pdf_url": "https://www.pnas.org/content/pnas/118/15/e2016239118.full.pdf",
+          "landing_page_url": "https://doi.org/10.1073/pnas.2016239118",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by-nc-nd",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310320052",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33876751",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/33876751",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "http://knowledge.uchicago.edu/record/9666",
+          "landing_page_url": "http://knowledge.uchicago.edu/record/9666",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by-nc-nd",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I40347166",
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/8053943",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/8053943",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://www.pnas.org/content/pnas/118/15/e2016239118.full.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "cc-by-nc-nd",
+          "source": "openalex"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Machine Learning in Bioinformatics",
+          "scheme": "openalex_topic",
+          "score": 0.9994999766349792,
+          "source": "openalex"
+        },
+        {
+          "value": "Protein Structure and Dynamics",
+          "scheme": "openalex_topic",
+          "score": 0.9991999864578247,
+          "source": "openalex"
+        },
+        {
+          "value": "RNA and protein synthesis mechanisms",
+          "scheme": "openalex_topic",
+          "score": 0.9966999888420105,
+          "source": "openalex"
+        },
+        {
+          "value": "Artificial intelligence",
+          "scheme": "openalex_concept",
+          "score": 0.6409164071083069,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Generative grammar",
+          "scheme": "openalex_concept",
+          "score": 0.545437753200531,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Generative model",
+          "scheme": "openalex_concept",
+          "score": 0.5281438827514648,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Unsupervised learning",
+          "scheme": "openalex_concept",
+          "score": 0.5140217542648315,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.49223676323890686,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Machine learning",
+          "scheme": "openalex_concept",
+          "score": 0.47371500730514526,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Protein secondary structure",
+          "scheme": "openalex_concept",
+          "score": 0.4280596971511841,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Biology",
+          "scheme": "openalex_concept",
+          "score": 0.21848905086517334,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Biochemistry",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Quality Education",
+          "scheme": "SDG",
+          "score": 0.5799999833106995,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Unsupervised Machine Learning",
+          "descriptor_ui": "D000069558",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Unsupervised Machine Learning",
+          "descriptor_ui": "D000069558",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Unsupervised Machine Learning",
+          "descriptor_ui": "D000069558",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Amino Acids",
+          "descriptor_ui": "D000596",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Amino Acids",
+          "descriptor_ui": "D000596",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Amino Acids",
+          "descriptor_ui": "D000596",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Protein Conformation",
+          "descriptor_ui": "D011487",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Protein Conformation",
+          "descriptor_ui": "D011487",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Protein Conformation",
+          "descriptor_ui": "D011487",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Homology, Amino Acid",
+          "descriptor_ui": "D017386",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Homology, Amino Acid",
+          "descriptor_ui": "D017386",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Homology, Amino Acid",
+          "descriptor_ui": "D017386",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, Protein",
+          "descriptor_ui": "D020539",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, Protein",
+          "descriptor_ui": "D020539",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, Protein",
+          "descriptor_ui": "D020539",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        }
+      ],
+      "keywords": [
+        "Artificial intelligence",
+        "Generative grammar",
+        "Generative model",
+        "Unsupervised learning",
+        "Computer science",
+        "Machine learning",
+        "Protein secondary structure",
+        "Biology"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 177.50901759,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.99990586,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1073/pnas.2016239118",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences",
+      "publication_date": "2021-04-05",
+      "publication_year": 2021,
+      "work_type": "journal-article",
+      "publisher": "Proceedings of the National Academy of Sciences",
+      "container_title": "Proceedings of the National Academy of Sciences",
+      "issn": [
+        "0027-8424",
+        "1091-6490"
+      ],
+      "doi": "10.1073/pnas.2016239118",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_locations": [
+        {
+          "url": "https://www.pnas.org/content/pnas/118/15/e2016239118.full.pdf",
+          "pdf_url": "https://www.pnas.org/content/pnas/118/15/e2016239118.full.pdf",
+          "landing_page_url": "https://doi.org/10.1073/pnas.2016239118",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by-nc-nd",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.pnas.org/content/pnas/118/15/e2016239118.full.pdf",
+          "pdf_url": "https://www.pnas.org/content/pnas/118/15/e2016239118.full.pdf",
+          "landing_page_url": "https://doi.org/10.1073/pnas.2016239118",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by-nc-nd",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "http://knowledge.uchicago.edu/record/9666",
+          "landing_page_url": "http://knowledge.uchicago.edu/record/9666",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by-nc-nd",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "University of Chicago",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/8053943",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/8053943",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://www.pnas.org/content/pnas/118/15/e2016239118.full.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences.",
+      "abstract": "In the field of artificial intelligence, a combination of scale in data and model capacity enabled by unsupervised learning has led to major advances in representation learning and statistical generation. In the life sciences, the anticipated growth of sequencing promises unprecedented data on natural sequence diversity. Protein language modeling at the scale of evolution is a logical step toward predictive and generative artificial intelligence for biology. To this end, we use unsupervised learning to train a deep contextual language model on 86 billion amino acids across 250 million protein sequences spanning evolutionary diversity. The resulting model contains information about biological properties in its representations. The representations are learned from sequence data alone. The learned representation space has a multiscale organization reflecting structure from the level of biochemical properties of amino acids to remote homology of proteins. Information about secondary and tertiary structure is encoded in the representations and can be identified by linear projections. Representation learning produces features that generalize across a range of applications, enabling state-of-the-art supervised prediction of mutational effect and secondary structure and improving state-of-the-art features for long-range contact prediction.",
+      "publication_year": 2021,
+      "language": "eng",
+      "container_title": "Proceedings of the National Academy of Sciences of the United States of America",
+      "volume": "118",
+      "issue": "15",
+      "pages": "e2016239118",
+      "issn": [],
+      "doi": "10.1073/pnas.2016239118",
+      "pmid": "33876751",
+      "pmcid": "PMC8053943",
+      "authors": [
+        {
+          "name": {
+            "given": "Alexander",
+            "family": "Rives",
+            "full_name": "Rives A",
+            "orcid": "0000-0003-2208-0796",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Facebook AI Research, New York, NY 10003; arives@cs.nyu.edu.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Department of Computer Science, New York University, New York, NY 10012.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Joshua",
+            "family": "Meier",
+            "full_name": "Meier J",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Facebook AI Research, New York, NY 10003.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Tom",
+            "family": "Sercu",
+            "full_name": "Sercu T",
+            "orcid": "0000-0003-2947-6064",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Facebook AI Research, New York, NY 10003.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Siddharth",
+            "family": "Goyal",
+            "full_name": "Goyal S",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Facebook AI Research, New York, NY 10003.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Zeming",
+            "family": "Lin",
+            "full_name": "Lin Z",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Computer Science, New York University, New York, NY 10012.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jason",
+            "family": "Liu",
+            "full_name": "Liu J",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Facebook AI Research, New York, NY 10003.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Demi",
+            "family": "Guo",
+            "full_name": "Guo D",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Harvard University, Cambridge, MA 02138.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Myle",
+            "family": "Ott",
+            "full_name": "Ott M",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Facebook AI Research, New York, NY 10003.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "C Lawrence",
+            "family": "Zitnick",
+            "full_name": "Zitnick CL",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Facebook AI Research, New York, NY 10003.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jerry",
+            "family": "Ma",
+            "full_name": "Ma J",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Booth School of Business, University of Chicago, Chicago, IL 60637.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Yale Law School, New Haven, CT 06511.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Rob",
+            "family": "Fergus",
+            "full_name": "Fergus R",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Computer Science, New York University, New York, NY 10012.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 1851,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "url": "https://www.pnas.org/content/pnas/118/15/e2016239118.full.pdf",
+          "host_type": "Unpaywall",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC8053943",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC8053943?pdf=render",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "1339362",
+          "agency": "National Science Foundation",
+          "pi_names": [],
+          "source": "europe_pmc"
+        }
+      ],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Amino Acids",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Amino Acids",
+          "qualifier_name": "chemistry",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, Protein",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, Protein",
+          "qualifier_name": "methods",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Protein Conformation",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Sequence Homology, Amino Acid",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Unsupervised Machine Learning",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        }
+      ],
+      "keywords": [
+        "Synthetic Biology",
+        "Representation Learning",
+        "Deep Learning",
+        "Generative Biology",
+        "Protein Language Model"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 1851.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [
+        {
+          "name": "Amino Acids",
+          "registry_number": "0"
+        }
+      ],
+      "text_mined_accessions": [
+        "pfam"
+      ],
+      "corrections": [
+        {
+          "type": "Preprint in",
+          "id": "PPR77600",
+          "source": "PPR"
+        }
+      ],
+      "full_text_urls": [
+        {
+          "url": "https://www.pnas.org/content/pnas/118/15/e2016239118.full.pdf",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Unpaywall"
+        },
+        {
+          "url": "https://doi.org/10.1073/pnas.2016239118",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC8053943",
+          "availability": "Open access",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC8053943?pdf=render",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openaire": {
+      "source": "openaire",
+      "found": true,
+      "raw": {},
+      "title": "Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences",
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>In the field of artificial intelligence, a combination of scale in data and model capacity enabled by un-supervised learning has led to major advances in representation learning and statistical generation. In the life sciences, the anticipated growth of sequencing promises unprecedented data on natural sequence diversity. Protein language modeling at the scale of evolution is a logical step toward predictive and generative artificial intelligence for biology. To this end we use unsupervised learning to train a deep contextual language model on 86 billion amino acids across 250 million protein sequences spanning evolutionary diversity. The resulting model contains information about biological properties in its representations. The representations are learned from sequence data alone. The learned representation space has a multi-scale organization reflecting structure from the level of biochemical properties of amino acids to remote homology of proteins. Information about secondary and tertiary structure is encoded in the representations and can be identified by linear projections. Representation learning produces features that generalize across a range of applications, enabling state-of-the-art supervised prediction of mutational effect and secondary structure, and improving state-of-the-art features for long-range contact prediction.</jats:p>",
+      "publication_date": "2019-04-29",
+      "publication_year": 2019,
+      "work_type": "publication",
+      "language": "und",
+      "publisher": "Cold Spring Harbor Laboratory",
+      "issn": [],
+      "doi": "10.1073/pnas.2016239118",
+      "pmid": "33876751",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Alexander Rives",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Joshua Meier",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Tom Sercu",
+            "orcid": "0000-0003-2947-6064",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Siddharth Goyal",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Zeming Lin",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jason Liu",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Demi Guo",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Myle Ott",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "C. Lawrence Zitnick",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jerry Ma",
+            "orcid": "0000-0003-4853-0724",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Rob Fergus",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "citation_count": 2281,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_status": "hybrid",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1101/622803",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://www.pnas.org/content/pnas/118/15/e2016239118.full.pdf",
+          "version": "Article",
+          "license": "CC BY NC ND",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1073/pnas.2016239118",
+          "version": "Article",
+          "license": "CC BY NC ND",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://www.pnas.org/content/pnas/118/15/e2016239118.full.pdf",
+          "version": "Article",
+          "license": "CC BY NC ND",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33876751",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1073/pnas.2016239118",
+          "version": "Other literature type",
+          "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/This open access article is distributed under Creative Commons Attribution-NonCommercial-NoDerivatives License 4.0 (CC BY-NC-ND) (http://creativecommons.org/licenses/by-nc-nd/4.0/) .",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1073/pnas.2016239118",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://dx.doi.org/10.1073/pnas.2016239118",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://dx.doi.org/10.1101/622803",
+          "version": "Other literature type",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1101/622803",
+          "version": "Preprint",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/https://doi.org/10.1073/pnas.2016239118",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "1339362",
+          "agency": "National Science Foundation",
+          "title": "NutriNet: A Network Inspired Approach to Improving Nutrient Use Efficiency (NUE) in Crop Plants",
+          "pi_names": [],
+          "openaire_project_id": "nsf_________::868e4719764c370a4d4d830d7a031329",
+          "source": "openaire"
+        }
+      ],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "0301 basic medicine",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "03 medical and health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "Sequence Homology, Amino Acid",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Protein Conformation",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Sequence Analysis, Protein",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "0206 medical engineering",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "02 engineering and technology",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "Biological Sciences",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Amino Acids",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Unsupervised Machine Learning",
+          "scheme": "keyword",
+          "source": "openaire"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "bip_citationCount",
+          "value": 2281.0,
+          "class_label": "C1",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_influence",
+          "value": 1.06812564e-07,
+          "class_label": "C2",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_popularity",
+          "value": 1.8849397e-06,
+          "class_label": "C1",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_impulse",
+          "value": 465.0,
+          "class_label": "C1",
+          "source": "openaire"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [
+        {
+          "grant_id": "1339362",
+          "agency": "National Science Foundation",
+          "title": "NutriNet: A Network Inspired Approach to Improving Nutrient Use Efficiency (NUE) in Crop Plants",
+          "pi_names": [],
+          "openaire_project_id": "nsf_________::868e4719764c370a4d4d830d7a031329",
+          "source": "openaire"
+        }
+      ],
+      "alternate_ids": [
+        "doi:10.1101/622803",
+        "doi:10.1073/pnas.2016239118",
+        "doi:10.1073/pnas.2016239118",
+        "pmid:33876751",
+        "pmc:PMC8053943",
+        "doi:10.1073/pnas.2016239118",
+        "doi:10.1073/pnas.2016239118",
+        "mag_id:3146944767",
+        "doi:10.1073/pnas.2016239118",
+        "mag_id:2943495267",
+        "doi:10.1101/622803",
+        "doi:10.1101/622803",
+        "doi:10.1073/pnas.2016239118"
+      ],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1073/pnas.2016239118",
+      "pmid": "19683066",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1073/pnas.2016239118",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1073/pnas.2016239118",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1073/pnas.2016239118",
+      "authors": [
+        {
+          "name": {
+            "given": "Tom",
+            "family": "Sercu",
+            "full_name": "Tom Sercu",
+            "orcid": "0000-0003-2947-6064",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0003-2947-6064",
+          "given_names": "Tom",
+          "family_names": "Sercu",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Facebook AI Research",
+            "Ghent University",
+            "IBM Research",
+            "New York University"
+          ],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1073/pnas.2016239118",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc_annotations": {
+      "source": "europe_pmc_annotations",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1073/pnas.2016239118",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [
+        {
+          "annotation_type": "Gene Drug Relationship",
+          "exact_text": "We pretrain separate 12-layer Transformer models on the Pfam multiple sequence alignments of the three most common domains in nature longer than 100 amino acids: the ATP-binding domain of the ATP-binding cassette transporters, the protein kinase domain, and the response regulator receiver domain.",
+          "section": "Article (http://semanticscience.org/resource/SIO_001029)",
+          "tags": [
+            {
+              "name": "ATP-binding cassette transporters",
+              "uri": "https://www.ensembl.org/Homo_sapiens/Gene/Summary?db=core;g=ENSG00000198691"
+            },
+            {
+              "name": "amino acids",
+              "uri": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201498"
+            }
+          ],
+          "provider": "Open Targets Platform",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Chemicals",
+          "exact_text": "amino acids",
+          "prefix": "on 86 billion",
+          "postfix": "acids across 250",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "palmitoyl amino acid",
+              "uri": "http://purl.obolibrary.org/obo/CHEBI_25838"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Gene Ontology",
+          "exact_text": "organization",
+          "prefix": "has a multiscale",
+          "postfix": "reflecting structure from",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "glyoxysome organization",
+              "uri": "http://identifiers.org/GO:0010111"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Chemicals",
+          "exact_text": "amino acids",
+          "prefix": "biochemical properties of",
+          "postfix": "acids to remote",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "palmitoyl amino acid",
+              "uri": "http://purl.obolibrary.org/obo/CHEBI_25838"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Resources",
+          "exact_text": "UniParc",
+          "prefix": "on sequences of the ",
+          "postfix": " database (33), whic",
+          "section": "Article (http://semanticscience.org/resource/SIO_001029)",
+          "tags": [
+            {
+              "name": "UniParc",
+              "uri": "https://identifiers.org/MIR:00100164"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Resources",
+          "exact_text": "UniParc",
+          "prefix": "ll the sequences in ",
+          "postfix": " (33), holding out a",
+          "section": "Article (http://semanticscience.org/resource/SIO_001029)",
+          "tags": [
+            {
+              "name": "UniParc",
+              "uri": "https://identifiers.org/MIR:00100164"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Resources",
+          "exact_text": "UniParc",
+          "prefix": "4), a clustering of ",
+          "postfix": " at 50% sequence ide",
+          "section": "Article (http://semanticscience.org/resource/SIO_001029)",
+          "tags": [
+            {
+              "name": "UniParc",
+              "uri": "https://identifiers.org/MIR:00100164"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Resources",
+          "exact_text": "UniParc",
+          "prefix": "Clustering ",
+          "postfix": " shows a power law distributi",
+          "section": "Article (http://semanticscience.org/resource/SIO_001029)",
+          "tags": [
+            {
+              "name": "UniParc",
+              "uri": "https://identifiers.org/MIR:00100164"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Resources",
+          "exact_text": "UniRef",
+          "prefix": "We use ",
+          "postfix": " (34) to create three pretraining",
+          "section": "Article (http://semanticscience.org/resource/SIO_001029)",
+          "tags": [
+            {
+              "name": "UniRef",
+              "uri": "https://identifiers.org/MIR:00100164"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Resources",
+          "exact_text": "UniParc",
+          "prefix": "on of 36-layer Transformer trained on ",
+          "postfix": ". ",
+          "section": "Article (http://semanticscience.org/resource/SIO_001029)",
+          "tags": [
+            {
+              "name": "UniParc",
+              "uri": "https://identifiers.org/MIR:00100164"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Resources",
+          "exact_text": "UniParc",
+          "prefix": "36-layer Transformer model trained on ",
+          "postfix": ". ",
+          "section": "Article (http://semanticscience.org/resource/SIO_001029)",
+          "tags": [
+            {
+              "name": "UniParc",
+              "uri": "https://identifiers.org/MIR:00100164"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Accession Numbers",
+          "exact_text": "PF01010",
+          "prefix": "ues from sequences within Pfam family ",
+          "postfix": ". ",
+          "section": "Article (http://semanticscience.org/resource/SIO_001029)",
+          "tags": [
+            {
+              "name": "PF01010",
+              "uri": "http://identifiers.org/pfam:PF01010"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Resources",
+          "exact_text": "UniParc",
+          "prefix": "ned across the full ",
+          "postfix": " sequence diversity ",
+          "section": "Article (http://semanticscience.org/resource/SIO_001029)",
+          "tags": [
+            {
+              "name": "UniParc",
+              "uri": "https://identifiers.org/MIR:00100164"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Gene Ontology",
+          "exact_text": "binding",
+          "prefix": "stability, tertiary contacts,",
+          "postfix": ", and other properties",
+          "section": "Introduction (http://purl.org/orb/Introduction)",
+          "tags": [
+            {
+              "name": "binding",
+              "uri": "http://identifiers.org/GO:0005488"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Chemicals",
+          "exact_text": "amino acids",
+          "prefix": "distinct classes of",
+          "postfix": "acids ( 16",
+          "section": "Introduction (http://purl.org/orb/Introduction)",
+          "tags": [
+            {
+              "name": "palmitoyl amino acid",
+              "uri": "http://purl.obolibrary.org/obo/CHEBI_25838"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Gene Ontology",
+          "exact_text": "binding",
+          "prefix": "tertiary contacts, and",
+          "postfix": "( 4 ).",
+          "section": "Introduction (http://purl.org/orb/Introduction)",
+          "tags": [
+            {
+              "name": "binding",
+              "uri": "http://identifiers.org/GO:0005488"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Organisms",
+          "exact_text": "human",
+          "prefix": "of-the-art results approaching",
+          "postfix": "performance on various",
+          "section": "Introduction (http://purl.org/orb/Introduction)",
+          "tags": [
+            {
+              "name": "human",
+              "uri": "http://identifiers.org/taxonomy/9606"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Chemicals",
+          "exact_text": "amino acid",
+          "prefix": "form of unlabeled",
+          "postfix": "acid sequences.",
+          "section": "Introduction (http://purl.org/orb/Introduction)",
+          "tags": [
+            {
+              "name": "amino acid",
+              "uri": "http://purl.obolibrary.org/obo/CHEBI_33709"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Chemicals",
+          "exact_text": "amino acids",
+          "prefix": "across 86 billion",
+          "postfix": "acids from 250",
+          "section": "Discussion (http://purl.org/orb/Discussion)",
+          "tags": [
+            {
+              "name": "palmitoyl amino acid",
+              "uri": "http://purl.obolibrary.org/obo/CHEBI_25838"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Chemicals",
+          "exact_text": "amino acids",
+          "prefix": "including that of",
+          "postfix": "acids, proteins, and",
+          "section": "Discussion (http://purl.org/orb/Discussion)",
+          "tags": [
+            {
+              "name": "palmitoyl amino acid",
+              "uri": "http://purl.obolibrary.org/obo/CHEBI_25838"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Gene Ontology",
+          "exact_text": "synthesis",
+          "prefix": "models with gene",
+          "postfix": "and high throughput",
+          "section": "Discussion (http://purl.org/orb/Discussion)",
+          "tags": [
+            {
+              "name": "pseudouridine synthesis",
+              "uri": "http://identifiers.org/GO:0001522"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Gene Ontology",
+          "exact_text": "localization",
+          "prefix": "structure, function, activity,",
+          "postfix": ", binding, and dynamics,",
+          "section": "Discussion (http://purl.org/orb/Discussion)",
+          "tags": [
+            {
+              "name": "localization",
+              "uri": "http://identifiers.org/GO:0051179"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Gene Ontology",
+          "exact_text": "binding",
+          "prefix": "ction, activity, localization,",
+          "postfix": ", and dynamics, to",
+          "section": "Discussion (http://purl.org/orb/Discussion)",
+          "tags": [
+            {
+              "name": "binding",
+              "uri": "http://identifiers.org/GO:0005488"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Gene_Proteins",
+          "exact_text": "RaptorX",
+          "prefix": "Xu for sharing",
+          "postfix": "features and help",
+          "section": "Acknowledgments (http://purl.org/orb/Acknowledgments)",
+          "tags": [
+            {
+              "name": "Rptor",
+              "uri": "https://www.uniprot.org/uniprotkb/Q8K4Q0/entry"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Gene_Proteins",
+          "exact_text": "CASP13",
+          "prefix": "and help with",
+          "postfix": ".",
+          "section": "Acknowledgments (http://purl.org/orb/Acknowledgments)",
+          "tags": [
+            {
+              "name": "CASP13",
+              "uri": "https://www.uniprot.org/uniprotkb/O75601/entry"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        }
+      ],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1073/pnas.2016239118",
+    "pmid": "33876751",
+    "pmcid": "PMC8053943",
+    "mag_id": "2943495267",
+    "openalex_id": "https://openalex.org/W3146944767",
+    "handles": [],
+    "orcids": [
+      "0000-0001-5934-2097",
+      "0000-0001-7197-7319",
+      "0000-0002-0883-1373",
+      "0000-0003-2208-0796",
+      "0000-0003-2947-6064",
+      "0000-0003-4853-0724"
+    ],
+    "ror_ids": [
+      "https://ror.org/006v7bf86",
+      "https://ror.org/0190ak572",
+      "https://ror.org/01zbnvs85",
+      "https://ror.org/024mw5h28",
+      "https://ror.org/03v76x132"
+    ],
+    "grant_ids": [
+      "1339362"
+    ],
+    "nct_ids": [],
+    "pmid_source": "europe_pmc",
+    "pmcid_source": "europe_pmc"
+  },
+  "conflicts": {
+    "doi": "10.1073/pnas.2016239118",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 2484,
+          "openalex": 2767,
+          "europe_pmc": 1851,
+          "openaire": 2281
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 80,
+          "openalex": 92
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publication_year",
+        "values": {
+          "crossref": 2021,
+          "openalex": 2021,
+          "unpaywall": 2021,
+          "europe_pmc": 2021,
+          "openaire": 2019
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article",
+          "openaire": "publication"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 11,
+          "openalex": 11,
+          "unpaywall": 11,
+          "europe_pmc": 11,
+          "openaire": 11,
+          "orcid": 1
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Proceedings of the National Academy of Sciences",
+          "openalex": "https://openalex.org/P4310320052",
+          "unpaywall": "Proceedings of the National Academy of Sciences",
+          "openaire": "Cold Spring Harbor Laboratory"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Proceedings of the National Academy of Sciences",
+          "openalex": "Proceedings of the National Academy of Sciences",
+          "unpaywall": "Proceedings of the National Academy of Sciences",
+          "europe_pmc": "Proceedings of the National Academy of Sciences of the United States of America"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "mesh_term_count",
+        "values": {
+          "openalex": 15,
+          "europe_pmc": 7
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng",
+          "openaire": "und"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 1,
+    "conflict_count": 9
+  },
+  "datacite_linked_datasets": [
+    {
+      "identifier": "10.6084/m9.figshare.24934707.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Image",
+      "title": "Additional file 2 of DisoFLAG: accurate prediction of protein intrinsic disorder and its functions using graph-based interaction protein language model",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.24934707",
+      "identifier_type": "DOI",
+      "resource_type": "Image",
+      "title": "Additional file 2 of DisoFLAG: accurate prediction of protein intrinsic disorder and its functions using graph-based interaction protein language model",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.24934154.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of DisoFLAG: accurate prediction of protein intrinsic disorder and its functions using graph-based interaction protein language model",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.24934154",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of DisoFLAG: accurate prediction of protein intrinsic disorder and its functions using graph-based interaction protein language model",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26639277",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of DG-Affinity: predicting antigen\u2013antibody affinity with language models from sequences",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26639277.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of DG-Affinity: predicting antigen\u2013antibody affinity with language models from sequences",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.24419026.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 2 of Prevalent bee venom genes evolved before the aculeate stinger and eusociality",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.24419026",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 2 of Prevalent bee venom genes evolved before the aculeate stinger and eusociality",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.24418985",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of Prevalent bee venom genes evolved before the aculeate stinger and eusociality",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.24418985.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of Prevalent bee venom genes evolved before the aculeate stinger and eusociality",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26693644.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of Learnt representations of proteins can be used for accurate prediction of small molecule binding sites on experimentally determined and predicted protein structures",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26693644",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of Learnt representations of proteins can be used for accurate prediction of small molecule binding sites on experimentally determined and predicted protein structures",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26566178.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Additional file 2 of SESNet: sequence-structure feature-integrated deep learning method for data-efficient protein engineering",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26566175",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of SESNet: sequence-structure feature-integrated deep learning method for data-efficient protein engineering",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26566181",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Additional file 3 of SESNet: sequence-structure feature-integrated deep learning method for data-efficient protein engineering",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26566178",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Additional file 2 of SESNet: sequence-structure feature-integrated deep learning method for data-efficient protein engineering",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26566181.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Additional file 3 of SESNet: sequence-structure feature-integrated deep learning method for data-efficient protein engineering",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26646418.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of Machine learning-based approaches for ubiquitination site prediction in human proteins",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26646418",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of Machine learning-based approaches for ubiquitination site prediction in human proteins",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26588157.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 2 of High-throughput deep learning variant effect prediction with Sequence UNET",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26588154.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of High-throughput deep learning variant effect prediction with Sequence UNET",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26588157",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 2 of High-throughput deep learning variant effect prediction with Sequence UNET",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26588154",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of High-throughput deep learning variant effect prediction with Sequence UNET",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26566175.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of SESNet: sequence-structure feature-integrated deep learning method for data-efficient protein engineering",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.25744309.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of Protein function prediction through multi-view multi-label latent tensor reconstruction",
+      "publisher": "figshare",
+      "source": "datacite"
+    }
+  ],
+  "analyses": {
+    "impact": {
+      "doi": "10.1073/pnas.2016239118",
+      "citation_comparison": {
+        "values": {
+          "crossref": 2484,
+          "openalex": 2767,
+          "europe_pmc": 1851,
+          "openaire": 2281
+        },
+        "min": 1851,
+        "max": 2767,
+        "spread": 916,
+        "median": 2484
+      },
+      "fwci": 177.50901759,
+      "citation_percentile": 0.99990586,
+      "bip_influence": 1.06812564e-07,
+      "bip_influence_class": "C2",
+      "bip_popularity": 1.8849397e-06,
+      "bip_popularity_class": "C1",
+      "bip_impulse": 465.0,
+      "bip_impulse_class": "C1",
+      "citation_trend": [
+        {
+          "year": 2012,
+          "count": 2
+        },
+        {
+          "year": 2019,
+          "count": 11
+        },
+        {
+          "year": 2020,
+          "count": 41
+        },
+        {
+          "year": 2021,
+          "count": 171
+        },
+        {
+          "year": 2022,
+          "count": 336
+        },
+        {
+          "year": 2023,
+          "count": 530
+        },
+        {
+          "year": 2024,
+          "count": 774
+        },
+        {
+          "year": 2025,
+          "count": 827
+        },
+        {
+          "year": 2026,
+          "count": 75
+        }
+      ],
+      "trend_direction": "declining",
+      "dataset_reuse_count": 25,
+      "narrative": "Cited ~2484 times across sources. (counts range 1851\u20132767, significant cross-source divergence). FWCI 177.5x field average. Citation trend: declining. 25 downstream datasets reference this work."
+    },
+    "funding": {
+      "doi": "10.1073/pnas.2016239118",
+      "total_funders": 1,
+      "total_grants": 1,
+      "entries": [
+        {
+          "grant_id": "1339362",
+          "funder_name": "National Science Foundation",
+          "funder_doi": "10.13039/100000001",
+          "award_numbers": [],
+          "title": "NutriNet: A Network Inspired Approach to Improving Nutrient Use Efficiency (NUE) in Crop Plants",
+          "pi_names": [],
+          "openaire_project_id": "nsf_________::868e4719764c370a4d4d830d7a031329",
+          "sources": [
+            "crossref",
+            "europe_pmc",
+            "openaire"
+          ]
+        }
+      ],
+      "nih_grants": [],
+      "eu_grants": [],
+      "other_grants": [
+        {
+          "grant_id": "1339362",
+          "funder_name": "National Science Foundation",
+          "funder_doi": "10.13039/100000001",
+          "award_numbers": [],
+          "title": "NutriNet: A Network Inspired Approach to Improving Nutrient Use Efficiency (NUE) in Crop Plants",
+          "pi_names": [],
+          "openaire_project_id": "nsf_________::868e4719764c370a4d4d830d7a031329",
+          "sources": [
+            "crossref",
+            "europe_pmc",
+            "openaire"
+          ]
+        }
+      ],
+      "funding_agencies": [
+        "National Science Foundation"
+      ],
+      "narrative": "Funded by 1 agencies across 1 grants. 1 grants confirmed by multiple sources."
+    },
+    "dataset_reuse": {
+      "doi": "10.1073/pnas.2016239118",
+      "datacite_linked_datasets": [
+        {
+          "identifier": "10.6084/m9.figshare.24934707.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Image",
+          "title": "Additional file 2 of DisoFLAG: accurate prediction of protein intrinsic disorder and its functions using graph-based interaction protein language model",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.24934707",
+          "identifier_type": "DOI",
+          "resource_type": "Image",
+          "title": "Additional file 2 of DisoFLAG: accurate prediction of protein intrinsic disorder and its functions using graph-based interaction protein language model",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.24934154.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of DisoFLAG: accurate prediction of protein intrinsic disorder and its functions using graph-based interaction protein language model",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.24934154",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of DisoFLAG: accurate prediction of protein intrinsic disorder and its functions using graph-based interaction protein language model",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26639277",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of DG-Affinity: predicting antigen\u2013antibody affinity with language models from sequences",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26639277.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of DG-Affinity: predicting antigen\u2013antibody affinity with language models from sequences",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.24419026.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 2 of Prevalent bee venom genes evolved before the aculeate stinger and eusociality",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.24419026",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 2 of Prevalent bee venom genes evolved before the aculeate stinger and eusociality",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.24418985",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of Prevalent bee venom genes evolved before the aculeate stinger and eusociality",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.24418985.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of Prevalent bee venom genes evolved before the aculeate stinger and eusociality",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26693644.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of Learnt representations of proteins can be used for accurate prediction of small molecule binding sites on experimentally determined and predicted protein structures",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26693644",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of Learnt representations of proteins can be used for accurate prediction of small molecule binding sites on experimentally determined and predicted protein structures",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26566178.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Additional file 2 of SESNet: sequence-structure feature-integrated deep learning method for data-efficient protein engineering",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26566175",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of SESNet: sequence-structure feature-integrated deep learning method for data-efficient protein engineering",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26566181",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Additional file 3 of SESNet: sequence-structure feature-integrated deep learning method for data-efficient protein engineering",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26566178",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Additional file 2 of SESNet: sequence-structure feature-integrated deep learning method for data-efficient protein engineering",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26566181.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Additional file 3 of SESNet: sequence-structure feature-integrated deep learning method for data-efficient protein engineering",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26646418.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of Machine learning-based approaches for ubiquitination site prediction in human proteins",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26646418",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of Machine learning-based approaches for ubiquitination site prediction in human proteins",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26588157.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 2 of High-throughput deep learning variant effect prediction with Sequence UNET",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26588154.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of High-throughput deep learning variant effect prediction with Sequence UNET",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26588157",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 2 of High-throughput deep learning variant effect prediction with Sequence UNET",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26588154",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of High-throughput deep learning variant effect prediction with Sequence UNET",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26566175.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of SESNet: sequence-structure feature-integrated deep learning method for data-efficient protein engineering",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.25744309.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of Protein function prediction through multi-view multi-label latent tensor reconstruction",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        }
+      ],
+      "datacite_linked_count": 25,
+      "publishers_breakdown": {
+        "figshare": 25
+      },
+      "supplements_to": [],
+      "supplemented_by": [],
+      "cites": [],
+      "cited_by": [],
+      "derived_from": [],
+      "source_of": [],
+      "parts": [],
+      "other_relations": [],
+      "related_software": [],
+      "related_data": [],
+      "file_count": 0,
+      "file_types": [],
+      "narrative": "25 downstream datasets reference this work (mostly from figshare: 25)."
+    },
+    "authors": {
+      "doi": "10.1073/pnas.2016239118",
+      "authors": [
+        {
+          "given": "Alexander",
+          "family": "Rives",
+          "full_name": "Alexander Rives",
+          "orcid": "0000-0003-2208-0796",
+          "authenticated_orcid": false,
+          "sequence": "first",
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5029063409",
+          "affiliations": [
+            {
+              "name": "Facebook AI Research, New York, NY 10003;",
+              "source": "crossref"
+            },
+            {
+              "name": "Department of Computer Science, New York University, New York, NY 10012;",
+              "source": "crossref"
+            },
+            {
+              "name": "Meta (United States)",
+              "ror_id": "https://ror.org/01zbnvs85",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "New York University",
+              "ror_id": "https://ror.org/0190ak572",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Facebook AI Research, New York, NY 10003; arives@cs.nyu.edu.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Department of Computer Science, New York University, New York, NY 10012.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "crossref",
+            "openalex",
+            "europe_pmc"
+          ],
+          "name_variants": [
+            "Alexander Rives",
+            "Rives A"
+          ]
+        },
+        {
+          "given": "Tom",
+          "family": "Sercu",
+          "full_name": "Tom Sercu",
+          "orcid": "0000-0003-2947-6064",
+          "authenticated_orcid": false,
+          "sequence": "additional",
+          "openalex_author_id": "https://openalex.org/A5006044037",
+          "affiliations": [
+            {
+              "name": "Facebook AI Research, New York, NY 10003;",
+              "source": "crossref"
+            },
+            {
+              "name": "Meta (United States)",
+              "ror_id": "https://ror.org/01zbnvs85",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Facebook AI Research, New York, NY 10003.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "crossref",
+            "openalex",
+            "europe_pmc",
+            "openaire",
+            "orcid"
+          ],
+          "name_variants": [
+            "Sercu T",
+            "Tom Sercu"
+          ]
+        },
+        {
+          "full_name": "Joshua Meier",
+          "orcid": "0000-0001-5934-2097",
+          "authenticated_orcid": false,
+          "openalex_author_id": "https://openalex.org/A5013933539",
+          "affiliations": [
+            {
+              "name": "Meta (United States)",
+              "ror_id": "https://ror.org/01zbnvs85",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": [
+            "Joshua Meier"
+          ]
+        },
+        {
+          "full_name": "Zeming Lin",
+          "orcid": "0000-0002-0883-1373",
+          "authenticated_orcid": false,
+          "openalex_author_id": "https://openalex.org/A5101484037",
+          "affiliations": [
+            {
+              "name": "New York University",
+              "ror_id": "https://ror.org/0190ak572",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": [
+            "Zeming Lin"
+          ]
+        },
+        {
+          "full_name": "Jason Liu",
+          "orcid": "0000-0001-7197-7319",
+          "authenticated_orcid": false,
+          "openalex_author_id": "https://openalex.org/A5101968034",
+          "affiliations": [
+            {
+              "name": "Meta (United States)",
+              "ror_id": "https://ror.org/01zbnvs85",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": [
+            "Jason Liu"
+          ]
+        },
+        {
+          "full_name": "Jerry Ma",
+          "orcid": "0000-0003-4853-0724",
+          "authenticated_orcid": false,
+          "openalex_author_id": "https://openalex.org/A5101481224",
+          "affiliations": [
+            {
+              "name": "University of Chicago",
+              "ror_id": "https://ror.org/024mw5h28",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Yale University",
+              "ror_id": "https://ror.org/03v76x132",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex",
+            "openaire"
+          ],
+          "name_variants": [
+            "Jerry Ma"
+          ]
+        },
+        {
+          "given": "Joshua",
+          "family": "Meier",
+          "full_name": "Joshua Meier",
+          "authenticated_orcid": false,
+          "sequence": "additional",
+          "affiliations": [
+            {
+              "name": "Facebook AI Research, New York, NY 10003;",
+              "source": "crossref"
+            },
+            {
+              "name": "Facebook AI Research, New York, NY 10003.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "crossref",
+            "europe_pmc"
+          ],
+          "name_variants": [
+            "Meier J"
+          ]
+        },
+        {
+          "given": "Siddharth",
+          "family": "Goyal",
+          "full_name": "Siddharth Goyal",
+          "authenticated_orcid": false,
+          "sequence": "additional",
+          "affiliations": [
+            {
+              "name": "Facebook AI Research, New York, NY 10003;",
+              "source": "crossref"
+            },
+            {
+              "name": "Facebook AI Research, New York, NY 10003.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "crossref",
+            "europe_pmc"
+          ],
+          "name_variants": [
+            "Goyal S"
+          ]
+        },
+        {
+          "given": "Zeming",
+          "family": "Lin",
+          "full_name": "Zeming Lin",
+          "authenticated_orcid": false,
+          "sequence": "additional",
+          "affiliations": [
+            {
+              "name": "Department of Computer Science, New York University, New York, NY 10012;",
+              "source": "crossref"
+            },
+            {
+              "name": "Department of Computer Science, New York University, New York, NY 10012.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "crossref",
+            "europe_pmc"
+          ],
+          "name_variants": [
+            "Lin Z"
+          ]
+        },
+        {
+          "given": "Jason",
+          "family": "Liu",
+          "full_name": "Jason Liu",
+          "authenticated_orcid": false,
+          "sequence": "additional",
+          "affiliations": [
+            {
+              "name": "Facebook AI Research, New York, NY 10003;",
+              "source": "crossref"
+            },
+            {
+              "name": "Facebook AI Research, New York, NY 10003.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "crossref",
+            "europe_pmc"
+          ],
+          "name_variants": [
+            "Liu J"
+          ]
+        },
+        {
+          "given": "Demi",
+          "family": "Guo",
+          "full_name": "Demi Guo",
+          "authenticated_orcid": false,
+          "sequence": "additional",
+          "affiliations": [
+            {
+              "name": "Harvard University, Cambridge, MA 02138;",
+              "source": "crossref"
+            },
+            {
+              "name": "Harvard University, Cambridge, MA 02138.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "crossref",
+            "europe_pmc"
+          ],
+          "name_variants": [
+            "Guo D"
+          ]
+        },
+        {
+          "given": "Myle",
+          "family": "Ott",
+          "full_name": "Myle Ott",
+          "authenticated_orcid": false,
+          "sequence": "additional",
+          "affiliations": [
+            {
+              "name": "Facebook AI Research, New York, NY 10003;",
+              "source": "crossref"
+            },
+            {
+              "name": "Facebook AI Research, New York, NY 10003.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "crossref",
+            "europe_pmc"
+          ],
+          "name_variants": [
+            "Ott M"
+          ]
+        },
+        {
+          "given": "C. Lawrence",
+          "family": "Zitnick",
+          "full_name": "C. Lawrence Zitnick",
+          "authenticated_orcid": false,
+          "sequence": "additional",
+          "affiliations": [
+            {
+              "name": "Facebook AI Research, New York, NY 10003;",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Jerry",
+          "family": "Ma",
+          "full_name": "Jerry Ma",
+          "authenticated_orcid": false,
+          "sequence": "additional",
+          "affiliations": [
+            {
+              "name": "Booth School of Business, University of Chicago, Chicago, IL 60637;",
+              "source": "crossref"
+            },
+            {
+              "name": "Yale Law School, New Haven, CT 06511",
+              "source": "crossref"
+            },
+            {
+              "name": "Booth School of Business, University of Chicago, Chicago, IL 60637.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Yale Law School, New Haven, CT 06511.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "crossref",
+            "europe_pmc"
+          ],
+          "name_variants": [
+            "Ma J"
+          ]
+        },
+        {
+          "given": "Rob",
+          "family": "Fergus",
+          "full_name": "Rob Fergus",
+          "authenticated_orcid": false,
+          "sequence": "additional",
+          "affiliations": [
+            {
+              "name": "Department of Computer Science, New York University, New York, NY 10012;",
+              "source": "crossref"
+            },
+            {
+              "name": "Department of Computer Science, New York University, New York, NY 10012.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "crossref",
+            "europe_pmc"
+          ],
+          "name_variants": [
+            "Fergus R"
+          ]
+        },
+        {
+          "full_name": "Siddharth Goyal",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5109633499",
+          "affiliations": [
+            {
+              "name": "Meta (United States)",
+              "ror_id": "https://ror.org/01zbnvs85",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Demi Guo",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5049260750",
+          "affiliations": [
+            {
+              "name": "Harvard University Press",
+              "ror_id": "https://ror.org/006v7bf86",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Myle Ott",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5076248976",
+          "affiliations": [
+            {
+              "name": "Meta (United States)",
+              "ror_id": "https://ror.org/01zbnvs85",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "C. Lawrence Zitnick",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5058450549",
+          "affiliations": [
+            {
+              "name": "Meta (United States)",
+              "ror_id": "https://ror.org/01zbnvs85",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Rob Fergus",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5089960673",
+          "affiliations": [
+            {
+              "name": "New York University",
+              "ror_id": "https://ror.org/0190ak572",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "C Lawrence",
+          "family": "Zitnick",
+          "full_name": "Zitnick CL",
+          "authenticated_orcid": false,
+          "affiliations": [
+            {
+              "name": "Facebook AI Research, New York, NY 10003.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Alexander Rives",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Joshua Meier",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Siddharth Goyal",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Zeming Lin",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Jason Liu",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Demi Guo",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Myle Ott",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "C. Lawrence Zitnick",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Rob Fergus",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ],
+          "name_variants": []
+        }
+      ],
+      "total_authors": 41,
+      "authors_with_orcid": 6,
+      "authors_with_authenticated_orcid": 0,
+      "unique_institutions": [
+        "Booth School of Business, University of Chicago, Chicago, IL 60637.",
+        "Booth School of Business, University of Chicago, Chicago, IL 60637;",
+        "Department of Computer Science, New York University, New York, NY 10012.",
+        "Department of Computer Science, New York University, New York, NY 10012;",
+        "Facebook AI Research, New York, NY 10003.",
+        "Facebook AI Research, New York, NY 10003;",
+        "Facebook AI Research, New York, NY 10003; arives@cs.nyu.edu.",
+        "Harvard University Press",
+        "Harvard University, Cambridge, MA 02138.",
+        "Harvard University, Cambridge, MA 02138;",
+        "Meta (United States)",
+        "New York University",
+        "University of Chicago",
+        "Yale Law School, New Haven, CT 06511",
+        "Yale Law School, New Haven, CT 06511.",
+        "Yale University"
+      ],
+      "unique_countries": [
+        "US"
+      ],
+      "orcid_coverage": 0.146,
+      "author_count_by_source": {
+        "crossref": 11,
+        "openalex": 11,
+        "unpaywall": 11,
+        "europe_pmc": 11,
+        "openaire": 11,
+        "orcid": 1
+      },
+      "narrative": "41 unique authors across 6 sources. 6 have ORCID (14% coverage). 16 institutions. Spanning 1 countries (US). Author count varies: 1\u201311 across sources. 11 authors confirmed by multiple sources."
+    },
+    "grant_siblings": {
+      "doi": "10.1073/pnas.2016239118",
+      "grants_with_siblings": [
+        {
+          "grant_id": "1339362",
+          "agency": "National Science Foundation",
+          "title": "NutriNet: A Network Inspired Approach to Improving Nutrient Use Efficiency (NUE) in Crop Plants",
+          "pi_names": [],
+          "sibling_pmid_count": 0,
+          "sibling_pmids": [],
+          "openaire_project_id": "nsf_________::868e4719764c370a4d4d830d7a031329",
+          "sources": [
+            "openaire",
+            "europe_pmc"
+          ]
+        }
+      ],
+      "total_sibling_pmids": 0,
+      "unique_sibling_pmids": 0,
+      "most_prolific_count": 0,
+      "multi_grant_pmids": 0,
+      "narrative": "1 grants identified but no sibling publication data available. 1 grants confirmed by multiple sources."
+    },
+    "oa_audit": {
+      "doi": "10.1073/pnas.2016239118",
+      "source_claims": [
+        {
+          "source": "openalex",
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "best_url": "https://www.pnas.org/content/pnas/118/15/e2016239118.full.pdf",
+          "version": "publishedVersion",
+          "license": "cc-by-nc-nd",
+          "host_type": "journal"
+        },
+        {
+          "source": "unpaywall",
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "best_url": "https://www.pnas.org/content/pnas/118/15/e2016239118.full.pdf",
+          "version": "publishedVersion",
+          "license": "cc-by-nc-nd",
+          "host_type": "publisher",
+          "evidence": "deprecated"
+        },
+        {
+          "source": "europe_pmc",
+          "is_oa": true,
+          "host_type": "Unpaywall"
+        },
+        {
+          "source": "openaire",
+          "oa_status": "hybrid",
+          "version": "Article"
+        }
+      ],
+      "consensus_is_oa": true,
+      "consensus_status": "hybrid",
+      "status_agrees": true,
+      "all_locations": [
+        {
+          "url": "http://www.pnas.org/syndication/doi/10.1073/pnas.2016239118",
+          "host_type": "publisher",
+          "is_best": false,
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "url": "https://pnas.org/doi/pdf/10.1073/pnas.2016239118",
+          "host_type": "publisher",
+          "is_best": false,
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "url": "https://doi.org/10.1073/pnas.2016239118",
+          "pdf_url": "https://www.pnas.org/content/pnas/118/15/e2016239118.full.pdf",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by-nc-nd",
+          "repository": "https://openalex.org/P4310320052",
+          "is_best": true,
+          "sources": [
+            "openalex",
+            "openaire"
+          ]
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33876751",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "repository": "https://openalex.org/I1299303238",
+          "is_best": false,
+          "sources": [
+            "openalex",
+            "openaire"
+          ]
+        },
+        {
+          "url": "http://knowledge.uchicago.edu/record/9666",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by-nc-nd",
+          "repository": "https://openalex.org/I40347166",
+          "is_best": false,
+          "sources": [
+            "openalex",
+            "unpaywall"
+          ]
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/8053943",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "repository": "https://openalex.org/I1299303238",
+          "is_best": false,
+          "sources": [
+            "openalex",
+            "unpaywall"
+          ]
+        },
+        {
+          "url": "https://www.pnas.org/content/pnas/118/15/e2016239118.full.pdf",
+          "pdf_url": "https://www.pnas.org/content/pnas/118/15/e2016239118.full.pdf",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by-nc-nd",
+          "is_best": true,
+          "evidence": "deprecated",
+          "sources": [
+            "unpaywall",
+            "europe_pmc",
+            "openaire"
+          ]
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC8053943",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC8053943?pdf=render",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "url": "https://doi.org/10.1101/622803",
+          "version": "Article",
+          "is_best": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "url": "http://dx.doi.org/10.1073/pnas.2016239118",
+          "version": "Other literature type",
+          "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/This open access article is distributed under Creative Commons Attribution-NonCommercial-NoDerivatives License 4.0 (CC BY-NC-ND) (http://creativecommons.org/licenses/by-nc-nd/4.0/) .",
+          "is_best": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "url": "https://dx.doi.org/10.1073/pnas.2016239118",
+          "version": "Article",
+          "is_best": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "url": "https://dx.doi.org/10.1101/622803",
+          "version": "Other literature type",
+          "is_best": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "url": "http://dx.doi.org/10.1101/622803",
+          "version": "Preprint",
+          "is_best": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "url": "https://doi.org/https://doi.org/10.1073/pnas.2016239118",
+          "version": "Article",
+          "is_best": false,
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "total_locations": 15,
+      "has_publisher_version": true,
+      "has_accepted_manuscript": false,
+      "has_repository_copy": true,
+      "licenses_found": [
+        "CC BY NC ND",
+        "cc-by-nc-nd",
+        "http://creativecommons.org/licenses/by-nc-nd/4.0/This open access article is distributed under Creative Commons Attribution-NonCommercial-NoDerivatives License 4.0 (CC BY-NC-ND) (http://creativecommons.org/licenses/by-nc-nd/4.0/) .",
+        "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "other-oa"
+      ],
+      "status_conflict": false,
+      "conflicting_statuses": {},
+      "narrative": "Open Access (hybrid). 15 unique OA locations found. Publisher version available. Repository copy available. 5 locations confirmed by multiple sources. Licenses: CC BY NC ND, cc-by-nc-nd, http://creativecommons.org/licenses/by-nc-nd/4.0/This open access article is distributed under Creative Commons Attribution-NonCommercial-NoDerivatives License 4.0 (CC BY-NC-ND) (http://creativecommons.org/licenses/by-nc-nd/4.0/) ., https://creativecommons.org/licenses/by-nc-nd/4.0/, other-oa."
+    },
+    "topics": {
+      "doi": "10.1073/pnas.2016239118",
+      "fields_of_study": [
+        {
+          "value": "Machine Learning in Bioinformatics",
+          "scheme": "openalex_topic",
+          "score": 0.9994999766349792,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Protein Structure and Dynamics",
+          "scheme": "openalex_topic",
+          "score": 0.9991999864578247,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "RNA and protein synthesis mechanisms",
+          "scheme": "openalex_topic",
+          "score": 0.9966999888420105,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "0301 basic medicine",
+          "scheme": "FOS",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "value": "03 medical and health sciences",
+          "scheme": "FOS",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "value": "0206 medical engineering",
+          "scheme": "FOS",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "value": "02 engineering and technology",
+          "scheme": "FOS",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "value": "Artificial intelligence",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Generative grammar",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Generative model",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Unsupervised learning",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Computer science",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Machine learning",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Protein secondary structure",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Biology",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Synthetic Biology",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "value": "Representation Learning",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "value": "Deep Learning",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "value": "Generative Biology",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "value": "Protein Language Model",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "value": "Sequence Homology, Amino Acid",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "value": "Protein Conformation",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "value": "Sequence Analysis, Protein",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "value": "Biological Sciences",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "value": "Amino Acids",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "value": "Unsupervised Machine Learning",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor": "Unsupervised Machine Learning",
+          "descriptor_ui": "D000069558",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Unsupervised Machine Learning",
+          "descriptor_ui": "D000069558",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Unsupervised Machine Learning",
+          "descriptor_ui": "D000069558",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Amino Acids",
+          "descriptor_ui": "D000596",
+          "qualifier": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Amino Acids",
+          "descriptor_ui": "D000596",
+          "qualifier": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Amino Acids",
+          "descriptor_ui": "D000596",
+          "qualifier": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Protein Conformation",
+          "descriptor_ui": "D011487",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Protein Conformation",
+          "descriptor_ui": "D011487",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Protein Conformation",
+          "descriptor_ui": "D011487",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Sequence Homology, Amino Acid",
+          "descriptor_ui": "D017386",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Sequence Homology, Amino Acid",
+          "descriptor_ui": "D017386",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Sequence Homology, Amino Acid",
+          "descriptor_ui": "D017386",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Sequence Analysis, Protein",
+          "descriptor_ui": "D020539",
+          "qualifier": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Sequence Analysis, Protein",
+          "descriptor_ui": "D020539",
+          "qualifier": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Sequence Analysis, Protein",
+          "descriptor_ui": "D020539",
+          "qualifier": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Amino Acids",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Amino Acids",
+          "qualifier": "chemistry",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Sequence Analysis, Protein",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Sequence Analysis, Protein",
+          "qualifier": "methods",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Protein Conformation",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Sequence Homology, Amino Acid",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Unsupervised Machine Learning",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        }
+      ],
+      "sdg_mappings": [
+        {
+          "sdg_label": "Quality Education",
+          "score": 0.5799999833106995,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "openalex_concepts": [
+        {
+          "value": "Artificial intelligence",
+          "scheme": "openalex_concept",
+          "score": 0.6409164071083069,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Machine learning",
+          "scheme": "openalex_concept",
+          "score": 0.47371500730514526,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Biochemistry",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Generative grammar",
+          "scheme": "openalex_concept",
+          "score": 0.545437753200531,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Unsupervised learning",
+          "scheme": "openalex_concept",
+          "score": 0.5140217542648315,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Protein secondary structure",
+          "scheme": "openalex_concept",
+          "score": 0.4280596971511841,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Generative model",
+          "scheme": "openalex_concept",
+          "score": 0.5281438827514648,
+          "level": 3,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.49223676323890686,
+          "level": 0,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Biology",
+          "scheme": "openalex_concept",
+          "score": 0.21848905086517334,
+          "level": 0,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "s2_fields": [],
+      "asjc_subjects": [],
+      "all_topics_flat": [
+        "02 engineering and technology",
+        "0206 medical engineering",
+        "03 medical and health sciences",
+        "0301 basic medicine",
+        "Amino Acids",
+        "Artificial intelligence",
+        "Biochemistry",
+        "Biological Sciences",
+        "Biology",
+        "Computer science",
+        "Deep Learning",
+        "Generative Biology",
+        "Generative grammar",
+        "Generative model",
+        "Machine Learning in Bioinformatics",
+        "Machine learning",
+        "Protein Conformation",
+        "Protein Language Model",
+        "Protein Structure and Dynamics",
+        "Protein secondary structure",
+        "RNA and protein synthesis mechanisms",
+        "Representation Learning",
+        "Sequence Analysis, Protein",
+        "Sequence Homology, Amino Acid",
+        "Synthetic Biology",
+        "Unsupervised Machine Learning",
+        "Unsupervised learning"
+      ],
+      "vocabulary_count": 6,
+      "topics_by_vocabulary": {
+        "openalex_topic": 1,
+        "OpenAlex_Concepts": 1,
+        "SDG": 1,
+        "Keywords": 3,
+        "MeSH": 22,
+        "FOS": 1
+      },
+      "narrative": "Classified in 6 vocabularies. Fields of study: Machine Learning in Bioinformatics, Protein Structure and Dynamics, RNA and protein synthesis mechanisms. Major MeSH terms: Unsupervised Machine Learning, Unsupervised Machine Learning, Unsupervised Machine Learning. SDG alignment: Quality Education. Broad concepts: Artificial intelligence, Machine learning, Biochemistry. 19 unique keywords."
+    }
+  },
+  "discrepancy_report": {
+    "doi": "10.1073/pnas.2016239118",
+    "sources_queried": 11,
+    "sources_found": 8,
+    "sources_not_found": 5,
+    "sources_errored": 0,
+    "total_discrepancies": 7,
+    "high_risk_count": 1,
+    "medium_risk_count": 1,
+    "low_risk_count": 5,
+    "data_completeness_score": 1.0,
+    "source_coverage": [
+      {
+        "source": "crossref",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": false,
+        "has_funding": true,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "datacite",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "openalex",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": false,
+        "has_subjects": true,
+        "has_related_works": false
+      },
+      {
+        "source": "semantic_scholar",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "unpaywall",
+        "found": true,
+        "has_title": true,
+        "has_citations": false,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "europe_pmc",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": true,
+        "has_subjects": true,
+        "has_related_works": false
+      },
+      {
+        "source": "openaire",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": true,
+        "has_subjects": true,
+        "has_related_works": false
+      },
+      {
+        "source": "nih_reporter",
+        "found": true,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "zenodo",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "dryad",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "orcid",
+        "found": true,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": true,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "entrez",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "europe_pmc_annotations",
+        "found": true,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      }
+    ],
+    "scalar_discrepancies": [
+      {
+        "field": "publication_year",
+        "values": {
+          "crossref": 2021,
+          "openalex": 2021,
+          "unpaywall": 2021,
+          "europe_pmc": 2021,
+          "openaire": 2019
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article",
+          "openaire": "publication"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Proceedings of the National Academy of Sciences",
+          "openalex": "https://openalex.org/P4310320052",
+          "unpaywall": "Proceedings of the National Academy of Sciences",
+          "openaire": "Cold Spring Harbor Laboratory"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Proceedings of the National Academy of Sciences",
+          "openalex": "Proceedings of the National Academy of Sciences",
+          "unpaywall": "Proceedings of the National Academy of Sciences",
+          "europe_pmc": "Proceedings of the National Academy of Sciences of the United States of America"
+        },
+        "risk": "low"
+      }
+    ],
+    "citations": {
+      "counts_by_source": {
+        "crossref": 2484,
+        "openalex": 2767,
+        "europe_pmc": 1851,
+        "openaire": 2281
+      },
+      "min_count": 1851,
+      "max_count": 2767,
+      "median_count": 2382,
+      "spread": 916,
+      "spread_pct": 33.1,
+      "divergence_level": "medium",
+      "outlier_sources": []
+    },
+    "oa_status": {
+      "is_oa_by_source": {
+        "openalex": true,
+        "unpaywall": true,
+        "europe_pmc": true
+      },
+      "status_by_source": {
+        "openalex": "hybrid",
+        "unpaywall": "hybrid",
+        "openaire": "hybrid"
+      },
+      "is_oa_agrees": true,
+      "status_agrees": true,
+      "consensus_is_oa": true,
+      "consensus_status": "hybrid",
+      "unique_oa_urls": 15,
+      "sources_only_in": {
+        "crossref": [
+          "http://www.pnas.org/syndication/doi/10.1073/pnas.2016239118",
+          "https://pnas.org/doi/pdf/10.1073/pnas.2016239118"
+        ],
+        "europe_pmc": [
+          "https://europepmc.org/articles/PMC8053943",
+          "https://europepmc.org/articles/PMC8053943?pdf=render"
+        ],
+        "openaire": [
+          "https://doi.org/10.1101/622803",
+          "http://dx.doi.org/10.1073/pnas.2016239118",
+          "https://dx.doi.org/10.1073/pnas.2016239118",
+          "https://dx.doi.org/10.1101/622803",
+          "http://dx.doi.org/10.1101/622803",
+          "https://doi.org/https://doi.org/10.1073/pnas.2016239118"
+        ]
+      }
+    },
+    "authors": {
+      "count_by_source": {
+        "crossref": 11,
+        "openalex": 11,
+        "unpaywall": 11,
+        "europe_pmc": 11,
+        "openaire": 11,
+        "orcid": 1
+      },
+      "count_agrees": false,
+      "min_count": 1,
+      "max_count": 11,
+      "orcid_coverage": 0.146,
+      "sources_missing_orcids": [
+        "unpaywall"
+      ],
+      "name_variant_examples": [
+        "Alexander Rives / Rives A",
+        "Sercu T / Tom Sercu"
+      ]
+    },
+    "funding": {
+      "grant_count_by_source": {
+        "crossref": 1,
+        "europe_pmc": 1,
+        "openaire": 2
+      },
+      "total_unique_grants": 1,
+      "grants_single_source": 0,
+      "grants_multi_source": 1,
+      "sources_with_no_funding": [
+        "openalex",
+        "unpaywall",
+        "nih_reporter",
+        "orcid",
+        "europe_pmc_annotations"
+      ],
+      "sources_with_funding": [
+        "crossref",
+        "europe_pmc",
+        "openaire"
+      ]
+    },
+    "references": {
+      "count_by_source": {
+        "crossref": 80,
+        "openalex": 92
+      },
+      "count_agrees": false,
+      "min_count": 80,
+      "max_count": 92
+    },
+    "topics": {
+      "vocabulary_count": 6,
+      "topics_by_source": {
+        "openalex": 36,
+        "europe_pmc": 12,
+        "openaire": 10
+      },
+      "multi_source_topics": 0,
+      "single_source_topics": 26
+    },
+    "related_works": {
+      "related_count_by_source": {},
+      "datacite_reverse_count": 25,
+      "software_links": 0,
+      "data_links": 0,
+      "has_version_chain": false
+    },
+    "narrative": "8 of 13 sources returned data. Data completeness: 100% of key fields have 2+ source coverage. CITATIONS: 1,851\u20132,767 across 4 sources (medium divergence, 33% spread). 10 OA URLs found by only one source. AUTHOR COUNT VARIES: 1\u201311 (crossref: 11, openalex: 11, unpaywall: 11, europe_pmc: 11, openaire: 11, orcid: 1). Name variants detected: Alexander Rives / Rives A; Sercu T / Tom Sercu. FUNDING: 1 unique grants \u2014 1 confirmed by multiple sources, 0 from single source only. REFERENCES: 80\u201392 across sources. PUBLICATION_YEAR DIFFERS: crossref: 2021, openalex: 2021, unpaywall: 2021, europe_pmc: 2021, openaire: 2019. WORK_TYPE DIFFERS: crossref: journal-article, openalex: article, unpaywall: journal-article, openaire: publication. PUBLISHER DIFFERS: crossref: Proceedings of the National Academy of Sciences, openalex: https://openalex.org/P4310320052, unpaywall: Proceedings of the National Academy of Sciences, openaire: Cold Spring Harbor Laboratory. CONTAINER_TITLE DIFFERS: crossref: Proceedings of the National Academy of Sciences, openalex: Proceedings of the National Academy of Sciences, unpaywall: Proceedings of the National Academy of Sciences, europe_pmc: Proceedings of the National Academy of Sciences of the United States of America. Total: 7 discrepancies (1 high, 1 medium, 5 low risk)."
+  },
+  "_benchmark": {
+    "doi": "10.1073/pnas.2016239118",
+    "fetched_at": "2026-02-11T13:18:30.355095+00:00"
+  }
+}

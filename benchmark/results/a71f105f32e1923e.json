@@ -1,0 +1,2480 @@
+{
+  "doi": "10.1145/3326362",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T16:13:03.669450Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "Dynamic Graph CNN for Learning on Point Clouds",
+      "abstract": "<jats:p>\n            Point clouds provide a flexible geometric representation suitable for countless applications in computer graphics; they also comprise the raw output of most 3D data acquisition devices. While hand-designed features on point clouds have long been proposed in graphics and vision, however, the recent overwhelming success of convolutional neural networks (CNNs) for image analysis suggests the value of adapting insight from CNN to the point cloud world. Point clouds inherently lack topological information, so designing a model to recover topology can enrich the representation power of point clouds. To this end, we propose a new neural network module dubbed\n            <jats:italic>EdgeConv</jats:italic>\n            suitable for CNN-based high-level tasks on point clouds, including classification and segmentation. EdgeConv acts on graphs dynamically computed in each layer of the network. It is differentiable and can be plugged into existing architectures. Compared to existing modules operating in extrinsic space or treating each point independently, EdgeConv has several appealing properties: It incorporates local neighborhood information; it can be stacked applied to learn global shape properties; and in multi-layer systems affinity in feature space captures semantic characteristics over potentially long distances in the original embedding. We show the performance of our model on standard benchmarks, including ModelNet40, ShapeNetPart, and S3DIS.\n          </jats:p>",
+      "publication_date": "2019-10-10",
+      "publication_year": 2019,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "container_title": "ACM Transactions on Graphics",
+      "volume": "38",
+      "issue": "5",
+      "pages": "1-12",
+      "issn": [
+        "0730-0301",
+        "1557-7368"
+      ],
+      "doi": "10.1145/3326362",
+      "authors": [
+        {
+          "name": {
+            "given": "Yue",
+            "family": "Wang",
+            "full_name": "Yue Wang",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Massachusetts Institute of Technology",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Yongbin",
+            "family": "Sun",
+            "full_name": "Yongbin Sun",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Massachusetts Institute of Technology",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ziwei",
+            "family": "Liu",
+            "full_name": "Ziwei Liu",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "UC Berkeley/ICSI",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sanjay E.",
+            "family": "Sarma",
+            "full_name": "Sanjay E. Sarma",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Massachusetts Institute of Technology",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michael M.",
+            "family": "Bronstein",
+            "full_name": "Michael M. Bronstein",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Imperial College London/USI Lugano",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Justin M.",
+            "family": "Solomon",
+            "full_name": "Justin M. Solomon",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Massachusetts Institute of Technology",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 4526,
+      "reference_count": 78,
+      "references": [
+        {
+          "doi": "10.1109/CVPR.2016.170",
+          "key": "e_1_2_1_1_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1145/3197517.3201301",
+          "key": "e_1_2_1_2_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/ICCVW.2011.6130444",
+          "key": "e_1_2_1_3_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2001,
+          "author": "Belongie Serge",
+          "unstructured": "Serge Belongie , Jitendra Malik , and Jan Puzicha . 2001 . Shape context: A new descriptor for shape matching and object recognition . In Proceedings of the NIPS. Serge Belongie, Jitendra Malik, and Jan Puzicha. 2001. Shape context: A new descriptor for shape matching and object recognition. In Proceedings of the NIPS.",
+          "key": "e_1_2_1_4_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/cgf.12734",
+          "key": "e_1_2_1_5_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2016,
+          "author": "Boscaini Davide",
+          "unstructured": "Davide Boscaini , Jonathan Masci , Emanuele Rodol\u00e0 , and Michael Bronstein . 2016 . Learning shape correspondence with anisotropic convolutional neural networks . In Proceedings of the NIPS. Davide Boscaini, Jonathan Masci, Emanuele Rodol\u00e0, and Michael Bronstein. 2016. Learning shape correspondence with anisotropic convolutional neural networks. In Proceedings of the NIPS.",
+          "key": "e_1_2_1_6_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2016,
+          "author": "Brock Andrew",
+          "unstructured": "Andrew Brock , Theodore Lim , James Millar Ritchie, and Nicholas J. Weston . 2016 . Generative and discriminative voxel modeling with convolutional neural networks. In Proceedings of the NIPS. Andrew Brock, Theodore Lim, James Millar Ritchie, and Nicholas J. Weston. 2016. Generative and discriminative voxel modeling with convolutional neural networks. In Proceedings of the NIPS.",
+          "key": "e_1_2_1_7_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/MSP.2017.2693418",
+          "key": "e_1_2_1_8_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2010,
+          "author": "Michael",
+          "unstructured": "Michael M. Bronstein and Iasonas Kokkinos . 2010 . Scale-invariant heat kernel signatures for non-rigid shape recognition. In Proceedings of the CVPR. Michael M. Bronstein and Iasonas Kokkinos. 2010. Scale-invariant heat kernel signatures for non-rigid shape recognition. In Proceedings of the CVPR.",
+          "key": "e_1_2_1_9_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2013,
+          "author": "Bruna Joan",
+          "unstructured": "Joan Bruna , Wojciech Zaremba , Arthur Szlam , and Yann LeCun . 2013. Spectral networks and locally connected networks on graphs. arXiv:1312.6203 ( 2013 ). Joan Bruna, Wojciech Zaremba, Arthur Szlam, and Yann LeCun. 2013. Spectral networks and locally connected networks on graphs. arXiv:1312.6203 (2013).",
+          "key": "e_1_2_1_10_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2015,
+          "author": "Chang Angel X.",
+          "unstructured": "Angel X. Chang , Thomas Funkhouser , Leonidas Guibas , Pat Hanrahan , Qixing Huang , Zimo Li , Silvio Savarese , Manolis Savva , Shuran Song , Hao Su et al . 2015 . Shapenet : An information-rich 3D model repository. arXiv:1512.03012 (2015). Angel X. Chang, Thomas Funkhouser, Leonidas Guibas, Pat Hanrahan, Qixing Huang, Zimo Li, Silvio Savarese, Manolis Savva, Shuran Song, Hao Su et al. 2015. Shapenet: An information-rich 3D model repository. arXiv:1512.03012 (2015).",
+          "key": "e_1_2_1_11_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2016,
+          "author": "Defferrard Micha\u00ebl",
+          "unstructured": "Micha\u00ebl Defferrard , Xavier Bresson , and Pierre Vandergheynst . 2016 . Convolutional neural networks on graphs with fast localized spectral filtering . In Proceedings of the NIPS. Micha\u00ebl Defferrard, Xavier Bresson, and Pierre Vandergheynst. 2016. Convolutional neural networks on graphs with fast localized spectral filtering. In Proceedings of the NIPS.",
+          "key": "e_1_2_1_12_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/ICCVW.2017.90",
+          "key": "e_1_2_1_13_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/cgf.13244",
+          "key": "e_1_2_1_14_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2017,
+          "author": "Fan Haoqiang",
+          "unstructured": "Haoqiang Fan , Hao Su , and Leonidas J . Guibas . 2017 . A point set generation network for 3D object reconstruction from a single image. In Proceedings of the CVPR. Haoqiang Fan, Hao Su, and Leonidas J. Guibas. 2017. A point set generation network for 3D object reconstruction from a single image. In Proceedings of the CVPR.",
+          "key": "e_1_2_1_15_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/CVPR.2018.00097",
+          "key": "e_1_2_1_16_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2017,
+          "author": "Gilmer Justin",
+          "unstructured": "Justin Gilmer , Samuel S. Schoenholz , Patrick F. Riley , Oriol Vinyals , and George E . Dahl . 2017 . Neural message passing for quantum chemistry. arXiv:1704.01212 (2017). Justin Gilmer, Samuel S. Schoenholz, Patrick F. Riley, Oriol Vinyals, and George E. Dahl. 2017. Neural message passing for quantum chemistry. arXiv:1704.01212 (2017).",
+          "key": "e_1_2_1_17_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/ICCV.2009.5459471",
+          "key": "e_1_2_1_18_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2014,
+          "author": "Goodfellow Ian",
+          "unstructured": "Ian Goodfellow , Jean Pouget-Abadie , Mehdi Mirza , Bing Xu , David Warde-Farley , Sherjil Ozair , Aaron Courville , and Yoshua Bengio . 2014 . Generative adversarial nets . In Proceedings of the NIPS. Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, and Yoshua Bengio. 2014. Generative adversarial nets. In Proceedings of the NIPS.",
+          "key": "e_1_2_1_19_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/cgf.13343",
+          "key": "e_1_2_1_20_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/TPAMI.2014.2316828",
+          "key": "e_1_2_1_21_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2018,
+          "author": "Halimi Oshri",
+          "unstructured": "Oshri Halimi , Or Litany , Emanuele Rodol\u00e0 , Alex Bronstein , and Ron Kimmel . 2018. Self-supervised learning of dense shape correspondence. arXiv:1812.02415 ( 2018 ). Oshri Halimi, Or Litany, Emanuele Rodol\u00e0, Alex Bronstein, and Ron Kimmel. 2018. Self-supervised learning of dense shape correspondence. arXiv:1812.02415 (2018).",
+          "key": "e_1_2_1_22_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2015,
+          "author": "Henaff M.",
+          "unstructured": "M. Henaff , J. Bruna , and Y. LeCun . 2015. Deep convolutional networks on graph-structured data. arXiv:1506.05163 ( 2015 ). M. Henaff, J. Bruna, and Y. LeCun. 2015. Deep convolutional networks on graph-structured data. arXiv:1506.05163 (2015).",
+          "key": "e_1_2_1_23_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/34.765655",
+          "key": "e_1_2_1_24_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2013,
+          "author": "Diederik",
+          "unstructured": "Diederik P. Kingma and Max Welling . 2013 . Auto-encoding variational bayes. arXiv:1312.6114 (2013). Diederik P. Kingma and Max Welling. 2013. Auto-encoding variational bayes. arXiv:1312.6114 (2013).",
+          "key": "e_1_2_1_25_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "Thomas",
+          "unstructured": "Thomas N. Kipf and Max Welling. 2017. Semi-Supervised classification with graph convolutional networks . International Conference on Learning Representations (ICLR). Thomas N. Kipf and Max Welling. 2017. Semi-Supervised classification with graph convolutional networks. International Conference on Learning Representations (ICLR).",
+          "key": "e_1_2_1_26_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/ICCV.2017.99",
+          "unstructured": "Roman Klokov and Victor Lempitsky. 2017. Escape from cells: Deep Kd-networks for the recognition of 3D point cloud models. (2017).  Roman Klokov and Victor Lempitsky. 2017. Escape from cells: Deep Kd-networks for the recognition of 3D point cloud models. (2017).",
+          "key": "e_1_2_1_27_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2017,
+          "author": "Kostrikov Ilya",
+          "unstructured": "Ilya Kostrikov , Zhongshi Jiang , Daniele Panozzo , Denis Zorin , and Joan Bruna . 2017 . Surface networks . In Proceedings of the CVPR. Ilya Kostrikov, Zhongshi Jiang, Daniele Panozzo, Denis Zorin, and Joan Bruna. 2017. Surface networks. In Proceedings of the CVPR.",
+          "key": "e_1_2_1_28_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2012,
+          "author": "Krizhevsky Alex",
+          "unstructured": "Alex Krizhevsky , Ilya Sutskever , and Geoffrey E . Hinton . 2012 . Imagenet classification with deep convolutional neural networks. In Proceedings of the NIPS. Alex Krizhevsky, Ilya Sutskever, and Geoffrey E. Hinton. 2012. Imagenet classification with deep convolutional neural networks. In Proceedings of the NIPS.",
+          "key": "e_1_2_1_29_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1162/neco.1989.1.4.541",
+          "key": "e_1_2_1_30_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2017,
+          "author": "Levie Ron",
+          "unstructured": "Ron Levie , Federico Monti , Xavier Bresson , and Michael M . Bronstein . 2017 . CayleyNets : Graph convolutional neural networks with complex rational spectral filters. arXiv:1705.07664 (2017). Ron Levie, Federico Monti, Xavier Bresson, and Michael M. Bronstein. 2017. CayleyNets: Graph convolutional neural networks with complex rational spectral filters. arXiv:1705.07664 (2017).",
+          "key": "e_1_2_1_31_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2018,
+          "author": "Li Chun-Liang",
+          "unstructured": "Chun-Liang Li , Manzil Zaheer , Yang Zhang , Barnabas Poczos , and Ruslan Salakhutdinov . 2018b. Point cloud GAN. arXiv:1810.05795 ( 2018 ). Chun-Liang Li, Manzil Zaheer, Yang Zhang, Barnabas Poczos, and Ruslan Salakhutdinov. 2018b. Point cloud GAN. arXiv:1810.05795 (2018).",
+          "key": "e_1_2_1_32_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "Li Yangyan",
+          "unstructured": "Yangyan Li , Rui Bu , Mingchao Sun , Wei Wu , Xinhan Di , and Baoquan Chen . 2018a. PointCNN: Convolution On X-transformed points . In Advances in Neural Information Processing Systems 31 , S. Bengio, H. Wallach, H. Larochelle, K. Grauman, N. Cesa-Bianchi, and R. Garnett (Eds.). Curran Associates, Inc. , 820--830. Retrieved from http://papers.nips.cc/paper/7362-pointcnn-convolution-on-x-transformed-points.pdf. Yangyan Li, Rui Bu, Mingchao Sun, Wei Wu, Xinhan Di, and Baoquan Chen. 2018a. PointCNN: Convolution On X-transformed points. In Advances in Neural Information Processing Systems 31, S. Bengio, H. Wallach, H. Larochelle, K. Grauman, N. Cesa-Bianchi, and R. Garnett (Eds.). Curran Associates, Inc., 820--830. Retrieved from http://papers.nips.cc/paper/7362-pointcnn-convolution-on-x-transformed-points.pdf.",
+          "key": "e_1_2_1_33_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2016,
+          "author": "Li Yujia",
+          "unstructured": "Yujia Li , Daniel Tarlow , Marc Brockschmidt , and Richard Zemel . 2016 . Gated graph sequence neural networks . In Proceedings of the ICLR. Yujia Li, Daniel Tarlow, Marc Brockschmidt, and Richard Zemel. 2016. Gated graph sequence neural networks. In Proceedings of the ICLR.",
+          "key": "e_1_2_1_34_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/978-3-030-01270-0_39",
+          "key": "e_1_2_1_35_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/TPAMI.2007.41",
+          "key": "e_1_2_1_36_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2017,
+          "author": "Litany Or",
+          "unstructured": "Or Litany , Alex Bronstein , Michael Bronstein , and Ameesh Makadia . 2017a. Deformable shape completion with graph convolutional autoencoders. arXiv:1712.00268 ( 2017 ). Or Litany, Alex Bronstein, Michael Bronstein, and Ameesh Makadia. 2017a. Deformable shape completion with graph convolutional autoencoders. arXiv:1712.00268 (2017).",
+          "key": "e_1_2_1_37_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2017,
+          "author": "Litany Or",
+          "unstructured": "Or Litany , Tal Remez , Emanuele Rodol\u00e0 , Alex M. Bronstein , and Michael M . Bronstein . 2017 b. Deep functional maps: Structured prediction for dense shape correspondence. In Proceedings of the ICCV. Or Litany, Tal Remez, Emanuele Rodol\u00e0, Alex M. Bronstein, and Michael M. Bronstein. 2017b. Deep functional maps: Structured prediction for dense shape correspondence. In Proceedings of the ICCV.",
+          "key": "e_1_2_1_38_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "Loshchilov I.",
+          "unstructured": "I. Loshchilov and F. Hutter . 2017. SGDR: Stochastic gradient descent with warm restarts . In Proceedings of the ICLR. I. Loshchilov and F. Hutter. 2017. SGDR: Stochastic gradient descent with warm restarts. In Proceedings of the ICLR.",
+          "key": "e_1_2_1_39_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3390/s141224156",
+          "key": "e_1_2_1_40_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/TPAMI.2006.208",
+          "key": "e_1_2_1_41_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1145/3072959.3073616",
+          "key": "e_1_2_1_42_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/ICCVW.2015.112",
+          "key": "e_1_2_1_43_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/IROS.2015.7353481",
+          "key": "e_1_2_1_44_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "Monti Federico",
+          "unstructured": "Federico Monti , Davide Boscaini , Jonathan Masci , Emanuele Rodol\u00e0 , Jan Svoboda , and Michael M. Bronstein . 2017a. Geometric deep learning on graphs and manifolds using mixture model CNNs . In Proceedings of the CVPR. Federico Monti, Davide Boscaini, Jonathan Masci, Emanuele Rodol\u00e0, Jan Svoboda, and Michael M. Bronstein. 2017a. Geometric deep learning on graphs and manifolds using mixture model CNNs. In Proceedings of the CVPR.",
+          "key": "e_1_2_1_45_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "Monti F.",
+          "unstructured": "F. Monti , M. M. Bronstein , and X. Bresson . 2017b. Geometric matrix completion with recurrent multi-graph neural networks . In Proceedings of the NIPS. F. Monti, M. M. Bronstein, and X. Bresson. 2017b. Geometric matrix completion with recurrent multi-graph neural networks. In Proceedings of the NIPS.",
+          "key": "e_1_2_1_46_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2018,
+          "author": "Monti Federico",
+          "unstructured": "Federico Monti , Karl Otness , and Michael M . Bronstein . 2018 . MotifNet : A motif-based graph convolutional network for directed graphs. arXiv:1802.01572 (2018). Federico Monti, Karl Otness, and Michael M. Bronstein. 2018. MotifNet: A motif-based graph convolutional network for directed graphs. arXiv:1802.01572 (2018).",
+          "key": "e_1_2_1_47_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1145/2185520.2185526",
+          "key": "e_1_2_1_48_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2017,
+          "author": "Qi Charles R.",
+          "unstructured": "Charles R. Qi , Wei Liu , Chenxia Wu , Hao Su , and Leonidas J . Guibas . 2017 a. Frustum PointNets for 3D object detection from RGB-D data. arXiv:1711.08488 (2017). Charles R. Qi, Wei Liu, Chenxia Wu, Hao Su, and Leonidas J. Guibas. 2017a. Frustum PointNets for 3D object detection from RGB-D data. arXiv:1711.08488 (2017).",
+          "key": "e_1_2_1_49_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2017,
+          "author": "Qi Charles R.",
+          "unstructured": "Charles R. Qi , Hao Su , Kaichun Mo , and Leonidas J . Guibas . 2017 b. PointNet: Deep learning on point sets for 3D classification and segmentation. In Proceedings of the CVPR. Charles R. Qi, Hao Su, Kaichun Mo, and Leonidas J. Guibas. 2017b. PointNet: Deep learning on point sets for 3D classification and segmentation. In Proceedings of the CVPR.",
+          "key": "e_1_2_1_50_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2016,
+          "author": "Qi Charles R.",
+          "unstructured": "Charles R. Qi , Hao Su , Matthias Nie\u00dfner , Angela Dai , Mengyuan Yan , and Leonidas J . Guibas . 2016 . Volumetric and multi-view CNNs for object classification on 3D data. In Proceedings of the CVPR. Charles R. Qi, Hao Su, Matthias Nie\u00dfner, Angela Dai, Mengyuan Yan, and Leonidas J. Guibas. 2016. Volumetric and multi-view CNNs for object classification on 3D data. In Proceedings of the CVPR.",
+          "key": "e_1_2_1_51_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2017,
+          "author": "Qi Charles R.",
+          "unstructured": "Charles R. Qi , Li Yi , Hao Su , and Leonidas J . Guibas . 2017 c. PointNet++: Deep hierarchical feature learning on point sets in a metric space. In Proceedings of the NIPS. Charles R. Qi, Li Yi, Hao Su, and Leonidas J. Guibas. 2017c. PointNet++: Deep hierarchical feature learning on point sets in a metric space. In Proceedings of the NIPS.",
+          "key": "e_1_2_1_52_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2018,
+          "author": "Ranjan Anurag",
+          "unstructured": "Anurag Ranjan , Timo Bolkart , Soubhik Sanyal , and Michael J . Black . 2018 . Generating 3D faces using convolutional mesh autoencoders. arXiv:1807.10267 (2018). Anurag Ranjan, Timo Bolkart, Soubhik Sanyal, and Michael J. Black. 2018. Generating 3D faces using convolutional mesh autoencoders. arXiv:1807.10267 (2018).",
+          "key": "e_1_2_1_53_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2007,
+          "author": "Rustamov Raif M.",
+          "unstructured": "Raif M. Rustamov . 2007 . Laplace-beltrami eigenfunctions for deformation invariant shape representation . In Proceedings of the SGP. Raif M. Rustamov. 2007. Laplace-beltrami eigenfunctions for deformation invariant shape representation. In Proceedings of the SGP.",
+          "key": "e_1_2_1_54_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/ROBOT.2009.5152473",
+          "key": "e_1_2_1_55_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/IROS.2008.4650967",
+          "key": "e_1_2_1_56_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.robot.2008.08.005",
+          "key": "e_1_2_1_57_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/TNN.2008.2005605",
+          "key": "e_1_2_1_58_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2013,
+          "author": "Ali Shah Syed Afaq",
+          "unstructured": "Syed Afaq Ali Shah , Mohammed Bennamoun , Farid Boussaid , and Amar A . El-Sallam . 2013 . 3D-Div: A novel local surface descriptor for feature matching and pairwise range image registration. In Proceedings of the ICIP. Syed Afaq Ali Shah, Mohammed Bennamoun, Farid Boussaid, and Amar A. El-Sallam. 2013. 3D-Div: A novel local surface descriptor for feature matching and pairwise range image registration. In Proceedings of the ICIP.",
+          "key": "e_1_2_1_59_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2017,
+          "author": "Shen Yiru",
+          "unstructured": "Yiru Shen , Chen Feng , Yaoqing Yang , and Dong Tian . 2017. Neighbors do help: Deeply exploiting local structures of point clouds. arXiv:1712.06760 ( 2017 ). Yiru Shen, Chen Feng, Yaoqing Yang, and Dong Tian. 2017. Neighbors do help: Deeply exploiting local structures of point clouds. arXiv:1712.06760 (2017).",
+          "key": "e_1_2_1_60_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/MSP.2012.2235192",
+          "key": "e_1_2_1_61_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/CVPR.2017.11",
+          "key": "e_1_2_1_62_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/978-3-319-46466-4_14",
+          "key": "e_1_2_1_63_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/CVPR.2018.00268",
+          "key": "e_1_2_1_64_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/ICCV.2015.114",
+          "key": "e_1_2_1_65_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/j.1467-8659.2009.01515.x",
+          "key": "e_1_2_1_66_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/ICCV.2017.230",
+          "key": "e_1_2_1_67_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/ICIP.2011.6116679",
+          "key": "e_1_2_1_68_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/j.1467-8659.2011.01884.x",
+          "key": "e_1_2_1_69_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Petar Veli\u010dkovi\u0107 Guillem Cucurull Arantxa Casanova Adriana Romero Pietro Li\u00f2 and Yoshua Bengio. 2017. Graph attention networks. arXiv:1710.10903.  Petar Veli\u010dkovi\u0107 Guillem Cucurull Arantxa Casanova Adriana Romero Pietro Li\u00f2 and Yoshua Bengio. 2017. Graph attention networks. arXiv:1710.10903.",
+          "key": "e_1_2_1_70_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/CVPR.2018.00274",
+          "key": "e_1_2_1_71_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/CVPR.2018.00813",
+          "key": "e_1_2_1_72_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/CVPR.2016.171",
+          "key": "e_1_2_1_73_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2015,
+          "author": "Wu Zhirong",
+          "unstructured": "Zhirong Wu , Shuran Song , Aditya Khosla , Fisher Yu , Linguang Zhang , Xiaoou Tang , and Jianxiong Xiao . 2015 . 3D shapenets: A deep representation for volumetric shapes . In Proceedings of the CVPR. Zhirong Wu, Shuran Song, Aditya Khosla, Fisher Yu, Linguang Zhang, Xiaoou Tang, and Jianxiong Xiao. 2015. 3D shapenets: A deep representation for volumetric shapes. In Proceedings of the CVPR.",
+          "key": "e_1_2_1_74_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Cihang Xie Yuxin Wu Laurens van der Maaten Alan Yuille and Kaiming He. 2018. Feature denoising for improving adversarial robustness. arXiv:1812.03411.  Cihang Xie Yuxin Wu Laurens van der Maaten Alan Yuille and Kaiming He. 2018. Feature denoising for improving adversarial robustness. arXiv:1812.03411.",
+          "key": "e_1_2_1_75_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/CVPR.2018.00029",
+          "key": "e_1_2_1_76_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1145/2980179.2980238",
+          "key": "e_1_2_1_77_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/ICRA.2017.7989381",
+          "key": "e_1_2_1_78_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://dl.acm.org/doi/10.1145/3326362",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://dl.acm.org/doi/pdf/10.1145/3326362",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://dl.acm.org/doi/pdf/10.1145/3326362",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [
+        {
+          "name": "Air Force Office of Scientific Research",
+          "doi": "10.13039/100000181",
+          "award_numbers": [
+            "FA9550-19-1-0319"
+          ],
+          "source": "crossref"
+        },
+        {
+          "name": "Toyota-CSAIL Joint Research Center",
+          "award_numbers": [],
+          "source": "crossref"
+        },
+        {
+          "name": "National Science Foundation",
+          "doi": "10.13039/100000001",
+          "award_numbers": [
+            "IIS-1838071"
+          ],
+          "source": "crossref"
+        },
+        {
+          "name": "Amazon Research Award",
+          "award_numbers": [],
+          "source": "crossref"
+        },
+        {
+          "name": "MITIBM Watson AI Laboratory",
+          "award_numbers": [],
+          "source": "crossref"
+        },
+        {
+          "name": "Skoltech-MIT Next Generation Program",
+          "award_numbers": [],
+          "source": "crossref"
+        },
+        {
+          "name": "Army Research Office",
+          "doi": "10.13039/100000183",
+          "award_numbers": [
+            "W911NF-12-R-0011"
+          ],
+          "source": "crossref"
+        },
+        {
+          "name": "ERC Consolidator",
+          "award_numbers": [
+            "724228 (LEMAN)"
+          ],
+          "source": "crossref"
+        },
+        {
+          "name": "Google Faculty Research Award",
+          "award_numbers": [],
+          "source": "crossref"
+        }
+      ],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "https://www.acm.org/publications/policies/copyright_policy#Background",
+          "content_version": "vor",
+          "delay_in_days": 0,
+          "source": "crossref"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [
+        {
+          "value": "2019-01-01",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2019-06-01",
+          "order": 1,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2019-10-10",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1145/3326362",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "Dynamic Graph CNN for Learning on Point Clouds",
+      "abstract": "Point clouds provide a flexible geometric representation suitable for countless applications in computer graphics; they also comprise the raw output of most 3D data acquisition devices. While hand-designed features on point clouds have long been proposed in graphics and vision, however, the recent overwhelming success of convolutional neural networks (CNNs) for image analysis suggests the value of adapting insight from CNN to the point cloud world. Point clouds inherently lack topological information, so designing a model to recover topology can enrich the representation power of point clouds. To this end, we propose a new neural network module dubbed EdgeConv suitable for CNN-based high-level tasks on point clouds, including classification and segmentation. EdgeConv acts on graphs dynamically computed in each layer of the network. It is differentiable and can be plugged into existing architectures. Compared to existing modules operating in extrinsic space or treating each point independently, EdgeConv has several appealing properties: It incorporates local neighborhood information; it can be stacked applied to learn global shape properties; and in multi-layer systems affinity in feature space captures semantic characteristics over potentially long distances in the original embedding. We show the performance of our model on standard benchmarks, including ModelNet40, ShapeNetPart, and S3DIS.",
+      "publication_date": "2019-10-10",
+      "publication_year": 2019,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310319798",
+      "container_title": "ACM Transactions on Graphics",
+      "volume": "38",
+      "issue": "5",
+      "pages": "1-12",
+      "issn": [
+        "0730-0301",
+        "1557-7368"
+      ],
+      "doi": "10.1145/3326362",
+      "openalex_id": "https://openalex.org/W2979750740",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Yue Wang",
+            "orcid": "0000-0002-7118-0219",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Massachusetts Institute of Technology",
+              "ror_id": "https://ror.org/042nb2s44",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5100372061",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Yongbin Sun",
+            "orcid": "0000-0002-6582-9958",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Massachusetts Institute of Technology",
+              "ror_id": "https://ror.org/042nb2s44",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5018812000",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ziwei Liu",
+            "orcid": "0000-0002-4220-5958",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "International Computer Science Institute",
+              "ror_id": "https://ror.org/01ewh7m12",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "University of California, Berkeley",
+              "ror_id": "https://ror.org/01an7q238",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5100406050",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Sanjay E. Sarma",
+            "orcid": "0000-0003-2812-039X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Massachusetts Institute of Technology",
+              "ror_id": "https://ror.org/042nb2s44",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5019788273",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Michael M. Bronstein",
+            "orcid": "0000-0002-1262-7252",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Imperial College London",
+              "ror_id": "https://ror.org/041kmwe10",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "Universit\u00e0 della Svizzera italiana",
+              "ror_id": "https://ror.org/03c4atk17",
+              "country_code": "CH",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5013638126",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Justin Solomon",
+            "orcid": "0000-0002-7701-7586",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Massachusetts Institute of Technology",
+              "ror_id": "https://ror.org/042nb2s44",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5036542947",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 6348,
+      "reference_count": 86,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2026": 105,
+        "2025": 1101,
+        "2024": 1277,
+        "2023": 1180,
+        "2022": 907,
+        "2021": 914,
+        "2020": 643,
+        "2019": 196,
+        "2018": 24,
+        "2012": 1
+      },
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1145/3326362",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3326362",
+          "landing_page_url": "https://doi.org/10.1145/3326362",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310319798",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1145/3326362",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3326362",
+          "landing_page_url": "https://doi.org/10.1145/3326362",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310319798",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://dl.acm.org/doi/pdf/10.1145/3326362",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "3D Shape Modeling and Analysis",
+          "scheme": "openalex_topic",
+          "score": 0.9995999932289124,
+          "source": "openalex"
+        },
+        {
+          "value": "Human Pose and Action Recognition",
+          "scheme": "openalex_topic",
+          "score": 0.9927999973297119,
+          "source": "openalex"
+        },
+        {
+          "value": "Medical Image Segmentation Techniques",
+          "scheme": "openalex_topic",
+          "score": 0.9861999750137329,
+          "source": "openalex"
+        },
+        {
+          "value": "Point cloud",
+          "scheme": "openalex_concept",
+          "score": 0.8819293975830078,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.7835632562637329,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Representation (politics)",
+          "scheme": "openalex_concept",
+          "score": 0.562655508518219,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Convolutional neural network",
+          "scheme": "openalex_concept",
+          "score": 0.5174639821052551,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Embedding",
+          "scheme": "openalex_concept",
+          "score": 0.5066860318183899,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer graphics",
+          "scheme": "openalex_concept",
+          "score": 0.500220537185669,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Graph",
+          "scheme": "openalex_concept",
+          "score": 0.4916701912879944,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Segmentation",
+          "scheme": "openalex_concept",
+          "score": 0.47283491492271423,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Graphics",
+          "scheme": "openalex_concept",
+          "score": 0.4654702842235565,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Feature (linguistics)",
+          "scheme": "openalex_concept",
+          "score": 0.44781941175460815,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Point (geometry)",
+          "scheme": "openalex_concept",
+          "score": 0.4347148537635803,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Artificial intelligence",
+          "scheme": "openalex_concept",
+          "score": 0.43151354789733887,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Differentiable function",
+          "scheme": "openalex_concept",
+          "score": 0.4225274324417114,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Feature learning",
+          "scheme": "openalex_concept",
+          "score": 0.41437479853630066,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Topology (electrical circuits)",
+          "scheme": "openalex_concept",
+          "score": 0.34155482053756714,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Theoretical computer science",
+          "scheme": "openalex_concept",
+          "score": 0.33644455671310425,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer graphics (images)",
+          "scheme": "openalex_concept",
+          "score": 0.2396816611289978,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Combinatorics",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Geometry",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Political science",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Law",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Linguistics",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Mathematics",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Philosophy",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Politics",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Mathematical analysis",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Sustainable cities and communities",
+          "scheme": "SDG",
+          "score": 0.6000000238418579,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Point cloud",
+        "Computer science",
+        "Representation (politics)",
+        "Convolutional neural network",
+        "Embedding",
+        "Computer graphics",
+        "Graph",
+        "Segmentation",
+        "Graphics",
+        "Feature (linguistics)",
+        "Point (geometry)",
+        "Artificial intelligence",
+        "Differentiable function",
+        "Feature learning",
+        "Topology (electrical circuits)",
+        "Theoretical computer science",
+        "Computer graphics (images)"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 572.50245904,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.99997451,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1145/3326362",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "Dynamic Graph CNN for Learning on Point Clouds",
+      "publication_date": "2019-10-10",
+      "publication_year": 2019,
+      "work_type": "journal-article",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "container_title": "ACM Transactions on Graphics",
+      "issn": [
+        "0730-0301",
+        "1557-7368"
+      ],
+      "doi": "10.1145/3326362",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_locations": [
+        {
+          "url": "https://dl.acm.org/doi/pdf/10.1145/3326362",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3326362",
+          "landing_page_url": "https://doi.org/10.1145/3326362",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://dl.acm.org/doi/pdf/10.1145/3326362",
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3326362",
+          "landing_page_url": "https://doi.org/10.1145/3326362",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://dl.acm.org/doi/pdf/10.1145/3326362",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1145/3326362",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1145/3326362",
+      "pmid": "23671333",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1145/3326362",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1145/3326362",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1145/3326362",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1145/3326362",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1145/3326362",
+    "pmid": "23671333",
+    "openalex_id": "https://openalex.org/W2979750740",
+    "handles": [],
+    "orcids": [
+      "0000-0002-1262-7252",
+      "0000-0002-4220-5958",
+      "0000-0002-6582-9958",
+      "0000-0002-7118-0219",
+      "0000-0002-7701-7586",
+      "0000-0003-2812-039X"
+    ],
+    "ror_ids": [
+      "https://ror.org/01an7q238",
+      "https://ror.org/01ewh7m12",
+      "https://ror.org/03c4atk17",
+      "https://ror.org/041kmwe10",
+      "https://ror.org/042nb2s44"
+    ],
+    "grant_ids": [],
+    "nct_ids": [],
+    "pmid_source": "nih_reporter"
+  },
+  "conflicts": {
+    "doi": "10.1145/3326362",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 4526,
+          "openalex": 6348
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 78,
+          "openalex": 86
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Association for Computing Machinery (ACM)",
+          "openalex": "https://openalex.org/P4310319798",
+          "unpaywall": "Association for Computing Machinery (ACM)"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 3,
+    "conflict_count": 4
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1145/3326362",
+    "fetched_at": "2026-02-11T16:13:03.670847+00:00"
+  }
+}

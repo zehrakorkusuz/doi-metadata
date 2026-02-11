@@ -1,0 +1,5238 @@
+{
+  "doi": "10.18637/jss.v067.i01",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T13:24:49.551284Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "Fitting Linear Mixed-Effects Models Using<b>lme4</b>",
+      "publication_date": "2015",
+      "publication_year": 2015,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Foundation for Open Access Statistic",
+      "container_title": "Journal of Statistical Software",
+      "volume": "67",
+      "issue": "1",
+      "issn": [
+        "1548-7660"
+      ],
+      "doi": "10.18637/jss.v067.i01",
+      "authors": [
+        {
+          "name": {
+            "given": "Douglas",
+            "family": "Bates",
+            "full_name": "Douglas Bates",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Martin",
+            "family": "M\u00e4chler",
+            "full_name": "Martin M\u00e4chler",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ben",
+            "family": "Bolker",
+            "full_name": "Ben Bolker",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Steve",
+            "family": "Walker",
+            "full_name": "Steve Walker",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 69098,
+      "reference_count": 0,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.18637/jss.v067.i01",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "Fitting Linear Mixed-Effects Models Using<b>lme4</b>",
+      "abstract": "Maximum likelihood or restricted maximum likelihood (REML) estimates of the parameters in linear mixed-effects models can be determined using the lmer function in the lme4 package for R. As for most model-fitting functions in R, the model is described in an lmer call by a formula, in this case including both fixed- and random-effects terms. The formula and data together determine a numerical representation of the model from which the profiled deviance or the profiled REML criterion can be evaluated as a function of some of the model parameters. The appropriate criterion is optimized, using one of the constrained optimization functions in R, to provide the parameter estimates. We describe the structure of the model, the steps in evaluating the profiled deviance or REML criterion, and the structure of classes or types that represents such a model. Sufficient detail is included to allow specialization of these structures by users who wish to write functions to fit specialized linear mixed models, such as models incorporating pedigrees or smoothing splines, that are not easily expressible in the formula language used by lmer.",
+      "publication_date": "2015-01-01",
+      "publication_year": 2015,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310315759",
+      "container_title": "Journal of Statistical Software",
+      "volume": "67",
+      "issue": "1",
+      "issn": [
+        "1548-7660"
+      ],
+      "doi": "10.18637/jss.v067.i01",
+      "openalex_id": "https://openalex.org/W1951724000",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Douglas M. Bates",
+            "orcid": "0000-0001-8316-9503",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Wisconsin\u2013Madison",
+              "ror_id": "https://ror.org/01y2jtd41",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5018754372",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Martin M\u00e4chler",
+            "orcid": "0000-0002-8685-9910",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "ETH Zurich",
+              "ror_id": "https://ror.org/05a28rw58",
+              "country_code": "CH",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5041484206",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Benjamin M. Bolker",
+            "orcid": "0000-0002-2127-0443",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "McMaster University",
+              "ror_id": "https://ror.org/02fa3aq29",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5021063042",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Steve Walker",
+            "orcid": "0000-0002-6838-8334",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "McMaster University",
+              "ror_id": "https://ror.org/02fa3aq29",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5043596018",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 80557,
+      "reference_count": 48,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2026": 1158,
+        "2025": 11642,
+        "2024": 10872,
+        "2023": 9827,
+        "2022": 9389,
+        "2021": 10447,
+        "2020": 8603,
+        "2019": 6933,
+        "2018": 5426,
+        "2017": 3778,
+        "2016": 1916,
+        "2015": 403,
+        "2014": 49,
+        "2013": 19,
+        "2012": 23
+      },
+      "is_oa": true,
+      "oa_status": "diamond",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.18637/jss.v067.i01",
+          "pdf_url": "https://www.jstatsoft.org/index.php/jss/article/view/v067i01/v67i01.pdf",
+          "landing_page_url": "https://doi.org/10.18637/jss.v067.i01",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310315759",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.18637/jss.v067.i01",
+          "pdf_url": "https://www.jstatsoft.org/index.php/jss/article/view/v067i01/v67i01.pdf",
+          "landing_page_url": "https://doi.org/10.18637/jss.v067.i01",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310315759",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doaj.org/article/7f279483412348928f01507440b0360d",
+          "landing_page_url": "https://doaj.org/article/7f279483412348928f01507440b0360d",
+          "host_type": "journal",
+          "version": "submittedVersion",
+          "license": "cc-by-sa",
+          "is_best": false,
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://www.jstatsoft.org/index.php/jss/article/view/v067i01/v67i01.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "cc-by",
+          "source": "openalex"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Data Analysis with R",
+          "scheme": "openalex_topic",
+          "score": 0.9905999898910522,
+          "source": "openalex"
+        },
+        {
+          "value": "Statistical Methods and Bayesian Inference",
+          "scheme": "openalex_topic",
+          "score": 0.9732000231742859,
+          "source": "openalex"
+        },
+        {
+          "value": "Mental Health Research Topics",
+          "scheme": "openalex_topic",
+          "score": 0.9253000020980835,
+          "source": "openalex"
+        },
+        {
+          "value": "Restricted maximum likelihood",
+          "scheme": "openalex_concept",
+          "score": 0.8522703647613525,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Deviance (statistics)",
+          "scheme": "openalex_concept",
+          "score": 0.82362961769104,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Mixed model",
+          "scheme": "openalex_concept",
+          "score": 0.6247803568840027,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Smoothing",
+          "scheme": "openalex_concept",
+          "score": 0.5928418040275574,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Applied mathematics",
+          "scheme": "openalex_concept",
+          "score": 0.5896173715591431,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Likelihood function",
+          "scheme": "openalex_concept",
+          "score": 0.5652657151222229,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Mathematics",
+          "scheme": "openalex_concept",
+          "score": 0.5637896060943604,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Generalized linear model",
+          "scheme": "openalex_concept",
+          "score": 0.5608007311820984,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Linear model",
+          "scheme": "openalex_concept",
+          "score": 0.518374502658844,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Maximum likelihood",
+          "scheme": "openalex_concept",
+          "score": 0.4974828064441681,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Generalized linear mixed model",
+          "scheme": "openalex_concept",
+          "score": 0.4966593384742737,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Covariate",
+          "scheme": "openalex_concept",
+          "score": 0.4778599143028259,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Algorithm",
+          "scheme": "openalex_concept",
+          "score": 0.4247533082962036,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Statistics",
+          "scheme": "openalex_concept",
+          "score": 0.37279438972473145,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Mathematical optimization",
+          "scheme": "openalex_concept",
+          "score": 0.36725032329559326,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.3670958876609802,
+          "level": 0,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Restricted maximum likelihood",
+        "Deviance (statistics)",
+        "Mixed model",
+        "Smoothing",
+        "Applied mathematics",
+        "Likelihood function",
+        "Mathematics",
+        "Generalized linear model",
+        "Linear model",
+        "Maximum likelihood",
+        "Generalized linear mixed model",
+        "Covariate",
+        "Algorithm",
+        "Statistics",
+        "Mathematical optimization",
+        "Computer science"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 3623.88953598,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 1.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": true,
+      "raw": {},
+      "title": "Fitting Linear Mixed-Effects Models Using lme4",
+      "abstract": "Maximum likelihood or restricted maximum likelihood (REML) estimates of the parameters in linear mixed-effects models can be determined using the lmer function in the lme4 package for R. As for most model-fitting functions in R, the model is described in an lmer call by a formula, in this case including both fixed- and random-effects terms. The formula and data together determine a numerical representation of the model from which the profiled deviance or the profiled REML criterion can be evaluated as a function of some of the model parameters. The appropriate criterion is optimized, using one of the constrained optimization functions in R, to provide the parameter estimates. We describe the structure of the model, the steps in evaluating the profiled deviance or REML criterion, and the structure of classes or types that represents such a model. Sufficient detail is included to allow specialization of these structures by users who wish to write functions to fit specialized linear mixed models, such as models incorporating pedigrees or smoothing splines, that are not easily expressible in the formula language used by lmer.",
+      "publication_date": "2014-06-23",
+      "publication_year": 2014,
+      "container_title": "Journal of Statistical Software",
+      "volume": "67",
+      "pages": "1-48",
+      "issn": [],
+      "doi": "10.18637/jss.v067.i01",
+      "arxiv_id": "1406.5823",
+      "s2_paper_id": "9b536c7b0f45d4b512f337d0acda09ca3e4cd953",
+      "s2_corpus_id": "88513115",
+      "authors": [
+        {
+          "name": {
+            "full_name": "D. Bates",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "2437910",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "M. Machler",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "89498223",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "B. Bolker",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "2254255",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Steven C. Walker",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "48872062",
+          "sources": [
+            "semantic_scholar"
+          ]
+        }
+      ],
+      "citation_count": 79392,
+      "reference_count": 54,
+      "influential_citation_count": 7818,
+      "references": [
+        {
+          "title": "Linear Mixed-Effects Models using 'Eigen' and S4",
+          "year": 2015,
+          "s2_paper_id": "801f3bff6bdaf9f533acdcc18ea04345fa1272d1",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.18637/JSS.V056.I05",
+          "title": "HLMdiag: A Suite of Diagnostics for Hierarchical Linear Models in R",
+          "year": 2014,
+          "s2_paper_id": "740be6868398965cff050056fd519dc7d30337b6",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "ME (Loy and Hofmann 2014; Nieuwenhuis, Te Grotenhuis, and Pelzer 2012)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1111/2041-210X.12044",
+          "title": "Strategies for fitting nonlinear ecological models in R, AD Model Builder, and BUGS",
+          "year": 2013,
+          "s2_paper_id": "94ee1ecac92f0dd0c1004757e28abf235a02abbc",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "\u2026best fitting model lies on the boundary of a constrained space, approaches that try to remove the constraints by fitting parameters on a transformed scale will often give rise to convergence warnings as the algorithm tries to find a maximum on an asymptotically flat surface (Bolker et al. 2013).",
+            "Singular fits are common in practical data-analysis situations, especially with small- to medium-sized data sets and complex variance-covariance models, so being able to fit a singular model is an advantage: when the best fitting model lies on the boundary of a constrained space, approaches that try to remove the constraints by fitting parameters on a transformed scale will often give rise to convergence warnings as the algorithm tries to find a maximum on an asymptotically flat surface (Bolker et al. 2013)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/s10614-013-9377-8",
+          "title": "Nelder-Mead Simplex Optimization Routine for Large-Scale Problems: A Distributed Memory Implementation",
+          "year": 2013,
+          "s2_paper_id": "294325b0ec72464bd8b800728d6cdbcc8672c027",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "There is most likely further room for improvement in the nonlinear optimization module; for example, some speed-up could be gained by using parallel implementations of derivative-free optimizers that evaluated several trial points at once (Klein and Neira 2013)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/s11336-013-9328-2",
+          "title": "A Nondegenerate Penalized Likelihood Estimator for Variance Parameters in Multilevel Models",
+          "year": 2013,
+          "s2_paper_id": "b266cf57924db74e801668ccb844f7954eeda802",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Julia: A Fast Dynamic Language for Technical Computing",
+          "year": 2012,
+          "s2_paper_id": "b808233eb1256d492af437a6c9fe99ffe141df47",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.18637/JSS.V043.I09",
+          "title": "Unifying Optimization Algorithms to Aid Software System Users: optimx for R",
+          "year": 2011,
+          "s2_paper_id": "1e00a660e236aa21e992400553fa35b15f9b3ace",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "An internal wrapper allows the use of the optimx package (Nash and Varadhan 2011), although the only optimizers provided via optimx that satisfy the constraints above are the nlminb and L-BFGS-B algorithms that are themselves wrappers around the versions provided in base R.",
+            "An internal wrapper allows the use of the optimx package (Nash and Varadhan 2011), although the only optimizers provided via optimx that satisfy the constraints above are the nlminb and L-BFGS-B algorithms that are them-\nDouglas Bates, Martin M\u00e4chler, Ben Bolker, Steve Walker 25\nselves wrappers\u2026"
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.18637/JSS.V030.B03",
+          "title": "Data Analysis Using Regression and Multilevel/Hierarchical Models",
+          "year": 2009,
+          "s2_paper_id": "7d9c0546ca72c8fb5e54f4a9ee4a2aa4a89649f1",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Finally, posterior predictive simulation (Gelman and Hill 2006) is a generally useful diagnostic tool, adapted from Bayesian methods, for exploring model fit."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.18637/JSS.V025.B02",
+          "title": "Lattice: Multivariate Data Visualization with R",
+          "year": 2008,
+          "s2_paper_id": "9d55dab0a28c90c881a19f321e9d731024061d58",
+          "intents": [
+            "background"
+          ],
+          "is_influential": true,
+          "contexts": [
+            "General profile zeta and related plots\nlme4 provides several functions (built on lattice graphics, Sarkar 2008) for plotting the profile zeta functions (Section 5.1.2) and other related quantities."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.18637/JSS.V020.I02",
+          "title": "Estimating the Multilevel Rasch Model: With the lme4 Package",
+          "year": 2007,
+          "s2_paper_id": "51588b58aebafe24a0a0d3a77762dfc1c01b893f",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1137/1.9780898718881",
+          "title": "Direct methods for sparse linear systems",
+          "year": 2006,
+          "s2_paper_id": "f8f4d016b67960db432f79fda9b07c1d0f8704cd",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "forms for actual computation with sparse matrices are compressed sparse column (CSC) or compressed sparse row (CSR, Davis 2006, Chapter 2)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/BIOMET/92.2.351",
+          "title": "Conditional Akaike information for mixed-effects models",
+          "year": 2005,
+          "s2_paper_id": "a8df23f0769968ef0ff1ed14e1a167911839ed10",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "(66)\nThe trace of the hat matrix is often used as a measure of the effective degrees of freedom (e.g., Vaida and Blanchard 2005)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1214/009053604000001048",
+          "title": "Discussion of \"Analysis of variance--why it is more important than ever\" by A. Gelman",
+          "year": 2005,
+          "s2_paper_id": "10f26a107a5b3bcbe6c548b5a764b7cdc9dda347",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Much has been written about important practical and philosophical differences between these two types of interactions (e.g., Henderson Jr. 1982; Gelman 2005)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/J.JMVA.2004.04.013",
+          "title": "Linear mixed models and penalized least squares",
+          "year": 2004,
+          "s2_paper_id": "93a8bb5626a76ef22c38ac3e9cb51fe3f4a381da",
+          "intents": [
+            "background",
+            "methodology"
+          ],
+          "is_influential": true,
+          "contexts": [
+            "Bates and DebRoy (2004) modified the PLS equations to [ Z\u22a4Z +\u03a9 Z\u22a4X X\u22a4Z X\u22a4X ] [ \u03bcB|Y=yobs \u03b2\u0302\u03b8 ] = [ Xyobs Zyobs ] .",
+            "The main change from the formulation in Bates and DebRoy (2004) to the current formulation is the use of a relative covariance factor, \u039b\u03b8, instead of a relative precision matrix, \u2126\u03b8, and solving for the mean of U\u2663Y = yobs instead of the mean of B\u2663Y = yobs.",
+            "Bates and DebRoy (2004) also provided expressions for the gradient of the profiled loglikelihood expressed as Equation 45.",
+            "Bates and DebRoy (2004) modified the PLS equations to\n Z\u22a4Z + \u2126 Z\u22a4X\nX\u22a4Z X\u22a4X\n]  \u00b5B\u2663Y=yobs\n\u03b2\u0302\u03b8\n] =  Z\u22a4yobs X\u22a4yobs ] .",
+            "The main change from the formulation in Bates and DebRoy (2004) to the current formulation is the use of a relative covariance factor, \u039b\u03b8, instead of a relative precision matrix, \u03a9\u03b8, and solving for the mean of U|Y = yobs instead of the mean of B|Y = yobs.",
+            "The expressions for the profiled log-likelihood and profiled REML (restricted maximum likelihood) criteria derived in Section 3.4 are similar to those presented in Bates and DebRoy (2004) and, indeed, are closely related to \u201cHenderson\u2019s mixed-model equations\u201d (Henderson Jr. 1982).",
+            "4 are similar to those presented in Bates and DebRoy (2004) and, indeed, are closely related to \u201cHenderson\u2019s mixed-model equations\u201d (Henderson 1982)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1046/j.1365-2869.2003.00337.x",
+          "title": "Patterns of performance degradation and restoration during sleep restriction and subsequent recovery: a sleep dose\u2010response study",
+          "year": 2003,
+          "s2_paper_id": "ff4d7135841af56a3d9496accbe04f1c1c10aca0",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Throughout our discussion of lme4, we will work with a data set on the average reaction time per day for subjects in a sleep deprivation study (Belenky et al. 2003).",
+            "Example Throughout our discussion of lme4, we will work with a data set on the average reaction time per day for subjects in a sleep deprivation study (Belenky et al. 2003)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1198/tech.2001.s574",
+          "title": "Mixed-Effects Models in S and S-PLUS",
+          "year": 2001,
+          "s2_paper_id": "35fa23c9f5577761ff79fd14356736570c43b68a",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            ", Cook\u2019s distance and leverage plots), in a way modeled on the diagnostic graphics of nlme (Pinheiro and Bates 2000)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1017/CBO9780511802843",
+          "title": "Bootstrap Methods and their Application",
+          "year": 1997,
+          "s2_paper_id": "7b0291b3163bff220d5bf5cedf55417356c20f98",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Parametric bootstrapping confidence intervals use a thin wrapper around the bootMer function that passes the results to boot.ci from the boot package (Canty and Ripley 2015; Davison and Hinkley 1997) for confidence interval calculation."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.2307/2533558",
+          "title": "Small sample inference for fixed effects from restricted maximum likelihood.",
+          "year": 1997,
+          "s2_paper_id": "6e89cc3a48b6eb9d14e7d1a7b1603cb73ef66537",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Thus approximate methods for computing the approximate degrees of freedom for t distributions, or the denominator degrees of freedom for F statistics (Satterthwaite 1946; Kenward and Roger 1997), are at best ad hoc solutions."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/BF00140873",
+          "title": "Unconstrained parametrizations for variance-covariance matrices",
+          "year": 1996,
+          "s2_paper_id": "2ff55b99d6d94d331670719bb1df1827b4d502a7",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.2307/2533081",
+          "title": "Bayesian Data Analysis.",
+          "year": 1996,
+          "s2_paper_id": "f4bb05cec4f27bdaf322916d75cfc575959d6ece",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "er values. In thissimpli\ufb01edcase,Uistheonlyquantityinthestatisticalmodelthatisbothrandomand unknown. Given this simpli\ufb01ed linear mixed model, a standard result in Bayesian linear regression modelling (Gelman et al. 2013) implies that the conditional distribution of the spherical randome\ufb00ectsgiventheobservedresponsevectorisGaussian, (U|Y= y obs) \u223cN(\u00b5 U|Y=y obs ,\u03c3b2V) (55) where, V=  \u039b&gt; b\u03b8Z &gt;WZ\u039b b + I q  \u22121 = "
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1080/00401706.1990.10484638",
+          "title": "Nonlinear Regression Analysis and Its Applications",
+          "year": 1990,
+          "s2_paper_id": "b5a3d0a3881d40beb3f86c5d22dfa5a17dda8440",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.2307/2529876",
+          "title": "Random-effects models for longitudinal data.",
+          "year": 1982,
+          "s2_paper_id": "28a100644e4adc037dd09cfb9d1552a2bd76380e",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "The REML criterion\nThe REML criterion can be obtained by integrating the marginal density for Y with respect to the fixed effects (Laird and Ware 1982),\n\u222b fY(yobs)d\u03b2 = \u2663W \u26631/2\u2663L\u03b8\u2663 \u22121\n(2\u03c0\u03c32)n/2 exp\n \u2212r2(\u03b8)\n2\u03c32\n] \u222b exp   \u2212 \u2225\u2225\u2225RX(\u03b2 \u2212 \u03b2\u0302\u03b8) \u2225\u2225\u2225 2\n2\u03c32\n  d\u03b2, (36)\nDouglas Bates, Martin M\u00e4chler, Ben Bolker,\u2026",
+            "The REML criterion The REML criterion can be obtained by integrating the marginal density for Y with respect to the fixed effects (Laird and Ware 1982), \u222b fY(yobs)d\u03b2 = |W ||L\u03b8| (2\u03c0\u03c32)n/2 exp [ \u2212r2(\u03b8) 2\u03c32 ] \u222b exp \uf8ef\uf8f0\u2212 \u2225\u2225\u2225RX(\u03b2 \u2212 \u03b2\u0302\u03b8)\u2225\u2225\u22252 2\u03c32 \uf8fa\uf8fb d\u03b2, (35)",
+            "For example, the random-effects implementation of such interactions can be used to obtain shrinkage estimates of regression coefficients (e.g., Efron and Morris 1977), or account for lack of independence in the residuals due to block structure or repeated measurements (e.g., Laird and Ware 1982)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.2307/2531125",
+          "title": "Residuals and Influence in Regression",
+          "year": 1982,
+          "s2_paper_id": "31e7b0ae82caf138d4c23d86cf401b9bacc353bd",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "The hat matrix The hat matrix, H, is a useful object in linear model diagnostics (Cook and Weisberg 1982).",
+            "(59)\nThe hat matrix\nThe hat matrix, H, is a useful object in linear model diagnostics (Cook and Weisberg 1982)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.2307/2530044",
+          "title": "Analysis of covariance in the mixed model: higher-level, nonhomogeneous, and random regressions.",
+          "year": 1982,
+          "s2_paper_id": "c76e314f72f1bf143af9716e5255a48b1f125235",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1038/SCIENTIFICAMERICAN0577-119",
+          "title": "Stein's Paradox in Statistics",
+          "year": 1977,
+          "s2_paper_id": "d8aaac76391831a242a6e9de1511fa32045a9a4e",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "For example, the random-effects implementation of such interactions can be used to obtain shrinkage estimates of regression coefficients (e.g., Efron and Morris 1977), or account for lack of independence in the residuals due to block structure or repeated measurements (e.g., Laird and Ware 1982)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1137/0710036",
+          "title": "The differentiation of pseudo-inverses and non-linear least squares problems whose variables separate",
+          "year": 1972,
+          "s2_paper_id": "5d38e06821c7f88d27b5b28039383c10a5c00fe3",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "(47)\nThe second gradient term can be expressed as a linear function of the residual, with individual elements of the form\n\u2202r2(\u03b8)\n\u2202\u03b8i = \u22122u\u22a4 \u2202\u039b\u22a4\u03b8 \u2202\u03b8i Z\u22a4  y \u2212 Z\u039b\u03b8u \u2212 X\u03b2\u0302\u03b8 ) , (48)\nusing the results of Golub and Pereyra (1973)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.2307/3002019",
+          "title": "An approximate distribution of estimates of variance components.",
+          "year": 1946,
+          "s2_paper_id": "ae36e294ea9086f7dfe5b0ff9be8ccdbb5b34dd0",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Satterthwaite FE (1946).",
+            "Thus approximate methods for computing the approximate degrees of freedom for t distributions, or the denominator degrees of freedom for F statistics (Satterthwaite 1946; Kenward and Roger 1997), are at best ad hoc solutions."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "SOLUTIONS TO SOME FUNCTIONAL EQUATIONS AND THEIR APPLICATIONS TO CHARACTERIZATION OF PROBABILITY DISTRIBUTIONS",
+          "year": 2016,
+          "s2_paper_id": "c44db1ff943a9af939fee6f425283ad797267ccb",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "where \u2217 and \u2297 are the Khatri-Rao2 (Khatri and Rao 1968) and Kronecker products, and J> ij and X> ij are row vectors of the jth rows of Ji and Xi."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "MixedModels: A Julia Package for Fitting (Statistical) Mixed-Effects Models",
+          "year": 2015,
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "These descendants include the MixedModels package (Bates 2015) in Julia (Bezanson, Karpinski, Shah, and Edelman 2012), the lme4pureR package (Bates and Walker 2013) in R, and the flexLambda development branch of lme4."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "SuiteSparse: A Suite of Sparse Matrix Software",
+          "year": 2015,
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "boot : Bootstrap R ( S - PLUS ) Functions",
+          "year": 2015,
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "ci from the boot package (Canty and Ripley 2015; Davison and Hinkley 1997) for confidence interval calculation.",
+            "Parametric bootstrapping confidence intervals use a thin wrapper around the bootMer function that passes the results to boot.ci from the boot package (Canty and Ripley 2015; Davison and Hinkley 1997) for confidence interval calculation."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "SuiteSparse: A Suite of Sparse Matrix Software. Version 4.4-5, URL http://www.suitesparse.com",
+          "year": 2015,
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "MixedModels: A Julia Package for Fitting (Statistical) Mixed-Effects Models. Julia package version 0.3-22, URL https://github.com/dmbates/MixedModels.jl",
+          "year": 2015,
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "These descendants include the MixedModels package (Bates 2015) in Julia (Bezanson, Karpinski, Shah, and Edelman 2012), the lme4pureR package (Bates and Walker 2013) in R, and the flexLambda development branch of lme4."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "R: A language and environment for statistical computing.",
+          "year": 2014,
+          "s2_paper_id": "659408b243cec55de8d0a3bc51b81173007aa89b",
+          "intents": [
+            "background",
+            "methodology"
+          ],
+          "is_influential": true,
+          "contexts": [
+            "Pinheiro J, Bates D, DebRoy S, Sarkar D, R Core Team (2014). nlme: Linear and Nonlinear Mixed Effects Models.",
+            "The lme4 package (Bates, Maechler, Bolker, and Walker 2014a) for R (R Core Team 2015) provides functions to fit and analyze linear mixed models, generalized linear mixed models and nonlinear mixed models.",
+            "At present, the main alternative to lme4 for mixed modeling in R is the nlme package (Pinheiro, Bates, DebRoy, Sarkar, and R Core Team 2014).",
+            "R Core Team (2015)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "The NLopt nonlinear-optimization package.",
+          "year": 2014,
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "lme4 incorporates two built-in optimization choices, an implementation of the Nelder-Mead simplex algorithm adapted from Steven Johnson\u2019s NLopt C library (Johnson 2014) and a wrapper for Powell\u2019s BOBYQA algorithm, implemented in the minqa package Bates, Mullen, Nash, and Varadhan (2014) as a wrapper around Powell\u2019s original FORTRAN code (Powell 2009).",
+            "\u2026incorporates two built-in optimization choices, an implementation of the Nelder-Mead simplex algorithm adapted from Steven Johnson\u2019s NLopt C library (Johnson 2014) and a wrapper for Powell\u2019s BOBYQA algorithm, implemented in the minqa package (Bates, Mullen, Nash, and Varadhan 2014b) as a wrapper\u2026"
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "minqa: Derivative-free optimization algorithms by quadratic approximation",
+          "year": 2014,
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "gamm4: Generalized Additive Mixed Models Using mgcv and lme4. R package version 0.2-3, URL http://CRAN.R-project.org/package=gamm4",
+          "year": 2014,
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "The gamm4 package wraps the modularized functions of lme4 within a more convenient interface (Wood and Scheipl 2014).",
+            "The gamm4 (Wood and Scheipl 2014) and blme (Dorie 2015; Chung, Rabe-Hesketh, Dorie, Gelman, and Liu 2013) packages currently make use of these hooks.",
+            "Additive models\nIt is possible to interpret additive models as a particular class of mixed models (Wood and Scheipl 2014)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Matrix: Sparse and Dense Matrix Classes and Methods",
+          "year": 2014,
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Using the Matrix package (Bates and Maechler 2014) in R, we may construct the transpose of Ji from a factor vector, f, by coercing f to a sparseMatrix object."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "minqa: Derivative-Free Optimization Algorithms by Quadratic Approximation. R package version 1.2.4",
+          "year": 2014,
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Matrix: Sparse and Dense Matrix Classes and Methods. R package version 1",
+          "year": 2014,
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "gamm4: Generalized additive mixed models using mgcv and lme4. R package version 0.2-2",
+          "year": 2013,
+          "intents": [],
+          "is_influential": true,
+          "contexts": [
+            "A version of this manuscript has been published online in the Journal of Statistical Software, on Oct. 2015, with DOI 10.18637/jss.v067.i01, see https://www.jstatsoft.org/ article/view/v067i01/."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "boot: Bootstrap R (S-Plus) Functions. R package version 1.3-9",
+          "year": 2013,
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "lme4pureR: lme4 in Pure R",
+          "year": 2013,
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "These descendants include the MixedModels package (Bates 2015) in Julia (Bezanson, Karpinski, Shah, and Edelman 2012), the lme4pureR package (Bates and Walker 2013) in R, and the flexLambda development branch of lme4."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "lme4pureR: lme4 in Pure R. R package version 0.1-0, URL https://github.com/lme4/lme4pureR",
+          "year": 2013,
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "These descendants include the MixedModels package (Bates 2015) in Julia (Bezanson, Karpinski, Shah, and Edelman 2012), the lme4pureR package (Bates and Walker 2013) in R, and the flexLambda development branch of lme4."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.32614/RJ-2012-011",
+          "title": "influence.ME: Tools for Detecting Influential Data in Mixed Effects Models",
+          "year": 2012,
+          "s2_paper_id": "c6d41ed109eb79b026ba2d1fb769b6ebf525ebd4",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "The BOBYQA algorithm for bound constrained optimization without derivatives",
+          "year": 2009,
+          "s2_paper_id": "0d2edc46f81f9a0b0b62937507ad977b46729f64",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "lme4 incorporates two built-in optimization choices, an implementation of the Nelder-Mead simplex algorithm adapted from Steven Johnson\u2019s NLopt C library (Johnson 2014) and a wrapper for Powell\u2019s BOBYQA algorithm, implemented in the minqa package Bates, Mullen, Nash, and Varadhan (2014) as a wrapper around Powell\u2019s original FORTRAN code (Powell 2009).",
+            "\u2026implementation of the Nelder-Mead simplex algorithm adapted from Steven Johnson\u2019s NLopt C library (Johnson 2014) and a wrapper for Powell\u2019s BOBYQA algorithm, implemented in the minqa package (Bates, Mullen, Nash, and Varadhan 2014b) as a wrapper around Powell\u2019s original Fortran code (Powell 2009)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "An R implementation of bootstrap procedures for mixed models Conference presentation, useR! Accessed 25",
+          "year": 2009,
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "(Some of the ideas of bootMer are adapted from merBoot (S\u00e1nchez-Espigares and Oca\u00f1a 2009), a more ambitious framework for bootstrapping lme4 model fits which unfortunately seems to be unavailable at present.)"
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "An R implementation of bootstrap procedures for mixed models.",
+          "year": 2009,
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "(Some of the ideas of bootMer are adapted from merBoot, a more ambitious framework for bootstrapping lme4 model fits which unfortunately seems to be unavailable at present (S\u00e1nchez-Espigares and Oca\u00f1a 2009).",
+            "(Some of the ideas of bootMer are adapted from merBoot (S\u00e1nchez-Espigares and Oca\u00f1a 2009), a more ambitious framework for bootstrapping lme4 model fits which unfortunately seems to be unavailable at present.)"
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Algorithm 8 xx : CHOLMOD , supernodal sparse Cholesky factorization and update / downdate \u2217",
+          "year": 2006,
+          "s2_paper_id": "d150423192ff93f2d17c5c500b485bbd6e18c436",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/0-387-24273-2_2",
+          "title": "Basic Properties of the Schur Complement",
+          "year": 2005,
+          "s2_paper_id": "ff94fc7a6a2663de6879e8cef663398028a44909",
+          "intents": [],
+          "is_influential": true,
+          "contexts": [
+            "(62)\nBy the Schur complement identity (Horn and Zhang 2005),\n L\u22a4\u03b8 RZX 0 RX ]\u22121 =    L\u22a4\u03b8 )\u22121 \u2212  L\u22a4\u03b8 )\u22121 RZXR \u22121 X\n0 R\u22121X\n  .",
+            "By the Schur complement identity (Horn and Zhang 2005), [ L\u03b8 RZX 0 RX ]\u22121 = \uf8ee \uf8f0 ( L\u03b8 )\u22121 \u2212 ( L\u03b8 )\u22121 RZXR \u22121 X 0 R X \uf8f9 \uf8fb .",
+            "This lower-right block is\nVar\u03b8,\u03c3(\u03b2\u0302) = \u03c3 2R\u22121X (R \u22a4 X) \u22121, (55)\nwhich follows from the Schur complement identity (Horn and Zhang 2005, Theorem 1.2)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Linear Models",
+          "year": 1971,
+          "s2_paper_id": "7461cc4e06637d270f36773a6c62519cada534a9",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.2307/3002019",
+          "title": "An approximate distribution of estimates of variance components.",
+          "year": 1946,
+          "s2_paper_id": "af4b3d01c44d7a404f64aa6b8da49cdbc8cb0759",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Thus approximate methods for computing the approximate degrees of freedom for t distributions, or the denominator degrees of freedom for F statistics (Satterthwaite 1946; Kenward and Roger 1997), are at best ad hoc solutions."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Switzerland E-mail: maechler@stat.math.ethz.ch Benjamin M",
+          "year": 1280,
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "gamm4: Generalized Additive Mixed Models Using mgcv and lme4. R package version 0.2-3, URL http://CRAN.R-project.org/package=gamm4",
+          "year": 2014,
+          "intents": [
+            "background",
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "The gamm4 package wraps the modularized functions of lme4 within a more convenient interface (Wood and Scheipl 2014).",
+            "The gamm4 (Wood and Scheipl 2014) and blme (Dorie 2015; Chung, Rabe-Hesketh, Dorie, Gelman, and Liu 2013) packages currently make use of these hooks.",
+            "Additive models\nIt is possible to interpret additive models as a particular class of mixed models (Wood and Scheipl 2014)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Matrix: Sparse and Dense Matrix Classes and Methods",
+          "year": 2014,
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Using the Matrix package (Bates and Maechler 2014) in R, we may construct the transpose of Ji from a factor vector, f, by coercing f to a sparseMatrix object."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "minqa: Derivative-Free Optimization Algorithms by Quadratic Approximation",
+          "year": 2014,
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "MixedModels : A Julia Package for Fitting ( Statistical ) Mixed - Effects Models",
+          "year": 2015,
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "These descendants include the MixedModels package (Bates 2015) in Julia (Bezanson, Karpinski, Shah, and Edelman 2012), the lme4pureR package (Bates and Walker 2013) in R, and the flexLambda development branch of lme4."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.15476/elte.2017.147",
+          "title": "Bootstrap methods and their applications",
+          "s2_paper_id": "c02ff8715b1a9cf644a1282ee88c95fac7597c3a",
+          "intents": [
+            "background",
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "ci from the boot package (Canty and Ripley 2013; Davison and Hinkley 1997) for confidence interval calculation.",
+            "Parametric bootstrapping confidence intervals use a thin wrapper around the bootMer function that passes the results to boot.ci from the boot package (Canty and Ripley 2015; Davison and Hinkley 1997) for confidence interval calculation."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Fit the resulting model using the remaining modularized functions (Table 1)",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Bsimulation %*% beta)[order(x)],lty = 2) R> legend",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "R> pSimulation <-3 R> pStatistical <-8 R> x <-rnorm(n) R> Bsimulation <-ns(x, pSimulation) R> Bstatistical <-ns(x, pStatistical) R> beta <-rnorm(pSimulation) R> y <-as",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Here we illustrate this general strategy using a simple simulated data set, R> library(\"splines\") R> set.seed(1) R> n <-100",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Homogeneous covariance among random effects terms Consider the following mixed-model formula, > form <-respVar ~ 1 + (explVar1|groupFac1) + (explVar2|groupFac2) Affiliation",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "R-project.org/package=minqa",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "E-mail: bates@stat",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "A Appendix: modularization examples",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        }
+      ],
+      "citations": [
+        {
+          "doi": "10.1016/j.agee.2025.110187",
+          "title": "Carbon dioxide, methane and nitrous oxide emissions from furrows and hills in a cotton-wheat-fallow rotation, Narrabri, Australia",
+          "year": 2026,
+          "s2_paper_id": "ad000ea9b40dc46e5707793951597f7b4ebff675",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.agee.2026.110272",
+          "title": "Abundance of short- and long-tongued bees, and their impact on red clover seed production in four cultivars grown across a large latitude range",
+          "year": 2026,
+          "s2_paper_id": "ed7e00332ac1c12c2ad70913da3461fc0b5b5dea",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.foreco.2026.123591",
+          "title": "Land-use change to eucalypt plantations decreases taxonomic and functional diversity of bird communities",
+          "year": 2026,
+          "s2_paper_id": "18c1d5061ca1beae187fbba732096f400987be1c",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ecoleng.2026.107921",
+          "title": "Oyster settlement is enhanced by confamilial cues, substrate complexity and orientation: A hatchery experiment",
+          "year": 2026,
+          "s2_paper_id": "203954e3970c7fbe91eafa01eb76d801e12d3cd0",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.learninstruc.2025.102290",
+          "title": "Navigating uncertainty: the role of college students' cognitive styles and uncertainty intolerance in learning rate from a Bayesian inference perspective",
+          "year": 2026,
+          "s2_paper_id": "9b466f2d11f2aaea3199267ed0c805df93b4cd4a",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.agee.2025.110206",
+          "title": "Nitrogen sustainability and soil carbon sequestration in fresh grain legume-based rotations: The vital role of the cover crop mixture",
+          "year": 2026,
+          "s2_paper_id": "ce720cfb1aaf7d93520b4d58463713d67065c157",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.fcr.2026.110338",
+          "title": "Evaluation of upland rice variety mixtures in the Madagascar highlands",
+          "year": 2026,
+          "s2_paper_id": "b2ecca74cac390f6c4c96552ff1f2c9bf6dbc337",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.paid.2026.113639",
+          "title": "Individual differences in intelligence and personality guide human social learning",
+          "year": 2026,
+          "s2_paper_id": "814519fcef1f872bd840547254070cd69dcf6698",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.agee.2026.110229",
+          "title": "Leaf and root traits codetermine biomass production and allocation patterns in agriculturally managed wetlands in a semi-arid region",
+          "year": 2026,
+          "s2_paper_id": "0e15e9859248c480e88f971deb682c8d76825cdf",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.foreco.2026.123504",
+          "title": "Close-to-nature management enhances ectomycorrhizal fungal dominance across stand ages in Pinus massoniana plantations",
+          "year": 2026,
+          "s2_paper_id": "cf712218f4b79d4cc4af83a675b7f76dcbbc80e8",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.system.2026.103972",
+          "title": "The effect of bilingualism on foreign language learning: A longitudinal study from kindergarten to the end of primary school",
+          "year": 2026,
+          "s2_paper_id": "92d1b0c601c85ad1a0cc85d8480e558a8f1988a2",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.tate.2026.105403",
+          "title": "Team teaching or solo teaching? Evidence from a crossover experiment on the effects of team teaching on student achievement",
+          "year": 2026,
+          "s2_paper_id": "aec52e382a25c89690912bf65b452e74b93a8c60",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.foreco.2025.123501",
+          "title": "Tree species choice by forest management and biodiversity: Replacing Abies alba by Picea abies and Pseudotsuga menziesii drives epiphytes to higher elevations",
+          "year": 2026,
+          "s2_paper_id": "c42f87d85ab26e24407f8f266ee77040ca2771cb",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.agee.2026.110233",
+          "title": "Wildflower strip influence on pest predation in cereal fields: Temporal variations and complementarity among predator guilds",
+          "year": 2026,
+          "s2_paper_id": "970d33bdfb1fc233a7bd9f750847550d0074c9e3",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.foreco.2026.123503",
+          "title": "Decoupling abundance and biomass in secondary Atlantic Rainforest: Differential responses of rare and common tree species to environmental drivers",
+          "year": 2026,
+          "s2_paper_id": "f93e4affb9088290ee9822fa23a40de6c93ec833",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.foreco.2026.123522",
+          "title": "Retrospective long-term effects of halo thinning: Ground-cover vegetation diversity 20 years after remnant oak release",
+          "year": 2026,
+          "s2_paper_id": "38e4da0e0aa75704d21051e388d58fc156b414fb",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.agee.2026.110244",
+          "title": "Irrigation-driven shifts in weed community composition, functional identity, and functional diversity: Evidence from a Mediterranean vineyard",
+          "year": 2026,
+          "s2_paper_id": "02dd595d29e0938d48cef74d37697ba9dc5c873f",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.foreco.2026.123529",
+          "title": "Burn severity across forest types and burning conditions for forest treatments on the southern rockies Front Range",
+          "year": 2026,
+          "s2_paper_id": "4319d4a8868998f438158b412e8115dc87036388",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.marpolbul.2026.119287",
+          "title": "Environmental and anthropogenic stressors may influence the prevalence of disease-like phenotypes in an intertidal kelp.",
+          "year": 2026,
+          "s2_paper_id": "2e0151b4ed38e7260f2a2344b5b71b5aaf3b4fbb",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.agee.2026.110220",
+          "title": "Natural habitats enhance pollination services in apple and sweet cherry orchards: Evidence from Southern Mediterranean agroecosystems",
+          "year": 2026,
+          "s2_paper_id": "d7c7bf16cc0a210414c2c6c249eb3ea5cdadf0da",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.agee.2026.110259",
+          "title": "Effects of short-term grazing prohibition on methane, nitrous oxide and nitric oxide fluxes from alpine meadows on eastern Tibetan Plateau",
+          "year": 2026,
+          "s2_paper_id": "4a3b68bc7a5abf570da59991bae3b80eca91b7ba",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.agee.2026.110254",
+          "title": "Managed fly pollinators ensure berry crop yields under variable weather conditions",
+          "year": 2026,
+          "s2_paper_id": "51c2036e828f5a47af3d60d08852a8c26ea9082d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.asw.2026.101015",
+          "title": "Associations of adolescents\u2019 argumentative writing scores and growth when evaluated by different human raters and artificial intelligence models",
+          "year": 2026,
+          "s2_paper_id": "7d206c944bd569eb6162cc75bbba144aaaacb90e",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.foreco.2026.123546",
+          "title": "Prolonged drought constrains pine cone production but not its consumption",
+          "year": 2026,
+          "s2_paper_id": "63ba6e80664f1e66a180ae47820a30bdae3f3c4c",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.reia.2026.202830",
+          "title": "Exploring trajectories of anxiety symptoms in autistic and non-autistic youth over adolescence using parent- and self-report measures",
+          "year": 2026,
+          "s2_paper_id": "4c1aad1e78b46ec177d5c773177de8b0dde81e5d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.agee.2026.110255",
+          "title": "Grazing intensity shifts biodiversity drivers of ecosystem multifunctionality in a desert steppe",
+          "year": 2026,
+          "s2_paper_id": "f9459e9d12d83d07a372d101e57ceec90c3964c2",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.foreco.2026.123557",
+          "title": "Can a fundamental change in forest management improve the forest carbon balance of mixed oak forests in Central Europe?",
+          "year": 2026,
+          "s2_paper_id": "76e560b47f7f1f0c253469e3edb1db4ae7c360a7",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.apsoil.2026.106828",
+          "title": "Crown-to-ground: Above- and below-ground links mediated by arboreal ants and host tree modify soil aggregation scaling, infiltration, and chemistry",
+          "year": 2026,
+          "s2_paper_id": "41684f8c646206c013c9cabadd5123c3c0be31d2",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.foreco.2026.123561",
+          "title": "Does forest stand age matters in Mediterranean forests? Bryophyte richness and composition in the endemic Spanish fir woodlands",
+          "year": 2026,
+          "s2_paper_id": "b0fa8a7fd763fc52fd4f797998ea6f13e6cde73b",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.foreco.2026.123567",
+          "title": "Native bee richness increases with wildfire burn severity in ponderosa pine forests",
+          "year": 2026,
+          "s2_paper_id": "9a8ccb8914c971717fd109d3c6724c3e4c901f08",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.foreco.2026.123558",
+          "title": "Ungulate browsing blocks restoration of coniferous European Sand Belt forests into a broadleaved state",
+          "year": 2026,
+          "s2_paper_id": "746b2b63ba275ceb29104813db600ea41a91f4a9",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.fcr.2026.110387",
+          "title": "Four decades of crop improvement decreased specific leaf nitrogen and reshaped canopy trait profiles in maize",
+          "year": 2026,
+          "s2_paper_id": "0e9eb4c3b5934d6d5bf976b520c83005db714a96",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.reia.2026.202844",
+          "title": "Can autism professionals hear the autism diagnosis at a preverbal stage? A first impression study",
+          "year": 2026,
+          "s2_paper_id": "3c4579aabeb9fc2007b310f2c8c1beea8395c7ec",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jml.2026.104747",
+          "title": "Hierarchical relations guide memory retrieval in sentence comprehension: Evidence from a local anaphor in Turkish",
+          "year": 2026,
+          "s2_paper_id": "b770ff6780d25bc2eef565ceca0c0e3a009f18de",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.fcr.2025.110291",
+          "title": "Mixed cropping of narrow-leaved lupin and oat enhances plant health and yield buffering while maintaining protein yield",
+          "year": 2026,
+          "s2_paper_id": "f358112ebe0e62e1ecfae9aac29ff1362e986890",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.iatssr.2026.02.001",
+          "title": "Automatic bicycle balance assistance reduces probability of falling at low speeds when subjected to handlebar perturbations version 5",
+          "year": 2026,
+          "s2_paper_id": "fd53a93f798883fa2aa4c6a77b70eeab9abd594b",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.pragma.2026.01.005",
+          "title": "The intercultural style of refusing by German-English bilinguals",
+          "year": 2026,
+          "s2_paper_id": "91a7ddaffd8c44ef20d5e81b9021dd797f7fdf33",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.catena.2026.109898",
+          "title": "Land-use change alters soil nitrogen supply potential and nitrogen-cycling functional genes on China's Loess Plateau",
+          "year": 2026,
+          "s2_paper_id": "98e7332c1ebe02a48f8cb1e3fc59f7a7c1925893",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.still.2025.106950",
+          "title": "Long-term fertilization-induced increases in glomalin-related soil protein depend on\u00a0phosphorus input and aggregate stability across climatic zones",
+          "year": 2026,
+          "s2_paper_id": "046c0afffe4edaf8e11516ec6f267d95e22a51b4",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "The \u201c lme4 \u201d package in R was used to fit a linear mixed-effects model for the GRSP fertilization effect ( \u0394 GRSP), to assess its response to temperature, precipitation, soil properties, microbial factors, and fertilizer input (Bates et al., 2015)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.fcr.2025.110266",
+          "title": "Wheat seed emergence and grain yield are enhanced by ditch-buried straw return and soil rolling via improving root-soil contact and soil water retention",
+          "year": 2026,
+          "s2_paper_id": "2c4addbb21eee07a28ee79a70fe48223f99eca5f",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.still.2025.106985",
+          "title": "Long-term reduced tillage does not enhance crop yield, soil organic carbon stocks or greenhouse gas mitigation under ambient rainfall and rainfall exclusion in a temperate Luvisol",
+          "year": 2026,
+          "s2_paper_id": "50f73b7fbd572d872c4b00ec61064aa6032e4639",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.agrformet.2025.110942",
+          "title": "Climatic control on soil microbial methane uptake across forest biomes",
+          "year": 2026,
+          "s2_paper_id": "faf433af560c6b372687795752358808b24e2bfb",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.transm.2025.100203",
+          "title": "Personalized continuation therapy with SAINT for maintaining remission in treatment-resistant depression",
+          "year": 2026,
+          "s2_paper_id": "fd5e2f6a69f435ce516f3c8c2f4e591457fa2ede",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.aquaculture.2025.743496",
+          "title": "Functional and structural cardiac remodelling in farmed Atlantic salmon (Salmo salar)",
+          "year": 2026,
+          "s2_paper_id": "6e075589622e94e03114b003a3f1e3a75c3b566b",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.agsy.2025.104609",
+          "title": "Farmer's own decisions outweigh management strategies in reducing pesticide use in apple orchards",
+          "year": 2026,
+          "s2_paper_id": "79336f6bc2219edbcb7e65779dd8005681dcf097",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.stueduc.2025.101552",
+          "title": "Pearls and perils when interpreting item-specific results from international large-scale educational assessments: The case of the \u201cNordic\u201d fractions",
+          "year": 2026,
+          "s2_paper_id": "58a9ff87fd0927c843d523c1958cebf3cbd43c6b",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.soilbio.2025.110065",
+          "title": "Anammox dominated As(V/III) speciation during long-term anaerobic conditions",
+          "year": 2026,
+          "s2_paper_id": "bc5903f43c85032771f0caec97b46652ed1d90e5",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.atech.2025.101727",
+          "title": "Use of an automated walk-over-weighing system to monitor and forecast liveweight in grazing lambs",
+          "year": 2026,
+          "s2_paper_id": "337d2cd18bfe552da6452c62353f9aeda53a2eaa",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.fcr.2025.110292",
+          "title": "What drives yield formation in sugar beet? Quantifying functional components across genotypes and irrigation managements",
+          "year": 2026,
+          "s2_paper_id": "766e898d9e5fa861d6421f973dfea76ae1a0c8d8",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.apacoust.2025.111206",
+          "title": "The effect of ventilation-related sound stimuli on 11\u201314\u00a0years students\u2019 cognition and soundscape assessments",
+          "year": 2026,
+          "s2_paper_id": "0b7d012059b7f641036c6a64ef615dee5690a442",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.foreco.2025.123424",
+          "title": "Fuel treatment effects on fire severity during the Caldor Fire (2021), Lake Tahoe, California, USA",
+          "year": 2026,
+          "s2_paper_id": "d3622092ba9c9b8fc5624abd09cce116cfdba900",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.agrformet.2025.110990",
+          "title": "Intra-annual density fluctuations in Pinus massoniana across subtropical forests in China: Occurrence patterns and triggering factors",
+          "year": 2026,
+          "s2_paper_id": "080efc4234a4cfa33b8eedd14604091ba59cf025",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.foreco.2025.123442",
+          "title": "Continued loss of mangrove carbon stocks six years after a climate impact in SE Brazil",
+          "year": 2026,
+          "s2_paper_id": "36bf8788a22d4a01aed0837a76b17e8cae6301e3",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.gloenvcha.2025.103096",
+          "title": "Who do we trust on climate change, and why?",
+          "year": 2026,
+          "s2_paper_id": "12b33fcb6517792b5ead2a642743f49b4da22536",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ufug.2025.129246",
+          "title": "What factors affect resident perceived biodiversity in urban green spaces: Individual attributes, habitat structure or actual biodiversity\uff1f",
+          "year": 2026,
+          "s2_paper_id": "394354b4f116f11936e980f75c0fc1ed3479e017",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.foreco.2025.123465",
+          "title": "The European beetle of conservation concern, Osmoderma barnabita, as a surrogate species for conserving tree-related microhabitat richness in forests",
+          "year": 2026,
+          "s2_paper_id": "1b15f66a329ebacb2482c69609bc52ece917244a",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.avrs.2025.100335",
+          "title": "Spatiotemporal variation and driving mechanisms of nest predation on Spotted Doves along an urbanization gradient",
+          "year": 2026,
+          "s2_paper_id": "0960ade236dfee79570d763e148bba8de24f5c65",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.actao.2025.104153",
+          "title": "Evaluating biotic interactions in a hard and fragile ecosystem: xerophilous land snails and epilithic cryptogram communities in rocky outcrops",
+          "year": 2026,
+          "s2_paper_id": "dc9f19fcceba5d6a9b8d3b3f98d7e2a885d6dcfc",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.trf.2025.103505",
+          "title": "Guiding drivers' attention to the right place at the right time during transitions from SAE level 2 driving system: Effects of warning directionality and audiovisual asynchrony",
+          "year": 2026,
+          "s2_paper_id": "5a0d8a19ac02f6c51042ee07f58728279c61a61f",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jesp.2025.104870",
+          "title": "Intersectional prejudice in context: Do naturalistic background images moderate implicit bias?",
+          "year": 2026,
+          "s2_paper_id": "d0ebea32436933eff4f223f29eb5cd2591d95609",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.foreco.2025.123468",
+          "title": "Decline in regeneration capacity in mature forests across Great Britain",
+          "year": 2026,
+          "s2_paper_id": "4baf16b9a82b697bad4ea071f5ababf25895fbcb",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.apsoil.2025.106769",
+          "title": "Pharmaceutical-contaminated water irrigation impacts the human pathobiome of soil and alters aphid-endosymbiont dynamics",
+          "year": 2026,
+          "s2_paper_id": "6b640bf88749d23a592da5e66bd42a9032531618",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.foreco.2025.123489",
+          "title": "Savanna restoration on the Cumberland Plateau impacts whole-ecosystem carbon storage and increases biodiversity",
+          "year": 2026,
+          "s2_paper_id": "9893ed40d9757a97f9303570e7ed151c5497507a",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.apsoil.2025.106764",
+          "title": "Ecotoxicological impact of Albendazole and low-density polyethylene microplastics on the collembola Folsomia candida (Willem, 1902)",
+          "year": 2026,
+          "s2_paper_id": "bc76074304c30abcd2f10e1267e7514ae505a1d1",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.evolhumbehav.2025.106820",
+          "title": "Estimates of need, benefit, and personal connection explain monetary transfers to absolute strangers, identifiable needy others, and charitable organizations",
+          "year": 2026,
+          "s2_paper_id": "2e561c462fc8fe30b56ac45d169405eb4aec0217",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.apsoil.2025.106761",
+          "title": "Plant diversity changes the trophic position of Collembola in temperate grassland",
+          "year": 2026,
+          "s2_paper_id": "4e73bbc4edf7e9bcf5b9072075fac2e533d7cfc1",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ejsobi.2026.103803",
+          "title": "Effects of understory degradation induced by sika deer on soil microarthropods in beech forests: comparison between two different climatic conditions",
+          "year": 2026,
+          "s2_paper_id": "0b19768ca37f5a7190d68e7105291f1704ba4a50",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.lingua.2025.104094",
+          "title": "The digital coloring page task for examining comprehension of passives in Mandarin-speaking children with DLD and autistic children",
+          "year": 2026,
+          "s2_paper_id": "6386c270697de925c15d83eb5689b68ee3b0bdbc",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.marenvres.2026.107844",
+          "title": "The influence of algae habitat refuge complexity on juvenile fish growth, condition, and survival under the presence or absence of predators.",
+          "year": 2026,
+          "s2_paper_id": "52bcec03aee88b38234d5e3e4631d959ff8e9062",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jenvp.2026.102903",
+          "title": "Bringing friendship home: Home interactions as a predictor of closer interpersonal relationships",
+          "year": 2026,
+          "s2_paper_id": "f3b9cb22ae5e917f38702687351b999f95b47aab",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.reia.2026.202789",
+          "title": "Sound-symbol correspondence in autism: The Bouba-Kiki effect",
+          "year": 2026,
+          "s2_paper_id": "a2b4886ad5c5def8762c35ad2f6293bda727f4f5",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.envc.2026.101405",
+          "title": "Comparative effects of auditory and visual disturbances on parental care behaviors of smallmouth bass",
+          "year": 2026,
+          "s2_paper_id": "0674a2ab2770bc0b9a77f9916604be14426f9e01",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.apsoil.2026.106787",
+          "title": "Higher density of earthworms (Pheretima guillelmi) enhances soil carbon sequestration and carbon pool management index in a subtropical forest",
+          "year": 2026,
+          "s2_paper_id": "2589c6ab53fbb6ed9624782643f7a0f07f2676b9",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jslw.2026.101282",
+          "title": "Development of syntactic complexity in Chinese EFL learners across two proficiency levels and two written genres",
+          "year": 2026,
+          "s2_paper_id": "ad3228883e1df29fa605bc635ff976c481e8d1e3",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.biocon.2026.111693",
+          "title": "Long-term ecological and economic assessment of COVID-19 travel restrictions on Australia's only white shark cage-diving industry",
+          "year": 2026,
+          "s2_paper_id": "ca4ab64a33c38a65b25a52721310fa083e3000d0",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.4308/hjb.33.3.634-645",
+          "title": "Shifting Root Strategies: Impacts of Forest Conversion on Fine Root Traits in Monoculture Systems",
+          "year": 2026,
+          "s2_paper_id": "cd38228f5981d84df99bbcf1682c3296321bb627",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Models were fitted using the lme4 package (Bates et al. 2015), and fixed-effect significance was assessed with the lmerTest package (Kuznetsova et al. 2017)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.intell.2025.101994",
+          "title": "The good judge of intelligence",
+          "year": 2026,
+          "s2_paper_id": "db147e347589a193c46c18f307698c151dafc13c",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.apsoil.2026.106803",
+          "title": "Succession of litter-decomposing microbial communities differs between canopy and forest floor in subtropical forests",
+          "year": 2026,
+          "s2_paper_id": "44c10228ed88c37335d05cc5502b446e0e993776",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.agrformet.2025.110994",
+          "title": "Reduced precipitation and increased temperature alter soil greenhouse gas fluxes in a Mediterranean forest",
+          "year": 2026,
+          "s2_paper_id": "b4401136e9930f0aed2af47d144a4b64de8f52e4",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.biocon.2026.111702",
+          "title": "Experimental recolonization of secondary forests by a Caribbean anole follows predictions from range expansion theory",
+          "year": 2026,
+          "s2_paper_id": "a8855d8d492194a9b887d64b5cc452172cc8aba9",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.biocon.2026.111714",
+          "title": "Tracking the hidden trade of non-native pet amphibians in the United States",
+          "year": 2026,
+          "s2_paper_id": "e6ec61e1e1fc2ccd5a0bbbcbced50bc29b7b7e12",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jeap.2025.101626",
+          "title": "L1 visual support in L2 academic listening: Implications for the strategic use of L1 on lecture slides in EMI contexts",
+          "year": 2026,
+          "s2_paper_id": "90f1c29608c6925e9752ff62f08ce083a8e235cc",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1187/cbe.25-06-0114",
+          "title": "Teaching Evaluation Readiness Assessment (TERA): Development of a Tool to Measure Faculty Readiness for Advancing Departmental Teaching Evaluation Practices.",
+          "year": 2026,
+          "s2_paper_id": "923283d8ee3b04b7c10a055227f360ceade741e3",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.aqrep.2026.103404",
+          "title": "Target-specific feeding strategies in carp-tilapia polyculture ponds: Effects of feed type and carp size",
+          "year": 2026,
+          "s2_paper_id": "40e1d1319a19a986604e9082919640995149751f",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.biocon.2026.111711",
+          "title": "Timing of attraction to light of nocturnal insects is spectrum and taxon dependent: implications for mitigating light pollution",
+          "year": 2026,
+          "s2_paper_id": "ce71a9139d4285e8dd2ff844fca73fcc0d9e2f23",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.agwat.2025.110108",
+          "title": "Reduced tillage and cover crop effects on soil moisture and infiltration",
+          "year": 2026,
+          "s2_paper_id": "e7cd33a5fd86490df8c272fbde3e3e99f7d3f5f2",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.trf.2026.103533",
+          "title": "Hazard warning lights or pictogram on a display? Investigating drivers' mental workload, behavior, and signal preference while overtaking a robotaxi equipped with rear communication systems during passenger drop-off",
+          "year": 2026,
+          "s2_paper_id": "b6ffda430081ecb3cc74566303551dc6274349a6",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.trf.2026.103530",
+          "title": "Parents' beliefs underlying modal choice in Kids' School trips in mid-sized Czech City",
+          "year": 2026,
+          "s2_paper_id": "ecb6207765609dff04928c54ec3c6807fe12677f",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.stueduc.2026.101560",
+          "title": "Provider versus recipient: Peer feedback roles effect on task performance, perceptions of learning, trust, and epistemic emotions",
+          "year": 2026,
+          "s2_paper_id": "e004acfede9c0a753582669be68dd4cdf48d1d64",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.evolhumbehav.2026.106834",
+          "title": "Early sex differences in sociosexual behavior of wild robust capuchin monkeys: Ontogenetic and evolutionary insights",
+          "year": 2026,
+          "s2_paper_id": "55a42cf92507c61114ed9e8008ca0df3c11c13e5",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.biocon.2026.111728",
+          "title": "Displacement effects on an endangered cinereous vulture population in a landscape of increasing wind power development",
+          "year": 2026,
+          "s2_paper_id": "da0d7ec7b578b0c1329e6512fc17ceb00edb30cf",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.wocn.2026.101473",
+          "title": "Speaking rate effects on Japanese vowel and consonant length contrasts",
+          "year": 2026,
+          "s2_paper_id": "563179ba3edd7fa199e007076e691857f2152b3d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.biocon.2026.111723",
+          "title": "Potential of recording acoustic complexity index to monitor agri-environmental scheme effectiveness in grasslands",
+          "year": 2026,
+          "s2_paper_id": "ed7f59232c32cef0f0ab7ec20818efff8c1de38d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1038/s41598-026-39423-5",
+          "title": "Targeting aggression with prefrontal high-definition transcranial direct current stimulation",
+          "year": 2026,
+          "s2_paper_id": "add614c751f38b0d86338ddc7d88ff76592c14e5",
+          "intents": [],
+          "is_influential": true,
+          "contexts": [
+            "A linear mixed model with random and fixed effect structures was estimated with the R package lme4 version 1.1.36 55 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Design and Evaluation of an Assisted Programming Interface for Behavior Trees in Robotics",
+          "year": 2026,
+          "s2_paper_id": "3e4178ecd318ae7d7d66a904436c8336f6be48a9",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "We performed mixed modeling using the lme4 package in R [74]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/s00221-026-07234-9",
+          "title": "Tuned to walk: cue type, beat perception, and gait dynamics during rhythmic stimulation in aging",
+          "year": 2026,
+          "s2_paper_id": "0a51c74763f79c89ee7c774c0d5619430e7a8b0e",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "To investigate our hypotheses, we applied linear mixed effects analyses to the data using lmerTest (Kuznetsova et al. 2017) with lme4 (Bates et al. 2015)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.2196/82905",
+          "title": "Resilience as a Mediator in a Web-Based Intervention (MINDxYOU) to Reduce Stress Among Health Care Professionals: Stepped-Wedge Cluster Randomized Trial",
+          "year": 2026,
+          "s2_paper_id": "3ee19684c4fe57789b5235672147bfb922927a2f",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "All analyses were performed using R, with the lme4 package for mixed-effects modeling and future.apply for parallel processing [45]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Motivating REML via Prediction-Error Covariances in EM Updates for Linear Mixed Models",
+          "year": 2026,
+          "s2_paper_id": "5a1a3809d11e860017d9a2f70794bb3dc0ab8312",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "To validate the EM algorithm implementation in Appendix B, we compared its output with estimates from lme4 \u2019s lmer() (Bates et al., 2015) using a Gaussian one-way random-effects model with three fixed-effect coefficients (an intercept and two continuous covariates) and a single random-intercept\u2026"
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/s12993-026-00320-6",
+          "title": "Investigating interbrain synchrony under teamwork disruption: an fNIRS hyperscanning study.",
+          "year": 2026,
+          "s2_paper_id": "501a8cff30e5af30d01da1556ab47422849ebd0c",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/s10238-026-02073-y",
+          "title": "Monitoring cancer-related fatigue and quality of life in breast and prostate cancer patients after primary treatment: a study protocol for the REBECCA trials in Norway",
+          "year": 2026,
+          "s2_paper_id": "606881a9662115e74e72d2e099a8e707a604c317",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        }
+      ],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "pdf_url": "https://www.jstatsoft.org/index.php/jss/article/view/v067i01/v67i01.pdf",
+          "host_type": "GOLD",
+          "is_best": false,
+          "source": "semantic_scholar"
+        }
+      ],
+      "best_oa_url": "https://www.jstatsoft.org/index.php/jss/article/view/v067i01/v67i01.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Mathematics",
+          "scheme": "s2_external",
+          "source": "semantic_scholar"
+        },
+        {
+          "value": "Mathematics",
+          "scheme": "s2_s2-fos-model",
+          "source": "semantic_scholar"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "influential_citation_count",
+          "value": 7818.0,
+          "source": "semantic_scholar"
+        }
+      ],
+      "citation_styles": {
+        "bibtex": "@Article{Bates2014FittingLM,\n author = {D. Bates and M. Machler and B. Bolker and Steven C. Walker},\n journal = {Journal of Statistical Software},\n pages = {1-48},\n title = {Fitting Linear Mixed-Effects Models Using lme4},\n volume = {67},\n year = {2014}\n}\n"
+      },
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "Fitting Linear Mixed-Effects Models Using<b>lme4</b>",
+      "publication_date": "2015-01-01",
+      "publication_year": 2015,
+      "work_type": "journal-article",
+      "publisher": "Foundation for Open Access Statistic",
+      "container_title": "Journal of Statistical Software",
+      "issn": [
+        "1548-7660"
+      ],
+      "doi": "10.18637/jss.v067.i01",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://www.jstatsoft.org/index.php/jss/article/view/v067i01/v67i01.pdf",
+          "pdf_url": "https://www.jstatsoft.org/index.php/jss/article/view/v067i01/v67i01.pdf",
+          "landing_page_url": "https://doi.org/10.18637/jss.v067.i01",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.jstatsoft.org/index.php/jss/article/view/v067i01/v67i01.pdf",
+          "pdf_url": "https://www.jstatsoft.org/index.php/jss/article/view/v067i01/v67i01.pdf",
+          "landing_page_url": "https://doi.org/10.18637/jss.v067.i01",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://doaj.org/article/7f279483412348928f01507440b0360d",
+          "landing_page_url": "https://doaj.org/article/7f279483412348928f01507440b0360d",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by-sa",
+          "evidence": "deprecated",
+          "is_best": false,
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://www.jstatsoft.org/index.php/jss/article/view/v067i01/v67i01.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.18637/jss.v067.i01",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openaire": {
+      "source": "openaire",
+      "found": true,
+      "raw": {},
+      "title": "Fitting Linear Mixed-Effects Models Using<b>lme4</b>",
+      "abstract": "(Uploaded by Plazi for the Bat Literature Project) Maximum likelihood or restricted maximum likelihood (REML) estimates of the parameters in linear mixed-effects models can be determined using the lmer function in the lme4 package for R. As for most model-fitting functions in R, the model is described in an lmer call by a formula, in this case including both fixed- and random-effects terms. The formula and data together determine a numerical representation of the model from which the profiled deviance or the profiled REML criterion can be evaluated as a function of some of the model parameters. The appropriate criterion is optimized, using one of the constrained optimization functions in R, to provide the parameter estimates. We describe the structure of the model, the steps in evaluating the profiled deviance or REML criterion, and the structure of classes or types that represents such a model. Sufficient detail is included to allow specialization of these structures by users who wish to write functions to fit specialized linear mixed models, such as models incorporating pedigrees or smoothing splines, that are not easily expressible in the formula language used by lmer.",
+      "publication_date": "2015-01-01",
+      "publication_year": 2015,
+      "work_type": "publication",
+      "language": "eng",
+      "publisher": "Foundation for Open Access Statistic",
+      "issn": [],
+      "doi": "10.18637/jss.v067.i01",
+      "arxiv_id": "1406.5823",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Bates, Douglas",
+            "orcid": "0000-0001-8316-9503",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "M\u00e4chler, Martin; id_orcid0000-0002-8685-9910",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Bolker, Ben",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Walker, Steve",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "citation_count": 67852,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.18637/jss.v067.i01",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://www.jstatsoft.org/index.php/jss/article/view/v067i01/v67i01.pdf",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://dx.doi.org/10.5281/zenodo.13515321",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://dx.doi.org/10.48550/arxiv.1406.5823",
+          "version": "Article",
+          "license": "arXiv Non-Exclusive Distribution",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://dx.doi.org/10.5281/zenodo.13515320",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://dx.doi.org/10.3929/ethz-b-000105397",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://arxiv.org/abs/1406.5823",
+          "version": "Preprint",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doaj.org/article/7f279483412348928f01507440b0360d",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://www.jstatsoft.org/index.php/jss/article/view/v067i01",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://dx.doi.org/10.18637/jss.v067.i01",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://hdl.handle.net/20.500.11850/105397",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "unidentified",
+          "agency": "Natural Sciences and Engineering Research Council of Canada",
+          "title": "unidentified",
+          "pi_names": [],
+          "openaire_project_id": "nserc_______::1e5e62235d094afd01cd56e65112fc63",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "53706",
+          "agency": "UK Research and Innovation",
+          "title": "RootDetect: Remote Detection and Precision Management of Root Health",
+          "pi_names": [],
+          "openaire_project_id": "ukri________::c6c477a7ecc421032cbb009a28f1daf9",
+          "source": "openaire"
+        }
+      ],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "FOS: Computer and information sciences",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "0301 basic medicine",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "0303 health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "Linear mixed models",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Statistics",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "bats",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Penalized least squares",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "bat",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Biodiversity",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "16. Peace & justice",
+          "scheme": "SDG",
+          "source": "openaire"
+        },
+        {
+          "value": "Cholesky decomposition; Linear mixed models; Penalized least squares; Sparse matrix methods",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Statistics - Computation",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "linear mixed models",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "HA1-4737",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "03 medical and health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "Chiroptera",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Mammalia",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Animalia",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "sparse matrix methods",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Sparse matrix methods",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Chordata",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Cholesky decomposition",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Computation (stat.CO)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "penalized least squares",
+          "scheme": "keyword",
+          "source": "openaire"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "bip_citationCount",
+          "value": 67852.0,
+          "class_label": "C1",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_influence",
+          "value": 2.2792613e-06,
+          "class_label": "C1",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_popularity",
+          "value": 3.6737612e-05,
+          "class_label": "C1",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_impulse",
+          "value": 9009.0,
+          "class_label": "C1",
+          "source": "openaire"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [
+        {
+          "grant_id": "unidentified",
+          "agency": "Natural Sciences and Engineering Research Council of Canada",
+          "title": "unidentified",
+          "pi_names": [],
+          "openaire_project_id": "nserc_______::1e5e62235d094afd01cd56e65112fc63",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "53706",
+          "agency": "UK Research and Innovation",
+          "title": "RootDetect: Remote Detection and Precision Management of Root Health",
+          "pi_names": [],
+          "openaire_project_id": "ukri________::c6c477a7ecc421032cbb009a28f1daf9",
+          "source": "openaire"
+        }
+      ],
+      "alternate_ids": [
+        "doi:10.18637/jss.v067.i01",
+        "doi:10.5281/zenodo.13515321",
+        "doi:10.48550/arxiv.1406.5823",
+        "doi:10.5281/zenodo.13515320",
+        "doi:10.3929/ethz-b-000105397",
+        "arXiv:1406.5823",
+        "doi:10.18637/jss.v067.i01",
+        "doi:10.18637/jss.v067.i01",
+        "mag_id:1951724000",
+        "handle:20.500.11850/105397"
+      ],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.18637/jss.v067.i01",
+      "pmid": "19683066",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.18637/jss.v067.i01",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.18637/jss.v067.i01",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.18637/jss.v067.i01",
+      "authors": [
+        {
+          "name": {
+            "given": "Steven",
+            "family": "Walker",
+            "full_name": "Steven Walker",
+            "orcid": "0000-0002-4394-9078",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Douglas",
+            "family": "Bates",
+            "full_name": "Douglas Bates",
+            "orcid": "0000-0001-8316-9503",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Benjamin",
+            "family": "Bolker",
+            "full_name": "Benjamin Bolker",
+            "orcid": "0000-0002-2127-0443",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Martin",
+            "family": "M\u00e4chler",
+            "full_name": "Martin M\u00e4chler",
+            "orcid": "0000-0002-8685-9910",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0002-4394-9078",
+          "given_names": "Steven",
+          "family_names": "Walker",
+          "credit_name": null,
+          "other_names": [
+            "Steve C Walker"
+          ],
+          "institutions": [
+            "McMaster University"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0001-8316-9503",
+          "given_names": "Douglas",
+          "family_names": "Bates",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "American Statistical Association",
+            "Queen's University",
+            "University of Alberta",
+            "University of California Los Angeles",
+            "University of Wisconsin Madison"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-2127-0443",
+          "given_names": "Benjamin",
+          "family_names": "Bolker",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Cambridge University",
+            "McMaster University"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-8685-9910",
+          "given_names": "Martin",
+          "family_names": "M\u00e4chler",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "ETH",
+            "ETH Zurich",
+            "ETH-Bereich Hochschulen",
+            "R Foundation"
+          ],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.18637/jss.v067.i01",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.18637/jss.v067.i01",
+    "pmid": "19683066",
+    "arxiv_id": "1406.5823",
+    "mag_id": "1951724000",
+    "openalex_id": "https://openalex.org/W1951724000",
+    "s2_paper_id": "9b536c7b0f45d4b512f337d0acda09ca3e4cd953",
+    "s2_corpus_id": "88513115",
+    "handles": [
+      "20.500.11850/105397"
+    ],
+    "orcids": [
+      "0000-0001-8316-9503",
+      "0000-0002-2127-0443",
+      "0000-0002-4394-9078",
+      "0000-0002-6838-8334",
+      "0000-0002-8685-9910"
+    ],
+    "ror_ids": [
+      "https://ror.org/01y2jtd41",
+      "https://ror.org/02fa3aq29",
+      "https://ror.org/05a28rw58"
+    ],
+    "grant_ids": [
+      "53706",
+      "unidentified"
+    ],
+    "nct_ids": [],
+    "pmid_source": "nih_reporter"
+  },
+  "conflicts": {
+    "doi": "10.18637/jss.v067.i01",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 69098,
+          "openalex": 80557,
+          "semantic_scholar": 79392,
+          "openaire": 67852
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 0,
+          "openalex": 48,
+          "semantic_scholar": 54
+        },
+        "risk": "low"
+      },
+      {
+        "field": "title",
+        "values": {
+          "crossref": "Fitting Linear Mixed-Effects Models Using<b>lme4</b>",
+          "openalex": "Fitting Linear Mixed-Effects Models Using<b>lme4</b>",
+          "semantic_scholar": "Fitting Linear Mixed-Effects Models Using lme4",
+          "unpaywall": "Fitting Linear Mixed-Effects Models Using<b>lme4</b>",
+          "openaire": "Fitting Linear Mixed-Effects Models Using<b>lme4</b>"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publication_year",
+        "values": {
+          "crossref": 2015,
+          "openalex": 2015,
+          "semantic_scholar": 2014,
+          "unpaywall": 2015,
+          "openaire": 2015
+        },
+        "risk": "low"
+      },
+      {
+        "field": "oa_status",
+        "values": {
+          "openalex": "diamond",
+          "unpaywall": "gold",
+          "openaire": "gold"
+        },
+        "risk": "medium"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article",
+          "openaire": "publication"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Foundation for Open Access Statistic",
+          "openalex": "https://openalex.org/P4310315759",
+          "unpaywall": "Foundation for Open Access Statistic",
+          "openaire": "Foundation for Open Access Statistic"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "openaire": "eng"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 1,
+    "conflict_count": 8
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {
+      "doi": "10.18637/jss.v067.i01",
+      "citation_comparison": {
+        "values": {
+          "crossref": 69098,
+          "openalex": 80557,
+          "semantic_scholar": 79392,
+          "openaire": 67852
+        },
+        "min": 67852,
+        "max": 80557,
+        "spread": 12705,
+        "median": 79392
+      },
+      "fwci": 3623.88953598,
+      "citation_percentile": 1.0,
+      "influential_citation_count": 7818,
+      "influential_ratio": 0.098,
+      "bip_influence": 2.2792613e-06,
+      "bip_influence_class": "C1",
+      "bip_popularity": 3.6737612e-05,
+      "bip_popularity_class": "C1",
+      "bip_impulse": 9009.0,
+      "bip_impulse_class": "C1",
+      "citation_trend": [
+        {
+          "year": 2012,
+          "count": 23
+        },
+        {
+          "year": 2013,
+          "count": 19
+        },
+        {
+          "year": 2014,
+          "count": 49
+        },
+        {
+          "year": 2015,
+          "count": 403
+        },
+        {
+          "year": 2016,
+          "count": 1916
+        },
+        {
+          "year": 2017,
+          "count": 3778
+        },
+        {
+          "year": 2018,
+          "count": 5426
+        },
+        {
+          "year": 2019,
+          "count": 6933
+        },
+        {
+          "year": 2020,
+          "count": 8603
+        },
+        {
+          "year": 2021,
+          "count": 10447
+        },
+        {
+          "year": 2022,
+          "count": 9389
+        },
+        {
+          "year": 2023,
+          "count": 9827
+        },
+        {
+          "year": 2024,
+          "count": 10872
+        },
+        {
+          "year": 2025,
+          "count": 11642
+        },
+        {
+          "year": 2026,
+          "count": 1158
+        }
+      ],
+      "trend_direction": "declining",
+      "dataset_reuse_count": 0,
+      "narrative": "Cited ~79392 times across sources. FWCI 3623.9x field average. 9% of citations are influential (S2), well above typical ~2%. Citation trend: declining."
+    },
+    "funding": {
+      "doi": "10.18637/jss.v067.i01",
+      "total_funders": 2,
+      "total_grants": 2,
+      "entries": [
+        {
+          "grant_id": "unidentified",
+          "funder_name": "Natural Sciences and Engineering Research Council of Canada",
+          "award_numbers": [],
+          "title": "unidentified",
+          "pi_names": [],
+          "openaire_project_id": "nserc_______::1e5e62235d094afd01cd56e65112fc63",
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "grant_id": "53706",
+          "funder_name": "UK Research and Innovation",
+          "award_numbers": [],
+          "title": "RootDetect: Remote Detection and Precision Management of Root Health",
+          "pi_names": [],
+          "openaire_project_id": "ukri________::c6c477a7ecc421032cbb009a28f1daf9",
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "nih_grants": [],
+      "eu_grants": [],
+      "other_grants": [
+        {
+          "grant_id": "unidentified",
+          "funder_name": "Natural Sciences and Engineering Research Council of Canada",
+          "award_numbers": [],
+          "title": "unidentified",
+          "pi_names": [],
+          "openaire_project_id": "nserc_______::1e5e62235d094afd01cd56e65112fc63",
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "grant_id": "53706",
+          "funder_name": "UK Research and Innovation",
+          "award_numbers": [],
+          "title": "RootDetect: Remote Detection and Precision Management of Root Health",
+          "pi_names": [],
+          "openaire_project_id": "ukri________::c6c477a7ecc421032cbb009a28f1daf9",
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "funding_agencies": [
+        "Natural Sciences and Engineering Research Council of Canada",
+        "UK Research and Innovation"
+      ],
+      "narrative": "Funded by 2 agencies across 2 grants."
+    },
+    "dataset_reuse": {
+      "doi": "10.18637/jss.v067.i01",
+      "datacite_linked_datasets": [],
+      "datacite_linked_count": 0,
+      "publishers_breakdown": {},
+      "supplements_to": [],
+      "supplemented_by": [],
+      "cites": [],
+      "cited_by": [],
+      "derived_from": [],
+      "source_of": [],
+      "parts": [],
+      "other_relations": [],
+      "related_software": [],
+      "related_data": [],
+      "file_count": 0,
+      "file_types": [],
+      "narrative": "No dataset reuse information found."
+    },
+    "authors": {
+      "doi": "10.18637/jss.v067.i01",
+      "authors": [
+        {
+          "given": "Douglas",
+          "family": "Bates",
+          "full_name": "Douglas M. Bates",
+          "orcid": "0000-0001-8316-9503",
+          "authenticated_orcid": false,
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5018754372",
+          "affiliations": [
+            {
+              "name": "University of Wisconsin\u2013Madison",
+              "ror_id": "https://ror.org/01y2jtd41",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex",
+            "openaire",
+            "orcid",
+            "crossref"
+          ],
+          "name_variants": [
+            "Bates, Douglas",
+            "Douglas Bates",
+            "Douglas M. Bates"
+          ]
+        },
+        {
+          "given": "Martin",
+          "family": "M\u00e4chler",
+          "full_name": "Martin M\u00e4chler",
+          "orcid": "0000-0002-8685-9910",
+          "authenticated_orcid": false,
+          "openalex_author_id": "https://openalex.org/A5041484206",
+          "affiliations": [
+            {
+              "name": "ETH Zurich",
+              "ror_id": "https://ror.org/05a28rw58",
+              "country_code": "CH",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex",
+            "orcid",
+            "crossref"
+          ],
+          "name_variants": [
+            "Martin M\u00e4chler"
+          ]
+        },
+        {
+          "given": "Benjamin",
+          "family": "Bolker",
+          "full_name": "Benjamin M. Bolker",
+          "orcid": "0000-0002-2127-0443",
+          "authenticated_orcid": false,
+          "openalex_author_id": "https://openalex.org/A5021063042",
+          "affiliations": [
+            {
+              "name": "McMaster University",
+              "ror_id": "https://ror.org/02fa3aq29",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex",
+            "orcid"
+          ],
+          "name_variants": [
+            "Benjamin Bolker",
+            "Benjamin M. Bolker"
+          ]
+        },
+        {
+          "full_name": "Steve Walker",
+          "orcid": "0000-0002-6838-8334",
+          "authenticated_orcid": false,
+          "openalex_author_id": "https://openalex.org/A5043596018",
+          "affiliations": [
+            {
+              "name": "McMaster University",
+              "ror_id": "https://ror.org/02fa3aq29",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": [
+            "Steve Walker"
+          ]
+        },
+        {
+          "given": "Steven",
+          "family": "Walker",
+          "full_name": "Steven Walker",
+          "orcid": "0000-0002-4394-9078",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ],
+          "name_variants": [
+            "Steven Walker"
+          ]
+        },
+        {
+          "given": "Ben",
+          "family": "Bolker",
+          "full_name": "Ben Bolker",
+          "authenticated_orcid": false,
+          "sequence": "additional",
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Steve",
+          "family": "Walker",
+          "full_name": "Steve Walker",
+          "authenticated_orcid": false,
+          "sequence": "additional",
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "D. Bates",
+          "authenticated_orcid": false,
+          "s2_author_id": "2437910",
+          "affiliations": [],
+          "sources": [
+            "semantic_scholar"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "M. Machler",
+          "authenticated_orcid": false,
+          "s2_author_id": "89498223",
+          "affiliations": [],
+          "sources": [
+            "semantic_scholar"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "B. Bolker",
+          "authenticated_orcid": false,
+          "s2_author_id": "2254255",
+          "affiliations": [],
+          "sources": [
+            "semantic_scholar"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Steven C. Walker",
+          "authenticated_orcid": false,
+          "s2_author_id": "48872062",
+          "affiliations": [],
+          "sources": [
+            "semantic_scholar"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "M\u00e4chler, Martin; id_orcid0000-0002-8685-9910",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Bolker, Ben",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Walker, Steve",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ],
+          "name_variants": []
+        }
+      ],
+      "total_authors": 18,
+      "authors_with_orcid": 5,
+      "authors_with_authenticated_orcid": 0,
+      "unique_institutions": [
+        "ETH Zurich",
+        "McMaster University",
+        "University of Wisconsin\u2013Madison"
+      ],
+      "unique_countries": [
+        "CA",
+        "CH",
+        "US"
+      ],
+      "orcid_coverage": 0.278,
+      "author_count_by_source": {
+        "crossref": 4,
+        "openalex": 4,
+        "semantic_scholar": 4,
+        "unpaywall": 4,
+        "openaire": 4,
+        "orcid": 4
+      },
+      "narrative": "18 unique authors across 6 sources. 5 have ORCID (27% coverage). 3 institutions. Spanning 3 countries (CA, CH, US). 3 authors confirmed by multiple sources."
+    },
+    "grant_siblings": {
+      "doi": "10.18637/jss.v067.i01",
+      "grants_with_siblings": [
+        {
+          "grant_id": "unidentified",
+          "agency": "Natural Sciences and Engineering Research Council of Canada",
+          "title": "unidentified",
+          "pi_names": [],
+          "sibling_pmid_count": 0,
+          "sibling_pmids": [],
+          "openaire_project_id": "nserc_______::1e5e62235d094afd01cd56e65112fc63",
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "grant_id": "53706",
+          "agency": "UK Research and Innovation",
+          "title": "RootDetect: Remote Detection and Precision Management of Root Health",
+          "pi_names": [],
+          "sibling_pmid_count": 0,
+          "sibling_pmids": [],
+          "openaire_project_id": "ukri________::c6c477a7ecc421032cbb009a28f1daf9",
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "total_sibling_pmids": 0,
+      "unique_sibling_pmids": 0,
+      "most_prolific_count": 0,
+      "multi_grant_pmids": 0,
+      "narrative": "2 grants identified but no sibling publication data available."
+    },
+    "oa_audit": {
+      "doi": "10.18637/jss.v067.i01",
+      "source_claims": [
+        {
+          "source": "openalex",
+          "is_oa": true,
+          "oa_status": "diamond",
+          "best_url": "https://www.jstatsoft.org/index.php/jss/article/view/v067i01/v67i01.pdf",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "host_type": "journal"
+        },
+        {
+          "source": "semantic_scholar",
+          "is_oa": true,
+          "best_url": "https://www.jstatsoft.org/index.php/jss/article/view/v067i01/v67i01.pdf",
+          "host_type": "GOLD"
+        },
+        {
+          "source": "unpaywall",
+          "is_oa": true,
+          "oa_status": "gold",
+          "best_url": "https://www.jstatsoft.org/index.php/jss/article/view/v067i01/v67i01.pdf",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "host_type": "publisher",
+          "evidence": "deprecated"
+        },
+        {
+          "source": "openaire",
+          "oa_status": "gold",
+          "version": "Article"
+        }
+      ],
+      "consensus_is_oa": true,
+      "consensus_status": "gold",
+      "status_agrees": false,
+      "all_locations": [
+        {
+          "url": "https://doi.org/10.18637/jss.v067.i01",
+          "pdf_url": "https://www.jstatsoft.org/index.php/jss/article/view/v067i01/v67i01.pdf",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "repository": "https://openalex.org/P4310315759",
+          "is_best": true,
+          "sources": [
+            "openalex",
+            "openaire"
+          ]
+        },
+        {
+          "url": "https://doaj.org/article/7f279483412348928f01507440b0360d",
+          "host_type": "journal",
+          "version": "submittedVersion",
+          "license": "cc-by-sa",
+          "is_best": false,
+          "sources": [
+            "openalex",
+            "unpaywall",
+            "openaire"
+          ]
+        },
+        {
+          "url": "https://www.jstatsoft.org/index.php/jss/article/view/v067i01/v67i01.pdf",
+          "pdf_url": "https://www.jstatsoft.org/index.php/jss/article/view/v067i01/v67i01.pdf",
+          "host_type": "GOLD",
+          "is_best": false,
+          "sources": [
+            "semantic_scholar",
+            "unpaywall",
+            "openaire"
+          ]
+        },
+        {
+          "url": "https://dx.doi.org/10.5281/zenodo.13515321",
+          "version": "Article",
+          "is_best": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "url": "https://dx.doi.org/10.48550/arxiv.1406.5823",
+          "version": "Article",
+          "license": "arXiv Non-Exclusive Distribution",
+          "is_best": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "url": "https://dx.doi.org/10.5281/zenodo.13515320",
+          "version": "Article",
+          "is_best": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "url": "https://dx.doi.org/10.3929/ethz-b-000105397",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "url": "http://arxiv.org/abs/1406.5823",
+          "version": "Preprint",
+          "is_best": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "url": "https://www.jstatsoft.org/index.php/jss/article/view/v067i01",
+          "version": "Article",
+          "is_best": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "url": "https://dx.doi.org/10.18637/jss.v067.i01",
+          "version": "Article",
+          "is_best": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "url": "http://hdl.handle.net/20.500.11850/105397",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "total_locations": 11,
+      "has_publisher_version": true,
+      "has_accepted_manuscript": false,
+      "has_repository_copy": false,
+      "licenses_found": [
+        "CC BY",
+        "arXiv Non-Exclusive Distribution",
+        "cc-by",
+        "cc-by-sa"
+      ],
+      "status_conflict": true,
+      "conflicting_statuses": {
+        "openalex": "diamond",
+        "unpaywall": "gold",
+        "openaire": "gold"
+      },
+      "narrative": "Open Access (gold). Status disagrees across sources (openalex: diamond, unpaywall: gold, openaire: gold). 11 unique OA locations found. Publisher version available. 3 locations confirmed by multiple sources. Licenses: CC BY, arXiv Non-Exclusive Distribution, cc-by, cc-by-sa."
+    },
+    "topics": {
+      "doi": "10.18637/jss.v067.i01",
+      "fields_of_study": [
+        {
+          "value": "Data Analysis with R",
+          "scheme": "openalex_topic",
+          "score": 0.9905999898910522,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Statistical Methods and Bayesian Inference",
+          "scheme": "openalex_topic",
+          "score": 0.9732000231742859,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Mental Health Research Topics",
+          "scheme": "openalex_topic",
+          "score": 0.9253000020980835,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Mathematics",
+          "scheme": "s2_external",
+          "is_major": false,
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "value": "0301 basic medicine",
+          "scheme": "FOS",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "value": "0303 health sciences",
+          "scheme": "FOS",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "value": "03 medical and health sciences",
+          "scheme": "FOS",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "value": "Restricted maximum likelihood",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Deviance (statistics)",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Mixed model",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Smoothing",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Applied mathematics",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Likelihood function",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Mathematics",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Generalized linear model",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Linear model",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Maximum likelihood",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Generalized linear mixed model",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Covariate",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Algorithm",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Statistics",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex",
+            "openaire"
+          ]
+        },
+        {
+          "value": "Mathematical optimization",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Computer science",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "FOS: Computer and information sciences",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "value": "Linear mixed models",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "value": "bats",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "value": "Penalized least squares",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "value": "bat",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "value": "Biodiversity",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "value": "Cholesky decomposition; Linear mixed models; Penalized least squares; Sparse matrix methods",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "value": "Statistics - Computation",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "value": "HA1-4737",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "value": "Chiroptera",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "value": "Mammalia",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "value": "Animalia",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "value": "sparse matrix methods",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "value": "Chordata",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "value": "Cholesky decomposition",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "value": "Computation (stat.CO)",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "sdg_mappings": [
+        {
+          "sdg_number": 16,
+          "sdg_label": "16. Peace & justice",
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "openalex_concepts": [
+        {
+          "value": "Applied mathematics",
+          "scheme": "openalex_concept",
+          "score": 0.5896173715591431,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Algorithm",
+          "scheme": "openalex_concept",
+          "score": 0.4247533082962036,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Statistics",
+          "scheme": "openalex_concept",
+          "score": 0.37279438972473145,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Mathematical optimization",
+          "scheme": "openalex_concept",
+          "score": 0.36725032329559326,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Deviance (statistics)",
+          "scheme": "openalex_concept",
+          "score": 0.82362961769104,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Mixed model",
+          "scheme": "openalex_concept",
+          "score": 0.6247803568840027,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Smoothing",
+          "scheme": "openalex_concept",
+          "score": 0.5928418040275574,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Generalized linear model",
+          "scheme": "openalex_concept",
+          "score": 0.5608007311820984,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Linear model",
+          "scheme": "openalex_concept",
+          "score": 0.518374502658844,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Maximum likelihood",
+          "scheme": "openalex_concept",
+          "score": 0.4974828064441681,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Generalized linear mixed model",
+          "scheme": "openalex_concept",
+          "score": 0.4966593384742737,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Covariate",
+          "scheme": "openalex_concept",
+          "score": 0.4778599143028259,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Restricted maximum likelihood",
+          "scheme": "openalex_concept",
+          "score": 0.8522703647613525,
+          "level": 3,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Likelihood function",
+          "scheme": "openalex_concept",
+          "score": 0.5652657151222229,
+          "level": 3,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Mathematics",
+          "scheme": "openalex_concept",
+          "score": 0.5637896060943604,
+          "level": 0,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.3670958876609802,
+          "level": 0,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "s2_fields": [],
+      "asjc_subjects": [],
+      "all_topics_flat": [
+        "03 medical and health sciences",
+        "0301 basic medicine",
+        "0303 health sciences",
+        "Algorithm",
+        "Animalia",
+        "Applied mathematics",
+        "Biodiversity",
+        "Chiroptera",
+        "Cholesky decomposition",
+        "Cholesky decomposition; Linear mixed models; Penalized least squares; Sparse matrix methods",
+        "Chordata",
+        "Computation (stat.CO)",
+        "Computer science",
+        "Covariate",
+        "Data Analysis with R",
+        "Deviance (statistics)",
+        "FOS: Computer and information sciences",
+        "Generalized linear mixed model",
+        "Generalized linear model",
+        "HA1-4737",
+        "Likelihood function",
+        "Linear mixed models",
+        "Linear model",
+        "Mammalia",
+        "Mathematical optimization",
+        "Mathematics",
+        "Maximum likelihood",
+        "Mental Health Research Topics",
+        "Mixed model",
+        "Penalized least squares",
+        "Restricted maximum likelihood",
+        "Smoothing",
+        "Statistical Methods and Bayesian Inference",
+        "Statistics",
+        "Statistics - Computation",
+        "bat",
+        "bats",
+        "sparse matrix methods"
+      ],
+      "vocabulary_count": 6,
+      "topics_by_vocabulary": {
+        "openalex_topic": 1,
+        "OpenAlex_Concepts": 1,
+        "Keywords": 2,
+        "s2_external": 1,
+        "FOS": 2,
+        "SDG": 1
+      },
+      "narrative": "Classified in 6 vocabularies. Fields of study: Data Analysis with R, Statistical Methods and Bayesian Inference, Mental Health Research Topics. SDG alignment: 16. Peace & justice. Broad concepts: Applied mathematics, Algorithm, Statistics. 32 unique keywords. 1 topics confirmed by multiple sources."
+    }
+  },
+  "discrepancy_report": {
+    "doi": "10.18637/jss.v067.i01",
+    "sources_queried": 11,
+    "sources_found": 7,
+    "sources_not_found": 5,
+    "sources_errored": 0,
+    "total_discrepancies": 7,
+    "high_risk_count": 0,
+    "medium_risk_count": 1,
+    "low_risk_count": 6,
+    "data_completeness_score": 0.875,
+    "source_coverage": [
+      {
+        "source": "crossref",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "datacite",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "openalex",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": false,
+        "has_subjects": true,
+        "has_related_works": false
+      },
+      {
+        "source": "semantic_scholar",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": false,
+        "has_subjects": true,
+        "has_related_works": false
+      },
+      {
+        "source": "unpaywall",
+        "found": true,
+        "has_title": true,
+        "has_citations": false,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "europe_pmc",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "openaire",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": true,
+        "has_subjects": true,
+        "has_related_works": false
+      },
+      {
+        "source": "nih_reporter",
+        "found": true,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "zenodo",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "dryad",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "orcid",
+        "found": true,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": true,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "entrez",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      }
+    ],
+    "scalar_discrepancies": [
+      {
+        "field": "title",
+        "values": {
+          "crossref": "Fitting Linear Mixed-Effects Models Using<b>lme4</b>",
+          "openalex": "Fitting Linear Mixed-Effects Models Using<b>lme4</b>",
+          "semantic_scholar": "Fitting Linear Mixed-Effects Models Using lme4",
+          "unpaywall": "Fitting Linear Mixed-Effects Models Using<b>lme4</b>",
+          "openaire": "Fitting Linear Mixed-Effects Models Using<b>lme4</b>"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publication_year",
+        "values": {
+          "crossref": 2015,
+          "openalex": 2015,
+          "semantic_scholar": 2014,
+          "unpaywall": 2015,
+          "openaire": 2015
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article",
+          "openaire": "publication"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Foundation for Open Access Statistic",
+          "openalex": "https://openalex.org/P4310315759",
+          "unpaywall": "Foundation for Open Access Statistic",
+          "openaire": "Foundation for Open Access Statistic"
+        },
+        "risk": "low"
+      }
+    ],
+    "citations": {
+      "counts_by_source": {
+        "crossref": 69098,
+        "openalex": 80557,
+        "semantic_scholar": 79392,
+        "openaire": 67852
+      },
+      "min_count": 67852,
+      "max_count": 80557,
+      "median_count": 74245,
+      "spread": 12705,
+      "spread_pct": 15.8,
+      "divergence_level": "low",
+      "outlier_sources": []
+    },
+    "oa_status": {
+      "is_oa_by_source": {
+        "openalex": true,
+        "semantic_scholar": true,
+        "unpaywall": true
+      },
+      "status_by_source": {
+        "openalex": "diamond",
+        "unpaywall": "gold",
+        "openaire": "gold"
+      },
+      "is_oa_agrees": true,
+      "status_agrees": false,
+      "consensus_is_oa": true,
+      "consensus_status": "gold",
+      "unique_oa_urls": 11,
+      "sources_only_in": {
+        "openaire": [
+          "https://dx.doi.org/10.5281/zenodo.13515321",
+          "https://dx.doi.org/10.48550/arxiv.1406.5823",
+          "https://dx.doi.org/10.5281/zenodo.13515320",
+          "https://dx.doi.org/10.3929/ethz-b-000105397",
+          "http://arxiv.org/abs/1406.5823",
+          "https://www.jstatsoft.org/index.php/jss/article/view/v067i01",
+          "https://dx.doi.org/10.18637/jss.v067.i01",
+          "http://hdl.handle.net/20.500.11850/105397"
+        ]
+      }
+    },
+    "authors": {
+      "count_by_source": {
+        "crossref": 4,
+        "openalex": 4,
+        "semantic_scholar": 4,
+        "unpaywall": 4,
+        "openaire": 4,
+        "orcid": 4
+      },
+      "count_agrees": true,
+      "min_count": 4,
+      "max_count": 4,
+      "orcid_coverage": 0.278,
+      "sources_missing_orcids": [
+        "crossref",
+        "semantic_scholar",
+        "unpaywall"
+      ],
+      "name_variant_examples": [
+        "Bates, Douglas / Douglas Bates",
+        "Benjamin Bolker / Benjamin M. Bolker"
+      ]
+    },
+    "funding": {
+      "grant_count_by_source": {
+        "openaire": 4
+      },
+      "total_unique_grants": 2,
+      "grants_single_source": 2,
+      "grants_multi_source": 0,
+      "sources_with_no_funding": [
+        "crossref",
+        "openalex",
+        "semantic_scholar",
+        "unpaywall",
+        "nih_reporter",
+        "orcid"
+      ],
+      "sources_with_funding": [
+        "openaire"
+      ]
+    },
+    "references": {
+      "count_by_source": {
+        "crossref": 0,
+        "openalex": 48,
+        "semantic_scholar": 54
+      },
+      "count_agrees": false,
+      "min_count": 0,
+      "max_count": 54
+    },
+    "topics": {
+      "vocabulary_count": 6,
+      "topics_by_source": {
+        "openalex": 35,
+        "semantic_scholar": 2,
+        "openaire": 24
+      },
+      "multi_source_topics": 1,
+      "single_source_topics": 38
+    },
+    "related_works": {
+      "related_count_by_source": {},
+      "datacite_reverse_count": 0,
+      "software_links": 0,
+      "data_links": 0,
+      "has_version_chain": false
+    },
+    "narrative": "7 of 12 sources returned data. Data completeness: 87% of key fields have 2+ source coverage. CITATIONS: 67,852\u201380,557 across 4 sources (low divergence, 16% spread). OA STATUS CONFLICT: openalex: diamond, unpaywall: gold, openaire: gold. 8 OA URLs found by only one source. Name variants detected: Bates, Douglas / Douglas Bates; Benjamin Bolker / Benjamin M. Bolker. FUNDING: 2 unique grants \u2014 0 confirmed by multiple sources, 2 from single source only. REFERENCES: 0\u201354 across sources. TITLE DIFFERS: crossref: Fitting Linear Mixed-Effects Models Using<b>lme4</b>, openalex: Fitting Linear Mixed-Effects Models Using<b>lme4</b>, semantic_scholar: Fitting Linear Mixed-Effects Models Using lme4, unpaywall: Fitting Linear Mixed-Effects Models Using<b>lme4</b>, openaire: Fitting Linear Mixed-Effects Models Using<b>lme4</b>. PUBLICATION_YEAR DIFFERS: crossref: 2015, openalex: 2015, semantic_scholar: 2014, unpaywall: 2015, openaire: 2015. WORK_TYPE DIFFERS: crossref: journal-article, openalex: article, unpaywall: journal-article, openaire: publication. PUBLISHER DIFFERS: crossref: Foundation for Open Access Statistic, openalex: https://openalex.org/P4310315759, unpaywall: Foundation for Open Access Statistic, openaire: Foundation for Open Access Statistic. Total: 7 discrepancies (0 high, 1 medium, 6 low risk)."
+  },
+  "_benchmark": {
+    "doi": "10.18637/jss.v067.i01",
+    "fetched_at": "2026-02-11T13:24:49.555580+00:00"
+  }
+}

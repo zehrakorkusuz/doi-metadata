@@ -1,0 +1,3746 @@
+{
+  "doi": "10.1371/journal.pcbi.1010851",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T20:47:05.137909Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "End-to-end sequence-structure-function meta-learning predicts genome-wide chemical-protein interactions for dark proteins",
+      "abstract": "<jats:p>Systematically discovering protein-ligand interactions across the entire human and pathogen genomes is critical in chemical genomics, protein function prediction, drug discovery, and many other areas. However, more than 90% of gene families remain \u201cdark\u201d\u2014i.e., their small-molecule ligands are undiscovered due to experimental limitations or human/historical biases. Existing computational approaches typically fail when the dark protein differs from those with known ligands. To address this challenge, we have developed a deep learning framework, called PortalCG, which consists of four novel components: (i) a 3-dimensional ligand binding site enhanced sequence pre-training strategy to encode the evolutionary links between ligand-binding sites across gene families; (ii) an end-to-end pretraining-fine-tuning strategy to reduce the impact of inaccuracy of predicted structures on function predictions by recognizing the sequence-structure-function paradigm; (iii) a new out-of-cluster meta-learning algorithm that extracts and accumulates information learned from predicting ligands of distinct gene families (meta-data) and applies the meta-data to a dark gene family; and (iv) a stress model selection step, using different gene families in the test data from those in the training and development data sets to facilitate model deployment in a real-world scenario. In extensive and rigorous benchmark experiments, PortalCG considerably outperformed state-of-the-art techniques of machine learning and protein-ligand docking when applied to dark gene families, and demonstrated its generalization power for target identifications and compound screenings under out-of-distribution (OOD) scenarios. Furthermore, in an external validation for the multi-target compound screening, the performance of PortalCG surpassed the rational design from medicinal chemists. Our results also suggest that a differentiable sequence-structure-function deep learning framework, where protein structural information serves as an intermediate layer, could be superior to conventional methodology where predicted protein structures were used for the compound screening. We applied PortalCG to two case studies to exemplify its potential in drug discovery: designing selective dual-antagonists of dopamine receptors for the treatment of opioid use disorder (OUD), and illuminating the understudied human genome for target diseases that do not yet have effective and safe therapeutics. Our results suggested that PortalCG is a viable solution to the OOD problem in exploring understudied regions of protein functional space.</jats:p>",
+      "publication_date": "2023-01-18",
+      "publication_year": 2023,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Public Library of Science (PLoS)",
+      "container_title": "PLOS Computational Biology",
+      "volume": "19",
+      "issue": "1",
+      "pages": "e1010851",
+      "issn": [
+        "1553-7358"
+      ],
+      "doi": "10.1371/journal.pcbi.1010851",
+      "authors": [
+        {
+          "name": {
+            "given": "Tian",
+            "family": "Cai",
+            "full_name": "Tian Cai",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Li",
+            "family": "Xie",
+            "full_name": "Li Xie",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Shuo",
+            "family": "Zhang",
+            "full_name": "Shuo Zhang",
+            "sequence": "additional",
+            "orcid": "0000-0001-9497-6263",
+            "authenticated_orcid": true,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Muge",
+            "family": "Chen",
+            "full_name": "Muge Chen",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Di",
+            "family": "He",
+            "full_name": "Di He",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Amitesh",
+            "family": "Badkul",
+            "full_name": "Amitesh Badkul",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Yang",
+            "family": "Liu",
+            "full_name": "Yang Liu",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Hari Krishna",
+            "family": "Namballa",
+            "full_name": "Hari Krishna Namballa",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michael",
+            "family": "Dorogan",
+            "full_name": "Michael Dorogan",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Wayne W.",
+            "family": "Harding",
+            "full_name": "Wayne W. Harding",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Cameron",
+            "family": "Mura",
+            "full_name": "Cameron Mura",
+            "sequence": "additional",
+            "orcid": "0000-0001-7985-2561",
+            "authenticated_orcid": true,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Philip E.",
+            "family": "Bourne",
+            "full_name": "Philip E. Bourne",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Lei",
+            "family": "Xie",
+            "full_name": "Lei Xie",
+            "sequence": "additional",
+            "orcid": "0000-0001-9051-2111",
+            "authenticated_orcid": true,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 18,
+      "reference_count": 62,
+      "references": [
+        {
+          "doi": "10.1021/acs.jcim.0c01285",
+          "title": "MSA-Regularized Protein Sequence Transformer toward Predicting Genome-Wide Chemical-Protein Interactions: Application to GPCRome Deorphanization",
+          "year": 2021,
+          "author": "T Cai",
+          "key": "pcbi.1010851.ref001",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s43018-020-00169-2",
+          "title": "Few-shot learning creates predictive models of drug response that translate from high-throughput screens to individual patients",
+          "year": 2021,
+          "author": "J Ma",
+          "key": "pcbi.1010851.ref002",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "A context-aware deconfounding autoencoder for robust prediction of personalized clinical drug response from cell-line compound screening",
+          "year": 2022,
+          "author": "D He",
+          "key": "pcbi.1010851.ref003",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41467-021-21511-x",
+          "title": "Improved protein structure refinement guided by deep learning based accuracy estimation",
+          "year": 2021,
+          "author": "N Hiranuma",
+          "key": "pcbi.1010851.ref004",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Highly accurate protein structure prediction with AlphaFold",
+          "year": 2021,
+          "author": "J Jumper",
+          "key": "pcbi.1010851.ref005",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Accurate prediction of protein structures and interactions using a 3-track network",
+          "year": 2021,
+          "author": "M Baek",
+          "key": "pcbi.1010851.ref006",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Identifying cell types from single-cell data based on similarities and dissimilarities between cells",
+          "year": 2021,
+          "author": "Y Li",
+          "key": "pcbi.1010851.ref007",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/JPROC.2021.3058954",
+          "title": "Toward causal representation learning",
+          "year": 2021,
+          "author": "B Sch\u00f6lkopf",
+          "key": "pcbi.1010851.ref008",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Chen W, Yu Z, Wang Z, Anandkumar A. Automated synthetic-to-real generalization. In: International Conference on Machine Learning. PMLR; 2020. p. 1746\u20131756.",
+          "key": "pcbi.1010851.ref009",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Lan Z, Chen M, Goodman S, Gimpel K, Sharma P, Soricut R. Albert: A lite bert for self-supervised learning of language representations. arXiv preprint arXiv:190911942. 2019;.",
+          "key": "pcbi.1010851.ref010",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks",
+          "year": 2017,
+          "author": "C Finn",
+          "key": "pcbi.1010851.ref011",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Meta-Learning in Neural Networks: A Survey",
+          "year": 2020,
+          "author": "TM Hospedales",
+          "key": "pcbi.1010851.ref012",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/s00335-019-09809-0",
+          "title": "Exploring the dark genome: implications for precision medicine",
+          "year": 2019,
+          "author": "TI Oprea",
+          "key": "pcbi.1010851.ref013",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Understudied proteins: opportunities and challenges for functional proteomics",
+          "year": 2022,
+          "author": "G Kustatscher",
+          "key": "pcbi.1010851.ref014",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "An open invitation to the Understudied Proteins Initiative",
+          "year": 2022,
+          "author": "G Kustatscher",
+          "key": "pcbi.1010851.ref015",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1146/annurev-pharmtox-010611-134630",
+          "title": "Novel computational approaches to polypharmacology as a means to define responses to individual drugs",
+          "year": 2012,
+          "author": "L Xie",
+          "key": "pcbi.1010851.ref016",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "The DisGeNET knowledge platform for disease genomics: 2019 update",
+          "year": 2020,
+          "author": "J Pi\u00f1ero",
+          "key": "pcbi.1010851.ref017",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btz111",
+          "title": "DeepAffinity: interpretable deep learning of compound\u2013protein affinity through unified recurrent and convolutional neural networks",
+          "year": 2019,
+          "author": "M Karimi",
+          "key": "pcbi.1010851.ref018",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/bty593",
+          "title": "DeepDTA: deep drug\u2013target binding affinity prediction",
+          "year": 2018,
+          "author": "H \u00d6zt\u00fcrk",
+          "key": "pcbi.1010851.ref019",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3389/fchem.2018.00138",
+          "title": "Reverse screening methods to search for the protein targets of chemopreventive compounds",
+          "year": 2018,
+          "author": "H Huang",
+          "key": "pcbi.1010851.ref020",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.sbi.2022.102372",
+          "title": "AlphaFold illuminates half of the dark human proteins",
+          "year": 2022,
+          "author": "JL Binder",
+          "key": "pcbi.1010851.ref021",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3390/molecules190710150",
+          "title": "Challenges, applications, and recent advances of protein-ligand docking in structure-based drug design",
+          "year": 2014,
+          "author": "SZ Grinter",
+          "key": "pcbi.1010851.ref022",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1007680",
+          "title": "Performance of virtual screening against GPCR homology models: Impact of template selection and treatment of binding site plasticity",
+          "year": 2020,
+          "author": "M Jaiteh",
+          "key": "pcbi.1010851.ref023",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Devlin J, Chang MW, Lee K, Toutanova K. Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:181004805. 2018;.",
+          "key": "pcbi.1010851.ref024",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Single-sequence protein structure prediction using a language model and deep learning",
+          "year": 2022,
+          "author": "R Chowdhury",
+          "key": "pcbi.1010851.ref025",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Sequence-based prediction of protein-protein interactions: a structure-aware interpretable deep learning model",
+          "year": 2021,
+          "author": "S Sledzieski",
+          "key": "pcbi.1010851.ref026",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1073/pnas.2016239118",
+          "title": "Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences",
+          "year": 2021,
+          "author": "A Rives",
+          "key": "pcbi.1010851.ref027",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1073/pnas.0704422105",
+          "title": "Detecting evolutionary relationships across existing fold space, using sequence order-independent profile\u2013profile alignments",
+          "year": 2008,
+          "author": "L Xie",
+          "key": "pcbi.1010851.ref028",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41592-021-01283-4",
+          "title": "Differentiable biology: using deep learning for biophysics-based and data-driven modeling of molecular mechanisms",
+          "year": 2021,
+          "author": "M AlQuraishi",
+          "key": "pcbi.1010851.ref029",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkaa913",
+          "title": "Pfam: The protein families database in 2021",
+          "year": 2021,
+          "author": "J Mistry",
+          "key": "pcbi.1010851.ref030",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkw1074",
+          "title": "The ChEMBL database in 2017",
+          "year": 2016,
+          "author": "A Gaulton",
+          "key": "pcbi.1010851.ref031",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/jcc.21334",
+          "title": "AutoDock Vina: improving the speed and accuracy of docking with a new scoring function, efficient optimization and multithreading",
+          "year": 2010,
+          "author": "O Trott",
+          "key": "pcbi.1010851.ref032",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1145/3447548.3467311",
+          "unstructured": "Li S, Zhou J, Xu T, Huang L, Wang F, Xiong H, et al. Structure-aware interactive graph neural networks for the prediction of protein-ligand binding affinity. In: Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining; 2021. p. 975\u2013985.",
+          "key": "pcbi.1010851.ref033",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1021/jm300687e",
+          "title": "Directory of useful decoys, enhanced (DUD-E): better ligands and decoys for better benchmarking",
+          "year": 2012,
+          "author": "MM Mysinger",
+          "key": "pcbi.1010851.ref034",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1097/FBP.0b013e3283242f05",
+          "title": "Genetics of dopamine receptors and drug addiction: a comprehensive review",
+          "year": 2009,
+          "author": "B Le Foll",
+          "key": "pcbi.1010851.ref035",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.neulet.2018.09.043",
+          "title": "Alteration of dopamine receptors subtypes in the brain of opioid abusers: a postmortem study in Iran",
+          "year": 2018,
+          "author": "MS Sadat-Shirazi",
+          "key": "pcbi.1010851.ref036",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/adb.12988",
+          "title": "Low-dose polypharmacology targeting dopamine D1 and D3 receptors reduces cue-induced relapse to heroin seeking in rats",
+          "year": 2021,
+          "author": "ST Ewing",
+          "key": "pcbi.1010851.ref037",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.neuron.2016.06.014",
+          "title": "Parkinsonism driven by antipsychotics originates from dopaminergic control of striatal cholinergic interneurons",
+          "year": 2016,
+          "author": "G Kharkwal",
+          "key": "pcbi.1010851.ref038",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.neubiorev.2018.03.020",
+          "title": "Dopamine D1 and D3 receptor polypharmacology as a potential treatment approach for substance use disorder",
+          "year": 2018,
+          "author": "E Galaj",
+          "key": "pcbi.1010851.ref039",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Hu W, Liu B, Gomes J, Zitnik M, Liang P, Pande V, et al. Strategies For Pre-training Graph Neural Networks. 2020;.",
+          "key": "pcbi.1010851.ref040",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1126/scitranslmed.aag1166",
+          "title": "The druggable genome and support for target identification and validation in drug development",
+          "year": 2017,
+          "author": "C Finan",
+          "key": "pcbi.1010851.ref041",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkaa993",
+          "title": "UTCRD and Pharos 2021: mining the human proteome for disease biology",
+          "year": 2021,
+          "author": "TK Sheils",
+          "key": "pcbi.1010851.ref042",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1126/scitranslmed.aag1166",
+          "title": "The druggable genome and support for target identification and validation in drug development",
+          "year": 2017,
+          "author": "C Finan",
+          "key": "pcbi.1010851.ref043",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nm.4306",
+          "title": "The Drug Repurposing Hub: a next-generation drug library and information resource",
+          "year": 2017,
+          "author": "SM Corsello",
+          "key": "pcbi.1010851.ref044",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/bts251",
+          "title": "DAVID-WS: a stateful web service to facilitate gene/protein list analysis",
+          "year": 2012,
+          "author": "X Jiao",
+          "key": "pcbi.1010851.ref045",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1124/pr.115.011239",
+          "title": "Pharmacology of modulators of alternative splicing",
+          "year": 2017,
+          "author": "DO Bates",
+          "key": "pcbi.1010851.ref046",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/aps.2015.43",
+          "title": "Alternative splicing as a biomarker and potential target for drug discovery",
+          "year": 2015,
+          "author": "Kq Le",
+          "key": "pcbi.1010851.ref047",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Alternative splicing in Alzheimer\u2019s disease",
+          "year": 2015,
+          "author": "JE Love",
+          "key": "pcbi.1010851.ref048",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/srep31222",
+          "title": "Insulin receptor alternative splicing is regulated by insulin signaling and modulates beta cell survival",
+          "year": 2016,
+          "author": "P Malakar",
+          "key": "pcbi.1010851.ref049",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1126/science.aaa0314",
+          "title": "A small-molecule inhibitor of the aberrant transcription factor CBF\u03b2-SMMHC delays leukemia in mice",
+          "year": 2015,
+          "author": "A Illendula",
+          "key": "pcbi.1010851.ref050",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Zhang S, Liu Y, Xie L. Efficient and Accurate Physics-aware Multiplex Graph Neural Networks for 3D Small Molecules and Macromolecule Complexes. arXiv preprint arXiv:220602789. 2022;.",
+          "key": "pcbi.1010851.ref051",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Exploration of chemical space with partial labeled noisy student self-training and self-supervised graph embedding",
+          "year": 2022,
+          "author": "Y Liu",
+          "key": "pcbi.1010851.ref052",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "COVID-19 multi-targeted drug repurposing using few-shot learning",
+          "year": 2021,
+          "author": "Y Liu",
+          "key": "pcbi.1010851.ref053",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Xu K, Hu W, Leskovec J, Jegelka S. How powerful are graph neural networks? arXiv preprint arXiv:181000826. 2018;.",
+          "key": "pcbi.1010851.ref054",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/28.1.235",
+          "title": "The Protein Data Bank",
+          "year": 2000,
+          "author": "HM Berman",
+          "key": "pcbi.1010851.ref055",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gks966",
+          "title": "BioLiP: a semi-manually curated database for biologically relevant ligand\u2013protein interactions",
+          "year": 2012,
+          "author": "J Yang",
+          "key": "pcbi.1010851.ref056",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gky448",
+          "title": "HMMER web server: 2018 update",
+          "year": 2018,
+          "author": "SC Potter",
+          "key": "pcbi.1010851.ref057",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1017/9781108583664",
+          "year": 2018,
+          "author": "S Boyd",
+          "key": "pcbi.1010851.ref058",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Santos Cd, Tan M, Xiang B, Zhou B. Attentive pooling networks. arXiv preprint arXiv:160203609. 2016;.",
+          "key": "pcbi.1010851.ref059",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/CVPR.2016.90",
+          "unstructured": "He K, Zhang X, Ren S, Sun J. Deep residual learning for image recognition. In: Proceedings of the IEEE conference on computer vision and pattern recognition; 2016. p. 770\u2013778.",
+          "key": "pcbi.1010851.ref060",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bib/bbz157",
+          "title": "Machine learning approaches and databases for prediction of drug\u2013target interaction: a survey paper",
+          "year": 2021,
+          "author": "M Bagherian",
+          "key": "pcbi.1010851.ref061",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1021/jm030580l",
+          "title": "The PDBbind database: Collection of binding affinities for protein- ligand complexes with known three-dimensional structures",
+          "year": 2004,
+          "author": "R Wang",
+          "key": "pcbi.1010851.ref062",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://dx.plos.org/10.1371/journal.pcbi.1010851",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [
+        {
+          "name": "National Institute of General Medical Sciences",
+          "doi": "10.13039/100000057",
+          "award_numbers": [
+            "R01GM122845"
+          ],
+          "source": "crossref"
+        },
+        {
+          "name": "National Institute on Aging",
+          "doi": "10.13039/100000049",
+          "award_numbers": [
+            "R01AD057555"
+          ],
+          "source": "crossref"
+        },
+        {
+          "name": "National Science Foundation",
+          "doi": "10.13039/100000001",
+          "award_numbers": [
+            "2226183"
+          ],
+          "source": "crossref"
+        }
+      ],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "http://creativecommons.org/licenses/by/4.0/",
+          "content_version": "vor",
+          "delay_in_days": 0,
+          "source": "crossref"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [
+        {
+          "DOI": "10.1371/journal.pcbi.1010851",
+          "type": "new_version",
+          "label": "New version",
+          "source": "publisher",
+          "updated": {
+            "date-parts": [
+              [
+                2023,
+                1,
+                30
+              ]
+            ],
+            "date-time": "2023-01-30T00:00:00Z",
+            "timestamp": 1675036800000
+          }
+        }
+      ],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1371/journal.pcbi.1010851",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "End-to-end sequence-structure-function meta-learning predicts genome-wide chemical-protein interactions for dark proteins",
+      "abstract": "Systematically discovering protein-ligand interactions across the entire human and pathogen genomes is critical in chemical genomics, protein function prediction, drug discovery, and many other areas. However, more than 90% of gene families remain \u201cdark\u201d\u2014i.e., their small-molecule ligands are undiscovered due to experimental limitations or human/historical biases. Existing computational approaches typically fail when the dark protein differs from those with known ligands. To address this challenge, we have developed a deep learning framework, called PortalCG, which consists of four novel components: (i) a 3-dimensional ligand binding site enhanced sequence pre-training strategy to encode the evolutionary links between ligand-binding sites across gene families; (ii) an end-to-end pretraining-fine-tuning strategy to reduce the impact of inaccuracy of predicted structures on function predictions by recognizing the sequence-structure-function paradigm; (iii) a new out-of-cluster meta-learning algorithm that extracts and accumulates information learned from predicting ligands of distinct gene families (meta-data) and applies the meta-data to a dark gene family; and (iv) a stress model selection step, using different gene families in the test data from those in the training and development data sets to facilitate model deployment in a real-world scenario. In extensive and rigorous benchmark experiments, PortalCG considerably outperformed state-of-the-art techniques of machine learning and protein-ligand docking when applied to dark gene families, and demonstrated its generalization power for target identifications and compound screenings under out-of-distribution (OOD) scenarios. Furthermore, in an external validation for the multi-target compound screening, the performance of PortalCG surpassed the rational design from medicinal chemists. Our results also suggest that a differentiable sequence-structure-function deep learning framework, where protein structural information serves as an intermediate layer, could be superior to conventional methodology where predicted protein structures were used for the compound screening. We applied PortalCG to two case studies to exemplify its potential in drug discovery: designing selective dual-antagonists of dopamine receptors for the treatment of opioid use disorder (OUD), and illuminating the understudied human genome for target diseases that do not yet have effective and safe therapeutics. Our results suggested that PortalCG is a viable solution to the OOD problem in exploring understudied regions of protein functional space.",
+      "publication_date": "2023-01-18",
+      "publication_year": 2023,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310315706",
+      "container_title": "PLoS Computational Biology",
+      "volume": "19",
+      "issue": "1",
+      "pages": "e1010851-e1010851",
+      "issn": [
+        "1553-734X",
+        "1553-7358"
+      ],
+      "doi": "10.1371/journal.pcbi.1010851",
+      "pmid": "36652496",
+      "openalex_id": "https://openalex.org/W4317242647",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Tian Cai",
+            "orcid": "0000-0002-9516-6489",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "The Graduate Center, CUNY",
+              "ror_id": "https://ror.org/00awd9g61",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "City University of New York",
+              "ror_id": "https://ror.org/00453a208",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5043728103",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Li Xie",
+            "orcid": "0000-0003-3658-2535",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Cornell University",
+              "ror_id": "https://ror.org/05bnh6r87",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "MIND Research Institute",
+              "ror_id": "https://ror.org/00we1gw23",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "The Graduate Center, CUNY",
+              "ror_id": "https://ror.org/00awd9g61",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "City University of New York",
+              "ror_id": "https://ror.org/00453a208",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Hunter College",
+              "ror_id": "https://ror.org/00g2xk477",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5051041953",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Shuo Zhang",
+            "orcid": "0000-0001-9497-6263",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "The Graduate Center, CUNY",
+              "ror_id": "https://ror.org/00awd9g61",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "City University of New York",
+              "ror_id": "https://ror.org/00453a208",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5100450352",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Muge Chen",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "New York University",
+              "ror_id": "https://ror.org/0190ak572",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Courant Institute of Mathematical Sciences",
+              "ror_id": "https://ror.org/037tm7f56",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5072162844",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Di He",
+            "orcid": "0000-0002-0908-9123",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "City University of New York",
+              "ror_id": "https://ror.org/00453a208",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "The Graduate Center, CUNY",
+              "ror_id": "https://ror.org/00awd9g61",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5100739031",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Amitesh Badkul",
+            "orcid": "0009-0000-9207-1954",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "City University of New York",
+              "ror_id": "https://ror.org/00453a208",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Hunter College",
+              "ror_id": "https://ror.org/00g2xk477",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5066226479",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Yang Liu",
+            "orcid": "0000-0002-8064-7108",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "City University of New York",
+              "ror_id": "https://ror.org/00453a208",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Hunter College",
+              "ror_id": "https://ror.org/00g2xk477",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5100355987",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Hari Krishna Namballa",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "City University of New York",
+              "ror_id": "https://ror.org/00453a208",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Hunter College",
+              "ror_id": "https://ror.org/00g2xk477",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5071878570",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Michael Dorogan",
+            "orcid": "0000-0001-9431-2539",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Hunter College",
+              "ror_id": "https://ror.org/00g2xk477",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "City University of New York",
+              "ror_id": "https://ror.org/00453a208",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5088331367",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Wayne W. Harding",
+            "orcid": "0000-0002-1866-3553",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Hunter College",
+              "ror_id": "https://ror.org/00g2xk477",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "City University of New York",
+              "ror_id": "https://ror.org/00453a208",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5070480197",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Cameron Mura",
+            "orcid": "0000-0001-7985-2561",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Virginia",
+              "ror_id": "https://ror.org/0153tk833",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5022761529",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Philip E. Bourne",
+            "orcid": "0000-0002-7618-7292",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Virginia",
+              "ror_id": "https://ror.org/0153tk833",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5075833022",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Lei Xie",
+            "orcid": "0000-0001-9051-2111",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "MIND Research Institute",
+              "ror_id": "https://ror.org/00we1gw23",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "The Graduate Center, CUNY",
+              "ror_id": "https://ror.org/00awd9g61",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Cornell University",
+              "ror_id": "https://ror.org/05bnh6r87",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Hunter College",
+              "ror_id": "https://ror.org/00g2xk477",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "City University of New York",
+              "ror_id": "https://ror.org/00453a208",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5066245750",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 19,
+      "reference_count": 59,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2025": 7,
+        "2024": 8,
+        "2023": 4
+      },
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1371/journal.pcbi.1010851",
+          "pdf_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1010851&type=printable",
+          "landing_page_url": "https://doi.org/10.1371/journal.pcbi.1010851",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310315706",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1371/journal.pcbi.1010851",
+          "pdf_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1010851&type=printable",
+          "landing_page_url": "https://doi.org/10.1371/journal.pcbi.1010851",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310315706",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36652496",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/36652496",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9886305",
+          "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9886305/pdf/pcbi.1010851.pdf",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9886305",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doaj.org/article/9ff4f70275c349c3ab853db6901603ee",
+          "landing_page_url": "https://doaj.org/article/9ff4f70275c349c3ab853db6901603ee",
+          "host_type": "journal",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1010851&type=printable",
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "cc-by",
+          "source": "openalex"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Computational Drug Discovery Methods",
+          "scheme": "openalex_topic",
+          "score": 0.9994999766349792,
+          "source": "openalex"
+        },
+        {
+          "value": "Protein Structure and Dynamics",
+          "scheme": "openalex_topic",
+          "score": 0.9994000196456909,
+          "source": "openalex"
+        },
+        {
+          "value": "Machine Learning in Bioinformatics",
+          "scheme": "openalex_topic",
+          "score": 0.9965000152587891,
+          "source": "openalex"
+        },
+        {
+          "value": "Computational biology",
+          "scheme": "openalex_concept",
+          "score": 0.6157615780830383,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Protein function prediction",
+          "scheme": "openalex_concept",
+          "score": 0.5141025185585022,
+          "level": 4,
+          "source": "openalex"
+        },
+        {
+          "value": "Genomics",
+          "scheme": "openalex_concept",
+          "score": 0.501497745513916,
+          "level": 4,
+          "source": "openalex"
+        },
+        {
+          "value": "ENCODE",
+          "scheme": "openalex_concept",
+          "score": 0.45979711413383484,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Functional genomics",
+          "scheme": "openalex_concept",
+          "score": 0.4507664144039154,
+          "level": 5,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.4495212435722351,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Protein ligand",
+          "scheme": "openalex_concept",
+          "score": 0.4413134455680847,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Function (biology)",
+          "scheme": "openalex_concept",
+          "score": 0.44098877906799316,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Genome",
+          "scheme": "openalex_concept",
+          "score": 0.423639178276062,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Human genome",
+          "scheme": "openalex_concept",
+          "score": 0.4224597215652466,
+          "level": 4,
+          "source": "openalex"
+        },
+        {
+          "value": "Protein family",
+          "scheme": "openalex_concept",
+          "score": 0.41585808992385864,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Biology",
+          "scheme": "openalex_concept",
+          "score": 0.4024042785167694,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Artificial intelligence",
+          "scheme": "openalex_concept",
+          "score": 0.3958350419998169,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Machine learning",
+          "scheme": "openalex_concept",
+          "score": 0.37874671816825867,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Gene",
+          "scheme": "openalex_concept",
+          "score": 0.3545430898666382,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Genetics",
+          "scheme": "openalex_concept",
+          "score": 0.2901070713996887,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Protein function",
+          "scheme": "openalex_concept",
+          "score": 0.23439225554466248,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Biochemistry",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Good health and well-being",
+          "scheme": "SDG",
+          "score": 0.4399999976158142,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Machine Learning",
+          "descriptor_ui": "D000069550",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Machine Learning",
+          "descriptor_ui": "D000069550",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Machine Learning",
+          "descriptor_ui": "D000069550",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Machine Learning",
+          "descriptor_ui": "D000069550",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Binding Sites",
+          "descriptor_ui": "D001665",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Binding Sites",
+          "descriptor_ui": "D001665",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Binding Sites",
+          "descriptor_ui": "D001665",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Binding Sites",
+          "descriptor_ui": "D001665",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Ligands",
+          "descriptor_ui": "D008024",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Ligands",
+          "descriptor_ui": "D008024",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Ligands",
+          "descriptor_ui": "D008024",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Ligands",
+          "descriptor_ui": "D008024",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Protein Binding",
+          "descriptor_ui": "D011485",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Protein Binding",
+          "descriptor_ui": "D011485",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Protein Binding",
+          "descriptor_ui": "D011485",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Protein Binding",
+          "descriptor_ui": "D011485",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "descriptor_ui": "D011506",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "descriptor_ui": "D011506",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "descriptor_ui": "D011506",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "descriptor_ui": "D011506",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": true,
+          "source": "openalex"
+        }
+      ],
+      "keywords": [
+        "Computational biology",
+        "Protein function prediction",
+        "Genomics",
+        "ENCODE",
+        "Functional genomics",
+        "Computer science",
+        "Protein ligand",
+        "Function (biology)",
+        "Genome",
+        "Human genome",
+        "Protein family",
+        "Biology",
+        "Artificial intelligence",
+        "Machine learning",
+        "Gene",
+        "Genetics",
+        "Protein function"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 5.87026287,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.94627007,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 2655.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1371/journal.pcbi.1010851",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "End-to-end sequence-structure-function meta-learning predicts genome-wide chemical-protein interactions for dark proteins",
+      "publication_date": "2023-01-18",
+      "publication_year": 2023,
+      "work_type": "journal-article",
+      "publisher": "Public Library of Science (PLoS)",
+      "container_title": "PLoS Computational Biology",
+      "issn": [
+        "1553-734X",
+        "1553-7358"
+      ],
+      "doi": "10.1371/journal.pcbi.1010851",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1010851&type=printable",
+          "pdf_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1010851&type=printable",
+          "landing_page_url": "https://doi.org/10.1371/journal.pcbi.1010851",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1010851&type=printable",
+          "pdf_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1010851&type=printable",
+          "landing_page_url": "https://doi.org/10.1371/journal.pcbi.1010851",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9886305/pdf/pcbi.1010851.pdf",
+          "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9886305/pdf/pcbi.1010851.pdf",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9886305",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://doaj.org/article/9ff4f70275c349c3ab853db6901603ee",
+          "landing_page_url": "https://doaj.org/article/9ff4f70275c349c3ab853db6901603ee",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1010851&type=printable",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "End-to-end sequence-structure-function meta-learning predicts genome-wide chemical-protein interactions for dark proteins.",
+      "abstract": "Systematically discovering protein-ligand interactions across the entire human and pathogen genomes is critical in chemical genomics, protein function prediction, drug discovery, and many other areas. However, more than 90% of gene families remain \"dark\"-i.e., their small-molecule ligands are undiscovered due to experimental limitations or human/historical biases. Existing computational approaches typically fail when the dark protein differs from those with known ligands. To address this challenge, we have developed a deep learning framework, called PortalCG, which consists of four novel components: (i) a 3-dimensional ligand binding site enhanced sequence pre-training strategy to encode the evolutionary links between ligand-binding sites across gene families; (ii) an end-to-end pretraining-fine-tuning strategy to reduce the impact of inaccuracy of predicted structures on function predictions by recognizing the sequence-structure-function paradigm; (iii) a new out-of-cluster meta-learning algorithm that extracts and accumulates information learned from predicting ligands of distinct gene families (meta-data) and applies the meta-data to a dark gene family; and (iv) a stress model selection step, using different gene families in the test data from those in the training and development data sets to facilitate model deployment in a real-world scenario. In extensive and rigorous benchmark experiments, PortalCG considerably outperformed state-of-the-art techniques of machine learning and protein-ligand docking when applied to dark gene families, and demonstrated its generalization power for target identifications and compound screenings under out-of-distribution (OOD) scenarios. Furthermore, in an external validation for the multi-target compound screening, the performance of PortalCG surpassed the rational design from medicinal chemists. Our results also suggest that a differentiable sequence-structure-function deep learning framework, where protein structural information serves as an intermediate layer, could be superior to conventional methodology where predicted protein structures were used for the compound screening. We applied PortalCG to two case studies to exemplify its potential in drug discovery: designing selective dual-antagonists of dopamine receptors for the treatment of opioid use disorder (OUD), and illuminating the understudied human genome for target diseases that do not yet have effective and safe therapeutics. Our results suggested that PortalCG is a viable solution to the OOD problem in exploring understudied regions of protein functional space.",
+      "publication_year": 2023,
+      "language": "eng",
+      "container_title": "PLoS computational biology",
+      "volume": "19",
+      "issue": "1",
+      "pages": "e1010851",
+      "issn": [],
+      "doi": "10.1371/journal.pcbi.1010851",
+      "pmid": "36652496",
+      "pmcid": "PMC9886305",
+      "authors": [
+        {
+          "name": {
+            "given": "Tian",
+            "family": "Cai",
+            "full_name": "Cai T",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Ph.D. Program in Computer Science, The Graduate Center, The City University of New York, New York, New York, United States of America.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Li",
+            "family": "Xie",
+            "full_name": "Xie L",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Computer Science, Hunter College, The City University of New York, New York, New York, United States of America.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Shuo",
+            "family": "Zhang",
+            "full_name": "Zhang S",
+            "orcid": "0000-0001-9497-6263",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Ph.D. Program in Computer Science, The Graduate Center, The City University of New York, New York, New York, United States of America.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Muge",
+            "family": "Chen",
+            "full_name": "Chen M",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Master Program in Computer Science, Courant Institute of Mathematical Sciences, New York University, New York, New York, United States of America.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Di",
+            "family": "He",
+            "full_name": "He D",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Ph.D. Program in Computer Science, The Graduate Center, The City University of New York, New York, New York, United States of America.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Amitesh",
+            "family": "Badkul",
+            "full_name": "Badkul A",
+            "orcid": "0009-0000-9207-1954",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Computer Science, Hunter College, The City University of New York, New York, New York, United States of America.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Yang",
+            "family": "Liu",
+            "full_name": "Liu Y",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Computer Science, Hunter College, The City University of New York, New York, New York, United States of America.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Hari Krishna",
+            "family": "Namballa",
+            "full_name": "Namballa HK",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Chemistry, Hunter College, The City University of New York, New York, New York, United States of America.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michael",
+            "family": "Dorogan",
+            "full_name": "Dorogan M",
+            "orcid": "0000-0001-9431-2539",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Chemistry, Hunter College, The City University of New York, New York, New York, United States of America.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Wayne W",
+            "family": "Harding",
+            "full_name": "Harding WW",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Chemistry, Hunter College, The City University of New York, New York, New York, United States of America.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Cameron",
+            "family": "Mura",
+            "full_name": "Mura C",
+            "orcid": "0000-0001-7985-2561",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "School of Data Science & Department of Biomedical Engineering, University of Virginia, Charlottesville, Virginia, United States of America.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Philip E",
+            "family": "Bourne",
+            "full_name": "Bourne PE",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "School of Data Science & Department of Biomedical Engineering, University of Virginia, Charlottesville, Virginia, United States of America.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Lei",
+            "family": "Xie",
+            "full_name": "Xie L",
+            "orcid": "0000-0001-9051-2111",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Ph.D. Program in Computer Science, The Graduate Center, The City University of New York, New York, New York, United States of America.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Department of Computer Science, Hunter College, The City University of New York, New York, New York, United States of America.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Helen and Robert Appel Alzheimer's Disease Research Institute, Feil Family Brain & Mind Research Institute, Weill Cornell Medicine, Cornell University, New York, New York, United States of America.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 12,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "url": "https://europepmc.org/articles/PMC9886305",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC9886305?pdf=render",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "2226183",
+          "agency": "National Science Foundation",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "R01 AG057555",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "R01 GM122845",
+          "agency": "NIGMS NIH HHS",
+          "agency_abbreviation": "GM",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "R01AD057555",
+          "agency": "National Institute on Aging",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "R01GM122845",
+          "agency": "National Institute of General Medical Sciences",
+          "pi_names": [],
+          "source": "europe_pmc"
+        }
+      ],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Humans",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "qualifier_name": "chemistry",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Ligands",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Binding Sites",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Protein Binding",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Machine Learning",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 12.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [
+        {
+          "name": "Proteins",
+          "registry_number": "0"
+        },
+        {
+          "name": "Ligands",
+          "registry_number": "0"
+        }
+      ],
+      "text_mined_accessions": [
+        "uniprot",
+        "pdb"
+      ],
+      "corrections": [],
+      "full_text_urls": [
+        {
+          "url": "https://doi.org/10.1371/journal.pcbi.1010851",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC9886305",
+          "availability": "Open access",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC9886305?pdf=render",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openaire": {
+      "source": "openaire",
+      "found": true,
+      "raw": {},
+      "title": "End-to-end sequence-structure-function meta-learning predicts genome-wide chemical-protein interactions for dark proteins",
+      "abstract": "<jats:p>Systematically discovering protein-ligand interactions across the entire human and pathogen genomes is critical in chemical genomics, protein function prediction, drug discovery, and many other areas. However, more than 90% of gene families remain \u201cdark\u201d\u2014i.e., their small-molecule ligands are undiscovered due to experimental limitations or human/historical biases. Existing computational approaches typically fail when the dark protein differs from those with known ligands. To address this challenge, we have developed a deep learning framework, called PortalCG, which consists of four novel components: (i) a 3-dimensional ligand binding site enhanced sequence pre-training strategy to encode the evolutionary links between ligand-binding sites across gene families; (ii) an end-to-end pretraining-fine-tuning strategy to reduce the impact of inaccuracy of predicted structures on function predictions by recognizing the sequence-structure-function paradigm; (iii) a new out-of-cluster meta-learning algorithm that extracts and accumulates information learned from predicting ligands of distinct gene families (meta-data) and applies the meta-data to a dark gene family; and (iv) a stress model selection step, using different gene families in the test data from those in the training and development data sets to facilitate model deployment in a real-world scenario. In extensive and rigorous benchmark experiments, PortalCG considerably outperformed state-of-the-art techniques of machine learning and protein-ligand docking when applied to dark gene families, and demonstrated its generalization power for target identifications and compound screenings under out-of-distribution (OOD) scenarios. Furthermore, in an external validation for the multi-target compound screening, the performance of PortalCG surpassed the rational design from medicinal chemists. Our results also suggest that a differentiable sequence-structure-function deep learning framework, where protein structural information serves as an intermediate layer, could be superior to conventional methodology where predicted protein structures were used for the compound screening. We applied PortalCG to two case studies to exemplify its potential in drug discovery: designing selective dual-antagonists of dopamine receptors for the treatment of opioid use disorder (OUD), and illuminating the understudied human genome for target diseases that do not yet have effective and safe therapeutics. Our results suggested that PortalCG is a viable solution to the OOD problem in exploring understudied regions of protein functional space.</jats:p>",
+      "publication_date": "2023-01-18",
+      "publication_year": 2023,
+      "work_type": "publication",
+      "language": "eng",
+      "publisher": "Public Library of Science (PLoS)",
+      "issn": [],
+      "doi": "10.1371/journal.pcbi.1010851",
+      "pmid": "36652496",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Tian Cai",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Li Xie 0002",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Shuo Zhang 0010",
+            "orcid": "0000-0001-9497-6263",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Muge Chen",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Di He 0003",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Amitesh Badkul",
+            "orcid": "0009-0000-9207-1954",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Yang Liu",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Hari Krishna Namballa",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Michael Dorogan",
+            "orcid": "0000-0001-9431-2539",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Wayne W. Harding",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Cameron Mura",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Philip E. Bourne",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Lei Xie 0006",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "citation_count": 18,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1371/journal.pcbi.1010851",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36652496",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1371/journal.pcbi.1010851",
+          "version": "Other literature type",
+          "license": "http://creativecommons.org/licenses/by/4.0/This is an open access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/) , which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1371/journal.pcbi.1010851",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doaj.org/article/9ff4f70275c349c3ab853db6901603ee",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "5R01AI057555-06",
+          "agency": "National Institutes of Health",
+          "title": "TpI2 Kinase in Macrophage Activation by Microbes",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::0bb01283e7ac197c329208d52198e4d9",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "2226183",
+          "agency": "National Science Foundation",
+          "title": "AI-powered multi-scale modeling of microbiome-host interactions",
+          "pi_names": [],
+          "openaire_project_id": "nsf_________::b27fa76384a3867818b297c958f35434",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "2R01GM122845-05",
+          "agency": "National Institutes of Health",
+          "title": "AI-powered chemical proteomics for drug discovery targeting orphan proteins",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::2d34f252af5a43e1de521352ec17fa7e",
+          "source": "openaire"
+        }
+      ],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "0301 basic medicine",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "0303 health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "Binding Sites",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "QH301-705.5",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Proteins",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Ligands",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "3. Good health",
+          "scheme": "SDG",
+          "source": "openaire"
+        },
+        {
+          "value": "Machine Learning",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "03 medical and health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "Humans",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Biology (General)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Algorithms",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Research Article",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Protein Binding",
+          "scheme": "keyword",
+          "source": "openaire"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "bip_citationCount",
+          "value": 18.0,
+          "class_label": "C4",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_influence",
+          "value": 2.9999276e-09,
+          "class_label": "C5",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_popularity",
+          "value": 1.5702717e-08,
+          "class_label": "C4",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_impulse",
+          "value": 18.0,
+          "class_label": "C4",
+          "source": "openaire"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [
+        {
+          "grant_id": "5R01AI057555-06",
+          "agency": "National Institutes of Health",
+          "title": "TpI2 Kinase in Macrophage Activation by Microbes",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::0bb01283e7ac197c329208d52198e4d9",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "2226183",
+          "agency": "National Science Foundation",
+          "title": "AI-powered multi-scale modeling of microbiome-host interactions",
+          "pi_names": [],
+          "openaire_project_id": "nsf_________::b27fa76384a3867818b297c958f35434",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "2R01GM122845-05",
+          "agency": "National Institutes of Health",
+          "title": "AI-powered chemical proteomics for drug discovery targeting orphan proteins",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::2d34f252af5a43e1de521352ec17fa7e",
+          "source": "openaire"
+        }
+      ],
+      "alternate_ids": [
+        "doi:10.1371/journal.pcbi.1010851",
+        "doi:10.1371/journal.pcbi.1010851",
+        "pmid:36652496",
+        "pmc:PMC9886305",
+        "doi:10.1371/journal.pcbi.1010851",
+        "doi:10.1371/journal.pcbi.1010851",
+        "doi:10.1371/journal.pcbi.1010851"
+      ],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1371/journal.pcbi.1010851",
+      "pmid": "23671333",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1371/journal.pcbi.1010851",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1371/journal.pcbi.1010851",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1371/journal.pcbi.1010851",
+      "authors": [
+        {
+          "name": {
+            "given": "Michael",
+            "family": "Dorogan",
+            "full_name": "Michael Dorogan",
+            "orcid": "0000-0001-9431-2539",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Shuo",
+            "family": "Zhang",
+            "full_name": "Shuo Zhang",
+            "orcid": "0000-0001-9497-6263",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Amitesh",
+            "family": "Badkul",
+            "full_name": "Amitesh Badkul",
+            "orcid": "0009-0000-9207-1954",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0001-9431-2539",
+          "given_names": "Michael",
+          "family_names": "Dorogan",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Hunter College"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0001-9497-6263",
+          "given_names": "Shuo",
+          "family_names": "Zhang",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "ByteDance",
+            "Pinterest",
+            "Research Foundation of The City University of New York",
+            "The Graduate Center, CUNY",
+            "University of Maryland, College Park",
+            "University of Science and Technology of China",
+            "Weill Cornell Medicine"
+          ],
+          "emails": [
+            "szhang4@gradcenter.cuny.edu"
+          ]
+        },
+        {
+          "orcid_id": "0009-0000-9207-1954",
+          "given_names": "Amitesh",
+          "family_names": "Badkul",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1371/journal.pcbi.1010851",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1371/journal.pcbi.1010851",
+    "pmid": "36652496",
+    "pmcid": "PMC9886305",
+    "openalex_id": "https://openalex.org/W4317242647",
+    "handles": [],
+    "orcids": [
+      "0000-0001-7985-2561",
+      "0000-0001-9051-2111",
+      "0000-0001-9431-2539",
+      "0000-0001-9497-6263",
+      "0000-0002-0908-9123",
+      "0000-0002-1866-3553",
+      "0000-0002-7618-7292",
+      "0000-0002-8064-7108",
+      "0000-0002-9516-6489",
+      "0000-0003-3658-2535",
+      "0009-0000-9207-1954"
+    ],
+    "ror_ids": [
+      "https://ror.org/00453a208",
+      "https://ror.org/00awd9g61",
+      "https://ror.org/00g2xk477",
+      "https://ror.org/00we1gw23",
+      "https://ror.org/0153tk833",
+      "https://ror.org/0190ak572",
+      "https://ror.org/037tm7f56",
+      "https://ror.org/05bnh6r87"
+    ],
+    "grant_ids": [
+      "2226183",
+      "2R01GM122845-05",
+      "5R01AI057555-06",
+      "R01 AG057555",
+      "R01 GM122845",
+      "R01AD057555",
+      "R01GM122845"
+    ],
+    "nct_ids": [],
+    "pmid_source": "europe_pmc",
+    "pmcid_source": "europe_pmc"
+  },
+  "conflicts": {
+    "doi": "10.1371/journal.pcbi.1010851",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 18,
+          "openalex": 19,
+          "europe_pmc": 12,
+          "openaire": 18
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 62,
+          "openalex": 59
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article",
+          "openaire": "publication"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 13,
+          "openalex": 13,
+          "unpaywall": 13,
+          "europe_pmc": 13,
+          "openaire": 13,
+          "orcid": 3
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Public Library of Science (PLoS)",
+          "openalex": "https://openalex.org/P4310315706",
+          "unpaywall": "Public Library of Science (PLoS)",
+          "openaire": "Public Library of Science (PLoS)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "PLOS Computational Biology",
+          "openalex": "PLoS Computational Biology",
+          "unpaywall": "PLoS Computational Biology",
+          "europe_pmc": "PLoS computational biology"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "mesh_term_count",
+        "values": {
+          "openalex": 28,
+          "europe_pmc": 8
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng",
+          "openaire": "eng"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "grant_count",
+        "values": {
+          "europe_pmc": 5,
+          "openaire": 3
+        },
+        "risk": "medium"
+      }
+    ],
+    "agreement_count": 2,
+    "conflict_count": 9
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1371/journal.pcbi.1010851",
+    "fetched_at": "2026-02-11T20:47:05.140428+00:00"
+  }
+}

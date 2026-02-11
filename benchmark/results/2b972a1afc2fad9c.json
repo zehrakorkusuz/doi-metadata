@@ -1,0 +1,2020 @@
+{
+  "doi": "10.1111/j.1467-9868.2010.00749.x",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T16:01:45.952869Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "Fast Stable Restricted Maximum Likelihood and Marginal Likelihood Estimation of Semiparametric Generalized Linear Models",
+      "abstract": "<jats:title>Summary</jats:title><jats:p>Recent work by Reiss and Ogden provides a theoretical basis for sometimes preferring restricted maximum likelihood (REML) to generalized cross-validation (GCV) for smoothing parameter selection in semiparametric regression. However, existing REML or marginal likelihood (ML) based methods for semiparametric generalized linear models (GLMs) use iterative REML or ML estimation of the smoothing parameters of working linear approximations to the GLM. Such indirect schemes need not converge and fail to do so in a non-negligible proportion of practical analyses. By contrast, very reliable prediction error criteria smoothing parameter selection methods are available, based on direct optimization of GCV, or related criteria, for the GLM itself. Since such methods directly optimize properly defined functions of the smoothing parameters, they have much more reliable convergence properties. The paper develops the first such method for REML or ML estimation of smoothing parameters. A Laplace approximation is used to obtain an approximate REML or ML for any GLM, which is suitable for efficient direct optimization. This REML or ML criterion requires that Newton\u2013Raphson iteration, rather than Fisher scoring, be used for GLM fitting, and a computationally stable approach to this is proposed. The REML or ML criterion itself is optimized by a Newton method, with the derivatives required obtained by a mixture of implicit differentiation and direct methods. The method will cope with numerical rank deficiency in the fitted model and in fact provides a slight improvement in numerical robustness on the earlier method of Wood for prediction error criteria based smoothness selection. Simulation results suggest that the new REML and ML methods offer some improvement in mean-square error performance relative to GCV or Akaike\u2019s information criterion in most cases, without the small number of severe undersmoothing failures to which Akaike\u2019s information criterion and GCV are prone. This is achieved at the same computational cost as GCV or Akaike\u2019s information criterion. The new approach also eliminates the convergence failures of previous REML- or ML-based approaches for penalized GLMs and usually has lower computational cost than these alternatives. Example applications are presented in adaptive smoothing, scalar on function regression and generalized additive model selection.</jats:p>",
+      "publication_date": "2010-09-14",
+      "publication_year": 2010,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "73",
+      "issue": "1",
+      "pages": "3-36",
+      "issn": [
+        "1369-7412",
+        "1467-9868"
+      ],
+      "doi": "10.1111/j.1467-9868.2010.00749.x",
+      "authors": [
+        {
+          "name": {
+            "given": "Simon N.",
+            "family": "Wood",
+            "full_name": "Simon N. Wood",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "University of Bath , Bath , UK",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 6032,
+      "reference_count": 65,
+      "references": [
+        {
+          "doi": "10.1137/1.9780898719604",
+          "year": 1999,
+          "author": "Anderson",
+          "key": "2023021304114439100_b1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1080/00401706.1974.10489151",
+          "title": "A time series approach to numerical differentiation",
+          "year": 1974,
+          "author": "Anderssen",
+          "key": "2023021304114439100_b2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1080/01621459.1993.10594284",
+          "title": "Approximate inference in generalized linear mixed models",
+          "year": 1993,
+          "author": "Breslow",
+          "key": "2023021304114439100_b3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2007,
+          "author": "Brezger",
+          "key": "2023021304114439100_b4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.csda.2004.10.011",
+          "title": "Generalized structured additive regression based on Bayesian P-splines",
+          "year": 2006,
+          "author": "Brezger",
+          "key": "2023021304114439100_b5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1137/0713027",
+          "title": "An estimate for the condition number of a matrix",
+          "year": 1979,
+          "author": "Cline",
+          "key": "2023021304114439100_b6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/BF01404567",
+          "title": "Smoothing noisy data with spline functions: estimating the correct degree of smoothing by the method of generalized cross validation",
+          "year": 1979,
+          "author": "Craven",
+          "key": "2023021304114439100_b7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1017/CBO9780511815850",
+          "year": 2003,
+          "author": "Davison",
+          "key": "2023021304114439100_b8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/0471728438",
+          "year": 2004,
+          "author": "Demidenko",
+          "key": "2023021304114439100_b9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/s11222-005-4070-y",
+          "title": "Series evaluation of Tweedie exponential dispersion model densities",
+          "year": 2005,
+          "author": "Dunn",
+          "key": "2023021304114439100_b10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/biomet/65.3.457",
+          "title": "Assessing the accuracy of the maximum likelihood estimator: observed versus expected Fisher information",
+          "year": 1978,
+          "author": "Efron",
+          "key": "2023021304114439100_b11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1214/ss/1038425655",
+          "title": "Flexible smoothing with B-splines and penalties",
+          "year": 1996,
+          "author": "Eilers",
+          "key": "2023021304114439100_b12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1198/106186002844",
+          "title": "Generalized linear additive smooth structures",
+          "year": 2002,
+          "author": "Eilers",
+          "key": "2023021304114439100_b13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1080/10485250310001624738",
+          "title": "Principal component estimation of functional logistic regression: discussion of two different approaches",
+          "year": 2004,
+          "author": "Escabias",
+          "key": "2023021304114439100_b14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Penalized structured additive regression for space time data: a Bayesian perspective",
+          "year": 2004,
+          "author": "Fahrmeir",
+          "key": "2023021304114439100_b15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Bayesian inference for generalized additive mixed models based on Markov random field priors",
+          "year": 2001,
+          "author": "Fahrmeir",
+          "key": "2023021304114439100_b16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1996,
+          "author": "Golub",
+          "key": "2023021304114439100_b17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/978-1-4899-4473-3",
+          "year": 1994,
+          "author": "Green",
+          "key": "2023021304114439100_b18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1080/10618600.1992.10477012",
+          "title": "Cross validating non-Gaussian data",
+          "year": 1992,
+          "author": "Gu",
+          "key": "2023021304114439100_b19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/978-1-4757-3683-0",
+          "year": 2002,
+          "author": "Gu",
+          "key": "2023021304114439100_b20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.2307/3316100",
+          "title": "Penalized likelihood regression: general formulation and efficient approximation",
+          "year": 2002,
+          "author": "Gu",
+          "key": "2023021304114439100_b21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/biomet/92.1.105",
+          "title": "Theory for penalised spline regression",
+          "year": 2005,
+          "author": "Hall",
+          "key": "2023021304114439100_b22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "How far are automatically chosen regression smoothing parameters from their optimum?",
+          "year": 1988,
+          "author": "H\u00e4rdle",
+          "key": "2023021304114439100_b23",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1080/01621459.1977.10480998",
+          "title": "Maximum likelihood approaches to variance component estimation and to related problems",
+          "year": 1977,
+          "author": "Harville",
+          "key": "2023021304114439100_b24",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/b98818",
+          "year": 1997,
+          "author": "Harville",
+          "key": "2023021304114439100_b25",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Generalized additive models (with discussion)",
+          "year": 1986,
+          "author": "Hastie",
+          "key": "2023021304114439100_b26",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1990,
+          "author": "Hastie",
+          "key": "2023021304114439100_b27",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/j.2517-6161.1993.tb01939.x",
+          "title": "Varying-coefficient models (with discussion)",
+          "year": 1993,
+          "author": "Hastie",
+          "key": "2023021304114439100_b28",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/1467-9868.00125",
+          "title": "Smoothing parameter selection in nonparametric regression using an improved Akaike information criterion",
+          "year": 1998,
+          "author": "Hurvich",
+          "key": "2023021304114439100_b29",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S0169-7439(97)00038-5",
+          "title": "Two data sets of near infrared spectra",
+          "year": 1997,
+          "author": "Kalivas",
+          "key": "2023021304114439100_b30",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jspi.2003.09.023",
+          "title": "A note on smoothing parameter selection for penalized spline smoothing",
+          "year": 2005,
+          "author": "Kauermann",
+          "key": "2023021304114439100_b31",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/j.1467-9868.2008.00691.x",
+          "title": "Some asymptotic results on generalized penalized spline smoothing",
+          "year": 2009,
+          "author": "Kauermann",
+          "key": "2023021304114439100_b32",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1214/aoms/1177697089",
+          "title": "A correspondence between Bayesian estimation of stochastic processes and smoothing by splines",
+          "year": 1970,
+          "author": "Kimeldorf",
+          "key": "2023021304114439100_b33",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1080/01621459.1991.10475150",
+          "title": "The performance of cross-validation and maximum likelihood estimators of spline smoothing parameters",
+          "year": 1991,
+          "author": "Kohn",
+          "key": "2023021304114439100_b34",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1198/106186008X287328",
+          "title": "Fast adaptive penalized splines",
+          "year": 2008,
+          "author": "Krivobokova",
+          "key": "2023021304114439100_b35",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.2307/2529876",
+          "title": "Random-effects models for longitudinal data",
+          "year": 1982,
+          "author": "Laird",
+          "key": "2023021304114439100_b36",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1198/1061860043010",
+          "title": "Bayesian P-splines",
+          "year": 2004,
+          "author": "Lang",
+          "key": "2023021304114439100_b37",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S0167-9473(98)00033-4",
+          "title": "Direct generalized additive modeling with penalized likelihood",
+          "year": 1998,
+          "author": "Marx",
+          "key": "2023021304114439100_b38",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1080/00401706.1999.10485591",
+          "title": "Generalized linear regression on sampled signals and curves: a P-spline approach",
+          "year": 1999,
+          "author": "Marx",
+          "key": "2023021304114439100_b39",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1017/CBO9780511812231",
+          "year": 2001,
+          "author": "Monahan",
+          "key": "2023021304114439100_b40",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.2307/2344614",
+          "title": "Generalized linear models",
+          "year": 1972,
+          "author": "Nelder",
+          "key": "2023021304114439100_b41",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2006,
+          "author": "Nocedal",
+          "key": "2023021304114439100_b42",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Discussion on \u2018Some aspects of the spline smoothing approach to non-parametric regression curve fitting\u2019 (by B. W. Silverman)",
+          "year": 1985,
+          "author": "Parker",
+          "key": "2023021304114439100_b43",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/biomet/58.3.545",
+          "title": "Recovery of interblock information when block sizes are unequal",
+          "year": 1971,
+          "author": "Patterson",
+          "key": "2023021304114439100_b44",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/b98888",
+          "year": 2005,
+          "author": "Ramsay",
+          "key": "2023021304114439100_b45",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2008,
+          "author": "R Development Core Team",
+          "key": "2023021304114439100_b46",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1198/016214507000000527",
+          "title": "Functional principal component regression and functional partial least squares",
+          "year": 2007,
+          "author": "Reiss",
+          "key": "2023021304114439100_b47",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/j.1467-9868.2008.00695.x",
+          "title": "Smoothing parameter selection for a class of semiparametric linear models",
+          "year": 2009,
+          "author": "Reiss",
+          "key": "2023021304114439100_b48",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/j.1467-9868.2008.00700.x",
+          "title": "Approximate Bayesian inference for latent Gaussian models by using integrated nested Laplace approximations (with discussion)",
+          "year": 2009,
+          "author": "Rue",
+          "key": "2023021304114439100_b49",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1017/CBO9780511755453",
+          "year": 2003,
+          "author": "Ruppert",
+          "key": "2023021304114439100_b50",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/j.2517-6161.1985.tb01327.x",
+          "title": "Some aspects of the spline smoothing approach to non-parametric regression curve fitting (with discussion)",
+          "year": 1985,
+          "author": "Silverman",
+          "key": "2023021304114439100_b51",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/j.1541-0420.2006.00578.x",
+          "title": "Generalized additive modeling with implicit variable selection by likelihood-based boosting",
+          "year": 2006,
+          "author": "Tutz",
+          "key": "2023021304114439100_b52",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1984,
+          "author": "Tweedie",
+          "key": "2023021304114439100_b53",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/978-0-387-21706-2",
+          "year": 2002,
+          "author": "Venables",
+          "key": "2023021304114439100_b54",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1980,
+          "author": "Wahba",
+          "key": "2023021304114439100_b55",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/j.2517-6161.1983.tb01239.x",
+          "title": "Bayesian \u2018\u2018confidence intervals\u2019\u2019 for the cross-validated smoothing spline",
+          "year": 1983,
+          "author": "Wahba",
+          "key": "2023021304114439100_b56",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1214/aos/1176349743",
+          "title": "A comparison of GCV and GML for choosing the smoothing parameter in the generalized spline smoothing problem",
+          "year": 1985,
+          "author": "Wahba",
+          "key": "2023021304114439100_b57",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1137/1.9781611970128",
+          "year": 1990,
+          "author": "Wahba",
+          "key": "2023021304114439100_b58",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "A completely automatic French curve: fitting spline functions by cross-validation",
+          "year": 1975,
+          "author": "Wahba",
+          "key": "2023021304114439100_b59",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1991,
+          "author": "Watkins",
+          "key": "2023021304114439100_b60",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2007,
+          "author": "Wehrens",
+          "key": "2023021304114439100_b61",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/1467-9868.00374",
+          "title": "Thin plate regression splines",
+          "year": 2003,
+          "author": "Wood",
+          "key": "2023021304114439100_b62",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1198/016214504000000980",
+          "title": "Stable and efficient multiple smoothing parameter estimation for generalized additive models",
+          "year": 2004,
+          "author": "Wood",
+          "key": "2023021304114439100_b63",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1201/9781420010404",
+          "year": 2006,
+          "author": "Wood",
+          "key": "2023021304114439100_b64",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/j.1467-9868.2007.00646.x",
+          "title": "Fast stable direct fitting and smoothness selection for generalized additive models",
+          "year": 2008,
+          "author": "Wood",
+          "key": "2023021304114439100_b65",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1467-9868.2010.00749.x",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://academic.oup.com/jrsssb/article-pdf/73/1/3/49162718/jrsssb_73_1_3.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://academic.oup.com/jrsssb/article-pdf/73/1/3/49162718/jrsssb_73_1_3.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model",
+          "content_version": "vor",
+          "delay_in_days": 0,
+          "source": "crossref"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1111/j.1467-9868.2010.00749.x",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "Fast Stable Restricted Maximum Likelihood and Marginal Likelihood Estimation of Semiparametric Generalized Linear Models",
+      "abstract": "Summary Recent work by Reiss and Ogden provides a theoretical basis for sometimes preferring restricted maximum likelihood (REML) to generalized cross-validation (GCV) for smoothing parameter selection in semiparametric regression. However, existing REML or marginal likelihood (ML) based methods for semiparametric generalized linear models (GLMs) use iterative REML or ML estimation of the smoothing parameters of working linear approximations to the GLM. Such indirect schemes need not converge and fail to do so in a non-negligible proportion of practical analyses. By contrast, very reliable prediction error criteria smoothing parameter selection methods are available, based on direct optimization of GCV, or related criteria, for the GLM itself. Since such methods directly optimize properly defined functions of the smoothing parameters, they have much more reliable convergence properties. The paper develops the first such method for REML or ML estimation of smoothing parameters. A Laplace approximation is used to obtain an approximate REML or ML for any GLM, which is suitable for efficient direct optimization. This REML or ML criterion requires that Newton\u2013Raphson iteration, rather than Fisher scoring, be used for GLM fitting, and a computationally stable approach to this is proposed. The REML or ML criterion itself is optimized by a Newton method, with the derivatives required obtained by a mixture of implicit differentiation and direct methods. The method will cope with numerical rank deficiency in the fitted model and in fact provides a slight improvement in numerical robustness on the earlier method of Wood for prediction error criteria based smoothness selection. Simulation results suggest that the new REML and ML methods offer some improvement in mean-square error performance relative to GCV or Akaike\u2019s information criterion in most cases, without the small number of severe undersmoothing failures to which Akaike\u2019s information criterion and GCV are prone. This is achieved at the same computational cost as GCV or Akaike\u2019s information criterion. The new approach also eliminates the convergence failures of previous REML- or ML-based approaches for penalized GLMs and usually has lower computational cost than these alternatives. Example applications are presented in adaptive smoothing, scalar on function regression and generalized additive model selection.",
+      "publication_date": "2010-09-14",
+      "publication_year": 2010,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310311648",
+      "container_title": "Journal of the Royal Statistical Society Series B (Statistical Methodology)",
+      "volume": "73",
+      "issue": "1",
+      "pages": "3-36",
+      "issn": [
+        "1369-7412",
+        "1467-9868"
+      ],
+      "doi": "10.1111/j.1467-9868.2010.00749.x",
+      "openalex_id": "https://openalex.org/W2119160928",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Simon N. Wood",
+            "orcid": "0000-0002-2034-7453",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Bath",
+              "ror_id": "https://ror.org/002h8g185",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5053318488",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 7193,
+      "reference_count": 69,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2026": 73,
+        "2025": 942,
+        "2024": 901,
+        "2023": 846,
+        "2022": 766,
+        "2021": 722,
+        "2020": 578,
+        "2019": 517,
+        "2018": 425,
+        "2017": 381,
+        "2016": 323,
+        "2015": 236,
+        "2014": 201,
+        "2013": 162,
+        "2012": 94
+      },
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1111/j.1467-9868.2010.00749.x",
+          "pdf_url": "https://academic.oup.com/jrsssb/article-pdf/73/1/3/49162718/jrsssb_73_1_3.pdf",
+          "landing_page_url": "https://doi.org/10.1111/j.1467-9868.2010.00749.x",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1111/j.1467-9868.2010.00749.x",
+          "pdf_url": "https://academic.oup.com/jrsssb/article-pdf/73/1/3/49162718/jrsssb_73_1_3.pdf",
+          "landing_page_url": "https://doi.org/10.1111/j.1467-9868.2010.00749.x",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        },
+        {
+          "url": "http://hdl.handle.net/10.1111/j.1467-9868.2010.00749.x",
+          "landing_page_url": "http://hdl.handle.net/10.1111/j.1467-9868.2010.00749.x",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I77793887",
+          "source": "openalex"
+        },
+        {
+          "url": "https://researchportal.bath.ac.uk/en/publications/66c38245-c53f-4a73-a4c7-694daa10f05e",
+          "landing_page_url": "https://researchportal.bath.ac.uk/en/publications/66c38245-c53f-4a73-a4c7-694daa10f05e",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I51601045",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://academic.oup.com/jrsssb/article-pdf/73/1/3/49162718/jrsssb_73_1_3.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Statistical Methods and Inference",
+          "scheme": "openalex_topic",
+          "score": 0.9993000030517578,
+          "source": "openalex"
+        },
+        {
+          "value": "Advanced Statistical Methods and Models",
+          "scheme": "openalex_topic",
+          "score": 0.9984999895095825,
+          "source": "openalex"
+        },
+        {
+          "value": "Statistical Methods and Bayesian Inference",
+          "scheme": "openalex_topic",
+          "score": 0.9948999881744385,
+          "source": "openalex"
+        },
+        {
+          "value": "Restricted maximum likelihood",
+          "scheme": "openalex_concept",
+          "score": 0.8275433778762817,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Smoothing",
+          "scheme": "openalex_concept",
+          "score": 0.6440998315811157,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Mathematics",
+          "scheme": "openalex_concept",
+          "score": 0.6404287815093994,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Marginal likelihood",
+          "scheme": "openalex_concept",
+          "score": 0.6304754018783569,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Generalized linear model",
+          "scheme": "openalex_concept",
+          "score": 0.5831688046455383,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Applied mathematics",
+          "scheme": "openalex_concept",
+          "score": 0.44162315130233765,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Mathematical optimization",
+          "scheme": "openalex_concept",
+          "score": 0.4352490305900574,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Linear model",
+          "scheme": "openalex_concept",
+          "score": 0.43047747015953064,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Statistics",
+          "scheme": "openalex_concept",
+          "score": 0.4225272238254547,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Model selection",
+          "scheme": "openalex_concept",
+          "score": 0.41771724820137024,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Estimator",
+          "scheme": "openalex_concept",
+          "score": 0.41150644421577454,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Estimation theory",
+          "scheme": "openalex_concept",
+          "score": 0.39344239234924316,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Maximum likelihood",
+          "scheme": "openalex_concept",
+          "score": 0.23802414536476135,
+          "level": 2,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Restricted maximum likelihood",
+        "Smoothing",
+        "Mathematics",
+        "Marginal likelihood",
+        "Generalized linear model",
+        "Applied mathematics",
+        "Mathematical optimization",
+        "Linear model",
+        "Statistics",
+        "Model selection",
+        "Estimator",
+        "Estimation theory",
+        "Maximum likelihood"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 82.98108745,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.99953474,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1111/j.1467-9868.2010.00749.x",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "Fast Stable Restricted Maximum Likelihood and Marginal Likelihood Estimation of Semiparametric Generalized Linear Models",
+      "publication_date": "2010-09-14",
+      "publication_year": 2010,
+      "work_type": "journal-article",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "Journal of the Royal Statistical Society Series B (Statistical Methodology)",
+      "issn": [
+        "1467-9868",
+        "1369-7412"
+      ],
+      "doi": "10.1111/j.1467-9868.2010.00749.x",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_locations": [
+        {
+          "url": "https://academic.oup.com/jrsssb/article-pdf/73/1/3/49162718/jrsssb_73_1_3.pdf",
+          "pdf_url": "https://academic.oup.com/jrsssb/article-pdf/73/1/3/49162718/jrsssb_73_1_3.pdf",
+          "landing_page_url": "https://doi.org/10.1111/j.1467-9868.2010.00749.x",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://academic.oup.com/jrsssb/article-pdf/73/1/3/49162718/jrsssb_73_1_3.pdf",
+          "pdf_url": "https://academic.oup.com/jrsssb/article-pdf/73/1/3/49162718/jrsssb_73_1_3.pdf",
+          "landing_page_url": "https://doi.org/10.1111/j.1467-9868.2010.00749.x",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://researchportal.bath.ac.uk/en/publications/66c38245-c53f-4a73-a4c7-694daa10f05e",
+          "landing_page_url": "https://researchportal.bath.ac.uk/en/publications/66c38245-c53f-4a73-a4c7-694daa10f05e",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "University of Bath",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://academic.oup.com/jrsssb/article-pdf/73/1/3/49162718/jrsssb_73_1_3.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1111/j.1467-9868.2010.00749.x",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1111/j.1467-9868.2010.00749.x",
+      "pmid": "23671333",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1111/j.1467-9868.2010.00749.x",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1111/j.1467-9868.2010.00749.x",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1111/j.1467-9868.2010.00749.x",
+      "authors": [
+        {
+          "name": {
+            "given": "Simon",
+            "family": "Wood",
+            "full_name": "Simon N Wood",
+            "orcid": "0000-0002-2034-7453",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0002-2034-7453",
+          "given_names": "Simon",
+          "family_names": "Wood",
+          "credit_name": "Simon N Wood",
+          "other_names": [
+            "S N Wood",
+            "Simon N Wood"
+          ],
+          "institutions": [
+            "Imperial College London",
+            "MAFF",
+            "Royal Statistical Society",
+            "University of Bath",
+            "University of Bristol",
+            "University of Edinburgh",
+            "University of Glasgow",
+            "University of Manchester",
+            "University of St Andrews",
+            "University of Strathclyde"
+          ],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1111/j.1467-9868.2010.00749.x",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1111/j.1467-9868.2010.00749.x",
+    "pmid": "23671333",
+    "openalex_id": "https://openalex.org/W2119160928",
+    "handles": [],
+    "orcids": [
+      "0000-0002-2034-7453"
+    ],
+    "ror_ids": [
+      "https://ror.org/002h8g185"
+    ],
+    "grant_ids": [],
+    "nct_ids": [],
+    "pmid_source": "nih_reporter"
+  },
+  "conflicts": {
+    "doi": "10.1111/j.1467-9868.2010.00749.x",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 6032,
+          "openalex": 7193
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 65,
+          "openalex": 69
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Oxford University Press (OUP)",
+          "openalex": "https://openalex.org/P4310311648",
+          "unpaywall": "Oxford University Press (OUP)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+          "openalex": "Journal of the Royal Statistical Society Series B (Statistical Methodology)",
+          "unpaywall": "Journal of the Royal Statistical Society Series B (Statistical Methodology)"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 3,
+    "conflict_count": 5
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1111/j.1467-9868.2010.00749.x",
+    "fetched_at": "2026-02-11T16:01:45.954671+00:00"
+  }
+}

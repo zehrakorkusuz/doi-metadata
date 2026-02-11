@@ -1,0 +1,4508 @@
+{
+  "doi": "10.1093/jamia/ocx121",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T18:48:02.860537Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "DataMed \u2013 an open source discovery index for finding biomedical datasets",
+      "abstract": "<jats:title>Abstract</jats:title><jats:sec><jats:title>Objective</jats:title><jats:p>Finding relevant datasets is important for promoting data reuse in the biomedical domain, but it is challenging given the volume and complexity of biomedical data. Here we describe the development of an open source biomedical data discovery system called DataMed, with the goal of promoting the building of additional data indexes in the biomedical domain.</jats:p></jats:sec><jats:sec><jats:title>Materials and Methods</jats:title><jats:p>DataMed, which can efficiently index and search diverse types of biomedical datasets across repositories, is developed through the National Institutes of Health\u2013funded biomedical and healthCAre Data Discovery Index Ecosystem (bioCADDIE) consortium. It consists of 2 main components: (1) a data ingestion pipeline that collects and transforms original metadata information to a unified metadata model, called DatA Tag Suite (DATS), and (2) a search engine that finds relevant datasets based on user-entered queries. In addition to describing its architecture and techniques, we evaluated individual components within DataMed, including the accuracy of the ingestion pipeline, the prevalence of the DATS model across repositories, and the overall performance of the dataset retrieval engine.</jats:p></jats:sec><jats:sec><jats:title>Results and Conclusion</jats:title><jats:p>Our manual review shows that the ingestion pipeline could achieve an accuracy of 90% and core elements of DATS had varied frequency across repositories. On a manually curated benchmark dataset, the DataMed search engine achieved an inferred average precision of 0.2033 and a precision at 10 (P@10, the number of relevant results in the top 10 search results) of 0.6022, by implementing advanced natural language processing and terminology services. Currently, we have made the DataMed system publically available as an open source package for the biomedical community.</jats:p></jats:sec>",
+      "publication_date": "2018-01-13",
+      "publication_year": 2018,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "Journal of the American Medical Informatics Association",
+      "volume": "25",
+      "issue": "3",
+      "pages": "300-308",
+      "issn": [
+        "1067-5027",
+        "1527-974X"
+      ],
+      "doi": "10.1093/jamia/ocx121",
+      "authors": [
+        {
+          "name": {
+            "given": "Xiaoling",
+            "family": "Chen",
+            "full_name": "Xiaoling Chen",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Anupama E",
+            "family": "Gururaj",
+            "full_name": "Anupama E Gururaj",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Burak",
+            "family": "Ozyurt",
+            "full_name": "Burak Ozyurt",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Center for Research in Biological Systems",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ruiling",
+            "family": "Liu",
+            "full_name": "Ruiling Liu",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ergin",
+            "family": "Soysal",
+            "full_name": "Ergin Soysal",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Trevor",
+            "family": "Cohen",
+            "full_name": "Trevor Cohen",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Firat",
+            "family": "Tiryaki",
+            "full_name": "Firat Tiryaki",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Yueling",
+            "family": "Li",
+            "full_name": "Yueling Li",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Center for Research in Biological Systems",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Nansu",
+            "family": "Zong",
+            "full_name": "Nansu Zong",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Biomedical Informatics, University of California San Diego, La Jolla, CA, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Min",
+            "family": "Jiang",
+            "full_name": "Min Jiang",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Deevakar",
+            "family": "Rogith",
+            "full_name": "Deevakar Rogith",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mandana",
+            "family": "Salimi",
+            "full_name": "Mandana Salimi",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Hyeon-eui",
+            "family": "Kim",
+            "full_name": "Hyeon-eui Kim",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Biomedical Informatics, University of California San Diego, La Jolla, CA, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Philippe",
+            "family": "Rocca-Serra",
+            "full_name": "Philippe Rocca-Serra",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "e-Research Centre, University of Oxford, Oxford, UK",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Alejandra",
+            "family": "Gonzalez-Beltran",
+            "full_name": "Alejandra Gonzalez-Beltran",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "e-Research Centre, University of Oxford, Oxford, UK",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Claudiu",
+            "family": "Farcas",
+            "full_name": "Claudiu Farcas",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Biomedical Informatics, University of California San Diego, La Jolla, CA, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Todd",
+            "family": "Johnson",
+            "full_name": "Todd Johnson",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ron",
+            "family": "Margolis",
+            "full_name": "Ron Margolis",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "National Institutes of Health, Bethesda, MD, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "George",
+            "family": "Alter",
+            "full_name": "George Alter",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "University of Michigan, Ann Arbor, MI, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Susanna-Assunta",
+            "family": "Sansone",
+            "full_name": "Susanna-Assunta Sansone",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "e-Research Centre, University of Oxford, Oxford, UK",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ian M",
+            "family": "Fore",
+            "full_name": "Ian M Fore",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "National Institutes of Health, Bethesda, MD, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Lucila",
+            "family": "Ohno-Machado",
+            "full_name": "Lucila Ohno-Machado",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Biomedical Informatics, University of California San Diego, La Jolla, CA, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jeffrey S",
+            "family": "Grethe",
+            "full_name": "Jeffrey S Grethe",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Center for Research in Biological Systems",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Hua",
+            "family": "Xu",
+            "full_name": "Hua Xu",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 60,
+      "reference_count": 47,
+      "references": [
+        {
+          "doi": "10.1038/sdata.2016.18",
+          "title": "The FAIR Guiding Principles for scientific data management and stewardship",
+          "year": 2016,
+          "author": "Wilkinson",
+          "key": "2020110612232276200_ocx121-B1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2015,
+          "author": "Lucila",
+          "key": "2020110612232276200_ocx121-B2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/ng.3864",
+          "title": "DataMed: Finding useful data across multiple biomedical data repositories",
+          "year": 2017,
+          "author": "Ohno-Machado",
+          "key": "2020110612232276200_ocx121-B3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "NIH Data Sharing Repositories",
+          "key": "2020110612232276200_ocx121-B4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/30.1.207",
+          "title": "Gene expression Omnibus: NCBI gene expression and hybridization array data repository",
+          "year": 2002,
+          "author": "Edgar",
+          "key": "2020110612232276200_ocx121-B5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/28.1.235",
+          "title": "The Protein Data Bank",
+          "year": 2000,
+          "author": "Berman",
+          "key": "2020110612232276200_ocx121-B6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/s12026-014-8516-1",
+          "title": "ImmPort: disseminating data to the public for the future of immunology",
+          "year": 2014,
+          "author": "Bhattacharya",
+          "key": "2020110612232276200_ocx121-B7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nbt.3790",
+          "title": "Discovering and linking public omics data sets using the Omics Discovery Index",
+          "year": 2017,
+          "author": "Perez-Riverol",
+          "key": "2020110612232276200_ocx121-B8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/COINFO.2009.66",
+          "title": "DataCite \u2013 A Global Registration Agency for Research Data",
+          "year": 2009,
+          "author": "Brase",
+          "key": "2020110612232276200_ocx121-B9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/database/bas005",
+          "title": "A hybrid human and machine resource curation pipeline for the Neuroscience Information Framework",
+          "year": 2012,
+          "author": "Bandrowski",
+          "key": "2020110612232276200_ocx121-B10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pone.0136206",
+          "title": "The NIDDK information network: a community portal for finding data, materials, and tools for researchers studying diabetes, digestive, and kidney diseases",
+          "year": 2015,
+          "author": "Whetzel",
+          "key": "2020110612232276200_ocx121-B11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.12688/f1000research.6555.1",
+          "title": "The resource identification initiative: a cultural shift in publishing",
+          "year": 2015,
+          "author": "Bandrowski",
+          "key": "2020110612232276200_ocx121-B12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1177/0049124107306660",
+          "title": "An Introduction to the Dataverse Network as an Infrastructure for Data Sharing",
+          "year": 2007,
+          "author": "King",
+          "key": "2020110612232276200_ocx121-B13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/sdata.2017.59",
+          "title": "DATS, the data tag suite to enable discoverability of datasets",
+          "year": 2017,
+          "author": "Sansone",
+          "key": "2020110612232276200_ocx121-B14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2013,
+          "author": "Ku\u0107",
+          "key": "2020110612232276200_ocx121-B15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/ICCIT.2009.130",
+          "title": "The Research of PHP Development Framework Based on MVC Pattern",
+          "year": 2009,
+          "author": "Cui",
+          "key": "2020110612232276200_ocx121-B16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2017,
+          "author": "PubMed Entrez Programming Utilities",
+          "key": "2020110612232276200_ocx121-B17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2015,
+          "author": "Research Portfolio Online Reporting Tools (RePORT)",
+          "key": "2020110612232276200_ocx121-B18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/jamia/ocw177",
+          "title": "MetaMap Lite: an evaluation of a new Java implementation of MetaMap",
+          "year": 2017,
+          "author": "Demner-Fushman",
+          "key": "2020110612232276200_ocx121-B19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "UTH-CCB@BioCreative V CDR Task: Identifying Chemical-induced Disease Relations in Biomedical Text",
+          "year": 2015,
+          "author": "Xu",
+          "key": "2020110612232276200_ocx121-B20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btp536",
+          "title": "QuickGO: a web-based tool for Gene Ontology searching",
+          "year": 2009,
+          "author": "Binns",
+          "key": "2020110612232276200_ocx121-B21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btv570",
+          "title": "Cell line name recognition in support of the identification of synthetic lethality in cancer from text",
+          "year": 2016,
+          "author": "Kaewphan",
+          "key": "2020110612232276200_ocx121-B22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Medical subject headings",
+          "year": 1963,
+          "author": "Rogers",
+          "key": "2020110612232276200_ocx121-B23",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "International Health Terminology Standards Development Organisation",
+          "key": "2020110612232276200_ocx121-B24",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "The Gene Ontology (GO) database and informatics resource",
+          "year": 2004,
+          "author": "Harris",
+          "key": "2020110612232276200_ocx121-B25",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2017,
+          "author": "Structural Informatics Group",
+          "key": "2020110612232276200_ocx121-B26",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2012,
+          "author": "Federhen",
+          "key": "2020110612232276200_ocx121-B27",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gku1071",
+          "title": "Genenames.org: the HGNC resources in 2015",
+          "year": 2015,
+          "author": "Gray",
+          "key": "2020110612232276200_ocx121-B28",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "Elasticsearch",
+          "key": "2020110612232276200_ocx121-B29",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/database/bax068",
+          "title": "Information retrieval for biomedical datasets: the 2016 bioCADDIE dataset retrieval challenge",
+          "year": 2017,
+          "author": "Roberts",
+          "key": "2020110612232276200_ocx121-B30",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jbi.2009.09.003",
+          "title": "Reflective Random Indexing and indirect inference: a scalable method for discovery of implicit connections",
+          "year": 2010,
+          "author": "Cohen",
+          "key": "2020110612232276200_ocx121-B31",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Random indexing of text samples for latent semantic analysis",
+          "year": 2000,
+          "author": "Kanerva",
+          "key": "2020110612232276200_ocx121-B32",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jbi.2009.02.002",
+          "title": "Empirical distributional semantics: methods and biomedical applications",
+          "year": 2009,
+          "author": "Cohen",
+          "key": "2020110612232276200_ocx121-B33",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/978-3-662-45912-6_4",
+          "title": "Orthogonality and Orthography: Introducing Measured Distance into Semantic Space",
+          "year": 2014,
+          "author": "Cohen",
+          "key": "2020110612232276200_ocx121-B34",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/978-3-319-28675-4_18",
+          "title": "Graded semantic vectors: an approach to representing graded quantities in generalized quantum models",
+          "year": 2016,
+          "author": "Widdows",
+          "key": "2020110612232276200_ocx121-B35",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/ICSC.2010.94",
+          "title": "The Semantic Vectors Package: New Algorithms and Public Tools for Distributional Semantics",
+          "year": 2010,
+          "author": "Widdows",
+          "key": "2020110612232276200_ocx121-B36",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "A Publicly Available Benchmark for Biomedical Dataset Retrieval: The Reference Standard for the 2016 bioCADDIE Dataset Retrieval Challenge",
+          "author": "Cohen",
+          "key": "2020110612232276200_ocx121-B37",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/jamia/ocx134",
+          "title": "User needs analysis and usability assessment of DataMed\u2013a biomedical data discovery index",
+          "year": 2017,
+          "author": "Dixit",
+          "key": "2020110612232276200_ocx121-B38",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jbi.2006.02.007",
+          "title": "Data integration and genomic medicine",
+          "year": 2007,
+          "author": "Louie",
+          "key": "2020110612232276200_ocx121-B39",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jbi.2008.03.004",
+          "title": "Bio2RDF: towards a mashup to build bioinformatics knowledge systems",
+          "year": 2008,
+          "author": "Belleau",
+          "key": "2020110612232276200_ocx121-B40",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkp440",
+          "title": "BioPortal: ontologies and integrated data resources at the click of a mouse",
+          "year": 2009,
+          "author": "Noy",
+          "key": "2020110612232276200_ocx121-B41",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-11-255",
+          "title": "Chem2Bio2RDF: a semantic framework for linking and data mining chemogenomic and systems chemical biology data",
+          "year": 2010,
+          "author": "Chen",
+          "key": "2020110612232276200_ocx121-B42",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkh061",
+          "title": "The Unified Medical Language System (UMLS): integrating biomedical terminology",
+          "year": 2004,
+          "author": "Bodenreider",
+          "key": "2020110612232276200_ocx121-B43",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/978-3-540-69828-9_14",
+          "title": "A system for ontology-based annotation of biomedical data",
+          "year": 2008,
+          "author": "Jonquet",
+          "key": "2020110612232276200_ocx121-B44",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-10-S2-S1",
+          "title": "Ontology-driven indexing of public datasets for translational bioinformatics",
+          "year": 2009,
+          "author": "Shah",
+          "key": "2020110612232276200_ocx121-B45",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1136/amiajnl-2013-001882",
+          "title": "PhenDisco: phenotype discovery system for the database of genotypes and phenotypes",
+          "year": 2014,
+          "author": "Doan",
+          "key": "2020110612232276200_ocx121-B46",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nbt1150",
+          "title": "Creation and implications of a phenome-genome network",
+          "year": 2006,
+          "author": "Butte",
+          "key": "2020110612232276200_ocx121-B47",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "http://academic.oup.com/jamia/article-pdf/25/3/300/34149967/ocx121.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "http://academic.oup.com/jamia/article-pdf/25/3/300/34149967/ocx121.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [
+        {
+          "name": "NIH",
+          "doi": "10.13039/100000002",
+          "award_numbers": [],
+          "source": "crossref"
+        },
+        {
+          "name": "National Institute of Allergy and Infectious Diseases",
+          "doi": "10.13039/100000060",
+          "award_numbers": [],
+          "source": "crossref"
+        }
+      ],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "http://creativecommons.org/licenses/by-nc/4.0/",
+          "content_version": "vor",
+          "delay_in_days": 0,
+          "source": "crossref"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/jamia/ocx121",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "DataMed \u2013 an open source discovery index for finding biomedical datasets",
+      "abstract": "Abstract Objective Finding relevant datasets is important for promoting data reuse in the biomedical domain, but it is challenging given the volume and complexity of biomedical data. Here we describe the development of an open source biomedical data discovery system called DataMed, with the goal of promoting the building of additional data indexes in the biomedical domain. Materials and Methods DataMed, which can efficiently index and search diverse types of biomedical datasets across repositories, is developed through the National Institutes of Health\u2013funded biomedical and healthCAre Data Discovery Index Ecosystem (bioCADDIE) consortium. It consists of 2 main components: (1) a data ingestion pipeline that collects and transforms original metadata information to a unified metadata model, called DatA Tag Suite (DATS), and (2) a search engine that finds relevant datasets based on user-entered queries. In addition to describing its architecture and techniques, we evaluated individual components within DataMed, including the accuracy of the ingestion pipeline, the prevalence of the DATS model across repositories, and the overall performance of the dataset retrieval engine. Results and Conclusion Our manual review shows that the ingestion pipeline could achieve an accuracy of 90% and core elements of DATS had varied frequency across repositories. On a manually curated benchmark dataset, the DataMed search engine achieved an inferred average precision of 0.2033 and a precision at 10 (P@10, the number of relevant results in the top 10 search results) of 0.6022, by implementing advanced natural language processing and terminology services. Currently, we have made the DataMed system publically available as an open source package for the biomedical community.",
+      "publication_date": "2017-09-28",
+      "publication_year": 2017,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310311648",
+      "container_title": "Journal of the American Medical Informatics Association",
+      "volume": "25",
+      "issue": "3",
+      "pages": "300-308",
+      "issn": [
+        "1067-5027",
+        "1527-974X"
+      ],
+      "doi": "10.1093/jamia/ocx121",
+      "pmid": "29346583",
+      "openalex_id": "https://openalex.org/W2783207633",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Xiaoling Chen",
+            "orcid": "0000-0002-7453-7877",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "The University of Texas Health Science Center at Houston",
+              "ror_id": "https://ror.org/03gds6c39",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5100408259",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Anupama E. Gururaj",
+            "orcid": "0000-0002-4221-4379",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "The University of Texas Health Science Center at Houston",
+              "ror_id": "https://ror.org/03gds6c39",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5004167844",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "\u0130brahim Burak \u00d6zyurt",
+            "orcid": "0000-0003-3944-1893",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Center for Systems Biology",
+              "ror_id": "https://ror.org/05r3dyn47",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5024882547",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ruiling Liu",
+            "orcid": "0000-0002-0107-6352",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "The University of Texas Health Science Center at Houston",
+              "ror_id": "https://ror.org/03gds6c39",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5101853939",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ergin Soysal",
+            "orcid": "0000-0002-2107-0580",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "The University of Texas Health Science Center at Houston",
+              "ror_id": "https://ror.org/03gds6c39",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5028102692",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Trevor Cohen",
+            "orcid": "0000-0003-0159-6697",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "The University of Texas Health Science Center at Houston",
+              "ror_id": "https://ror.org/03gds6c39",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5071178113",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Firat Tiryaki",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "The University of Texas Health Science Center at Houston",
+              "ror_id": "https://ror.org/03gds6c39",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5032400812",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Yueling Li",
+            "orcid": "0000-0003-4386-0070",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Center for Systems Biology",
+              "ror_id": "https://ror.org/05r3dyn47",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5061038335",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Nansu Zong",
+            "orcid": "0000-0003-0066-9524",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of California, San Diego",
+              "ror_id": "https://ror.org/0168r3w48",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5019653651",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Min Jiang",
+            "orcid": "0000-0002-1407-0961",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "The University of Texas Health Science Center at Houston",
+              "ror_id": "https://ror.org/03gds6c39",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5055848133",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Deevakar Rogith",
+            "orcid": "0000-0002-2351-1538",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "The University of Texas Health Science Center at Houston",
+              "ror_id": "https://ror.org/03gds6c39",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5076319332",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Mandana Salimi",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "The University of Texas Health Science Center at Houston",
+              "ror_id": "https://ror.org/03gds6c39",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5025846724",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Hyeoneui Kim",
+            "orcid": "0000-0002-5931-7286",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of California, San Diego",
+              "ror_id": "https://ror.org/0168r3w48",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5020006174",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Philippe Rocca\u2010Serra",
+            "orcid": "0000-0001-9853-5668",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Oxford",
+              "ror_id": "https://ror.org/052gg0110",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5018395535",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Alejandra Gonz\u00e1lez-Beltr\u00e1n",
+            "orcid": "0000-0003-3499-8262",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Oxford",
+              "ror_id": "https://ror.org/052gg0110",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5086246448",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Claudiu Farcas",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of California, San Diego",
+              "ror_id": "https://ror.org/0168r3w48",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5037482372",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Todd R. Johnson",
+            "orcid": "0000-0002-6189-463X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "The University of Texas Health Science Center at Houston",
+              "ror_id": "https://ror.org/03gds6c39",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5018141140",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ron Margolis",
+            "orcid": "0000-0002-8956-0455",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "National Institutes of Health",
+              "ror_id": "https://ror.org/01cwqze88",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5010386973",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "George Alter",
+            "orcid": "0000-0003-3823-4972",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Michigan\u2013Ann Arbor",
+              "ror_id": "https://ror.org/00jmfr291",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5034875117",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Susanna\u2010Assunta Sansone",
+            "orcid": "0000-0001-5306-5690",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Oxford",
+              "ror_id": "https://ror.org/052gg0110",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5008806860",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ian Fore",
+            "orcid": "0000-0002-2926-9324",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "National Institutes of Health",
+              "ror_id": "https://ror.org/01cwqze88",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5069872696",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Lucila Ohno\u2010Machado",
+            "orcid": "0000-0002-8005-7327",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of California, San Diego",
+              "ror_id": "https://ror.org/0168r3w48",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5084415954",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jeffrey S. Grethe",
+            "orcid": "0000-0001-5212-7052",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Center for Systems Biology",
+              "ror_id": "https://ror.org/05r3dyn47",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5076014872",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Hua Xu",
+            "orcid": "0000-0002-5274-4672",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "The University of Texas Health Science Center at Houston",
+              "ror_id": "https://ror.org/03gds6c39",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5084072550",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 71,
+      "reference_count": 49,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2025": 9,
+        "2024": 2,
+        "2023": 11,
+        "2022": 14,
+        "2021": 14,
+        "2020": 9,
+        "2019": 9,
+        "2018": 2,
+        "2017": 1
+      },
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1093/jamia/ocx121",
+          "pdf_url": "https://academic.oup.com/jamia/article-pdf/25/3/300/24152004/ocx121.pdf",
+          "landing_page_url": "https://doi.org/10.1093/jamia/ocx121",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by-nc",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1093/jamia/ocx121",
+          "pdf_url": "https://academic.oup.com/jamia/article-pdf/25/3/300/24152004/ocx121.pdf",
+          "landing_page_url": "https://doi.org/10.1093/jamia/ocx121",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by-nc",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29346583",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/29346583",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "https://escholarship.org/uc/item/1c11m3bk",
+          "landing_page_url": "https://escholarship.org/uc/item/1c11m3bk",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by-nc",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I2801248553",
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7378878",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7378878",
+          "version": "submittedVersion",
+          "is_best": false,
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.25504/fairsharing.v5q4zc",
+          "landing_page_url": "https://doi.org/10.25504/fairsharing.v5q4zc",
+          "host_type": "repository",
+          "is_best": false,
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://academic.oup.com/jamia/article-pdf/25/3/300/24152004/ocx121.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "cc-by-nc",
+          "source": "openalex"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Biomedical Text Mining and Ontologies",
+          "scheme": "openalex_topic",
+          "score": 0.9995999932289124,
+          "source": "openalex"
+        },
+        {
+          "value": "Genetics, Bioinformatics, and Biomedical Research",
+          "scheme": "openalex_topic",
+          "score": 0.9900000095367432,
+          "source": "openalex"
+        },
+        {
+          "value": "Scientific Computing and Data Management",
+          "scheme": "openalex_topic",
+          "score": 0.9776999950408936,
+          "source": "openalex"
+        },
+        {
+          "value": "Index (typography)",
+          "scheme": "openalex_concept",
+          "score": 0.6202878952026367,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Open source",
+          "scheme": "openalex_concept",
+          "score": 0.612749457359314,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.5819489359855652,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Data science",
+          "scheme": "openalex_concept",
+          "score": 0.3886067271232605,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Data mining",
+          "scheme": "openalex_concept",
+          "score": 0.3436877727508545,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Information retrieval",
+          "scheme": "openalex_concept",
+          "score": 0.3270641565322876,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "World Wide Web",
+          "scheme": "openalex_concept",
+          "score": 0.22830262780189514,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Software",
+          "scheme": "openalex_concept",
+          "score": 0.10643365979194641,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Programming language",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Index (typography)",
+        "Open source",
+        "Computer science",
+        "Data science",
+        "Data mining",
+        "Information retrieval",
+        "World Wide Web",
+        "Software"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 2.8059089,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.88860144,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 3967.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/jamia/ocx121",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "DataMed \u2013 an open source discovery index for finding biomedical datasets",
+      "publication_date": "2017-09-28",
+      "publication_year": 2017,
+      "work_type": "journal-article",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "Journal of the American Medical Informatics Association",
+      "issn": [
+        "1067-5027",
+        "1527-974X"
+      ],
+      "doi": "10.1093/jamia/ocx121",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_locations": [
+        {
+          "url": "https://academic.oup.com/jamia/article-pdf/25/3/300/24152004/ocx121.pdf",
+          "pdf_url": "https://academic.oup.com/jamia/article-pdf/25/3/300/24152004/ocx121.pdf",
+          "landing_page_url": "https://doi.org/10.1093/jamia/ocx121",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by-nc",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://academic.oup.com/jamia/article-pdf/25/3/300/24152004/ocx121.pdf",
+          "pdf_url": "https://academic.oup.com/jamia/article-pdf/25/3/300/24152004/ocx121.pdf",
+          "landing_page_url": "https://doi.org/10.1093/jamia/ocx121",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by-nc",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://escholarship.org/uc/item/1c11m3bk",
+          "landing_page_url": "https://escholarship.org/uc/item/1c11m3bk",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by-nc",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "California Digital Library",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7378878",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7378878",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://doi.org/10.25504/fairsharing.v5q4zc",
+          "landing_page_url": "https://doi.org/10.25504/fairsharing.v5q4zc",
+          "host_type": "repository",
+          "evidence": "deprecated",
+          "is_best": false,
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://academic.oup.com/jamia/article-pdf/25/3/300/24152004/ocx121.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "DataMed - an open source discovery index for finding biomedical datasets.",
+      "abstract": "<h4>Objective</h4>Finding relevant datasets is important for promoting data reuse in the biomedical domain, but it is challenging given the volume and complexity of biomedical data. Here we describe the development of an open source biomedical data discovery system called DataMed, with the goal of promoting the building of additional data indexes in the biomedical domain.<h4>Materials and methods</h4>DataMed, which can efficiently index and search diverse types of biomedical datasets across repositories, is developed through the National Institutes of Health-funded biomedical and healthCAre Data Discovery Index Ecosystem (bioCADDIE) consortium. It consists of 2 main components: (1) a data ingestion pipeline that collects and transforms original metadata information to a unified metadata model, called DatA Tag Suite (DATS), and (2) a search engine that finds relevant datasets based on user-entered queries. In addition to describing its architecture and techniques, we evaluated individual components within DataMed, including the accuracy of the ingestion pipeline, the prevalence of the DATS model across repositories, and the overall performance of the dataset retrieval engine.<h4>Results and conclusion</h4>Our manual review shows that the ingestion pipeline could achieve an accuracy of 90% and core elements of DATS had varied frequency across repositories. On a manually curated benchmark dataset, the DataMed search engine achieved an inferred average precision of 0.2033 and a precision at 10 (P@10, the number of relevant results in the top 10 search results) of 0.6022, by implementing advanced natural language processing and terminology services. Currently, we have made the DataMed system publically available as an open source package for the biomedical community.",
+      "publication_year": 2018,
+      "language": "eng",
+      "container_title": "Journal of the American Medical Informatics Association : JAMIA",
+      "volume": "25",
+      "issue": "3",
+      "pages": "300-308",
+      "issn": [],
+      "doi": "10.1093/jamia/ocx121",
+      "pmid": "29346583",
+      "pmcid": "PMC7378878",
+      "authors": [
+        {
+          "name": {
+            "given": "Xiaoling",
+            "family": "Chen",
+            "full_name": "Chen X",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Anupama E",
+            "family": "Gururaj",
+            "full_name": "Gururaj AE",
+            "orcid": "0000-0002-4221-4379",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Burak",
+            "family": "Ozyurt",
+            "full_name": "Ozyurt B",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Center for Research in Biological Systems.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ruiling",
+            "family": "Liu",
+            "full_name": "Liu R",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ergin",
+            "family": "Soysal",
+            "full_name": "Soysal E",
+            "orcid": "0000-0002-2107-0580",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Trevor",
+            "family": "Cohen",
+            "full_name": "Cohen T",
+            "orcid": "0000-0003-0159-6697",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Firat",
+            "family": "Tiryaki",
+            "full_name": "Tiryaki F",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Yueling",
+            "family": "Li",
+            "full_name": "Li Y",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Center for Research in Biological Systems.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Nansu",
+            "family": "Zong",
+            "full_name": "Zong N",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Biomedical Informatics, University of California San Diego, La Jolla, CA, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Min",
+            "family": "Jiang",
+            "full_name": "Jiang M",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Deevakar",
+            "family": "Rogith",
+            "full_name": "Rogith D",
+            "orcid": "0000-0002-2351-1538",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mandana",
+            "family": "Salimi",
+            "full_name": "Salimi M",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Hyeon-Eui",
+            "family": "Kim",
+            "full_name": "Kim HE",
+            "orcid": "0000-0002-5931-7286",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Biomedical Informatics, University of California San Diego, La Jolla, CA, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Philippe",
+            "family": "Rocca-Serra",
+            "full_name": "Rocca-Serra P",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "e-Research Centre, University of Oxford, Oxford, UK.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Alejandra",
+            "family": "Gonzalez-Beltran",
+            "full_name": "Gonzalez-Beltran A",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "e-Research Centre, University of Oxford, Oxford, UK.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Claudiu",
+            "family": "Farcas",
+            "full_name": "Farcas C",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Biomedical Informatics, University of California San Diego, La Jolla, CA, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Todd",
+            "family": "Johnson",
+            "full_name": "Johnson T",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ron",
+            "family": "Margolis",
+            "full_name": "Margolis R",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "National Institutes of Health, Bethesda, MD, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "George",
+            "family": "Alter",
+            "full_name": "Alter G",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "University of Michigan, Ann Arbor, MI, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Susanna-Assunta",
+            "family": "Sansone",
+            "full_name": "Sansone SA",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "e-Research Centre, University of Oxford, Oxford, UK.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ian M",
+            "family": "Fore",
+            "full_name": "Fore IM",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "National Institutes of Health, Bethesda, MD, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Lucila",
+            "family": "Ohno-Machado",
+            "full_name": "Ohno-Machado L",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Biomedical Informatics, University of California San Diego, La Jolla, CA, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jeffrey S",
+            "family": "Grethe",
+            "full_name": "Grethe JS",
+            "orcid": "0000-0001-5212-7052",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Center for Research in Biological Systems.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Hua",
+            "family": "Xu",
+            "full_name": "Xu H",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 33,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "url": "https://escholarship.org/uc/item/1c11m3bk",
+          "host_type": "Unpaywall",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC7378878",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC7378878?pdf=render",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "BB/L024101/1",
+          "agency": "Biotechnology and Biological Sciences Research Council",
+          "agency_abbreviation": "BB_",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "U24 AI117966",
+          "agency": "NIAID NIH HHS",
+          "agency_abbreviation": "AI",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "BB/I000771/1",
+          "agency": "Biotechnology and Biological Sciences Research Council",
+          "agency_abbreviation": "BB_",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "agency": "National Institute of Allergy and Infectious Diseases",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "agency": "NIH",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "BB/L005069/1",
+          "agency": "Biotechnology and Biological Sciences Research Council",
+          "agency_abbreviation": "BB_",
+          "pi_names": [],
+          "source": "europe_pmc"
+        }
+      ],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [
+        "Information Storage And Retrieval",
+        "Metadata",
+        "Information Dissemination",
+        "Dataset",
+        "Data Discovery Index"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 33.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [
+        "doi"
+      ],
+      "corrections": [],
+      "full_text_urls": [
+        {
+          "url": "https://escholarship.org/uc/item/1c11m3bk",
+          "availability": "Open access",
+          "document_style": "html",
+          "site": "Unpaywall"
+        },
+        {
+          "url": "https://doi.org/10.1093/jamia/ocx121",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC7378878",
+          "availability": "Open access",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC7378878?pdf=render",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/jamia/ocx121",
+      "pmid": "23671333",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/jamia/ocx121",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/jamia/ocx121",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/jamia/ocx121",
+      "authors": [
+        {
+          "name": {
+            "given": "Ergin",
+            "family": "Soysal",
+            "full_name": "Ergin Soysal",
+            "orcid": "0000-0002-2107-0580",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Trevor",
+            "family": "Cohen",
+            "full_name": "Trevor Cohen",
+            "orcid": "0000-0003-0159-6697",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Hyeoneui",
+            "family": "Kim",
+            "full_name": "Hyeoneui Kim",
+            "orcid": "0000-0002-5931-7286",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jeffrey",
+            "family": "Grethe",
+            "full_name": "Jeffrey S. Grethe",
+            "orcid": "0000-0001-5212-7052",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Deevakar",
+            "family": "Rogith",
+            "full_name": "Deevakar Rogith",
+            "orcid": "0000-0002-2351-1538",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Anupama",
+            "family": "Gururaj",
+            "full_name": "Anupama Gururaj",
+            "orcid": "0000-0002-4221-4379",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0002-2107-0580",
+          "given_names": "Ergin",
+          "family_names": "Soysal",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0003-0159-6697",
+          "given_names": "Trevor",
+          "family_names": "Cohen",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "University of Washington"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-5931-7286",
+          "given_names": "Hyeoneui",
+          "family_names": "Kim",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Seoul National University"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0001-5212-7052",
+          "given_names": "Jeffrey",
+          "family_names": "Grethe",
+          "credit_name": "Jeffrey S. Grethe",
+          "other_names": [],
+          "institutions": [
+            "Dartmouth College",
+            "Emory University",
+            "University of California Irvine",
+            "University of California San Diego",
+            "University of Southern California"
+          ],
+          "emails": [
+            "jgrethe@ucsd.edu"
+          ]
+        },
+        {
+          "orcid_id": "0000-0002-2351-1538",
+          "given_names": "Deevakar",
+          "family_names": "Rogith",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "American Medical Informatics Association",
+            "Jawaharlal Institute of Post Graduate Medical Education and Research (JIPMER)",
+            "McWilliams School of Biomedical Informatics at UTHealth Houston",
+            "University of Texas Health Science Center at Houston (UTHealth) School of Biomedical Informatics"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-4221-4379",
+          "given_names": "Anupama",
+          "family_names": "Gururaj",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "National Institutes of Health"
+          ],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": true,
+      "raw": {},
+      "title": "DataMed - an open source discovery index for finding biomedical datasets.",
+      "abstract": "OBJECTIVE: Finding relevant datasets is important for promoting data reuse in the biomedical domain, but it is challenging given the volume and complexity of biomedical data. Here we describe the development of an open source biomedical data discovery system called DataMed, with the goal of promoting the building of additional data indexes in the biomedical domain.\nMATERIALS AND METHODS: DataMed, which can efficiently index and search diverse types of biomedical datasets across repositories, is developed through the National Institutes of Health-funded biomedical and healthCAre Data Discovery Index Ecosystem (bioCADDIE) consortium. It consists of 2 main components: (1) a data ingestion pipeline that collects and transforms original metadata information to a unified metadata model, called DatA Tag Suite (DATS), and (2) a search engine that finds relevant datasets based on user-entered queries. In addition to describing its architecture and techniques, we evaluated individual components within DataMed, including the accuracy of the ingestion pipeline, the prevalence of the DATS model across repositories, and the overall performance of the dataset retrieval engine.\nRESULTS AND CONCLUSION: Our manual review shows that the ingestion pipeline could achieve an accuracy of 90% and core elements of DATS had varied frequency across repositories. On a manually curated benchmark dataset, the DataMed search engine achieved an inferred average precision of 0.2033 and a precision at 10 (P@10, the number of relevant results in the top 10 search results) of 0.6022, by implementing advanced natural language processing and terminology services. Currently, we have made the DataMed system publically available as an open source package for the biomedical community.",
+      "publication_date": "2018-Mar-01",
+      "publication_year": 2018,
+      "work_type": "journal-article",
+      "language": "eng",
+      "container_title": "Journal of the American Medical Informatics Association : JAMIA",
+      "volume": "25",
+      "issue": "3",
+      "pages": "300-308",
+      "issn": [
+        "1527-974X",
+        "1067-5027"
+      ],
+      "doi": "10.1093/jamia/ocx121",
+      "pmid": "29346583",
+      "pmcid": "PMC7378878",
+      "authors": [
+        {
+          "name": {
+            "given": "Xiaoling",
+            "family": "Chen",
+            "full_name": "Xiaoling Chen",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Anupama E",
+            "family": "Gururaj",
+            "full_name": "Anupama E Gururaj",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Burak",
+            "family": "Ozyurt",
+            "full_name": "Burak Ozyurt",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Center for Research in Biological Systems.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ruiling",
+            "family": "Liu",
+            "full_name": "Ruiling Liu",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ergin",
+            "family": "Soysal",
+            "full_name": "Ergin Soysal",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Trevor",
+            "family": "Cohen",
+            "full_name": "Trevor Cohen",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Firat",
+            "family": "Tiryaki",
+            "full_name": "Firat Tiryaki",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Yueling",
+            "family": "Li",
+            "full_name": "Yueling Li",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Center for Research in Biological Systems.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Nansu",
+            "family": "Zong",
+            "full_name": "Nansu Zong",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Biomedical Informatics, University of California San Diego, La Jolla, CA, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Min",
+            "family": "Jiang",
+            "full_name": "Min Jiang",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Deevakar",
+            "family": "Rogith",
+            "full_name": "Deevakar Rogith",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mandana",
+            "family": "Salimi",
+            "full_name": "Mandana Salimi",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Hyeon-Eui",
+            "family": "Kim",
+            "full_name": "Hyeon-Eui Kim",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Biomedical Informatics, University of California San Diego, La Jolla, CA, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Philippe",
+            "family": "Rocca-Serra",
+            "full_name": "Philippe Rocca-Serra",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "e-Research Centre, University of Oxford, Oxford, UK.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Alejandra",
+            "family": "Gonzalez-Beltran",
+            "full_name": "Alejandra Gonzalez-Beltran",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "e-Research Centre, University of Oxford, Oxford, UK.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Claudiu",
+            "family": "Farcas",
+            "full_name": "Claudiu Farcas",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Biomedical Informatics, University of California San Diego, La Jolla, CA, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Todd",
+            "family": "Johnson",
+            "full_name": "Todd Johnson",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ron",
+            "family": "Margolis",
+            "full_name": "Ron Margolis",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "National Institutes of Health, Bethesda, MD, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "George",
+            "family": "Alter",
+            "full_name": "George Alter",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "University of Michigan, Ann Arbor, MI, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Susanna-Assunta",
+            "family": "Sansone",
+            "full_name": "Susanna-Assunta Sansone",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "e-Research Centre, University of Oxford, Oxford, UK.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ian M",
+            "family": "Fore",
+            "full_name": "Ian M Fore",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "National Institutes of Health, Bethesda, MD, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Lucila",
+            "family": "Ohno-Machado",
+            "full_name": "Lucila Ohno-Machado",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Biomedical Informatics, University of California San Diego, La Jolla, CA, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jeffrey S",
+            "family": "Grethe",
+            "full_name": "Jeffrey S Grethe",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Center for Research in Biological Systems.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Hua",
+            "family": "Xu",
+            "full_name": "Hua Xu",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        }
+      ],
+      "reference_count": 47,
+      "references": [
+        {
+          "pmid": "26978244",
+          "unstructured": "Wilkinson MD,Dumontier M,Aalbersberg IJJ,et al. The FAIR Guiding Principles for scientific data management and stewardship.Scientific Data. 2016;3:160018.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.6084/m9.figshare.1362572",
+          "unstructured": "Lucila O-M,Alter G,Fore I,Martone M,Sansone S-A,Xu H.. bioCADDIE White Paper \u2013 Data Discovery Index.2015. figshare. 10.6084/m9.figshare.1362572. Accessed August 3, 2016.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "28546571",
+          "unstructured": "Ohno-Machado L,Sansone S-A,Alter G,et al. DataMed: Finding useful data across multiple biomedical data repositories.Nature Genet. 2017;49:816\u2013819.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nNIH Data Sharing Repositories.www.nlm.nih.gov/NIHbmic/nih_data_sharing_repositories.html. Accessed August 15, 2017.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "11752295",
+          "unstructured": "Edgar R,Domrachev M,Lash AE. Gene expression Omnibus: NCBI gene expression and hybridization array data repository.Nucleic Acids Res. 2002;301:207\u201310.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "10592235",
+          "unstructured": "Berman HM,Westbrook J,Feng Z,et al. The Protein Data Bank.Nucleic Acids Res. 2000;281:235\u201342.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "24791905",
+          "unstructured": "Bhattacharya S,Andorf S,Gomes L,et al. ImmPort: disseminating data to the public for the future of immunology.Immunol Res. 2014;58(2\u20133):234\u201339.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "28486464",
+          "unstructured": "Perez-Riverol Y,Bai M,da Veiga Leprevost F,et al. Discovering and linking public omics data sets using the Omics Discovery Index.Nat Biotechnol. 2017;355:406\u2013409.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1109/COINFO.2009.66",
+          "unstructured": "Brase J. DataCite \u2013 A Global Registration Agency for Research Data. In2009 Fourth International Conference on Cooperation and Promotion of Information Resources in Science and Technology.2009 10.1109/COINFO.2009.66.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/database/bas005",
+          "pmid": "22434839",
+          "unstructured": "Bandrowski AE,Cachat J,Li Y,et al. A hybrid human and machine resource curation pipeline for the Neuroscience Information Framework.Database,2012: bas005. 10.1093/database/bas005.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1371/journal.pone.0136206",
+          "pmid": "26393351",
+          "unstructured": "Whetzel PL,Grethe JS,Banks DE,et al. The NIDDK information network: a community portal for finding data, materials, and tools for researchers studying diabetes, digestive, and kidney diseases.PLOS ONE. 2015;109 10.1371/journal.pone.0136206.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "26594330",
+          "unstructured": "Bandrowski A,Brush M,Grethe JS,et al. The resource identification initiative: a cultural shift in publishing.F1000Res. 2015;4:134.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "King G. An Introduction to the Dataverse Network as an Infrastructure for Data Sharing.Soc Methods Res. 2007;36:173\u201399.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "28585923",
+          "unstructured": "Sansone SA,Gonzalez-Beltran A,Rocca-Serra P,et al. DATS, the data tag suite to enable discoverability of datasets.Sci Data. 2017;4:170059.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Ku\u0107 R,Rogozinski MR. ElasticSearch Server. Birmingham, UK: Packt Publishing Ltd.;2013.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1109/ICCIT.2009.130",
+          "unstructured": "Cui W,Huang L,Liang L,Li J,et al. The Research of PHP Development Framework Based on MVC Pattern. In:2009 Fourth International Conference on Computer Sciences and Convergence Information Technology.2009. DOI: 10.1109/ICCIT.2009.130.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nPubMed Entrez Programming Utilities.2017www.ncbi.nlm.nih.gov/home/develop/api/. Accessed August 15, 2017.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nResearch Portfolio Online Reporting Tools (RePORT).2015https://exporter.nih.gov/ExPORTER_Catalog.aspx. Accessed August 15, 2016.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "28130331",
+          "unstructured": "Demner-Fushman D,Rogers WJ,Aronson AR. MetaMap Lite: an evaluation of a new Java implementation of MetaMap.J Am Med Inform Assoc. 2017;244:841\u201344.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Xu J,Wu Y,Zhang Y,et al. UTH-CCB@BioCreative V CDR Task: Identifying Chemical-induced Disease Relations in Biomedical Text. In:Fifth BioCreative Challenge Evaluation Workshop.2015:254\u2013259.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "19744993",
+          "unstructured": "Binns D,Dimmer E,Huntley R,et al. QuickGO: a web-based tool for Gene Ontology searching.Bioinformatics. 2009;2522:3045\u201346.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "26428294",
+          "unstructured": "Kaewphan S,Van Landeghem S,Ohta T,et al. Cell line name recognition in support of the identification of synthetic lethality in cancer from text.Bioinformatics. 2016;322:276\u201382.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "13982385",
+          "unstructured": "Rogers FB. Medical subject headings.Bull Med Libr Assoc. 1963;51:114\u201316.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nInternational Health Terminology Standards Development Organisation.History Of SNOMED CT.www.snomed.org/snomed-ct/what-is-snomed-ct/history-of-snomed-ct. Accessed August 15, 2017.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "14681407",
+          "unstructured": "Harris MA,et al. The Gene Ontology (GO) database and informatics resource.Nucleic Acids Res. 2004;32(Database issue):D258\u201361.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nStructural Informatics Group.Foundational Model of Anatomy.2017http://si.washington.edu/projects/fma. Accessed August 10, 2017.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "22139910",
+          "unstructured": "Federhen S.The NCBI Taxonomy database.Nucleic Acids Res. 2012;40(Database issue):D136\u201343.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "25361968",
+          "unstructured": "Gray KA,et al. Genenames.org: the HGNC resources in 2015.Nucleic Acids Res. 2015;43(Database issue):D1079\u201385.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nElasticsearch.Theory Behind Relevance Scoring.www.elastic.co/guide/en/elasticsearch/guide/current/scoring-theory.html. Accessed August 14, 2017.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/database/bax068",
+          "pmid": "29220453",
+          "unstructured": "Roberts K,Gururaj AE,Chen X,et al. Information retrieval for biomedical datasets: the 2016 bioCADDIE dataset retrieval challenge.Database 2017:bax068. 10.1093/database/bax068.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "19761870",
+          "unstructured": "Cohen T,Schvaneveldt R,Widdows D. Reflective Random Indexing and indirect inference: a scalable method for discovery of implicit connections.J Biomed Inform. 2010;432:240\u201356.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nKanerva P,Kristoferson J,Holst A. \nRandom indexing of text samples for latent semantic analysis.Proc 22nd Annual Conf Cogn Sci Soc. 2000;22https://escholarship.org/uc/item/5644k0w6.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "19232399",
+          "unstructured": "Cohen T,Widdows D. Empirical distributional semantics: methods and biomedical applications.J Biomed Inform. 2009;422:390\u2013405.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Cohen T,Widdows D,Wahle M,Schvaneveldt. Orthogonality and Orthography: Introducing Measured Distance into Semantic Space. InQuantum Interaction: 7th International Conference. Leicester, UK,July 25\u201327, 2013. Selected Papers,Atmanspacher H,et al. , ed. Berlin, Heidelberg: Springer;2014:34\u201346.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Widdows D,Cohen T. Graded semantic vectors: an approach to representing graded quantities in generalized quantum models. InQuantum Interaction: 9th International Conference, Filzbach, Switzerland,July 15\u201317, 2015Revised Selected Papers,Atmanspacher H,Filk T,Pothos E, ed. Cham, Switzerland: Springer International Publishing;2016:231\u201344.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1109/ICSC.2010.94",
+          "unstructured": "Widdows D,Cohen T. The Semantic Vectors Package: New Algorithms and Public Tools for Distributional Semantics. In2010 IEEE Fourth International Conference on Semantic Computing.2010. DOI: 10.1109/ICSC.2010.94.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/database/bax061",
+          "pmid": "29220453",
+          "unstructured": "Cohen T,Roberts K,Gururaj AE,et al. A Publicly Available Benchmark for Biomedical Dataset Retrieval: The Reference Standard for the 2016 bioCADDIE Dataset Retrieval Challenge.Database 2017: bax061. 10.1093/database/bax061.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "29202203",
+          "unstructured": "Dixit R,Rogith D,Narayana V,et al. User needs analysis and usability assessment of DataMed\u2013a biomedical data discovery index.J Am Med Inform Assoc. 2017;253:337\u2013345.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "16574494",
+          "unstructured": "Louie B,Mork P,Martin-Sanchez F,Halevy A,Tarczy-Hornoch P. Data integration and genomic medicine.J Biomed Inform. 2007;401:5\u201316.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "18472304",
+          "unstructured": "Belleau F,Nolin MA,Tourigny N,Rigault P,Morissette J. Bio2RDF: towards a mashup to build bioinformatics knowledge systems.J Biomed Inform. 2008;415:706\u201316.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "19483092",
+          "unstructured": "Noy NF,Shah NH,Whetzel PL,et al. BioPortal: ontologies and integrated data resources at the click of a mouse.Nucleic Acids Res. 2009;37(Web Server issue):W170\u20133.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "20478034",
+          "unstructured": "Chen B,Dong X,Jiao D,et al. Chem2Bio2RDF: a semantic framework for linking and data mining chemogenomic and systems chemical biology data.BMC Bioinformatics. 2010;11:255.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "14681409",
+          "unstructured": "Bodenreider O. The Unified Medical Language System (UMLS): integrating biomedical terminology.Nucleic Acids Res. 2004;32(Database issue):D267\u201370.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nJonquet C,Musen M,Shah N. \nA system for ontology-based annotation of biomedical data.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "19208184",
+          "unstructured": "Shah NH,Jonquet C,Chiang AP,Butte AJ,Chen R,Musen MA. Ontology-driven indexing of public datasets for translational bioinformatics.BMC Bioinformatics. 2009;10(Suppl 2):S1.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "23989082",
+          "unstructured": "Doan S,Lin KW,Conway M,et al. PhenDisco: phenotype discovery system for the database of genotypes and phenotypes.J Am Med Inform Assoc. 2014;211:31\u201336.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "16404398",
+          "unstructured": "Butte AJ,Kohane IS. Creation and implications of a phenome-genome network.Nat Biotechnol. 2006;241:55\u201362.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "BB/I000771/1",
+          "agency": "Biotechnology and Biological Sciences Research Council",
+          "agency_abbreviation": "BB_",
+          "pi_names": [],
+          "jurisdiction": "United Kingdom",
+          "source": "entrez"
+        },
+        {
+          "grant_id": "U24 AI117966",
+          "agency": "NIAID NIH HHS",
+          "agency_abbreviation": "AI",
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "source": "entrez"
+        }
+      ],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [
+        "data discovery index",
+        "dataset",
+        "information dissemination",
+        "information storage and retrieval",
+        "metadata"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {
+        "received": "2017-05-30",
+        "revised": "2017-09-20",
+        "accepted": "2017-09-28",
+        "pubmed": "2018-01-19",
+        "medline": "2018-01-19",
+        "entrez": "2018-01-19",
+        "pmc-release": "2018-01-13"
+      },
+      "structured_abstract": {
+        "OBJECTIVE": "Finding relevant datasets is important for promoting data reuse in the biomedical domain, but it is challenging given the volume and complexity of biomedical data. Here we describe the development of an open source biomedical data discovery system called DataMed, with the goal of promoting the building of additional data indexes in the biomedical domain.",
+        "MATERIALS AND METHODS": "DataMed, which can efficiently index and search diverse types of biomedical datasets across repositories, is developed through the National Institutes of Health-funded biomedical and healthCAre Data Discovery Index Ecosystem (bioCADDIE) consortium. It consists of 2 main components: (1) a data ingestion pipeline that collects and transforms original metadata information to a unified metadata model, called DatA Tag Suite (DATS), and (2) a search engine that finds relevant datasets based on user-entered queries. In addition to describing its architecture and techniques, we evaluated individual components within DataMed, including the accuracy of the ingestion pipeline, the prevalence of the DATS model across repositories, and the overall performance of the dataset retrieval engine.",
+        "RESULTS AND CONCLUSION": "Our manual review shows that the ingestion pipeline could achieve an accuracy of 90% and core elements of DATS had varied frequency across repositories. On a manually curated benchmark dataset, the DataMed search engine achieved an inferred average precision of 0.2033 and a precision at 10 (P@10, the number of relevant results in the top 10 search results) of 0.6022, by implementing advanced natural language processing and terminology services. Currently, we have made the DataMed system publically available as an open source package for the biomedical community."
+      },
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "publication_status": "ppublish",
+      "country_of_publication": "England",
+      "nlm_journal_id": "9430800",
+      "medline_ta": "J Am Med Inform Assoc",
+      "citation_subsets": [
+        "IM"
+      ],
+      "pii": "4807508",
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1093/jamia/ocx121",
+    "pmid": "29346583",
+    "pmcid": "PMC7378878",
+    "openalex_id": "https://openalex.org/W2783207633",
+    "pii": "4807508",
+    "nlm_unique_id": "9430800",
+    "handles": [],
+    "orcids": [
+      "0000-0001-5212-7052",
+      "0000-0001-5306-5690",
+      "0000-0001-9853-5668",
+      "0000-0002-0107-6352",
+      "0000-0002-1407-0961",
+      "0000-0002-2107-0580",
+      "0000-0002-2351-1538",
+      "0000-0002-2926-9324",
+      "0000-0002-4221-4379",
+      "0000-0002-5274-4672",
+      "0000-0002-5931-7286",
+      "0000-0002-6189-463X",
+      "0000-0002-7453-7877",
+      "0000-0002-8005-7327",
+      "0000-0002-8956-0455",
+      "0000-0003-0066-9524",
+      "0000-0003-0159-6697",
+      "0000-0003-3499-8262",
+      "0000-0003-3823-4972",
+      "0000-0003-3944-1893",
+      "0000-0003-4386-0070"
+    ],
+    "ror_ids": [
+      "https://ror.org/00jmfr291",
+      "https://ror.org/0168r3w48",
+      "https://ror.org/01cwqze88",
+      "https://ror.org/03gds6c39",
+      "https://ror.org/052gg0110",
+      "https://ror.org/05r3dyn47"
+    ],
+    "grant_ids": [
+      "BB/I000771/1",
+      "BB/L005069/1",
+      "BB/L024101/1",
+      "U24 AI117966"
+    ],
+    "nct_ids": [],
+    "pmid_source": "entrez",
+    "pmcid_source": "entrez"
+  },
+  "conflicts": {
+    "doi": "10.1093/jamia/ocx121",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 60,
+          "openalex": 71,
+          "europe_pmc": 33
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 47,
+          "openalex": 49,
+          "entrez": 47
+        },
+        "risk": "low"
+      },
+      {
+        "field": "title",
+        "values": {
+          "crossref": "DataMed \u2013 an open source discovery index for finding biomedical datasets",
+          "openalex": "DataMed \u2013 an open source discovery index for finding biomedical datasets",
+          "unpaywall": "DataMed \u2013 an open source discovery index for finding biomedical datasets",
+          "europe_pmc": "DataMed - an open source discovery index for finding biomedical datasets",
+          "entrez": "DataMed - an open source discovery index for finding biomedical datasets"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publication_year",
+        "values": {
+          "crossref": 2018,
+          "openalex": 2017,
+          "unpaywall": 2017,
+          "europe_pmc": 2018,
+          "entrez": 2018
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article",
+          "entrez": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 24,
+          "openalex": 24,
+          "unpaywall": 24,
+          "europe_pmc": 24,
+          "orcid": 6,
+          "entrez": 24
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Oxford University Press (OUP)",
+          "openalex": "https://openalex.org/P4310311648",
+          "unpaywall": "Oxford University Press (OUP)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Journal of the American Medical Informatics Association",
+          "openalex": "Journal of the American Medical Informatics Association",
+          "unpaywall": "Journal of the American Medical Informatics Association",
+          "europe_pmc": "Journal of the American Medical Informatics Association : JAMIA",
+          "entrez": "Journal of the American Medical Informatics Association : JAMIA"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng",
+          "entrez": "eng"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "grant_count",
+        "values": {
+          "europe_pmc": 6,
+          "entrez": 2
+        },
+        "risk": "medium"
+      }
+    ],
+    "agreement_count": 1,
+    "conflict_count": 10
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1093/jamia/ocx121",
+    "fetched_at": "2026-02-11T18:48:02.861874+00:00"
+  }
+}

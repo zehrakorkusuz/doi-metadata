@@ -1,0 +1,5852 @@
+{
+  "doi": "10.1111/cts.70284",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T18:44:06.173555Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "Announcing the Biomedical Data Translator: Initial Public Release",
+      "abstract": "<jats:title>ABSTRACT</jats:title><jats:p>The growing availability of biomedical data offers vast potential to improve human health, but the complexity and lack of integration of these datasets often limit their utility. To address this, the Biomedical Data Translator Consortium has developed an open\u2010source knowledge graph\u2013based system\u2014Translator\u2014designed to integrate, harmonize, and make inferences over diverse biomedical data sources. We announce here Translator's initial public release and provide an overview of its architecture, standards, user interface, and core features. Translator employs a scalable, federated, knowledge graph framework for the integration of clinical, genomic, pharmacological, and other biomedical knowledge sources, enabling query retrieval, inference, and hypothesis generation. Translator's user interface is designed to support the exploration of knowledge relationships and the generation of insights, without requiring deep technical expertise and gradually revealing more detailed evidence, provenance, and confidence information, as needed by a given user. To demonstrate Translator's application and impact, we highlight features of the user interface in the context of three real\u2010world use cases: suggesting potential therapeutics for patients with rare disease; explaining the mechanism of action of a pipeline drug; and screening and validating drug candidates in a model organism. We discuss strengths and limitations of reasoning within a largely federated system and the need for rich concept modeling and deep provenance tracking. Finally, we outline future directions for enhancing Translator's functionality and expanding its data sources. Translator represents a significant step forward in making complex biomedical knowledge more accessible and actionable, aiming to accelerate translational research and improve patient care.</jats:p>",
+      "publication_date": "2025-07",
+      "publication_year": 2025,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Wiley",
+      "container_title": "Clinical and Translational Science",
+      "volume": "18",
+      "issue": "7",
+      "pages": "e70284",
+      "issn": [
+        "1752-8054",
+        "1752-8062"
+      ],
+      "doi": "10.1111/cts.70284",
+      "authors": [
+        {
+          "name": {
+            "given": "Karamarie",
+            "family": "Fecho",
+            "full_name": "Karamarie Fecho",
+            "sequence": "first",
+            "orcid": "0000-0002-6704-9306",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Renaissance Computing Institute, University of North Carolina at Chapel Hill  Chapel Hill North Carolina USA",
+              "source": "crossref"
+            },
+            {
+              "name": "Copperline Professional Solutions, LLC  Pittsboro North Carolina USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Gw\u00eanlyn",
+            "family": "Glusman",
+            "full_name": "Gw\u00eanlyn Glusman",
+            "sequence": "additional",
+            "orcid": "0000-0001-8060-5955",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Institute for Systems Biology  Seattle Washington USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sergio E.",
+            "family": "Baranzini",
+            "full_name": "Sergio E. Baranzini",
+            "sequence": "additional",
+            "orcid": "0000-0003-0067-194X",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "University of California \u2013 San Francisco  San Francisco California USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Chris",
+            "family": "Bizon",
+            "full_name": "Chris Bizon",
+            "sequence": "additional",
+            "orcid": "0000-0002-9491-7674",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Renaissance Computing Institute, University of North Carolina at Chapel Hill  Chapel Hill North Carolina USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Matthew",
+            "family": "Brush",
+            "full_name": "Matthew Brush",
+            "sequence": "additional",
+            "orcid": "0000-0002-1048-5019",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "University of North Carolina \u2013 Chapel Hill  Chapel Hill North Carolina USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "William",
+            "family": "Byrd",
+            "full_name": "William Byrd",
+            "sequence": "additional",
+            "orcid": "0000-0003-4730-5293",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "University of Alabama \u2013 Birmingham  Birmingham Alabama USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Lawrence",
+            "family": "Chung",
+            "full_name": "Lawrence Chung",
+            "sequence": "additional",
+            "orcid": "0000-0002-6823-9275",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Columbia University  New York New York USA",
+              "source": "crossref"
+            },
+            {
+              "name": "Broad Institute of MIT and Harvard  Cambridge Massachusetts USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Andrew",
+            "family": "Crouse",
+            "full_name": "Andrew Crouse",
+            "sequence": "additional",
+            "orcid": "0000-0003-3499-6902",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "University of Alabama \u2013 Birmingham  Birmingham Alabama USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Eric",
+            "family": "Deutsch",
+            "full_name": "Eric Deutsch",
+            "sequence": "additional",
+            "orcid": "0000-0001-8732-0928",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Institute for Systems Biology  Seattle Washington USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michel",
+            "family": "Dumontier",
+            "full_name": "Michel Dumontier",
+            "sequence": "additional",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Institute of Data Science Maastricht University  Maastricht the Netherlands",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Aleksandra",
+            "family": "Foksinska",
+            "full_name": "Aleksandra Foksinska",
+            "sequence": "additional",
+            "orcid": "0000-0002-1035-3294",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "University of Alabama \u2013 Birmingham  Birmingham Alabama USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jennifer",
+            "family": "Hadlock",
+            "full_name": "Jennifer Hadlock",
+            "sequence": "additional",
+            "orcid": "0000-0001-6103-7606",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Institute for Systems Biology  Seattle Washington USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Kaiwen",
+            "family": "He",
+            "full_name": "Kaiwen He",
+            "sequence": "additional",
+            "orcid": "0000-0001-5510-6409",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "University of Alabama \u2013 Birmingham  Birmingham Alabama USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sui",
+            "family": "Huang",
+            "full_name": "Sui Huang",
+            "sequence": "additional",
+            "orcid": "0000-0002-3545-4665",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Institute for Systems Biology  Seattle Washington USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Robert",
+            "family": "Hubal",
+            "full_name": "Robert Hubal",
+            "sequence": "additional",
+            "orcid": "0000-0003-2637-0918",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Renaissance Computing Institute, University of North Carolina at Chapel Hill  Chapel Hill North Carolina USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Gregory M.",
+            "family": "Hyde",
+            "full_name": "Gregory M. Hyde",
+            "sequence": "additional",
+            "orcid": "0000-0001-5608-5224",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Dartmouth College  Hanover New Hampshire USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sharat",
+            "family": "Israni",
+            "full_name": "Sharat Israni",
+            "sequence": "additional",
+            "orcid": "0000-0003-0100-5826",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "University of California \u2013 San Francisco  San Francisco California USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Kelyne",
+            "family": "Kenmogne",
+            "full_name": "Kelyne Kenmogne",
+            "sequence": "additional",
+            "orcid": "0009-0007-5582-6597",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Renaissance Computing Institute, University of North Carolina at Chapel Hill  Chapel Hill North Carolina USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "David",
+            "family": "Koslicki",
+            "full_name": "David Koslicki",
+            "sequence": "additional",
+            "orcid": "0000-0002-0640-954X",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Pennsylvania State University  University Park Pennsylvania USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jana Dorfman",
+            "family": "Marcette",
+            "full_name": "Jana Dorfman Marcette",
+            "sequence": "additional",
+            "orcid": "0009-0003-0689-245X",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Montana State University \u2013 Billings  Billings Montana USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ewy A.",
+            "family": "Mathe",
+            "full_name": "Ewy A. Mathe",
+            "sequence": "additional",
+            "orcid": "0000-0003-4491-8107",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "National Center for Advancing Translational Sciences  Bethesda Maryland USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Abrar",
+            "family": "Mesbah",
+            "full_name": "Abrar Mesbah",
+            "sequence": "additional",
+            "orcid": "0009-0003-9477-1809",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "CoVar, LLC  Durham North Carolina USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sierra A. T.",
+            "family": "Moxon",
+            "full_name": "Sierra A. T. Moxon",
+            "sequence": "additional",
+            "orcid": "0000-0002-8719-7760",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Lawrence Berkeley National Laboratory  Berkeley California USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Christopher J.",
+            "family": "Mungall",
+            "full_name": "Christopher J. Mungall",
+            "sequence": "additional",
+            "orcid": "0000-0002-6601-2165",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Lawrence Berkeley National Laboratory  Berkeley California USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "John",
+            "family": "Osborne",
+            "full_name": "John Osborne",
+            "sequence": "additional",
+            "orcid": "0000-0002-0851-1150",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "University of Alabama \u2013 Birmingham  Birmingham Alabama USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Carrie",
+            "family": "Pasfield",
+            "full_name": "Carrie Pasfield",
+            "sequence": "additional",
+            "orcid": "0009-0001-4360-0458",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Renaissance Computing Institute, University of North Carolina at Chapel Hill  Chapel Hill North Carolina USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Guangrong",
+            "family": "Qin",
+            "full_name": "Guangrong Qin",
+            "sequence": "additional",
+            "orcid": "0000-0001-8836-1246",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Institute for Systems Biology  Seattle Washington USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Stephen A.",
+            "family": "Ramsey",
+            "full_name": "Stephen A. Ramsey",
+            "sequence": "additional",
+            "orcid": "0000-0002-2168-5403",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Oregon State University  Corvallis Oregon USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Justin",
+            "family": "Reese",
+            "full_name": "Justin Reese",
+            "sequence": "additional",
+            "orcid": "0000-0002-2170-2250",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Lawrence Berkeley National Laboratory  Berkeley California USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jared C.",
+            "family": "Roach",
+            "full_name": "Jared C. Roach",
+            "sequence": "additional",
+            "orcid": "0000-0003-4524-0107",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Institute for Systems Biology  Seattle Washington USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Reese",
+            "family": "Rose",
+            "full_name": "Reese Rose",
+            "sequence": "additional",
+            "orcid": "0009-0002-4870-3613",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Beshenich Muir &amp; Associates, LLC  Leavenworth Kansas USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Karthik",
+            "family": "Soman",
+            "full_name": "Karthik Soman",
+            "sequence": "additional",
+            "orcid": "0000-0002-3490-9306",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "University of California \u2013 San Francisco  San Francisco California USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Andrew I.",
+            "family": "Su",
+            "full_name": "Andrew I. Su",
+            "sequence": "additional",
+            "orcid": "0000-0002-9859-4104",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "The Scripps Research Institute  San Diego California USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Casey",
+            "family": "Ta",
+            "full_name": "Casey Ta",
+            "sequence": "additional",
+            "orcid": "0000-0002-4679-805X",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Columbia University  New York New York USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Gaurav",
+            "family": "Vaidya",
+            "full_name": "Gaurav Vaidya",
+            "sequence": "additional",
+            "orcid": "0000-0003-0587-0454",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Renaissance Computing Institute, University of North Carolina at Chapel Hill  Chapel Hill North Carolina USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Rosina",
+            "family": "Weber",
+            "full_name": "Rosina Weber",
+            "sequence": "additional",
+            "orcid": "0000-0001-7048-8812",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Drexel University  Philadelphia Pennsylvania USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Qi",
+            "family": "Wei",
+            "full_name": "Qi Wei",
+            "sequence": "additional",
+            "orcid": "0000-0002-1481-2304",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Institute for Systems Biology  Seattle Washington USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mark",
+            "family": "Williams",
+            "full_name": "Mark Williams",
+            "sequence": "additional",
+            "orcid": "0000-0001-8020-916X",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "National Center for Advancing Translational Sciences  Bethesda Maryland USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Chunlei",
+            "family": "Wu",
+            "full_name": "Chunlei Wu",
+            "sequence": "additional",
+            "orcid": "0000-0002-2629-6124",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "The Scripps Research Institute  San Diego California USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Colleen",
+            "family": "Xu",
+            "full_name": "Colleen Xu",
+            "sequence": "additional",
+            "orcid": "0000-0003-2975-882X",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "The Scripps Research Institute  San Diego California USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Chase",
+            "family": "Yakaboski",
+            "full_name": "Chase Yakaboski",
+            "sequence": "additional",
+            "orcid": "0000-0002-2463-6711",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Dartmouth College  Hanover New Hampshire USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "The Biomedical Data Translator Consortium",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 2,
+      "reference_count": 49,
+      "references": [
+        {
+          "doi": "10.1111/cts.12595",
+          "key": "e_1_2_8_2_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Wikipedia \u201cKnowledge Graph \u201d(2024) accessed November 21 2024 https://en.wikipedia.org/w/index.php?title=Knowledge_graph&oldid=1255523142.",
+          "key": "e_1_2_8_3_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/cts.13301",
+          "key": "e_1_2_8_4_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/cts.13302",
+          "key": "e_1_2_8_5_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/cts.12592",
+          "key": "e_1_2_8_6_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Google \u201cIntroducing the Knowledge Graph: Things Not Strings \u201d(2012) accessed November 21 2024 https://blog.google/products/search/introducing\u2010knowledge\u2010graph\u2010things\u2010not/.",
+          "key": "e_1_2_8_7_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1164/ajrccm.149.4.8143061",
+          "key": "e_1_2_8_8_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Wisecube AI \u2013 Research Intelligence Platform \u201cKnowledge Graphs: RDF or Property Graphs. Which One Should You Pick? \u201daccessed November 21 2024 https://www.wisecube.ai/blog/knowledge\u2010graphs\u2010rdf\u2010or\u2010property\u2010graphs\u2010which\u2010one\u2010should\u2010you\u2010pick/.",
+          "key": "e_1_2_8_9_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkad1082",
+          "key": "e_1_2_8_10_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.drudis.2023.103805",
+          "key": "e_1_2_8_11_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "\u201cNCATSTranslator/ReasonerAPI \u201d(2024) accessed November 21 2024 https://github.com/NCATSTranslator/ReasonerAPI.",
+          "key": "e_1_2_8_12_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "MET \u201cMET Proto\u2010Oncogene Receptor Tyrosine Kinase [Homo sapiens(Human)] \u201dNCBI accessed November 22 2024 https://www.ncbi.nlm.nih.gov/gene/4233.",
+          "key": "e_1_2_8_13_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41388\u2010020\u201001577\u20105",
+          "key": "e_1_2_8_14_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3389/fendo.2018.00485",
+          "key": "e_1_2_8_15_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2012,
+          "key": "e_1_2_8_16_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "\u201cEtiposide \u201dDrugBank accessed March 19 2025 https://go.drugbank.com/drugs/DB00773.",
+          "key": "e_1_2_8_17_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1993,
+          "author": "Byers P. H.",
+          "key": "e_1_2_8_18_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1097/CRD.0000000000000159",
+          "key": "e_1_2_8_19_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "\u201cCeliprolol \u201dDrugBank accessed November 22 2024 https://go.drugbank.com/drugs/DB04846.",
+          "key": "e_1_2_8_20_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Science & Pipeline|Zevra Therapeutics. (2022) accessed November 22 2024 https://zevra.com/science\u2010pipeline/.",
+          "key": "e_1_2_8_21_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "\u201cA Strategic Roadmap for Establishing New Approaches to Evaluate the Safety of Chemicals and Medical Products in the United States \u201dNational Toxicology Program accessed November 22 2024 https://ntp.niehs.nih.gov/whatwestudy/niceatm/natl\u2010strategy.",
+          "key": "e_1_2_8_22_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "\u201cNICEATM: Alternative Methods \u201dNational Toxicology Program accessed November 22 2024 https://ntp.niehs.nih.gov/whatwestudy/niceatm.",
+          "key": "e_1_2_8_23_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "\u201cDrug Repurposing Hub \u201d(2023) NCATS Translator GitHub Repository accessed November 22 2024 https://github.com/NCATSTranslator/Translator\u2010All/wiki/Drug\u2010Repurposing\u2010Hub.",
+          "key": "e_1_2_8_24_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "\u201cDrugBank \u201d(2023) NCATS Translator GitHub Repository accessed November 22 2024 https://github.com/NCATSTranslator/Translator\u2010All/wiki/DrugBank.",
+          "key": "e_1_2_8_25_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/ajh.2008.233",
+          "key": "e_1_2_8_26_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "\u201cDrugCentral \u201d(2023) NCATS Translator GitHub Repository accessed November 22 2024 https://github.com/NCATSTranslator/Translator\u2010All/wiki/DrugCentral.",
+          "key": "e_1_2_8_27_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "\u201cText\u2010Mined Assertion KP \u201d(2024) NCATS Translator GitHub Repository accessed November 22 2024 https://github.com/NCATSTranslator/Translator\u2010All/wiki/Text%E2%80%90mined\u2010Assertion\u2010KP.",
+          "key": "e_1_2_8_28_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "\u201cCOL1A1 Gene. MedlinePlus Genetics \u201d(2019) accessed November 22 2024 https://medlineplus.gov/genetics/gene/col1a1/.",
+          "key": "e_1_2_8_29_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.ajhg.2022.09.012",
+          "key": "e_1_2_8_30_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.7554/eLife.01637",
+          "key": "e_1_2_8_31_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.7554/eLife.01498",
+          "key": "e_1_2_8_32_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.7554/eLife.15833",
+          "key": "e_1_2_8_33_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.2183/pjab.88.434",
+          "key": "e_1_2_8_34_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.4161/cam.5.2.15081",
+          "key": "e_1_2_8_35_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nsmb.3483",
+          "key": "e_1_2_8_36_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.7554/eLife.30935",
+          "key": "e_1_2_8_37_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/jnr.24561",
+          "key": "e_1_2_8_38_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.seizure.2010.06.005",
+          "key": "e_1_2_8_39_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "\u201cTranslator User Interface \u201daccessed March 19 2025 https://ui.transltr.io/.",
+          "key": "e_1_2_8_40_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Causaly 2024 accessed November 22 2024 https://www.causaly.com/.",
+          "key": "e_1_2_8_41_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2025,
+          "key": "e_1_2_8_42_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "\u201cBIOTEQUE: Metapath Explorer \u201daccessed November 22 2024 https://bioteque.irbbarcelona.org/.",
+          "key": "e_1_2_8_43_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "\u201cMetaPath Explorer GitHub Repository \u201d(2022) accessed November 22 2024 https://github.com/meb\u2010team/MetaPathExplorer.",
+          "key": "e_1_2_8_44_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "\u201cOpen Targets \u201daccessed November 22 2024 https://www.opentargets.org/.",
+          "key": "e_1_2_8_45_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "\u201cSTRING: Functional Protein Association Networks \u201d(2024) accessed November 22 2024 https://string\u2010db.org/.",
+          "key": "e_1_2_8_46_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "R.Haas \u201cA Survey of Biomedical Knowledge Graphs and of Resources for Their Construction \u201d(2024) accessed November 22 2024 https://github.com/robert\u2010haas/awesome\u2010biomedical\u2010knowledge\u2010graphs/blob/main/target/bmkg.pdf.",
+          "key": "e_1_2_8_47_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2020,
+          "author": "Hand D. J.",
+          "key": "e_1_2_8_48_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jaip.2021.08.024",
+          "key": "e_1_2_8_49_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Gene Network Inference for Expression Regulation (GenNIFER) accessed November 25 2024 https://di2ag.github.io/gennifer/.",
+          "key": "e_1_2_8_50_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://ascpt.onlinelibrary.wiley.com/doi/pdf/10.1111/cts.70284",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "content_version": "vor",
+          "delay_in_days": 8,
+          "source": "crossref"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [
+        {
+          "value": "2024-11-26",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2025-06-06",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2025-07-09",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1111/cts.70284",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "Announcing the Biomedical Data Translator: Initial Public Release",
+      "abstract": "ABSTRACT The growing availability of biomedical data offers vast potential to improve human health, but the complexity and lack of integration of these datasets often limit their utility. To address this, the Biomedical Data Translator Consortium has developed an open\u2010source knowledge graph\u2013based system\u2014Translator\u2014designed to integrate, harmonize, and make inferences over diverse biomedical data sources. We announce here Translator's initial public release and provide an overview of its architecture, standards, user interface, and core features. Translator employs a scalable, federated, knowledge graph framework for the integration of clinical, genomic, pharmacological, and other biomedical knowledge sources, enabling query retrieval, inference, and hypothesis generation. Translator's user interface is designed to support the exploration of knowledge relationships and the generation of insights, without requiring deep technical expertise and gradually revealing more detailed evidence, provenance, and confidence information, as needed by a given user. To demonstrate Translator's application and impact, we highlight features of the user interface in the context of three real\u2010world use cases: suggesting potential therapeutics for patients with rare disease; explaining the mechanism of action of a pipeline drug; and screening and validating drug candidates in a model organism. We discuss strengths and limitations of reasoning within a largely federated system and the need for rich concept modeling and deep provenance tracking. Finally, we outline future directions for enhancing Translator's functionality and expanding its data sources. Translator represents a significant step forward in making complex biomedical knowledge more accessible and actionable, aiming to accelerate translational research and improve patient care.",
+      "publication_date": "2025-07-01",
+      "publication_year": 2025,
+      "work_type": "review",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310320595",
+      "container_title": "Clinical and Translational Science",
+      "volume": "18",
+      "issue": "7",
+      "pages": "e70284-e70284",
+      "issn": [
+        "1752-8054",
+        "1752-8062"
+      ],
+      "doi": "10.1111/cts.70284",
+      "pmid": "40635371",
+      "openalex_id": "https://openalex.org/W4412144313",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Karamarie Fecho",
+            "orcid": "0000-0002-6704-9306",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Professional Solutions (United States)",
+              "ror_id": "https://ror.org/037e0dj26",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Renaissance Computing Institute",
+              "ror_id": "https://ror.org/01s91ey96",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5048781098",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Gustavo Glusman",
+            "orcid": "0000-0001-8060-5955",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Institute for Systems Biology",
+              "ror_id": "https://ror.org/02tpgw303",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5007279155",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Sergio E. Baranzini",
+            "orcid": "0000-0003-0067-194X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of California, San Francisco",
+              "ror_id": "https://ror.org/043mz5j54",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5014721690",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Chris Bizon",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Renaissance Computing Institute",
+              "ror_id": "https://ror.org/01s91ey96",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5043972221",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Matthew Brush",
+            "orcid": "0000-0002-1048-5019",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of North Carolina at Chapel Hill",
+              "ror_id": "https://ror.org/0130frc33",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5049409463",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "William E. Byrd",
+            "orcid": "0000-0003-4730-5293",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Alabama at Birmingham",
+              "ror_id": "https://ror.org/008s83205",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5005980154",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Lawrence Chung",
+            "orcid": "0000-0002-6823-9275",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Columbia University",
+              "ror_id": "https://ror.org/00hj8s172",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Broad Institute",
+              "ror_id": "https://ror.org/05a0ya142",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5021414279",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Andrew B. Crouse",
+            "orcid": "0000-0003-3499-6902",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Alabama at Birmingham",
+              "ror_id": "https://ror.org/008s83205",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5090790767",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Eric W. Deutsch",
+            "orcid": "0000-0001-8732-0928",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Institute for Systems Biology",
+              "ror_id": "https://ror.org/02tpgw303",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5070102563",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Michel Dumontier",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Maastricht University",
+              "ror_id": "https://ror.org/02jz4aj89",
+              "country_code": "NL",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5044836472",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Aleksandra Foksinska",
+            "orcid": "0000-0002-1035-3294",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Alabama at Birmingham",
+              "ror_id": "https://ror.org/008s83205",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5086272426",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jennifer Hadlock",
+            "orcid": "0000-0001-6103-7606",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Institute for Systems Biology",
+              "ror_id": "https://ror.org/02tpgw303",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5048774661",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kaiwen He",
+            "orcid": "0000-0001-5510-6409",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Alabama at Birmingham",
+              "ror_id": "https://ror.org/008s83205",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5089732631",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Sui Huang",
+            "orcid": "0000-0002-3545-4665",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Institute for Systems Biology",
+              "ror_id": "https://ror.org/02tpgw303",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5019206785",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Robert Hubal",
+            "orcid": "0000-0003-2637-0918",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Renaissance Computing Institute",
+              "ror_id": "https://ror.org/01s91ey96",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5006976268",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Gregory Hyde",
+            "orcid": "0000-0001-5608-5224",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Dartmouth College",
+              "ror_id": "https://ror.org/049s0rh22",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5087959219",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Sharat Israni",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of California, San Francisco",
+              "ror_id": "https://ror.org/043mz5j54",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5070192310",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kelyne Kenmogne",
+            "orcid": "0009-0007-5582-6597",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Renaissance Computing Institute",
+              "ror_id": "https://ror.org/01s91ey96",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5118878683",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "David Koslicki",
+            "orcid": "0000-0002-0640-954X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Pennsylvania State University",
+              "ror_id": "https://ror.org/04p491231",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5002668669",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jana Marcette",
+            "orcid": "0009-0003-0689-245X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Montana State University Billings",
+              "ror_id": "https://ror.org/01tj58m37",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5036027987",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ewy A. Math\u00e9",
+            "orcid": "0000-0003-4491-8107",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "National Center for Advancing Translational Sciences",
+              "ror_id": "https://ror.org/04pw6fb54",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5051353435",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Abrar Mesbah",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Durham Technical Community College",
+              "ror_id": "https://ror.org/03fm7wh60",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5118878684",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Sierra Moxon",
+            "orcid": "0000-0002-8719-7760",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Lawrence Berkeley National Laboratory",
+              "ror_id": "https://ror.org/02jbv0t02",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5019077587",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Chris Mungall",
+            "orcid": "0000-0002-6601-2165",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Lawrence Berkeley National Laboratory",
+              "ror_id": "https://ror.org/02jbv0t02",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5002223413",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "John D. Osborne",
+            "orcid": "0000-0002-0851-1150",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Alabama at Birmingham",
+              "ror_id": "https://ror.org/008s83205",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5085958503",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Carrie Pasfield",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Renaissance Computing Institute",
+              "ror_id": "https://ror.org/01s91ey96",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5118878685",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Guangrong Qin",
+            "orcid": "0000-0001-8836-1246",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Institute for Systems Biology",
+              "ror_id": "https://ror.org/02tpgw303",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5039544050",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Stephen A. Ramsey",
+            "orcid": "0000-0002-2168-5403",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Oregon State University",
+              "ror_id": "https://ror.org/00ysfqy60",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5091354698",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Justin Reese",
+            "orcid": "0000-0002-2170-2250",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Lawrence Berkeley National Laboratory",
+              "ror_id": "https://ror.org/02jbv0t02",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5073533486",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jared C. Roach",
+            "orcid": "0000-0003-4524-0107",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Institute for Systems Biology",
+              "ror_id": "https://ror.org/02tpgw303",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5023566803",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Reese Rose",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "United States Army Command and General Staff College",
+              "ror_id": "https://ror.org/05x8ajk28",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5037858882",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Karthik Soman",
+            "orcid": "0000-0002-3490-9306",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of California, San Francisco",
+              "ror_id": "https://ror.org/043mz5j54",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5021696721",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Andrew I. Su",
+            "orcid": "0000-0002-9859-4104",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Scripps Research Institute",
+              "ror_id": "https://ror.org/02dxx6824",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5045408201",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Casey Ta",
+            "orcid": "0000-0002-4679-805X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Columbia University",
+              "ror_id": "https://ror.org/00hj8s172",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5051450267",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Gaurav Vaidya",
+            "orcid": "0000-0003-0587-0454",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Renaissance Computing Institute",
+              "ror_id": "https://ror.org/01s91ey96",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5055867064",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Rosina O. Weber",
+            "orcid": "0000-0001-7048-8812",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Drexel University",
+              "ror_id": "https://ror.org/04bdffz58",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5029791065",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Qi Wei",
+            "orcid": "0000-0002-1481-2304",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Institute for Systems Biology",
+              "ror_id": "https://ror.org/02tpgw303",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5046136400",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Mark D. Williams",
+            "orcid": "0000-0001-8020-916X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "National Center for Advancing Translational Sciences",
+              "ror_id": "https://ror.org/04pw6fb54",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5023723216",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Chunlei Wu",
+            "orcid": "0000-0002-2629-6124",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Scripps Research Institute",
+              "ror_id": "https://ror.org/02dxx6824",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5018169284",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Colleen Xu",
+            "orcid": "0000-0003-2975-882X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Scripps Research Institute",
+              "ror_id": "https://ror.org/02dxx6824",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5026748072",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Chase Yakaboski",
+            "orcid": "0000-0002-2463-6711",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Dartmouth College",
+              "ror_id": "https://ror.org/049s0rh22",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5060940945",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 2,
+      "reference_count": 24,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2025": 2
+      },
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1111/cts.70284",
+          "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cts.70284",
+          "landing_page_url": "https://doi.org/10.1111/cts.70284",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by-nc-nd",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310320595",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1111/cts.70284",
+          "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cts.70284",
+          "landing_page_url": "https://doi.org/10.1111/cts.70284",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by-nc-nd",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310320595",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40635371",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/40635371",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "https://cris.maastrichtuniversity.nl/en/publications/4059dd70-e0f0-461c-ad9a-bf2cf8302fd7",
+          "landing_page_url": "https://cris.maastrichtuniversity.nl/en/publications/4059dd70-e0f0-461c-ad9a-bf2cf8302fd7",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I34352273",
+          "source": "openalex"
+        },
+        {
+          "url": "https://escholarship.org/uc/item/9c43g8c7",
+          "landing_page_url": "https://escholarship.org/uc/item/9c43g8c7",
+          "version": "submittedVersion",
+          "license": "cc-by-nc-nd",
+          "is_best": false,
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12241707",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12241707",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cts.70284",
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "cc-by-nc-nd",
+          "source": "openalex"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Cancer Genomics and Diagnostics",
+          "scheme": "openalex_topic",
+          "score": 0.9452999830245972,
+          "source": "openalex"
+        },
+        {
+          "value": "Data science",
+          "scheme": "openalex_concept",
+          "score": 0.4715060293674469,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "MEDLINE",
+          "scheme": "openalex_concept",
+          "score": 0.4238450527191162,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Medicine",
+          "scheme": "openalex_concept",
+          "score": 0.3815741539001465,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.3212701082229614,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Political science",
+          "scheme": "openalex_concept",
+          "score": 0.2461574673652649,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Law",
+          "scheme": "openalex_concept",
+          "score": 0.06207382678985596,
+          "level": 1,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "User-Computer Interface",
+          "descriptor_ui": "D014584",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Databases, Factual",
+          "descriptor_ui": "D016208",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "User-Computer Interface",
+          "descriptor_ui": "D014584",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Databases, Factual",
+          "descriptor_ui": "D016208",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "User-Computer Interface",
+          "descriptor_ui": "D014584",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Databases, Factual",
+          "descriptor_ui": "D016208",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        }
+      ],
+      "keywords": [
+        "Data science",
+        "MEDLINE",
+        "Medicine",
+        "Computer science",
+        "Political science",
+        "Law"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 7.09350384,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.88693403,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 3300.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1111/cts.70284",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "Announcing the Biomedical Data Translator: Initial Public Release",
+      "publication_date": "2025-07-01",
+      "publication_year": 2025,
+      "work_type": "journal-article",
+      "publisher": "Wiley",
+      "container_title": "Clinical and Translational Science",
+      "issn": [
+        "1752-8054",
+        "1752-8062"
+      ],
+      "doi": "10.1111/cts.70284",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cts.70284",
+          "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cts.70284",
+          "landing_page_url": "https://doi.org/10.1111/cts.70284",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by-nc-nd",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cts.70284",
+          "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cts.70284",
+          "landing_page_url": "https://doi.org/10.1111/cts.70284",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by-nc-nd",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://escholarship.org/uc/item/9c43g8c7",
+          "landing_page_url": "https://escholarship.org/uc/item/9c43g8c7",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by-nc-nd",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "California Digital Library",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12241707",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12241707",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cts.70284",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "Announcing the Biomedical Data Translator: Initial Public Release.",
+      "abstract": "The growing availability of biomedical data offers vast potential to improve human health, but the complexity and lack of integration of these datasets often limit their utility. To address this, the Biomedical Data Translator Consortium has developed an open-source knowledge graph-based system-Translator-designed to integrate, harmonize, and make inferences over diverse biomedical data sources. We announce here Translator's initial public release and provide an overview of its architecture, standards, user interface, and core features. Translator employs a scalable, federated, knowledge graph framework for the integration of clinical, genomic, pharmacological, and other biomedical knowledge sources, enabling query retrieval, inference, and hypothesis generation. Translator's user interface is designed to support the exploration of knowledge relationships and the generation of insights, without requiring deep technical expertise and gradually revealing more detailed evidence, provenance, and confidence information, as needed by a given user. To demonstrate Translator's application and impact, we highlight features of the user interface in the context of three real-world use cases: suggesting potential therapeutics for patients with rare disease; explaining the mechanism of action of a pipeline drug; and screening and validating drug candidates in a model organism. We discuss strengths and limitations of reasoning within a largely federated system and the need for rich concept modeling and deep provenance tracking. Finally, we outline future directions for enhancing Translator's functionality and expanding its data sources. Translator represents a significant step forward in making complex biomedical knowledge more accessible and actionable, aiming to accelerate translational research and improve patient care.",
+      "publication_year": 2025,
+      "language": "eng",
+      "container_title": "Clinical and translational science",
+      "volume": "18",
+      "issue": "7",
+      "pages": "e70284",
+      "issn": [],
+      "doi": "10.1111/cts.70284",
+      "pmid": "40635371",
+      "pmcid": "PMC12241707",
+      "authors": [
+        {
+          "name": {
+            "given": "Karamarie",
+            "family": "Fecho",
+            "full_name": "Fecho K",
+            "orcid": "0000-0002-6704-9306",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Renaissance Computing Institute, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Copperline Professional Solutions, LLC, Pittsboro, North Carolina, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Gw\u00eanlyn",
+            "family": "Glusman",
+            "full_name": "Glusman G",
+            "orcid": "0000-0001-8060-5955",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Institute for Systems Biology, Seattle, Washington, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sergio E",
+            "family": "Baranzini",
+            "full_name": "Baranzini SE",
+            "orcid": "0000-0003-0067-194X",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "University of California - San Francisco, San Francisco, California, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Chris",
+            "family": "Bizon",
+            "full_name": "Bizon C",
+            "orcid": "0000-0002-9491-7674",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Renaissance Computing Institute, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Matthew",
+            "family": "Brush",
+            "full_name": "Brush M",
+            "orcid": "0000-0002-1048-5019",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "University of North Carolina - Chapel Hill, Chapel Hill, North Carolina, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "William",
+            "family": "Byrd",
+            "full_name": "Byrd W",
+            "orcid": "0000-0003-4730-5293",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "University of Alabama - Birmingham, Birmingham, Alabama, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Lawrence",
+            "family": "Chung",
+            "full_name": "Chung L",
+            "orcid": "0000-0002-6823-9275",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Columbia University, New York, New York, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Broad Institute of MIT and Harvard, Cambridge, Massachusetts, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Andrew",
+            "family": "Crouse",
+            "full_name": "Crouse A",
+            "orcid": "0000-0003-3499-6902",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "University of Alabama - Birmingham, Birmingham, Alabama, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Eric",
+            "family": "Deutsch",
+            "full_name": "Deutsch E",
+            "orcid": "0000-0001-8732-0928",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Institute for Systems Biology, Seattle, Washington, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michel",
+            "family": "Dumontier",
+            "full_name": "Dumontier M",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Institute of Data Science, Maastricht University, Maastricht, the Netherlands.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Aleksandra",
+            "family": "Foksinska",
+            "full_name": "Foksinska A",
+            "orcid": "0000-0002-1035-3294",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "University of Alabama - Birmingham, Birmingham, Alabama, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jennifer",
+            "family": "Hadlock",
+            "full_name": "Hadlock J",
+            "orcid": "0000-0001-6103-7606",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Institute for Systems Biology, Seattle, Washington, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Kaiwen",
+            "family": "He",
+            "full_name": "He K",
+            "orcid": "0000-0001-5510-6409",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "University of Alabama - Birmingham, Birmingham, Alabama, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sui",
+            "family": "Huang",
+            "full_name": "Huang S",
+            "orcid": "0000-0002-3545-4665",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Institute for Systems Biology, Seattle, Washington, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Robert",
+            "family": "Hubal",
+            "full_name": "Hubal R",
+            "orcid": "0000-0003-2637-0918",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Renaissance Computing Institute, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Gregory M",
+            "family": "Hyde",
+            "full_name": "Hyde GM",
+            "orcid": "0000-0001-5608-5224",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Dartmouth College, Hanover, New Hampshire, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sharat",
+            "family": "Israni",
+            "full_name": "Israni S",
+            "orcid": "0000-0003-0100-5826",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "University of California - San Francisco, San Francisco, California, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Kelyne",
+            "family": "Kenmogne",
+            "full_name": "Kenmogne K",
+            "orcid": "0009-0007-5582-6597",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Renaissance Computing Institute, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "David",
+            "family": "Koslicki",
+            "full_name": "Koslicki D",
+            "orcid": "0000-0002-0640-954X",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Pennsylvania State University, University Park, Pennsylvania, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jana Dorfman",
+            "family": "Marcette",
+            "full_name": "Marcette JD",
+            "orcid": "0009-0003-0689-245X",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Montana State University - Billings, Billings, Montana, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ewy A",
+            "family": "Mathe",
+            "full_name": "Mathe EA",
+            "orcid": "0000-0003-4491-8107",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "National Center for Advancing Translational Sciences, Bethesda, Maryland, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Abrar",
+            "family": "Mesbah",
+            "full_name": "Mesbah A",
+            "orcid": "0009-0003-9477-1809",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "CoVar, LLC, Durham, North Carolina, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sierra A T",
+            "family": "Moxon",
+            "full_name": "Moxon SAT",
+            "orcid": "0000-0002-8719-7760",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Lawrence Berkeley National Laboratory, Berkeley, California, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Christopher J",
+            "family": "Mungall",
+            "full_name": "Mungall CJ",
+            "orcid": "0000-0002-6601-2165",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Lawrence Berkeley National Laboratory, Berkeley, California, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "John",
+            "family": "Osborne",
+            "full_name": "Osborne J",
+            "orcid": "0000-0002-0851-1150",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "University of Alabama - Birmingham, Birmingham, Alabama, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Carrie",
+            "family": "Pasfield",
+            "full_name": "Pasfield C",
+            "orcid": "0009-0001-4360-0458",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Renaissance Computing Institute, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Guangrong",
+            "family": "Qin",
+            "full_name": "Qin G",
+            "orcid": "0000-0001-8836-1246",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Institute for Systems Biology, Seattle, Washington, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Stephen A",
+            "family": "Ramsey",
+            "full_name": "Ramsey SA",
+            "orcid": "0000-0002-2168-5403",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Oregon State University, Corvallis, Oregon, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Justin",
+            "family": "Reese",
+            "full_name": "Reese J",
+            "orcid": "0000-0002-2170-2250",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Lawrence Berkeley National Laboratory, Berkeley, California, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jared C",
+            "family": "Roach",
+            "full_name": "Roach JC",
+            "orcid": "0000-0003-4524-0107",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Institute for Systems Biology, Seattle, Washington, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Reese",
+            "family": "Rose",
+            "full_name": "Rose R",
+            "orcid": "0009-0002-4870-3613",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Beshenich Muir & Associates, LLC, Leavenworth, Kansas, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Karthik",
+            "family": "Soman",
+            "full_name": "Soman K",
+            "orcid": "0000-0002-3490-9306",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "University of California - San Francisco, San Francisco, California, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Andrew I",
+            "family": "Su",
+            "full_name": "Su AI",
+            "orcid": "0000-0002-9859-4104",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "The Scripps Research Institute, San Diego, California, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Casey",
+            "family": "Ta",
+            "full_name": "Ta C",
+            "orcid": "0000-0002-4679-805X",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Columbia University, New York, New York, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Gaurav",
+            "family": "Vaidya",
+            "full_name": "Vaidya G",
+            "orcid": "0000-0003-0587-0454",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Renaissance Computing Institute, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Rosina",
+            "family": "Weber",
+            "full_name": "Weber R",
+            "orcid": "0000-0001-7048-8812",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Drexel University, Philadelphia, Pennsylvania, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Qi",
+            "family": "Wei",
+            "full_name": "Wei Q",
+            "orcid": "0000-0002-1481-2304",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Institute for Systems Biology, Seattle, Washington, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mark",
+            "family": "Williams",
+            "full_name": "Williams M",
+            "orcid": "0000-0001-8020-916X",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "National Center for Advancing Translational Sciences, Bethesda, Maryland, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Chunlei",
+            "family": "Wu",
+            "full_name": "Wu C",
+            "orcid": "0000-0002-2629-6124",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "The Scripps Research Institute, San Diego, California, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Colleen",
+            "family": "Xu",
+            "full_name": "Xu C",
+            "orcid": "0000-0003-2975-882X",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "The Scripps Research Institute, San Diego, California, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Chase",
+            "family": "Yakaboski",
+            "full_name": "Yakaboski C",
+            "orcid": "0000-0002-2463-6711",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Dartmouth College, Hanover, New Hampshire, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 2,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "url": "https://escholarship.org/uc/item/9c43g8c7",
+          "host_type": "Unpaywall",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC12241707",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC12241707?pdf=render",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Humans",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Software",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "User-Computer Interface",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Databases, Factual",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 2.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [
+        "chebi"
+      ],
+      "corrections": [],
+      "full_text_urls": [
+        {
+          "url": "https://escholarship.org/uc/item/9c43g8c7",
+          "availability": "Open access",
+          "document_style": "html",
+          "site": "Unpaywall"
+        },
+        {
+          "url": "https://doi.org/10.1111/cts.70284",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC12241707",
+          "availability": "Open access",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC12241707?pdf=render",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openaire": {
+      "source": "openaire",
+      "found": true,
+      "raw": {},
+      "title": "Announcing the Biomedical Data Translator: Initial Public Release",
+      "abstract": "<jats:title>ABSTRACT</jats:title><jats:p>The growing availability of biomedical data offers vast potential to improve human health, but the complexity and lack of integration of these datasets often limit their utility. To address this, the Biomedical Data Translator Consortium has developed an open\u2010source knowledge graph\u2013based system\u2014Translator\u2014designed to integrate, harmonize, and make inferences over diverse biomedical data sources. We announce here Translator's initial public release and provide an overview of its architecture, standards, user interface, and core features. Translator employs a scalable, federated, knowledge graph framework for the integration of clinical, genomic, pharmacological, and other biomedical knowledge sources, enabling query retrieval, inference, and hypothesis generation. Translator's user interface is designed to support the exploration of knowledge relationships and the generation of insights, without requiring deep technical expertise and gradually revealing more detailed evidence, provenance, and confidence information, as needed by a given user. To demonstrate Translator's application and impact, we highlight features of the user interface in the context of three real\u2010world use cases: suggesting potential therapeutics for patients with rare disease; explaining the mechanism of action of a pipeline drug; and screening and validating drug candidates in a model organism. We discuss strengths and limitations of reasoning within a largely federated system and the need for rich concept modeling and deep provenance tracking. Finally, we outline future directions for enhancing Translator's functionality and expanding its data sources. Translator represents a significant step forward in making complex biomedical knowledge more accessible and actionable, aiming to accelerate translational research and improve patient care.</jats:p>",
+      "publication_date": "2025-07-01",
+      "publication_year": 2025,
+      "work_type": "publication",
+      "language": "eng",
+      "publisher": "Wiley",
+      "issn": [],
+      "doi": "10.1111/cts.70284",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Karamarie Fecho",
+            "orcid": "0000-0002-6704-9306",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Gw\u00eanlyn Glusman",
+            "orcid": "0000-0001-8060-5955",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Sergio E. Baranzini",
+            "orcid": "0000-0003-0067-194x",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Chris Bizon",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Matthew Brush",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "William Byrd",
+            "orcid": "0000-0003-4730-5293",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Lawrence Chung",
+            "orcid": "0000-0002-6823-9275",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Andrew Crouse",
+            "orcid": "0000-0003-3499-6902",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Eric Deutsch",
+            "orcid": "0000-0001-8732-0928",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Michel Dumontier",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Aleksandra Foksinska",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jennifer Hadlock",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kaiwen He",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Sui Huang",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Robert Hubal",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Gregory M. Hyde",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Sharat Israni",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kelyne Kenmogne",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "David Koslicki",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jana Dorfman Marcette",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ewy A. Mathe",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Abrar Mesbah",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Sierra A. T. Moxon",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Christopher J. Mungall",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "John Osborne",
+            "orcid": "0000-0002-0851-1150",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Carrie Pasfield",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Guangrong Qin",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Stephen A. Ramsey",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Justin Reese",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jared C. Roach",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Reese Rose",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Karthik Soman",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Andrew I. Su",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Casey Ta",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Gaurav Vaidya",
+            "orcid": "0000-0003-0587-0454",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Rosina Weber",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Qi Wei",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Mark Williams",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Chunlei Wu",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Colleen Xu",
+            "orcid": "0000-0003-2975-882x",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Chase Yakaboski",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "citation_count": 1,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1111/cts.70284",
+          "version": "Article",
+          "license": "CC BY NC ND",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1111/cts.70284",
+          "version": "Other literature type",
+          "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/This is an open access article under the terms of the http://creativecommons.org/licenses/by-nc-nd/4.0/ (http://creativecommons.org/licenses/by-nc-nd/4.0/) License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non\u2010commercial and no modifications or adaptations are made.",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://cris.maastrichtuniversity.nl/en/publications/4059dd70-e0f0-461c-ad9a-bf2cf8302fd7",
+          "version": "Review",
+          "license": "CC BY NC ND",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1111/cts.70284",
+          "version": "Review",
+          "license": "CC BY NC ND",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://escholarship.org/content/qt9c43g8c7/qt9c43g8c7.pdf",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://escholarship.org/uc/item/9c43g8c7",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "1OT2TR003450-01",
+          "agency": "National Institutes of Health",
+          "title": "EVIDARA: Automated Evidential Support from Raw Data for relay agents in Biomedical KG Queries",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::4e9c3418ed694bad8be9d234a9a868be",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "1ZIATR000276-05",
+          "agency": "National Institutes of Health",
+          "title": "NCATS Biomedical Data Translator",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::009791406a7d244a74cda43b9d4d76af",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3OT2TR003428-01S1",
+          "agency": "National Institutes of Health",
+          "title": "Biomedical Data Translator Development of Autonomous Relay Agent: ARAX",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::2988c7d198bcb1a53f94ab8279606205",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3OT2TR003434-01S3",
+          "agency": "National Institutes of Health",
+          "title": "Translator Red Knowledge (TReK)",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::08aa6bfe86d63f3ce16aaacdcb2197b1",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3OT2TR003433-01S2",
+          "agency": "National Institutes of Health",
+          "title": "A Complex Disease Genetics Knowledge Provider for Biomedical Data Translator",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::060c0c134d234dd9bf94a2b69fd3b995",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3OT2TR003445-01S2",
+          "agency": "National Institutes of Health",
+          "title": "Expanding the landscape of Translator Knowledge Providers using BioThings SDK and SmartAPI",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::2131355f196647b2413f1a3ae38d7255",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3OT2TR003422-01S1",
+          "agency": "National Institutes of Health",
+          "title": "High Performance Text Mining for Translator",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::709041a1f4e4609696bac6448bf12466",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3OT2TR003427-01S2",
+          "agency": "National Institutes of Health",
+          "title": "BioThings Explorer: A platform for distributed knowledge integration across biomedical APIs",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::05588274f6727e044c8328f273ac5ae1",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3OT2TR003448-01S3",
+          "agency": "National Institutes of Health",
+          "title": "xARA: ARA through Explainable AI",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::1aa0afd729475a2d2ac5eae7b5033996",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3OT2TR003443-01S3",
+          "agency": "National Institutes of Health",
+          "title": "DOCKET: accelerating knowledge extraction from biomedical data sets",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::1cf8e10875b94b27bf82f1f11d325f2f",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3OT2TR003449-02S1",
+          "agency": "National Institutes of Health",
+          "title": "A Common Dialect for Infrastructure and Services in Translator",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::187a5a89b7e59fa32148e67b40405d07",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3OT2TR003437-01S1",
+          "agency": "National Institutes of Health",
+          "title": "A Translator Knowledge Provider for Systems Chemical Biology",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::9a16801518016404d172b86b5096351e",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "1OT2TR003441-01",
+          "agency": "National Institutes of Health",
+          "title": "ARAGORN: Autonomous Relay Agent for Generation Of Ranked Networks",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::4ca50426a9dc9b537b76ca9a07b89b1f",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "1OT2TR003430-01",
+          "agency": "National Institutes of Health",
+          "title": "ICEES+ Knowledge Provider: Leveraging Open Clinical and Environmental Data to Accelerate and Drive Innovation in Translational Research and Clinical Care.",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::60a159a7e12966822a345b3f84182ff5",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3OT2TR003435-01S1",
+          "agency": "National Institutes of Health",
+          "title": "Doc Sherlock: An Autonomous Relay Agent for Discovering the  \"Unknown Knowns\" in Precision Medicine",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::0d7d3b4942c564c75b638e8642fa9633",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3OT2TR003436-01S3",
+          "agency": "National Institutes of Health",
+          "title": "Pathway Hypotheses Knowledge-base: A Knowledge Source for the Biomedical Data Translator",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::4fabd7c6c2b9e9ef7b79e0729af2a74d",
+          "source": "openaire"
+        }
+      ],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Biomedical Data Translator Consortium",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "User-Computer Interface",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Databases",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Mini Review",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "CELIPROLOL",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Humans",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Software",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Factual",
+          "scheme": "keyword",
+          "source": "openaire"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "bip_citationCount",
+          "value": 1.0,
+          "class_label": "C5",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_influence",
+          "value": 2.5125797e-09,
+          "class_label": "C5",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_popularity",
+          "value": 3.5001726e-09,
+          "class_label": "C5",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_impulse",
+          "value": 1.0,
+          "class_label": "C5",
+          "source": "openaire"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [
+        {
+          "grant_id": "1OT2TR003450-01",
+          "agency": "National Institutes of Health",
+          "title": "EVIDARA: Automated Evidential Support from Raw Data for relay agents in Biomedical KG Queries",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::4e9c3418ed694bad8be9d234a9a868be",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "1ZIATR000276-05",
+          "agency": "National Institutes of Health",
+          "title": "NCATS Biomedical Data Translator",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::009791406a7d244a74cda43b9d4d76af",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3OT2TR003428-01S1",
+          "agency": "National Institutes of Health",
+          "title": "Biomedical Data Translator Development of Autonomous Relay Agent: ARAX",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::2988c7d198bcb1a53f94ab8279606205",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3OT2TR003434-01S3",
+          "agency": "National Institutes of Health",
+          "title": "Translator Red Knowledge (TReK)",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::08aa6bfe86d63f3ce16aaacdcb2197b1",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3OT2TR003433-01S2",
+          "agency": "National Institutes of Health",
+          "title": "A Complex Disease Genetics Knowledge Provider for Biomedical Data Translator",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::060c0c134d234dd9bf94a2b69fd3b995",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3OT2TR003445-01S2",
+          "agency": "National Institutes of Health",
+          "title": "Expanding the landscape of Translator Knowledge Providers using BioThings SDK and SmartAPI",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::2131355f196647b2413f1a3ae38d7255",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3OT2TR003422-01S1",
+          "agency": "National Institutes of Health",
+          "title": "High Performance Text Mining for Translator",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::709041a1f4e4609696bac6448bf12466",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3OT2TR003427-01S2",
+          "agency": "National Institutes of Health",
+          "title": "BioThings Explorer: A platform for distributed knowledge integration across biomedical APIs",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::05588274f6727e044c8328f273ac5ae1",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3OT2TR003448-01S3",
+          "agency": "National Institutes of Health",
+          "title": "xARA: ARA through Explainable AI",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::1aa0afd729475a2d2ac5eae7b5033996",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3OT2TR003443-01S3",
+          "agency": "National Institutes of Health",
+          "title": "DOCKET: accelerating knowledge extraction from biomedical data sets",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::1cf8e10875b94b27bf82f1f11d325f2f",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3OT2TR003449-02S1",
+          "agency": "National Institutes of Health",
+          "title": "A Common Dialect for Infrastructure and Services in Translator",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::187a5a89b7e59fa32148e67b40405d07",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3OT2TR003437-01S1",
+          "agency": "National Institutes of Health",
+          "title": "A Translator Knowledge Provider for Systems Chemical Biology",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::9a16801518016404d172b86b5096351e",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "1OT2TR003441-01",
+          "agency": "National Institutes of Health",
+          "title": "ARAGORN: Autonomous Relay Agent for Generation Of Ranked Networks",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::4ca50426a9dc9b537b76ca9a07b89b1f",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "1OT2TR003430-01",
+          "agency": "National Institutes of Health",
+          "title": "ICEES+ Knowledge Provider: Leveraging Open Clinical and Environmental Data to Accelerate and Drive Innovation in Translational Research and Clinical Care.",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::60a159a7e12966822a345b3f84182ff5",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3OT2TR003435-01S1",
+          "agency": "National Institutes of Health",
+          "title": "Doc Sherlock: An Autonomous Relay Agent for Discovering the  \"Unknown Knowns\" in Precision Medicine",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::0d7d3b4942c564c75b638e8642fa9633",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3OT2TR003436-01S3",
+          "agency": "National Institutes of Health",
+          "title": "Pathway Hypotheses Knowledge-base: A Knowledge Source for the Biomedical Data Translator",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::4fabd7c6c2b9e9ef7b79e0729af2a74d",
+          "source": "openaire"
+        }
+      ],
+      "alternate_ids": [
+        "doi:10.1111/cts.70284",
+        "doi:10.1111/cts.70284",
+        "doi:10.1111/cts.70284"
+      ],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1111/cts.70284",
+      "pmid": "19683066",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1111/cts.70284",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1111/cts.70284",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1111/cts.70284",
+      "authors": [
+        {
+          "name": {
+            "given": "Karamarie",
+            "family": "Fecho",
+            "full_name": "Karamarie Fecho",
+            "orcid": "0000-0002-6704-9306",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Lawrence",
+            "family": "Chung",
+            "full_name": "Lawrence Chung",
+            "orcid": "0000-0002-6823-9275",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Colleen",
+            "family": "Xu",
+            "full_name": "Colleen Xu",
+            "orcid": "0000-0003-2975-882X",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Gw\u00eanlyn",
+            "family": "Glusman",
+            "full_name": "Gw\u00eanlyn Glusman",
+            "orcid": "0000-0001-8060-5955",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "William",
+            "family": "Byrd",
+            "full_name": "William Byrd",
+            "orcid": "0000-0003-4730-5293",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Evan",
+            "family": "Dietz Morris",
+            "full_name": "Evan Dietz Morris",
+            "orcid": "0009-0006-1496-2771",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sergio",
+            "family": "Baranzini",
+            "full_name": "Sergio Baranzini",
+            "orcid": "0000-0003-0067-194X",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "John",
+            "family": "Osborne",
+            "full_name": "John D. Osborne",
+            "orcid": "0000-0002-0851-1150",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sierra",
+            "family": "Taylor Moxon",
+            "full_name": "Sierra Taylor Moxon",
+            "orcid": "0000-0002-8719-7760",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Andrew",
+            "family": "Crouse",
+            "full_name": "Andrew Crouse",
+            "orcid": "0000-0003-3499-6902",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Eric",
+            "family": "Deutsch",
+            "full_name": "Eric Deutsch",
+            "orcid": "0000-0001-8732-0928",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Gaurav",
+            "family": "Vaidya",
+            "full_name": "Gaurav Vaidya",
+            "orcid": "0000-0003-0587-0454",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Andrew I.",
+            "family": "Su",
+            "full_name": "Andrew I. Su",
+            "orcid": "0000-0002-9859-4104",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0002-6704-9306",
+          "given_names": "Karamarie",
+          "family_names": "Fecho",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Copperline Professional Solutions, LLC"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-6823-9275",
+          "given_names": "Lawrence",
+          "family_names": "Chung",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Broad Institute"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0003-2975-882X",
+          "given_names": "Colleen",
+          "family_names": "Xu",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Northwestern University",
+            "Oregon Health & Science University",
+            "Oregon Health and Science University - West Campus",
+            "Scripps Research Institute"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0001-8060-5955",
+          "given_names": "Gw\u00eanlyn",
+          "family_names": "Glusman",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "American Society of Human Genetics",
+            "Institute for Systems Biology",
+            "Technion Israel Institute of Technology",
+            "Weizmann Institute of Science"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0003-4730-5293",
+          "given_names": "William",
+          "family_names": "Byrd",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "The University of Alabama at Birmingham"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0009-0006-1496-2771",
+          "given_names": "Evan",
+          "family_names": "Dietz Morris",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Elon University",
+            "Renaissance Computing Institute"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0003-0067-194X",
+          "given_names": "Sergio",
+          "family_names": "Baranzini",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "University of California, San Francisco"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-0851-1150",
+          "given_names": "John",
+          "family_names": "Osborne",
+          "credit_name": "John D. Osborne",
+          "other_names": [
+            "John D. Osborne",
+            "John David Osborne"
+          ],
+          "institutions": [
+            "American Medical Informatics Association",
+            "Centers for Disease Control and Prevention",
+            "Robert H Lurie Comprehensive Cancer Center",
+            "The University of Alabama at Birmingham College of Arts and Sciences",
+            "The University of Alabama at Birmingham O'Neal Comprehensive Cancer Center",
+            "University of Alabama at Birmingham",
+            "University of Alberta",
+            "University of Victoria"
+          ],
+          "emails": [
+            "ozborn@uab.edu",
+            "josborne@uabmc.edu"
+          ]
+        },
+        {
+          "orcid_id": "0000-0002-8719-7760",
+          "given_names": "Sierra",
+          "family_names": "Taylor Moxon",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0003-3499-6902",
+          "given_names": "Andrew",
+          "family_names": "Crouse",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "University of Alabama at Birmingham"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0001-8732-0928",
+          "given_names": "Eric",
+          "family_names": "Deutsch",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Institute for Systems Biology",
+            "Johns Hopkins University",
+            "Microsoft Corp",
+            "University of Washington"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0003-0587-0454",
+          "given_names": "Gaurav",
+          "family_names": "Vaidya",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Florida Museum of Natural History",
+            "National University of Singapore",
+            "Renaissance Computing Institute",
+            "University of Colorado Boulder"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-9859-4104",
+          "given_names": "Andrew I.",
+          "family_names": "Su",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Northwestern University",
+            "Scripps Research Institute",
+            "The Scripps Research Institute"
+          ],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1111/cts.70284",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1111/cts.70284",
+    "pmid": "40635371",
+    "pmcid": "PMC12241707",
+    "openalex_id": "https://openalex.org/W4412144313",
+    "handles": [],
+    "orcids": [
+      "0000-0001-5510-6409",
+      "0000-0001-5608-5224",
+      "0000-0001-6103-7606",
+      "0000-0001-7048-8812",
+      "0000-0001-8020-916X",
+      "0000-0001-8060-5955",
+      "0000-0001-8732-0928",
+      "0000-0001-8836-1246",
+      "0000-0002-0640-954X",
+      "0000-0002-0851-1150",
+      "0000-0002-1035-3294",
+      "0000-0002-1048-5019",
+      "0000-0002-1481-2304",
+      "0000-0002-2168-5403",
+      "0000-0002-2170-2250",
+      "0000-0002-2463-6711",
+      "0000-0002-2629-6124",
+      "0000-0002-3490-9306",
+      "0000-0002-3545-4665",
+      "0000-0002-4679-805X",
+      "0000-0002-6601-2165",
+      "0000-0002-6704-9306",
+      "0000-0002-6823-9275",
+      "0000-0002-8719-7760",
+      "0000-0002-9491-7674",
+      "0000-0002-9859-4104",
+      "0000-0003-0067-194X",
+      "0000-0003-0067-194x",
+      "0000-0003-0100-5826",
+      "0000-0003-0587-0454",
+      "0000-0003-2637-0918",
+      "0000-0003-2975-882X",
+      "0000-0003-2975-882x",
+      "0000-0003-3499-6902",
+      "0000-0003-4491-8107",
+      "0000-0003-4524-0107",
+      "0000-0003-4727-9435",
+      "0000-0003-4730-5293",
+      "0009-0001-4360-0458",
+      "0009-0002-4870-3613",
+      "0009-0003-0689-245X",
+      "0009-0003-9477-1809",
+      "0009-0006-1496-2771",
+      "0009-0007-5582-6597"
+    ],
+    "ror_ids": [
+      "https://ror.org/008s83205",
+      "https://ror.org/00hj8s172",
+      "https://ror.org/00ysfqy60",
+      "https://ror.org/0130frc33",
+      "https://ror.org/01s91ey96",
+      "https://ror.org/01tj58m37",
+      "https://ror.org/02dxx6824",
+      "https://ror.org/02jbv0t02",
+      "https://ror.org/02jz4aj89",
+      "https://ror.org/02tpgw303",
+      "https://ror.org/037e0dj26",
+      "https://ror.org/03fm7wh60",
+      "https://ror.org/043mz5j54",
+      "https://ror.org/049s0rh22",
+      "https://ror.org/04bdffz58",
+      "https://ror.org/04p491231",
+      "https://ror.org/04pw6fb54",
+      "https://ror.org/05a0ya142",
+      "https://ror.org/05x8ajk28"
+    ],
+    "grant_ids": [
+      "1OT2TR003430-01",
+      "1OT2TR003441-01",
+      "1OT2TR003450-01",
+      "1ZIATR000276-05",
+      "3OT2TR003422-01S1",
+      "3OT2TR003427-01S2",
+      "3OT2TR003428-01S1",
+      "3OT2TR003433-01S2",
+      "3OT2TR003434-01S3",
+      "3OT2TR003435-01S1",
+      "3OT2TR003436-01S3",
+      "3OT2TR003437-01S1",
+      "3OT2TR003443-01S3",
+      "3OT2TR003445-01S2",
+      "3OT2TR003448-01S3",
+      "3OT2TR003449-02S1"
+    ],
+    "nct_ids": [],
+    "pmid_source": "europe_pmc",
+    "pmcid_source": "europe_pmc"
+  },
+  "conflicts": {
+    "doi": "10.1111/cts.70284",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 2,
+          "openalex": 2,
+          "europe_pmc": 2,
+          "openaire": 1
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 49,
+          "openalex": 24
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "review",
+          "unpaywall": "journal-article",
+          "openaire": "publication"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 42,
+          "openalex": 41,
+          "unpaywall": 41,
+          "europe_pmc": 42,
+          "openaire": 41,
+          "orcid": 13
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Wiley",
+          "openalex": "https://openalex.org/P4310320595",
+          "unpaywall": "Wiley",
+          "openaire": "Wiley"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Clinical and Translational Science",
+          "openalex": "Clinical and Translational Science",
+          "unpaywall": "Clinical and Translational Science",
+          "europe_pmc": "Clinical and translational science"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "mesh_term_count",
+        "values": {
+          "openalex": 12,
+          "europe_pmc": 4
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng",
+          "openaire": "eng"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 2,
+    "conflict_count": 8
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1111/cts.70284",
+    "fetched_at": "2026-02-11T18:44:06.175412+00:00"
+  }
+}

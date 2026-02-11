@@ -1,0 +1,1333 @@
+{
+  "doi": "10.1145/37402.37422",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T15:49:10.934072Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "Marching cubes: A high resolution 3D surface construction algorithm",
+      "abstract": "<jats:p>\n            We present a new algorithm, called\n            <jats:italic>marching cubes</jats:italic>\n            , that creates triangle models of constant density surfaces from 3D medical data. Using a divide-and-conquer approach to generate inter-slice connectivity, we create a case table that defines triangle topology. The algorithm processes the 3D medical data in scan-line order and calculates triangle vertices using linear interpolation. We find the gradient of the original data, normalize it, and use it as a basis for shading the models. The detail in images produced from the generated surface models is the result of maintaining the inter-slice connectivity, surface data, and gradient information present in the original 3D data. Results from computed tomography (CT), magnetic resonance (MR), and single-photon emission computed tomography (SPECT) illustrate the quality and functionality of\n            <jats:italic>marching cubes</jats:italic>\n            . We also discuss improvements that decrease processing time and add solid modeling capabilities.\n          </jats:p>",
+      "publication_date": "1987-08",
+      "publication_year": 1987,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "container_title": "ACM SIGGRAPH Computer Graphics",
+      "volume": "21",
+      "issue": "4",
+      "pages": "163-169",
+      "issn": [
+        "0097-8930"
+      ],
+      "doi": "10.1145/37402.37422",
+      "authors": [
+        {
+          "name": {
+            "given": "William E.",
+            "family": "Lorensen",
+            "full_name": "William E. Lorensen",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "General Electric Company, Schenectady, NY",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Harvey E.",
+            "family": "Cline",
+            "full_name": "Harvey E. Cline",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "General Electric Company, Schenectady, NY",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 7663,
+      "reference_count": 32,
+      "references": [
+        {
+          "year": 1981,
+          "author": "Artzy E.",
+          "unstructured": "Artzy , E. , Frieder , G. , and Herman , G.T. The Theory , Design, Implementation and Evaluation of a Three-Dimensional Surface Detection Algorithm. Comptlter Graphics and Ima~,,e Processinj ,, 15 , 1 ( January 1981 ), 1-24. Artzy, E., Frieder, G., and Herman, G.T. The Theory, Design, Implementation and Evaluation of a Three-Dimensional Surface Detection Algorithm. Comptlter Graphics and Ima~,,e Processinj,, 15, 1 (January 1981), 1-24.",
+          "key": "e_1_2_1_1_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1985,
+          "author": "Barillot C.",
+          "unstructured": "Barillot , C. , Gibaud , B. , Scarabin , J. , and Coatrieux , J. 3D Reconstruction of Cerebral Blood Vessels. IEEE Comlmwr Graphk's attd Applk'ations 5 , 12 ( December 1985 ), 13-19. Barillot, C., Gibaud, B., Scarabin, J., and Coatrieux, J. 3D Reconstruction of Cerebral Blood Vessels. IEEE Comlmwr Graphk's attd Applk'ations 5, 12 (December 1985), 13-19.",
+          "key": "e_1_2_1_2_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1983,
+          "author": "Bates R. H.",
+          "unstructured": "Bates , R. H. , Garden , K. L. , and Peters , T. M. Overview of Computerized Tomography with Emphasis on Future Developments. Proc. of the IEEE 71 , 3 ( March 1983 ), 356-372. Bates, R. H., Garden, K. L., and Peters, T. M. Overview of Computerized Tomography with Emphasis on Future Developments. Proc. of the IEEE 71, 3 (March 1983), 356-372.",
+          "key": "e_1_2_1_3_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/PROC.1983.12593",
+          "key": "e_1_2_1_4_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/MCG.1984.6429351",
+          "key": "e_1_2_1_5_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1985,
+          "author": "Burk D. L.",
+          "unstructured": "Burk , D. L. , Mears , D. C. , Kennedy , W. H. , Cooperstein , L. A. , and Herbert , D. L. Three-Dimensional Computed Tomography of Acetabula Fractures. Radiology 155 , 1 ( 1985 ), 183-186. Burk, D. L., Mears, D. C., Kennedy, W. H., Cooperstein, L. A., and Herbert, D. L. Three-Dimensional Computed Tomography of Acetabula Fractures. Radiology 155, 1 (1985), 183-186.",
+          "key": "e_1_2_1_6_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/MCG.1985.276388",
+          "key": "e_1_2_1_7_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1145/965139.807388",
+          "key": "e_1_2_1_8_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1987,
+          "author": "Cline H. E.",
+          "unstructured": "Cline , H. E. , Dumoulin , C. L. , Lorensen , W. E. , Hart , H. R. , and Ludke , S . 3D Reconstruction of the Brain from Magnetic Resonance Images. Magnetic Resonance Imaging ( 1987 , to appear). Cline, H. E., Dumoulin, C. L., Lorensen, W. E., Hart, H. R., and Ludke, S. 3D Reconstruction of the Brain from Magnetic Resonance Images. Magnetic Resonance Imaging (1987, to appear).",
+          "key": "e_1_2_1_9_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1987,
+          "author": "Cline H. E.",
+          "unstructured": "Cline , H. E. , Lorensen , W. E. , Ludke , S ,, Crawford , C. R. , and Teeter , B. C . High-Resolution Three- Dimensional Reconstruction of Tomograms. Medical Physics ( 1987 , to appear). Cline, H. E., Lorensen, W. E., Ludke, S,, Crawford, C. R., and Teeter, B. C. High-Resolution Three- Dimensional Reconstruction of Tomograms. Medical Physics (1987, to appear).",
+          "key": "e_1_2_1_10_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1983,
+          "author": "Cook L. T.",
+          "unstructured": "Cook , L. T. , Dwyer , S. J. , Batnitzky , S. , and Lee , K. R. A Three-Dimensional Display System for Diagnostic Imaging Applications. IEEE Computer Graphics and Applications 3 , 5 ( August 1983 ), 13-19. Cook, L. T., Dwyer, S. J., Batnitzky, S., and Lee, K. R. A Three-Dimensional Display System for Diagnostic Imaging Applications. IEEE Computer Graphics and Applications 3, 5 (August 1983), 13-19.",
+          "key": "e_1_2_1_11_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1983,
+          "author": "Farrell",
+          "unstructured": "Farrell , E. J. Color Display and Interactive Interpretation of Three-Dimensional Data. IBM J. Res. Develop 27 , 4 ( July 1983 ), 356-366. Farrell, E. J. Color Display and Interactive Interpretation of Three-Dimensional Data. IBM J. Res. Develop 27, 4 (July 1983), 356-366.",
+          "key": "e_1_2_1_12_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/MCG.1984.275989",
+          "key": "e_1_2_1_13_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1145/359842.359846",
+          "key": "e_1_2_1_14_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1985,
+          "author": "Gordon D.",
+          "unstructured": "Gordon , D. and Reynolds , R. A. Image Space Shading of 3- Dimensional Objects. Computer Graphics and Image Processing 29 , 3 ( March 1985 ), 361-376. Gordon, D. and Reynolds, R. A. Image Space Shading of 3-Dimensional Objects. Computer Graphics and Image Processing 29, 3 (March 1985), 361-376.",
+          "key": "e_1_2_1_15_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1148/radiology.157.3.4059560",
+          "key": "e_1_2_1_16_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1983,
+          "author": "Hemmy D. C.",
+          "unstructured": "Hemmy , D. C. , David , D. J. , and Herman , G. T. Three-Dimensional Reconstruction of Craniofacial Deformity Using Computed Tomography. Neurosurgery 13 , 5 ( November 1983 ), 534-541. Hemmy, D. C., David, D. J., and Herman, G. T. Three-Dimensional Reconstruction of Craniofacial Deformity Using Computed Tomography. Neurosurgery 13, 5 (November 1983), 534-541.",
+          "key": "e_1_2_1_17_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1985,
+          "author": "Hemmy D. C.",
+          "unstructured": "Hemmy , D. C. and Tessier , P. L. CT of Dry Skulls with Craniofacial Deformities: Accuracy of Three- Dimensional Reconstruction. Radiology 157 , 1 ( October 1985 ), 113-116. Hemmy, D. C. and Tessier, P. L. CT of Dry Skulls with Craniofacial Deformities: Accuracy of Three- Dimensional Reconstruction. Radiology 157, 1 (October 1985), 113-116.",
+          "key": "e_1_2_1_18_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/MCG.1983.263213",
+          "key": "e_1_2_1_19_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1983,
+          "author": "Hinshaw W. S.",
+          "unstructured": "Hinshaw , W. S. and Lent , A. H. An Introduction to NMR Imaging : From the Bloch Equation to the Imaging Equation. Proc. of the IEEE 71 , 3 ( March 1983 ), 338-350. Hinshaw, W. S. and Lent, A. H. An Introduction to NMR Imaging: From the Bloch Equation to the Imaging Equation. Proc. of the IEEE 71, 3 (March 1983), 338-350.",
+          "key": "e_1_2_1_20_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1148/radiology.155.3.4001378",
+          "key": "e_1_2_1_21_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/TMI.1986.4307738",
+          "key": "e_1_2_1_22_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1147/rd.191.0002",
+          "key": "e_1_2_1_23_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1983,
+          "author": "Knoll",
+          "unstructured": "Knoll , G. F. Single-Photon Emission Computed Tomography. Proc. of the IEEE 71 , 3 ( March 1983 ), 320-329. Knoll, G. F. Single-Photon Emission Computed Tomography. Proc. of the IEEE 71, 3 (March 1983), 320-329.",
+          "key": "e_1_2_1_24_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/0146-664X(82)90104-6",
+          "key": "e_1_2_1_25_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1983,
+          "author": "Robb R. A.",
+          "unstructured": "Robb , R. A. , Hoffman , E. A. , Sinak , L. J. , Harris , L. D. , and Ritman , E. L. High-Speed Three-Dimensional X-Ray Computed Tomography: The Dynamic Spatial Reconstructor. Proc. of the IEEE 71 , 3 ( March 1983 ), 308-319. Robb, R. A., Hoffman, E. A., Sinak, L. J., Harris, L. D., and Ritman, E. L. High-Speed Three-Dimensional X-Ray Computed Tomography: The Dynamic Spatial Reconstructor. Proc. of the IEEE 71, 3 (March 1983), 308-319.",
+          "key": "e_1_2_1_26_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1145/965139.807390",
+          "key": "e_1_2_1_27_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1145/360767.360802",
+          "key": "e_1_2_1_28_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/TMI.1986.4307755",
+          "key": "e_1_2_1_29_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1982,
+          "author": "Udupa J. K.",
+          "unstructured": "Udupa , J. K. Interactive Segmentation and Boundary Surface Formation for 3- D Digital Images. Computer Graphics and Image Processing 18 , 3 ( March 1982 ), 213-235. Udupa, J. K. Interactive Segmentation and Boundary Surface Formation for 3-D Digital Images. Computer Graphics and Image Processing 18, 3 (March 1982), 213-235.",
+          "key": "e_1_2_1_30_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1984,
+          "author": "Vannier M. W.",
+          "unstructured": "Vannier , M. W. , Marsh , J. L. , and Warren , J. O. Three Dimensional CT Reconstruction Images for Craniofacial Surgical Planning and Evaluation. Radiology 150 , 1 ( January 1984 ), 179-184. Vannier, M. W., Marsh, J. L., and Warren, J. O. Three Dimensional CT Reconstruction Images for Craniofacial Surgical Planning and Evaluation. Radiology 150, 1 (January 1984), 179-184.",
+          "key": "e_1_2_1_31_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/TPAMI.1981.4767105",
+          "key": "e_1_2_1_32_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://dl.acm.org/doi/10.1145/37402.37422",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://dl.acm.org/doi/pdf/10.1145/37402.37422",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "https://www.acm.org/publications/policies/copyright_policy#Background",
+          "content_version": "vor",
+          "delay_in_days": 0,
+          "source": "crossref"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [
+        {
+          "value": "1987-08-01",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1145/37402.37422",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "Marching cubes: A high resolution 3D surface construction algorithm",
+      "abstract": "We present a new algorithm, called marching cubes , that creates triangle models of constant density surfaces from 3D medical data. Using a divide-and-conquer approach to generate inter-slice connectivity, we create a case table that defines triangle topology. The algorithm processes the 3D medical data in scan-line order and calculates triangle vertices using linear interpolation. We find the gradient of the original data, normalize it, and use it as a basis for shading the models. The detail in images produced from the generated surface models is the result of maintaining the inter-slice connectivity, surface data, and gradient information present in the original 3D data. Results from computed tomography (CT), magnetic resonance (MR), and single-photon emission computed tomography (SPECT) illustrate the quality and functionality of marching cubes . We also discuss improvements that decrease processing time and add solid modeling capabilities.",
+      "publication_date": "1987-08-01",
+      "publication_year": 1987,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310316775",
+      "container_title": "ACM SIGGRAPH Computer Graphics",
+      "volume": "21",
+      "issue": "4",
+      "pages": "163-169",
+      "issn": [
+        "0097-8930",
+        "1558-4569"
+      ],
+      "doi": "10.1145/37402.37422",
+      "openalex_id": "https://openalex.org/W4233857083",
+      "authors": [
+        {
+          "name": {
+            "full_name": "William E. Lorensen",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "General Electric (United States)",
+              "ror_id": "https://ror.org/013msgt25",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5068438875",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "H. E. Cline",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "General Electric (United States)",
+              "ror_id": "https://ror.org/013msgt25",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5109058443",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 8410,
+      "reference_count": 16,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2026": 13,
+        "2025": 299,
+        "2024": 437,
+        "2023": 549,
+        "2022": 423,
+        "2021": 426,
+        "2020": 343,
+        "2019": 256,
+        "2018": 270,
+        "2017": 258,
+        "2016": 256,
+        "2015": 268,
+        "2014": 289,
+        "2013": 319,
+        "2012": 324
+      },
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1145/37402.37422",
+          "landing_page_url": "https://doi.org/10.1145/37402.37422",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310316775",
+          "source": "openalex"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Computer Graphics and Visualization Techniques",
+          "scheme": "openalex_topic",
+          "score": 0.9997000098228455,
+          "source": "openalex"
+        },
+        {
+          "value": "3D Shape Modeling and Analysis",
+          "scheme": "openalex_topic",
+          "score": 0.9990000128746033,
+          "source": "openalex"
+        },
+        {
+          "value": "Medical Image Segmentation Techniques",
+          "scheme": "openalex_topic",
+          "score": 0.9790999889373779,
+          "source": "openalex"
+        },
+        {
+          "value": "Marching cubes",
+          "scheme": "openalex_concept",
+          "score": 0.9147236347198486,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Interpolation (computer graphics)",
+          "scheme": "openalex_concept",
+          "score": 0.6863417029380798,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Algorithm",
+          "scheme": "openalex_concept",
+          "score": 0.5877023339271545,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.5533937811851501,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Fast marching method",
+          "scheme": "openalex_concept",
+          "score": 0.5373839735984802,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Surface (topology)",
+          "scheme": "openalex_concept",
+          "score": 0.5102639198303223,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer vision",
+          "scheme": "openalex_concept",
+          "score": 0.400045782327652,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Mathematics",
+          "scheme": "openalex_concept",
+          "score": 0.328412264585495,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Artificial intelligence",
+          "scheme": "openalex_concept",
+          "score": 0.31387782096862793,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Visualization",
+          "scheme": "openalex_concept",
+          "score": 0.2198372781276703,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Geometry",
+          "scheme": "openalex_concept",
+          "score": 0.18588265776634216,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Image (mathematics)",
+          "scheme": "openalex_concept",
+          "score": 0.1386440098285675,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Sustainable cities and communities",
+          "scheme": "SDG",
+          "score": 0.6600000262260437,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Marching cubes",
+        "Interpolation (computer graphics)",
+        "Algorithm",
+        "Computer science",
+        "Fast marching method",
+        "Surface (topology)",
+        "Computer vision",
+        "Mathematics",
+        "Artificial intelligence",
+        "Visualization",
+        "Geometry",
+        "Image (mathematics)"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 22.00452832,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.99875622,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1145/37402.37422",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "Marching cubes: A high resolution 3D surface construction algorithm",
+      "publication_date": "1987-08-01",
+      "publication_year": 1987,
+      "work_type": "journal-article",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "container_title": "ACM SIGGRAPH Computer Graphics",
+      "issn": [
+        "0097-8930",
+        "1558-4569"
+      ],
+      "doi": "10.1145/37402.37422",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1145/37402.37422",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1145/37402.37422",
+      "pmid": "23671333",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1145/37402.37422",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1145/37402.37422",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1145/37402.37422",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1145/37402.37422",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1145/37402.37422",
+    "pmid": "23671333",
+    "openalex_id": "https://openalex.org/W4233857083",
+    "handles": [],
+    "orcids": [],
+    "ror_ids": [
+      "https://ror.org/013msgt25"
+    ],
+    "grant_ids": [],
+    "nct_ids": [],
+    "pmid_source": "nih_reporter"
+  },
+  "conflicts": {
+    "doi": "10.1145/37402.37422",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 7663,
+          "openalex": 8410
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 32,
+          "openalex": 16
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Association for Computing Machinery (ACM)",
+          "openalex": "https://openalex.org/P4310316775",
+          "unpaywall": "Association for Computing Machinery (ACM)"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 3,
+    "conflict_count": 4
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1145/37402.37422",
+    "fetched_at": "2026-02-11T15:49:10.934516+00:00"
+  }
+}

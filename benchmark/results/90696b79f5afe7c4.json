@@ -1,0 +1,3336 @@
+{
+  "doi": "10.1038/s41598-018-33980-0",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T18:43:32.243353Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "Predicting the need for a reduced drug dose, at first prescription",
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>Prescribing the right drug with the right dose is a central tenet of precision medicine. We examined the use of patients\u2019 prior Electronic Health Records to predict a reduction in drug dosage. We focus on drugs that interact with the P450 enzyme family, because their dosage is known to be sensitive and variable. We extracted diagnostic codes, conditions reported in clinical notes, and laboratory orders from Stanford\u2019s clinical data warehouse to construct cohorts of patients that either did or did not need a dose change. After feature selection, we trained models to predict the patients who will (or will not) require a dose change after being prescribed one of 34 drugs across 23 drug classes. Overall, we can predict (AUC\u2009\u2265\u20090.70\u20130.95) a dose reduction for 23 drugs and 22 drug classes. Several of these drugs are associated with clinical guidelines that recommend dose reduction exclusively in the case of adverse reaction. For these cases, a reduction in dosage may be considered as a surrogate for an adverse reaction, which our system could indirectly help predict and prevent. Our study illustrates the role machine learning may take in providing guidance in setting the starting dose for drugs associated with response variability.</jats:p>",
+      "publication_date": "2018-10-22",
+      "publication_year": 2018,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Springer Science and Business Media LLC",
+      "container_title": "Scientific Reports",
+      "volume": "8",
+      "issue": "1",
+      "pages": "15558",
+      "issn": [
+        "2045-2322"
+      ],
+      "doi": "10.1038/s41598-018-33980-0",
+      "authors": [
+        {
+          "name": {
+            "given": "Adrien",
+            "family": "Coulet",
+            "full_name": "Adrien Coulet",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Nigam H.",
+            "family": "Shah",
+            "full_name": "Nigam H. Shah",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Maxime",
+            "family": "Wack",
+            "full_name": "Maxime Wack",
+            "sequence": "additional",
+            "orcid": "0000-0002-4989-5533",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mohammad B.",
+            "family": "Chawki",
+            "full_name": "Mohammad B. Chawki",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Nicolas",
+            "family": "Jay",
+            "full_name": "Nicolas Jay",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michel",
+            "family": "Dumontier",
+            "full_name": "Michel Dumontier",
+            "sequence": "additional",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 8,
+      "reference_count": 36,
+      "references": [
+        {
+          "doi": "10.1056/NEJMsb1503104",
+          "year": 2015,
+          "author": "JL Jameson",
+          "unstructured": "Jameson, J. L. & Longo, D. L. Precision Medicine \u2014 Personalized, Problematic, and Promising. N. Engl. J. Med. 372, 2229\u201334 (2015).",
+          "key": "33980_CR1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "U.S. Department of Health and Human Services, Office of Disease Prevention and Health Promotion. National Action Plan for Adverse Drug Event Prevention. Washington, DC (2014).",
+          "key": "33980_CR2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/pds.1984",
+          "year": 2010,
+          "author": "FT Bourgeois",
+          "unstructured": "Bourgeois, F. T., Shannon, M. W., Valim, C. & Mandl, K. D. Adverse drug events in the outpatient setting: an 11-year national analysis. Pharmacoepidemiol Drug Saf. 19, 901\u201310 (2010).",
+          "key": "33980_CR3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1377/hlthaff.26.2.w181",
+          "year": 2007,
+          "author": "WF Stewart",
+          "unstructured": "Stewart, W. F., Shah, N. R., Selna, M. J., Paulus, R. A. & Walker, J. M. Bridging the inferential gap: the electronic health record and clinical evidence. Health Aff. 26, w181\u2013w191 (2007).",
+          "key": "33980_CR4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nrg3208",
+          "year": 2012,
+          "author": "PB Jensen",
+          "unstructured": "Jensen, P. B., Jensen, L. J. & Brunak, S. Mining electronic health records: towards better research applications and clinical care. Nat. Rev. Genet. 13, 395\u2013405 (2012).",
+          "key": "33980_CR5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/srep26094",
+          "year": 2016,
+          "author": "R Miotto",
+          "unstructured": "Miotto, R., Li, L., Kidd, B. A. & Dudley, J. T. Deep Patient: An Unsupervised Representation to Predict the Future of Patients from the Electronic Health Records. Scientific Reports 6, 26094 EP (2016).",
+          "key": "33980_CR6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1126/scitranslmed.3003377",
+          "year": 2012,
+          "author": "NP Tatonetti",
+          "unstructured": "Tatonetti, N. P., Ye, P. P., Daneshjou, R. & Altman, R. B. Data-driven prediction of drug effect and interactions. Sci. Transl. Med. 4, 125ra131 (2012).",
+          "key": "33980_CR7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/clpt.2013.47",
+          "year": 2013,
+          "author": "P LePendu",
+          "unstructured": "LePendu, P. et al. Pharmacovigilance using clinical notes. Clin. Pharmacol. Ther. 93, 547\u2013555 (2013).",
+          "key": "33980_CR8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1003405",
+          "year": 2013,
+          "author": "A Neuraz",
+          "unstructured": "Neuraz, A. et al. Phenome-wide association studies on a quantitative trait: application to TPMT enzyme activity and thiopurine therapy in pharmacogenomics. PLoS Comput. Biol. 9, e1003405 (2013).",
+          "key": "33980_CR9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nbt.2757",
+          "year": 2013,
+          "author": "NH Shah",
+          "unstructured": "Shah, N. H. Mining the ultimate phenome repository. Nat Biotechnol. 31, 1095\u20131097 (2013).",
+          "key": "33980_CR10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.2217/pgs.11.164",
+          "year": 2012,
+          "author": "AH Ramirez",
+          "unstructured": "Ramirez, A. H. et al. Predicting warfarin dosage in European-Americans and African-Americans using DNA samples linked to an electronic health record. Pharmacogenomics 13(4), 407\u2013418 (2012).",
+          "key": "33980_CR11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/clpt.2011.221",
+          "year": 2012,
+          "author": "JT Delaney",
+          "unstructured": "Delaney, J. T. et al. Predicting clopidogrel response using DNA samples linked to an electronic health record. Clin. Pharmacol. Ther. 91(2), 257\u2013263 (2012).",
+          "key": "33980_CR12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1097/FPC.0b013e32834e1641",
+          "year": 2012,
+          "author": "KA Birdwell",
+          "unstructured": "Birdwell, K. A. et al. The use of a DNA biobank linked to electronic medical records to characterize pharmacogenomic predictors of tacrolimus dose requirement in kidney transplant recipients. Pharmacogenet. Genomics 22(1), 32\u201342 (2012).",
+          "key": "33980_CR13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pone.0164972",
+          "year": 2016,
+          "author": "M Samwald",
+          "unstructured": "Samwald, M. et al. Incidence of Exposure of Patients in the United States to Multiple Drugs for Which Pharmacogenomic Guidelines Are Available. PLoS ONE 11, e0164972 (2016).",
+          "key": "33980_CR14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.2174/1389200023337054",
+          "year": 2002,
+          "author": "P Danielson",
+          "unstructured": "Danielson, P. The cytochrome P450 superfamily: biochemistry, evolution and drug metabolism in humans. Curr. Drug Metab. 3, 561\u2013597 (2002).",
+          "key": "33980_CR15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1979,
+          "author": "S Holm",
+          "unstructured": "Holm, S. A simple sequentially rejective multiple test procedure. Scandinavian Journal of Statistics. 6, 65\u201370 (1979).",
+          "key": "33980_CR16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/bcp.12234",
+          "year": 2015,
+          "author": "N Tsamandouras",
+          "unstructured": "Tsamandouras, N., Rostami-Hodjegan, A. & Aarons, L. Combining the \u201cbottom up\u201d and \u201ctop down\u201d approaches in pharmacokinetic modelling: fitting PBPK models to observed clinical data. British Journal of Clinical Pharmacology 79(1), 48\u201355 (2015).",
+          "key": "33980_CR17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/cpt.659",
+          "year": 2017,
+          "author": "AS Darwich",
+          "unstructured": "Darwich, A. S. et al. Why Has Model\u2010Informed Precision Dosing Not Yet Become Common Clinical Reality? Lessons From the Past and a Roadmap for the Future. Clin. Pharmacol. Ther. 101, 646\u2013656 (2017).",
+          "key": "33980_CR18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/cpt.1035",
+          "unstructured": "Roden, D.M. et al Benefit of Preemptive Pharmacogenetic Information on Clinical Outcome. Clin Pharmacol Ther. cpt.1035 (2018).",
+          "key": "33980_CR19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Volpi, S. et al. Research Directions in the Clinical Implementation of Pharmacogenomics: An Overview of US Programs and Projects. Clin Pharmacol Ther. cpt.1048 (2018).",
+          "key": "33980_CR20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/cpt.951",
+          "unstructured": "Denny, J.C., Van Driest, S.L., Wei W.Q. & Roden, D.M. The Influence of Big (Clinical) Data and Genomics on Precision Medicine and Drug Development. Clin Pharmacol Ther. cpt.951 (2018).",
+          "key": "33980_CR21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2013,
+          "author": "JPA Ioannidis",
+          "unstructured": "Ioannidis, J. P. A. To replicate or not to replicate: The case of pharmacogenetic studies. Circulation: Cardiovascular Genetics 6, 413\u2013418 (2013).",
+          "key": "33980_CR22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Flockhart, D. Drug Interactions: Cytochrome P450 Drug Interaction Table. Indiana University School of Medicine at, http://medicine.iupui.edu/clinpharm/ddis/ [visited June 6th, 2018] (2007).",
+          "key": "33980_CR23",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Word Health Organisation Collaborating Center for Drug Statistics Methodology, ATC structure and principles at, https://www.whocc.no/atc/structure_and_principles/ [visited June 6th, 2018] (2018).",
+          "key": "33980_CR24",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2009,
+          "author": "H Lowe",
+          "unstructured": "Lowe, H., Ferris, T., Hernandez, P. & Weber, S. STRIDE\u2013An integrated standards-based translational research informatics platform. In AMIA Annu. Symp. Proc. 2009, 391\u2013395 (2009).",
+          "key": "33980_CR25",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Centers for Disease Control and Prevention, International Classification of Disease, Ninth Revision, Clinical Modification (ICD-9-CM) at, https://www.cdc.gov/nchs/icd/icd9cm.htm [visited June 6th, 2018] (2015).",
+          "key": "33980_CR26",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "SNOMED International, SNOMED CT web page. at, https://www.snomed.org/snomed-ct [visited June 6th, 2018].",
+          "key": "33980_CR27",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/cfg.255",
+          "year": 2003,
+          "author": "AT McCray",
+          "unstructured": "McCray, A. T. et al. An Upper Level Ontology for the Biomedical Domain. Comp. Funct. Genom. 4, 80\u20134 (2003).",
+          "key": "33980_CR28",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jbi.2011.04.007",
+          "year": 2011,
+          "author": "P LePendu",
+          "unstructured": "LePendu, P., Musen, M. A. & Shah, N. H. Enabling enrichment analysis with the Human Disease Ontology.\u00a0J. Biomed. Inform. 44, S31\u201338 (2011).",
+          "key": "33980_CR29",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/bti565",
+          "year": 2005,
+          "author": "P Khatri",
+          "unstructured": "Khatri, P. & Dr\u0103ghici, S. Ontological analysis of gene expression data: current tools, limitations, and open problems. Bioinformatics 21, 3587\u20133595 (2005).",
+          "key": "33980_CR30",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btl140",
+          "year": 2006,
+          "author": "A. Alexa",
+          "unstructured": "Alexia, A., Rahnenf\u00fchrer, J. & Lengauer, T. Improved scoring of functional groups from gene expression data by decorrelating GO graph structure.\u00a0Bioinformatics 22, 1600\u20137 (2006).",
+          "key": "33980_CR31",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Sayers, E. A. General introduction to the E-utilities. In: Entrez Programming Utilities Help. National Center for Biotechnology Information, at: https://www.ncbi.nlm.nih.gov/books/NBK25497/ [visited June 6th, 2018] (2010).",
+          "key": "33980_CR32",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1023/A:1010933404324",
+          "unstructured": "Breiman, L. Random Forests. Machine Learning 45, 5\u201332.",
+          "key": "33980_CR33",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jbi.2015.10.006",
+          "year": 2015,
+          "author": "K Jung",
+          "unstructured": "Jung, K. & Shah, N. H. Implications of non-stationarity on predictive modeling using EHRs.\u00a0J. Biomed. Inform.\u00a058, 168\u201374 (2015).",
+          "key": "33980_CR34",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Frank, E., Hall, M. A. & Witten, I. H. The WEKA Workbench. Online Appendix for\u00a0Data Mining: Practical Machine Learning Tools and Techniques, Morgan Kaufmann, Fourth Edition (2016).",
+          "key": "33980_CR35",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1472-6963-11-134",
+          "year": 2011,
+          "author": "J Stausberg",
+          "unstructured": "Stausberg, J. & Hasford, J. Drug-related admissions and hospital-acquired adverse drug events in Germany: a longitudinal analysis from 2003 to 2007 of ICD-10-coded routine data. BMC Health Services Research 11, 134 (2011).",
+          "key": "33980_CR36",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://www.nature.com/articles/s41598-018-33980-0.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41598-018-33980-0",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41598-018-33980-0.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "https://creativecommons.org/licenses/by/4.0",
+          "content_version": "tdm",
+          "delay_in_days": 0,
+          "source": "crossref"
+        },
+        {
+          "url": "https://creativecommons.org/licenses/by/4.0",
+          "content_version": "vor",
+          "delay_in_days": 0,
+          "source": "crossref"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [
+        {
+          "value": "4 October 2017",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "6 October 2018",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "22 October 2018",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "The authors declare no competing interests.",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing Interests"
+          }
+        }
+      ],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1038/s41598-018-33980-0",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "Predicting the need for a reduced drug dose, at first prescription",
+      "abstract": "Abstract Prescribing the right drug with the right dose is a central tenet of precision medicine. We examined the use of patients\u2019 prior Electronic Health Records to predict a reduction in drug dosage. We focus on drugs that interact with the P450 enzyme family, because their dosage is known to be sensitive and variable. We extracted diagnostic codes, conditions reported in clinical notes, and laboratory orders from Stanford\u2019s clinical data warehouse to construct cohorts of patients that either did or did not need a dose change. After feature selection, we trained models to predict the patients who will (or will not) require a dose change after being prescribed one of 34 drugs across 23 drug classes. Overall, we can predict (AUC \u2265 0.70\u20130.95) a dose reduction for 23 drugs and 22 drug classes. Several of these drugs are associated with clinical guidelines that recommend dose reduction exclusively in the case of adverse reaction. For these cases, a reduction in dosage may be considered as a surrogate for an adverse reaction, which our system could indirectly help predict and prevent. Our study illustrates the role machine learning may take in providing guidance in setting the starting dose for drugs associated with response variability.",
+      "publication_date": "2018-10-16",
+      "publication_year": 2018,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310319908",
+      "container_title": "Scientific Reports",
+      "volume": "8",
+      "issue": "1",
+      "pages": "15558-15558",
+      "issn": [
+        "2045-2322"
+      ],
+      "doi": "10.1038/s41598-018-33980-0",
+      "pmid": "30349060",
+      "openalex_id": "https://openalex.org/W2897440704",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Adrien Coulet",
+            "orcid": "0000-0002-1466-062X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Stanford Medicine",
+              "ror_id": "https://ror.org/03mtd9a03",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5082641159",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Nigam H. Shah",
+            "orcid": "0000-0001-9385-7158",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Stanford University",
+              "ror_id": "https://ror.org/00f54p054",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Stanford Medicine",
+              "ror_id": "https://ror.org/03mtd9a03",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5041175834",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Maxime Wack",
+            "orcid": "0000-0002-4989-5533",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Centre Hospitalier R\u00e9gional et Universitaire de Nancy",
+              "ror_id": "https://ror.org/016ncsr12",
+              "country_code": "FR",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5087418731",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Mohammad B. Chawki",
+            "orcid": "0000-0002-6220-3618",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Centre Hospitalier R\u00e9gional et Universitaire de Nancy",
+              "ror_id": "https://ror.org/016ncsr12",
+              "country_code": "FR",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5020842231",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Nicolas Jay",
+            "orcid": "0000-0002-5790-6933",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Laboratoire Lorrain de Recherche en Informatique et ses Applications",
+              "ror_id": "https://ror.org/02vnf0c38",
+              "country_code": "FR",
+              "source": "openalex"
+            },
+            {
+              "name": "Centre National de la Recherche Scientifique",
+              "ror_id": "https://ror.org/02feahw73",
+              "country_code": "FR",
+              "source": "openalex"
+            },
+            {
+              "name": "Centre Hospitalier R\u00e9gional et Universitaire de Nancy",
+              "ror_id": "https://ror.org/016ncsr12",
+              "country_code": "FR",
+              "source": "openalex"
+            },
+            {
+              "name": "Universit\u00e9 de Lorraine",
+              "ror_id": "https://ror.org/04vfs2w97",
+              "country_code": "FR",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5010871542",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Michel Dumontier",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Stanford University",
+              "ror_id": "https://ror.org/00f54p054",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Maastricht University",
+              "ror_id": "https://ror.org/02jz4aj89",
+              "country_code": "NL",
+              "source": "openalex"
+            },
+            {
+              "name": "Stanford Medicine",
+              "ror_id": "https://ror.org/03mtd9a03",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5044836472",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 9,
+      "reference_count": 30,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2023": 2,
+        "2022": 3,
+        "2021": 2,
+        "2020": 1,
+        "2019": 1
+      },
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1038/s41598-018-33980-0",
+          "pdf_url": "https://www.nature.com/articles/s41598-018-33980-0.pdf",
+          "landing_page_url": "https://doi.org/10.1038/s41598-018-33980-0",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310319908",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1038/s41598-018-33980-0",
+          "pdf_url": "https://www.nature.com/articles/s41598-018-33980-0.pdf",
+          "landing_page_url": "https://doi.org/10.1038/s41598-018-33980-0",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310319908",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30349060",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/30349060",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "https://cris.maastrichtuniversity.nl/en/publications/dac9034e-0fdb-4906-a31d-51d43dd6c96f",
+          "landing_page_url": "https://cris.maastrichtuniversity.nl/en/publications/dac9034e-0fdb-4906-a31d-51d43dd6c96f",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "source": "openalex"
+        },
+        {
+          "url": "https://inria.hal.science/hal-01901566",
+          "landing_page_url": "https://inria.hal.science/hal-01901566",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "is_best": false,
+          "source": "openalex"
+        },
+        {
+          "url": "https://doaj.org/article/01fc4a73a60240fd8e62d0783d1a2d6a",
+          "landing_page_url": "https://doaj.org/article/01fc4a73a60240fd8e62d0783d1a2d6a",
+          "host_type": "journal",
+          "version": "submittedVersion",
+          "is_best": false,
+          "source": "openalex"
+        },
+        {
+          "url": "http://europepmc.org/pmc/articles/PMC6197198",
+          "landing_page_url": "http://europepmc.org/pmc/articles/PMC6197198",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1303153112",
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6197198",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6197198",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "is_best": false,
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://www.nature.com/articles/s41598-018-33980-0.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "cc-by",
+          "source": "openalex"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Statistical Methods in Clinical Trials",
+          "scheme": "openalex_topic",
+          "score": 0.9987999796867371,
+          "source": "openalex"
+        },
+        {
+          "value": "Pharmacogenetics and Drug Metabolism",
+          "scheme": "openalex_topic",
+          "score": 0.9980000257492065,
+          "source": "openalex"
+        },
+        {
+          "value": "Machine Learning in Healthcare",
+          "scheme": "openalex_topic",
+          "score": 0.9954000115394592,
+          "source": "openalex"
+        },
+        {
+          "value": "Drug",
+          "scheme": "openalex_concept",
+          "score": 0.7202414870262146,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Medicine",
+          "scheme": "openalex_concept",
+          "score": 0.7163650989532471,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Medical prescription",
+          "scheme": "openalex_concept",
+          "score": 0.7010167241096497,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Adverse effect",
+          "scheme": "openalex_concept",
+          "score": 0.5584438443183899,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Pharmacology",
+          "scheme": "openalex_concept",
+          "score": 0.4243367612361908,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Intensive care medicine",
+          "scheme": "openalex_concept",
+          "score": 0.3911038637161255,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Good health and well-being",
+          "scheme": "SDG",
+          "score": 0.7099999785423279,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Machine Learning",
+          "descriptor_ui": "D000069550",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Machine Learning",
+          "descriptor_ui": "D000069550",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Machine Learning",
+          "descriptor_ui": "D000069550",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Drug Dosage Calculations",
+          "descriptor_ui": "D054796",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Drug Dosage Calculations",
+          "descriptor_ui": "D054796",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Drug Dosage Calculations",
+          "descriptor_ui": "D054796",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Electronic Health Records",
+          "descriptor_ui": "D057286",
+          "qualifier_name": "statistics & numerical data",
+          "qualifier_ui": "Q000706",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Electronic Health Records",
+          "descriptor_ui": "D057286",
+          "qualifier_name": "statistics & numerical data",
+          "qualifier_ui": "Q000706",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Electronic Health Records",
+          "descriptor_ui": "D057286",
+          "qualifier_name": "statistics & numerical data",
+          "qualifier_ui": "Q000706",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Cytochrome P-450 Enzyme Inhibitors",
+          "descriptor_ui": "D065607",
+          "qualifier_name": "administration & dosage",
+          "qualifier_ui": "Q000008",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Cytochrome P-450 Enzyme Inhibitors",
+          "descriptor_ui": "D065607",
+          "qualifier_name": "administration & dosage",
+          "qualifier_ui": "Q000008",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Cytochrome P-450 Enzyme Inhibitors",
+          "descriptor_ui": "D065607",
+          "qualifier_name": "administration & dosage",
+          "qualifier_ui": "Q000008",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Cytochrome P-450 Enzyme Inhibitors",
+          "descriptor_ui": "D065607",
+          "qualifier_name": "adverse effects",
+          "qualifier_ui": "Q000009",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Cytochrome P-450 Enzyme Inhibitors",
+          "descriptor_ui": "D065607",
+          "qualifier_name": "adverse effects",
+          "qualifier_ui": "Q000009",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Cytochrome P-450 Enzyme Inhibitors",
+          "descriptor_ui": "D065607",
+          "qualifier_name": "adverse effects",
+          "qualifier_ui": "Q000009",
+          "is_major_topic": false,
+          "source": "openalex"
+        }
+      ],
+      "keywords": [
+        "Drug",
+        "Medicine",
+        "Medical prescription",
+        "Adverse effect",
+        "Pharmacology",
+        "Intensive care medicine"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 1.25738037,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.77886473,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 2190.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1038/s41598-018-33980-0",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "Predicting the need for a reduced drug dose, at first prescription",
+      "publication_date": "2018-10-16",
+      "publication_year": 2018,
+      "work_type": "journal-article",
+      "publisher": "Springer Science and Business Media LLC",
+      "container_title": "Scientific Reports",
+      "issn": [
+        "2045-2322"
+      ],
+      "doi": "10.1038/s41598-018-33980-0",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://www.nature.com/articles/s41598-018-33980-0.pdf",
+          "pdf_url": "https://www.nature.com/articles/s41598-018-33980-0.pdf",
+          "landing_page_url": "https://doi.org/10.1038/s41598-018-33980-0",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41598-018-33980-0.pdf",
+          "pdf_url": "https://www.nature.com/articles/s41598-018-33980-0.pdf",
+          "landing_page_url": "https://doi.org/10.1038/s41598-018-33980-0",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://cris.maastrichtuniversity.nl/en/publications/dac9034e-0fdb-4906-a31d-51d43dd6c96f",
+          "landing_page_url": "https://cris.maastrichtuniversity.nl/en/publications/dac9034e-0fdb-4906-a31d-51d43dd6c96f",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "Maastricht University",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://inria.hal.science/hal-01901566",
+          "landing_page_url": "https://inria.hal.science/hal-01901566",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "Centre National de la Recherche Scientifique",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://doaj.org/article/01fc4a73a60240fd8e62d0783d1a2d6a",
+          "landing_page_url": "https://doaj.org/article/01fc4a73a60240fd8e62d0783d1a2d6a",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "evidence": "deprecated",
+          "is_best": false,
+          "source": "unpaywall"
+        },
+        {
+          "url": "http://europepmc.org/pmc/articles/PMC6197198",
+          "landing_page_url": "http://europepmc.org/pmc/articles/PMC6197198",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "European Bioinformatics Institute",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6197198",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6197198",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://www.nature.com/articles/s41598-018-33980-0.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "Predicting the need for a reduced drug dose, at first prescription.",
+      "abstract": "Prescribing the right drug with the right dose is a central tenet of precision medicine. We examined the use of patients' prior Electronic Health Records to predict a reduction in drug dosage. We focus on drugs that interact with the P450 enzyme family, because their dosage is known to be sensitive and variable. We extracted diagnostic codes, conditions reported in clinical notes, and laboratory orders from Stanford's clinical data warehouse to construct cohorts of patients that either did or did not need a dose change. After feature selection, we trained models to predict the patients who will (or will not) require a dose change after being prescribed one of 34 drugs across 23 drug classes. Overall, we can predict (AUC\u2009\u2265\u20090.70-0.95) a dose reduction for 23 drugs and 22 drug classes. Several of these drugs are associated with clinical guidelines that recommend dose reduction exclusively in the case of adverse reaction. For these cases, a reduction in dosage may be considered as a surrogate for an adverse reaction, which our system could indirectly help predict and prevent. Our study illustrates the role machine learning may take in providing guidance in setting the starting dose for drugs associated with response variability.",
+      "publication_year": 2018,
+      "language": "eng",
+      "container_title": "Scientific reports",
+      "volume": "8",
+      "issue": "1",
+      "pages": "15558",
+      "issn": [],
+      "doi": "10.1038/s41598-018-33980-0",
+      "pmid": "30349060",
+      "pmcid": "PMC6197198",
+      "authors": [
+        {
+          "name": {
+            "given": "Adrien",
+            "family": "Coulet",
+            "full_name": "Coulet A",
+            "orcid": "0000-0002-1466-062X",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Universit\u00e9 de Lorraine, CNRS, Inria, LORIA, 54000, Nancy, France. adrien.coulet@loria.fr.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Stanford Center for Biomedical Informatics Research, Stanford University, Stanford, California, USA. adrien.coulet@loria.fr.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Nigam H",
+            "family": "Shah",
+            "full_name": "Shah NH",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Stanford Center for Biomedical Informatics Research, Stanford University, Stanford, California, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Maxime",
+            "family": "Wack",
+            "full_name": "Wack M",
+            "orcid": "0000-0002-4989-5533",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Service d'Evaluation et d'Information M\u00e9dicales, University Hospital of Nancy (CHRU), Nancy, France.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mohammad B",
+            "family": "Chawki",
+            "full_name": "Chawki MB",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Service d'Evaluation et d'Information M\u00e9dicales, University Hospital of Nancy (CHRU), Nancy, France.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Nicolas",
+            "family": "Jay",
+            "full_name": "Jay N",
+            "orcid": "0000-0002-5790-6933",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Universit\u00e9 de Lorraine, CNRS, Inria, LORIA, 54000, Nancy, France.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Service d'Evaluation et d'Information M\u00e9dicales, University Hospital of Nancy (CHRU), Nancy, France.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michel",
+            "family": "Dumontier",
+            "full_name": "Dumontier M",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Stanford Center for Biomedical Informatics Research, Stanford University, Stanford, California, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Institute of Data Science, Maastricht University, Maastricht, Netherlands.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 4,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "url": "https://europepmc.org/articles/PMC6197198",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC6197198?pdf=render",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "1OT3TR002027",
+          "agency": "U.S. Department of Health &amp; Human Services | National Institutes of Health (NIH)",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "R01 GM101430",
+          "agency": "NIGMS NIH HHS",
+          "agency_abbreviation": "GM",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "R01 LM011369",
+          "agency": "NLM NIH HHS",
+          "agency_abbreviation": "LM",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "ANR-15-CE23-0028",
+          "agency": "Agence Nationale de la Recherche (French National Research Agency)",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "R01 GM101430",
+          "agency": "U.S. Department of Health &amp; Human Services | NIH | National Institute of General Medical Sciences (NIGMS)",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "R01 LM011369",
+          "agency": "U.S. Department of Health &amp; Human Services | NIH | U.S. National Library of Medicine (NLM)",
+          "pi_names": [],
+          "source": "europe_pmc"
+        }
+      ],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Humans",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Drug Dosage Calculations",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Electronic Health Records",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Electronic Health Records",
+          "qualifier_name": "statistics & numerical data",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Cytochrome P-450 Enzyme Inhibitors",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Cytochrome P-450 Enzyme Inhibitors",
+          "qualifier_name": "administration & dosage",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Cytochrome P-450 Enzyme Inhibitors",
+          "qualifier_name": "adverse effects",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Machine Learning",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 4.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [
+        {
+          "name": "Cytochrome P-450 Enzyme Inhibitors",
+          "registry_number": "0"
+        }
+      ],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [
+        {
+          "url": "https://doi.org/10.1038/s41598-018-33980-0",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC6197198",
+          "availability": "Open access",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC6197198?pdf=render",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openaire": {
+      "source": "openaire",
+      "found": true,
+      "raw": {},
+      "title": "Predicting the need for a reduced drug dose, at first prescription",
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>Prescribing the right drug with the right dose is a central tenet of precision medicine. We examined the use of patients\u2019 prior Electronic Health Records to predict a reduction in drug dosage. We focus on drugs that interact with the P450 enzyme family, because their dosage is known to be sensitive and variable. We extracted diagnostic codes, conditions reported in clinical notes, and laboratory orders from Stanford\u2019s clinical data warehouse to construct cohorts of patients that either did or did not need a dose change. After feature selection, we trained models to predict the patients who will (or will not) require a dose change after being prescribed one of 34 drugs across 23 drug classes. Overall, we can predict (AUC\u2009\u2265\u20090.70\u20130.95) a dose reduction for 23 drugs and 22 drug classes. Several of these drugs are associated with clinical guidelines that recommend dose reduction exclusively in the case of adverse reaction. For these cases, a reduction in dosage may be considered as a surrogate for an adverse reaction, which our system could indirectly help predict and prevent. Our study illustrates the role machine learning may take in providing guidance in setting the starting dose for drugs associated with response variability.</jats:p>",
+      "publication_date": "2018-10-22",
+      "publication_year": 2018,
+      "work_type": "publication",
+      "language": "eng",
+      "publisher": "Springer Science and Business Media LLC",
+      "issn": [],
+      "doi": "10.1038/s41598-018-33980-0",
+      "pmid": "30349060",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Coulet, Adrien",
+            "orcid": "0000-0002-1466-062x",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Shah, Nigam",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Wack, Maxime",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Chawki, Mohammad",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jay, Nicolas",
+            "orcid": "0000-0002-5790-6933",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Dumontier, Michel",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "citation_count": 8,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1038/s41598-018-33980-0",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41598-018-33980-0.pdf",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1038/s41598-018-33980-0",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30349060",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1038/s41598-018-33980-0",
+          "version": "Other literature type",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://cris.maastrichtuniversity.nl/en/publications/dac9034e-0fdb-4906-a31d-51d43dd6c96f",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1038/s41598-018-33980-0",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://inria.hal.science/hal-01901566v1",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://inria.hal.science/hal-01901566v1/document",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1038/s41598-018-33980-0",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://dx.doi.org/10.1038/s41598-018-33980-0",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://inria.hal.science/hal-01901566v1",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://inria.hal.science/hal-01901566v1/document",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1038/s41598-018-33980-0",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "15558",
+          "agency": "Netherlands Organisation for Scientific Research (NWO)",
+          "title": "ELECTRO FOOD SYNTHESIZER \u2018inventing dark photosynthesis\u2019",
+          "pi_names": [],
+          "openaire_project_id": "nwo_________::acf1bc432008d31f4a55bceb3a810758",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "ANR-15-CE23-0028",
+          "agency": "French National Research Agency (ANR)",
+          "title": "Practice-based evidences for actioning Knowledge in Pharmacogenomics",
+          "pi_names": [],
+          "openaire_project_id": "anr_________::c200ef7df33035d76a8260123d965358",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5R01LM011369-07",
+          "agency": "National Institutes of Health",
+          "title": "From enrichment to insights",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::02782cec2fac36c229df7148a9e8d86d",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5R01GM101430-02",
+          "agency": "National Institutes of Health",
+          "title": "Mining health data for drug safety profiles",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::33996333ac112b87791086db4d31f768",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3OT3TR002027-01S1",
+          "agency": "National Institutes of Health",
+          "title": "Biomedical Data Translator Technical Feasibility Assessment and Architecture Design",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::44df36917458914f5ad8ca4c0c5ff439",
+          "source": "openaire"
+        }
+      ],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "[INFO.INFO-AI] Computer Science [cs]/Artificial Intelligence [cs.AI]",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "0301 basic medicine",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "0303 health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "GENE-EXPRESSION DATA",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "ELECTRONIC HEALTH RECORD",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "[INFO.INFO-LG] Computer Science [cs]/Machine Learning [cs.LG]",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Article",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "3. Good health",
+          "scheme": "SDG",
+          "source": "openaire"
+        },
+        {
+          "value": "Machine Learning",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "03 medical and health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "FUTURE",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "[INFO.INFO-DB] Computer Science [cs]/Databases [cs.DB]",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Cytochrome P-450 Enzyme Inhibitors",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Electronic Health Records",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Humans",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Drug Dosage Calculations",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "[INFO.INFO-BI] Computer Science [cs]/Bioinformatics [q-bio.QM]",
+          "scheme": "keyword",
+          "source": "openaire"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "bip_citationCount",
+          "value": 8.0,
+          "class_label": "C5",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_influence",
+          "value": 2.7809024e-09,
+          "class_label": "C5",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_popularity",
+          "value": 5.8043743e-09,
+          "class_label": "C4",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_impulse",
+          "value": 4.0,
+          "class_label": "C5",
+          "source": "openaire"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [
+        {
+          "grant_id": "15558",
+          "agency": "Netherlands Organisation for Scientific Research (NWO)",
+          "title": "ELECTRO FOOD SYNTHESIZER \u2018inventing dark photosynthesis\u2019",
+          "pi_names": [],
+          "openaire_project_id": "nwo_________::acf1bc432008d31f4a55bceb3a810758",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "ANR-15-CE23-0028",
+          "agency": "French National Research Agency (ANR)",
+          "title": "Practice-based evidences for actioning Knowledge in Pharmacogenomics",
+          "pi_names": [],
+          "openaire_project_id": "anr_________::c200ef7df33035d76a8260123d965358",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5R01LM011369-07",
+          "agency": "National Institutes of Health",
+          "title": "From enrichment to insights",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::02782cec2fac36c229df7148a9e8d86d",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5R01GM101430-02",
+          "agency": "National Institutes of Health",
+          "title": "Mining health data for drug safety profiles",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::33996333ac112b87791086db4d31f768",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3OT3TR002027-01S1",
+          "agency": "National Institutes of Health",
+          "title": "Biomedical Data Translator Technical Feasibility Assessment and Architecture Design",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::44df36917458914f5ad8ca4c0c5ff439",
+          "source": "openaire"
+        }
+      ],
+      "alternate_ids": [
+        "doi:10.1038/s41598-018-33980-0",
+        "pmid:30349060",
+        "doi:10.1038/s41598-018-33980-0",
+        "pmc:PMC6197198",
+        "doi:10.1038/s41598-018-33980-0",
+        "doi:10.1038/s41598-018-33980-0",
+        "doi:10.1038/s41598-018-33980-0",
+        "mag_id:2897440704",
+        "doi:10.1038/s41598-018-33980-0",
+        "doi:10.1038/s41598-018-33980-0"
+      ],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1038/s41598-018-33980-0",
+      "pmid": "19683066",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1038/s41598-018-33980-0",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1038/s41598-018-33980-0",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1038/s41598-018-33980-0",
+      "authors": [
+        {
+          "name": {
+            "given": "Nicolas",
+            "family": "Jay",
+            "full_name": "Nicolas Jay",
+            "orcid": "0000-0002-5790-6933",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Adrien",
+            "family": "Coulet",
+            "full_name": "Adrien Coulet",
+            "orcid": "0000-0002-1466-062X",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0002-5790-6933",
+          "given_names": "Nicolas",
+          "family_names": "Jay",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "CHRU de nancy",
+            "LORIA",
+            "Universit\u00e9 de Lorraine"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-1466-062X",
+          "given_names": "Adrien",
+          "family_names": "Coulet",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Inria Centre de Recherche de Paris",
+            "Stanford University",
+            "Universit\u00e9 de Lorraine"
+          ],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": true,
+      "raw": {},
+      "title": "Predicting the need for a reduced drug dose, at first prescription.",
+      "abstract": "Prescribing the right drug with the right dose is a central tenet of precision medicine. We examined the use of patients' prior Electronic Health Records to predict a reduction in drug dosage. We focus on drugs that interact with the P450 enzyme family, because their dosage is known to be sensitive and variable. We extracted diagnostic codes, conditions reported in clinical notes, and laboratory orders from Stanford's clinical data warehouse to construct cohorts of patients that either did or did not need a dose change. After feature selection, we trained models to predict the patients who will (or will not) require a dose change after being prescribed one of 34 drugs across 23 drug classes. Overall, we can predict (AUC\u2009\u2265\u20090.70-0.95) a dose reduction for 23 drugs and 22 drug classes. Several of these drugs are associated with clinical guidelines that recommend dose reduction exclusively in the case of adverse reaction. For these cases, a reduction in dosage may be considered as a surrogate for an adverse reaction, which our system could indirectly help predict and prevent. Our study illustrates the role machine learning may take in providing guidance in setting the starting dose for drugs associated with response variability.",
+      "publication_date": "2018-Oct-22",
+      "publication_year": 2018,
+      "work_type": "journal-article",
+      "language": "eng",
+      "container_title": "Scientific reports",
+      "volume": "8",
+      "issue": "1",
+      "pages": "15558",
+      "issn": [
+        "2045-2322"
+      ],
+      "doi": "10.1038/s41598-018-33980-0",
+      "pmid": "30349060",
+      "pmcid": "PMC6197198",
+      "authors": [
+        {
+          "name": {
+            "given": "Adrien",
+            "family": "Coulet",
+            "full_name": "Adrien Coulet",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Universit\u00e9 de Lorraine, CNRS, Inria, LORIA, 54000, Nancy, France. adrien.coulet@loria.fr.",
+              "source": "entrez"
+            },
+            {
+              "name": "Stanford Center for Biomedical Informatics Research, Stanford University, Stanford, California, USA. adrien.coulet@loria.fr.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Nigam H",
+            "family": "Shah",
+            "full_name": "Nigam H Shah",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Stanford Center for Biomedical Informatics Research, Stanford University, Stanford, California, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Maxime",
+            "family": "Wack",
+            "full_name": "Maxime Wack",
+            "sequence": "additional",
+            "orcid": "0000-0002-4989-5533",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Service d'Evaluation et d'Information M\u00e9dicales, University Hospital of Nancy (CHRU), Nancy, France.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mohammad B",
+            "family": "Chawki",
+            "full_name": "Mohammad B Chawki",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Service d'Evaluation et d'Information M\u00e9dicales, University Hospital of Nancy (CHRU), Nancy, France.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Nicolas",
+            "family": "Jay",
+            "full_name": "Nicolas Jay",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Universit\u00e9 de Lorraine, CNRS, Inria, LORIA, 54000, Nancy, France.",
+              "source": "entrez"
+            },
+            {
+              "name": "Service d'Evaluation et d'Information M\u00e9dicales, University Hospital of Nancy (CHRU), Nancy, France.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michel",
+            "family": "Dumontier",
+            "full_name": "Michel Dumontier",
+            "sequence": "additional",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Stanford Center for Biomedical Informatics Research, Stanford University, Stanford, California, USA.",
+              "source": "entrez"
+            },
+            {
+              "name": "Institute of Data Science, Maastricht University, Maastricht, Netherlands.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        }
+      ],
+      "reference_count": 36,
+      "references": [
+        {
+          "doi": "10.1056/NEJMsb1503104",
+          "pmid": "26014593",
+          "unstructured": "Jameson JL, Longo DL. Precision Medicine \u2014 Personalized, Problematic, and Promising. N. Engl. J. Med. 2015;372:2229\u201334. doi: 10.1056/NEJMsb1503104.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "U.S. Department of Health and Human Services, Office of Disease Prevention and Health Promotion. National Action Plan for Adverse Drug Event Prevention. Washington, DC (2014).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1002/pds.1984",
+          "pmid": "20623513",
+          "unstructured": "Bourgeois FT, Shannon MW, Valim C, Mandl KD. Adverse drug events in the outpatient setting: an 11-year national analysis. Pharmacoepidemiol Drug Saf. 2010;19:901\u201310. doi: 10.1002/pds.1984.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1377/hlthaff.26.2.w181",
+          "pmid": "17259202",
+          "unstructured": "Stewart WF, Shah NR, Selna MJ, Paulus RA, Walker JM. Bridging the inferential gap: the electronic health record and clinical evidence. Health Aff. 2007;26:w181\u2013w191. doi: 10.1377/hlthaff.26.2.w181.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1038/nrg3208",
+          "pmid": "22549152",
+          "unstructured": "Jensen PB, Jensen LJ, Brunak S. Mining electronic health records: towards better research applications and clinical care. Nat. Rev. Genet. 2012;13:395\u2013405. doi: 10.1038/nrg3208.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1038/srep26094",
+          "pmid": "27185194",
+          "unstructured": "Miotto R, Li L, Kidd BA, Dudley JT. Deep Patient: An Unsupervised Representation to Predict the Future of Patients from the Electronic Health Records. Scientific Reports. 2016;6:26094 EP. doi: 10.1038/srep26094.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1126/scitranslmed.3003377",
+          "pmid": "22422992",
+          "unstructured": "Tatonetti NP, Ye PP, Daneshjou R, Altman RB. Data-driven prediction of drug effect and interactions. Sci. Transl. Med. 2012;4:125ra131. doi: 10.1126/scitranslmed.3003377.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1038/clpt.2013.47",
+          "pmid": "23571773",
+          "unstructured": "LePendu P, et al. Pharmacovigilance using clinical notes. Clin. Pharmacol. Ther. 2013;93:547\u2013555. doi: 10.1038/clpt.2013.47.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1003405",
+          "pmid": "24385893",
+          "unstructured": "Neuraz A, et al. Phenome-wide association studies on a quantitative trait: application to TPMT enzyme activity and thiopurine therapy in pharmacogenomics. PLoS Comput. Biol. 2013;9:e1003405. doi: 10.1371/journal.pcbi.1003405.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1038/nbt.2757",
+          "pmid": "24316646",
+          "unstructured": "Shah NH. Mining the ultimate phenome repository. Nat Biotechnol. 2013;31:1095\u20131097. doi: 10.1038/nbt.2757.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.2217/pgs.11.164",
+          "pmid": "22329724",
+          "unstructured": "Ramirez AH, et al. Predicting warfarin dosage in European-Americans and African-Americans using DNA samples linked to an electronic health record. Pharmacogenomics. 2012;13(4):407\u2013418. doi: 10.2217/pgs.11.164.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1038/clpt.2011.221",
+          "pmid": "22190063",
+          "unstructured": "Delaney JT, et al. Predicting clopidogrel response using DNA samples linked to an electronic health record. Clin. Pharmacol. Ther. 2012;91(2):257\u2013263. doi: 10.1038/clpt.2011.221.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1097/FPC.0b013e32834e1641",
+          "pmid": "22108237",
+          "unstructured": "Birdwell KA, et al. The use of a DNA biobank linked to electronic medical records to characterize pharmacogenomic predictors of tacrolimus dose requirement in kidney transplant recipients. Pharmacogenet. Genomics. 2012;22(1):32\u201342. doi: 10.1097/FPC.0b013e32834e1641.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1371/journal.pone.0164972",
+          "pmid": "27764192",
+          "unstructured": "Samwald M, et al. Incidence of Exposure of Patients in the United States to Multiple Drugs for Which Pharmacogenomic Guidelines Are Available. PLoS ONE. 2016;11:e0164972. doi: 10.1371/journal.pone.0164972.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.2174/1389200023337054",
+          "pmid": "12369887",
+          "unstructured": "Danielson P. The cytochrome P450 superfamily: biochemistry, evolution and drug metabolism in humans. Curr. Drug Metab. 2002;3:561\u2013597. doi: 10.2174/1389200023337054.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Holm S. A simple sequentially rejective multiple test procedure. Scandinavian Journal of Statistics. 1979;6:65\u201370.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1111/bcp.12234",
+          "pmid": "24033787",
+          "unstructured": "Tsamandouras N, Rostami-Hodjegan A, Aarons L. Combining the \u201cbottom up\u201d and \u201ctop down\u201d approaches in pharmacokinetic modelling: fitting PBPK models to observed clinical data. British Journal of Clinical Pharmacology. 2015;79(1):48\u201355. doi: 10.1111/bcp.12234.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1002/cpt.659",
+          "pmid": "28182269",
+          "unstructured": "Darwich AS, et al. Why Has Model\u2010Informed Precision Dosing Not Yet Become Common Clinical Reality? Lessons From the Past and a Roadmap for the Future. Clin. Pharmacol. Ther. 2017;101:646\u2013656. doi: 10.1002/cpt.659.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "29377064",
+          "unstructured": "Roden, D.M. ",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "29460415",
+          "unstructured": "Volpi, S. ",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "29171014",
+          "unstructured": " Denny, J.C., Van Driest, S.L., Wei W.Q. & Roden, D.M. The Influence of Big (Clinical) Data and Genomics on Precision Medicine and Drug Development. ",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "23963161",
+          "unstructured": "Ioannidis JPA. To replicate or not to replicate: The case of pharmacogenetic studies. Circulation: Cardiovascular Genetics. 2013;6:413\u2013418.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Flockhart, D. Drug Interactions: Cytochrome P450 Drug Interaction Table. Indiana University School of Medicine at, http://medicine.iupui.edu/clinpharm/ddis/ [visited June 6",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Word Health Organisation Collaborating Center for Drug Statistics Methodology, ATC structure and principles at, https://www.whocc.no/atc/structure_and_principles/ [visited June 6",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "20351886",
+          "unstructured": "Lowe H, Ferris T, Hernandez P, Weber S. STRIDE\u2013An integrated standards-based translational research informatics platform. In AMIA Annu. Symp. Proc. 2009;2009:391\u2013395.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Centers for Disease Control and Prevention, International Classification of Disease, Ninth Revision, Clinical Modification (ICD-9-CM) at, https://www.cdc.gov/nchs/icd/icd9cm.htm [visited June 6",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "SNOMED International, SNOMED CT web page. at, https://www.snomed.org/snomed-ct [visited June 6th, 2018].",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1002/cfg.255",
+          "pmid": "18629109",
+          "unstructured": "McCray AT. An Upper Level Ontology for the Biomedical Domain. Comp. Funct. Genom. 2003;4:80\u20134. doi: 10.1002/cfg.255.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1016/j.jbi.2011.04.007",
+          "pmid": "21550421",
+          "unstructured": "LePendu P, Musen MA, Shah NH. Enabling enrichment analysis with the Human Disease Ontology. J. Biomed. Inform. 2011;44:S31\u201338. doi: 10.1016/j.jbi.2011.04.007.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/bioinformatics/bti565",
+          "pmid": "15994189",
+          "unstructured": "Khatri P, Dr\u0103ghici S. Ontological analysis of gene expression data: current tools, limitations, and open problems. Bioinformatics. 2005;21:3587\u20133595. doi: 10.1093/bioinformatics/bti565.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btl140",
+          "pmid": "16606683",
+          "unstructured": "Alexa A., Rahnenfuhrer J., Lengauer T. Improved scoring of functional groups from gene expression data by decorrelating GO graph structure. Bioinformatics. 2006;22(13):1600\u20131607. doi: 10.1093/bioinformatics/btl140.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Sayers, E. A. General introduction to the E-utilities. In: ",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Breiman, L. Random Forests. ",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1016/j.jbi.2015.10.006",
+          "pmid": "26483171",
+          "unstructured": "Jung K, Shah NH. Implications of non-stationarity on predictive modeling using EHRs. J. Biomed. Inform. 2015;58:168\u201374. doi: 10.1016/j.jbi.2015.10.006.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Frank, E., Hall, M. A. & Witten, I. H. The WEKA Workbench. Online Appendix for\u00a0",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1186/1472-6963-11-134",
+          "pmid": "21619706",
+          "unstructured": "Stausberg J, Hasford J. Drug-related admissions and hospital-acquired adverse drug events in Germany: a longitudinal analysis from 2003 to 2007 of ICD-10-coded routine data. BMC Health Services Research. 2011;11:134. doi: 10.1186/1472-6963-11-134.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "R01 LM011369",
+          "agency": "U.S. Department of Health &amp; Human Services | NIH | U.S. National Library of Medicine (NLM)",
+          "pi_names": [],
+          "jurisdiction": "International",
+          "source": "entrez"
+        },
+        {
+          "grant_id": "R01 LM011369",
+          "agency": "NLM NIH HHS",
+          "agency_abbreviation": "LM",
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "source": "entrez"
+        },
+        {
+          "grant_id": "R01 GM101430",
+          "agency": "NIGMS NIH HHS",
+          "agency_abbreviation": "GM",
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "source": "entrez"
+        },
+        {
+          "grant_id": "ANR-15-CE23-0028",
+          "agency": "Agence Nationale de la Recherche (French National Research Agency)",
+          "pi_names": [],
+          "jurisdiction": "International",
+          "source": "entrez"
+        },
+        {
+          "grant_id": "R01 GM101430",
+          "agency": "U.S. Department of Health &amp; Human Services | NIH | National Institute of General Medical Sciences (NIGMS)",
+          "pi_names": [],
+          "jurisdiction": "International",
+          "source": "entrez"
+        },
+        {
+          "grant_id": "1OT3TR002027",
+          "agency": "U.S. Department of Health &amp; Human Services | National Institutes of Health (NIH)",
+          "pi_names": [],
+          "jurisdiction": "International",
+          "source": "entrez"
+        }
+      ],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Cytochrome P-450 Enzyme Inhibitors",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Drug Dosage Calculations",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Electronic Health Records",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Humans",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Machine Learning",
+          "scheme": "MeSH",
+          "source": "entrez"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Cytochrome P-450 Enzyme Inhibitors",
+          "descriptor_ui": "D065607",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Cytochrome P-450 Enzyme Inhibitors",
+          "descriptor_ui": "D065607",
+          "qualifier_name": "administration & dosage",
+          "qualifier_ui": "Q000008",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Cytochrome P-450 Enzyme Inhibitors",
+          "descriptor_ui": "D065607",
+          "qualifier_name": "adverse effects",
+          "qualifier_ui": "Q000009",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Drug Dosage Calculations",
+          "descriptor_ui": "D054796",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Electronic Health Records",
+          "descriptor_ui": "D057286",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Electronic Health Records",
+          "descriptor_ui": "D057286",
+          "qualifier_name": "statistics & numerical data",
+          "qualifier_ui": "Q000706",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Machine Learning",
+          "descriptor_ui": "D000069550",
+          "is_major_topic": false,
+          "source": "entrez"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [
+        {
+          "name": "Cytochrome P-450 Enzyme Inhibitors",
+          "registry_number": "0",
+          "substance_ui": "D065607"
+        }
+      ],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {
+        "received": "2017-10-04",
+        "accepted": "2018-10-06",
+        "entrez": "2018-10-24",
+        "pubmed": "2018-10-24",
+        "medline": "2019-11-20",
+        "pmc-release": "2018-10-22"
+      },
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "publication_status": "epublish",
+      "country_of_publication": "England",
+      "nlm_journal_id": "101563288",
+      "medline_ta": "Sci Rep",
+      "citation_subsets": [
+        "IM"
+      ],
+      "pii": "15558",
+      "electronic_publication_date": "2018-10-22",
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1038/s41598-018-33980-0",
+    "pmid": "30349060",
+    "pmcid": "PMC6197198",
+    "mag_id": "2897440704",
+    "openalex_id": "https://openalex.org/W2897440704",
+    "pii": "15558",
+    "nlm_unique_id": "101563288",
+    "handles": [],
+    "orcids": [
+      "0000-0001-9385-7158",
+      "0000-0002-1466-062X",
+      "0000-0002-1466-062x",
+      "0000-0002-4989-5533",
+      "0000-0002-5790-6933",
+      "0000-0002-6220-3618",
+      "0000-0003-4727-9435"
+    ],
+    "ror_ids": [
+      "https://ror.org/00f54p054",
+      "https://ror.org/016ncsr12",
+      "https://ror.org/02feahw73",
+      "https://ror.org/02jz4aj89",
+      "https://ror.org/02vnf0c38",
+      "https://ror.org/03mtd9a03",
+      "https://ror.org/04vfs2w97"
+    ],
+    "grant_ids": [
+      "15558",
+      "1OT3TR002027",
+      "3OT3TR002027-01S1",
+      "5R01GM101430-02",
+      "5R01LM011369-07",
+      "ANR-15-CE23-0028",
+      "R01 GM101430",
+      "R01 LM011369"
+    ],
+    "nct_ids": [],
+    "pmid_source": "entrez",
+    "pmcid_source": "entrez"
+  },
+  "conflicts": {
+    "doi": "10.1038/s41598-018-33980-0",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 8,
+          "openalex": 9,
+          "europe_pmc": 4,
+          "openaire": 8
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 36,
+          "openalex": 30,
+          "entrez": 36
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article",
+          "openaire": "publication",
+          "entrez": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 6,
+          "openalex": 6,
+          "unpaywall": 6,
+          "europe_pmc": 6,
+          "openaire": 6,
+          "orcid": 2,
+          "entrez": 6
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Springer Science and Business Media LLC",
+          "openalex": "https://openalex.org/P4310319908",
+          "unpaywall": "Springer Science and Business Media LLC",
+          "openaire": "Springer Science and Business Media LLC"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Scientific Reports",
+          "openalex": "Scientific Reports",
+          "unpaywall": "Scientific Reports",
+          "europe_pmc": "Scientific reports",
+          "entrez": "Scientific reports"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "mesh_term_count",
+        "values": {
+          "openalex": 18,
+          "europe_pmc": 8,
+          "entrez": 8
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng",
+          "openaire": "eng",
+          "entrez": "eng"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "grant_count",
+        "values": {
+          "europe_pmc": 6,
+          "openaire": 5,
+          "entrez": 6
+        },
+        "risk": "medium"
+      }
+    ],
+    "agreement_count": 2,
+    "conflict_count": 9
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1038/s41598-018-33980-0",
+    "fetched_at": "2026-02-11T18:43:32.244955+00:00"
+  }
+}

@@ -1,0 +1,4795 @@
+{
+  "doi": "10.1126/science.adm7066",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T17:34:43.080065Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "Machine learning\u2013based penetrance of genetic variants",
+      "abstract": "<jats:p>Accurate variant penetrance estimation is crucial for precision medicine. We constructed machine learning (ML) models for 10 diseases using 1,347,298 participants with electronic health records, then applied them to an independent cohort with linked exome data. Resulting probabilities were used to evaluate ML penetrance of 1648 rare variants in 31 autosomal dominant disease-predisposition genes. ML penetrance was variable across variant classes, but highest for pathogenic and loss-of-function variants, and was associated with clinical outcomes and functional data. Compared with conventional case-versus-control approaches, ML penetrance provided refined quantitative estimates and aided the interpretation of variants of uncertain significance and loss-of-function variants by delineating clinical trajectories over time. By leveraging ML and deep phenotyping, we present a scalable approach to accurately quantify disease risk of variants.</jats:p>",
+      "publication_date": "2025-08-28",
+      "publication_year": 2025,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "American Association for the Advancement of Science (AAAS)",
+      "container_title": "Science",
+      "volume": "389",
+      "issue": "6763",
+      "pages": "eadm7066",
+      "issn": [
+        "0036-8075",
+        "1095-9203"
+      ],
+      "doi": "10.1126/science.adm7066",
+      "authors": [
+        {
+          "name": {
+            "given": "Iain S.",
+            "family": "Forrest",
+            "full_name": "Iain S. Forrest",
+            "sequence": "first",
+            "orcid": "0000-0002-5642-422X",
+            "authenticated_orcid": true,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "crossref"
+            },
+            {
+              "name": "Medical Scientist Training Program, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "crossref"
+            },
+            {
+              "name": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "crossref"
+            },
+            {
+              "name": "The Windreich Department of Artificial Intelligence and Human Health, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ha My T.",
+            "family": "Vy",
+            "full_name": "Ha My T. Vy",
+            "sequence": "additional",
+            "orcid": "0000-0002-5117-3740",
+            "authenticated_orcid": true,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "crossref"
+            },
+            {
+              "name": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "crossref"
+            },
+            {
+              "name": "The Windreich Department of Artificial Intelligence and Human Health, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ghislain",
+            "family": "Rocheleau",
+            "full_name": "Ghislain Rocheleau",
+            "sequence": "additional",
+            "orcid": "0000-0002-9989-7553",
+            "authenticated_orcid": true,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "crossref"
+            },
+            {
+              "name": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "crossref"
+            },
+            {
+              "name": "The Windreich Department of Artificial Intelligence and Human Health, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Daniel M.",
+            "family": "Jordan",
+            "full_name": "Daniel M. Jordan",
+            "sequence": "additional",
+            "orcid": "0000-0002-5318-8225",
+            "authenticated_orcid": true,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "crossref"
+            },
+            {
+              "name": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "crossref"
+            },
+            {
+              "name": "The Windreich Department of Artificial Intelligence and Human Health, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ben O.",
+            "family": "Petrazzini",
+            "full_name": "Ben O. Petrazzini",
+            "sequence": "additional",
+            "orcid": "0000-0001-9789-9371",
+            "authenticated_orcid": true,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "crossref"
+            },
+            {
+              "name": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "crossref"
+            },
+            {
+              "name": "The Windreich Department of Artificial Intelligence and Human Health, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Girish N.",
+            "family": "Nadkarni",
+            "full_name": "Girish N. Nadkarni",
+            "sequence": "additional",
+            "orcid": "0000-0001-6319-4314",
+            "authenticated_orcid": true,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "crossref"
+            },
+            {
+              "name": "The Windreich Department of Artificial Intelligence and Human Health, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "crossref"
+            },
+            {
+              "name": "Department of Pathology, Molecular and Cell-based Therapy, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Judy H.",
+            "family": "Cho",
+            "full_name": "Judy H. Cho",
+            "sequence": "additional",
+            "orcid": "0000-0002-7959-0466",
+            "authenticated_orcid": true,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Pathology, Molecular and Cell-based Therapy, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mythily",
+            "family": "Ganapathi",
+            "full_name": "Mythily Ganapathi",
+            "sequence": "additional",
+            "orcid": "0000-0003-2834-0843",
+            "authenticated_orcid": true,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Pathology and Cell Biology, Columbia University Irving Medical Center, New York, NY, USA.",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Kuan-Lin",
+            "family": "Huang",
+            "full_name": "Kuan-Lin Huang",
+            "sequence": "additional",
+            "orcid": "0000-0002-5537-5817",
+            "authenticated_orcid": true,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Wendy K.",
+            "family": "Chung",
+            "full_name": "Wendy K. Chung",
+            "sequence": "additional",
+            "orcid": "0000-0003-3438-5685",
+            "authenticated_orcid": true,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Boston Children\u2019s Hospital, Harvard Medical School, Boston, MA, USA.",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ron",
+            "family": "Do",
+            "full_name": "Ron Do",
+            "sequence": "additional",
+            "orcid": "0000-0002-3144-3627",
+            "authenticated_orcid": true,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "crossref"
+            },
+            {
+              "name": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "crossref"
+            },
+            {
+              "name": "The Windreich Department of Artificial Intelligence and Human Health, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 6,
+      "reference_count": 81,
+      "references": [
+        {
+          "doi": "10.1093/nar/gkt1113",
+          "key": "e_1_3_2_2_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41586-021-04103-z",
+          "key": "e_1_3_2_3_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41586-020-2308-7",
+          "key": "e_1_3_2_4_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1001/jama.2021.23686",
+          "key": "e_1_3_2_5_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nature19057",
+          "key": "e_1_3_2_6_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.ajhg.2018.02.019",
+          "key": "e_1_3_2_7_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1126/scitranslmed.aad5169",
+          "key": "e_1_3_2_8_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.ajhg.2022.09.014",
+          "key": "e_1_3_2_9_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1001/jama.2016.1519",
+          "key": "e_1_3_2_10_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1146/annurev-genom-121620-082709",
+          "key": "e_1_3_2_11_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.gim.2022.04.006",
+          "key": "e_1_3_2_12_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41436-020-0900-8",
+          "key": "e_1_3_2_13_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41598-019-57335-5",
+          "key": "e_1_3_2_14_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/cge.13621",
+          "key": "e_1_3_2_15_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1056/NEJMsa1507092",
+          "key": "e_1_3_2_16_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41576-020-0224-1",
+          "key": "e_1_3_2_17_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/d41586-021-02401-0",
+          "key": "e_1_3_2_18_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41746-021-00488-3",
+          "key": "e_1_3_2_19_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1056/NEJMra1814259",
+          "key": "e_1_3_2_20_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1126/scitranslmed.aaa9364",
+          "key": "e_1_3_2_21_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1056/NEJMp1705348",
+          "key": "e_1_3_2_22_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41746-018-0029-1",
+          "key": "e_1_3_2_23_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41591-018-0300-7",
+          "key": "e_1_3_2_24_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S0140-6736(22)02079-7",
+          "key": "e_1_3_2_25_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1053/j.ajkd.2017.10.023",
+          "key": "e_1_3_2_26_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1136/heart.87.2.169",
+          "key": "e_1_3_2_27_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1126/science.adg7492",
+          "key": "e_1_3_2_28_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41586-018-0461-z",
+          "key": "e_1_3_2_29_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pgen.1004855",
+          "key": "e_1_3_2_30_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1161/CIRCGEN.118.002345",
+          "key": "e_1_3_2_31_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1126/science.aaf7000",
+          "key": "e_1_3_2_32_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1056/NEJMoa2005936",
+          "key": "e_1_3_2_33_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s13073-022-01142-7",
+          "key": "e_1_3_2_34_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1161/CIRCULATIONAHA.121.058143",
+          "key": "e_1_3_2_35_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.ajhg.2018.12.015",
+          "key": "e_1_3_2_36_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/s00439-013-1331-2",
+          "key": "e_1_3_2_37_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/oncolo/oyab082",
+          "key": "e_1_3_2_38_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1053/j.gastro.2020.12.034",
+          "key": "e_1_3_2_39_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nrclinonc.2016.90",
+          "key": "e_1_3_2_40_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/aogs.13963",
+          "key": "e_1_3_2_41_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/gim.2015.30",
+          "key": "e_1_3_2_42_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Y.-T. Huang E.-Y. Lai J.-Y. Su H.-J. Lu Y.-L. Chen J.-Y. Wu C. Wei L.-H. Li C. S.-J. Fann H.-C. Yang C.-H. Chen H.-H. Chen Y.-M. Liu M.-F. Tsai E.-C. Yeh C.-K. Cheng Y.-P. Wang N.-F. Chi I.-C. Lee H.-S. Chen Y.-C. Hsieh Y.-C. Liao S.-J. Hsu S.-M. Ou K.-L. Lai C.-C. Lin Y.-J. Chen C.-M. Chang P.-H. Wang Y.-H. Luo Y.-T. Chang C.-C. Chen Y.-C. Hsieh Y.-M. Chen T.-H. Hsiao C.-H. Lin Y.-J. Chen I.-C. Chen C.-L. Mao S.-J. Chang Y.-L. Chang Y.-J. Liao C.-H. Lai W.-J. Lee H. Tung T.-T. Yen H.-C. Yen S.-S. Chang Y.-S. Chang T.-I. Lee S.-D. Yeh M.-Y. Wu M.-S. Wu L. W. Tsai C. Zheng Y.-M. Chien T.-H. Lin Y.-H. Chen C.-C. E. Lan J.-H. Yen W.-C. Liang T.-F. Chan S.-S. Chiou S.-C. Chuang S.-J. Hwang Y.-J. Lin Y.-C. Huang W.-R. Li T.-C. Chen W.-T. Huang K.-C. Chen S.-Y. Lim Y.-S. Shen C.-C. Huang C.-H. Chen Y.-C. Tian C.-L. Chen Y.-F. Fang J.-T. Fang Y.-H. Yen W.-C. Wu W.-S. Huang C.-C. Sun M.-J. Chen C.-H. Lin T.-H. Yang P.-L. Lee M.-Y. Wang T.-F. Tsai T.-H. Su J.-M. Liou S.-F. Yang C.-C. Hsieh C.-C. Sung F.-C. Kuo S.-H. Lin D.-Y. Hueng C.-J. Lin H.-Y. Shen C.-H. Hsieh S.-Z. Lin T.-F. Wang T.-J. Ho P.-W. Shueng C.-H. Hsieh K.-S. Jeng G.-C. Ma T.-Y. Chang H.-S. Chiang Y.-T. Lin K.-J. Kao C.-F. Hung I.-M. Fang P.-Y. Chen K. Tsui P.-Y. Kwok W.-J. Yao S.-S. Chen M. Chen C.-Y. Huang D.-W. Wang C. Chen Deleterious variants contribute minimal excess risk in large-scale testing. medRxiv 2024.10.21.24315653 (Preprint] (2024); https://doi.org/10.1101/2024.10.21.24315653.10.1101/2024.10.21.24315653",
+          "key": "e_1_3_2_43_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/2024.09.23.24314008",
+          "unstructured": "D. R. Blair N. Risch Dissecting the reduced penetrance of putative loss-of-function variants in population-scale biobanks. medRxiv 2024.09.23.24314008 (Preprint] (2024); https://doi.org/10.1101/2024.09.23.24314008.",
+          "key": "e_1_3_2_44_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jacc.2021.07.017",
+          "key": "e_1_3_2_45_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1161/CIRCGEN.119.002467",
+          "key": "e_1_3_2_46_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41467-019-13690-5",
+          "key": "e_1_3_2_47_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.5551/jat.62773",
+          "key": "e_1_3_2_48_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.5551/jat.54593",
+          "key": "e_1_3_2_49_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.cell.2019.02.048",
+          "key": "e_1_3_2_50_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/538161a",
+          "key": "e_1_3_2_51_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/srep26094",
+          "key": "e_1_3_2_52_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pone.0019166",
+          "key": "e_1_3_2_53_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41586-020-2853-0",
+          "key": "e_1_3_2_54_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s13742-015-0047-8",
+          "key": "e_1_3_2_55_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41586-022-04558-8",
+          "key": "e_1_3_2_56_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s13059-016-0974-4",
+          "key": "e_1_3_2_57_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jocd.2018.12.006",
+          "key": "e_1_3_2_58_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/jbmr.3226",
+          "key": "e_1_3_2_59_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s13023-021-02084-w",
+          "key": "e_1_3_2_60_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/eurheartj/ehq025",
+          "key": "e_1_3_2_61_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/jamia/ocv202",
+          "key": "e_1_3_2_62_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.2337/dc22-S002",
+          "key": "e_1_3_2_63_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/eurheartj/ehu284",
+          "key": "e_1_3_2_64_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jacc.2020.06.037",
+          "key": "e_1_3_2_65_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1161/CIRCULATIONAHA.111.062182",
+          "key": "e_1_3_2_66_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.hrthm.2013.05.014",
+          "key": "e_1_3_2_67_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1161/CIRCULATIONAHA.110.948828",
+          "key": "e_1_3_2_68_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1681/ASN.2008050507",
+          "key": "e_1_3_2_69_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.ajhg.2021.11.016",
+          "key": "e_1_3_2_70_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1182/bloodadvances.2020003265",
+          "key": "e_1_3_2_71_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1145/2939672.2939785",
+          "key": "e_1_3_2_72_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.21037/atm.2019.03.29",
+          "key": "e_1_3_2_73_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41598-022-20149-z",
+          "key": "e_1_3_2_74_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41467-023-37996-7",
+          "key": "e_1_3_2_75_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/cid/ciad307",
+          "key": "e_1_3_2_76_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Classification and regression by randomForest",
+          "year": 2002,
+          "author": "Liaw A.",
+          "unstructured": "A. Liaw, M. Wiener, Classification and regression by randomForest. R News 2, 18\u201322 (2002).",
+          "key": "e_1_3_2_77_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2022,
+          "author": "Grinsztajn L.",
+          "unstructured": "L. Grinsztajn, E. Oyallon, G. Varoquaux, \u201c Why do tree-based models still outperform deep learning on typical tabular data?\u201d in NIPS\u201922: Proceedings of the 36th International Conference on Neural Information Processing Systems (Association for Computing Machinery, 2022), pp. 507\u2013520.",
+          "key": "e_1_3_2_78_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btr597",
+          "key": "e_1_3_2_79_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.18637/jss.v036.i11",
+          "key": "e_1_3_2_80_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-12-77",
+          "key": "e_1_3_2_81_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "I. Forrest R. Do Machine learning-based penetrance of clinical variants V1. Mendeley Data (2025); https://doi.org/10.17632/p47ws8kn36.1.10.17632/p47ws8kn36.1",
+          "key": "e_1_3_2_82_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://www.science.org/doi/pdf/10.1126/science.adm7066",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [
+        {
+          "value": "2023-11-03",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2024-12-03",
+          "order": 1,
+          "name": "revised",
+          "label": "Revised",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2025-06-16",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2025-08-28",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1126/science.adm7066",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "Machine learning\u2013based penetrance of genetic variants",
+      "abstract": "Accurate variant penetrance estimation is crucial for precision medicine. We constructed machine learning (ML) models for 10 diseases using 1,347,298 participants with electronic health records, then applied them to an independent cohort with linked exome data. Resulting probabilities were used to evaluate ML penetrance of 1648 rare variants in 31 autosomal dominant disease-predisposition genes. ML penetrance was variable across variant classes, but highest for pathogenic and loss-of-function variants, and was associated with clinical outcomes and functional data. Compared with conventional case-versus-control approaches, ML penetrance provided refined quantitative estimates and aided the interpretation of variants of uncertain significance and loss-of-function variants by delineating clinical trajectories over time. By leveraging ML and deep phenotyping, we present a scalable approach to accurately quantify disease risk of variants.",
+      "publication_date": "2025-08-28",
+      "publication_year": 2025,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310315823",
+      "container_title": "Science",
+      "volume": "389",
+      "issue": "6763",
+      "pages": "eadm7066-eadm7066",
+      "issn": [
+        "0036-8075",
+        "1095-9203"
+      ],
+      "doi": "10.1126/science.adm7066",
+      "pmid": "40875860",
+      "openalex_id": "https://openalex.org/W4413786315",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Iain S. Forrest",
+            "orcid": "0000-0002-5642-422X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Icahn School of Medicine at Mount Sinai",
+              "ror_id": "https://ror.org/04a9tmd77",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5031766503",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ha My T. Vy",
+            "orcid": "0000-0002-5117-3740",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Icahn School of Medicine at Mount Sinai",
+              "ror_id": "https://ror.org/04a9tmd77",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5051121133",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ghislain Rocheleau",
+            "orcid": "0000-0002-9989-7553",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Icahn School of Medicine at Mount Sinai",
+              "ror_id": "https://ror.org/04a9tmd77",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5056432578",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Daniel M. Jordan",
+            "orcid": "0000-0002-5318-8225",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Icahn School of Medicine at Mount Sinai",
+              "ror_id": "https://ror.org/04a9tmd77",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5065345563",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ben Omega Petrazzini",
+            "orcid": "0000-0001-9789-9371",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Icahn School of Medicine at Mount Sinai",
+              "ror_id": "https://ror.org/04a9tmd77",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5061614889",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Girish N. Nadkarni",
+            "orcid": "0000-0001-6319-4314",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Icahn School of Medicine at Mount Sinai",
+              "ror_id": "https://ror.org/04a9tmd77",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5047405500",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Judy H. Cho",
+            "orcid": "0000-0002-7959-0466",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5012477767",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Mythily Ganapathi",
+            "orcid": "0000-0003-2834-0843",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Columbia University Irving Medical Center",
+              "ror_id": "https://ror.org/01esghr10",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5049764489",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kuan\u2010lin Huang",
+            "orcid": "0000-0002-5537-5817",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Icahn School of Medicine at Mount Sinai",
+              "ror_id": "https://ror.org/04a9tmd77",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5032718790",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Wendy K. Chung",
+            "orcid": "0000-0003-3438-5685",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Boston Children's Hospital",
+              "ror_id": "https://ror.org/00dvg7y05",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Harvard University",
+              "ror_id": "https://ror.org/03vek6s52",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5018722278",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ron Do",
+            "orcid": "0000-0002-3144-3627",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Icahn School of Medicine at Mount Sinai",
+              "ror_id": "https://ror.org/04a9tmd77",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5075343690",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 6,
+      "reference_count": 79,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2026": 2,
+        "2025": 4
+      },
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_locations": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12771675/",
+          "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12771675/",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1126/science.adm7066",
+          "landing_page_url": "https://doi.org/10.1126/science.adm7066",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310315823",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40875860",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/40875860",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12771675/",
+          "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12771675/",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12771675/",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Genomics and Rare Diseases",
+          "scheme": "openalex_topic",
+          "score": 0.9993000030517578,
+          "source": "openalex"
+        },
+        {
+          "value": "Genetic Associations and Epidemiology",
+          "scheme": "openalex_topic",
+          "score": 0.9990000128746033,
+          "source": "openalex"
+        },
+        {
+          "value": "Cancer Genomics and Diagnostics",
+          "scheme": "openalex_topic",
+          "score": 0.9937000274658203,
+          "source": "openalex"
+        },
+        {
+          "value": "Penetrance",
+          "scheme": "openalex_concept",
+          "score": 0.980952262878418,
+          "level": 4,
+          "source": "openalex"
+        },
+        {
+          "value": "Exome",
+          "scheme": "openalex_concept",
+          "score": 0.6373943090438843,
+          "level": 5,
+          "source": "openalex"
+        },
+        {
+          "value": "Genetics",
+          "scheme": "openalex_concept",
+          "score": 0.486247181892395,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Multifactorial Inheritance",
+          "scheme": "openalex_concept",
+          "score": 0.4252457618713379,
+          "level": 5,
+          "source": "openalex"
+        },
+        {
+          "value": "Computational biology",
+          "scheme": "openalex_concept",
+          "score": 0.41031134128570557,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Exome sequencing",
+          "scheme": "openalex_concept",
+          "score": 0.4081208109855652,
+          "level": 4,
+          "source": "openalex"
+        },
+        {
+          "value": "Biology",
+          "scheme": "openalex_concept",
+          "score": 0.3682836592197418,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Machine learning",
+          "scheme": "openalex_concept",
+          "score": 0.35832345485687256,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.33637940883636475,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Gene",
+          "scheme": "openalex_concept",
+          "score": 0.24512702226638794,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Genotype",
+          "scheme": "openalex_concept",
+          "score": 0.22053927183151245,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Mutation",
+          "scheme": "openalex_concept",
+          "score": 0.2028489112854004,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Phenotype",
+          "scheme": "openalex_concept",
+          "score": 0.14314931631088257,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Single-nucleotide polymorphism",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 4,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Machine Learning",
+          "descriptor_ui": "D000069550",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Machine Learning",
+          "descriptor_ui": "D000069550",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Machine Learning",
+          "descriptor_ui": "D000069550",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Machine Learning",
+          "descriptor_ui": "D000069550",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Machine Learning",
+          "descriptor_ui": "D000069550",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Loss of Function Mutation",
+          "descriptor_ui": "D000073658",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Loss of Function Mutation",
+          "descriptor_ui": "D000073658",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Loss of Function Mutation",
+          "descriptor_ui": "D000073658",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Loss of Function Mutation",
+          "descriptor_ui": "D000073658",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Loss of Function Mutation",
+          "descriptor_ui": "D000073658",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genetic Variation",
+          "descriptor_ui": "D014644",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genetic Variation",
+          "descriptor_ui": "D014644",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genetic Variation",
+          "descriptor_ui": "D014644",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genetic Variation",
+          "descriptor_ui": "D014644",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genetic Variation",
+          "descriptor_ui": "D014644",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Penetrance",
+          "descriptor_ui": "D019683",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Penetrance",
+          "descriptor_ui": "D019683",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Penetrance",
+          "descriptor_ui": "D019683",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Penetrance",
+          "descriptor_ui": "D019683",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Penetrance",
+          "descriptor_ui": "D019683",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genetic Predisposition to Disease",
+          "descriptor_ui": "D020022",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genetic Predisposition to Disease",
+          "descriptor_ui": "D020022",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genetic Predisposition to Disease",
+          "descriptor_ui": "D020022",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genetic Predisposition to Disease",
+          "descriptor_ui": "D020022",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genetic Predisposition to Disease",
+          "descriptor_ui": "D020022",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Precision Medicine",
+          "descriptor_ui": "D057285",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Precision Medicine",
+          "descriptor_ui": "D057285",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Precision Medicine",
+          "descriptor_ui": "D057285",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Precision Medicine",
+          "descriptor_ui": "D057285",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Precision Medicine",
+          "descriptor_ui": "D057285",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Electronic Health Records",
+          "descriptor_ui": "D057286",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Electronic Health Records",
+          "descriptor_ui": "D057286",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Electronic Health Records",
+          "descriptor_ui": "D057286",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Electronic Health Records",
+          "descriptor_ui": "D057286",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Electronic Health Records",
+          "descriptor_ui": "D057286",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Exome",
+          "descriptor_ui": "D059472",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Exome",
+          "descriptor_ui": "D059472",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Exome",
+          "descriptor_ui": "D059472",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Exome",
+          "descriptor_ui": "D059472",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Exome",
+          "descriptor_ui": "D059472",
+          "is_major_topic": false,
+          "source": "openalex"
+        }
+      ],
+      "keywords": [
+        "Penetrance",
+        "Exome",
+        "Genetics",
+        "Multifactorial Inheritance",
+        "Computational biology",
+        "Exome sequencing",
+        "Biology",
+        "Machine learning",
+        "Computer science",
+        "Gene",
+        "Genotype",
+        "Mutation",
+        "Phenotype"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 38.15090208,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.98901265,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": true,
+      "raw": {},
+      "title": "Machine learning-based penetrance of genetic variants.",
+      "abstract": "Accurate variant penetrance estimation is crucial for precision medicine. We constructed machine learning (ML) models for 10 diseases using 1,347,298 participants with electronic health records, then applied them to an independent cohort with linked exome data. Resulting probabilities were used to evaluate ML penetrance of 1648 rare variants in 31 autosomal dominant disease-predisposition genes. ML penetrance was variable across variant classes, but highest for pathogenic and loss-of-function variants, and was associated with clinical outcomes and functional data. Compared with conventional case-versus-control approaches, ML penetrance provided refined quantitative estimates and aided the interpretation of variants of uncertain significance and loss-of-function variants by delineating clinical trajectories over time. By leveraging ML and deep phenotyping, we present a scalable approach to accurately quantify disease risk of variants.",
+      "publication_date": "2025-08-28",
+      "publication_year": 2025,
+      "work_type": "JournalArticle",
+      "container_title": "Science",
+      "volume": "389 6763",
+      "pages": "\n          eadm7066\n        ",
+      "issn": [],
+      "doi": "10.1126/science.adm7066",
+      "pmid": "40875860",
+      "s2_paper_id": "4e2c50421dd77a5f2f11bce4f47318c0103196a9",
+      "s2_corpus_id": "281024592",
+      "authors": [
+        {
+          "name": {
+            "full_name": "I. Forrest",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "1751592250",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "H. M. Vy",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "11404115",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "G. Rocheleau",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "48620010",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Daniel M Jordan",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "2258358773",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "B. Petrazzini",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "1442031228",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "G. Nadkarni",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "2255090720",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Judy H Cho",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "2253068027",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "M. Ganapathi",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "49854349",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kuan-lin Huang",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "2269691630",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "W. Chung",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "2251021630",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ron Do",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "2258357604",
+          "sources": [
+            "semantic_scholar"
+          ]
+        }
+      ],
+      "citation_count": 6,
+      "reference_count": 65,
+      "influential_citation_count": 0,
+      "references": [],
+      "citations": [
+        {
+          "doi": "10.3389/fgene.2026.1775149",
+          "title": "Editorial: Genetic horizons: exploring genetic biomarkers in therapy and evolution with the aid of artificial intelligence",
+          "year": 2026,
+          "s2_paper_id": "97db47de8158803cd2efa21b96aa54abd0b44dab",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.gim.2025.101659",
+          "title": "Consideration of inherited cancer risk on a continuum: An international and multidisciplinary perspective: A points to consider statement of the American College of Medical Genetics and Genomics (ACMG).",
+          "year": 2026,
+          "s2_paper_id": "9aa5a5a4cb7b7318bd09fc3ae3692bbfa948a2dc",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.canlet.2025.218220",
+          "title": "Foundation Models in Clinical Oncology: Progresses and Perspectives.",
+          "year": 2025,
+          "s2_paper_id": "5c3ca7d4a89031f0ccda0f7a4493d52cf2ae932a",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1161/JAHA.125.044924",
+          "title": "What Should a Clinical Cardiologist Know About Cardiogenetics?",
+          "year": 2025,
+          "s2_paper_id": "3d8204b90836393bc4ab0049a746036c88f61c90",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1053/j.ajkd.2025.10.001",
+          "title": "Gaining a Genomic Foothold on Unexplained Kidney Failure.",
+          "year": 2025,
+          "s2_paper_id": "ac005a2bae66034891c496783526266837f2e6c2",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Advancing Risk Gene Discovery Across the Allele Frequency Spectrum",
+          "year": 2025,
+          "s2_paper_id": "96985f9d26ad88b084c53c3a565da22a52bce14f",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Using large-scale EHR-linked biobank data, recent work has applied machine learning to predict expected phenotypes from clinical features 142 ."
+          ],
+          "source": "semantic_scholar"
+        }
+      ],
+      "counts_by_year": {},
+      "is_oa": false,
+      "oa_locations": [
+        {
+          "pdf_url": "",
+          "is_best": false,
+          "source": "semantic_scholar"
+        }
+      ],
+      "best_oa_url": "",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Medicine",
+          "scheme": "s2_external",
+          "source": "semantic_scholar"
+        },
+        {
+          "value": "Medicine",
+          "scheme": "s2_s2-fos-model",
+          "source": "semantic_scholar"
+        },
+        {
+          "value": "Computer Science",
+          "scheme": "s2_s2-fos-model",
+          "source": "semantic_scholar"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "influential_citation_count",
+          "value": 0.0,
+          "source": "semantic_scholar"
+        }
+      ],
+      "tldr": "This work constructed machine learning models for 10 diseases using 1,347,298 participants with electronic health records and applied them to an independent cohort with linked exome data, finding ML penetrance was variable across variant classes, but highest for pathogenic and loss-of-function variants.",
+      "citation_styles": {
+        "bibtex": "@Article{Forrest2025MachineLP,\n author = {I. Forrest and H. M. Vy and G. Rocheleau and Daniel M Jordan and B. Petrazzini and G. Nadkarni and Judy H Cho and M. Ganapathi and Kuan-lin Huang and W. Chung and Ron Do},\n booktitle = {Science},\n journal = {Science},\n pages = {\n          eadm7066\n        },\n title = {Machine learning-based penetrance of genetic variants.},\n volume = {389 6763},\n year = {2025}\n}\n"
+      },
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "Machine learning\u2013based penetrance of genetic variants",
+      "publication_date": "2025-08-28",
+      "publication_year": 2025,
+      "work_type": "journal-article",
+      "publisher": "American Association for the Advancement of Science (AAAS)",
+      "container_title": "Science",
+      "issn": [
+        "0036-8075",
+        "1095-9203"
+      ],
+      "doi": "10.1126/science.adm7066",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_locations": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12771675/",
+          "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12771675/",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "evidence": "deprecated",
+          "is_best": true,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12771675/",
+          "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12771675/",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "evidence": "deprecated",
+          "is_best": true,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12771675/",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "Machine learning-based penetrance of genetic variants.",
+      "abstract": "Accurate variant penetrance estimation is crucial for precision medicine. We constructed machine learning (ML) models for 10 diseases using 1,347,298 participants with electronic health records, then applied them to an independent cohort with linked exome data. Resulting probabilities were used to evaluate ML penetrance of 1648 rare variants in 31 autosomal dominant disease-predisposition genes. ML penetrance was variable across variant classes, but highest for pathogenic and loss-of-function variants, and was associated with clinical outcomes and functional data. Compared with conventional case-versus-control approaches, ML penetrance provided refined quantitative estimates and aided the interpretation of variants of uncertain significance and loss-of-function variants by delineating clinical trajectories over time. By leveraging ML and deep phenotyping, we present a scalable approach to accurately quantify disease risk of variants.",
+      "publication_year": 2025,
+      "language": "eng",
+      "container_title": "Science (New York, N.Y.)",
+      "volume": "389",
+      "issue": "6763",
+      "pages": "eadm7066",
+      "issn": [],
+      "doi": "10.1126/science.adm7066",
+      "pmid": "40875860",
+      "pmcid": "PMC12771675",
+      "authors": [
+        {
+          "name": {
+            "given": "Iain S",
+            "family": "Forrest",
+            "full_name": "Forrest IS",
+            "orcid": "0000-0002-5642-422X",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Medical Scientist Training Program, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "The Windreich Department of Artificial Intelligence and Human Health, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ha My T",
+            "family": "Vy",
+            "full_name": "Vy HMT",
+            "orcid": "0000-0002-5117-3740",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "The Windreich Department of Artificial Intelligence and Human Health, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ghislain",
+            "family": "Rocheleau",
+            "full_name": "Rocheleau G",
+            "orcid": "0000-0002-9989-7553",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "The Windreich Department of Artificial Intelligence and Human Health, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Daniel M",
+            "family": "Jordan",
+            "full_name": "Jordan DM",
+            "orcid": "0000-0002-5318-8225",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "The Windreich Department of Artificial Intelligence and Human Health, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ben O",
+            "family": "Petrazzini",
+            "full_name": "Petrazzini BO",
+            "orcid": "0000-0001-9789-9371",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "The Windreich Department of Artificial Intelligence and Human Health, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Girish N",
+            "family": "Nadkarni",
+            "full_name": "Nadkarni GN",
+            "orcid": "0000-0001-6319-4314",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "The Windreich Department of Artificial Intelligence and Human Health, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Department of Pathology, Molecular and Cell-based Therapy, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Judy H",
+            "family": "Cho",
+            "full_name": "Cho JH",
+            "orcid": "0000-0002-7959-0466",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Pathology, Molecular and Cell-based Therapy, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mythily",
+            "family": "Ganapathi",
+            "full_name": "Ganapathi M",
+            "orcid": "0000-0003-2834-0843",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Pathology and Cell Biology, Columbia University Irving Medical Center, New York, NY, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Kuan-Lin",
+            "family": "Huang",
+            "full_name": "Huang KL",
+            "orcid": "0000-0002-5537-5817",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Wendy K",
+            "family": "Chung",
+            "full_name": "Chung WK",
+            "orcid": "0000-0003-3438-5685",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Boston Children's Hospital, Harvard Medical School, Boston, MA, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ron",
+            "family": "Do",
+            "full_name": "Do R",
+            "orcid": "0000-0002-3144-3627",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "The Windreich Department of Artificial Intelligence and Human Health, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 4,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": false,
+      "oa_locations": [],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "R35 GM124836",
+          "agency": "NIGMS NIH HHS",
+          "agency_abbreviation": "GM",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "T32 GM007280",
+          "agency": "NIGMS NIH HHS",
+          "agency_abbreviation": "GM",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "R01 HG010365",
+          "agency": "NHGRI NIH HHS",
+          "agency_abbreviation": "HG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "R35 GM138113",
+          "agency": "NIGMS NIH HHS",
+          "agency_abbreviation": "GM",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "U24 DK062429",
+          "agency": "NIDDK NIH HHS",
+          "agency_abbreviation": "DK",
+          "pi_names": [],
+          "source": "europe_pmc"
+        }
+      ],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Humans",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Genetic Predisposition to Disease",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Penetrance",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Genetic Variation",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Electronic Health Records",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Exome",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Machine Learning",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Precision Medicine",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Loss of Function Mutation",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 4.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [
+        "doi"
+      ],
+      "corrections": [
+        {
+          "type": "Comment in",
+          "id": "40875863",
+          "source": "MED"
+        }
+      ],
+      "full_text_urls": [
+        {
+          "url": "https://doi.org/10.1126/science.adm7066",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC12771675",
+          "availability": "Free",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC12771675?pdf=render",
+          "availability": "Free",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://doi.org/10.1126/science.adm7066",
+          "availability": "Free",
+          "document_style": "doi",
+          "site": "DOI"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1126/science.adm7066",
+      "pmid": "23671333",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1126/science.adm7066",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1126/science.adm7066",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1126/science.adm7066",
+      "authors": [
+        {
+          "name": {
+            "given": "Judy",
+            "family": "Cho",
+            "full_name": "Judy Cho",
+            "orcid": "0000-0002-7959-0466",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Thi Ha My",
+            "family": "Vy",
+            "full_name": "Ha My T. Vy",
+            "orcid": "0000-0002-5117-3740",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mythily",
+            "family": "Ganapathi",
+            "full_name": "Mythily Ganapathi",
+            "orcid": "0000-0003-2834-0843",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Iain",
+            "family": "Forrest",
+            "full_name": "Iain S Forrest",
+            "orcid": "0000-0002-5642-422X",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ben Omega",
+            "family": "Petrazzini",
+            "full_name": "Ben Omega Petrazzini",
+            "orcid": "0000-0001-9789-9371",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Daniel",
+            "family": "Jordan",
+            "full_name": "Daniel Jordan",
+            "orcid": "0000-0002-5318-8225",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Wendy",
+            "family": "Chung",
+            "full_name": "Wendy Chung",
+            "orcid": "0000-0003-3438-5685",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0002-7959-0466",
+          "given_names": "Judy",
+          "family_names": "Cho",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Icahn School of Medicine at Mount Sinai",
+            "Ohio State University College of Medicine"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-5117-3740",
+          "given_names": "Thi Ha My",
+          "family_names": "Vy",
+          "credit_name": "Ha My T. Vy",
+          "other_names": [],
+          "institutions": [],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0003-2834-0843",
+          "given_names": "Mythily",
+          "family_names": "Ganapathi",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-5642-422X",
+          "given_names": "Iain",
+          "family_names": "Forrest",
+          "credit_name": "Iain S Forrest",
+          "other_names": [],
+          "institutions": [
+            "Icahn School of Medicine at Mount Sinai",
+            "National Eye Institute",
+            "University of Maryland"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0001-9789-9371",
+          "given_names": "Ben Omega",
+          "family_names": "Petrazzini",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "University of Oxford"
+          ],
+          "emails": [
+            "bpetrazzini@fcien.edu.uy",
+            "benomega.petrazzini@mssm.edu",
+            "ben.petrazzini@wrh.ox.ac.uk"
+          ]
+        },
+        {
+          "orcid_id": "0000-0002-5318-8225",
+          "given_names": "Daniel",
+          "family_names": "Jordan",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Brigham and Women's Hospital",
+            "Harvard Medical School",
+            "Harvard University Graduate School of Arts and Sciences",
+            "Icahn School of Medicine at Mount Sinai",
+            "Striatus, Inc.",
+            "University of Michigan",
+            "University of Michigan Medical School",
+            "University of Michigan School of Public Health",
+            "Yale College"
+          ],
+          "emails": [
+            "daniel.jordan@mssm.edu"
+          ]
+        },
+        {
+          "orcid_id": "0000-0003-3438-5685",
+          "given_names": "Wendy",
+          "family_names": "Chung",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Boston Children's Hospital",
+            "Joan and Sanford I Weill Medical College of Cornell University",
+            "Rockefeller University"
+          ],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": true,
+      "raw": {},
+      "title": "Machine learning-based penetrance of genetic variants.",
+      "abstract": "Accurate variant penetrance estimation is crucial for precision medicine. We constructed machine learning (ML) models for 10 diseases using 1,347,298 participants with electronic health records, then applied them to an independent cohort with linked exome data. Resulting probabilities were used to evaluate ML penetrance of 1648 rare variants in 31 autosomal dominant disease-predisposition genes. ML penetrance was variable across variant classes, but highest for pathogenic and loss-of-function variants, and was associated with clinical outcomes and functional data. Compared with conventional case-versus-control approaches, ML penetrance provided refined quantitative estimates and aided the interpretation of variants of uncertain significance and loss-of-function variants by delineating clinical trajectories over time. By leveraging ML and deep phenotyping, we present a scalable approach to accurately quantify disease risk of variants.",
+      "publication_date": "2025-Aug-28",
+      "publication_year": 2025,
+      "work_type": "journal-article",
+      "language": "eng",
+      "container_title": "Science (New York, N.Y.)",
+      "volume": "389",
+      "issue": "6763",
+      "pages": "eadm7066",
+      "issn": [
+        "1095-9203",
+        "0036-8075"
+      ],
+      "doi": "10.1126/science.adm7066",
+      "pmid": "40875860",
+      "pmcid": "PMC12771675",
+      "authors": [
+        {
+          "name": {
+            "given": "Iain S",
+            "family": "Forrest",
+            "full_name": "Iain S Forrest",
+            "sequence": "first",
+            "orcid": "0000-0002-5642-422X",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "entrez"
+            },
+            {
+              "name": "Medical Scientist Training Program, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "entrez"
+            },
+            {
+              "name": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "entrez"
+            },
+            {
+              "name": "The Windreich Department of Artificial Intelligence and Human Health, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ha My T",
+            "family": "Vy",
+            "full_name": "Ha My T Vy",
+            "sequence": "additional",
+            "orcid": "0000-0002-5117-3740",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "entrez"
+            },
+            {
+              "name": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "entrez"
+            },
+            {
+              "name": "The Windreich Department of Artificial Intelligence and Human Health, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ghislain",
+            "family": "Rocheleau",
+            "full_name": "Ghislain Rocheleau",
+            "sequence": "additional",
+            "orcid": "0000-0002-9989-7553",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "entrez"
+            },
+            {
+              "name": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "entrez"
+            },
+            {
+              "name": "The Windreich Department of Artificial Intelligence and Human Health, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Daniel M",
+            "family": "Jordan",
+            "full_name": "Daniel M Jordan",
+            "sequence": "additional",
+            "orcid": "0000-0002-5318-8225",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "entrez"
+            },
+            {
+              "name": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "entrez"
+            },
+            {
+              "name": "The Windreich Department of Artificial Intelligence and Human Health, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ben O",
+            "family": "Petrazzini",
+            "full_name": "Ben O Petrazzini",
+            "sequence": "additional",
+            "orcid": "0000-0001-9789-9371",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "entrez"
+            },
+            {
+              "name": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "entrez"
+            },
+            {
+              "name": "The Windreich Department of Artificial Intelligence and Human Health, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Girish N",
+            "family": "Nadkarni",
+            "full_name": "Girish N Nadkarni",
+            "sequence": "additional",
+            "orcid": "0000-0001-6319-4314",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "entrez"
+            },
+            {
+              "name": "The Windreich Department of Artificial Intelligence and Human Health, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "entrez"
+            },
+            {
+              "name": "Department of Pathology, Molecular and Cell-based Therapy, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Judy H",
+            "family": "Cho",
+            "full_name": "Judy H Cho",
+            "sequence": "additional",
+            "orcid": "0000-0002-7959-0466",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Pathology, Molecular and Cell-based Therapy, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mythily",
+            "family": "Ganapathi",
+            "full_name": "Mythily Ganapathi",
+            "sequence": "additional",
+            "orcid": "0000-0003-2834-0843",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Pathology and Cell Biology, Columbia University Irving Medical Center, New York, NY, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Kuan-Lin",
+            "family": "Huang",
+            "full_name": "Kuan-Lin Huang",
+            "sequence": "additional",
+            "orcid": "0000-0002-5537-5817",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Wendy K",
+            "family": "Chung",
+            "full_name": "Wendy K Chung",
+            "sequence": "additional",
+            "orcid": "0000-0003-3438-5685",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Boston Children's Hospital, Harvard Medical School, Boston, MA, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ron",
+            "family": "Do",
+            "full_name": "Ron Do",
+            "sequence": "additional",
+            "orcid": "0000-0002-3144-3627",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "entrez"
+            },
+            {
+              "name": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "entrez"
+            },
+            {
+              "name": "The Windreich Department of Artificial Intelligence and Human Health, Icahn School of Medicine at Mount Sinai, New York, NY, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        }
+      ],
+      "reference_count": 83,
+      "references": [
+        {
+          "pmid": "24234437",
+          "unstructured": "Landrum MJ, Lee JM, Riley GR, Jang W, Rubinstein WS, Church DM, Maglott DR, ClinVar: public archive of relationships among sequence variation and human phenotype. Nucleic Acids Res. 42 (2014).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "34662886",
+          "unstructured": "Backman JD, Li AH, Marcketta A, Sun D, Mbatchou J, Kessler MD, Benner C, Liu D, Locke AE, Balasubramanian S, Yadav A, Banerjee N, Gillies CE, Damask A, Liu S, Bai X, Hawes A, Maxwell E, Gurski L, Watanabe K, Kosmicki JA, Rajagopal V, Mighty J, Jones M, Mitnaul L, Stahl E, Coppola G, Jorgenson E, Habegger L, Salerno WJ, Shuldiner AR, Lotta LA, Overton JD, Cantor MN, Reid JG, Yancopoulos G, Kang HM, Marchini J, Baras A, Abecasis GR, Ferreira MAR, Exome sequencing and analysis of 454,787 UK Biobank participants. Nature 599, 628\u2013634 (2021).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "32461654",
+          "unstructured": "Karczewski KJ, Francioli LC, Tiao G, Cummings BB, Alf\u00f6ldi J, Wang Q, Collins RL, Laricchia KM, Ganna A, Birnbaum DP, Gauthier LD, Brand H, Solomonson M, Watts NA, Rhodes D, Singer-Berk M, England EM, Seaby EG, Kosmicki JA, Walters RK, Tashman K, Farjoun Y, Banks E, Poterba T, Wang A, Seed C, Whiffin N, Chong JX, Samocha KE, Pierce-Hoffman E, Zappala Z, O\u2019Donnell-Luria AH, Minikel EV, Weisburd B, Lek M, Ware JS, Vittal C, Armean IM, Bergelson L, Cibulskis K, Connolly KM, Covarrubias M, Donnelly S, Ferriera S, Gabriel S, Gentry J, Gupta N, Jeandet T, Kaplan D, Llanwarne C, Munshi R, Novod S, Petrillo N, Roazen D, Ruano-Rubio V, Saltzman A, Schleicher M, Soto J, Tibbetts K, Tolonen C, Wade G, Talkowski ME, Aguilar Salinas CA, Ahmad T, Albert CM, Ardissino D, Atzmon G, Barnard J, Beaugerie L, Benjamin EJ, Boehnke M, Bonnycastle LL, Bottinger EP, Bowden DW, Bown MJ, Chambers JC, Chan JC, Chasman D, Cho J, Chung MK, Cohen B, Correa A, Dabelea D, Daly MJ, Darbar D, Duggirala R, Dupuis J, Ellinor PT, Elosua R, Erdmann J, Esko T, F\u00e4rkkil\u00e4 M, Florez J, Franke A, Getz G, Glaser B, Glatt SJ, Goldstein D, Gonzalez C, Groop L, Haiman C, Hanis C, Harms M, Hiltunen M, Holi MM, Hultman CM, Kallela M, Kaprio J, Kathiresan S, Kim BJ, Kim YJ, Kirov G, Kooner J, Koskinen S, Krumholz HM, Kugathasan S, Kwak SH, Laakso M, Lehtim\u00e4ki T, Loos RJF, Lubitz SA, Ma RCW, MacArthur DG, Marrugat J, Mattila KM, McCarroll S, McCarthy MI, McGovern D, McPherson R, Meigs JB, Melander O, Metspalu A, Neale BM, Nilsson PM, O\u2019Donovan MC, Ongur D, Orozco L, Owen MJ, Palmer CNA, Palotie A, Park KS, Pato C, Pulver AE, Rahman N, Remes AM, Rioux JD, Ripatti S, Roden DM, Saleheen D, Salomaa V, Samani NJ, Scharf J, Schunkert H, Shoemaker MB, Sklar P, Soininen H, Sokol H, Spector T, Sullivan PF, Suvisaari J, Tai ES, Teo YY, Tiinamaija T, Tsuang M, Turner D, Tusie-Luna T, Vartiainen E, Watkins H, Weersma RK, Wessman M, Wilson JG, Xavier RJ, Neale BM, Daly MJ, The mutational constraint spectrum quantified from variation in 141,456 humans. Nature 581, 434\u2013443 (2020).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "35076666",
+          "unstructured": "Forrest IS, Chaudhary K, Vy HMT, Petrazzini BO, Bafna S, Jordan DM, Rocheleau G, Loos RJF, Nadkarni GN, Cho JH, Do R, Population-Based Penetrance of Deleterious Clinical Variants. JAMA 327, 350\u2013359 (2022).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "27535533",
+          "unstructured": "Lek M, Karczewski KJ, Minikel EV, Samocha KE, Banks E, Fennell T, O\u2019Donnell-Luria AH, Ware JS, Hill AJ, Cummings BB, Tukiainen T, Birnbaum DP, Kosmicki JA, Duncan LE, Estrada K, Zhao F, Zou J, Pierce-Hoffman E, Berghout J, Cooper DN, Deflaux N, DePristo M, Do R, Flannick J, Fromer M, Gauthier L, Goldstein J, Gupta N, Howrigan D, Kiezun A, Kurki MI, Moonshine AL, Natarajan P, Orozco L, Peloso GM, Poplin R, Rivas MA, Ruano-Rubio V, Rose SA, Ruderfer DM, Shakir K, Stenson PD, Stevens C, Thomas BP, Tiao G, Tusie-Luna MT, Weisburd B, Won HH, Yu D, Altshuler DM, Ardissino D, Boehnke M, Danesh J, Donnelly S, Elosua R, Florez JC, Gabriel SB, Getz G, Glatt SJ, Hultman CM, Kathiresan S, Laakso M, McCarroll S, McCarthy MI, McGovern D, McPherson R, Neale BM, Palotie A, Purcell SM, Saleheen D, Scharf JM, Sklar P, Sullivan PF, Tuomilehto J, Tsuang MT, Watkins HC, Wilson JG, Daly MJ, MacArthur DG, Abboud HE, Abecasis G, Aguilar-Salinas CA, Arellano-Campos O, Atzmon G, Aukrust I, Barr CL, Bell GI, Bergen S, Bj\u00f8rkhaug L, Blangero J, Bowden DW, Budman CL, Burtt NP, Centeno-Cruz F, Chambers JC, Chambert K, Clarke R, Collins R, Coppola G, C\u00f3rdova EJ, Cortes ML, Cox NJ, Duggirala R, Farrall M, Fernandez-Lopez JC, Fontanillas P, Frayling TM, Freimer NB, Fuchsberger C, Garc\u00eda-Ortiz H, Goel A, G\u00f3mez-V\u00e1zquez MJ, Gonz\u00e1lez-Villalpando ME, Gonz\u00e1lez-Villalpando C, Grados MA, Groop L, Haiman CA, Hanis CL, Hattersley AT, Henderson BE, Hopewell JC, Huerta-Chagoya A, Islas-Andrade S, Jacobs SB, Jalilzadeh S, Jenkinson CP, Moran J, Jim\u00e9nez-Morale S, K\u00e4hler A, King RA, Kirov G, Kooner JS, Kyriakou T, Lee JY, Lehman DM, Lyon G, MacMahon W, Magnusson PK, Mahajan A, Marrugat J, Mart\u00ednez-Hern\u00e1ndez A, Mathews CA, McVean G, Meigs JB, Meitinger T, Mendoza-Caamal E, Mercader JM, Mohlke KL, Moreno-Mac\u00edas H, Morris AP, Najmi LA, Nj\u00f8lstad PR, O\u2019Donovan MC, Ord\u00f3\u00f1ez-S\u00e1nchez ML, Owen MJ, Park T, Pauls DL, Posthuma D, Revilla-Monsalve C, Riba L, Ripke S, Rodr\u00edguez-Guill\u00e9n R, Rodr\u00edguez-Torres M, Sandor P, Seielstad M, Sladek R, Sober\u00f3n X, Spector TD, Tai SE, Teslovich TM, Walford G, Wilkens LR, Williams AL, Analysis of protein-coding genetic variation in 60,706 humans. Nature 536, 285\u2013291 (2016).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "29625023",
+          "unstructured": "Shah N, Hou YCC, Yu HC, Sainger R, Caskey CT, Venter JC, Telenti A, Identification of Misclassified ClinVar Variants via Disease Population Prevalence. Am. J. Hum. Genet. 102, 609\u2013619 (2018).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "26791950",
+          "unstructured": "Minikel EV, Vallabh SM, Lek M, Estrada K, Samocha KE, Sathirapongsasuti JF, McLean CY, Tung JY, Yu LPC, Gambetti P, Blevins J, Zhang S, Cohen Y, Chen W, Yamada M, Hamaguchi T, Sanjo N, Mizusawa H, Nakamura Y, Kitamoto T, Collins SJ, Boyd A, Will RG, Knight R, Ponto C, Zerr I, Kraus TFJ, Eigenbrod S, Giese A, Calero M, De Pedro-Cuesta J, Ha\u00efk S, Laplanche JL, Bouaziz-Amar E, Brandel JP, Capellari S, Parchi P, Poleggi A, Ladogana A, O\u2019Donnell-Luria AH, Karczewski KJ, Marshall JL, Boehnke M, Laakso M, Mohlke KL, K\u00e4hler A, Chambert K, McCarroll S, Sullivan PF, Hultman CM, Purcell SM, Sklar P, Van Der Lee SJ, Rozemuller A, Jansen C, Hofman A, Kraaij R, Van Rooij JGJ, Ikram MA, Uitterlinden AG, Van Duijn CM, Daly MJ, MacArthur DG, Quantifying prion disease penetrance using large population control cohorts. Sci. Transl. Med. 8, 322ra9\u2013322ra9 (2016).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "36257325",
+          "unstructured": "Mirshahi UL, Colclough K, Wright CF, Wood AR, Beaumont RN, Tyrrell J, Laver TW, Stahl R, Golden A, Goehringer JM, Frayling TF, Hattersley AT, Carey DJ, Weedon MN, Patel KA, Reduced penetrance of MODY-associated HNF1A/HNF4A variants but not GCK variants in clinically unselected cohorts. Am. J. Hum. Genet. 109, 2018\u20132028 (2022).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "26925924",
+          "unstructured": "Manrai AK, Ioannidis JPA, Kohane IS, From Pathogenicity Claims to Quantitative Risk Estimates. JAMA 315, 1233\u20131234 (2016).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "33900788",
+          "unstructured": "Giles HH, Hegde MR, Lyon E, Stanley CM, Kerr ID, Garlapow ME, Eggington JM, The Science and Art of Clinical Genetic Variant Classification and Its Impact on Test Accuracy. Annu. Rev. Genomics Hum. Genet. 22, 285\u2013307 (2021).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "34906520",
+          "unstructured": "McGurk KA, Zheng SL, Henry A, Josephs K, Edwards M, de Marvao A, Whiffin N, Roberts A, Lumbers TR, O\u2019Regan DP, Ware JS, Miller DT, Lee K, Abul-Husn NS, Amendola LM, Brothers K, Chung WK, Gollob MH, Gordon AS, Harrison SM, Hershberger RE, Klein TE, Richards CS, Stewart DR, Martin CL, ACMG SF v3.1 list for reporting of secondary findings in clinical exome and genome sequencing: A policy statement of the American College of Medical Genetics and Genomics (ACMG). Genet. Med. 24, 744\u2013746 (2022).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "32665702",
+          "unstructured": "van Rooij J, Arp P, Broer L, Verlouw J, van Rooij F, Kraaij R, Uitterlinden A, Verkerk AJMH, Reduced penetrance of pathogenic ACMG variants in a deeply phenotyped cohort study and evaluation of ClinVar classification over time. Genet. Med. 22, 1812\u20131820 (2020).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "31942019",
+          "unstructured": "Xiang J, Yang J, Chen L, Chen Q, Yang H, Sun C, Zhou Q, Peng Z, Reinterpretation of common pathogenic variants in ClinVar revealed a high proportion of downgrades. Sci. Rep. 10, 1\u20135 (2020).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "31402444",
+          "unstructured": "Ye JZ, Delmar M, Lundby A, Olesen MS, Reevaluation of genetic variants previously associated with arrhythmogenic right ventricular cardiomyopathy integrating population-based cohorts and proteomics data. Clin. Genet. 96, 506\u2013514 (2019).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "27532831",
+          "unstructured": "Manrai AK, Funke BH, Rehm HL, Olesen MS, Maron BA, Szolovits P, Margulies DM, Loscalzo J, Kohane IS, Genetic Misdiagnoses and the Potential for Health Disparities. N. Engl. J. Med. 375, 655\u2013665 (2016).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "32235907",
+          "unstructured": "Li R, Chen Y, Ritchie MD, Moore JH, Electronic health records and polygenic risk scores for predicting disease risk. Nat. Rev. Genet. 21, 493\u2013502 (2020).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "34489576",
+          "unstructured": "McCarthy M, Birney E, Personalized profiles for disease risk must capture all facets of health. Nature 597, 175\u2013177 (2021).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "34302027",
+          "unstructured": "Xu D, Wang C, Khan A, Shang N, He Z, Gordon A, Kullo IJ, Murphy S, Ni Y, Wei WQ, Gharavi A, Kiryluk K, Weng C, Ionita-Laza I, Quantitative disease risk scores from EHR with applications to clinical risk stratification and genetic studies. npj Digit. Med. 4, 1\u201313 (2021).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "30943338",
+          "unstructured": "Rajkomar A, Dean J, Kohane I, Machine Learning in Medicine. N. Engl. J. Med. 380, 1347\u20131358 (2019).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "26511511",
+          "unstructured": "Li L, Cheng WY, Glicksberg BS, Gottesman O, Tamler R, Chen R, Bottinger EP, Dudley JT, Identification of type 2 diabetes subgroups through topological analysis of patient similarity. Sci. Transl. Med. 7, 311ra174 (2015).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "28953443",
+          "unstructured": "Obermeyer Z, Lee TH, Lost in Thought \u2014 The Limits of the Human Mind and the Future of Medicine. N. Engl. J. Med. 377, 1209\u20131211 (2017).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "31304302",
+          "unstructured": "Rajkomar A, Oren E, Chen K, Dai AM, Hajaj N, Hardt M, Liu PJ, Liu X, Marcus J, Sun M, Sundberg P, Yee H, Zhang K, Zhang Y, Flores G, Duggan GE, Irvine J, Le Q, Litsch K, Mossin A, Tansuwan J, Wang D, Wexler J, Wilson J, Ludwig D, Volchenboum SL, Chou K, Pearson M, Madabushi S, Shah NH, Butte AJ, Howell MD, Cui C, Corrado GS, Dean J, Scalable and accurate deep learning with electronic health records. npj Digit. Med. 2018 11 1, 1\u201310 (2018).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "30617339",
+          "unstructured": "Topol EJ, High-performance medicine: the convergence of human and artificial intelligence. Nat. Med. 2019 251 25, 44\u201356 (2019).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "36563696",
+          "unstructured": "Forrest IS, Petrazzini BO, Duffy \u00c1, Park JK, Marquez-Luna C, Jordan DM, Rocheleau G, Cho JH, Rosenson RS, Narula J, Nadkarni GN, Do R, Machine learning-based marker for coronary artery disease: derivation and validation in two longitudinal cohorts. Lancet 401, 215\u2013225 (2022).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "29306517",
+          "unstructured": "Brosnahan GM, Abebe KZ, Moore CG, Rahbari-Oskoui FF, Bae KT, Grantham JJ, Schrier RW, Braun WE, Chapman AB, Flessner MF, Harris PC, Hogan MC, Perrone RD, Miskulin DC, Steinman TI, Torres VE, Steinman T, Wei J, Czarnecki P, Pedrosa I, Braun W, Nurko S, Remer E, Chapman A, Martin D, Rahbari-Oskoui F, Mittal P, Torres V, El-Zoghby Z, Glockner J, King B, Perrone R, Halin N, Miskulin D, Schrier R, Brosnahan G, Gitomer B, Kelleher C, Masoumi A, Patel N, Winklhofer F, Grantham J, Yu A, Wang C, Wetzel L, Moore CG, Bost JE, Bae K, Abebe KZ, Miller JP, Thompson PA, Briggs J, Flessner M, Meyers CM, Star R, Shayman J, Henrich W, Greene T, Leonard M, McCullough P, Moe S, Rocco M, Wendler D, Patterns of Kidney Function Decline in Autosomal Dominant Polycystic Kidney Disease: A Post Hoc Analysis From the HALT-PKD Trials. Am. J. Kidney Dis. 71, 666\u2013676 (2018).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "11796562",
+          "unstructured": "McKenna WJ, Behr ER, Hypertrophic cardiomyopathy: management, risk stratification, and prevention of sudden death. Heart 87, 169 (2002).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "37733863",
+          "unstructured": "Cheng J, Novati G, Pan J, Bycroft C, \u017demgulyte A, Applebaum T, Pritzel A, Wong LH, Zielinski M, Sargeant T, Schneider RG, Senior AW, Jumper J, Hassabis D, Kohli P, Avsec \u017d, Accurate proteome-wide missense variant effect prediction with AlphaMissense. Science (80-. ). 381 (2023).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "30209399",
+          "unstructured": "Findlay GM, Daza RM, Martin B, Zhang MD, Leith AP, Gasperini M, Janizek JD, Huang X, Starita LM, Shendure J, Accurate classification of BRCA1 variants with saturation genome editing. Nature 562, 217\u2013222 (2018).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "25647241",
+          "unstructured": "Thormaehlen AS, Schuberth C, Won HH, Blattmann P, Joggerst-Thomalla B, Theiss S, Asselta R, Duga S, Merlini PA, Ardissino D, Lander ES, Gabriel S, Rader DJ, Peloso GM, Pepperkok R, Kathiresan S, Runz H, Systematic Cell-Based Phenotyping of Missense Alleles Empowers Rare Variant Association Studies: A Case for LDLR and Myocardial Infarction. PLoS Genet. 11, 1\u201323 (2015).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "30571187",
+          "unstructured": "Vanoye CG, Desai RR, Fabre KL, Gallagher SL, Potet F, DeKeyser JM, Macaya D, Meiler J, Sanders CR, George AL, High Throughput Functional Evaluation of KCNQ1 Decrypts Variants of Unknown Significance. Circ. Genomic Precis. Med. 11, e002345 (2018).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "28008010",
+          "unstructured": "Abul-Husn NS, Manickam K, Jones LK, Wright EA, Hartzel DN, Gonzaga-Jauregui C, O\u2019Dushlaine C, Leader JB, Kirchner HL, Lindbuchler DM, Barr ML, Giovanni MA, Ritchie MD, Overton JD, Reid JG, Metpally RPR, Wardeh AH, Borecki IB, Yancopoulos GD, Baras A, Shuldiner AR, Gottesman O, Ledbetter DH, Carey DJ, Dewey FE, Murray MF, Genetic identification of familial hypercholesterolemia within a single U.S. Health care system. Science (80-. ). 354 (2016).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "33471974",
+          "unstructured": "Hu C, Hart SN, Gnanaolivu R, Huang H, Lee KY, Na J, Gao C, Lilyquist J, Yadav S, Boddicker NJ, Samara R, Klebba J, Ambrosone CB, Anton-Culver H, Auer P, Bandera EV, Bernstein L, Bertrand KA, Burnside ES, Carter BD, Eliassen H, Gapstur SM, Gaudet M, Haiman C, Hodge JM, Hunter DJ, Jacobs EJ, John EM, Kooperberg C, Kurian AW, Le Marchand L, Lindstroem S, Lindstrom T, Ma H, Neuhausen S, Newcomb PA, O\u2019Brien KM, Olson JE, Ong IM, Pal T, Palmer JR, Patel AV, Reid S, Rosenberg L, Sandler DP, Scott C, Tamimi R, Taylor JA, Trentham-Dietz A, Vachon CM, Weinberg C, Yao S, Ziogas A, Weitzel JN, Goldgar DE, Domchek SM, Nathanson KL, Kraft P, Polley EC, Couch FJ, A Population-Based Study of Genes Previously Implicated in Breast Cancer. N. Engl. J. Med. 384, 440\u2013451 (2021).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "36522764",
+          "unstructured": "Spargo TP, Opie-Martin S, Bowles H, Lewis CM, Iacoangeli A, Al-Chalabi A, Calculating variant penetrance from family history of disease and average family size in population-scale data. Genome Med. 14, 1\u201313 (2022).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "35708014",
+          "unstructured": "Shah RA, Asatryan B, Sharaf Dabbagh G, Aung N, Khanji MY, Lopes LR, Van Duijvenboden S, Holmes A, Muser D, Landstrom AP, Lee AM, Arora P, Semsarian C, Somers VK, Owens AT, Munroe PB, Petersen SE, Chahal CAA, Frequency, Penetrance, and Variable Expressivity of Dilated Cardiomyopathy-Associated Putative Pathogenic Gene Variants in UK Biobank Participants. Circulation 146, 110\u2013124 (2022).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "30665703",
+          "unstructured": "Wright CF, West B, Tuke M, Jones SE, Patel K, Laver TW, Beaumont RN, Tyrrell J, Wood AR, Frayling TM, Hattersley AT, Weedon MN, Assessing the Pathogenicity, Penetrance, and Expressivity of Putative Disease-Causing Variants in a Population Setting. Am. J. Hum. Genet. 104, 275\u2013286 (2019).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "23820649",
+          "unstructured": "Cooper DN, Krawczak M, Polychronakos C, Tyler-Smith C, Kehrer-Sawatzki H, Where genotype is not predictive of phenotype: Towards an understanding of the molecular basis of reduced penetrance in human inherited disease. Hum. Genet. 132, 1077\u20131130 (2013).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "35380723",
+          "unstructured": "Khan A, Rogers CR, Kennedy CD, Lopez AM, Jeter J, Genetic Evaluation for Hereditary Cancer Syndromes Among African Americans: A Critical Review. Oncologist 27, 285\u2013291 (2022).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "33359885",
+          "unstructured": "Gettler K, Levantovsky R, Moscati A, Giri M, Wu Y, Hsu NY, Chuang LS, Sazonovs A, Venkateswaran S, Korie U, Chasteau C, Duerr RH, Silverberg MS, Snapper SB, Daly MJ, McGovern DP, Brant SR, Rioux JD, Kugathasan S, Anderson CA, Itan Y, Cho JH, Common and Rare Variant Prediction and Penetrance of IBD in a Large, Multi-ethnic, Health System-based Biobank Cohort. Gastroenterology 160, 1546\u20131557 (2021).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "27296296",
+          "unstructured": "Tung N, Domchek SM, Stadler Z, Nathanson KL, Couch F, Garber JE, Offit K, Robson ME, Counselling framework for moderate-penetrance cancer-susceptibility mutations. Nat. Rev. Clin. Oncol. 13, 581 (2016).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "33084292",
+          "unstructured": "Maya I, Sukenik-Halevy R, Basel-Salmon L, Sagi-Dain L, Ten points to consider when providing genetic counseling for variants of incomplete penetrance and variable expressivity detected in a prenatal setting. Acta Obstet. Gynecol. Scand. 99, 1427\u20131429 (2020).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "25741868",
+          "unstructured": "Richards S, Aziz N, Bale S, Bick D, Das S, Gastier-Foster J, Grody WW, Hegde M, Lyon E, Spector E, Voelkerding K, Rehm HL, Standards and guidelines for the interpretation of sequence variants: A joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology. Genet. Med. 17, 405\u2013424 (2015).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Huang Y-T, Lai E-Y, Su J-Y, Lu H-J, Chen Y-L, Wu J-Y, Wei C, Li L-H, Fann CS-J, Yang H-C, Chen C-H, Chen H-H, Liu Y-M, Tsai M-F, Yeh E-C, Cheng C-K, Wang Y-P, Chi N-F, Lee I-C, Chen H-S, Hsieh Y-C, Liao Y-C, Hsu S-J, Ou S-M, Lai K-L, Lin C-C, Chen Y-J, Chang C-M, Wang P-H, Luo Y-H, Chang Y-T, Chen C-C, Hsieh Y-C, Chen Y-M, Hsiao T-H, Lin C-H, Chen Y-J, Chen I-C, Mao C-L, Chang S-J, Chang Y-L, Liao Y-J, Lai C-H, Lee W-J, Tung H, Yen T-T, Yen H-C, Chang S-S, Chang Y-S, Lee T-I, Yeh S-D, Wu M-Y, Wu M-S, Tsai LW, Zheng C, Chien Y-M, Lin T-H, Chen Y-H, Lan C-CE, Yen J-H, Liang W-C, Chan T-F, Chiou S-S, Chuang S-C, Hwang S-J, Lin Y-J, Huang Y-C, Li W-R, Chen T-C, Huang W-T, Chen K-C, Lim S-Y, Shen Y-S, Huang C-C, Chen C-H, Tian Y-C, Chen C-L, Fang Y-F, Fang J-T, Yen Y-H, Wu W-C, Huang W-S, Sun C-C, Chen M-J, Lin C-H, Yang T-H, Lee P-L, Wang M-Y, Tsai T-F, Su T-H, Liou J-M, Yang S-F, Hsieh C-C, Sung C-C, Kuo F-C, Lin S-H, Hueng D-Y, Lin C-J, Shen H-Y, Hsieh C-H, Lin S-Z, Wang T-F, Ho T-J, Shueng P-W, Hsieh C-H, Jeng K-S, Ma G-C, Chang T-Y, Chiang H-S, Lin Y-T, Kao K-J, Hung C-F, Fang I-M, Chen P-Y, Tsui K, Kwok P-Y, Yao W-J, Chen S-S, Chen M, Huang C-Y, Wang D-W, Chen C, Deleterious Variants Contribute Minimal Excess Risk in Large-Scale Testing. medRxiv, 2024.10.21.24315653 (2024).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Blair DR, Risch N, Dissecting the Reduced Penetrance of Putative Loss-of-Function Variants in Population-Scale Biobanks. medRxiv, 2024.09.23.24314008 (2024).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "34503678",
+          "unstructured": "de Marvao A, McGurk KA, Zheng SL, Thanaj M, Bai W, Duan J, Biffi C, Mazzarotto F, Statton B, Dawes TJW, Savioli N, Halliday BP, Xu X, Buchan RJ, Baksi AJ, Quinlan M, Tokarczuk P, Tayal U, Francis C, Whiffin N, Theotokis PI, Zhang X, Jang M, Berry A, Pantazis A, Barton PJR, Rueckert D, Prasad SK, Walsh R, Ho CY, Cook SA, Ware JS, O\u2019Regan DP, Phenotypic Expression and Outcomes in Individuals With Rare Genetic Variants of Hypertrophic Cardiomyopathy. J. Am. Coll. Cardiol. 78, 1097\u20131110 (2021).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "31386562",
+          "unstructured": "van Lint FHM, Murray B, Tichnell C, Zwart R, Amat N, Lekanne Deprez RH, Dittmann S, Stallmeyer B, Calkins H, van der Smagt JJ, van den Wijngaard A, Dooijes D, van der Zwaag PA, Schulze-Bahr E, Judge DP, Jongbloed JDH, van Tintelen JP, James CA, Arrhythmogenic Right Ventricular Cardiomyopathy-Associated Desmosomal Variants Are Rarely De Novo. Circ. Genomic Precis. Med. 12, e002467 (2019).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "31919418",
+          "unstructured": "Shah S, Henry A, Roselli C, Lin H, Sveinbj\u00f6rnsson G, Fatemifar G, Hedman \u00c5K, Wilk JB, Morley MP, Chaffin MD, Helgadottir A, Verweij N, Dehghan A, Almgren P, Andersson C, Aragam KG, \u00c4rnl\u00f6v J, Backman JD, Biggs ML, Bloom HL, Brandimarto J, Brown MR, Buckbinder L, Carey DJ, Chasman DI, Chen X, Chen X, Chung J, Chutkow W, Cook JP, Delgado GE, Denaxas S, Doney AS, D\u00f6rr M, Dudley SC, Dunn ME, Engstr\u00f6m G, Esko T, Felix SB, Finan C, Ford I, Ghanbari M, Ghasemi S, Giedraitis V, Giulianini F, Gottdiener JS, Gross S, Gu\u00f0bjartsson DF, Gutmann R, Haggerty CM, van der Harst P, Hyde CL, Ingelsson E, Jukema JW, Kavousi M, Khaw KT, Kleber ME, K\u00f8ber L, Koekemoer A, Langenberg C, Lind L, Lindgren CM, London B, Lotta LA, Lovering RC, Luan J, Magnusson P, Mahajan A, Margulies KB, M\u00e4rz W, Melander O, Mordi IR, Morgan T, Morris AD, Morris AP, Morrison AC, Nagle MW, Nelson CP, Niessner A, Niiranen T, O\u2019Donoghue ML, Owens AT, Palmer CNA, Parry HM, Perola M, Portilla-Fernandez E, Psaty BM, Abecasis G, Backman J, Bai X, Balasubramanian S, Banerjee N, Baras A, Barnard L, Beechert C, Blumenfeld A, Cantor M, Chai Y, Chung J, Coppola G, Damask A, Dewey F, Economides A, Eom G, Forsythe C, Fuller ED, Gu Z, Gurski L, Guzzardo PM, Habegger L, Hahn Y, Hawes A, van Hout C, Jones MB, Khalid S, Lattari M, Li A, Lin N, Liu D, Lopez A, Manoochehri K, Marchini J, Marcketta A, Maxwell EK, McCarthy S, Mitnaul LJ, O\u2019Dushlaine C, Overton JD, Padilla MS, Paulding C, Penn J, Pradhan M, Reid JG, Schleicher TD, Schurmann C, Shuldiner A, Staples JC, Sun D, Toledo K, Ulloa RH, Widom L, Wolf SE, Yadav A, Ye B, Rice KM, Ridker PM, Romaine SPR, Rotter JI, Salo P, Salomaa V, van Setten J, Shalaby AA, Smelser DT, Smith NL, Stender S, Stott DJ, Svensson P, Tammesoo ML, Taylor KD, Teder-Laving M, Teumer A, Thorgeirsson G, Thorsteinsdottir U, Torp-Pedersen C, Trompet S, Tyl B, Uitterlinden AG, Veluchamy A, V\u00f6lker U, Voors AA, Wang X, Wareham NJ, Waterworth D, Weeke PE, Weiss R, Wiggins KL, Xing H, Yerges-Armstrong LM, Yu B, Zannad F, Zhao JH, Hemingway H, Samani NJ, McMurray JJV, Yang J, Visscher PM, Newton-Cheh C, Malarstig A, Holm H, Lubitz SA, Sattar N, Holmes MV, Cappola TP, Asselbergs FW, Hingorani AD, Kuchenbaecker K, Ellinor PT, Lang CC, Stefansson K, Smith JG, Vasan RS, Swerdlow DI, Lumbers RT, Genome-wide association and Mendelian randomisation analysis provide insights into the pathogenesis of heart failure. Nat. Commun. 11, 1\u201312 (2020).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "33994402",
+          "unstructured": "Huang CC, Niu DM, Charng MJ, Genetic Analysis in a Taiwanese Cohort of 750 Index Patients with Clinically Diagnosed Familial Hypercholesterolemia. J. Atheroscler. Thromb. 29, 639\u2013653 (2022).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "32759540",
+          "unstructured": "Wang H, Yang H, Liu Z, Cui K, Zhang Y, Zhang Y, Zhao K, Yin K, Li W, Zhou Z, Targeted genetic analysis in a chinese cohort of 208 patients related to familial hypercholesterolemia. J. Atheroscler. Thromb. 27, 1288\u20131298 (2020).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "30901543",
+          "unstructured": "Sirugo G, Williams SM, Tishkoff SA, The Missing Diversity in Human Genetic Studies. Cell 177, 26\u201331 (2019).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "27734877",
+          "unstructured": "Popejoy AB, Fullerton SM, Genomics is failing on diversity. Nature 538, 161\u2013164 (2016).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "27185194",
+          "unstructured": "Miotto R, Li L, Kidd BA, Dudley JT, Deep Patient: An Unsupervised Representation to Predict the Future of Patients from the Electronic Health Records. Sci. Rep. 6, 1\u201310 (2016).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "21573225",
+          "unstructured": "Tayo BO, Teil M, Tong L, Qin H, Khitrov G, Zhang W, Song Q, Gottesman O, Zhu X, Pereira AC, Cooper RS, Bottinger EP, Genetic background of patients from a university medical center in Manhattan: Implications for personalized medicine. PLoS One 6, e19166 (2011).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "33087929",
+          "unstructured": "Van Hout CV, Tachmazidou I, Backman JD, Hoffman JXD, Ye B, Pandey AK, Gonzaga-Jauregui C, Khalid S, Liu D, Banerjee N, Li AH, Colm O, Marcketta A, Staples J, Schurmann C, Hawes A, Maxwell E, Barnard L, Lopez A, Penn J, Habegger L, Blumenfeld AL, Yadav A, Praveen K, Jones M, Salerno WJ, Chung WK, Surakka I, Willer CJ, Hveem K, Leader JB, Carey DJ, Ledbetter DH, Collaboration G-RD, Cardon L, Yancopoulos GD, Economides A, Coppola G, Shuldiner AR, Balasubramanian S, Cantor M, Nelson MR, Whittaker J, Reid JG, Marchini J, Overton JD, Scott RA, Abecasis GR, Yerges-Armstrong L, Baras A, on behalf of the R. G. Center, Van Hout CV, Tachmazidou I, Backman JD, Hoffman JXD, Liu D, Pandey AK, Gonzaga-Jauregui C, Khalid S, Ye B, Banerjee N, Li AH, O\u2019Dushlaine C, Marcketta A, Staples J, Schurmann C, Hawes A, Maxwell E, Barnard L, Lopez A, Penn J, Habegger L, Blumenfeld AL, Bai X, O\u2019Keeffe S, Yadav A, Praveen K, Jones M, Salerno WJ, Chung WK, Surakka I, Willer CJ, Hveem K, Leader JB, Carey DJ, Ledbetter DH, Cardon L, Yancopoulos GD, Economides A, Coppola G, Shuldiner AR, Balasubramanian S, Cantor M, Nelson MR, Whittaker J, Reid JG, Marchini J, Overton JD, Scott RA, Abecasis GR, Yerges-Armstrong L, Baras A, Exome sequencing and characterization of 49,960 individuals in the UK Biobank. Nature 586, 749\u2013756 (2020).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "25722852",
+          "unstructured": "Chang CC, Chow CC, Tellier LCAM, Vattikuti S, Purcell SM, Lee JJ, Second-generation PLINK: Rising to the challenge of larger and richer datasets. Gigascience 4, 7 (2015).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "35388217",
+          "unstructured": "Morales J, Pujar S, Loveland JE, Astashyn A, Bennett R, Berry A, Cox E, Davidson C, Ermolaeva O, Farrell CM, Fatima R, Gil L, Goldfarb T, Gonzalez JM, Haddad D, Hardy M, Hunt T, Jackson J, Joardar VS, Kay M, Kodali VK, McGarvey KM, McMahon A, Mudge JM, Murphy DN, Murphy MR, Rajput B, Rangwala SH, Riddick LD, Thibaud-Nissen F, Threadgold G, Vatsan AR, Wallin C, Webb D, Flicek P, Birney E, Pruitt KD, Frankish A, Cunningham F, Murphy TD, A joint NCBI and EMBL-EBI transcript set for clinical genomics and research. Nature 604, 310\u2013315 (2022).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "27268795",
+          "unstructured": "McLaren W, Gil L, Hunt SE, Riat HS, Ritchie GRS, Thormann A, Flicek P, Cunningham F, The Ensembl Variant Effect Predictor. Genome Biol. 17, 122 (2016).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "30655187",
+          "unstructured": "Lefever E, Witters P, Gielen E, Vanclooster A, Meersseman W, Morava E, Cassiman D, Laurent MR, Hypophosphatasia in Adults: Clinical Spectrum and Its Association With Genetics and Metabolic Substrates. J. Clin. Densitom. 23, 340\u2013348 (2020).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "28731215",
+          "unstructured": "Shapiro JR, Lewiecki EM, Hypophosphatasia in Adults: Clinical Assessment and Treatment Considerations. J. Bone Miner. Res. 32, 1977\u20131980 (2017).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "34711245",
+          "unstructured": "Schmidt T, Schmidt C, Amling M, Kramer J, Barvencik F, Prevalence of low alkaline phosphatase activity in laboratory assessment: Is hypophosphatasia an underdiagnosed disease? Orphanet J. Rare Dis. 16 (2021).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "20172912",
+          "unstructured": "Marcus FI, McKenna WJ, Sherrill D, Basso C, Bauce B, Bluemke DA, Calkins H, Corrado D, Cox MGPJ, Daubert JP, Fontaine G, Gear K, Hauer R, Nava A, Picard MH, Protonotarios N, Saffitz JE, Sanborn DMY, Steinberg JS, Tandri H, Thiene G, Towbin JA, Tsatsopoulou A, Wichter T, Zareba W, Diagnosis of arrhythmogenic right ventricular cardiomyopathy/dysplasia. Eur. Heart J. 31, 806\u2013814 (2010).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "27026615",
+          "unstructured": "Kirby JC, Speltz P, Rasmussen LV, Basford M, Gottesman O, Peissig PL, Pacheco JA, Tromp G, Pathak J, Carrell DS, Ellis SB, Lingren T, Thompson WK, Savova G, Haines J, Roden DM, Harris PA, Denny JC, PheKB: A catalog and workflow for creating electronic phenotype algorithms for transportability. J. Am. Med. Informatics Assoc. 23, 1046\u20131052 (2016).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "34964875",
+          "unstructured": "American Diabetes Association Professional Practice Committee, Classification and Diagnosis of Diabetes: Standards of Medical Care in Diabetes\u20142022. Diabetes Care 45, S17\u2013S38 (2022).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "25173338",
+          "unstructured": "Zamorano JL, Anastasakis A, Borger MA, Borggrefe M, Cecchi F, Charron P, Hagege AA, Lafont A, Limongelli G, Mahrholdt H, McKenna WJ, Mogensen J, Nihoyannopoulos P, Nistri S, Piepe PG, Pieske B, Rapezzi C, Rutten FH, Tillmanns C, Watkins H, O\u2019Mahony C, Achenbach S, Baumgartner H, Bax JJ, Bueno H, Dean V, Deaton C, Erol \u00c7, Fagard R, Ferrari R, Hasdai D, Hoes AW, Kirchhof P, Knuuti J, Kolh P, Lancellotti P, Linhart A, Piepoli MF, Ponikowski P, Sirnes PA, Tamargo JL, Tendera M, Torbicki A, Wijns W, Windecker S, Alfonso F, Basso C, Cardim NM, Gimeno JR, Heymans S, Holm PJ, Keren A, Lionis C, Muneretto C, Priori S, Salvador MJ, Wolpert C, 2014 ESC guidelines on diagnosis and management of hypertrophic cardiomyopathy: The task force for the diagnosis and management of hypertrophic cardiomyopathy of the European Society of Cardiology (ESC). Eur. Heart J. 35, 2733\u20132779 (2014).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "32792077",
+          "unstructured": "Abdulrahim JW, Kwee LC, Alenezi F, Sun AY, Baras A, Ajayi TA, Henao R, Holley CL, McGarrah RW, Daubert JP, Truby LK, Vemulapalli S, Wang A, Khouri MG, Shah SH, Identification of Undetected Monogenic Cardiovascular Disorders. J. Am. Coll. Cardiol. 76, 797\u2013808 (2020).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "22083145",
+          "unstructured": "Schwartz PJ, Crotti L, QTc Behavior During Exercise and Genetic Testing for the Long-QT Syndrome. Circulation 124, 2181\u20132184 (2011).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "24011539",
+          "unstructured": "Priori SG, Wilde AA, Horie M, Cho Y, Behr ER, Berul C, Blom N, Brugada J, Chiang CE, Huikuri H, Kannankeril P, Krahn A, Leenhardt A, Moss A, Schwartz PJ, Shimizu W, Tomaselli G, Tracy C, HRS/EHRA/APHRS Expert Consensus Statement on the Diagnosis and Management of Patients with Inherited Primary Arrhythmia Syndromes: Document endorsed by HRS, EHRA, and APHRS in May 2013 and by ACCF, AHA, PACES, and AEPC in June 2013. Hear. Rhythm 10, 1932\u20131963 (2013).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "21041692",
+          "unstructured": "Denny JC, Ritchie MD, Crawford DC, Schildcrout JS, Ramirez AH, Pulley JM, Basford MA, Masys DR, Haines JL, Roden DM, Identification of genomic predictors of atrioventricular conduction: Using electronic medical records as a tool for genome science. Circulation 122, 2016\u20132021 (2010).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "18945943",
+          "unstructured": "Pei Y, Obaji J, Dupuis A, Paterson AD, Magistroni R, Dicks E, Parfrey P, Cramer B, Coto E, Torra R, San Millan JL, Gibson R, Breuning M, Peters D, Ravine D, Unified criteria for ultrasonographic diagnosis of ADPKD. J. Am. Soc. Nephrol. 20, 205\u2013212 (2009).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "34890546",
+          "unstructured": "Senum SR, Y. (Sabrina) M. Li, Benson KA, Joli G, Olinger E, Lavu S, Madsen CD, Gregory AV, Neatu R, Kline TL, Audr\u00e9zet MP, Outeda P, Nau CB, Meijer E, Ali H, Steinman TI, Mrug M, Phelan PJ, Watnick TJ, Peters DJM, Ong ACM, Conlon PJ, Perrone RD, Cornec-Le Gall E, Hogan MC, Torres VE, Sayer JA, Harris PC, Monoallelic IFT140 pathogenic variants are an important cause of the autosomal dominant polycystic kidney-spectrum phenotype. Am. J. Hum. Genet. 109, 136\u2013156 (2022).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "33570651",
+          "unstructured": "James PD, Connell NT, Ameer B, Di Paola J, Eikenboom J, Giraud N, Haberichter S, Jacobs-Pratt V, Konkle B, McLintock C, McRae S, Montgomery RR, O\u2019Donnell JS, Scappe N, Sidonio R, Flood VH, Husainat N, Kalot MA, Mustafa RA, ASH ISTH NHF WFH 2021 guidelines on the diagnosis of von Willebrand disease. Blood Adv. 5, 280\u2013300 (2021).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1145/2939672.2939785",
+          "unstructured": "Chen T, Guestrin C, \u201cXGBoost: A scalable tree boosting system\u201d in Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (Association for Computing Machinery, 2016; https://dl.acm.org/doi/10.1145/2939672.2939785) vols. 13\u201317-Augu, pp. 785\u2013794.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "31157273",
+          "unstructured": "Zhang Z, Zhao Y, Canes A, Steinberg D, Lyashevska O, Predictive analytics with gradient boosting in clinical medicine. Ann. Transl. Med. 7, 152\u2013152 (2019).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "36220875",
+          "unstructured": "Seto H, Oyama A, Kitora S, Toki H, Yamamoto R, Kotoku J, Haga A, Shinzawa M, Yamakawa M, Fukui S, Moriyama T, Gradient boosting decision tree becomes more reliable than logistic regression in predicting probability for diabetes with big data. Sci. Rep. 12 (2022).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "37169741",
+          "unstructured": "Forrest IS, Petrazzini BO, Duffy \u00c1, Park JK, O\u2019Neal AJ, Jordan DM, Rocheleau G, Nadkarni GN, Cho JH, Blazer AD, Do R, A machine learning model identifies patients in need of autoimmune disease testing using electronic health records. Nat. Commun. 14, 1\u201312 (2023).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/CID/CIAD307",
+          "pmid": "37227948",
+          "unstructured": "Forrest IS, O\u2019Neal AJ, Pedra JHF, Do R, Cholesterol contributes to risk, severity, and machine learning-driven diagnosis of Lyme disease. Clin. Infect. Dis, doi: 10.1093/CID/CIAD307 (2023).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Liaw A, Wiener M, Classification and Regression by randomForest. R News 2, 18\u201322 (2002).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Grinsztajn L, Oyallon E, Varoquaux G, \u201cWhy do tree-based models still outperform deep learning on typical tabular data?\u201d in Advances in Neural Information Processing Systems (2022; https://arxiv.org/abs/2207.08815v1 )vol. 35.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "22039212",
+          "unstructured": "Stekhoven DJ, B\u00fchlmann P, MissForest\u2014non-parametric missing value imputation for mixed-type data. Bioinformatics 28, 112\u2013118 (2012).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Kursa MB, Rudnicki WR, Feature Selection with the Boruta Package. J. Stat. Softw. 36, 1\u201313 (2010).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "21414208",
+          "unstructured": "Robin X, Turck N, Hainard A, Tiberti N, Lisacek F, Sanchez JC, M\u00fcller M, pROC: an open-source package for R and S+ to analyze and compare ROC curves. BMC Bioinformatics 12, 1\u20138 (2011).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.17632/p47ws8kn36.1",
+          "unstructured": "Forrest I, Do R, Machine learning-based penetrance of clinical variants. Mendeley Data 1 (2025). 10.17632/p47ws8kn36.1.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1002/ejhf.2482",
+          "pmid": "35278270",
+          "unstructured": "Forrest IS, Rocheleau G, Bafna S, Argulian E, Narula J, Natarajan P, Do R, Genetic and phenotypic profiling of supranormal ejection fraction reveals decreased survival and underdiagnosed heart failure. Eur. J. Heart Fail, doi: 10.1002/ejhf.2482 (2022).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Weihs C, Ligges U, Luebke K, Raabe N, klaR Analyzing German Business Cycles. Data Anal. Decis. Support, 335\u2013343 (2005).",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "R35 GM124836",
+          "agency": "NIGMS NIH HHS",
+          "agency_abbreviation": "GM",
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "source": "entrez"
+        },
+        {
+          "grant_id": "U24 DK062429",
+          "agency": "NIDDK NIH HHS",
+          "agency_abbreviation": "DK",
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "source": "entrez"
+        },
+        {
+          "grant_id": "R35 GM138113",
+          "agency": "NIGMS NIH HHS",
+          "agency_abbreviation": "GM",
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "source": "entrez"
+        },
+        {
+          "grant_id": "T32 GM007280",
+          "agency": "NIGMS NIH HHS",
+          "agency_abbreviation": "GM",
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "source": "entrez"
+        },
+        {
+          "grant_id": "R01 HG010365",
+          "agency": "NHGRI NIH HHS",
+          "agency_abbreviation": "HG",
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "source": "entrez"
+        }
+      ],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Humans",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Penetrance",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Machine Learning",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Genetic Variation",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Genetic Predisposition to Disease",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Electronic Health Records",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Exome",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Precision Medicine",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Loss of Function Mutation",
+          "scheme": "MeSH",
+          "source": "entrez"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Penetrance",
+          "descriptor_ui": "D019683",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Machine Learning",
+          "descriptor_ui": "D000069550",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Genetic Variation",
+          "descriptor_ui": "D014644",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Genetic Predisposition to Disease",
+          "descriptor_ui": "D020022",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Electronic Health Records",
+          "descriptor_ui": "D057286",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Exome",
+          "descriptor_ui": "D059472",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Precision Medicine",
+          "descriptor_ui": "D057285",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Loss of Function Mutation",
+          "descriptor_ui": "D000073658",
+          "is_major_topic": false,
+          "source": "entrez"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {
+        "medline": "2025-08-28",
+        "pubmed": "2025-08-28",
+        "entrez": "2025-08-28",
+        "pmc-release": "2026-01-06"
+      },
+      "structured_abstract": {},
+      "comment_corrections": [
+        {
+          "ref_type": "CommentIn",
+          "ref_source": "Science. 2025 Aug 28;389(6763):880-881. doi: 10.1126/science.aea0628.",
+          "pmid": "40875863"
+        }
+      ],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "publication_status": "ppublish",
+      "country_of_publication": "United States",
+      "nlm_journal_id": "0404511",
+      "medline_ta": "Science",
+      "citation_subsets": [
+        "IM"
+      ],
+      "electronic_publication_date": "2025-08-28",
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1126/science.adm7066",
+    "pmid": "40875860",
+    "pmcid": "PMC12771675",
+    "openalex_id": "https://openalex.org/W4413786315",
+    "s2_paper_id": "4e2c50421dd77a5f2f11bce4f47318c0103196a9",
+    "s2_corpus_id": "281024592",
+    "nlm_unique_id": "0404511",
+    "handles": [],
+    "orcids": [
+      "0000-0001-6319-4314",
+      "0000-0001-9789-9371",
+      "0000-0002-3144-3627",
+      "0000-0002-5117-3740",
+      "0000-0002-5318-8225",
+      "0000-0002-5537-5817",
+      "0000-0002-5642-422X",
+      "0000-0002-7959-0466",
+      "0000-0002-9989-7553",
+      "0000-0003-2834-0843",
+      "0000-0003-3438-5685"
+    ],
+    "ror_ids": [
+      "https://ror.org/00dvg7y05",
+      "https://ror.org/01esghr10",
+      "https://ror.org/03vek6s52",
+      "https://ror.org/04a9tmd77"
+    ],
+    "grant_ids": [
+      "R01 HG010365",
+      "R35 GM124836",
+      "R35 GM138113",
+      "T32 GM007280",
+      "U24 DK062429"
+    ],
+    "nct_ids": [],
+    "pmid_source": "entrez",
+    "pmcid_source": "entrez"
+  },
+  "conflicts": {
+    "doi": "10.1126/science.adm7066",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 6,
+          "openalex": 6,
+          "semantic_scholar": 6,
+          "europe_pmc": 4
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 81,
+          "openalex": 79,
+          "semantic_scholar": 65,
+          "entrez": 83
+        },
+        "risk": "low"
+      },
+      {
+        "field": "title",
+        "values": {
+          "crossref": "Machine learning\u2013based penetrance of genetic variants",
+          "openalex": "Machine learning\u2013based penetrance of genetic variants",
+          "semantic_scholar": "Machine learning-based penetrance of genetic variants",
+          "unpaywall": "Machine learning\u2013based penetrance of genetic variants",
+          "europe_pmc": "Machine learning-based penetrance of genetic variants",
+          "entrez": "Machine learning-based penetrance of genetic variants"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "is_oa",
+        "values": {
+          "openalex": true,
+          "semantic_scholar": false,
+          "unpaywall": true,
+          "europe_pmc": false
+        },
+        "risk": "medium"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "semantic_scholar": "JournalArticle",
+          "unpaywall": "journal-article",
+          "entrez": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 11,
+          "openalex": 11,
+          "semantic_scholar": 11,
+          "unpaywall": 11,
+          "europe_pmc": 11,
+          "orcid": 7,
+          "entrez": 11
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "American Association for the Advancement of Science (AAAS)",
+          "openalex": "https://openalex.org/P4310315823",
+          "unpaywall": "American Association for the Advancement of Science (AAAS)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Science",
+          "openalex": "Science",
+          "semantic_scholar": "Science",
+          "unpaywall": "Science",
+          "europe_pmc": "Science (New York, N.Y.)",
+          "entrez": "Science (New York, N.Y.)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "mesh_term_count",
+        "values": {
+          "openalex": 45,
+          "europe_pmc": 9,
+          "entrez": 9
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng",
+          "entrez": "eng"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 1,
+    "conflict_count": 10
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1126/science.adm7066",
+    "fetched_at": "2026-02-11T17:34:43.085328+00:00"
+  }
+}

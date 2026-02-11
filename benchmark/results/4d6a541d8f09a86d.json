@@ -1,0 +1,3507 @@
+{
+  "doi": "10.1093/bioinformatics/btt656",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T13:44:50.557969Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "featureCounts: an efficient general purpose program for assigning sequence reads to genomic features",
+      "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Motivation:\u2003Next-generation sequencing technologies generate millions of short sequence reads, which are usually aligned to a reference genome. In many applications, the key information required for downstream analysis is the number of reads mapping to each genomic feature, for example to each exon or each gene. The process of counting reads is called read summarization. Read summarization is required for a great variety of genomic analyses but has so far received relatively little attention in the literature.</jats:p>\n               <jats:p>Results:\u2003We present featureCounts, a read summarization program suitable for counting reads generated from either RNA or genomic DNA sequencing experiments. featureCounts implements highly efficient chromosome hashing and feature blocking techniques. It is considerably faster than existing methods (by an order of magnitude for gene-level summarization) and requires far less computer memory. It works with either single or paired-end reads and provides a wide range of options appropriate for different sequencing applications.</jats:p>\n               <jats:p>Availability and implementation:\u2003 \u00a0featureCounts is available under GNU General Public License as part of the Subread (http://subread.sourceforge.net) or Rsubread (http://www.bioconductor.org) software packages.</jats:p>\n               <jats:p>Contact:\u2003 \u00a0shi@wehi.edu.au</jats:p>",
+      "publication_date": "2013-11-13",
+      "publication_year": 2013,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "Bioinformatics",
+      "volume": "30",
+      "issue": "7",
+      "pages": "923-930",
+      "issn": [
+        "1367-4811",
+        "1367-4803"
+      ],
+      "doi": "10.1093/bioinformatics/btt656",
+      "authors": [
+        {
+          "name": {
+            "given": "Yang",
+            "family": "Liao",
+            "full_name": "Yang Liao",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Bioinformatics Division, The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, VIC 3052, 2Department of Computing and Information Systems and 3Department of Mathematics and Statistics, The University of Melbourne, Parkville, VIC 3010, Australia",
+              "source": "crossref"
+            },
+            {
+              "name": "1 Bioinformatics Division, The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, VIC 3052, 2Department of Computing and Information Systems and 3Department of Mathematics and Statistics, The University of Melbourne, Parkville, VIC 3010, Australia",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Gordon K.",
+            "family": "Smyth",
+            "full_name": "Gordon K. Smyth",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Bioinformatics Division, The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, VIC 3052, 2Department of Computing and Information Systems and 3Department of Mathematics and Statistics, The University of Melbourne, Parkville, VIC 3010, Australia",
+              "source": "crossref"
+            },
+            {
+              "name": "1 Bioinformatics Division, The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, VIC 3052, 2Department of Computing and Information Systems and 3Department of Mathematics and Statistics, The University of Melbourne, Parkville, VIC 3010, Australia",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Wei",
+            "family": "Shi",
+            "full_name": "Wei Shi",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Bioinformatics Division, The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, VIC 3052, 2Department of Computing and Information Systems and 3Department of Mathematics and Statistics, The University of Melbourne, Parkville, VIC 3010, Australia",
+              "source": "crossref"
+            },
+            {
+              "name": "1 Bioinformatics Division, The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, VIC 3052, 2Department of Computing and Information Systems and 3Department of Mathematics and Statistics, The University of Melbourne, Parkville, VIC 3010, Australia",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 24031,
+      "reference_count": 49,
+      "references": [
+        {
+          "title": "GenomicRanges: representation and manipulation of genomic intervals",
+          "year": 2013,
+          "author": "Aboyoun",
+          "key": "2023012710453778100_btt656-B1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "HTSeq: analysing high-throughput sequencing data with Python",
+          "year": 2013,
+          "author": "Anders",
+          "key": "2023012710453778100_btt656-B2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/gb-2010-11-10-r106",
+          "title": "Differential expression analysis for sequence count data",
+          "year": 2010,
+          "author": "Anders",
+          "key": "2023012710453778100_btt656-B3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/gr.133744.111",
+          "title": "Detecting differential usage of exons from RNA-seq data",
+          "year": 2012,
+          "author": "Anders",
+          "key": "2023012710453778100_btt656-B4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nprot.2013.099",
+          "title": "Count-based differential expression analysis of RNA sequencing data using R and Bioconductor",
+          "year": 2013,
+          "author": "Anders",
+          "key": "2023012710453778100_btt656-B5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.2202/1544-6115.1627",
+          "title": "A two-stage Poisson model for testing RNA-seq data",
+          "year": 2011,
+          "author": "Auer",
+          "key": "2023012710453778100_btt656-B6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkt601",
+          "title": "Genome-wide hydroxymethylation tested using the help-gt assay shows redistribution in cancer",
+          "year": 2013,
+          "author": "Bhattacharyya",
+          "key": "2023012710453778100_btt656-B7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/2047-217X-2-10",
+          "title": "Assemblathon 2: evaluating de novo methods of genome assembly in three vertebrate species",
+          "year": 2013,
+          "author": "Bradnam",
+          "key": "2023012710453778100_btt656-B8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "GTF2.2: a Gene Annotation Format",
+          "year": 2013,
+          "author": "Brent Lab",
+          "key": "2023012710453778100_btt656-B9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkr991",
+          "title": "Ensembl 2012",
+          "year": 2012,
+          "author": "Flicek",
+          "key": "2023012710453778100_btt656-B10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/bts605",
+          "title": "Tools for mapping high-throughput sequencing data",
+          "year": 2012,
+          "author": "Fonseca",
+          "key": "2023012710453778100_btt656-B11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/gb-2004-5-10-r80",
+          "title": "Bioconductor: open software development for computational biology and bioinformatics",
+          "year": 2004,
+          "author": "Gentleman",
+          "key": "2023012710453778100_btt656-B12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-11-422",
+          "title": "baySeq: Empirical Bayesian methods for identifying differential expression in sequence count data",
+          "year": 2010,
+          "author": "Hardcastle",
+          "key": "2023012710453778100_btt656-B13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nbt.1682",
+          "title": "Comparison of sequencing-based methods to profile DNA methylation and identification of monoallelic epigenetic modifications",
+          "year": 2010,
+          "author": "Harris",
+          "key": "2023012710453778100_btt656-B14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.5524/100059",
+          "title": "De novo high-coverage sequencing and annotated assemblies of the Budgerigar genome",
+          "year": 2013,
+          "author": "Howard",
+          "key": "2023012710453778100_btt656-B15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/gr.229102",
+          "title": "The human genome browser at UCSC",
+          "year": 2002,
+          "author": "Kent",
+          "key": "2023012710453778100_btt656-B16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/gb-2009-10-3-r25",
+          "title": "Ultrafast and memory-efficient alignment of short DNA sequences to the human genome",
+          "year": 2009,
+          "author": "Langmead",
+          "key": "2023012710453778100_btt656-B17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Voom! precision weights unlock linear model analysis tools for RNA-seq read counts",
+          "year": 2013,
+          "author": "Law",
+          "key": "2023012710453778100_btt656-B18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-12-323",
+          "title": "RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome",
+          "year": 2011,
+          "author": "Li",
+          "key": "2023012710453778100_btt656-B19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btp324",
+          "title": "Fast and accurate short read alignment with Burrows\u2013Wheeler transform",
+          "year": 2009,
+          "author": "Li",
+          "key": "2023012710453778100_btt656-B20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btp352",
+          "title": "The sequence alignment/map format and SAMtools",
+          "year": 2009,
+          "author": "Li",
+          "key": "2023012710453778100_btt656-B21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/biostatistics/kxr031",
+          "title": "Normalization, testing, and false discovery rate estimation for RNA-sequencing data",
+          "year": 2012,
+          "author": "Li",
+          "key": "2023012710453778100_btt656-B22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "The Subread package: a toolkit for processing next-gen sequencing data",
+          "year": 2013,
+          "author": "Liao",
+          "key": "2023012710453778100_btt656-B23",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkt214",
+          "title": "The Subread aligner: fast, accurate and scalable read mapping by seed-and-vote",
+          "year": 2013,
+          "author": "Liao",
+          "key": "2023012710453778100_btt656-B24",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/ni.2710",
+          "title": "The transcription factor IRF4 is essential for TCR affinity-mediated metabolic programming and clonal expansion of T cells",
+          "year": 2013,
+          "author": "Man",
+          "key": "2023012710453778100_btt656-B25",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nmeth.2221",
+          "title": "The GEM mapper: fast, accurate and versatile alignment by filtration",
+          "year": 2012,
+          "author": "Marco-Sola",
+          "key": "2023012710453778100_btt656-B26",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gks042",
+          "title": "Differential expression analysis of multifactor RNA-Seq experiments with respect to biological variation",
+          "year": 2012,
+          "author": "McCarthy",
+          "key": "2023012710453778100_btt656-B27",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nrg2626",
+          "title": "Sequencing technologiesthe next generation",
+          "year": 2009,
+          "author": "Metzker",
+          "key": "2023012710453778100_btt656-B28",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gks804",
+          "title": "A comprehensive comparison of RNA-Seq-based transcriptome analysis from reads to differential gene expression and cross-comparison with microarrays: a case study in Saccharomyces cerevisiae",
+          "year": 2012,
+          "author": "Nookaew",
+          "key": "2023012710453778100_btt656-B29",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/gb-2010-11-12-220",
+          "title": "From RNA-seq reads to differential expression results",
+          "year": 2010,
+          "author": "Oshlack",
+          "key": "2023012710453778100_btt656-B30",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "IRanges: infrastructure for manipulating intervals on sequences",
+          "year": 2013,
+          "author": "Pages",
+          "key": "2023012710453778100_btt656-B31",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.celrep.2012.12.020",
+          "title": "Global changes in the mammary epigenome are induced by hormonal cues and coordinated by Ezh2",
+          "year": 2013,
+          "author": "Pal",
+          "key": "2023012710453778100_btt656-B32",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nrg2641",
+          "title": "Chip\u2013seq: advantages and challenges of a maturing technology",
+          "year": 2009,
+          "author": "Park",
+          "key": "2023012710453778100_btt656-B33",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkr1079",
+          "title": "NCBI Reference Sequences (RefSeq): current status, new features and genome annotation policy",
+          "year": 2012,
+          "author": "Pruitt",
+          "key": "2023012710453778100_btt656-B34",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btq033",
+          "title": "BEDTools: a flexible suite of utilities for comparing genomic features",
+          "year": 2010,
+          "author": "Quinlan",
+          "key": "2023012710453778100_btt656-B35",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/gb-2013-14-9-r95",
+          "title": "Comprehensive evaluation of differential gene expression analysis methods for Rna-seq data",
+          "year": 2013,
+          "author": "Rapaport",
+          "key": "2023012710453778100_btt656-B36",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1073/pnas.1307202110",
+          "title": "Drift and conservation of differential exon usage across tissues in primate species",
+          "year": 2013,
+          "author": "Reyes",
+          "key": "2023012710453778100_btt656-B37",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btp616",
+          "title": "edgeR: a Bioconductor package for differential expression analysis of digital gene expression data",
+          "year": 2010,
+          "author": "Robinson",
+          "key": "2023012710453778100_btt656-B38",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nature10730",
+          "title": "Differential oestrogen receptor binding is associated with clinical outcome in breast cancer",
+          "year": 2012,
+          "author": "Ross-Innes",
+          "key": "2023012710453778100_btt656-B39",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nmeth1156",
+          "title": "Next-generation sequencing transforms today\u2019s biology",
+          "year": 2008,
+          "author": "Schuster",
+          "key": "2023012710453778100_btt656-B40",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Rsubread: an R package for the alignment, summarization and analyses of next-generation sequencing data",
+          "year": 2013,
+          "author": "Shi",
+          "key": "2023012710453778100_btt656-B41",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Subread/Rsubread Users Guide",
+          "year": 2013,
+          "author": "Shi",
+          "key": "2023012710453778100_btt656-B42",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nbt1239",
+          "title": "The microarray quality control (MAQC) project shows inter-and intraplatform reproducibility of gene expression measurements",
+          "year": 2006,
+          "author": "Shi",
+          "key": "2023012710453778100_btt656-B43",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btp120",
+          "title": "TopHat: discovering splice junctions with RNA-seq",
+          "year": 2009,
+          "author": "Trapnell",
+          "key": "2023012710453778100_btt656-B44",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nbt.1621",
+          "title": "Transcript assembly and quantification by RNA-seq reveals unannotated transcripts and isoform switching during cell differentiation",
+          "year": 2010,
+          "author": "Trapnell",
+          "key": "2023012710453778100_btt656-B45",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nmeth.1246",
+          "title": "Genome-wide analysis of transcription factor binding sites based on chip-seq data",
+          "year": 2008,
+          "author": "Valouev",
+          "key": "2023012710453778100_btt656-B46",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "GFF (General Feature Format) specifications document",
+          "year": 2013,
+          "author": "Wellcome Trust Sanger Institute",
+          "key": "2023012710453778100_btt656-B47",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/biostatistics/kxs033",
+          "title": "A new shrinkage estimator for dispersion improves differential expression detection in RNA-seq data",
+          "year": 2013,
+          "author": "Wu",
+          "key": "2023012710453778100_btt656-B48",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/gb-2008-9-9-r137",
+          "title": "Model-based analysis of ChIP-Seq (MACS)",
+          "year": 2008,
+          "author": "Zhang",
+          "key": "2023012710453778100_btt656-B49",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/30/7/923/48921621/bioinformatics_30_7_923.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/30/7/923/48921621/bioinformatics_30_7_923.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btt656",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "featureCounts: an efficient general purpose program for assigning sequence reads to genomic features",
+      "abstract": "Abstract Motivation: Next-generation sequencing technologies generate millions of short sequence reads, which are usually aligned to a reference genome. In many applications, the key information required for downstream analysis is the number of reads mapping to each genomic feature, for example to each exon or each gene. The process of counting reads is called read summarization. Read summarization is required for a great variety of genomic analyses but has so far received relatively little attention in the literature. Results: We present featureCounts, a read summarization program suitable for counting reads generated from either RNA or genomic DNA sequencing experiments. featureCounts implements highly efficient chromosome hashing and feature blocking techniques. It is considerably faster than existing methods (by an order of magnitude for gene-level summarization) and requires far less computer memory. It works with either single or paired-end reads and provides a wide range of options appropriate for different sequencing applications. Availability and implementation: featureCounts is available under GNU General Public License as part of the Subread (http://subread.sourceforge.net) or Rsubread (http://www.bioconductor.org) software packages. Contact: shi@wehi.edu.au",
+      "publication_date": "2013-11-13",
+      "publication_year": 2013,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310311648",
+      "container_title": "Bioinformatics",
+      "volume": "30",
+      "issue": "7",
+      "pages": "923-930",
+      "issn": [
+        "1367-4803",
+        "1367-4811"
+      ],
+      "doi": "10.1093/bioinformatics/btt656",
+      "pmid": "24227677",
+      "openalex_id": "https://openalex.org/W2138207763",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Yang Liao",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Walter and Eliza Hall Institute of Medical Research",
+              "ror_id": "https://ror.org/01b6kha49",
+              "country_code": "AU",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Melbourne",
+              "ror_id": "https://ror.org/01ej9dk98",
+              "country_code": "AU",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5022244006",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Gordon K. Smyth",
+            "orcid": "0000-0001-9221-2892",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Walter and Eliza Hall Institute of Medical Research",
+              "ror_id": "https://ror.org/01b6kha49",
+              "country_code": "AU",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Melbourne",
+              "ror_id": "https://ror.org/01ej9dk98",
+              "country_code": "AU",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5054704071",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Wei Shi",
+            "orcid": "0000-0003-1182-7735",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Walter and Eliza Hall Institute of Medical Research",
+              "ror_id": "https://ror.org/01b6kha49",
+              "country_code": "AU",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Melbourne",
+              "ror_id": "https://ror.org/01ej9dk98",
+              "country_code": "AU",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5076240767",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 27209,
+      "reference_count": 50,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2026": 476,
+        "2025": 4691,
+        "2024": 5341,
+        "2023": 4092,
+        "2022": 3693,
+        "2021": 3097,
+        "2020": 2317,
+        "2019": 1471,
+        "2018": 988,
+        "2017": 619,
+        "2016": 267,
+        "2015": 108,
+        "2014": 33,
+        "2013": 6,
+        "2012": 2
+      },
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btt656",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/30/7/923/633148/btt656.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btt656",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btt656",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/30/7/923/633148/btt656.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btt656",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24227677",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/24227677",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "http://arxiv.org/abs/1305.3347",
+          "pdf_url": "https://arxiv.org/pdf/1305.3347",
+          "landing_page_url": "http://arxiv.org/abs/1305.3347",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I205783295",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://academic.oup.com/bioinformatics/article-pdf/30/7/923/633148/btt656.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Genomics and Phylogenetic Studies",
+          "scheme": "openalex_topic",
+          "score": 0.9987999796867371,
+          "source": "openalex"
+        },
+        {
+          "value": "Algorithms and Data Compression",
+          "scheme": "openalex_topic",
+          "score": 0.9876000285148621,
+          "source": "openalex"
+        },
+        {
+          "value": "RNA modifications and cancer",
+          "scheme": "openalex_topic",
+          "score": 0.9866999983787537,
+          "source": "openalex"
+        },
+        {
+          "value": "Automatic summarization",
+          "scheme": "openalex_concept",
+          "score": 0.7969629764556885,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.7220826148986816,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Bioconductor",
+          "scheme": "openalex_concept",
+          "score": 0.5922159552574158,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "MIT License",
+          "scheme": "openalex_concept",
+          "score": 0.5461760759353638,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Software",
+          "scheme": "openalex_concept",
+          "score": 0.43657350540161133,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "DNA sequencing",
+          "scheme": "openalex_concept",
+          "score": 0.4356839060783386,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Genome",
+          "scheme": "openalex_concept",
+          "score": 0.42335978150367737,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Computational biology",
+          "scheme": "openalex_concept",
+          "score": 0.375021368265152,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Biology",
+          "scheme": "openalex_concept",
+          "score": 0.2530628442764282,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Genetics",
+          "scheme": "openalex_concept",
+          "score": 0.2351030707359314,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Artificial intelligence",
+          "scheme": "openalex_concept",
+          "score": 0.18903380632400513,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Gene",
+          "scheme": "openalex_concept",
+          "score": 0.1726779341697693,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Programming language",
+          "scheme": "openalex_concept",
+          "score": 0.10489976406097412,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Partnerships for the goals",
+          "scheme": "SDG",
+          "score": 0.46000000834465027,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Histones",
+          "descriptor_ui": "D006657",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Histones",
+          "descriptor_ui": "D006657",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Histones",
+          "descriptor_ui": "D006657",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Histones",
+          "descriptor_ui": "D006657",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Histones",
+          "descriptor_ui": "D006657",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Histones",
+          "descriptor_ui": "D006657",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genome",
+          "descriptor_ui": "D016678",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genome",
+          "descriptor_ui": "D016678",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genome",
+          "descriptor_ui": "D016678",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, RNA",
+          "descriptor_ui": "D017423",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, RNA",
+          "descriptor_ui": "D017423",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, RNA",
+          "descriptor_ui": "D017423",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genomics",
+          "descriptor_ui": "D023281",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genomics",
+          "descriptor_ui": "D023281",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genomics",
+          "descriptor_ui": "D023281",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "High-Throughput Nucleotide Sequencing",
+          "descriptor_ui": "D059014",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "High-Throughput Nucleotide Sequencing",
+          "descriptor_ui": "D059014",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "High-Throughput Nucleotide Sequencing",
+          "descriptor_ui": "D059014",
+          "is_major_topic": false,
+          "source": "openalex"
+        }
+      ],
+      "keywords": [
+        "Automatic summarization",
+        "Computer science",
+        "Bioconductor",
+        "MIT License",
+        "Software",
+        "DNA sequencing",
+        "Genome",
+        "Computational biology",
+        "Biology",
+        "Genetics",
+        "Artificial intelligence",
+        "Gene",
+        "Programming language"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 58.70062658,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.99960528,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 3618.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btt656",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "featureCounts: an efficient general purpose program for assigning sequence reads to genomic features",
+      "publication_date": "2013-11-13",
+      "publication_year": 2013,
+      "work_type": "journal-article",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "Bioinformatics",
+      "issn": [
+        "1367-4803",
+        "1367-4811"
+      ],
+      "doi": "10.1093/bioinformatics/btt656",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_locations": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/30/7/923/633148/btt656.pdf",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/30/7/923/633148/btt656.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btt656",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/30/7/923/633148/btt656.pdf",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/30/7/923/633148/btt656.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btt656",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://arxiv.org/pdf/1305.3347",
+          "pdf_url": "https://arxiv.org/pdf/1305.3347",
+          "landing_page_url": "http://arxiv.org/abs/1305.3347",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "Cornell University",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://academic.oup.com/bioinformatics/article-pdf/30/7/923/633148/btt656.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "featureCounts: an efficient general purpose program for assigning sequence reads to genomic features.",
+      "abstract": "<h4>Motivation</h4>Next-generation sequencing technologies generate millions of short sequence reads, which are usually aligned to a reference genome. In many applications, the key information required for downstream analysis is the number of reads mapping to each genomic feature, for example to each exon or each gene. The process of counting reads is called read summarization. Read summarization is required for a great variety of genomic analyses but has so far received relatively little attention in the literature.<h4>Results</h4>We present featureCounts, a read summarization program suitable for counting reads generated from either RNA or genomic DNA sequencing experiments. featureCounts implements highly efficient chromosome hashing and feature blocking techniques. It is considerably faster than existing methods (by an order of magnitude for gene-level summarization) and requires far less computer memory. It works with either single or paired-end reads and provides a wide range of options appropriate for different sequencing applications.<h4>Availability and implementation</h4>featureCounts is available under GNU General Public License as part of the Subread (http://subread.sourceforge.net) or Rsubread (http://www.bioconductor.org) software packages.",
+      "publication_year": 2014,
+      "language": "eng",
+      "container_title": "Bioinformatics (Oxford, England)",
+      "volume": "30",
+      "issue": "7",
+      "pages": "923-930",
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btt656",
+      "pmid": "24227677",
+      "authors": [
+        {
+          "name": {
+            "given": "Yang",
+            "family": "Liao",
+            "full_name": "Liao Y",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Bioinformatics Division, The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, VIC 3052, Department of Computing and Information Systems and Department of Mathematics and Statistics, The University of Melbourne, Parkville, VIC 3010, Australia.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Gordon K",
+            "family": "Smyth",
+            "full_name": "Smyth GK",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Wei",
+            "family": "Shi",
+            "full_name": "Shi W",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 20411,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": false,
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Histones",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Histones",
+          "qualifier_name": "genetics",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Histones",
+          "qualifier_name": "chemistry",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, RNA",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Genomics",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Genomics",
+          "qualifier_name": "methods",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Genome",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Software",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "High-Throughput Nucleotide Sequencing",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 20411.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [
+        {
+          "name": "Histones",
+          "registry_number": "0"
+        }
+      ],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btt656",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btt656",
+      "pmid": "23671333",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btt656",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btt656",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btt656",
+      "authors": [
+        {
+          "name": {
+            "given": "Yang",
+            "full_name": "Yang None",
+            "orcid": "0000-0002-9746-2839",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Wei",
+            "family": "Shi",
+            "full_name": "Wei Shi",
+            "orcid": "0000-0003-1182-7735",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0002-9746-2839",
+          "given_names": "Yang",
+          "family_names": null,
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0003-1182-7735",
+          "given_names": "Wei",
+          "family_names": "Shi",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Monash University"
+          ],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btt656",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1093/bioinformatics/btt656",
+    "pmid": "24227677",
+    "openalex_id": "https://openalex.org/W2138207763",
+    "handles": [],
+    "orcids": [
+      "0000-0001-9221-2892",
+      "0000-0002-9746-2839",
+      "0000-0003-1182-7735"
+    ],
+    "ror_ids": [
+      "https://ror.org/01b6kha49",
+      "https://ror.org/01ej9dk98"
+    ],
+    "grant_ids": [],
+    "nct_ids": [],
+    "pmid_source": "europe_pmc"
+  },
+  "conflicts": {
+    "doi": "10.1093/bioinformatics/btt656",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 24031,
+          "openalex": 27209,
+          "europe_pmc": 20411
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 49,
+          "openalex": 50
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publication_year",
+        "values": {
+          "crossref": 2013,
+          "openalex": 2013,
+          "unpaywall": 2013,
+          "europe_pmc": 2014
+        },
+        "risk": "low"
+      },
+      {
+        "field": "is_oa",
+        "values": {
+          "openalex": true,
+          "unpaywall": true,
+          "europe_pmc": false
+        },
+        "risk": "medium"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 3,
+          "openalex": 3,
+          "unpaywall": 3,
+          "europe_pmc": 3,
+          "orcid": 2
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Oxford University Press (OUP)",
+          "openalex": "https://openalex.org/P4310311648",
+          "unpaywall": "Oxford University Press (OUP)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Bioinformatics",
+          "openalex": "Bioinformatics",
+          "unpaywall": "Bioinformatics",
+          "europe_pmc": "Bioinformatics (Oxford, England)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "mesh_term_count",
+        "values": {
+          "openalex": 24,
+          "europe_pmc": 10
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 0,
+    "conflict_count": 10
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {
+      "doi": "10.1093/bioinformatics/btt656",
+      "citation_comparison": {
+        "values": {
+          "crossref": 24031,
+          "openalex": 27209,
+          "europe_pmc": 20411
+        },
+        "min": 20411,
+        "max": 27209,
+        "spread": 6798,
+        "median": 24031
+      },
+      "fwci": 58.70062658,
+      "citation_percentile": 0.99960528,
+      "citation_trend": [
+        {
+          "year": 2012,
+          "count": 2
+        },
+        {
+          "year": 2013,
+          "count": 6
+        },
+        {
+          "year": 2014,
+          "count": 33
+        },
+        {
+          "year": 2015,
+          "count": 108
+        },
+        {
+          "year": 2016,
+          "count": 267
+        },
+        {
+          "year": 2017,
+          "count": 619
+        },
+        {
+          "year": 2018,
+          "count": 988
+        },
+        {
+          "year": 2019,
+          "count": 1471
+        },
+        {
+          "year": 2020,
+          "count": 2317
+        },
+        {
+          "year": 2021,
+          "count": 3097
+        },
+        {
+          "year": 2022,
+          "count": 3693
+        },
+        {
+          "year": 2023,
+          "count": 4092
+        },
+        {
+          "year": 2024,
+          "count": 5341
+        },
+        {
+          "year": 2025,
+          "count": 4691
+        },
+        {
+          "year": 2026,
+          "count": 476
+        }
+      ],
+      "trend_direction": "declining",
+      "dataset_reuse_count": 0,
+      "narrative": "Cited ~24031 times across sources. FWCI 58.7x field average. Citation trend: declining."
+    },
+    "funding": {
+      "doi": "10.1093/bioinformatics/btt656",
+      "total_funders": 0,
+      "total_grants": 0,
+      "entries": [],
+      "nih_grants": [],
+      "eu_grants": [],
+      "other_grants": [],
+      "funding_agencies": [],
+      "narrative": "No funding information found."
+    },
+    "dataset_reuse": {
+      "doi": "10.1093/bioinformatics/btt656",
+      "datacite_linked_datasets": [],
+      "datacite_linked_count": 0,
+      "publishers_breakdown": {},
+      "supplements_to": [],
+      "supplemented_by": [],
+      "cites": [],
+      "cited_by": [],
+      "derived_from": [],
+      "source_of": [],
+      "parts": [],
+      "other_relations": [],
+      "related_software": [],
+      "related_data": [],
+      "file_count": 0,
+      "file_types": [],
+      "narrative": "No dataset reuse information found."
+    },
+    "authors": {
+      "doi": "10.1093/bioinformatics/btt656",
+      "authors": [
+        {
+          "full_name": "Gordon K. Smyth",
+          "orcid": "0000-0001-9221-2892",
+          "authenticated_orcid": false,
+          "openalex_author_id": "https://openalex.org/A5054704071",
+          "affiliations": [
+            {
+              "name": "Walter and Eliza Hall Institute of Medical Research",
+              "ror_id": "https://ror.org/01b6kha49",
+              "country_code": "AU",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Melbourne",
+              "ror_id": "https://ror.org/01ej9dk98",
+              "country_code": "AU",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": [
+            "Gordon K. Smyth"
+          ]
+        },
+        {
+          "given": "Wei",
+          "family": "Shi",
+          "full_name": "Wei Shi",
+          "orcid": "0000-0003-1182-7735",
+          "authenticated_orcid": false,
+          "openalex_author_id": "https://openalex.org/A5076240767",
+          "affiliations": [
+            {
+              "name": "Walter and Eliza Hall Institute of Medical Research",
+              "ror_id": "https://ror.org/01b6kha49",
+              "country_code": "AU",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Melbourne",
+              "ror_id": "https://ror.org/01ej9dk98",
+              "country_code": "AU",
+              "source": "openalex"
+            },
+            {
+              "name": "1 Bioinformatics Division, The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, VIC 3052, 2Department of Computing and Information Systems and 3Department of Mathematics and Statistics, The University of Melbourne, Parkville, VIC 3010, Australia",
+              "source": "crossref"
+            },
+            {
+              "name": "1 Bioinformatics Division, The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, VIC 3052, 2Department of Computing and Information Systems and 3Department of Mathematics and Statistics, The University of Melbourne, Parkville, VIC 3010, Australia",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "openalex",
+            "orcid",
+            "crossref",
+            "europe_pmc"
+          ],
+          "name_variants": [
+            "Wei Shi",
+            "Shi W"
+          ]
+        },
+        {
+          "given": "Yang",
+          "full_name": "Yang None",
+          "orcid": "0000-0002-9746-2839",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ],
+          "name_variants": [
+            "Yang None"
+          ]
+        },
+        {
+          "given": "Yang",
+          "family": "Liao",
+          "full_name": "Yang Liao",
+          "authenticated_orcid": false,
+          "sequence": "first",
+          "affiliations": [
+            {
+              "name": "1 Bioinformatics Division, The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, VIC 3052, 2Department of Computing and Information Systems and 3Department of Mathematics and Statistics, The University of Melbourne, Parkville, VIC 3010, Australia",
+              "source": "crossref"
+            },
+            {
+              "name": "1 Bioinformatics Division, The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, VIC 3052, 2Department of Computing and Information Systems and 3Department of Mathematics and Statistics, The University of Melbourne, Parkville, VIC 3010, Australia",
+              "source": "crossref"
+            },
+            {
+              "name": "Bioinformatics Division, The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, VIC 3052, Department of Computing and Information Systems and Department of Mathematics and Statistics, The University of Melbourne, Parkville, VIC 3010, Australia.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "crossref",
+            "europe_pmc"
+          ],
+          "name_variants": [
+            "Liao Y"
+          ]
+        },
+        {
+          "given": "Gordon K.",
+          "family": "Smyth",
+          "full_name": "Gordon K. Smyth",
+          "authenticated_orcid": false,
+          "sequence": "additional",
+          "affiliations": [
+            {
+              "name": "1 Bioinformatics Division, The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, VIC 3052, 2Department of Computing and Information Systems and 3Department of Mathematics and Statistics, The University of Melbourne, Parkville, VIC 3010, Australia",
+              "source": "crossref"
+            },
+            {
+              "name": "1 Bioinformatics Division, The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, VIC 3052, 2Department of Computing and Information Systems and 3Department of Mathematics and Statistics, The University of Melbourne, Parkville, VIC 3010, Australia",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Yang Liao",
+          "authenticated_orcid": false,
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5022244006",
+          "affiliations": [
+            {
+              "name": "Walter and Eliza Hall Institute of Medical Research",
+              "ror_id": "https://ror.org/01b6kha49",
+              "country_code": "AU",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Melbourne",
+              "ror_id": "https://ror.org/01ej9dk98",
+              "country_code": "AU",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Gordon K",
+          "family": "Smyth",
+          "full_name": "Smyth GK",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ],
+          "name_variants": []
+        }
+      ],
+      "total_authors": 10,
+      "authors_with_orcid": 3,
+      "authors_with_authenticated_orcid": 0,
+      "unique_institutions": [
+        "1 Bioinformatics Division, The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, VIC 3052, 2Department of Computing and Information Systems and 3Department of Mathematics and Statistics, The University of Melbourne, Parkville, VIC 3010, Australia",
+        "Bioinformatics Division, The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, VIC 3052, Department of Computing and Information Systems and Department of Mathematics and Statistics, The University of Melbourne, Parkville, VIC 3010, Australia.",
+        "University of Melbourne",
+        "Walter and Eliza Hall Institute of Medical Research"
+      ],
+      "unique_countries": [
+        "AU"
+      ],
+      "orcid_coverage": 0.3,
+      "author_count_by_source": {
+        "crossref": 3,
+        "openalex": 3,
+        "unpaywall": 3,
+        "europe_pmc": 3,
+        "orcid": 2
+      },
+      "narrative": "10 unique authors across 5 sources. 3 have ORCID (30% coverage). 4 institutions. Spanning 1 countries (AU). Author count varies: 2\u20133 across sources. 2 authors confirmed by multiple sources."
+    },
+    "grant_siblings": {
+      "doi": "10.1093/bioinformatics/btt656",
+      "grants_with_siblings": [],
+      "total_sibling_pmids": 0,
+      "unique_sibling_pmids": 0,
+      "most_prolific_count": 0,
+      "multi_grant_pmids": 0,
+      "narrative": "No grant sibling information found."
+    },
+    "oa_audit": {
+      "doi": "10.1093/bioinformatics/btt656",
+      "source_claims": [
+        {
+          "source": "openalex",
+          "is_oa": true,
+          "oa_status": "bronze",
+          "best_url": "https://academic.oup.com/bioinformatics/article-pdf/30/7/923/633148/btt656.pdf",
+          "version": "publishedVersion",
+          "host_type": "journal"
+        },
+        {
+          "source": "unpaywall",
+          "is_oa": true,
+          "oa_status": "bronze",
+          "best_url": "https://academic.oup.com/bioinformatics/article-pdf/30/7/923/633148/btt656.pdf",
+          "version": "publishedVersion",
+          "host_type": "publisher",
+          "evidence": "deprecated"
+        },
+        {
+          "source": "europe_pmc",
+          "is_oa": false
+        }
+      ],
+      "consensus_is_oa": true,
+      "consensus_status": "bronze",
+      "status_agrees": true,
+      "all_locations": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/30/7/923/48921621/bioinformatics_30_7_923.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btt656",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/30/7/923/633148/btt656.pdf",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "repository": "https://openalex.org/P4310311648",
+          "is_best": true,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24227677",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "repository": "https://openalex.org/I1299303238",
+          "is_best": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "url": "http://arxiv.org/abs/1305.3347",
+          "pdf_url": "https://arxiv.org/pdf/1305.3347",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "repository": "https://openalex.org/I205783295",
+          "is_best": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/30/7/923/633148/btt656.pdf",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/30/7/923/633148/btt656.pdf",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "is_best": true,
+          "evidence": "deprecated",
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "url": "https://arxiv.org/pdf/1305.3347",
+          "pdf_url": "https://arxiv.org/pdf/1305.3347",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "repository": "Cornell University",
+          "is_best": false,
+          "evidence": "deprecated",
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "total_locations": 6,
+      "has_publisher_version": true,
+      "has_accepted_manuscript": false,
+      "has_repository_copy": true,
+      "licenses_found": [],
+      "status_conflict": false,
+      "conflicting_statuses": {},
+      "narrative": "Open Access (bronze). 6 unique OA locations found. Publisher version available. Repository copy available."
+    },
+    "topics": {
+      "doi": "10.1093/bioinformatics/btt656",
+      "fields_of_study": [
+        {
+          "value": "Genomics and Phylogenetic Studies",
+          "scheme": "openalex_topic",
+          "score": 0.9987999796867371,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Algorithms and Data Compression",
+          "scheme": "openalex_topic",
+          "score": 0.9876000285148621,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "RNA modifications and cancer",
+          "scheme": "openalex_topic",
+          "score": 0.9866999983787537,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "value": "Automatic summarization",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Computer science",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Bioconductor",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "MIT License",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Software",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "DNA sequencing",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Genome",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Computational biology",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Biology",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Genetics",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Artificial intelligence",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Gene",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Programming language",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Histones",
+          "descriptor_ui": "D006657",
+          "qualifier": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Histones",
+          "descriptor_ui": "D006657",
+          "qualifier": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Histones",
+          "descriptor_ui": "D006657",
+          "qualifier": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Histones",
+          "descriptor_ui": "D006657",
+          "qualifier": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Histones",
+          "descriptor_ui": "D006657",
+          "qualifier": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Histones",
+          "descriptor_ui": "D006657",
+          "qualifier": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Genome",
+          "descriptor_ui": "D016678",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Genome",
+          "descriptor_ui": "D016678",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Genome",
+          "descriptor_ui": "D016678",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Sequence Analysis, RNA",
+          "descriptor_ui": "D017423",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Sequence Analysis, RNA",
+          "descriptor_ui": "D017423",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Sequence Analysis, RNA",
+          "descriptor_ui": "D017423",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Genomics",
+          "descriptor_ui": "D023281",
+          "qualifier": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Genomics",
+          "descriptor_ui": "D023281",
+          "qualifier": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Genomics",
+          "descriptor_ui": "D023281",
+          "qualifier": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "High-Throughput Nucleotide Sequencing",
+          "descriptor_ui": "D059014",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "High-Throughput Nucleotide Sequencing",
+          "descriptor_ui": "D059014",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "High-Throughput Nucleotide Sequencing",
+          "descriptor_ui": "D059014",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Histones",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Histones",
+          "qualifier": "genetics",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Histones",
+          "qualifier": "chemistry",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Sequence Analysis, RNA",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Genomics",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Genomics",
+          "qualifier": "methods",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Genome",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Algorithms",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Software",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "High-Throughput Nucleotide Sequencing",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "sdg_mappings": [
+        {
+          "sdg_label": "Partnerships for the goals",
+          "score": 0.46000000834465027,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "openalex_concepts": [
+        {
+          "value": "Computational biology",
+          "scheme": "openalex_concept",
+          "score": 0.375021368265152,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Genetics",
+          "scheme": "openalex_concept",
+          "score": 0.2351030707359314,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Artificial intelligence",
+          "scheme": "openalex_concept",
+          "score": 0.18903380632400513,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Programming language",
+          "scheme": "openalex_concept",
+          "score": 0.10489976406097412,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Automatic summarization",
+          "scheme": "openalex_concept",
+          "score": 0.7969629764556885,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Software",
+          "scheme": "openalex_concept",
+          "score": 0.43657350540161133,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Gene",
+          "scheme": "openalex_concept",
+          "score": 0.1726779341697693,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Bioconductor",
+          "scheme": "openalex_concept",
+          "score": 0.5922159552574158,
+          "level": 3,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "MIT License",
+          "scheme": "openalex_concept",
+          "score": 0.5461760759353638,
+          "level": 3,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "DNA sequencing",
+          "scheme": "openalex_concept",
+          "score": 0.4356839060783386,
+          "level": 3,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Genome",
+          "scheme": "openalex_concept",
+          "score": 0.42335978150367737,
+          "level": 3,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.7220826148986816,
+          "level": 0,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Biology",
+          "scheme": "openalex_concept",
+          "score": 0.2530628442764282,
+          "level": 0,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "s2_fields": [],
+      "asjc_subjects": [],
+      "all_topics_flat": [
+        "Algorithms",
+        "Algorithms and Data Compression",
+        "Artificial intelligence",
+        "Automatic summarization",
+        "Bioconductor",
+        "Biology",
+        "Computational biology",
+        "Computer science",
+        "DNA sequencing",
+        "Gene",
+        "Genetics",
+        "Genome",
+        "Genomics",
+        "Genomics and Phylogenetic Studies",
+        "High-Throughput Nucleotide Sequencing",
+        "Histones",
+        "MIT License",
+        "Programming language",
+        "RNA modifications and cancer",
+        "Sequence Analysis, RNA",
+        "Software"
+      ],
+      "vocabulary_count": 5,
+      "topics_by_vocabulary": {
+        "openalex_topic": 1,
+        "OpenAlex_Concepts": 1,
+        "SDG": 1,
+        "Keywords": 1,
+        "MeSH": 34
+      },
+      "narrative": "Classified in 5 vocabularies. Fields of study: Genomics and Phylogenetic Studies, Algorithms and Data Compression, RNA modifications and cancer. Major MeSH terms: Software, Software, Software. SDG alignment: Partnerships for the goals. Broad concepts: Computational biology, Genetics, Artificial intelligence. 13 unique keywords."
+    }
+  },
+  "discrepancy_report": {
+    "doi": "10.1093/bioinformatics/btt656",
+    "sources_queried": 11,
+    "sources_found": 6,
+    "sources_not_found": 5,
+    "sources_errored": 0,
+    "total_discrepancies": 8,
+    "high_risk_count": 2,
+    "medium_risk_count": 1,
+    "low_risk_count": 5,
+    "data_completeness_score": 0.875,
+    "source_coverage": [
+      {
+        "source": "crossref",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "datacite",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "openalex",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": false,
+        "has_subjects": true,
+        "has_related_works": false
+      },
+      {
+        "source": "semantic_scholar",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "unpaywall",
+        "found": true,
+        "has_title": true,
+        "has_citations": false,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "europe_pmc",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": false,
+        "has_subjects": true,
+        "has_related_works": false
+      },
+      {
+        "source": "nih_reporter",
+        "found": true,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "zenodo",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "dryad",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "orcid",
+        "found": true,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": true,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "entrez",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      }
+    ],
+    "scalar_discrepancies": [
+      {
+        "field": "publication_year",
+        "values": {
+          "crossref": 2013,
+          "openalex": 2013,
+          "unpaywall": 2013,
+          "europe_pmc": 2014
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Oxford University Press (OUP)",
+          "openalex": "https://openalex.org/P4310311648",
+          "unpaywall": "Oxford University Press (OUP)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Bioinformatics",
+          "openalex": "Bioinformatics",
+          "unpaywall": "Bioinformatics",
+          "europe_pmc": "Bioinformatics (Oxford, England)"
+        },
+        "risk": "low"
+      }
+    ],
+    "citations": {
+      "counts_by_source": {
+        "crossref": 24031,
+        "openalex": 27209,
+        "europe_pmc": 20411
+      },
+      "min_count": 20411,
+      "max_count": 27209,
+      "median_count": 24031,
+      "spread": 6798,
+      "spread_pct": 25.0,
+      "divergence_level": "medium",
+      "outlier_sources": []
+    },
+    "oa_status": {
+      "is_oa_by_source": {
+        "openalex": true,
+        "unpaywall": true,
+        "europe_pmc": false
+      },
+      "status_by_source": {
+        "openalex": "bronze",
+        "unpaywall": "bronze"
+      },
+      "is_oa_agrees": false,
+      "status_agrees": true,
+      "consensus_is_oa": true,
+      "consensus_status": "bronze",
+      "unique_oa_urls": 6,
+      "sources_only_in": {
+        "openalex": [
+          "https://pubmed.ncbi.nlm.nih.gov/24227677",
+          "http://arxiv.org/abs/1305.3347"
+        ],
+        "unpaywall": [
+          "https://arxiv.org/pdf/1305.3347"
+        ]
+      }
+    },
+    "authors": {
+      "count_by_source": {
+        "crossref": 3,
+        "openalex": 3,
+        "unpaywall": 3,
+        "europe_pmc": 3,
+        "orcid": 2
+      },
+      "count_agrees": false,
+      "min_count": 2,
+      "max_count": 3,
+      "orcid_coverage": 0.3,
+      "sources_missing_orcids": [
+        "crossref",
+        "unpaywall",
+        "europe_pmc"
+      ],
+      "name_variant_examples": [
+        "Wei Shi / Shi W"
+      ]
+    },
+    "funding": {
+      "grant_count_by_source": {},
+      "total_unique_grants": 0,
+      "grants_single_source": 0,
+      "grants_multi_source": 0,
+      "sources_with_no_funding": [
+        "crossref",
+        "openalex",
+        "unpaywall",
+        "europe_pmc",
+        "nih_reporter",
+        "orcid"
+      ],
+      "sources_with_funding": []
+    },
+    "references": {
+      "count_by_source": {
+        "crossref": 49,
+        "openalex": 50
+      },
+      "count_agrees": false,
+      "min_count": 49,
+      "max_count": 50
+    },
+    "topics": {
+      "vocabulary_count": 5,
+      "topics_by_source": {
+        "openalex": 54,
+        "europe_pmc": 10
+      },
+      "multi_source_topics": 0,
+      "single_source_topics": 16
+    },
+    "related_works": {
+      "related_count_by_source": {},
+      "datacite_reverse_count": 0,
+      "software_links": 0,
+      "data_links": 0,
+      "has_version_chain": false
+    },
+    "narrative": "6 of 11 sources returned data. Data completeness: 87% of key fields have 2+ source coverage. CITATIONS: 20,411\u201327,209 across 3 sources (medium divergence, 25% spread). OA BOOLEAN CONFLICT: openalex: OA, unpaywall: OA, europe_pmc: closed. 3 OA URLs found by only one source. AUTHOR COUNT VARIES: 2\u20133 (crossref: 3, openalex: 3, unpaywall: 3, europe_pmc: 3, orcid: 2). Name variants detected: Wei Shi / Shi W. REFERENCES: 49\u201350 across sources. PUBLICATION_YEAR DIFFERS: crossref: 2013, openalex: 2013, unpaywall: 2013, europe_pmc: 2014. WORK_TYPE DIFFERS: crossref: journal-article, openalex: article, unpaywall: journal-article. PUBLISHER DIFFERS: crossref: Oxford University Press (OUP), openalex: https://openalex.org/P4310311648, unpaywall: Oxford University Press (OUP). CONTAINER_TITLE DIFFERS: crossref: Bioinformatics, openalex: Bioinformatics, unpaywall: Bioinformatics, europe_pmc: Bioinformatics (Oxford, England). Total: 8 discrepancies (2 high, 1 medium, 5 low risk)."
+  },
+  "_benchmark": {
+    "doi": "10.1093/bioinformatics/btt656",
+    "fetched_at": "2026-02-11T13:44:50.562535+00:00"
+  }
+}

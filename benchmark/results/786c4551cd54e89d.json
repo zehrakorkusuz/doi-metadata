@@ -1,0 +1,4035 @@
+{
+  "doi": "10.1093/bioinformatics/btx659",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T18:41:00.547378Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "Drug\u2013drug interaction extraction via hierarchical RNNs on sequence and shortest dependency paths",
+      "abstract": "<jats:title>Abstract</jats:title><jats:sec><jats:title>Motivation</jats:title><jats:p>Adverse events resulting from drug-drug interactions (DDI) pose a serious health issue. The ability to automatically extract DDIs described in the biomedical literature could further efforts for ongoing pharmacovigilance. Most of neural networks-based methods typically focus on sentence sequence to identify these DDIs, however the shortest dependency path (SDP) between the two entities contains valuable syntactic and semantic information. Effectively exploiting such information may improve DDI extraction.</jats:p></jats:sec><jats:sec><jats:title>Results</jats:title><jats:p>In this article, we present a hierarchical recurrent neural networks (RNNs)-based method to integrate the SDP and sentence sequence for DDI extraction task. Firstly, the sentence sequence is divided into three subsequences. Then, the bottom RNNs model is employed to learn the feature representation of the subsequences and SDP, and the top RNNs model is employed to learn the feature representation of both sentence sequence and SDP. Furthermore, we introduce the embedding attention mechanism to identify and enhance keywords for the DDI extraction task. We evaluate our approach using the DDI extraction 2013 corpus. Our method is competitive or superior in performance as compared with other state-of-the-art methods. Experimental results show that the sentence sequence and SDP are complementary to each other. Integrating the sentence sequence with SDP can effectively improve the DDI extraction performance.</jats:p></jats:sec><jats:sec><jats:title>Availability and implementation</jats:title><jats:p>The experimental data is available at https://github.com/zhangyijia1979/hierarchical-RNNs-model-for-DDI-extraction.</jats:p></jats:sec><jats:sec><jats:title>Supplementary information</jats:title><jats:p>Supplementary data are available at Bioinformatics online.</jats:p></jats:sec>",
+      "publication_date": "2017-10-25",
+      "publication_year": 2017,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "Bioinformatics",
+      "volume": "34",
+      "issue": "5",
+      "pages": "828-835",
+      "issn": [
+        "1367-4803",
+        "1367-4811"
+      ],
+      "doi": "10.1093/bioinformatics/btx659",
+      "authors": [
+        {
+          "name": {
+            "given": "Yijia",
+            "family": "Zhang",
+            "full_name": "Yijia Zhang",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "College of Computer Science and Technology, Dalian University of Technology, Dalian, China",
+              "source": "crossref"
+            },
+            {
+              "name": "Stanford Center for Biomedical Informatics Research, School of Medicine, Stanford University, Stanford, CA, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Wei",
+            "family": "Zheng",
+            "full_name": "Wei Zheng",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "College of Computer Science and Technology, Dalian University of Technology, Dalian, China",
+              "source": "crossref"
+            },
+            {
+              "name": "College of Software, Dalian JiaoTong University, Dalian, China",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Hongfei",
+            "family": "Lin",
+            "full_name": "Hongfei Lin",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "College of Computer Science and Technology, Dalian University of Technology, Dalian, China",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jian",
+            "family": "Wang",
+            "full_name": "Jian Wang",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "College of Computer Science and Technology, Dalian University of Technology, Dalian, China",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Zhihao",
+            "family": "Yang",
+            "full_name": "Zhihao Yang",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "College of Computer Science and Technology, Dalian University of Technology, Dalian, China",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michel",
+            "family": "Dumontier",
+            "full_name": "Michel Dumontier",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Institute of Data Science, Maastricht University, Maastricht, ER, The Netherlands",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 144,
+      "reference_count": 38,
+      "references": [
+        {
+          "title": "A neural probabilistic language model",
+          "year": 2003,
+          "author": "Bengio",
+          "key": "2023012712385595600_btx659-B1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2013,
+          "author": "Bj\u00f6rne",
+          "key": "2023012712385595600_btx659-B2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/s00228-008-0612-5",
+          "title": "SFINX\u2014a drug-drug interaction database designed for clinical decision support systems",
+          "year": 2009,
+          "author": "B\u00f6ttiger",
+          "key": "2023012712385595600_btx659-B3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2014,
+          "author": "Cho",
+          "key": "2023012712385595600_btx659-B4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "FBK-irst: a multi-phase kernel based approach for drug-drug interaction detection and classification that exploits linguistic information",
+          "year": 2013,
+          "author": "Chowdhury",
+          "key": "2023012712385595600_btx659-B5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/978-3-540-45167-9_11",
+          "year": 2003,
+          "author": "G\u00e4rtner",
+          "key": "2023012712385595600_btx659-B6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1479-7364-5-1-61",
+          "title": "A useful tool for drug interaction evaluation: the University of Washington Metabolism and Transport Drug Interaction Database",
+          "year": 2010,
+          "author": "Hachad",
+          "key": "2023012712385595600_btx659-B7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2009,
+          "author": "Hendrickx",
+          "key": "2023012712385595600_btx659-B8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jbi.2013.07.011",
+          "title": "The DDI corpus: An annotated corpus with pharmacological substances and drug\u2013drug interactions",
+          "year": 2013,
+          "author": "Herrero-Zazo",
+          "key": "2023012712385595600_btx659-B9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1162/neco.1997.9.8.1735",
+          "title": "Long short-term memory",
+          "year": 1997,
+          "author": "Hochreiter",
+          "key": "2023012712385595600_btx659-B10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jbi.2015.03.002",
+          "title": "Extracting drug\u2013drug interactions from literature using a rich feature-based linear kernel approach",
+          "year": 2015,
+          "author": "Kim",
+          "key": "2023012712385595600_btx659-B11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkq1126",
+          "title": "DrugBank 3.0: a comprehensive resource for \u2018omics\u2019 research on drugs",
+          "year": 2011,
+          "author": "Knox",
+          "key": "2023012712385595600_btx659-B12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2016,
+          "author": "Liu",
+          "key": "2023012712385595600_btx659-B13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2015,
+          "author": "Liu",
+          "key": "2023012712385595600_btx659-B14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2013,
+          "author": "Mikolov",
+          "key": "2023012712385595600_btx659-B15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2016,
+          "author": "Mingguang Xiao",
+          "key": "2023012712385595600_btx659-B16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jpainsymman.2010.11.014",
+          "title": "Adverse drug reactions and drug interactions as causes of hospital admission in oncology",
+          "year": 2011,
+          "author": "Miranda",
+          "key": "2023012712385595600_btx659-B17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2016,
+          "author": "Miwa",
+          "key": "2023012712385595600_btx659-B18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/TASLP.2016.2520371",
+          "title": "Deep sentence embedding using long short-term memory networks: analysis and application to information retrieval",
+          "year": 2016,
+          "author": "Palangi",
+          "key": "2023012712385595600_btx659-B19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2014,
+          "author": "Pennington",
+          "key": "2023012712385595600_btx659-B20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.tips.2013.01.006",
+          "title": "Informatics confronts drug\u2013drug interactions",
+          "year": 2013,
+          "author": "Percha",
+          "key": "2023012712385595600_btx659-B21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2016,
+          "author": "Quan",
+          "key": "2023012712385595600_btx659-B22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Extracting drug-drug interactions from biomedical text using a feature-based kernel approach",
+          "year": 2016,
+          "author": "Raihani",
+          "key": "2023012712385595600_btx659-B23",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2017,
+          "author": "Sahu",
+          "key": "2023012712385595600_btx659-B24",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jbi.2014.05.007",
+          "title": "Lessons learnt from the DDIExtraction-2013 shared task",
+          "year": 2014,
+          "author": "Segura-Bedmar",
+          "key": "2023012712385595600_btx659-B25",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Dropout: a simple way to prevent neural networks from overfitting",
+          "year": 2014,
+          "author": "Srivastava",
+          "key": "2023012712385595600_btx659-B26",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2013,
+          "author": "Thomas",
+          "key": "2023012712385595600_btx659-B27",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/978-1-62703-435-7_20",
+          "title": "PharmGKB: the pharmacogenomics knowledge base",
+          "year": 2013,
+          "author": "Thorn",
+          "key": "2023012712385595600_btx659-B28",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2016,
+          "author": "Vu",
+          "key": "2023012712385595600_btx659-B29",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2016,
+          "author": "Wang",
+          "key": "2023012712385595600_btx659-B30",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2015,
+          "author": "Xu",
+          "key": "2023012712385595600_btx659-B31",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2017,
+          "author": "Yi",
+          "key": "2023012712385595600_btx659-B32",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2017,
+          "author": "Yin",
+          "key": "2023012712385595600_btx659-B33",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2014,
+          "author": "Zeng",
+          "key": "2023012712385595600_btx659-B34",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pone.0048901",
+          "title": "A single kernel-based approach to extract drug-drug interactions from biomedical literature",
+          "year": 2012,
+          "author": "Zhang",
+          "key": "2023012712385595600_btx659-B35",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btw486",
+          "title": "Drug drug interaction extraction from biomedical literature using syntax convolutional neural network",
+          "year": 2016,
+          "author": "Zhao",
+          "key": "2023012712385595600_btx659-B36",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jbi.2016.03.014",
+          "title": "A graph kernel based on context vectors for extracting drug\u2013drug interactions",
+          "year": 2016,
+          "author": "Zheng",
+          "key": "2023012712385595600_btx659-B37",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Bilingual Word Embeddings for Phrase-Based Machine Translation",
+          "year": 2013,
+          "author": "Zou",
+          "key": "2023012712385595600_btx659-B38",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/34/5/828/48913518/bioinformatics_34_5_828.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/34/5/828/48913518/bioinformatics_34_5_828.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [
+        {
+          "name": "Natural Science Foundation of China",
+          "doi": "10.13039/501100001809",
+          "award_numbers": [
+            "61572098 and 61572102"
+          ],
+          "source": "crossref"
+        }
+      ],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "http://creativecommons.org/licenses/by/4.0/",
+          "content_version": "vor",
+          "delay_in_days": 0,
+          "source": "crossref"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btx659",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "Drug\u2013drug interaction extraction via hierarchical RNNs on sequence and shortest dependency paths",
+      "abstract": "Abstract Motivation Adverse events resulting from drug-drug interactions (DDI) pose a serious health issue. The ability to automatically extract DDIs described in the biomedical literature could further efforts for ongoing pharmacovigilance. Most of neural networks-based methods typically focus on sentence sequence to identify these DDIs, however the shortest dependency path (SDP) between the two entities contains valuable syntactic and semantic information. Effectively exploiting such information may improve DDI extraction. Results In this article, we present a hierarchical recurrent neural networks (RNNs)-based method to integrate the SDP and sentence sequence for DDI extraction task. Firstly, the sentence sequence is divided into three subsequences. Then, the bottom RNNs model is employed to learn the feature representation of the subsequences and SDP, and the top RNNs model is employed to learn the feature representation of both sentence sequence and SDP. Furthermore, we introduce the embedding attention mechanism to identify and enhance keywords for the DDI extraction task. We evaluate our approach using the DDI extraction 2013 corpus. Our method is competitive or superior in performance as compared with other state-of-the-art methods. Experimental results show that the sentence sequence and SDP are complementary to each other. Integrating the sentence sequence with SDP can effectively improve the DDI extraction performance. Availability and implementation The experimental data is available at https://github.com/zhangyijia1979/hierarchical-RNNs-model-for-DDI-extraction. Supplementary information Supplementary data are available at Bioinformatics online.",
+      "publication_date": "2017-10-24",
+      "publication_year": 2017,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310311648",
+      "container_title": "Bioinformatics",
+      "volume": "34",
+      "issue": "5",
+      "pages": "828-835",
+      "issn": [
+        "1367-4803",
+        "1367-4811"
+      ],
+      "doi": "10.1093/bioinformatics/btx659",
+      "pmid": "29077847",
+      "openalex_id": "https://openalex.org/W2765742249",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Yijia Zhang",
+            "orcid": "0000-0002-5843-4675",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Dalian University of Technology",
+              "ror_id": "https://ror.org/023hj5876",
+              "country_code": "CN",
+              "source": "openalex"
+            },
+            {
+              "name": "Stanford University",
+              "ror_id": "https://ror.org/00f54p054",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5046020427",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Wei Zheng",
+            "orcid": "0000-0001-8921-5304",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Dalian Jiaotong University",
+              "ror_id": "https://ror.org/05gp45n31",
+              "country_code": "CN",
+              "source": "openalex"
+            },
+            {
+              "name": "Dalian University of Technology",
+              "ror_id": "https://ror.org/023hj5876",
+              "country_code": "CN",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5101513399",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Hongfei Lin",
+            "orcid": "0000-0003-0872-7688",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Dalian University of Technology",
+              "ror_id": "https://ror.org/023hj5876",
+              "country_code": "CN",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5023931221",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jian Wang",
+            "orcid": "0000-0002-4656-7446",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Dalian University of Technology",
+              "ror_id": "https://ror.org/023hj5876",
+              "country_code": "CN",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5100370452",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Zhihao Yang",
+            "orcid": "0000-0001-6186-2024",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Dalian University of Technology",
+              "ror_id": "https://ror.org/023hj5876",
+              "country_code": "CN",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5051597671",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Michel Dumontier",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Maastricht University",
+              "ror_id": "https://ror.org/02jz4aj89",
+              "country_code": "NL",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5044836472",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 197,
+      "reference_count": 29,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2026": 1,
+        "2025": 20,
+        "2024": 20,
+        "2023": 24,
+        "2022": 27,
+        "2021": 32,
+        "2020": 26,
+        "2019": 35,
+        "2018": 12
+      },
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btx659",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/34/5/828/25117737/btx659.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btx659",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btx659",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/34/5/828/25117737/btx659.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btx659",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29077847",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/29077847",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "https://cris.maastrichtuniversity.nl/en/publications/7824e7a1-f629-434d-97c5-1634efcf05ff",
+          "landing_page_url": "https://cris.maastrichtuniversity.nl/en/publications/7824e7a1-f629-434d-97c5-1634efcf05ff",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "source": "openalex"
+        },
+        {
+          "url": "http://europepmc.org/pmc/articles/PMC6030919",
+          "landing_page_url": "http://europepmc.org/pmc/articles/PMC6030919",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1303153112",
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6030919",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6030919",
+          "host_type": "journal",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://academic.oup.com/bioinformatics/article-pdf/34/5/828/25117737/btx659.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "cc-by",
+          "source": "openalex"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Biomedical Text Mining and Ontologies",
+          "scheme": "openalex_topic",
+          "score": 0.9991000294685364,
+          "source": "openalex"
+        },
+        {
+          "value": "Topic Modeling",
+          "scheme": "openalex_topic",
+          "score": 0.9889000058174133,
+          "source": "openalex"
+        },
+        {
+          "value": "Computational Drug Discovery Methods",
+          "scheme": "openalex_topic",
+          "score": 0.9865000247955322,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.8321183919906616,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Sentence",
+          "scheme": "openalex_concept",
+          "score": 0.734089732170105,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Recurrent neural network",
+          "scheme": "openalex_concept",
+          "score": 0.7187763452529907,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Sequence labeling",
+          "scheme": "openalex_concept",
+          "score": 0.6809349656105042,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Relationship extraction",
+          "scheme": "openalex_concept",
+          "score": 0.6340292096138,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Artificial intelligence",
+          "scheme": "openalex_concept",
+          "score": 0.6108772158622742,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Sequence (biology)",
+          "scheme": "openalex_concept",
+          "score": 0.5038184523582458,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Representation (politics)",
+          "scheme": "openalex_concept",
+          "score": 0.5037268996238708,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Dependency (UML)",
+          "scheme": "openalex_concept",
+          "score": 0.4756490886211395,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Natural language processing",
+          "scheme": "openalex_concept",
+          "score": 0.45082709193229675,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Shortest path problem",
+          "scheme": "openalex_concept",
+          "score": 0.4406803548336029,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Information extraction",
+          "scheme": "openalex_concept",
+          "score": 0.39371371269226074,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Task (project management)",
+          "scheme": "openalex_concept",
+          "score": 0.3655456304550171,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Machine learning",
+          "scheme": "openalex_concept",
+          "score": 0.33358293771743774,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Artificial neural network",
+          "scheme": "openalex_concept",
+          "score": 0.32515257596969604,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Theoretical computer science",
+          "scheme": "openalex_concept",
+          "score": 0.1377803385257721,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Graph",
+          "scheme": "openalex_concept",
+          "score": 0.07790568470954895,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Management",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Political science",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Genetics",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Economics",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Law",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Biology",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Politics",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Quality Education",
+          "scheme": "SDG",
+          "score": 0.699999988079071,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Drug Interactions",
+          "descriptor_ui": "D004347",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Drug Interactions",
+          "descriptor_ui": "D004347",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Drug Interactions",
+          "descriptor_ui": "D004347",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Publications",
+          "descriptor_ui": "D011642",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Publications",
+          "descriptor_ui": "D011642",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Publications",
+          "descriptor_ui": "D011642",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Neural Networks, Computer",
+          "descriptor_ui": "D016571",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Neural Networks, Computer",
+          "descriptor_ui": "D016571",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Neural Networks, Computer",
+          "descriptor_ui": "D016571",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Data Mining",
+          "descriptor_ui": "D057225",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Data Mining",
+          "descriptor_ui": "D057225",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Data Mining",
+          "descriptor_ui": "D057225",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Pharmacovigilance",
+          "descriptor_ui": "D060735",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Pharmacovigilance",
+          "descriptor_ui": "D060735",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Pharmacovigilance",
+          "descriptor_ui": "D060735",
+          "is_major_topic": true,
+          "source": "openalex"
+        }
+      ],
+      "keywords": [
+        "Computer science",
+        "Sentence",
+        "Recurrent neural network",
+        "Sequence labeling",
+        "Relationship extraction",
+        "Artificial intelligence",
+        "Sequence (biology)",
+        "Representation (politics)",
+        "Dependency (UML)",
+        "Natural language processing",
+        "Shortest path problem",
+        "Information extraction",
+        "Task (project management)",
+        "Machine learning",
+        "Artificial neural network",
+        "Theoretical computer science",
+        "Graph"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 9.7538738,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.98238733,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 3618.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": true,
+      "raw": {},
+      "title": "Drug\u2013drug interaction extraction via hierarchical RNNs on sequence and shortest dependency paths",
+      "abstract": "Motivation Adverse events resulting from drug\u2010drug interactions (DDI) pose a serious health issue. The ability to automatically extract DDIs described in the biomedical literature could further efforts for ongoing pharmacovigilance. Most of neural networks\u2010based methods typically focus on sentence sequence to identify these DDIs, however the shortest dependency path (SDP) between the two entities contains valuable syntactic and semantic information. Effectively exploiting such information may improve DDI extraction. Results In this article, we present a hierarchical recurrent neural networks (RNNs)\u2010based method to integrate the SDP and sentence sequence for DDI extraction task. Firstly, the sentence sequence is divided into three subsequences. Then, the bottom RNNs model is employed to learn the feature representation of the subsequences and SDP, and the top RNNs model is employed to learn the feature representation of both sentence sequence and SDP. Furthermore, we introduce the embedding attention mechanism to identify and enhance keywords for the DDI extraction task. We evaluate our approach using the DDI extraction 2013 corpus. Our method is competitive or superior in performance as compared with other state\u2010of\u2010the\u2010art methods. Experimental results show that the sentence sequence and SDP are complementary to each other. Integrating the sentence sequence with SDP can effectively improve the DDI extraction performance. Availability and implementation The experimental data is available at https://github.com/zhangyijia1979/hierarchical\u2010RNNs\u2010model\u2010for\u2010DDI\u2010extraction. Contact zhyj@dlut.edu.cn or michel.dumontier@maastrichtuniversity.nl. Supplementary information Supplementary data are available at Bioinformatics online.",
+      "publication_date": "2017-10-25",
+      "publication_year": 2017,
+      "work_type": "JournalArticle",
+      "container_title": "Bioinformatics",
+      "volume": "34",
+      "pages": "828 - 835",
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btx659",
+      "pmid": "29077847",
+      "pmcid": "6030919",
+      "s2_paper_id": "087d19037086020275bfb780df8cf1893ee62e97",
+      "s2_corpus_id": "2957401",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Yijia Zhang",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "3357436",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Wei Zheng",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "1708241780",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Hongfei Lin",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "37553559",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jian Wang",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "49605993",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Zhihao Yang",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "151472911",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "M. Dumontier",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "1736389",
+          "sources": [
+            "semantic_scholar"
+          ]
+        }
+      ],
+      "citation_count": 150,
+      "reference_count": 40,
+      "influential_citation_count": 8,
+      "references": [
+        {
+          "doi": "10.1007/978-3-319-69179-4_39",
+          "title": "Drug-Drug Interaction Extraction via Recurrent Neural Network with Multiple Attention Layers",
+          "year": 2017,
+          "s2_paper_id": "2cf231abcc87f96d8a3d3466e8e966e420d44fe0",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Comparative Study of CNN and RNN for Natural Language Processing",
+          "year": 2017,
+          "s2_paper_id": "f52b48a988489ed4d1c53f98e77aa34669547a94",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jbi.2018.08.005",
+          "title": "Drug-Drug Interaction Extraction from Biomedical Text Using Long Short Term Memory Network",
+          "year": 2017,
+          "s2_paper_id": "f5fdaa16a9251af8210855150dd6c458c952fb6d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1155/2016/1850404",
+          "title": "Multichannel Convolutional Neural Network for Biological Relation Extraction",
+          "year": 2016,
+          "s2_paper_id": "b511bb47233006d6bc1519ac666b30e0f45f2204",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.18653/v1/P16-1123",
+          "title": "Relation Classification via Multi-Level Attention CNNs",
+          "year": 2016,
+          "s2_paper_id": "d00c31df3c50cd57eba2ad39709e1cb14a208246",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btw486",
+          "title": "Drug drug interaction extraction from biomedical literature using syntax convolutional neural network",
+          "year": 2016,
+          "s2_paper_id": "447c0fd7b7e6c9eda835ecf156546d4c3a6743be",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jbi.2016.03.014",
+          "title": "A graph kernel based on context vectors for extracting drug-drug interactions",
+          "year": 2016,
+          "s2_paper_id": "666f7cbe59e593eb6c5d0f9c524df639ec6bb3ae",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.18653/v1/N16-1065",
+          "title": "Combining Recurrent and Convolutional Neural Networks for Relation Classification",
+          "year": 2016,
+          "s2_paper_id": "b04ad4b86f46b0c6670f0da898a1300f385bf3d2",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1155/2016/6918381",
+          "title": "Drug-Drug Interaction Extraction via Convolutional Neural Networks",
+          "year": 2016,
+          "s2_paper_id": "d88f70c59b02bba47b3b25b36598917e130b950a",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.18653/v1/P16-1105",
+          "title": "End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures",
+          "year": 2016,
+          "s2_paper_id": "3899f87a2031f3434f89beb68c11a1ca6428328a",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Recent studies (Liu et al., 2015; Miwa and Bansal, 2016; Xu et al., 2015) have shown that the dependency path or syntax tree can boost the performance of the relation extraction.",
+            "Recent studies (Liu et al. , 2015; Miwa and Bansal, 2016; Xu et al. , 2015) have shown that the dependency path or syntax tree can boost the performance of the relation extraction."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.18653/v1/D15-1206",
+          "title": "Classifying Relations via Long Short Term Memory Networks along Shortest Dependency Paths",
+          "year": 2015,
+          "s2_paper_id": "032fbcb58e2282f02426a0f09c6d5b42787936ec",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3115/v1/P15-2047",
+          "title": "A Dependency-Based Neural Network for Relation Classification",
+          "year": 2015,
+          "s2_paper_id": "72b88705083fda3df98e114507ad76094a0465ec",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jbi.2015.03.002",
+          "title": "Extracting drug-drug interactions from literature using a rich feature-based linear kernel approach",
+          "year": 2015,
+          "s2_paper_id": "33e67f0619c0653e41f0e08f6e095a5e631b3210",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "(Kim et al. , 2015) proposed a rich feature-based method to extraction DDI, which including word features, dependency graph features, parse tree features, etc. Similarly, (Raihani and Laachfoubi, 2016) integrated lexical features, phrase features, verb features, syntactic features and auxiliary\u2026"
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1109/TASLP.2016.2520371",
+          "title": "Deep Sentence Embedding Using Long Short-Term Memory Networks: Analysis and Application to Information Retrieval",
+          "year": 2015,
+          "s2_paper_id": "22ae02d81c21cb90b0de071550cfb99e6a623e62",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3115/v1/D14-1162",
+          "title": "GloVe: Global Vectors for Word Representation",
+          "year": 2014,
+          "s2_paper_id": "f37e1b62a767a307c046404ca96bc140b3e68cb5",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jbi.2014.05.007",
+          "title": "Lessons learnt from the DDIExtraction-2013 Shared Task",
+          "year": 2014,
+          "s2_paper_id": "c760b9a18d772840a33a1fde383814a4faef94c7",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Relation Classification via Convolutional Deep Neural Network",
+          "year": 2014,
+          "s2_paper_id": "791b65c65f8ae7e16c1ee9203cdc3ee59ffeb99f",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3115/v1/D14-1179",
+          "title": "Learning Phrase Representations using RNN Encoder\u2013Decoder for Statistical Machine Translation",
+          "year": 2014,
+          "s2_paper_id": "0b544dfe355a5070b60986319a3f51fb45d1348e",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.18653/v1/d13-1141",
+          "title": "Bilingual Word Embeddings for Phrase-Based Machine Translation",
+          "year": 2013,
+          "s2_paper_id": "0d3233d858660aff451a6c2561a05378ed09725a",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jbi.2013.07.011",
+          "title": "The DDI corpus: An annotated corpus with pharmacological substances and drug-drug interactions",
+          "year": 2013,
+          "s2_paper_id": "6ea353ada2b89763f58d8068a74b2e6def526948",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "UTurku: Drug Named Entity Recognition and Drug-Drug Interaction Extraction Using SVM Classification and Domain Knowledge",
+          "year": 2013,
+          "s2_paper_id": "bf785e5fe2f4d17fde54bfa9ae4bda847ff5041e",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "FBK-irst : A Multi-Phase Kernel Based Approach for Drug-Drug Interaction Detection and Classification that Exploits Linguistic Information",
+          "year": 2013,
+          "s2_paper_id": "49907fd8c5f5a84a8547d9e10a88d27b86a34373",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "(Chowdhury and Lavelli, 2013) proposed a hybrid kernel method for DDI extraction including feature-based kernel, shallow linguistic kernel and path-enclosed tree kernel."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "WBI-DDI: Drug-Drug Interaction Extraction using Majority Voting",
+          "year": 2013,
+          "s2_paper_id": "86f699d75faaae28d5347a94d70c79603e3c3bef",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.tips.2013.01.006",
+          "title": "Informatics confronts drug-drug interactions.",
+          "year": 2013,
+          "s2_paper_id": "a9bcfe158ddedb7fb184cbf3cc5436e8eaf2a85e",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Hence, the automatic extraction of DDIs information from the biomedical literature has merit and may contribute significantly to patient safety and pharmacovigilance (Percha and Altman, 2013)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Efficient Estimation of Word Representations in Vector Space",
+          "year": 2013,
+          "s2_paper_id": "f6b51c8753a871dc94ff32152c00c01e94f90f09",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1371/journal.pone.0048901",
+          "title": "A Single Kernel-Based Approach to Extract Drug-Drug Interactions from Biomedical Literature",
+          "year": 2012,
+          "s2_paper_id": "b6f045d1c93d36978b54059a73e6762d651cc9d7",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/nar/gkq1126",
+          "title": "DrugBank 3.0: a comprehensive resource for \u2018Omics\u2019 research on drugs",
+          "year": 2010,
+          "s2_paper_id": "49a3aff1af750616de71f0d1c1f3eef3d62645f8",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/1479-7364-5-1-61",
+          "title": "A useful tool for drug interaction evaluation: The University of Washington Metabolism and Transport Drug Interaction Database",
+          "year": 2010,
+          "s2_paper_id": "19af53e23f1200d88215ea65b6077572f60df570",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "SemEval-2010 Task 8: Multi-Way Classification of Semantic Relations between Pairs of Nominals",
+          "year": 2010,
+          "s2_paper_id": "b8cb51003582e47a233576c9fac63498d7d64fd5",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3115/1621969.1621986",
+          "title": "SemEval-2010 Task 8: Multi-Way Classification of Semantic Relations Between Pairs of Nominals",
+          "year": 2009,
+          "s2_paper_id": "8ea8da551ef6b1c909ca5b37ba94be4cae02e9ac",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/s00228-008-0612-5",
+          "title": "SFINX\u2014a drug-drug interaction database designed for clinical decision support systems",
+          "year": 2009,
+          "s2_paper_id": "8505cbd9fd15daa12f089f674f1a6ab14c181941",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Although some drug knowledge database, such as DrugBank (Knox et al. , 2011), PharmGKB (Thorn et al. , 2013), Drug Interaction database (Hachad et al. , 2010) and SFINX (Bo\u00a8ttiger et al. , 2009), have been created to instruct physicians to avoid DDIs and ADRs, the update periods of these databases are generally 1\u20133 years.",
+            "\u2026database, such as DrugBank (Knox et al. , 2011), PharmGKB (Thorn et al. , 2013), Drug Interaction database (Hachad et al. , 2010) and SFINX (Bo\u00a8ttiger et al. , 2009), have been created to instruct physicians to avoid DDIs and ADRs, the update periods of these databases are generally 1\u20133\u2026"
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/b12006",
+          "title": "Learning Theory and Kernel Machines",
+          "year": 2003,
+          "s2_paper_id": "539c39bd2c583dba0f9aee514b1c17318f9f0233",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "A Neural Probabilistic Language Model",
+          "year": 2003,
+          "s2_paper_id": "6c2b28f9354f667cd5bd07afc0471d8334430da7",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1162/neco.1997.9.8.1735",
+          "title": "Long Short-Term Memory",
+          "year": 1997,
+          "s2_paper_id": "2e9d221c206e9503ceb452302d68d10e293f2a10",
+          "intents": [
+            "methodology",
+            "background"
+          ],
+          "is_influential": true,
+          "contexts": [
+            "To address this problem, long short-term memory networks (LSTMs) (Hochreiter and Schmidhuber, 1997) and gated recurrent units (GRUs) (Cho et al.",
+            "The LSTMs model (Hochreiter and Schmidhuber, 1997) employs a gating mechanism as well as the memory cell to learn long-term dependencies.",
+            "To address this problem, long short-term memory networks (LSTMs) (Hochreiter and Schmidhuber, 1997) and gated recurrent units (GRUs) (Cho et al. , 2014) have been proposed based on RNNs."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "EXTRACTING DRUG-DRUG INTERACTIONS FROM BIOMEDICAL TEXT USING A FEATURE-BASED KERNEL APPROACH",
+          "year": 2016,
+          "s2_paper_id": "7bad35c8ddf5be25635f9358794f38595f87ba27",
+          "intents": [
+            "methodology",
+            "background"
+          ],
+          "is_influential": true,
+          "contexts": [
+            "Similarly, (Raihani and Laachfoubi, 2016) integrated lexical features, phrase features, verb features, syntactic features and auxiliary features to extract DDI from biomedical literature.",
+            "We also notice that (Raihani and Laachfoubi, 2016) used rich feature-based method and achieved a high F-score of 0.",
+            "\u2026a rich feature-based method to extraction DDI, which including word features, dependency graph features, parse tree features, etc. Similarly, (Raihani and Laachfoubi, 2016) integrated lexical features, phrase features, verb features, syntactic features and auxiliary features to extract DDI\u2026",
+            "We also notice that (Raihani and Laachfoubi, 2016) used rich feature-based method and achieved a high F -score of 0.711, which benefited from many rules and hand-craft features."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Semantic Relation Classification via Hierarchical Recurrent Neural Network with Attention",
+          "year": 2016,
+          "s2_paper_id": "bd64afdf9b26de4c460c19dea17ddf043c26e61c",
+          "intents": [
+            "methodology",
+            "background"
+          ],
+          "is_influential": true,
+          "contexts": [
+            "Inspired by the work of (Mingguang Xiao, 2016), the sequence sentence is divided into three context subse-quences according to the two candidate drug entities.",
+            "Inspired by the work of (Mingguang Xiao, 2016), we divide the sentence sequence into three subsequence according to the position of two targeted entities.",
+            "A recent study (Mingguang Xiao, 2016) has shown dividing a sentence into multiple parts according to the entities present can boost the performance of relation extraction effectively.",
+            "Some recent studies (Mingguang Xiao, 2016; Vu et al. , 2016) explored to divide the sentence sequence into multiple parts for relation extraction task and achieved excellent performance."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.5555/2627435.2670313",
+          "title": "Dropout: a simple way to prevent neural networks from overfitting",
+          "year": 2014,
+          "s2_paper_id": "34f25a8704614163c4095b3ee2fc969b60de4698",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Dropout is an effective way to alleviate the overfitting of the neural networks model (Srivastava et al. , 2014), which randomly drops units and their connections from the neural networks during training."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/978-1-62703-435-7_20",
+          "title": "PharmGKB: the Pharmacogenomics Knowledge Base.",
+          "year": 2013,
+          "s2_paper_id": "e92575a720943fd3d1431dc14dfca21074b72460",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1200/jco.2009.27.15_suppl.e20656",
+          "title": "Adverse drug reactions and drug interactions as causes of hospital admission in oncology.",
+          "year": 2009,
+          "s2_paper_id": "fcbd19b3cc270c02c43865c647bde1d02ff2820c",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/978-3-540-45167-9_11",
+          "title": "On Graph Kernels: Hardness Results and Efficient Alternatives",
+          "year": 2003,
+          "s2_paper_id": "647fdaacfcea319677175464b7db39e3b22c7808",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "However, the suitable kernel functions require carefully crafting, which have been proved difficult because of the powerful expressiveness of graph or tree structures (Ga\u00a8rtner et al. , 2003)."
+          ],
+          "source": "semantic_scholar"
+        }
+      ],
+      "citations": [
+        {
+          "doi": "10.1016/j.artmed.2026.103353",
+          "title": "BRLA-DDI: A novel framework for drug-drug interaction extraction.",
+          "year": 2026,
+          "s2_paper_id": "34f09abeb432e936798836bb7beccdcded955eaa",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1109/BIBM66473.2025.11357008",
+          "title": "MF-DocDDI: Drug Entity Multi-Feature Fusion for Document-Level Drug-Drug Interaction Relation Extraction",
+          "year": 2025,
+          "s2_paper_id": "74ceb38a8478daa60351f3f587e8907afb0322c7",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Early DDI extraction meth-ods were sentence-level and based on machine learning [8], while later models adopted CNNs [9], HRNNs [10], Joint AB-LSTM [11], and DeepCNN [12].",
+            "We compared MF-DocDDI with eight representative sentence-level methods: CNN [9], Joint AB-LSTM [12], BR-LSTM [27], HRNN [10], DDMS-CNN [28], DeepCNN [12], DREAM [29], and MTMG [13]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1109/ICAC69156.2025.11361526",
+          "title": "PharmaMap-LLM: Fine-Tuning Large Language Models for Drug-Drug Interaction (DDI) Analysis",
+          "year": 2025,
+          "s2_paper_id": "305afa48a32510869d99099c6c5dbc5f46709a4d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1013722",
+          "title": "A meta-contrastive learning approach for clinical drug-drug interaction extraction from biomedical literature",
+          "year": 2025,
+          "s2_paper_id": "d8ecbe32583f48a358b27cd2cacfa9b633c568f5",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Joint-ABLSTM [19], HRNN [20], and PM-BLSTM [21] incorporated hierarchical or multi-path structures, while GCNN [22], GRU-GCN [23], and SM-GCN [24] applied graph neural networks for relation-aware inference."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1109/ICICIS66182.2025.11313216",
+          "title": "Drug-Drug Interaction Prediction Using CNN and Drugs Molecular Descriptors",
+          "year": 2025,
+          "s2_paper_id": "eb4edeb99a16107b580351c30d67a1c9846f874d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Deep learning models such as Convolutional Neural Networks (CNNs)[8], Recurrent Neural Networks (RNNs)[9], and Graph Neural Networks (GNNs)[10] can automatically learn hierarchical and abstract representations from raw input data, including Simplified Molecular Input Line Entry System (SMILES)\u2026"
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.neucom.2025.132146",
+          "title": "Dual perspectives with Consistency training on predicting drug-drug interactions",
+          "year": 2025,
+          "s2_paper_id": "15d22784d2f8337ca3767bff7506d4f8078764e6",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1038/s41598-025-21782-0",
+          "title": "Enhanced drug-drug interaction extraction from biomedical text using deep learning-based sentence representations",
+          "year": 2025,
+          "s2_paper_id": "085e7fd2aed8f3d39d7c57e64ad74a8089871fae",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1038/s41598-025-14690-w",
+          "title": "PS3N: leveraging protein sequence-structure similarity for novel drug-drug interaction discovery",
+          "year": 2025,
+          "s2_paper_id": "08616e2309411614c62c0e4af5167a1950b62874",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/s41666-025-00214-8",
+          "title": "A Gated Multi-hop Attention Fusion Network for Extracting Inter-Sentential Adverse Drug Event Relation",
+          "year": 2025,
+          "s2_paper_id": "2d3de037b905b6d4cc85a7794bfd50b5c99f7426",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jbi.2025.104874",
+          "title": "A multifaceted approach to drug-drug interaction extraction with fusion strategies",
+          "year": 2025,
+          "s2_paper_id": "3e71f449e70441f33ffe97da8f2c52ff83a7337e",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.22399/ijcesen.2551",
+          "title": "Enhancing Drug-Drug Interaction Prediction with Explainable AI: Integrating GANs for Improved Clinical Transparency",
+          "year": 2025,
+          "s2_paper_id": "e40f8928674e689001757d7d059fb441fa334c89",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Consistency of the results across different methods has been reported to increase the accuracy of the prediction of DDIs compared to individual models [28, 29, 30, 18, 31, 32, 33] ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.chemolab.2025.105337",
+          "title": "GAINET: Enhancing drug\u2013drug interaction predictions through graph neural networks and attention mechanisms",
+          "year": 2025,
+          "s2_paper_id": "47ec7b9cfcc464ead7803a1a00ddbb4cbd60f999",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.drudis.2025.104360",
+          "title": "Artificial intelligence in preclinical research: enhancing digital twins and organ-on-chip to reduce animal testing.",
+          "year": 2025,
+          "s2_paper_id": "6feff665f5378a21239736877266357e4487d65b",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/ph18030282",
+          "title": "Artificial Intelligence Models and Tools for the Assessment of Drug\u2013Herb Interactions",
+          "year": 2025,
+          "s2_paper_id": "bf0b1098bd1489558b3190d1a0e9a07febafa428",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Recurrent Neural Networks (RNNs) are designed to manage sequential data, making them suitable for text mining as well as for modeling interactions, such as the effect of drug\u2013 herb co-administration over time [119,120]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1109/JBHI.2025.3540861",
+          "title": "Optimized Drug-Drug Interaction Extraction With BioGPT and Focal Loss-Based Attention",
+          "year": 2025,
+          "s2_paper_id": "003168778f959ac84dcb285137e15835eaa72ac3",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.26599/bdma.2024.9020072",
+          "title": "Enhanced Attention-Driven Dynamic Graph Convolutional Network for Extracting Drug-Drug Interaction",
+          "year": 2025,
+          "s2_paper_id": "89c2cb0171bcc034cd5ea563321a5f6129e12754",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/comjnl/bxae131",
+          "title": "Variations towards an efficient drug-drug interaction",
+          "year": 2024,
+          "s2_paper_id": "9b3761062f19e484c775a1ea90291917fdaee30e",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1109/ACCESS.2025.3547594",
+          "title": "KITE-DDI: A Knowledge Graph Integrated Transformer Model for Accurately Predicting Drug-Drug Interaction Events From Drug SMILES and Biomedical Knowledge Graph",
+          "year": 2024,
+          "s2_paper_id": "d76de5b7f078f691b43ad27876ed7a76ad2e90df",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1109/JBHI.2024.3507738",
+          "title": "TransformDDI: The Transformer-Based Joint Multi-Task Model for End-to-End Drug-Drug Interaction Extraction",
+          "year": 2024,
+          "s2_paper_id": "4a983f153383d1d3f8360aa605832e4f4862ebba",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "\u201cBiLSTM-CRF + HRNN\u201d [30] implements hierarchical RNNs and integrates the shortest dependency paths to extract DDIs.",
+            "We selected the three baseline methods presented in [13], [29], [30] in addition to [16] which is the current state-of-the-art in the classi\ufb01cation-only task."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1109/ICAICE63571.2024.10864272",
+          "title": "Joint Extraction Model based on Feature Partition and Fusion",
+          "year": 2024,
+          "s2_paper_id": "7664c64c87057378998258fbafa485da28897095",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "SE methods are prone to error propagation; errors in NER can propagate to RE, causing cumulative errors[5]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1109/TCBBIO.2025.3632412",
+          "title": "UniGEN-DDI: Computing drug-drug interactions using a unified graph embedding network",
+          "year": 2024,
+          "s2_paper_id": "1e7c91ced1cb1e7f9363679f116c471bf27b2ced",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "The DDI prediction techniques can be categorized based on matrix factorization, network, similarity, literature extraction, and deep learning methods [11], [12], [13], [14], [15]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/s12911-024-02592-2",
+          "title": "Leveraging shortest dependency paths in low-resource biomedical relation extraction",
+          "year": 2024,
+          "s2_paper_id": "c5d1bc4bf0eb203406963c0952b5619428db3a44",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1002/qub2.66",
+          "title": "A substructure-aware graph neural network incorporating relation features for drug-drug interaction prediction",
+          "year": 2024,
+          "s2_paper_id": "d707ebe65d68fa32dd0b0a047c6da78f2c8f3f3e",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.eswa.2023.122723",
+          "title": "Joint extraction of biomedical overlapping triples through feature partition encoding",
+          "year": 2024,
+          "s2_paper_id": "1a05931304ee199c726dc4deaa6b9841cebf23af",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/s00530-024-01325-9",
+          "title": "A review of deep learning algorithms for modeling drug interactions",
+          "year": 2024,
+          "s2_paper_id": "357e612c3c07cb5cfce2388a7dbb04a188c0c434",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1145/3651159",
+          "title": "DeepMedFeature: An Accurate Feature Extraction and Drug-Drug Interaction Model for Clinical Text in Medical Informatics",
+          "year": 2024,
+          "s2_paper_id": "38e8fc8f8b7fc147d9b8bd4399deb473cc729f9a",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1145/3645089",
+          "title": "Drug\u2013Drug Interaction Relation Extraction Based on Deep Learning: A Review",
+          "year": 2024,
+          "s2_paper_id": "ad3c7ec457de8ed0bc1144a8460cc3b2dd9ae323",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "It is the common way to input SDP of the original sentence into the network and concatenate the obtained features with other features for feature extraction [154, 156].",
+            "The datasets involved in word embedding training generally include the abstract data of PubMed 9 containing the keyword \u201cdrug\u201d [21, 156], DDI Extraction 2013 corpus [51, 118], PMC literature data, MEDLINE, Wikipedia, the combination of Wikipedia and PubMed, and the combination of PMC and PubMed\u2026",
+            "By extracting the features of these five types of data separately, the impact of long sentences can be reduced [92, 156], and the network can get the extra location information of each word as well (as shown in in Figure 7(a))."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1080/10255842.2024.2311315",
+          "title": "MAVGAE: a multimodal framework for predicting asymmetric drug\u2013drug interactions based on variational graph autoencoder",
+          "year": 2024,
+          "s2_paper_id": "9ff441e5c4d0302c5837a87c00b548ad8ebe084e",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Another effective deep learning technique for DDI prediction is Recurrent Neural Networks (RNNs) (Zhang et al. 2018)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jbi.2024.104603",
+          "title": "Extracting adverse drug events from clinical Notes: A systematic review of approaches used",
+          "year": 2024,
+          "s2_paper_id": "295b9df0d979bdbf7953cdf16f5a16afda55cac8",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ipm.2023.103560",
+          "title": "A hierarchical convolutional model for biomedical relation extraction",
+          "year": 2024,
+          "s2_paper_id": "0f02e3c514a57bdeb224d1a24d206f7b3cc27885",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1109/BIBM58861.2023.10385477",
+          "title": "Joint Biomedical Entity and Relation Extraction Based on Triple Region Vertices",
+          "year": 2023,
+          "s2_paper_id": "2e721cac8bc3ec9712ab674d366dbf8f06a14edb",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "For the pipeline methods, we choose the methods which use BiLSTM-CRF to extract the entities and then utilize certain methods extract the relations, such as HRNN [15] and HieRCNN [16]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1109/AICCSA59173.2023.10479267",
+          "title": "A Hybrid Approach for Spatial Information Extraction from Natural Language Text",
+          "year": 2023,
+          "s2_paper_id": "e76aba9fc43aa0f3322534d8d553c831fc57a5cb",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Indeed, several recent studies have argued that the (SDP) can boost the performance of the relation extraction [22], [23]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/s13755-023-00250-x",
+          "title": "Predicting drug\u2013drug interactions based on multi-view and multichannel attention deep learning",
+          "year": 2023,
+          "s2_paper_id": "de936318b8b483ce819695a7029da86cdc538b52",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Zhang et al. developed a hierarchical recurrent neural network (RNN)-based method to integrate the shortest dependency path (SDP) and sentence sequences for DDI extraction tasks [21]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.neucom.2023.127079",
+          "title": "A survey of the recent trends in deep learning for literature based discovery in the biomedical domain",
+          "year": 2023,
+          "s2_paper_id": "7d1c642f4de2cbe5a43d31d2b1961b91239cd1be",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jbi.2023.104527",
+          "title": "Learning entity-oriented representation for biomedical relation extraction",
+          "year": 2023,
+          "s2_paper_id": "99bd4e2e25a0088c59342ba8047778fd9a8f9c22",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ymeth.2023.10.007",
+          "title": "MATT-DDI: Predicting multi-type drug-drug interactions via heterogeneous attention mechanisms.",
+          "year": 2023,
+          "s2_paper_id": "71527b13eec5a75263131e565b27e9dc7f7bf796",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/pharmaceutics15071823",
+          "title": "Improving Drug\u2013Drug Interaction Extraction with Gaussian Noise",
+          "year": 2023,
+          "s2_paper_id": "fb5f3fdf9f61b0598c637da2c70b8dff19c777c0",
+          "intents": [],
+          "is_influential": true,
+          "contexts": [
+            "The work by Zhang et al. [34] presents a hierarchical model of a recurrent neural network that integrates SDP, which is the shortest dependency path, for DDI-type ER.",
+            "\u2026Lamurias et al. [33] which uses ontologies and reaches an F1-score of 0.751; in the work of Zhou et al. [15], the authors use relative positions of the words and reach an F1-score of 0.73; the hierarchical model of Zhang et al. [34] uses attention mechanisms and the authors reach an F1-score 0.729."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.heliyon.2023.e16819",
+          "title": "MTMG: A multi-task model with multi-granularity information for drug-drug interaction extraction",
+          "year": 2023,
+          "s2_paper_id": "ea4cf43b0c4990a2a262cf86c62e3a522e60861f",
+          "intents": [
+            "background",
+            "result",
+            "methodology"
+          ],
+          "is_influential": true,
+          "contexts": [
+            "(2) BiLSTM-CRF+HRNN: The DNER is completed by a BiLSTM-CRF model, and then a HRNN [2] model completes the DDIs extraction.",
+            "(2) HRNN [2]: a hierarchical RNN-based approach to combine sentence sequence and the shortest dependency paths for DDIs extraction task.",
+            "Some studies have also obtained similar results with the second problem [2].",
+            "However, most of these databases are only updated every 1-3 years [2], which is far from keeping pace with the growth of the medical literature\u2014resulting in significant amounts of DDIs information hidden in biomedical publications.",
+            "[2] introduced a hierarchical RNN-based method, learning the feature representation of the subsequences and shortest dependency paths (SDP) to extract DDIs.",
+            "For instance, if the recognition results of drug entities are \ufb01rst obtained using a BiLSTM-CRF model, then the DDI extraction is done using BiLSTM or HRNN, and the DDI extraction F1 scores are reduced by 3.5% and 3.7%, respectively, compared with the direct use of golden entities.",
+            "In this regard, early researchers encoded input text sequences into the contextualized embedding using convolutional neural networks (CNNs) or recurrent neural networks (RNNs) to extract DDIs based on learned semantic features [4,2]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/s13326-023-00287-7",
+          "title": "Multiple sampling schemes and deep learning improve active learning performance in drug-drug interaction information retrieval analysis from the literature",
+          "year": 2023,
+          "s2_paper_id": "e5488e89adf11dd4c7eef98e9d371f9625bef6cb",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fdgth.2023.1154133",
+          "title": "DDI-MuG: Multi-aspect graphs for drug-drug interaction extraction",
+          "year": 2023,
+          "s2_paper_id": "89cbb16aea55469e56a7b5051196e14055511a00",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "During the past few years, various deep learningbased approaches, such as (Liu et al., 2016; Zhang et al., 2018; Li and Ji, 2019; Ren et al., 2019; Mondal, 2020; Asada et al., 2020; Fatehifar and Karshenas, 2021; Shi et al., 2022) have been proposed to extract DDI knowledge.",
+            ", 2016) No No ASDP-LSTM (Zhang et al., 2018) Word2Vec(Mikolov et al."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1109/ICBCB57893.2023.10246572",
+          "title": "Extracting Drug-Drug Interactions from Biomedical Texts Using BioBERT with Improved Focal Loss",
+          "year": 2023,
+          "s2_paper_id": "7e8ce82692f8f32c584de37ff2294f3bc7a1acfa",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.2196/48115",
+          "title": "Large-Scale Biomedical Relation Extraction Across Diverse Relation Types: Model Development and Usability Study on COVID-19",
+          "year": 2023,
+          "s2_paper_id": "22c6d46e88dd289d700be2767622cc9e9391a0aa",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1111/exsy.13303",
+          "title": "Drug\u2013drug interaction extraction\u2010based system: An natural language processing approach",
+          "year": 2023,
+          "s2_paper_id": "989c337316e25f8e5dadf3847f8bac36d4ed0e3c",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "With the improvement in computing power and the availability of large datasets, deep learning has emerged as a promising approach and has become a dominant method for DDI extraction tasks (Sun et al., 2019; Zhang et al., 2018)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/bib/bbad099",
+          "title": "IK-DDI: a novel framework based on instance position embedding and key external text for DDI extraction",
+          "year": 2023,
+          "s2_paper_id": "701e61977155143529e44264ccdb8443f07c4660",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.isci.2023.106460",
+          "title": "Biomedical discovery through the integrative biomedical knowledge hub (iBKH).",
+          "year": 2023,
+          "s2_paper_id": "5fec42588fd944cb7ae0a332cfcabc78935c2410",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "In this context, some studies have been focused on deriving knowledge from biomedical literature (Xu et al., 2013; Zhang et al., 2018; Zhao et al., 2021) or human healthcare data such as the EHR (electronic health records) (Chen et al., 2019; Rotmensch et al., 2017)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/ijms24054500",
+          "title": "MSEDDI: Multi-Scale Embedding for Predicting Drug\u2014Drug Interaction Events",
+          "year": 2023,
+          "s2_paper_id": "24373248a2eeb6e802ca8ded74a922902ad40e4e",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/sym15020398",
+          "title": "EMSI-BERT: Asymmetrical Entity-Mask Strategy and Symbol-Insert Structure for Drug-Drug Interaction Extraction Based on BERT",
+          "year": 2023,
+          "s2_paper_id": "d98e2e3d15aad162fe19d649ad4b4b4e7eba73d4",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1109/BIBM55620.2022.9995077",
+          "title": "Joint Extraction of Biomedical Entities and Relations based on Decomposition and Recombination Strategy",
+          "year": 2022,
+          "s2_paper_id": "daaeccc4567ef569a80b08c0b71abb0682422fc2",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1109/BIBM55620.2022.9995210",
+          "title": "Location-Guided Token Pair Tagger for Joint Biomedical Entity and Relation Extraction",
+          "year": 2022,
+          "s2_paper_id": "f4cecb7c6d5cf75a9fc57dca1e17b25a7151674f",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "For the pipeline approach, we chose the BiLSTM-CRF model to extract the entities, and then used BiLSTM, HRNN[18], and HieRCNN[19] to extract the relationships, respectively."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/s13321-022-00659-8",
+          "title": "MDDI-SCL: predicting multi-type drug-drug interactions via supervised contrastive learning",
+          "year": 2022,
+          "s2_paper_id": "766b5a05b42b2d6fcdf9a21da84f36f7aee5a64e",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Researchers attempted to extract DDIs from scientific literature and electronic medical records via natural language processing (NLP) techniques [8, 9], infer potential DDIs by similaritybased methods based on known DDIs [10], and predict DDIs by leveraging machine learning [11], network modelling [12, 13], and knowledge graphs [14, 15]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/database/baac074",
+          "title": "Full-text chemical identification with improved generalizability and tagging consistency",
+          "year": 2022,
+          "s2_paper_id": "b0a643b1ae1aad63defe25a713162dd5b0e69c89",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/s12859-022-04876-8",
+          "title": "IMSE: interaction information attention and molecular structure based drug drug interaction extraction",
+          "year": 2022,
+          "s2_paper_id": "7c206d541552a57b4c0cfe5b5113d3cc8e31df01",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.knosys.2022.109703",
+          "title": "Relation extraction for manufacturing knowledge graphs based on feature fusion of attention mechanism and graph convolution network",
+          "year": 2022,
+          "s2_paper_id": "be1550e315f397f64090420b31f883147120875e",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.2196/41136",
+          "title": "Relation Extraction in Biomedical Texts Based on Multi-Head Attention Model With Syntactic Dependency Feature: Modeling Study",
+          "year": 2022,
+          "s2_paper_id": "ee6df9b37b5be91ee72b61ecf8525642db796503",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "In our proposed model, we also integrated the shortest dependency path and dependency-type feature based on the syntactic dependency graph as one of the input features, which has been proven to be effective in several studies [19,31,32]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1039/d2sc02023h",
+          "title": "Learning size-adaptive molecular substructures for explainable drug\u2013drug interaction prediction by substructure-aware graph neural network",
+          "year": 2022,
+          "s2_paper_id": "b010e0a70435b3af0630ac1e81c860328eb0c5bd",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/molecules27093004",
+          "title": "Prediction of Drug-Drug Interaction Using an Attention-Based Graph Neural Network on Drug Molecular Graphs",
+          "year": 2022,
+          "s2_paper_id": "73813f047592f331aa16d38cca7a97c5c04a091e",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1145/3487553.3524675",
+          "title": "Data Models for Annotating Biomedical Scholarly Publications: the Case of CORD-19",
+          "year": 2022,
+          "s2_paper_id": "f5a5b0fe3b8025dd5f89cc1612d85356c79104db",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "In that situation, the annotation is called a sentence-based relation annotation and assigns a natural language sentence to machine-readable semantic information to provide a database for biomedical relation extraction from scholarly publications [71].",
+            "retrieval of biomedical and clinical semantic relations [71]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/s12911-022-01843-4",
+          "title": "Multi-label annotation of text reports from computed tomography of the chest, abdomen, and pelvis using deep learning",
+          "year": 2022,
+          "s2_paper_id": "e3c44299267bffe0014c39a52534b1208481f708",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.csbj.2022.04.021",
+          "title": "On the road to explainable AI in drug-drug interactions prediction: A systematic review",
+          "year": 2022,
+          "s2_paper_id": "25616be56698b89074cbb31f5acf0a8ad3854658",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Some compression techniques such as sentence pruning [32] and anaphora resolution have been applied [33]; Zhao used syntax word embedding strategy [34] instead of the common word embedding technique, some used Bidirectional Encoder Representations from Transformers (BERT) that relies on attention\u2026",
+            "Ensemble methods use multiple learning algorithms to obtain better predictive performance than separate models in DDIs prediction [17,33,48,72,93,94].",
+            "For the DDIs extraction task, a hierarchical RNN was introduced by Zhang et al. [33]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.knosys.2022.108576",
+          "title": "Entity understanding with hierarchical graph learning for enhanced text classification",
+          "year": 2022,
+          "s2_paper_id": "60c7cb6ad29fd77e79a5133a52bd18a3c5544f22",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ymeth.2022.02.002",
+          "title": "DREAM: Drug-Drug Interaction Extraction with Enhanced Dependency Graph and Attention Mechanism.",
+          "year": 2022,
+          "s2_paper_id": "f6d314d5e7328c654daa7918f4efc1c1d7ff9439",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/database/baab077",
+          "title": "Automated extraction of genes associated with antibiotic resistance from the biomedical literature",
+          "year": 2022,
+          "s2_paper_id": "08a3cc9ec38a2b78b8c9bed856712852d02f13d5",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fphar.2021.794205",
+          "title": "Prediction of the Drug\u2013Drug Interaction Types with the Unified Embedding Features from Drug Similarity Networks",
+          "year": 2021,
+          "s2_paper_id": "75003552e523b0eeb642d60b629a85b0e57d0f6f",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jbi.2021.103956",
+          "title": "MRC4BioER: Joint extraction of biomedical entities and relations in the machine reading comprehension framework",
+          "year": 2021,
+          "s2_paper_id": "dda12a10a04e123ff0adcc9d46959761c0099261",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/bib/bbab421",
+          "title": "MDF-SA-DDI: predicting drug-drug interaction events based on multi-source drug fusion, multi-source feature fusion and transformer self-attention mechanism",
+          "year": 2021,
+          "s2_paper_id": "bdecc2f8c588df08834819eae8c58a0c6c54daa5",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jbi.2021.103893",
+          "title": "Enhancing Biomedical Relation Extraction with Transformer Models using Shortest Dependency Path Features and Triplet Information",
+          "year": 2021,
+          "s2_paper_id": "8a44417282673c9b04e5b95759992a9bd8ed061f",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1145/3447548.3467118",
+          "title": "Knowledge-Guided Efficient Representation Learning for Biomedical Domain",
+          "year": 2021,
+          "s2_paper_id": "fc22d2819ff62c6d354820a1c1e154557a23cf9f",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "We follow the pre-processing procedure described in [44] to reduce noise in the dataset."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "SciFive: a text-to-text transformer model for biomedical literature",
+          "year": 2021,
+          "s2_paper_id": "6003d268e9b5230dbc3e320497b50329d6186816",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "We use SciFive to classify documents from the HoC dataset (Baker et al. , 2015), evaluating the F1 score on the sample average in the same manner as Zhang et al. (2017)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.patter.2021.100328",
+          "title": "Machine learning applications for therapeutic tasks with genomics data",
+          "year": 2021,
+          "s2_paper_id": "9d6bccf69171d3868ef74fd0705af90c6548d236",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fphar.2020.582470",
+          "title": "Integrated Random Negative Sampling and Uncertainty Sampling in Active Learning Improve Clinical Drug Safety Drug\u2013Drug Interaction Information Retrieval",
+          "year": 2021,
+          "s2_paper_id": "d91a0039f94311234912ccd9f4430404457a59a8",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "ELECTRAMed: a new pre-trained language representation model for biomedical NLP",
+          "year": 2021,
+          "s2_paper_id": "1991ea2ec85113cadf38faea840f4b5cf73ae0c7",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/s12859-021-04111-w",
+          "title": "Performance improvement for a 2D convolutional neural network by using SSC encoding on protein\u2013protein interaction tasks",
+          "year": 2021,
+          "s2_paper_id": "c73e3af7bf688e76fd8c038b1357e6a6ce232859",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1101/2021.03.12.21253461",
+          "title": "CBKH: The Cornell Biomedical Knowledge Hub",
+          "year": 2021,
+          "s2_paper_id": "2e56b66eb230c782cd07fbe3f2c1f792514427db",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1109/TCBB.2022.3172421",
+          "title": "Enhancing Drug-Drug Interaction Prediction Using Deep Attention Neural Networks",
+          "year": 2021,
+          "s2_paper_id": "7e1d701b59ad78dd2ae289d842410fc1277e6b36",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Zhang et al. [5, 6] proposed a hierarchical RNNs-based model, which combined short dependency path (SDP) and sentence sequence to obtain semantic information and used attention mechanism to map representations."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1038/s41598-021-83966-8",
+          "title": "Discovering microbe-disease associations from the literature using a hierarchical long short-term memory network and an ensemble parser model",
+          "year": 2021,
+          "s2_paper_id": "210edbf5397457d0038f7741fac13bc1c8df7803",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jbi.2021.103707",
+          "title": "Drug-Drug interaction extraction using a position and similarity fusion-based attention mechanism",
+          "year": 2021,
+          "s2_paper_id": "905c3c7ce72b6fcde4c0dfcb4383e88b02671c55",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Multi-Label Annotation of Chest Abdomen Pelvis Computed Tomography Text Reports Using Deep Learning",
+          "year": 2021,
+          "s2_paper_id": "388e842ee0a597b8ebf57b850feaa07aa3d91ec7",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1002/wcms.1516",
+          "title": "Toxicity prediction based on artificial intelligence: A multidisciplinary overview",
+          "year": 2021,
+          "s2_paper_id": "fdf96677fc2cde00805f63a4639e56b34e857c85",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Learning Better Sentence Representation with Syntax Information",
+          "year": 2021,
+          "s2_paper_id": "2a0fbcd74b3ab97f64b0d59f863081f53f929035",
+          "intents": [
+            "background",
+            "methodology"
+          ],
+          "is_influential": true,
+          "contexts": [
+            "Zhang et al. [19] used a tree-structured LSTM model to infuse dependency path information with model.",
+            "It is notable that previous studies [9,20] have also proved that dependency syntax information plays an important role in relation extraction.",
+            "Compared with other dependency parser tree based methods [19,9,20], the proposed DSE can be trained in a mini-batch way and is shown to be more effective.",
+            "Zhang et al. [21] and Sun et al. [16] considered incorporating knowledge graphs or entity information with contextualized embeddings to enhance language representations.",
+            "In DDI2013 Extraction task, Zhang et al [20] intergrated the shortest dependent path information and sentence sequence via hierarchical RNN network, which is superior to other state-of-the-art methods."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.38125/OAJBS.000247",
+          "title": "Drug-Drug Interaction Extraction Based on Bidirectional Gated Recurrent Unit networks and Capsule Networks",
+          "year": 2021,
+          "s2_paper_id": "3d6eb246e0c74112ea7497c3192a3600f5830b01",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "BERTKG-DDI: Towards Incorporating Entity-specific Knowledge Graph Information in Predicting Drug-Drug Interactions",
+          "year": 2020,
+          "s2_paper_id": "4909a83d68dbf8625766aba929eb84891afbfdb5",
+          "intents": [
+            "background",
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Methods Advice Effect Mechanism Interaction Total F1 Score F1 Score F1 Score F1 Score F1 Score (Zhang et al. 2017) 0.",
+            "(Zhang et al. 2017) has presented a hierarchical recurrent neural networks (RNNs)-based method to integrate the SDP and sentence sequence for DDI extraction task."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.18653/v1/2020.knlp-1.4",
+          "title": "BERTChem-DDI : Improved Drug-Drug Interaction Prediction from text using Chemical Structure Information",
+          "year": 2020,
+          "s2_paper_id": "74b822d2f857aefc0da7e371e744d1ed5565d36c",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            ", 2018) 81 71 73 45 72 (Zhang et al., 2017) 80 71 74 54 72 (Sun et al."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1155/2020/8839563",
+          "title": "Algorithm and Simulation of Association Rules of Drug Relationship Based on Network Model",
+          "year": 2020,
+          "s2_paper_id": "9fa67ac926f69f4511750f76de1e541ddb6ffb9a",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1061/9780784482889.015",
+          "title": "Syntactic Approach to Extracting Key Elements of Work Modification Cause in Change-Order Documents",
+          "year": 2020,
+          "s2_paper_id": "c47a31596a3ef049d94432f5de7fb15ddb1c3818",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.eswa.2020.113538",
+          "title": "AGCN: Attention-based graph convolutional networks for drug-drug interaction extraction",
+          "year": 2020,
+          "s2_paper_id": "9bb50a2c23b8ada70c1b856d7d402dece9ac27d9",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/jamia/ocaa205",
+          "title": "The impact of learning Unified Medical Language System knowledge embeddings in relation extraction from biomedical texts",
+          "year": 2020,
+          "s2_paper_id": "d6249d99bd00073356672db77d9a4769e997b280",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Zheng et al 14 used a hierarchical recurrent neural network model, while Li et al 15 relations encoded in biomedical ontologies is distinct from embedding retrofitting, a graph-based learning technique that relies on lexical relational resources for producing higher-quality word embeddings, as\u2026",
+            "Zheng et al 14 used a hierarchical recurrent neural network model, while Li et al 15 relations encoded in biomedical ontologies is distinct from embedding retrofitting, a graph-based learning technique that relies on lexical relational resources for producing higher-quality word embeddings, as introduced in Faruqui et al., 16 Alawad et al 17 have applied embedding retrofitting informed by UMLS as inputs for information extraction from pathology reports."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/bib/bbz087",
+          "title": "Deep learning for drug-drug interaction extraction from the literature: a review",
+          "year": 2020,
+          "s2_paper_id": "1b566415ec2920b08b2aeeb8a7bf79bfe7e3463d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1145/3411408.3411461",
+          "title": "Drug-Drug Interaction Classification Using Attention Based Neural Networks",
+          "year": 2020,
+          "s2_paper_id": "cd744b659cbff248c8b1e18382cb44c77a88e630",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fcell.2020.00673",
+          "title": "Named Entity Recognition and Relation Detection for Biomedical Information Extraction",
+          "year": 2020,
+          "s2_paper_id": "fc93fd5802598d8034056b94f53b6f76c32a3805",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Extending this further, Zhang et al. (2018c) experiments with bidirectional RNN models using two hierarchical layers, one with two simple RNNs, one with two GRUs, and last with two LSTMs.",
+            "Signi\ufb01cantly, the majority of deep learning methods use sentence dependency graphs mentioned in the rule-based approach ( Figure 8 ) to extract the shortest path between entities and relations as features for training (Hua and Quan, 2016a,b; Zhang et al., 2018c; Li et al., 2019)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.26434/chemrxiv.12800348.v2",
+          "title": "Fast Neural Network Engine for Natural Science Language Processing: A Drug-Search Case.",
+          "year": 2020,
+          "s2_paper_id": "51da19330df4d8e94588097b6bed62efea8f2a00",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/s13042-020-01176-6",
+          "title": "Chinese medical relation extraction based on multi-hop self-attention mechanism",
+          "year": 2020,
+          "s2_paper_id": "8cb39871e4c186902b0b605679dc16ad14592d1d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1055/s-0040-1702001",
+          "title": "Medical Information Extraction in the Age of Deep Learning",
+          "year": 2020,
+          "s2_paper_id": "b2ff13555c3e9264e7d56644b659b9d201a270b0",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1145/3458754",
+          "title": "Domain-Specific Language Model Pretraining for Biomedical Natural Language Processing",
+          "year": 2020,
+          "s2_paper_id": "a2f38d03fd363e920494ad65a5f0ad8bd18cd60b",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ymeth.2020.05.007",
+          "title": "Predicting Drug-drug Interactions using Multi-modal Deep Auto-encoders based Network Embedding and Positive-unlabeled Learning.",
+          "year": 2020,
+          "s2_paper_id": "f0105748ab9f880012ddf0c9d8c7a5a9bc4cd76c",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jbi.2020.103451",
+          "title": "Extracting drug-drug interactions from texts with BioBERT and multiple entity-aware attentions",
+          "year": 2020,
+          "s2_paper_id": "c8b4d4b7f32d9c760dea557b4571047a880f60bb",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/bib/bbaa057",
+          "title": "Recent advances in biomedical literature mining",
+          "year": 2020,
+          "s2_paper_id": "d1e9e2355a5ae34aedb40c64db5f00ab06989eee",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/bib/bbaa040",
+          "title": "Prediction of drug adverse events using deep learning in pharmaceutical discovery",
+          "year": 2020,
+          "s2_paper_id": "27ee0d1392cbc80b1dc560bf0ec666a42ba61665",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jbi.2020.103432",
+          "title": "Drug-drug interaction extraction via hybrid neural networks on biomedical literature",
+          "year": 2020,
+          "s2_paper_id": "fc9b140b62bd3bd4bdc8bb4de1af031f9f6dd1af",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jbi.2020.103384",
+          "title": "A neural network-based joint learning approach for biomedical entity and relation extraction from biomedical literature",
+          "year": 2020,
+          "s2_paper_id": "db2b5730183c5f92ba1d35eb95cf1e63a1cf4be0",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.2196/17644",
+          "title": "Document-Level Biomedical Relation Extraction Leveraging Pretrained Self-Attention Structure and Entity Replacement: Algorithm and Pretreatment Method Validation Study",
+          "year": 2019,
+          "s2_paper_id": "4c72d6e102408889a6b3179d08b55b75a115bb90",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Most approaches [4-7] have focused on single sentences containing biomedical relations.",
+            "For example, Zhang et al [4] presented a hierarchical recurrent neural network (RNN) to combine raw sentences with their short dependency paths for a DDI task."
+          ],
+          "source": "semantic_scholar"
+        }
+      ],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/34/5/828/25117737/btx659.pdf",
+          "host_type": "HYBRID",
+          "is_best": false,
+          "source": "semantic_scholar"
+        }
+      ],
+      "best_oa_url": "https://academic.oup.com/bioinformatics/article-pdf/34/5/828/25117737/btx659.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Computer Science",
+          "scheme": "s2_external",
+          "source": "semantic_scholar"
+        },
+        {
+          "value": "Medicine",
+          "scheme": "s2_external",
+          "source": "semantic_scholar"
+        },
+        {
+          "value": "Computer Science",
+          "scheme": "s2_s2-fos-model",
+          "source": "semantic_scholar"
+        },
+        {
+          "value": "Medicine",
+          "scheme": "s2_s2-fos-model",
+          "source": "semantic_scholar"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "influential_citation_count",
+          "value": 8.0,
+          "source": "semantic_scholar"
+        }
+      ],
+      "tldr": "A hierarchical recurrent neural networks (RNNs)\u2010based method to integrate the SDP and sentence sequence for DDI extraction task and experimental results show that the sentence sequence and SDP are complementary to each other.",
+      "citation_styles": {
+        "bibtex": "@Article{Zhang2017DrugdrugIE,\n author = {Yijia Zhang and Wei Zheng and Hongfei Lin and Jian Wang and Zhihao Yang and M. Dumontier},\n booktitle = {Bioinform.},\n journal = {Bioinformatics},\n pages = {828 - 835},\n title = {Drug\u2013drug interaction extraction via hierarchical RNNs on sequence and shortest dependency paths},\n volume = {34},\n year = {2017}\n}\n"
+      },
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "Drug\u2013drug interaction extraction via hierarchical RNNs on sequence and shortest dependency paths",
+      "publication_date": "2017-10-24",
+      "publication_year": 2017,
+      "work_type": "journal-article",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "Bioinformatics",
+      "issn": [
+        "1367-4811",
+        "1367-4803"
+      ],
+      "doi": "10.1093/bioinformatics/btx659",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_locations": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/34/5/828/25117737/btx659.pdf",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/34/5/828/25117737/btx659.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btx659",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/34/5/828/25117737/btx659.pdf",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/34/5/828/25117737/btx659.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btx659",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://cris.maastrichtuniversity.nl/en/publications/7824e7a1-f629-434d-97c5-1634efcf05ff",
+          "landing_page_url": "https://cris.maastrichtuniversity.nl/en/publications/7824e7a1-f629-434d-97c5-1634efcf05ff",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "Maastricht University",
+          "source": "unpaywall"
+        },
+        {
+          "url": "http://europepmc.org/pmc/articles/PMC6030919",
+          "landing_page_url": "http://europepmc.org/pmc/articles/PMC6030919",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "European Bioinformatics Institute",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6030919",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6030919",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://academic.oup.com/bioinformatics/article-pdf/34/5/828/25117737/btx659.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "Drug-drug interaction extraction via hierarchical RNNs on sequence and shortest dependency paths.",
+      "abstract": "<h4>Motivation</h4>Adverse events resulting from drug-drug interactions (DDI) pose a serious health issue. The ability to automatically extract DDIs described in the biomedical literature could further efforts for ongoing pharmacovigilance. Most of neural networks-based methods typically focus on sentence sequence to identify these DDIs, however the shortest dependency path (SDP) between the two entities contains valuable syntactic and semantic information. Effectively exploiting such information may improve DDI extraction.<h4>Results</h4>In this article, we present a hierarchical recurrent neural networks (RNNs)-based method to integrate the SDP and sentence sequence for DDI extraction task. Firstly, the sentence sequence is divided into three subsequences. Then, the bottom RNNs model is employed to learn the feature representation of the subsequences and SDP, and the top RNNs model is employed to learn the feature representation of both sentence sequence and SDP. Furthermore, we introduce the embedding attention mechanism to identify and enhance keywords for the DDI extraction task. We evaluate our approach using the DDI extraction 2013 corpus. Our method is competitive or superior in performance as compared with other state-of-the-art methods. Experimental results show that the sentence sequence and SDP are complementary to each other. Integrating the sentence sequence with SDP can effectively improve the DDI extraction performance.<h4>Availability and implementation</h4>The experimental data is available at https://github.com/zhangyijia1979/hierarchical-RNNs-model-for-DDI-extraction.<h4>Contact</h4>zhyj@dlut.edu.cn or michel.dumontier@maastrichtuniversity.nl.<h4>Supplementary information</h4>Supplementary data are available at Bioinformatics online.",
+      "publication_year": 2018,
+      "language": "eng",
+      "container_title": "Bioinformatics (Oxford, England)",
+      "volume": "34",
+      "issue": "5",
+      "pages": "828-835",
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btx659",
+      "pmid": "29077847",
+      "pmcid": "PMC6030919",
+      "authors": [
+        {
+          "name": {
+            "given": "Yijia",
+            "family": "Zhang",
+            "full_name": "Zhang Y",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "College of Computer Science and Technology, Dalian University of Technology, Dalian, 116023,China.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Stanford Center for Biomedical Informatics Research, School of Medicine, Stanford University, Stanford, CA, 94305, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Wei",
+            "family": "Zheng",
+            "full_name": "Zheng W",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "College of Computer Science and Technology, Dalian University of Technology, Dalian, 116023,China.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "College of Software, Dalian JiaoTong University, Dalian, 116028, China.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Hongfei",
+            "family": "Lin",
+            "full_name": "Lin H",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "College of Computer Science and Technology, Dalian University of Technology, Dalian, 116023,China.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jian",
+            "family": "Wang",
+            "full_name": "Wang J",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "College of Computer Science and Technology, Dalian University of Technology, Dalian, 116023,China.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Zhihao",
+            "family": "Yang",
+            "full_name": "Yang Z",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "College of Computer Science and Technology, Dalian University of Technology, Dalian, 116023,China.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michel",
+            "family": "Dumontier",
+            "full_name": "Dumontier M",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Institute of Data Science, Maastricht University, Maastricht, 6229 ER, The Netherlands.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 77,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "url": "https://europepmc.org/articles/PMC6030919",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC6030919?pdf=render",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "61572098 and 61572102",
+          "agency": "Natural Science Foundation of China",
+          "pi_names": [],
+          "source": "europe_pmc"
+        }
+      ],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Humans",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Drug Interactions",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Publications",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Data Mining",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Data Mining",
+          "qualifier_name": "methods",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Pharmacovigilance",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Neural Networks, Computer",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 77.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btx659",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC6030919",
+          "availability": "Open access",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC6030919?pdf=render",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btx659",
+      "pmid": "23671333",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btx659",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btx659",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btx659",
+      "authors": [
+        {
+          "name": {
+            "given": "Michel",
+            "family": "Dumontier",
+            "full_name": "Michel Dumontier",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0003-4727-9435",
+          "given_names": "Michel",
+          "family_names": "Dumontier",
+          "credit_name": "Michel Dumontier",
+          "other_names": [],
+          "institutions": [
+            "Carleton University",
+            "Maastricht University",
+            "Stanford University",
+            "University of Manitoba",
+            "University of Toronto"
+          ],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btx659",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1093/bioinformatics/btx659",
+    "pmid": "29077847",
+    "pmcid": "PMC6030919",
+    "openalex_id": "https://openalex.org/W2765742249",
+    "s2_paper_id": "087d19037086020275bfb780df8cf1893ee62e97",
+    "s2_corpus_id": "2957401",
+    "handles": [],
+    "orcids": [
+      "0000-0001-6186-2024",
+      "0000-0001-8921-5304",
+      "0000-0002-4656-7446",
+      "0000-0002-5843-4675",
+      "0000-0003-0872-7688",
+      "0000-0003-4727-9435"
+    ],
+    "ror_ids": [
+      "https://ror.org/00f54p054",
+      "https://ror.org/023hj5876",
+      "https://ror.org/02jz4aj89",
+      "https://ror.org/05gp45n31"
+    ],
+    "grant_ids": [
+      "61572098 and 61572102"
+    ],
+    "nct_ids": [],
+    "pmid_source": "europe_pmc",
+    "pmcid_source": "europe_pmc"
+  },
+  "conflicts": {
+    "doi": "10.1093/bioinformatics/btx659",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 144,
+          "openalex": 197,
+          "semantic_scholar": 150,
+          "europe_pmc": 77
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 38,
+          "openalex": 29,
+          "semantic_scholar": 40
+        },
+        "risk": "low"
+      },
+      {
+        "field": "title",
+        "values": {
+          "crossref": "Drug\u2013drug interaction extraction via hierarchical RNNs on sequence and shortest dependency paths",
+          "openalex": "Drug\u2013drug interaction extraction via hierarchical RNNs on sequence and shortest dependency paths",
+          "semantic_scholar": "Drug\u2013drug interaction extraction via hierarchical RNNs on sequence and shortest dependency paths",
+          "unpaywall": "Drug\u2013drug interaction extraction via hierarchical RNNs on sequence and shortest dependency paths",
+          "europe_pmc": "Drug-drug interaction extraction via hierarchical RNNs on sequence and shortest dependency paths"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publication_year",
+        "values": {
+          "crossref": 2017,
+          "openalex": 2017,
+          "semantic_scholar": 2017,
+          "unpaywall": 2017,
+          "europe_pmc": 2018
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "semantic_scholar": "JournalArticle",
+          "unpaywall": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 6,
+          "openalex": 6,
+          "semantic_scholar": 6,
+          "unpaywall": 6,
+          "europe_pmc": 6,
+          "orcid": 1
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Oxford University Press (OUP)",
+          "openalex": "https://openalex.org/P4310311648",
+          "unpaywall": "Oxford University Press (OUP)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Bioinformatics",
+          "openalex": "Bioinformatics",
+          "semantic_scholar": "Bioinformatics",
+          "unpaywall": "Bioinformatics",
+          "europe_pmc": "Bioinformatics (Oxford, England)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "mesh_term_count",
+        "values": {
+          "openalex": 18,
+          "europe_pmc": 7
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 1,
+    "conflict_count": 10
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1093/bioinformatics/btx659",
+    "fetched_at": "2026-02-11T18:41:00.548518+00:00"
+  }
+}

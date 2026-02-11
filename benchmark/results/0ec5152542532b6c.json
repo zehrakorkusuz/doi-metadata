@@ -1,0 +1,2093 @@
+{
+  "doi": "10.7717/peerj.2584",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T15:34:15.792255Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "VSEARCH: a versatile open source tool for metagenomics",
+      "abstract": "<jats:sec>\n                    <jats:title>Background</jats:title>\n                    <jats:p>VSEARCH is an open source and free of charge multithreaded 64-bit tool for processing and preparing metagenomics, genomics and population genomics nucleotide sequence data. It is designed as an alternative to the widely used USEARCH tool (Edgar, 2010) for which the source code is not publicly available, algorithm details are only rudimentarily described, and only a memory-confined 32-bit version is freely available for academic use.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Methods</jats:title>\n                    <jats:p>When searching nucleotide sequences, VSEARCH uses a fast heuristic based on words shared by the query and target sequences in order to quickly identify similar sequences, a similar strategy is probably used in USEARCH. VSEARCH then performs optimal global sequence alignment of the query against potential target sequences, using full dynamic programming instead of the seed-and-extend heuristic used by USEARCH. Pairwise alignments are computed in parallel using vectorisation and multiple threads.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results</jats:title>\n                    <jats:p>\n                      VSEARCH includes most commands for analysing nucleotide sequences available in USEARCH version 7 and several of those available in USEARCH version 8, including searching (exact or based on global alignment), clustering by similarity (using length pre-sorting, abundance pre-sorting or a user-defined order), chimera detection (reference-based or\n                      <jats:italic>de novo</jats:italic>\n                      ), dereplication (full length or prefix), pairwise alignment, reverse complementation, sorting, and subsampling. VSEARCH also includes commands for FASTQ file processing, i.e., format detection, filtering, read quality statistics, and merging of paired reads. Furthermore, VSEARCH extends functionality with several new commands and improvements, including shuffling, rereplication, masking of low-complexity sequences with the well-known DUST algorithm, a choice among different similarity definitions, and FASTQ file format conversion. VSEARCH is here shown to be more accurate than USEARCH when performing searching, clustering, chimera detection and subsampling, while on a par with USEARCH for paired-ends read merging. VSEARCH is slower than USEARCH when performing clustering and chimera detection, but significantly faster when performing paired-end reads merging and dereplication. VSEARCH is available at\n                      <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/torognes/vsearch\">https://github.com/torognes/vsearch</jats:ext-link>\n                      under either the BSD 2-clause license or the GNU General Public License version 3.0.\n                    </jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Discussion</jats:title>\n                    <jats:p>VSEARCH has been shown to be a fast, accurate and full-fledged alternative to USEARCH. A free and open-source versatile tool for sequence analysis is now available to the metagenomics community.</jats:p>\n                  </jats:sec>",
+      "publication_date": "2016-10-18",
+      "publication_year": 2016,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "PeerJ",
+      "container_title": "PeerJ",
+      "volume": "4",
+      "pages": "e2584",
+      "issn": [
+        "2167-8359"
+      ],
+      "doi": "10.7717/peerj.2584",
+      "authors": [
+        {
+          "name": {
+            "given": "Torbj\u00f8rn",
+            "family": "Rognes",
+            "full_name": "Torbj\u00f8rn Rognes",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Informatics, University of Oslo, Oslo, Norway",
+              "source": "crossref"
+            },
+            {
+              "name": "Department of Microbiology, Oslo University Hospital, Oslo, Norway",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Tom\u00e1\u0161",
+            "family": "Flouri",
+            "full_name": "Tom\u00e1\u0161 Flouri",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Heidelberg Institute for Theoretical Studies, Heidelberg, Germany",
+              "source": "crossref"
+            },
+            {
+              "name": "Institute for Theoretical Informatics, Karlsruhe Institute of Technology, Karlsruhe, Germany",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ben",
+            "family": "Nichols",
+            "full_name": "Ben Nichols",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "School of Engineering, University of Glasgow, Glasgow, United Kingdom",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Christopher",
+            "family": "Quince",
+            "full_name": "Christopher Quince",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "School of Engineering, University of Glasgow, Glasgow, United Kingdom",
+              "source": "crossref"
+            },
+            {
+              "name": "Warwick Medical School, University of Warwick, Coventry, United Kingdom",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Fr\u00e9d\u00e9ric",
+            "family": "Mah\u00e9",
+            "full_name": "Fr\u00e9d\u00e9ric Mah\u00e9",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Ecology, University of Kaiserslautern, Kaiserslautern, Germany",
+              "source": "crossref"
+            },
+            {
+              "name": "UMR LSTM, CIRAD, Montpellier, France",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 8899,
+      "reference_count": 40,
+      "references": [
+        {
+          "doi": "10.1093/nar/25.17.3389",
+          "title": "Gapped BLAST and PSI-BLAST: a new generation of protein database search programs",
+          "year": 1997,
+          "author": "Altschul",
+          "key": "10.7717/peerj.2584/ref-1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gks1005",
+          "title": "Rfam 11.0: 10 years of RNA families",
+          "year": 2013,
+          "author": "Burge",
+          "key": "10.7717/peerj.2584/ref-2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nmeth.f.303",
+          "title": "QIIME allows analysis of high-throughput community sequencing data",
+          "year": 2010,
+          "author": "Caporaso",
+          "key": "10.7717/peerj.2584/ref-3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkp1137",
+          "title": "The Sanger FASTQ file format for sequences with quality scores, and the Solexa/Illumina FASTQ variants",
+          "year": 2010,
+          "author": "Cock",
+          "key": "10.7717/peerj.2584/ref-4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1128/AEM.03006-05",
+          "title": "Greengenes, a chimera-checked 16S rRNA gene database and workbench compatible with ARB",
+          "year": 2006,
+          "author": "DeSantis",
+          "key": "10.7717/peerj.2584/ref-5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "US Secure Hash Algorithm 1 (SHA)",
+          "year": 2001,
+          "author": "Eastlake",
+          "key": "10.7717/peerj.2584/ref-6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btq461",
+          "title": "Search and clustering orders of magnitude faster than BLAST",
+          "year": 2010,
+          "author": "Edgar",
+          "key": "10.7717/peerj.2584/ref-7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nmeth.2604",
+          "title": "UPARSE: highly accurate OTU sequences from microbial amplicon reads",
+          "year": 2013,
+          "author": "Edgar",
+          "key": "10.7717/peerj.2584/ref-8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btv401",
+          "title": "Error filtering, pair assembly and error correction for next-generation sequencing reads",
+          "year": 2015,
+          "author": "Edgar",
+          "key": "10.7717/peerj.2584/ref-9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btr381",
+          "title": "UCHIME improves sensitivity and speed of chimera detection",
+          "year": 2011,
+          "author": "Edgar",
+          "key": "10.7717/peerj.2584/ref-10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Fowler / Noll / Vo (FNV) hash",
+          "year": 1991,
+          "author": "Fowler",
+          "key": "10.7717/peerj.2584/ref-11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "zlib: a massively spiffy yet delicately unobtrusive compression library",
+          "year": 2016,
+          "author": "Gailly",
+          "key": "10.7717/peerj.2584/ref-12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s12915-014-0069-1",
+          "title": "The Earth Microbiome project: successes and aspirations",
+          "year": 2014,
+          "author": "Gilbert",
+          "key": "10.7717/peerj.2584/ref-13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/BF02460299",
+          "title": "Efficient methods for multiple sequence alignment with guaranteed error bounds",
+          "year": 1993,
+          "author": "Gusfield",
+          "key": "10.7717/peerj.2584/ref-14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s40168-015-0081-x",
+          "title": "Stability of operational taxonomic units: an important but neglected property for analyzing microbial diversity",
+          "year": 2015,
+          "author": "He",
+          "key": "10.7717/peerj.2584/ref-15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1145/360825.360861",
+          "title": "A linear space algorithm for computing maximal common subsequences",
+          "year": 1975,
+          "author": "Hirschberg",
+          "key": "10.7717/peerj.2584/ref-16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/BF01908075",
+          "title": "Comparing partitions",
+          "year": 1985,
+          "author": "Hubert",
+          "key": "10.7717/peerj.2584/ref-17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nature11234",
+          "title": "Structure, function and diversity of the healthy human microbiome",
+          "year": 2012,
+          "author": "Human Microbiome Project Consortium",
+          "key": "10.7717/peerj.2584/ref-18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pbio.1001177",
+          "title": "A holistic approach to marine eco-systems biology",
+          "year": 2011,
+          "author": "Karsenti",
+          "key": "10.7717/peerj.2584/ref-19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btp324",
+          "title": "Fast and accurate short read alignment with Burrows-Wheeler transform",
+          "year": 2009,
+          "author": "Li",
+          "key": "10.7717/peerj.2584/ref-20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.cub.2014.02.050",
+          "title": "The patterning of rare and abundant community assemblages in coastal marine-planktonic microbial eukaryotes",
+          "year": 2014,
+          "author": "Logares",
+          "key": "10.7717/peerj.2584/ref-21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/gb-2009-10-10-r103",
+          "title": "ALLPATHS 2: small genomes assembled accurately and with high continuity from short paired reads",
+          "year": 2009,
+          "author": "MacCallum",
+          "key": "10.7717/peerj.2584/ref-22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.7717/peerj.593",
+          "title": "Swarm: robust and fast clustering method for amplicon-based studies",
+          "year": 2014,
+          "author": "Mah\u00e9",
+          "key": "10.7717/peerj.2584/ref-23",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-13-31",
+          "title": "PANDAseq: paired-end assembler for illumina sequences",
+          "year": 2012,
+          "author": "Masella",
+          "key": "10.7717/peerj.2584/ref-24",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Optimal alignments in linear space",
+          "year": 1988,
+          "author": "Myers",
+          "key": "10.7717/peerj.2584/ref-25",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/0022-2836(70)90057-4",
+          "title": "A general method applicable to the search for similarities in the amino acid sequence of two proteins",
+          "year": 1970,
+          "author": "Needleman",
+          "key": "10.7717/peerj.2584/ref-26",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/072447",
+          "title": "Simera: Modelling the PCR Process to Simulate Realistic Chimera Formation",
+          "year": 2016,
+          "author": "Nichols",
+          "key": "10.7717/peerj.2584/ref-27",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gks1219",
+          "title": "The SILVA ribosomal RNA gene database project: improved data processing and web-based tools",
+          "year": 2013,
+          "author": "Quast",
+          "key": "10.7717/peerj.2584/ref-28",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.2307/2284239",
+          "title": "Objective criteria for the evaluation of clustering methods",
+          "year": 1971,
+          "author": "Rand",
+          "key": "10.7717/peerj.2584/ref-29",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.17487/rfc1321",
+          "title": "The MD5 message-digest algorithm",
+          "year": 1992,
+          "author": "Rivest",
+          "key": "10.7717/peerj.2584/ref-30",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/461472a",
+          "title": "A safe operating space for humanity",
+          "year": 2009,
+          "author": "Rockstr\u00f6m",
+          "key": "10.7717/peerj.2584/ref-31",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-12-221",
+          "title": "Faster Smith-Waterman database searches by inter-sequence SIMD parallelisation",
+          "year": 2011,
+          "author": "Rognes",
+          "key": "10.7717/peerj.2584/ref-32",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gku1341",
+          "title": "Insight into biases and sequencing errors for amplicon sequencing with the Illumina MiSeq platform",
+          "year": 2015,
+          "author": "Schirmer",
+          "key": "10.7717/peerj.2584/ref-33",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1128/mSystems.00027-16",
+          "title": "Application of a database-independent approach to assess the quality of operational taxonomic unit picking methods",
+          "year": 2016,
+          "author": "Schloss",
+          "key": "10.7717/peerj.2584/ref-34",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1128/AEM.01541-09",
+          "title": "Introducing mothur: open-source, platform-independent, community-supported software for describing and comparing microbial communities",
+          "year": 2009,
+          "author": "Schloss",
+          "key": "10.7717/peerj.2584/ref-35",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "bzip2 and libbzip2",
+          "year": 2016,
+          "author": "Seward",
+          "key": "10.7717/peerj.2584/ref-36",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bib/bbt067",
+          "title": "New developments of alignment-free sequence comparison: measures, statistics and next-generation sequencing",
+          "year": 2014,
+          "author": "Song",
+          "key": "10.7717/peerj.2584/ref-37",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1126/science.1259855",
+          "title": "Sustainability. Planetary boundaries: guiding human development on a changing planet",
+          "year": 2015,
+          "author": "Steffen",
+          "key": "10.7717/peerj.2584/ref-38",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.7717/peerj.1487",
+          "title": "De novo clustering methods outperform reference-based methods for assigning 16S rRNA gene sequences to operational taxonomic units",
+          "year": 2015,
+          "author": "Westcott",
+          "key": "10.7717/peerj.2584/ref-39",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btt593",
+          "title": "PEAR: a fast and accurate Illumina Paired-End reAd mergeR",
+          "year": 2014,
+          "author": "Zhang",
+          "key": "10.7717/peerj.2584/ref-40",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://peerj.com/articles/2584.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://peerj.com/articles/2584.xml",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://peerj.com/articles/2584.html",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://peerj.com/articles/2584.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [
+        {
+          "name": "UNINETT Sigma2",
+          "award_numbers": [
+            "NN9383K"
+          ],
+          "source": "crossref"
+        },
+        {
+          "name": "Unilever",
+          "doi": "10.13039/100007190",
+          "award_numbers": [],
+          "source": "crossref"
+        },
+        {
+          "name": "MRC Cloud Infrastructure for Microbial Bioinformatics (CLIMB)",
+          "award_numbers": [
+            "MR/L015080/1"
+          ],
+          "source": "crossref"
+        },
+        {
+          "name": "MRC Cloud Infrastructure for Microbial Bioinformatics (CLIMB)",
+          "award_numbers": [
+            "MR/M50161X/1"
+          ],
+          "source": "crossref"
+        },
+        {
+          "name": "Deutsche Forschungsgemeinschaft",
+          "doi": "10.13039/501100001659",
+          "award_numbers": [
+            "#DU1319/1-1"
+          ],
+          "source": "crossref"
+        }
+      ],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "http://creativecommons.org/licenses/by/4.0/",
+          "content_version": "unspecified",
+          "delay_in_days": 0,
+          "source": "crossref"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.7717/peerj.2584",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.7717/peerj.2584",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.7717/peerj.2584",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "VSEARCH: a versatile open source tool for metagenomics",
+      "publication_date": "2016-10-18",
+      "publication_year": 2016,
+      "work_type": "journal-article",
+      "publisher": "PeerJ",
+      "container_title": "PeerJ",
+      "issn": [
+        "2167-8359"
+      ],
+      "doi": "10.7717/peerj.2584",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://peerj.com/articles/2584.pdf",
+          "pdf_url": "https://peerj.com/articles/2584.pdf",
+          "landing_page_url": "https://doi.org/10.7717/peerj.2584",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://peerj.com/articles/2584.pdf",
+          "pdf_url": "https://peerj.com/articles/2584.pdf",
+          "landing_page_url": "https://doi.org/10.7717/peerj.2584",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://publikationen.bibliothek.kit.edu/1000062113",
+          "landing_page_url": "https://publikationen.bibliothek.kit.edu/1000062113",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "Karlsruhe Institute of Technology",
+          "source": "unpaywall"
+        },
+        {
+          "url": "http://agritrop.cirad.fr/583296/",
+          "landing_page_url": "http://agritrop.cirad.fr/583296/",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "Centre de Coop\u00e9ration Internationale en Recherche Agronomique pour le D\u00e9veloppement",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://doaj.org/article/c6afe7dddd824879a8d6f6c853df9c22",
+          "landing_page_url": "https://doaj.org/article/c6afe7dddd824879a8d6f6c853df9c22",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by-sa",
+          "evidence": "deprecated",
+          "is_best": false,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/5075697",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/5075697",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "European Bioinformatics Institute",
+          "source": "unpaywall"
+        },
+        {
+          "url": "http://hdl.handle.net/10852/52948",
+          "landing_page_url": "http://hdl.handle.net/10852/52948",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "University of Oslo",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://doi.org/10.5445/ir/1000062113",
+          "landing_page_url": "https://doi.org/10.5445/ir/1000062113",
+          "host_type": "repository",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://peerj.com/articles/2584.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "VSEARCH: a versatile open source tool for metagenomics.",
+      "abstract": "<h4>Background</h4>VSEARCH is an open source and free of charge multithreaded 64-bit tool for processing and preparing metagenomics, genomics and population genomics nucleotide sequence data. It is designed as an alternative to the widely used USEARCH tool (Edgar, 2010) for which the source code is not publicly available, algorithm details are only rudimentarily described, and only a memory-confined 32-bit version is freely available for academic use.<h4>Methods</h4>When searching nucleotide sequences, VSEARCH uses a fast heuristic based on words shared by the query and target sequences in order to quickly identify similar sequences, a similar strategy is probably used in USEARCH. VSEARCH then performs optimal global sequence alignment of the query against potential target sequences, using full dynamic programming instead of the seed-and-extend heuristic used by USEARCH. Pairwise alignments are computed in parallel using vectorisation and multiple threads.<h4>Results</h4>VSEARCH includes most commands for analysing nucleotide sequences available in USEARCH version 7 and several of those available in USEARCH version 8, including searching (exact or based on global alignment), clustering by similarity (using length pre-sorting, abundance pre-sorting or a user-defined order), chimera detection (reference-based or <i>de novo</i>), dereplication (full length or prefix), pairwise alignment, reverse complementation, sorting, and subsampling. VSEARCH also includes commands for FASTQ file processing, i.e., format detection, filtering, read quality statistics, and merging of paired reads. Furthermore, VSEARCH extends functionality with several new commands and improvements, including shuffling, rereplication, masking of low-complexity sequences with the well-known DUST algorithm, a choice among different similarity definitions, and FASTQ file format conversion. VSEARCH is here shown to be more accurate than USEARCH when performing searching, clustering, chimera detection and subsampling, while on a par with USEARCH for paired-ends read merging. VSEARCH is slower than USEARCH when performing clustering and chimera detection, but significantly faster when performing paired-end reads merging and dereplication. VSEARCH is available at https://github.com/torognes/vsearch under either the BSD 2-clause license or the GNU General Public License version 3.0.<h4>Discussion</h4>VSEARCH has been shown to be a fast, accurate and full-fledged alternative to USEARCH. A free and open-source versatile tool for sequence analysis is now available to the metagenomics community.",
+      "publication_year": 2016,
+      "language": "eng",
+      "container_title": "PeerJ",
+      "volume": "4",
+      "pages": "e2584",
+      "issn": [],
+      "doi": "10.7717/peerj.2584",
+      "pmid": "27781170",
+      "pmcid": "PMC5075697",
+      "authors": [
+        {
+          "name": {
+            "given": "Torbj\u00f8rn",
+            "family": "Rognes",
+            "full_name": "Rognes T",
+            "orcid": "0000-0002-9329-9974",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Informatics, University of Oslo, Oslo, Norway; Department of Microbiology, Oslo University Hospital, Oslo, Norway.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Tom\u00e1\u0161",
+            "family": "Flouri",
+            "full_name": "Flouri T",
+            "orcid": "0000-0002-8474-9507",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Heidelberg Institute for Theoretical Studies, Heidelberg, Germany; Institute for Theoretical Informatics, Karlsruhe Institute of Technology, Karlsruhe, Germany.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ben",
+            "family": "Nichols",
+            "full_name": "Nichols B",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "School of Engineering, University of Glasgow , Glasgow , United Kingdom.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Christopher",
+            "family": "Quince",
+            "full_name": "Quince C",
+            "orcid": "0000-0003-1884-8440",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "School of Engineering, University of Glasgow, Glasgow, United Kingdom; Warwick Medical School, University of Warwick, Coventry, United Kingdom.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Fr\u00e9d\u00e9ric",
+            "family": "Mah\u00e9",
+            "full_name": "Mah\u00e9 F",
+            "orcid": "0000-0002-2808-0984",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Ecology, University of Kaiserslautern, Kaiserslautern, Germany; UMR LSTM, CIRAD, Montpellier, France.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 6122,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "url": "https://peerj.com/articles/2584.pdf",
+          "host_type": "Unpaywall",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC5075697",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC5075697?pdf=render",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "#DU1319/1-1",
+          "agency": "Deutsche Forschungsgemeinschaft",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "MR/L015080/1",
+          "agency": "MRC Cloud Infrastructure for Microbial Bioinformatics (CLIMB)",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "MR/L015080/1",
+          "agency": "Medical Research Council",
+          "agency_abbreviation": "MRC_",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "MR/M50161X/1",
+          "agency": "MRC Cloud Infrastructure for Microbial Bioinformatics (CLIMB)",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "agency": "Unilever",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "NN9383K",
+          "agency": "UNINETT Sigma2",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "987347",
+          "agency": "Biotechnology and Biological Sciences Research Council",
+          "agency_abbreviation": "BB_",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "MR/M50161X/1",
+          "agency": "Medical Research Council",
+          "agency_abbreviation": "MRC_",
+          "pi_names": [],
+          "source": "europe_pmc"
+        }
+      ],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [
+        "Masking",
+        "Clustering",
+        "Alignment",
+        "shuffling",
+        "Metagenomics",
+        "Searching",
+        "Dereplication",
+        "Chimera Detection",
+        "Sequences",
+        "Parallellization"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 6122.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [
+        {
+          "type": "Preprint in",
+          "id": "PPR37937",
+          "source": "PPR"
+        }
+      ],
+      "full_text_urls": [
+        {
+          "url": "https://peerj.com/articles/2584.pdf",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Unpaywall"
+        },
+        {
+          "url": "https://doi.org/10.7717/peerj.2584",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC5075697",
+          "availability": "Open access",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC5075697?pdf=render",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.7717/peerj.2584",
+      "pmid": "23671333",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.7717/peerj.2584",
+      "authors": [
+        {
+          "name": {
+            "given": "Torbj\u00f8rn",
+            "family": "Rognes",
+            "full_name": "Torbj\u00f8rn Rognes",
+            "orcid": "0000-0002-9329-9974",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Tomas",
+            "family": "Flouri",
+            "full_name": "Tomas Flouri",
+            "orcid": "0000-0002-8474-9507",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Fr\u00e9d\u00e9ric",
+            "family": "Mah\u00e9",
+            "full_name": "Fr\u00e9d\u00e9ric Mah\u00e9",
+            "orcid": "0000-0002-2808-0984",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Christopher",
+            "family": "Quince",
+            "full_name": "Christopher Quince",
+            "orcid": "0000-0003-1884-8440",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0002-9329-9974",
+          "given_names": "Torbj\u00f8rn",
+          "family_names": "Rognes",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Oslo University Hospital",
+            "University of Oslo"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-8474-9507",
+          "given_names": "Tomas",
+          "family_names": "Flouri",
+          "credit_name": null,
+          "other_names": [
+            "Thomas Flouris"
+          ],
+          "institutions": [],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-2808-0984",
+          "given_names": "Fr\u00e9d\u00e9ric",
+          "family_names": "Mah\u00e9",
+          "credit_name": "Fr\u00e9d\u00e9ric Mah\u00e9",
+          "other_names": [],
+          "institutions": [
+            "CIRAD"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0003-1884-8440",
+          "given_names": "Christopher",
+          "family_names": "Quince",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": true,
+      "raw": {},
+      "title": "VSEARCH: a versatile open source tool for metagenomics.",
+      "abstract": "BACKGROUND: VSEARCH is an open source and free of charge multithreaded 64-bit tool for processing and preparing metagenomics, genomics and population genomics nucleotide sequence data. It is designed as an alternative to the widely used USEARCH tool (Edgar, 2010) for which the source code is not publicly available, algorithm details are only rudimentarily described, and only a memory-confined 32-bit version is freely available for academic use.\nMETHODS: When searching nucleotide sequences, VSEARCH uses a fast heuristic based on words shared by the query and target sequences in order to quickly identify similar sequences, a similar strategy is probably used in USEARCH. VSEARCH then performs optimal global sequence alignment of the query against potential target sequences, using full dynamic programming instead of the seed-and-extend heuristic used by USEARCH. Pairwise alignments are computed in parallel using vectorisation and multiple threads.\nRESULTS: VSEARCH includes most commands for analysing nucleotide sequences available in USEARCH version 7 and several of those available in USEARCH version 8, including searching (exact or based on global alignment), clustering by similarity (using length pre-sorting, abundance pre-sorting or a user-defined order), chimera detection (reference-based or de novo), dereplication (full length or prefix), pairwise alignment, reverse complementation, sorting, and subsampling. VSEARCH also includes commands for FASTQ file processing, i.e., format detection, filtering, read quality statistics, and merging of paired reads. Furthermore, VSEARCH extends functionality with several new commands and improvements, including shuffling, rereplication, masking of low-complexity sequences with the well-known DUST algorithm, a choice among different similarity definitions, and FASTQ file format conversion. VSEARCH is here shown to be more accurate than USEARCH when performing searching, clustering, chimera detection and subsampling, while on a par with USEARCH for paired-ends read merging. VSEARCH is slower than USEARCH when performing clustering and chimera detection, but significantly faster when performing paired-end reads merging and dereplication. VSEARCH is available at https://github.com/torognes/vsearch under either the BSD 2-clause license or the GNU General Public License version 3.0.\nDISCUSSION: VSEARCH has been shown to be a fast, accurate and full-fledged alternative to USEARCH. A free and open-source versatile tool for sequence analysis is now available to the metagenomics community.",
+      "publication_date": "2016-01-01",
+      "publication_year": 2016,
+      "work_type": "journal-article",
+      "language": "eng",
+      "container_title": "PeerJ",
+      "volume": "4",
+      "pages": "e2584",
+      "issn": [
+        "2167-8359"
+      ],
+      "doi": "10.7717/peerj.2584",
+      "pmid": "27781170",
+      "pmcid": "PMC5075697",
+      "authors": [
+        {
+          "name": {
+            "given": "Torbj\u00f8rn",
+            "family": "Rognes",
+            "full_name": "Torbj\u00f8rn Rognes",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Informatics, University of Oslo, Oslo, Norway; Department of Microbiology, Oslo University Hospital, Oslo, Norway.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Tom\u00e1\u0161",
+            "family": "Flouri",
+            "full_name": "Tom\u00e1\u0161 Flouri",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Heidelberg Institute for Theoretical Studies, Heidelberg, Germany; Institute for Theoretical Informatics, Karlsruhe Institute of Technology, Karlsruhe, Germany.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ben",
+            "family": "Nichols",
+            "full_name": "Ben Nichols",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "School of Engineering, University of Glasgow , Glasgow , United Kingdom.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Christopher",
+            "family": "Quince",
+            "full_name": "Christopher Quince",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "School of Engineering, University of Glasgow, Glasgow, United Kingdom; Warwick Medical School, University of Warwick, Coventry, United Kingdom.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Fr\u00e9d\u00e9ric",
+            "family": "Mah\u00e9",
+            "full_name": "Fr\u00e9d\u00e9ric Mah\u00e9",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Ecology, University of Kaiserslautern, Kaiserslautern, Germany; UMR LSTM, CIRAD, Montpellier, France.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        }
+      ],
+      "reference_count": 40,
+      "references": [
+        {
+          "doi": "10.1093/nar/25.17.3389",
+          "pmid": "9254694",
+          "unstructured": "Altschul SF, Madden TL, Sch\u00e4ffer AA, Zhang J, Zhang Z, Miller W, Lipman DJ. Gapped BLAST and PSI-BLAST: a new generation of protein database search programs. Nucleic Acids Research. 1997;25(17):3389\u20133402. doi: 10.1093/nar/25.17.3389.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/nar/gks1005",
+          "pmid": "23125362",
+          "unstructured": "Burge SW, Daub J, Eberhardt R, Tate J, Barquist L, Nawrocki EP, Eddy SR, Gardner PP, Bateman A. Rfam 11.0: 10 years of RNA families. Nucleic Acids Research. 2013;41(D1):D226\u2013D232. doi: 10.1093/nar/gks1005.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1038/nmeth.f.303",
+          "pmid": "20383131",
+          "unstructured": "Caporaso JG, Kuczynski J, Stombaugh J, Bittinger K, Bushman FD, Costello EK, Fierer N, Pe\u00f1a AG, Goodrich JK, Gordon JI, Huttley GA, Kelley ST, Knights D, Koenig JE, Ley RE, Lozupone CA, Mcdonald D, Muegge BD, Pirrung M, Reeder J, Sevinsky JR, Turnbaugh PJ, Walters WA, Widmann J, Yatsunenko T, Zaneveld J, Knight R. QIIME allows analysis of high-throughput community sequencing data. Nature Methods. 2010;7:335\u2013336. doi: 10.1038/nmeth.f.303.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/nar/gkp1137",
+          "pmid": "20015970",
+          "unstructured": "Cock PJA, Fields CJ, Goto N, Heuer ML, Rice PM. The Sanger FASTQ file format for sequences with quality scores, and the Solexa/Illumina FASTQ variants. Nucleic Acids Research. 2010;38(6):1767\u20131771. doi: 10.1093/nar/gkp1137.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1128/AEM.03006-05",
+          "pmid": "16820507",
+          "unstructured": "DeSantis TZ, Hugenholtz P, Larsen N, Rojas M, Brodie EL, Keller K, Huber T, Dalevi D, Hu P, Andersen GL. Greengenes, a chimera-checked 16S rRNA gene database and workbench compatible with ARB. Applied and Environmental Microbiology. 2006;72(7):5069\u20135072. doi: 10.1128/AEM.03006-05.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Eastlake D, Jones P. US Secure Hash Algorithm 1 (SHA) 2001.  Internet RFC3174. ftp://ftp.rfc-editor.org/in-notes/rfc3174.txt .",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btq461",
+          "pmid": "20709691",
+          "unstructured": "Edgar RC. Search and clustering orders of magnitude faster than BLAST. Bioinformatics. 2010;26(19):2460\u20132461. doi: 10.1093/bioinformatics/btq461.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1038/nmeth.2604",
+          "pmid": "23955772",
+          "unstructured": "Edgar RC. UPARSE: highly accurate OTU sequences from microbial amplicon reads. Nature Methods. 2013;10(10):996\u2013998. doi: 10.1038/nmeth.2604.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btv401",
+          "pmid": "26139637",
+          "unstructured": "Edgar RC, Flyvbjerg H. Error filtering, pair assembly and error correction for next-generation sequencing reads. Bioinformatics. 2015;31(21):3476\u20133482. doi: 10.1093/bioinformatics/btv401.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btr381",
+          "pmid": "21700674",
+          "unstructured": "Edgar RC, Haas BJ, Clemente JC, Quince C, Knight R. UCHIME improves sensitivity and speed of chimera detection. Bioinformatics. 2011;27(16):2194\u20132200. doi: 10.1093/bioinformatics/btr381.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Fowler G, Noll LC, Vo P. Fowler / Noll / Vo (FNV) hash. 1991. http://www.isthe.com/chongo/tech/comp/fnv/index.html http://www.isthe.com/chongo/tech/comp/fnv/index.html",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Gailly JL, Adler M. zlib: a massively spiffy yet delicately unobtrusive compression library. 2016. http://www.zlib.net/  [3 August 2016]. http://www.zlib.net/",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1186/s12915-014-0069-1",
+          "pmid": "25184604",
+          "unstructured": "Gilbert JA, Jansson JK, Knight R. The Earth Microbiome project: successes and aspirations. BMC Biology. 2014;12:69. doi: 10.1186/s12915-014-0069-1.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1007/BF02460299",
+          "pmid": "7680269",
+          "unstructured": "Gusfield D. Efficient methods for multiple sequence alignment with guaranteed error bounds. Bulletin of Mathematical Biology. 1993;55(1):141\u2013154. doi: 10.1007/BF02460299.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1186/s40168-015-0081-x",
+          "pmid": "25995836",
+          "unstructured": "He Y, Caporaso JG, Jiang XT, Sheng HF, Huse SM, Rideout JR, Edgar RC, Kopylova E, Walters WA, Knight R, Zhou HW. Stability of operational taxonomic units: an important but neglected property for analyzing microbial diversity. Microbiome. 2015;3 doi: 10.1186/s40168-015-0081-x. Article 20.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1145/360825.360861",
+          "unstructured": "Hirschberg DS. A linear space algorithm for computing maximal common subsequences. Communications of the ACM. 1975;18(6):341\u2013343. doi: 10.1145/360825.360861.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1007/BF01908075",
+          "unstructured": "Hubert L, Arabie P. Comparing partitions. Journal of Classification. 1985;2(1):193\u2013218. doi: 10.1007/BF01908075.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1038/nature11234",
+          "pmid": "22699609",
+          "unstructured": "Human Microbiome Project Consortium Structure, function and diversity of the healthy human microbiome. Nature. 2012;486:207\u2013214. doi: 10.1038/nature11234.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1371/journal.pbio.1001177",
+          "pmid": "22028628",
+          "unstructured": "Karsenti E, Gonz\u00e1lez Acinas S, Bork P, Bowler C, De Vargas C, Raes J, Sullivan MB, Arendt D, Benzoni F, Claverie J-M, Follows M, Jaillon O, Gorsky G, Hingamp P, Iudicone D, Kandels-Lewis S, Krzic U, Not F, Ogata H, Pesant S, Reynaud EG, Sardet C, Sieracki ME, Speich S, Velayoudon D, Weissenbach J, Wincker P, the Tara Oceans Consortium A holistic approach to marine eco-systems biology. PLoS Biology. 2011;9(10):e2584. doi: 10.1371/journal.pbio.1001177.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btp324",
+          "pmid": "19451168",
+          "unstructured": "Li H, Durbin R. Fast and accurate short read alignment with Burrows-Wheeler transform. Bioinformatics. 2009;25(14):1754\u20131760. doi: 10.1093/bioinformatics/btp324.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1016/j.cub.2014.02.050",
+          "pmid": "24704080",
+          "unstructured": "Logares R, Audic S, Bass D, Bittner L, Boutte C, Christen R, Claverie J-M, Decelle J, Dolan JR, Dunthorn M, Edvardsen B, Gobet A, Kooistra WHCF, Mah\u00e9 F, Not F, Ogata H, Pawlowski J, Pernice MC, Romac S, Shalchian-Tabrizi K, Simon N, Stoeck T, Santini S, Siano R, Wincker P, Zingone A, Richards T, De Vargas C, Massana R. The patterning of rare and abundant community assemblages in coastal marine-planktonic microbial eukaryotes. Current Biology. 2014;24(8):813\u2013821. doi: 10.1016/j.cub.2014.02.050.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1186/gb-2009-10-10-r103",
+          "pmid": "19796385",
+          "unstructured": "MacCallum I, Przybylski D, Gnerre S, Burton J, Shlyakhter I, Gnirke A, Malek J, McKernan K, Ranade S, Shea TP, Williams L, Young S, Nusbaum C, Jaffe DB. ALLPATHS 2: small genomes assembled accurately and with high continuity from short paired reads. Genome Biology. 2009;10(10):R103. doi: 10.1186/gb-2009-10-10-r103.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.7717/peerj.593",
+          "pmid": "25276506",
+          "unstructured": "Mah\u00e9 F, Rognes T, Quince C, De Vargas C, Dunthorn M. Swarm: robust and fast clustering method for amplicon-based studies. PeerJ. 2014;2:e2584. doi: 10.7717/peerj.593.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1186/1471-2105-13-31",
+          "pmid": "22333067",
+          "unstructured": "Masella AP, Bartram AK, Truszkowski JM, Brown DG, Neufeld JD. PANDAseq: paired-end assembler for illumina sequences. BMC Bioinformatics. 2012;13:31. doi: 10.1186/1471-2105-13-31.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "3382986",
+          "unstructured": "Myers EW, Miller W. Optimal alignments in linear space. Computer Applications in the Biosciences. 1988;4(1):11\u201317.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1016/0022-2836(70)90057-4",
+          "pmid": "5420325",
+          "unstructured": "Needleman SB, Wunsch CD. A general method applicable to the search for similarities in the amino acid sequence of two proteins. Journal of Molecular Biology. 1970;48(3):443\u2013453. doi: 10.1016/0022-2836(70)90057-4.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1101/072447",
+          "unstructured": "Nichols B, Quince C. Simera: Modelling the PCR Process to Simulate Realistic Chimera Formation. bioRxiv. 2016 doi: 10.1101/072447.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/nar/gks1219",
+          "pmid": "23193283",
+          "unstructured": "Quast C, Pruesse E, Yilmaz P, Gerken J, Schweer T, Yarza P, Peplies J, Gl\u00f6ckner FO. The SILVA ribosomal RNA gene database project: improved data processing and web-based tools. Nucleic Acids Research. 2013;41(D1):D590\u2013D596. doi: 10.1093/nar/gks1219.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.2307/2284239",
+          "unstructured": "Rand WM. Objective criteria for the evaluation of clustering methods. Journal of the American Statistical Association. 1971;66(336):846\u2013850. doi: 10.2307/2284239.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Rivest R.  1992. The MD5 message-digest algorithm. Internet RFC 1321. ftp://ftp.rfc-editor.org/in-notes/rfc1321.txt .",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1038/461472a",
+          "pmid": "19779433",
+          "unstructured": "Rockstr\u00f6m J, Steffen W, Noone K, Persson A, Chapin 3rd FS, Lambin EF, Lenton TM, Scheffer M, Folke C, Schellnhuber HJ, Nykvist B, De Wit CA, Hughes T, Van der Leeuw S, Rodhe H, S\u00f6rlin S, Snyder PK, Costanza R, Svedin U, Falkenmark M, Karlberg L, Corell RW, Fabry VJ, Hansen J, Walker B, Liverman D, Richardson K, Crutzen P, Foley JA. A safe operating space for humanity. Nature. 2009;461(7263):472\u2013475. doi: 10.1038/461472a.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1186/1471-2105-12-221",
+          "pmid": "21631914",
+          "unstructured": "Rognes T. Faster Smith-Waterman database searches by inter-sequence SIMD parallelisation. BMC Bioinformatics. 2011;12:221. doi: 10.1186/1471-2105-12-221.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/nar/gku1341",
+          "pmid": "25586220",
+          "unstructured": "Schirmer M, Ijaz UZ, D\u2019Amore R, Hall N, Sloan WT, Quince C. Insight into biases and sequencing errors for amplicon sequencing with the Illumina MiSeq platform. Nucleic Acids Research. 2015;43(6):e2584. doi: 10.1093/nar/gku1341.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "27832214",
+          "unstructured": "Schloss PD. Application of a database-independent approach to assess the quality of operational taxonomic unit picking methods. mSystems. 2016;1(2):e00027\u201316.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1128/AEM.01541-09",
+          "pmid": "19801464",
+          "unstructured": "Schloss PD, Westcott SL, Ryabin T, Hall JR, Hartmann M, Hollister EB, Lesniewski RA, Oakley BB, Parks DH, Robinson CJ, Sahl JW, Stres B, Thallinger GG, Van Horn DJ, Weber CF. Introducing mothur: open-source, platform-independent, community-supported software for describing and comparing microbial communities. Applied and Environmental Microbiology. 2009;75:7537\u20137541. doi: 10.1128/AEM.01541-09.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Seward J. bzip2 and libbzip2. 2016. http://www.bzip.org/  [3 August 2016]. http://www.bzip.org/",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/bib/bbt067",
+          "pmid": "24064230",
+          "unstructured": "Song K, Ren J, Reinert G, Deng M, Waterman MS, Sun F. New developments of alignment-free sequence comparison: measures, statistics and next-generation sequencing. Briefings in Bioinformatics. 2014;15(3):343\u2013353. doi: 10.1093/bib/bbt067.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1126/science.1259855",
+          "pmid": "25592418",
+          "unstructured": "Steffen W, Richardson K, Rockstr\u00f6m J, Cornell SE, Fetzer I, Bennett EM, Biggs R, Carpenter SR, De Vries W, De Wit CA, Folke C, Gerten D, Heinke J, Mace GM, Persson LM, Ramanathan V, Reyers B, S\u00f6rlin S. Sustainability. Planetary boundaries: guiding human development on a changing planet. Science. 2015;347(6223):1259855. doi: 10.1126/science.1259855.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.7717/peerj.1487",
+          "pmid": "26664811",
+          "unstructured": "Westcott SL, Schloss PD. De novo clustering methods outperform reference-based methods for assigning 16S rRNA gene sequences to operational taxonomic units. PeerJ. 2015;3:e2584. doi: 10.7717/peerj.1487.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btt593",
+          "pmid": "24142950",
+          "unstructured": "Zhang J, Kobert K, Flouri T, Stamatakis A. PEAR: a fast and accurate Illumina Paired-End reAd mergeR. Bioinformatics. 2014;30(5):614\u2013620. doi: 10.1093/bioinformatics/btt593.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "MR/L015080/1",
+          "agency": "Medical Research Council",
+          "agency_abbreviation": "MRC_",
+          "pi_names": [],
+          "jurisdiction": "United Kingdom",
+          "source": "entrez"
+        },
+        {
+          "grant_id": "MR/M50161X/1",
+          "agency": "Medical Research Council",
+          "agency_abbreviation": "MRC_",
+          "pi_names": [],
+          "jurisdiction": "United Kingdom",
+          "source": "entrez"
+        }
+      ],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [
+        "Alignment",
+        "Chimera detection",
+        "Clustering",
+        "Dereplication",
+        "Masking",
+        "Metagenomics",
+        "Parallellization",
+        "Searching",
+        "Sequences",
+        "Shuffling"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {
+        "received": "2016-09-05",
+        "accepted": "2016-09-17",
+        "pubmed": "2016-10-27",
+        "medline": "2016-10-27",
+        "entrez": "2016-10-27",
+        "pmc-release": "2016-10-18"
+      },
+      "structured_abstract": {
+        "BACKGROUND": "VSEARCH is an open source and free of charge multithreaded 64-bit tool for processing and preparing metagenomics, genomics and population genomics nucleotide sequence data. It is designed as an alternative to the widely used USEARCH tool (Edgar, 2010) for which the source code is not publicly available, algorithm details are only rudimentarily described, and only a memory-confined 32-bit version is freely available for academic use.",
+        "METHODS": "When searching nucleotide sequences, VSEARCH uses a fast heuristic based on words shared by the query and target sequences in order to quickly identify similar sequences, a similar strategy is probably used in USEARCH. VSEARCH then performs optimal global sequence alignment of the query against potential target sequences, using full dynamic programming instead of the seed-and-extend heuristic used by USEARCH. Pairwise alignments are computed in parallel using vectorisation and multiple threads.",
+        "RESULTS": "VSEARCH includes most commands for analysing nucleotide sequences available in USEARCH version 7 and several of those available in USEARCH version 8, including searching (exact or based on global alignment), clustering by similarity (using length pre-sorting, abundance pre-sorting or a user-defined order), chimera detection (reference-based or de novo), dereplication (full length or prefix), pairwise alignment, reverse complementation, sorting, and subsampling. VSEARCH also includes commands for FASTQ file processing, i.e., format detection, filtering, read quality statistics, and merging of paired reads. Furthermore, VSEARCH extends functionality with several new commands and improvements, including shuffling, rereplication, masking of low-complexity sequences with the well-known DUST algorithm, a choice among different similarity definitions, and FASTQ file format conversion. VSEARCH is here shown to be more accurate than USEARCH when performing searching, clustering, chimera detection and subsampling, while on a par with USEARCH for paired-ends read merging. VSEARCH is slower than USEARCH when performing clustering and chimera detection, but significantly faster when performing paired-end reads merging and dereplication. VSEARCH is available at https://github.com/torognes/vsearch under either the BSD 2-clause license or the GNU General Public License version 3.0.",
+        "DISCUSSION": "VSEARCH has been shown to be a fast, accurate and full-fledged alternative to USEARCH. A free and open-source versatile tool for sequence analysis is now available to the metagenomics community."
+      },
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "publication_status": "epublish",
+      "country_of_publication": "United States",
+      "nlm_journal_id": "101603425",
+      "medline_ta": "PeerJ",
+      "citation_subsets": [],
+      "pii": "e2584",
+      "electronic_publication_date": "2016-10-18",
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.7717/peerj.2584",
+    "pmid": "27781170",
+    "pmcid": "PMC5075697",
+    "pii": "e2584",
+    "nlm_unique_id": "101603425",
+    "handles": [],
+    "orcids": [
+      "0000-0002-2808-0984",
+      "0000-0002-8474-9507",
+      "0000-0002-9329-9974",
+      "0000-0003-1884-8440"
+    ],
+    "ror_ids": [],
+    "grant_ids": [
+      "#DU1319/1-1",
+      "987347",
+      "MR/L015080/1",
+      "MR/M50161X/1",
+      "NN9383K"
+    ],
+    "nct_ids": [],
+    "pmid_source": "entrez",
+    "pmcid_source": "entrez"
+  },
+  "conflicts": {
+    "doi": "10.7717/peerj.2584",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 8899,
+          "europe_pmc": 6122
+        },
+        "risk": "high"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 5,
+          "unpaywall": 5,
+          "europe_pmc": 5,
+          "orcid": 4,
+          "entrez": 5
+        },
+        "risk": "high"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "europe_pmc": "eng",
+          "entrez": "eng"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "grant_count",
+        "values": {
+          "europe_pmc": 8,
+          "entrez": 2
+        },
+        "risk": "medium"
+      }
+    ],
+    "agreement_count": 2,
+    "conflict_count": 4
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.7717/peerj.2584",
+    "fetched_at": "2026-02-11T15:34:15.793325+00:00"
+  }
+}

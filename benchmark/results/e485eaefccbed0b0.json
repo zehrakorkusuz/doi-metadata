@@ -1,0 +1,1316 @@
+{
+  "doi": "10.1101/2020.04.27.063974",
+  "registration_agency": "unknown",
+  "retrieved_at": "2026-02-11T18:39:04.074324Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "Predicting microbiomes through a deep latent space",
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>Microbial communities influence their environment by modifying the availability of compounds such as nutrients or chemical elicitors. Knowing the microbial composition of a site is therefore relevant to improving productivity or health. However, sequencing facilities are not always available, or may be prohibitively expensive in some cases. Thus, it would be desirable to computationally predict the microbial composition from more accessible, easily-measured features.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Integrating Deep Learning techniques with microbiome data, we propose an artificial neural network architecture based on heterogeneous autoencoders to condense the long vector of microbial abundance values into a deep latent space representation. Then, we design a model to predict the deep latent space and, consequently, to predict the complete microbial composition using environmental features as input. The performance of our system is examined using the rhizosphere microbiome of Maize. We reconstruct the microbial composition (717 taxa) from the deep latent space (10 values) with high fidelity (\u00bf0.9 Pearson correlation). We then successfully predict microbial composition from environmental variables such as plant age, temperature or precipitation (0.73 Pearson correlation, 0.42 Bray-Curtis). We extend this to predict microbiome composition under hypothetical scenarios, such as future climate change conditions. Finally, via transfer learning, we predict microbial composition in a distinct scenario with only a hundred sequences, and distinct environmental features. We propose that our deep latent space may assist microbiome-engineering strategies when technical or financial resources are limited, through predicting current or future microbiome compositions.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Availability</jats:title>\n                  <jats:p>\n                    Software, results, and data are available at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/jorgemf/DeepLatentMicrobiome\">https://github.com/jorgemf/DeepLatentMicrobiome</jats:ext-link>\n                  </jats:p>\n                </jats:sec>",
+      "publication_date": "2020-04-28",
+      "publication_year": 2020,
+      "work_type": "posted-content",
+      "publisher": "openRxiv",
+      "issn": [],
+      "doi": "10.1101/2020.04.27.063974",
+      "authors": [
+        {
+          "name": {
+            "given": "Beatriz",
+            "family": "Garc\u00eda-Jim\u00e9nez",
+            "full_name": "Beatriz Garc\u00eda-Jim\u00e9nez",
+            "sequence": "first",
+            "orcid": "0000-0002-8129-6506",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jorge",
+            "family": "Mu\u00f1oz",
+            "full_name": "Jorge Mu\u00f1oz",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sara",
+            "family": "Cabello",
+            "full_name": "Sara Cabello",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Joaqu\u00edn",
+            "family": "Medina",
+            "full_name": "Joaqu\u00edn Medina",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mark D.",
+            "family": "Wilkinson",
+            "full_name": "Mark D. Wilkinson",
+            "sequence": "additional",
+            "orcid": "0000-0001-6960-357X",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 1,
+      "reference_count": 40,
+      "references": [
+        {
+          "doi": "10.1111/j.2517-6161.1982.tb01195.x",
+          "title": "The Statistical Analysis of Compositional Data",
+          "year": 1982,
+          "key": "2024080405295711000_2020.04.27.063974v1.1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/bty296",
+          "key": "2024080405295711000_2020.04.27.063974v1.2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s13059-019-1788-y",
+          "title": "MITRE: Inferring features from microbiota time-series data linked to host status",
+          "year": 2019,
+          "key": "2024080405295711000_2020.04.27.063974v1.3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.21105/joss.00934",
+          "title": "q2-sample-classifier: machine-learning tools for microbiome classification and regression",
+          "year": 2018,
+          "key": "2024080405295711000_2020.04.27.063974v1.4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/gb-2011-12-5-r50",
+          "key": "2024080405295711000_2020.04.27.063974v1.5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Metagenome-Wide Association Study and Machine Learning Prediction of Bulk Soil Microbiome and Crop Productivity",
+          "year": 2017,
+          "key": "2024080405295711000_2020.04.27.063974v1.6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/142760",
+          "unstructured": "Ching, T. , Himmelstein, D. S. , Beaulieu-Jones, B. K. , Kalinin, A. A. , Do, B. T. , Way, G. P. , Ferrero, E. , Agapow, P. M. , Zietz, M. , Hoffman, M. M. , Xie, W. , Rosen, G. L. , Lengerich, B. J. , Israeli, J. , Lanchantin, J. , Woloszynek, S. , Carpenter, A. E. , Shrikumar, A. , Xu, J. , Cofer, E. M. , Lavender, C. A. , Turaga, S. C. , Alexandari, A. M. , Lu, Z. , Harris, D. J. , Decaprio, D. , Qi, Y. , Kundaje, A. , Peng, Y. , Wiley, L. K. , Segler, M. H. , Boca, S. M. , Swamidass, S. J. , Huang, A. , Gitter, A. , and Greene, C. S. (2018). Opportunities and obstacles for deep learning in biology and medicine. Journal of the Royal Society Interface, 15(141).",
+          "key": "2024080405295711000_2020.04.27.063974v1.7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/507780",
+          "unstructured": "Galkin, F. , Aliper, A. , Putin, E. , Kuznetsov, I. , Gladyshev, V. N. , and Zhavoronkov, A. (2018). Human microbiome aging clocks based on deep learning and tandem of permutation feature importance and accumulated local effects. bioRxiv, page 507780.",
+          "key": "2024080405295711000_2020.04.27.063974v1.8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pbio.1002020",
+          "key": "2024080405295711000_2020.04.27.063974v1.9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/biosci/bix010",
+          "unstructured": "Hunter, M. C. , Smith, R. G. , Schipanski, M. E. , Atwood, L. W. , and Mortensen, D. A. (2017). Agriculture in 2050: Recalibrating Targets for Sustainable Intensification. BioScience, 386(4).",
+          "key": "2024080405295711000_2020.04.27.063974v1.10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/978-1-60327-194-3_2",
+          "key": "2024080405295711000_2020.04.27.063974v1.11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S0140-6736(13)60844-2",
+          "key": "2024080405295711000_2020.04.27.063974v1.12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1128/mSystems.00167-18",
+          "unstructured": "Ladau, J. , Shi, Y. , Jing, X. , He, J.-S. , Chen, L. , Lin, X. , Fierer, N. , Gilbert, J. A. , Pollard, K. S. , and Chu, H. (2018). Existing Climate Change Will Lead to Pronounced Shifts in the Diversity of Soil Prokaryotes. mSystems, 3(5).",
+          "key": "2024080405295711000_2020.04.27.063974v1.13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.ymeth.2019.03.003",
+          "title": "MetaPheno: A critical evaluation of deep learning and machine learning in metagenome-based disease prediction",
+          "year": 2019,
+          "key": "2024080405295711000_2020.04.27.063974v1.14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nmeth.1975",
+          "title": "Predicting bacterial community assemblages using an artificial neural network approach",
+          "year": 2012,
+          "key": "2024080405295711000_2020.04.27.063974v1.15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nature14539",
+          "unstructured": "Lecun, Y. , Bengio, Y. , and Hinton, G. (2015). Deep learning.",
+          "key": "2024080405295711000_2020.04.27.063974v1.16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.ymeth.2019.04.008",
+          "title": "Deep learning in bioinformatics: Introduction, application, and perspective in the big data era",
+          "year": 2019,
+          "key": "2024080405295711000_2020.04.27.063974v1.17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3389/fmicb.2018.02456",
+          "title": "The Biogeographical Distribution of Soil Bacterial Communities in the Loess Plateau as Revealed by High-Throughput Sequencing",
+          "year": 2018,
+          "key": "2024080405295711000_2020.04.27.063974v1.18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nature23889",
+          "key": "2024080405295711000_2020.04.27.063974v1.19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3389/fmicb.2018.01295",
+          "title": "Crop rotation and straw application impact microbial communities in Italian and Philippine Soils and the rhizosphere of Zea mays",
+          "year": 2018,
+          "key": "2024080405295711000_2020.04.27.063974v1.20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1021/acs.molpharmaceut.9b00520",
+          "unstructured": "Manica, M. , Oskooei, A. , Born, J. , Subramanian, V. , Sa\u00e8z-Rodr\u00edguez, J. , and Rodr\u00edguez Mart\u00ednez, M. (2019). Toward Explainable Anticancer Compound Sensitivity Prediction via Multimodal Attention-Based Convolutional Encoders. Molecular Pharmaceutics.",
+          "key": "2024080405295711000_2020.04.27.063974v1.21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1006693",
+          "title": "Utilizing longitudinal microbiome taxonomic profiles to predict food allergy via long short-term memory networks",
+          "year": 2019,
+          "key": "2024080405295711000_2020.04.27.063974v1.22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bib/bbw068",
+          "unstructured": "Min, S. , Lee, B. , and Yoon, S. (2017). Deep learning in bioinformatics.",
+          "key": "2024080405295711000_2020.04.27.063974v1.23",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Deep Patient: An Unsupervised Representation to Predict the Future of Patients from the Electronic Health Records",
+          "year": 2016,
+          "key": "2024080405295711000_2020.04.27.063974v1.24",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41598-020-63159-5",
+          "title": "DeepMicro: deep representation learning for disease prediction based on microbiome data",
+          "year": 2020,
+          "key": "2024080405295711000_2020.04.27.063974v1.25",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1004977",
+          "title": "Machine Learning Meta-analysis of Large Metagenomic Datasets: Tools and Biological Insights",
+          "year": 2016,
+          "key": "2024080405295711000_2020.04.27.063974v1.26",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/9781119003144",
+          "unstructured": "Pawlowsky-Glahn, V. , Egozcue, J. J. , and Tolosana-Delgado, R. (2015). Modeling and Analysis of Compositional Data. wiley, Chichester, UK.",
+          "key": "2024080405295711000_2020.04.27.063974v1.27",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41586-020-2095-1",
+          "unstructured": "Poore, G. D. , Kopylova, E. , Zhu, Q. , Carpenter, C. , Fraraccio, S. , Wandro, S. , Kosciolek, T. , Janssen, S. , Metcalf, J. , Song, S. J. , Kanbar, J. , Miller-Montgomery, S. , Heaton, R. , Mckay, R. , Patel, S. P. , Swafford, A. D. , and Knight, R. (2020). Microbiome analyses of blood and tissues suggest cancer diagnostic approach. Nature, pages 1\u20138.",
+          "key": "2024080405295711000_2020.04.27.063974v1.28",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1128/mSystems.00392-19",
+          "unstructured": "Sakowski, E. , Uritskiy, G. , Cooper, R. , Gomes, M. , McLaren, M. R. , Meisel, J. S. , Mickol, R. L. , Mintz, C. D. , Mongodin, E. F. , Pop, M. , Rahman, M. A. , Sanchez, A. , Timp, W. , Vela, J. D. , Wolz, C. M. , Zackular, J. P. , Chopyk, J. , Commichaux, S. , Davis, M. , Dluzen, D. , Ganesan, S. M. , Haruna, M. , Nasko, D. , Regan, M. J. , Sarria, S. , Shah, N. , Stacy, B. , Taylor, D. , DiRuggiero, J. , and Preheim, S. P. (2019). Current State of and Future Opportunities for Prediction in Microbiome Research: Report from the Mid-Atlantic Microbiome Meet-up in Baltimore on 9 January 2019. mSystems, 4(5).",
+          "key": "2024080405295711000_2020.04.27.063974v1.29",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "TADA: phylogenetic augmentation of microbiome samples enhances phenotype classification",
+          "year": 2019,
+          "key": "2024080405295711000_2020.04.27.063974v1.30",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3391/mbi.2015.6.1.01",
+          "key": "2024080405295711000_2020.04.27.063974v1.31",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41598-020-62919-7",
+          "title": "Soil bacterial diversity correlates with precipitation and soil pH in long-term maize cropping systems",
+          "year": 2020,
+          "key": "2024080405295711000_2020.04.27.063974v1.32",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nature24621",
+          "key": "2024080405295711000_2020.04.27.063974v1.33",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41396-019-0468-y",
+          "title": "Halophilic microbial community compositional shift after a rare rainfall in the Atacama Desert",
+          "year": 2019,
+          "key": "2024080405295711000_2020.04.27.063974v1.34",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/gigascience/giz042",
+          "unstructured": "Vangay, P. , Hillmann, B. M. , and Knights, D. (2019). Microbiome Learning Repo (ML Repo): A public repository of microbiome regression and classification tasks. GigaScience, 8(5).",
+          "key": "2024080405295711000_2020.04.27.063974v1.35",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1073/pnas.1800918115",
+          "key": "2024080405295711000_2020.04.27.063974v1.36",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s40168-017-0237-y",
+          "key": "2024080405295711000_2020.04.27.063974v1.37",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s12864-017-4226-0",
+          "key": "2024080405295711000_2020.04.27.063974v1.38",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3389/fgene.2019.00579",
+          "title": "A Review and Tutorial of Machine Learning Methods for Microbiome Host Trait Prediction",
+          "year": 2019,
+          "key": "2024080405295711000_2020.04.27.063974v1.39",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3389/fgene.2019.01182",
+          "title": "Graph Embedding Deep Learning Guides Microbial Biomarkers\u2019 Identification",
+          "year": 2019,
+          "key": "2024080405295711000_2020.04.27.063974v1.40",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://syndication.highwire.org/content/doi/10.1101/2020.04.27.063974",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "https://www.biorxiv.org/about/FAQ#license",
+          "content_version": "vor",
+          "delay_in_days": 0,
+          "source": "crossref"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/2020.04.27.063974",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": false,
+      "error": "",
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/2020.04.27.063974",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/2020.04.27.063974",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "Predicting microbiomes through a deep latent space",
+      "publication_date": "2020-04-28",
+      "publication_year": 2020,
+      "work_type": "posted-content",
+      "publisher": "openRxiv",
+      "issn": [],
+      "doi": "10.1101/2020.04.27.063974",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://www.biorxiv.org/content/biorxiv/early/2020/04/28/2020.04.27.063974.full.pdf",
+          "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2020/04/28/2020.04.27.063974.full.pdf",
+          "landing_page_url": "https://doi.org/10.1101/2020.04.27.063974",
+          "version": "acceptedVersion",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.biorxiv.org/content/biorxiv/early/2020/04/28/2020.04.27.063974.full.pdf",
+          "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2020/04/28/2020.04.27.063974.full.pdf",
+          "landing_page_url": "https://doi.org/10.1101/2020.04.27.063974",
+          "version": "acceptedVersion",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://www.biorxiv.org/content/biorxiv/early/2020/04/28/2020.04.27.063974.full.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "Predicting microbiomes through a deep latent space",
+      "abstract": "<h4>Motivation</h4> Microbial communities influence their environment by modifying the availability of compounds such as nutrients or chemical elicitors. Knowing the microbial composition of a site is therefore relevant to improving productivity or health. However, sequencing facilities are not always available, or may be prohibitively expensive in some cases. Thus, it would be desirable to computationally predict the microbial composition from more accessible, easily-measured features. <h4>Results</h4> Integrating Deep Learning techniques with microbiome data, we propose an artificial neural network architecture based on heterogeneous autoencoders to condense the long vector of microbial abundance values into a deep latent space representation. Then, we design a model to predict the deep latent space and, consequently, to predict the complete microbial composition using environmental features as input. The performance of our system is examined using the rhizosphere microbiome of Maize. We reconstruct the microbial composition (717 taxa) from the deep latent space (10 values) with high fidelity (\u00bf0.9 Pearson correlation). We then successfully predict microbial composition from environmental variables such as plant age, temperature or precipitation (0.73 Pearson correlation, 0.42 Bray-Curtis). We extend this to predict microbiome composition under hypothetical scenarios, such as future climate change conditions. Finally, via transfer learning, we predict microbial composition in a distinct scenario with only a hundred sequences, and distinct environmental features. We propose that our deep latent space may assist microbiome-engineering strategies when technical or financial resources are limited, through predicting current or future microbiome compositions. <h4>Availability</h4> Software, results, and data are available at https://github.com/jorgemf/DeepLatentMicrobiome",
+      "publication_year": 2020,
+      "issn": [],
+      "doi": "10.1101/2020.04.27.063974",
+      "authors": [
+        {
+          "name": {
+            "given": "Beatriz",
+            "family": "Garc\u00eda-Jim\u00e9nez",
+            "full_name": "Garc\u00eda-Jim\u00e9nez B",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jorge",
+            "family": "Mu\u00f1oz",
+            "full_name": "Mu\u00f1oz J",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sara",
+            "family": "Cabello",
+            "full_name": "Cabello S",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Joaqu\u00edn",
+            "family": "Medina",
+            "full_name": "Medina J",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mark",
+            "family": "Wilkinson",
+            "full_name": "Wilkinson MD",
+            "orcid": "0000-0001-6960-357X",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 1,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": false,
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 1.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [
+        {
+          "type": "Preprint of",
+          "id": "33289510",
+          "source": "MED"
+        }
+      ],
+      "full_text_urls": [
+        {
+          "url": "https://www.biorxiv.org/content/biorxiv/early/2020/04/28/2020.04.27.063974.full.pdf",
+          "availability": "Free",
+          "document_style": "pdf",
+          "site": "Unpaywall"
+        },
+        {
+          "url": "https://doi.org/10.1101/2020.04.27.063974",
+          "availability": "Free",
+          "document_style": "doi",
+          "site": "DOI"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/2020.04.27.063974",
+      "pmid": "19683066",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/2020.04.27.063974",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/2020.04.27.063974",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/2020.04.27.063974",
+      "authors": [
+        {
+          "name": {
+            "given": "Beatriz",
+            "family": "Garc\u00eda-Jim\u00e9nez",
+            "full_name": "Beatriz Garc\u00eda-Jim\u00e9nez",
+            "orcid": "0000-0002-8129-6506",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mark",
+            "family": "Wilkinson",
+            "full_name": "Mark D. Wilkinson",
+            "orcid": "0000-0001-6960-357X",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0002-8129-6506",
+          "given_names": "Beatriz",
+          "family_names": "Garc\u00eda-Jim\u00e9nez",
+          "credit_name": null,
+          "other_names": [
+            "Beatriz Garc\u00eda"
+          ],
+          "institutions": [
+            "BioinfoCAM",
+            "Biological Research Center (CIB-CSIC)",
+            "Carlos III University of Madrid",
+            "Centre for Plant Biotechnology and Genomics (CBGP, UPM-INIA)",
+            "Centre for Plant Biotechnology and Genomics (CBGP, UPM-INIA) Universidad Polit\u00e9cnica de Madrid (UPM) - Instituto Nacional de Investigaci\u00f3n y Tecnolog\u00eda Agraria y Alimentaria (INIA) Campus de Montegancedo-UPM",
+            "Foundation for the promotion of the Research in Public Health and Biomedicine",
+            "GEMBIOTA: Microbiota study group",
+            "IBM Research - Zurich",
+            "International Society for Computational Biology",
+            "Madrid Regional Government",
+            "Max-Planck-Institut f\u00fcr Informatik",
+            "National Centre for Biotechnology (CNB-CSIC)",
+            "Politechnical University of Madrid",
+            "Royal Spanish Doctoral Academy",
+            "Spanish National Cancer Research Centre",
+            "Spanish society of microbiota, prebiotics and probiotics",
+            "University of Cagliari"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0001-6960-357X",
+          "given_names": "Mark",
+          "family_names": "Wilkinson",
+          "credit_name": "Mark D. Wilkinson",
+          "other_names": [],
+          "institutions": [
+            "James Hogg iCAPTURE Center",
+            "Max Planck Institut fur Zuchtungsforschung",
+            "National Research Council Canada",
+            "Universidad Polit\u00e9cnica de Madrid (UPM)",
+            "University of Alberta",
+            "University of British Columbia"
+          ],
+          "emails": [
+            "mark.wilkinson@upm.es"
+          ]
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/2020.04.27.063974",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1101/2020.04.27.063974",
+    "pmid": "19683066",
+    "handles": [],
+    "orcids": [
+      "0000-0001-6960-357X",
+      "0000-0002-8129-6506"
+    ],
+    "ror_ids": [],
+    "grant_ids": [],
+    "nct_ids": [],
+    "pmid_source": "nih_reporter"
+  },
+  "conflicts": {
+    "doi": "10.1101/2020.04.27.063974",
+    "conflicts": [
+      {
+        "field": "is_oa",
+        "values": {
+          "unpaywall": true,
+          "europe_pmc": false
+        },
+        "risk": "medium"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 5,
+          "unpaywall": 5,
+          "europe_pmc": 5,
+          "orcid": 2
+        },
+        "risk": "high"
+      }
+    ],
+    "agreement_count": 3,
+    "conflict_count": 2
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1101/2020.04.27.063974",
+    "fetched_at": "2026-02-11T18:39:04.074718+00:00"
+  }
+}

@@ -1,0 +1,4284 @@
+{
+  "doi": "10.1093/bioinformatics/btt055",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T15:59:37.668365Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "GROMACS 4.5: a high-throughput and highly parallel open source molecular simulation toolkit",
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>Motivation: Molecular simulation has historically been a low-throughput technique, but faster computers and increasing amounts of genomic and structural data are changing this by enabling large-scale automated simulation of, for instance, many conformers or mutants of biomolecules with or without a range of ligands. At the same time, advances in performance and scaling now make it possible to model complex biomolecular interaction and function in a manner directly testable by experiment. These applications share a need for fast and efficient software that can be deployed on massive scale in clusters, web servers, distributed computing or cloud resources.</jats:p><jats:p>Results: Here, we present a range of new simulation algorithms and features developed during the past 4 years, leading up to the GROMACS 4.5 software package. The software now automatically handles wide classes of biomolecules, such as proteins, nucleic acids and lipids, and comes with all commonly used force fields for these molecules built-in. GROMACS supports several implicit solvent models, as well as new free-energy algorithms, and the software now uses multithreading for efficient parallelization even on low-end systems, including windows-based workstations. Together with hand-tuned assembly kernels and state-of-the-art parallelization, this provides extremely high performance and cost efficiency for high-throughput as well as massively parallel simulations.</jats:p><jats:p>Availability: GROMACS is an open source and free software available from http://www.gromacs.org.</jats:p><jats:p>Contact: \u00a0erik.lindahl@scilifelab.se</jats:p><jats:p>Supplementary information: \u00a0Supplementary data are available at Bioinformatics online.</jats:p>",
+      "publication_date": "2013-02-13",
+      "publication_year": 2013,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "Bioinformatics",
+      "volume": "29",
+      "issue": "7",
+      "pages": "845-854",
+      "issn": [
+        "1367-4811",
+        "1367-4803"
+      ],
+      "doi": "10.1093/bioinformatics/btt055",
+      "authors": [
+        {
+          "name": {
+            "given": "Sander",
+            "family": "Pronk",
+            "full_name": "Sander Pronk",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Science for Life Laboratory, Stockholm and Uppsala, 171 21 Stockholm, Sweden, 2Theoretical and Computational Biophysics, Dept. Theoretical Physics, KTH Royal Institute of Technology, 10691 Stockholm, Sweden, 3UT/ORNL Center for Molecular Biophysics, Oak Ridge National Laboratory, 37831 Oak Ridge, TN, USA, 4Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, TN, USA, 5Department of Molecular Physiology and Biological Physics, 6Department of Biomedical Engineering, University of Virginia, Charlottesville, VA, USA, 7Department of Biochemistry and Biophysics, Center for Biomembrane Research, Stockholm University, Stockholm, Sweden, 8Department of Chemical Engineering, University of Virginia, Charlottesville, VA, USA and 9Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden",
+              "source": "crossref"
+            },
+            {
+              "name": "1 Science for Life Laboratory, Stockholm and Uppsala, 171 21 Stockholm, Sweden, 2Theoretical and Computational Biophysics, Dept. Theoretical Physics, KTH Royal Institute of Technology, 10691 Stockholm, Sweden, 3UT/ORNL Center for Molecular Biophysics, Oak Ridge National Laboratory, 37831 Oak Ridge, TN, USA, 4Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, TN, USA, 5Department of Molecular Physiology and Biological Physics, 6Department of Biomedical Engineering, University of Virginia, Charlottesville, VA, USA, 7Department of Biochemistry and Biophysics, Center for Biomembrane Research, Stockholm University, Stockholm, Sweden, 8Department of Chemical Engineering, University of Virginia, Charlottesville, VA, USA and 9Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Szil\u00e1rd",
+            "family": "P\u00e1ll",
+            "full_name": "Szil\u00e1rd P\u00e1ll",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Science for Life Laboratory, Stockholm and Uppsala, 171 21 Stockholm, Sweden, 2Theoretical and Computational Biophysics, Dept. Theoretical Physics, KTH Royal Institute of Technology, 10691 Stockholm, Sweden, 3UT/ORNL Center for Molecular Biophysics, Oak Ridge National Laboratory, 37831 Oak Ridge, TN, USA, 4Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, TN, USA, 5Department of Molecular Physiology and Biological Physics, 6Department of Biomedical Engineering, University of Virginia, Charlottesville, VA, USA, 7Department of Biochemistry and Biophysics, Center for Biomembrane Research, Stockholm University, Stockholm, Sweden, 8Department of Chemical Engineering, University of Virginia, Charlottesville, VA, USA and 9Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden",
+              "source": "crossref"
+            },
+            {
+              "name": "1 Science for Life Laboratory, Stockholm and Uppsala, 171 21 Stockholm, Sweden, 2Theoretical and Computational Biophysics, Dept. Theoretical Physics, KTH Royal Institute of Technology, 10691 Stockholm, Sweden, 3UT/ORNL Center for Molecular Biophysics, Oak Ridge National Laboratory, 37831 Oak Ridge, TN, USA, 4Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, TN, USA, 5Department of Molecular Physiology and Biological Physics, 6Department of Biomedical Engineering, University of Virginia, Charlottesville, VA, USA, 7Department of Biochemistry and Biophysics, Center for Biomembrane Research, Stockholm University, Stockholm, Sweden, 8Department of Chemical Engineering, University of Virginia, Charlottesville, VA, USA and 9Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Roland",
+            "family": "Schulz",
+            "full_name": "Roland Schulz",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Science for Life Laboratory, Stockholm and Uppsala, 171 21 Stockholm, Sweden, 2Theoretical and Computational Biophysics, Dept. Theoretical Physics, KTH Royal Institute of Technology, 10691 Stockholm, Sweden, 3UT/ORNL Center for Molecular Biophysics, Oak Ridge National Laboratory, 37831 Oak Ridge, TN, USA, 4Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, TN, USA, 5Department of Molecular Physiology and Biological Physics, 6Department of Biomedical Engineering, University of Virginia, Charlottesville, VA, USA, 7Department of Biochemistry and Biophysics, Center for Biomembrane Research, Stockholm University, Stockholm, Sweden, 8Department of Chemical Engineering, University of Virginia, Charlottesville, VA, USA and 9Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden",
+              "source": "crossref"
+            },
+            {
+              "name": "1 Science for Life Laboratory, Stockholm and Uppsala, 171 21 Stockholm, Sweden, 2Theoretical and Computational Biophysics, Dept. Theoretical Physics, KTH Royal Institute of Technology, 10691 Stockholm, Sweden, 3UT/ORNL Center for Molecular Biophysics, Oak Ridge National Laboratory, 37831 Oak Ridge, TN, USA, 4Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, TN, USA, 5Department of Molecular Physiology and Biological Physics, 6Department of Biomedical Engineering, University of Virginia, Charlottesville, VA, USA, 7Department of Biochemistry and Biophysics, Center for Biomembrane Research, Stockholm University, Stockholm, Sweden, 8Department of Chemical Engineering, University of Virginia, Charlottesville, VA, USA and 9Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Per",
+            "family": "Larsson",
+            "full_name": "Per Larsson",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Science for Life Laboratory, Stockholm and Uppsala, 171 21 Stockholm, Sweden, 2Theoretical and Computational Biophysics, Dept. Theoretical Physics, KTH Royal Institute of Technology, 10691 Stockholm, Sweden, 3UT/ORNL Center for Molecular Biophysics, Oak Ridge National Laboratory, 37831 Oak Ridge, TN, USA, 4Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, TN, USA, 5Department of Molecular Physiology and Biological Physics, 6Department of Biomedical Engineering, University of Virginia, Charlottesville, VA, USA, 7Department of Biochemistry and Biophysics, Center for Biomembrane Research, Stockholm University, Stockholm, Sweden, 8Department of Chemical Engineering, University of Virginia, Charlottesville, VA, USA and 9Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden",
+              "source": "crossref"
+            },
+            {
+              "name": "1 Science for Life Laboratory, Stockholm and Uppsala, 171 21 Stockholm, Sweden, 2Theoretical and Computational Biophysics, Dept. Theoretical Physics, KTH Royal Institute of Technology, 10691 Stockholm, Sweden, 3UT/ORNL Center for Molecular Biophysics, Oak Ridge National Laboratory, 37831 Oak Ridge, TN, USA, 4Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, TN, USA, 5Department of Molecular Physiology and Biological Physics, 6Department of Biomedical Engineering, University of Virginia, Charlottesville, VA, USA, 7Department of Biochemistry and Biophysics, Center for Biomembrane Research, Stockholm University, Stockholm, Sweden, 8Department of Chemical Engineering, University of Virginia, Charlottesville, VA, USA and 9Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "P\u00e4r",
+            "family": "Bjelkmar",
+            "full_name": "P\u00e4r Bjelkmar",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Science for Life Laboratory, Stockholm and Uppsala, 171 21 Stockholm, Sweden, 2Theoretical and Computational Biophysics, Dept. Theoretical Physics, KTH Royal Institute of Technology, 10691 Stockholm, Sweden, 3UT/ORNL Center for Molecular Biophysics, Oak Ridge National Laboratory, 37831 Oak Ridge, TN, USA, 4Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, TN, USA, 5Department of Molecular Physiology and Biological Physics, 6Department of Biomedical Engineering, University of Virginia, Charlottesville, VA, USA, 7Department of Biochemistry and Biophysics, Center for Biomembrane Research, Stockholm University, Stockholm, Sweden, 8Department of Chemical Engineering, University of Virginia, Charlottesville, VA, USA and 9Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden",
+              "source": "crossref"
+            },
+            {
+              "name": "1 Science for Life Laboratory, Stockholm and Uppsala, 171 21 Stockholm, Sweden, 2Theoretical and Computational Biophysics, Dept. Theoretical Physics, KTH Royal Institute of Technology, 10691 Stockholm, Sweden, 3UT/ORNL Center for Molecular Biophysics, Oak Ridge National Laboratory, 37831 Oak Ridge, TN, USA, 4Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, TN, USA, 5Department of Molecular Physiology and Biological Physics, 6Department of Biomedical Engineering, University of Virginia, Charlottesville, VA, USA, 7Department of Biochemistry and Biophysics, Center for Biomembrane Research, Stockholm University, Stockholm, Sweden, 8Department of Chemical Engineering, University of Virginia, Charlottesville, VA, USA and 9Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Rossen",
+            "family": "Apostolov",
+            "full_name": "Rossen Apostolov",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Science for Life Laboratory, Stockholm and Uppsala, 171 21 Stockholm, Sweden, 2Theoretical and Computational Biophysics, Dept. Theoretical Physics, KTH Royal Institute of Technology, 10691 Stockholm, Sweden, 3UT/ORNL Center for Molecular Biophysics, Oak Ridge National Laboratory, 37831 Oak Ridge, TN, USA, 4Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, TN, USA, 5Department of Molecular Physiology and Biological Physics, 6Department of Biomedical Engineering, University of Virginia, Charlottesville, VA, USA, 7Department of Biochemistry and Biophysics, Center for Biomembrane Research, Stockholm University, Stockholm, Sweden, 8Department of Chemical Engineering, University of Virginia, Charlottesville, VA, USA and 9Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden",
+              "source": "crossref"
+            },
+            {
+              "name": "1 Science for Life Laboratory, Stockholm and Uppsala, 171 21 Stockholm, Sweden, 2Theoretical and Computational Biophysics, Dept. Theoretical Physics, KTH Royal Institute of Technology, 10691 Stockholm, Sweden, 3UT/ORNL Center for Molecular Biophysics, Oak Ridge National Laboratory, 37831 Oak Ridge, TN, USA, 4Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, TN, USA, 5Department of Molecular Physiology and Biological Physics, 6Department of Biomedical Engineering, University of Virginia, Charlottesville, VA, USA, 7Department of Biochemistry and Biophysics, Center for Biomembrane Research, Stockholm University, Stockholm, Sweden, 8Department of Chemical Engineering, University of Virginia, Charlottesville, VA, USA and 9Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michael R.",
+            "family": "Shirts",
+            "full_name": "Michael R. Shirts",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Science for Life Laboratory, Stockholm and Uppsala, 171 21 Stockholm, Sweden, 2Theoretical and Computational Biophysics, Dept. Theoretical Physics, KTH Royal Institute of Technology, 10691 Stockholm, Sweden, 3UT/ORNL Center for Molecular Biophysics, Oak Ridge National Laboratory, 37831 Oak Ridge, TN, USA, 4Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, TN, USA, 5Department of Molecular Physiology and Biological Physics, 6Department of Biomedical Engineering, University of Virginia, Charlottesville, VA, USA, 7Department of Biochemistry and Biophysics, Center for Biomembrane Research, Stockholm University, Stockholm, Sweden, 8Department of Chemical Engineering, University of Virginia, Charlottesville, VA, USA and 9Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jeremy C.",
+            "family": "Smith",
+            "full_name": "Jeremy C. Smith",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Science for Life Laboratory, Stockholm and Uppsala, 171 21 Stockholm, Sweden, 2Theoretical and Computational Biophysics, Dept. Theoretical Physics, KTH Royal Institute of Technology, 10691 Stockholm, Sweden, 3UT/ORNL Center for Molecular Biophysics, Oak Ridge National Laboratory, 37831 Oak Ridge, TN, USA, 4Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, TN, USA, 5Department of Molecular Physiology and Biological Physics, 6Department of Biomedical Engineering, University of Virginia, Charlottesville, VA, USA, 7Department of Biochemistry and Biophysics, Center for Biomembrane Research, Stockholm University, Stockholm, Sweden, 8Department of Chemical Engineering, University of Virginia, Charlottesville, VA, USA and 9Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden",
+              "source": "crossref"
+            },
+            {
+              "name": "1 Science for Life Laboratory, Stockholm and Uppsala, 171 21 Stockholm, Sweden, 2Theoretical and Computational Biophysics, Dept. Theoretical Physics, KTH Royal Institute of Technology, 10691 Stockholm, Sweden, 3UT/ORNL Center for Molecular Biophysics, Oak Ridge National Laboratory, 37831 Oak Ridge, TN, USA, 4Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, TN, USA, 5Department of Molecular Physiology and Biological Physics, 6Department of Biomedical Engineering, University of Virginia, Charlottesville, VA, USA, 7Department of Biochemistry and Biophysics, Center for Biomembrane Research, Stockholm University, Stockholm, Sweden, 8Department of Chemical Engineering, University of Virginia, Charlottesville, VA, USA and 9Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Peter M.",
+            "family": "Kasson",
+            "full_name": "Peter M. Kasson",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Science for Life Laboratory, Stockholm and Uppsala, 171 21 Stockholm, Sweden, 2Theoretical and Computational Biophysics, Dept. Theoretical Physics, KTH Royal Institute of Technology, 10691 Stockholm, Sweden, 3UT/ORNL Center for Molecular Biophysics, Oak Ridge National Laboratory, 37831 Oak Ridge, TN, USA, 4Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, TN, USA, 5Department of Molecular Physiology and Biological Physics, 6Department of Biomedical Engineering, University of Virginia, Charlottesville, VA, USA, 7Department of Biochemistry and Biophysics, Center for Biomembrane Research, Stockholm University, Stockholm, Sweden, 8Department of Chemical Engineering, University of Virginia, Charlottesville, VA, USA and 9Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden",
+              "source": "crossref"
+            },
+            {
+              "name": "1 Science for Life Laboratory, Stockholm and Uppsala, 171 21 Stockholm, Sweden, 2Theoretical and Computational Biophysics, Dept. Theoretical Physics, KTH Royal Institute of Technology, 10691 Stockholm, Sweden, 3UT/ORNL Center for Molecular Biophysics, Oak Ridge National Laboratory, 37831 Oak Ridge, TN, USA, 4Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, TN, USA, 5Department of Molecular Physiology and Biological Physics, 6Department of Biomedical Engineering, University of Virginia, Charlottesville, VA, USA, 7Department of Biochemistry and Biophysics, Center for Biomembrane Research, Stockholm University, Stockholm, Sweden, 8Department of Chemical Engineering, University of Virginia, Charlottesville, VA, USA and 9Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "David",
+            "family": "van der Spoel",
+            "full_name": "David van der Spoel",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Science for Life Laboratory, Stockholm and Uppsala, 171 21 Stockholm, Sweden, 2Theoretical and Computational Biophysics, Dept. Theoretical Physics, KTH Royal Institute of Technology, 10691 Stockholm, Sweden, 3UT/ORNL Center for Molecular Biophysics, Oak Ridge National Laboratory, 37831 Oak Ridge, TN, USA, 4Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, TN, USA, 5Department of Molecular Physiology and Biological Physics, 6Department of Biomedical Engineering, University of Virginia, Charlottesville, VA, USA, 7Department of Biochemistry and Biophysics, Center for Biomembrane Research, Stockholm University, Stockholm, Sweden, 8Department of Chemical Engineering, University of Virginia, Charlottesville, VA, USA and 9Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden",
+              "source": "crossref"
+            },
+            {
+              "name": "1 Science for Life Laboratory, Stockholm and Uppsala, 171 21 Stockholm, Sweden, 2Theoretical and Computational Biophysics, Dept. Theoretical Physics, KTH Royal Institute of Technology, 10691 Stockholm, Sweden, 3UT/ORNL Center for Molecular Biophysics, Oak Ridge National Laboratory, 37831 Oak Ridge, TN, USA, 4Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, TN, USA, 5Department of Molecular Physiology and Biological Physics, 6Department of Biomedical Engineering, University of Virginia, Charlottesville, VA, USA, 7Department of Biochemistry and Biophysics, Center for Biomembrane Research, Stockholm University, Stockholm, Sweden, 8Department of Chemical Engineering, University of Virginia, Charlottesville, VA, USA and 9Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Berk",
+            "family": "Hess",
+            "full_name": "Berk Hess",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Science for Life Laboratory, Stockholm and Uppsala, 171 21 Stockholm, Sweden, 2Theoretical and Computational Biophysics, Dept. Theoretical Physics, KTH Royal Institute of Technology, 10691 Stockholm, Sweden, 3UT/ORNL Center for Molecular Biophysics, Oak Ridge National Laboratory, 37831 Oak Ridge, TN, USA, 4Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, TN, USA, 5Department of Molecular Physiology and Biological Physics, 6Department of Biomedical Engineering, University of Virginia, Charlottesville, VA, USA, 7Department of Biochemistry and Biophysics, Center for Biomembrane Research, Stockholm University, Stockholm, Sweden, 8Department of Chemical Engineering, University of Virginia, Charlottesville, VA, USA and 9Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden",
+              "source": "crossref"
+            },
+            {
+              "name": "1 Science for Life Laboratory, Stockholm and Uppsala, 171 21 Stockholm, Sweden, 2Theoretical and Computational Biophysics, Dept. Theoretical Physics, KTH Royal Institute of Technology, 10691 Stockholm, Sweden, 3UT/ORNL Center for Molecular Biophysics, Oak Ridge National Laboratory, 37831 Oak Ridge, TN, USA, 4Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, TN, USA, 5Department of Molecular Physiology and Biological Physics, 6Department of Biomedical Engineering, University of Virginia, Charlottesville, VA, USA, 7Department of Biochemistry and Biophysics, Center for Biomembrane Research, Stockholm University, Stockholm, Sweden, 8Department of Chemical Engineering, University of Virginia, Charlottesville, VA, USA and 9Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Erik",
+            "family": "Lindahl",
+            "full_name": "Erik Lindahl",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Science for Life Laboratory, Stockholm and Uppsala, 171 21 Stockholm, Sweden, 2Theoretical and Computational Biophysics, Dept. Theoretical Physics, KTH Royal Institute of Technology, 10691 Stockholm, Sweden, 3UT/ORNL Center for Molecular Biophysics, Oak Ridge National Laboratory, 37831 Oak Ridge, TN, USA, 4Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, TN, USA, 5Department of Molecular Physiology and Biological Physics, 6Department of Biomedical Engineering, University of Virginia, Charlottesville, VA, USA, 7Department of Biochemistry and Biophysics, Center for Biomembrane Research, Stockholm University, Stockholm, Sweden, 8Department of Chemical Engineering, University of Virginia, Charlottesville, VA, USA and 9Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden",
+              "source": "crossref"
+            },
+            {
+              "name": "1 Science for Life Laboratory, Stockholm and Uppsala, 171 21 Stockholm, Sweden, 2Theoretical and Computational Biophysics, Dept. Theoretical Physics, KTH Royal Institute of Technology, 10691 Stockholm, Sweden, 3UT/ORNL Center for Molecular Biophysics, Oak Ridge National Laboratory, 37831 Oak Ridge, TN, USA, 4Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, TN, USA, 5Department of Molecular Physiology and Biological Physics, 6Department of Biomedical Engineering, University of Virginia, Charlottesville, VA, USA, 7Department of Biochemistry and Biophysics, Center for Biomembrane Research, Stockholm University, Stockholm, Sweden, 8Department of Chemical Engineering, University of Virginia, Charlottesville, VA, USA and 9Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden",
+              "source": "crossref"
+            },
+            {
+              "name": "1 Science for Life Laboratory, Stockholm and Uppsala, 171 21 Stockholm, Sweden, 2Theoretical and Computational Biophysics, Dept. Theoretical Physics, KTH Royal Institute of Technology, 10691 Stockholm, Sweden, 3UT/ORNL Center for Molecular Biophysics, Oak Ridge National Laboratory, 37831 Oak Ridge, TN, USA, 4Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, TN, USA, 5Department of Molecular Physiology and Biological Physics, 6Department of Biomedical Engineering, University of Virginia, Charlottesville, VA, USA, 7Department of Biochemistry and Biophysics, Center for Biomembrane Research, Stockholm University, Stockholm, Sweden, 8Department of Chemical Engineering, University of Virginia, Charlottesville, VA, USA and 9Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 6801,
+      "reference_count": 51,
+      "references": [
+        {
+          "doi": "10.1063/1.1743957",
+          "title": "Phase transition for a hard sphere system",
+          "year": 1957,
+          "author": "Alder",
+          "key": "2023020303304670700_btt055-B1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/0021-9991(76)90078-4",
+          "title": "Efficient estimation of free energy differences from Monte Carlo data",
+          "year": 1976,
+          "author": "Bennett",
+          "key": "2023020303304670700_btt055-B2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Report of CECAM workshop: models for protein dynamics",
+          "year": 1976,
+          "author": "Berendsen",
+          "key": "2023020303304670700_btt055-B3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/SC.2006.54",
+          "title": "Scalable algorithms for molecular dynamics simulations on commodity clusters",
+          "year": 2006,
+          "author": "Bowers",
+          "key": "2023020303304670700_btt055-B4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1021/ja106936n",
+          "title": "Atomistic folding simulations of the five helix bundle protein 6-85",
+          "year": 2011,
+          "author": "Bowman",
+          "key": "2023020303304670700_btt055-B5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jmb.2009.09.049",
+          "title": "Predicting ligand binding affinity with alchemical free energy methods in a polar model binding site",
+          "year": 2009,
+          "author": "Boyce",
+          "key": "2023020303304670700_btt055-B6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/jcc.21287",
+          "title": "Charmm: The biomolecular simulation program",
+          "year": 2009,
+          "author": "Brooks",
+          "key": "2023020303304670700_btt055-B7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1021/ct200731v",
+          "title": "Force field benchmark of organic liquids: density, enthalpy of vaporization, heat capacities, surface tension, compressibility, expansion coefficient and dielectric constant",
+          "year": 2012,
+          "author": "Caleman",
+          "key": "2023020303304670700_btt055-B8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/jcc.20290",
+          "title": "The amer biomolecular simulation programs",
+          "year": 2005,
+          "author": "Case",
+          "key": "2023020303304670700_btt055-B9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1073/pnas.96.25.14330",
+          "title": "Molecular dynamics and free-energy calculations applied to affinity maturation in antibody 48g7",
+          "year": 1999,
+          "author": "Chong",
+          "key": "2023020303304670700_btt055-B10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/jcc.20303",
+          "title": "The gromos software for biomolecular simulation: Gromos05",
+          "year": 2005,
+          "author": "Christen",
+          "key": "2023020303304670700_btt055-B11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1126/science.282.5389.740",
+          "title": "Pathways to a protein folding intermediate observed in a 1-microsecond simulation in aqueous solution",
+          "year": 1998,
+          "author": "Duan",
+          "key": "2023020303304670700_btt055-B12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1063/1.470117",
+          "title": "A smooth particle mesh Ewald method",
+          "year": 1995,
+          "author": "Essmann",
+          "key": "2023020303304670700_btt055-B13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1021/jp961710n",
+          "title": "Parametrized models of aqueous free energies of solvation based on pairwise descreening of solute atomic charges from a dielectric medium",
+          "year": 1996,
+          "author": "Hawkins",
+          "key": "2023020303304670700_btt055-B14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1021/ja9738539",
+          "title": "Computational alchemy to calculate absolute protein-ligand binding free energy",
+          "year": 1998,
+          "author": "Helms",
+          "key": "2023020303304670700_btt055-B15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1021/ct700301q",
+          "title": "Gromacs 4: Algorithms for highly efficient, load-balanced, and scalable molecular simulation",
+          "year": 2008,
+          "author": "Hess",
+          "key": "2023020303304670700_btt055-B16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1002002",
+          "title": "The free energy landscape of small molecule unbinding",
+          "year": 2011,
+          "author": "Huang",
+          "key": "2023020303304670700_btt055-B17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1021/ct100494z",
+          "title": "g_wham-a free weighted histogram analysis implementation including robust error and autocorrelation estimates",
+          "year": 2010,
+          "author": "Hub",
+          "key": "2023020303304670700_btt055-B18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/0263-7855(96)00018-5",
+          "title": "VMD\u2014Visual Molecular Dynamics",
+          "year": 1996,
+          "author": "Humphrey",
+          "key": "2023020303304670700_btt055-B51",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1000829",
+          "title": "Atomic-resolution simulations predict a transition state for vesicle fusion defined by contact of a few lipid tails",
+          "year": 2010,
+          "author": "Kasson",
+          "key": "2023020303304670700_btt055-B19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.bpj.2010.04.062",
+          "title": "Scrutinizing molecular mechanics force fields on the submicrosecond timescale with NMR data",
+          "year": 2010,
+          "author": "Lange",
+          "key": "2023020303304670700_btt055-B20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1002502",
+          "title": "Virus capsid dissolution studied by microsecond molecular dynamics simulations",
+          "year": 2012,
+          "author": "Larsson",
+          "key": "2023020303304670700_btt055-B21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/jcc.21552",
+          "title": "A high-performance parallel-generalized born implementation enabled by tabulated interaction rescaling",
+          "year": 2010,
+          "author": "Larsson",
+          "key": "2023020303304670700_btt055-B22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/0022-2836(69)90421-5",
+          "title": "Refinement of protein conformations using a macromolecular energy minimization procedure",
+          "year": 1969,
+          "author": "Levitt",
+          "key": "2023020303304670700_btt055-B23",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1063/1.1670007",
+          "title": "A consistent force field for calculation on conformations, vibrational spectra and enthalpies of cycloalkanes and n-alkane molecules",
+          "year": 1968,
+          "author": "Lifson",
+          "key": "2023020303304670700_btt055-B24",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1126/science.1208351",
+          "title": "How fast-folding proteins fold",
+          "year": 2011,
+          "author": "Lindorff-Larsen",
+          "key": "2023020303304670700_btt055-B25",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1021/ct200196m",
+          "title": "An automated force field topology builder (ATB) and repository: version 1.0",
+          "year": 2011,
+          "author": "Malde",
+          "key": "2023020303304670700_btt055-B26",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1021/jp071097f",
+          "title": "The MARTINI force field: Coarse grained model for biomolecular simulations",
+          "year": 2007,
+          "author": "Marrink",
+          "key": "2023020303304670700_btt055-B27",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1080/00268979600100761",
+          "title": "Explicit reversible integrators for extended systems dynamics",
+          "year": 1996,
+          "author": "Martyna",
+          "key": "2023020303304670700_btt055-B28",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/267585a0",
+          "title": "Dynamics of folded proteins",
+          "year": 1977,
+          "author": "McCammon",
+          "key": "2023020303304670700_btt055-B29",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.bpj.2011.02.032",
+          "title": "Microsecond simulations indicate that ethanol binds between subunits and could stabilize an open-state model of a glycine receptor",
+          "year": 2011,
+          "author": "Murail",
+          "key": "2023020303304670700_btt055-B30",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.sbi.2008.01.008",
+          "title": "Transition networks for modeling the kinetics of conformational change in macromolecules",
+          "year": 2008,
+          "author": "No\u00e9",
+          "key": "2023020303304670700_btt055-B31",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1080/00268978300102851",
+          "title": "Constant pressure molecular dynamics for molecular systems",
+          "year": 1983,
+          "author": "Nos\u00e9",
+          "key": "2023020303304670700_btt055-B32",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1073/pnas.1001832107",
+          "title": "One-microsecond molecular dynamics simulation of channel gating in a nicotinic receptor homologue",
+          "year": 2010,
+          "author": "Nury",
+          "key": "2023020303304670700_btt055-B33",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/prot.20033",
+          "title": "Exploring protein native states and large-scale conformational changes with a modified generalized born model",
+          "year": 2004,
+          "author": "Onufriev",
+          "key": "2023020303304670700_btt055-B34",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.ymeth.2010.06.002",
+          "title": "Everything you wanted to know about Markov state models but were afraid to ask",
+          "year": 2010,
+          "author": "Pande",
+          "key": "2023020303304670700_btt055-B35",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1063/1.328693",
+          "title": "Polymorphic transitions in single crystals: a new molecular dynamics method",
+          "year": 1981,
+          "author": "Parrinello",
+          "key": "2023020303304670700_btt055-B36",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/jcc.20289",
+          "title": "Scalable molecular dynamics with namd",
+          "year": 2005,
+          "author": "Phillips",
+          "key": "2023020303304670700_btt055-B37",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1021/jp961992r",
+          "title": "The GB/SA continuum model for solvation. A fast analytical method for the calculation of approximate born radii",
+          "year": 1997,
+          "author": "Qui",
+          "key": "2023020303304670700_btt055-B38",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1021/ct900292r",
+          "title": "Scaling of multimillion-atom biological molecular dynamics simulation on a petascale supercomputer",
+          "year": 2009,
+          "author": "Schulz",
+          "key": "2023020303304670700_btt055-B39",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1063/1.1873592",
+          "title": "Comparison of efficiency and bias of free energies computed by exponential averaging, the Bennett acceptance ratio, and thermodynamic integration",
+          "year": 2005,
+          "author": "Shirts",
+          "key": "2023020303304670700_btt055-B40",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1063/1.442716",
+          "title": "A computer-simulation method for the calculation of equilibrium-constants for the formation of physical clusters of molecules: application to small water clusters",
+          "year": 1982,
+          "author": "Swope",
+          "key": "2023020303304670700_btt055-B41",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.cpc.2010.04.018",
+          "title": "NWChem: a comprehensive and scalable open-source solution for large scale molecular simulations",
+          "year": 2010,
+          "author": "Valiev",
+          "key": "2023020303304670700_btt055-B42",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/wcms.50",
+          "title": "Gromacs\u2014the road ahead",
+          "year": 2011,
+          "author": "van der Spoel",
+          "key": "2023020303304670700_btt055-B43",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1103/PhysRevLett.96.238102",
+          "title": "Protein folding kinetics and thermodynamics from atomistic simulations",
+          "year": 2006,
+          "author": "van der Spoel",
+          "key": "2023020303304670700_btt055-B44",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1021/ct0502256",
+          "title": "The origin of layer structure artifacts in simulations of liquid water",
+          "year": 2006,
+          "author": "van der Spoel",
+          "key": "2023020303304670700_btt055-B45",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/bts020",
+          "title": "GROMACS molecule and liquid database",
+          "year": 2012,
+          "author": "van der Spoel",
+          "key": "2023020303304670700_btt055-B46",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/jcc.21367",
+          "title": "CHARMM general force field: a force field for drug-like molecules compatible with the CHARMM all-atom additive biological force fields",
+          "year": 2010,
+          "author": "Vanommeslaeghe",
+          "key": "2023020303304670700_btt055-B47",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/jcc.20035",
+          "title": "Antechamber, an accessory software package for molecular mechanical calculations",
+          "year": 2005,
+          "author": "Wang",
+          "key": "2023020303304670700_btt055-B48",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/jcc.21507",
+          "title": "g_membed: efficient insertion of a membrane protein into an equilibrated lipid bilayer with minimal perturbation",
+          "year": 2010,
+          "author": "Wold",
+          "key": "2023020303304670700_btt055-B49",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.str.2011.09.022",
+          "title": "Atomic-level protein structure refinement using fragment-guided molecular dynamics conformation sampling",
+          "year": 2011,
+          "author": "Zhang",
+          "key": "2023020303304670700_btt055-B50",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/29/7/845/49060801/bioinformatics_29_7_845.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/29/7/845/49060801/bioinformatics_29_7_845.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btt055",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "GROMACS 4.5: a high-throughput and highly parallel open source molecular simulation toolkit",
+      "abstract": "Abstract Motivation: Molecular simulation has historically been a low-throughput technique, but faster computers and increasing amounts of genomic and structural data are changing this by enabling large-scale automated simulation of, for instance, many conformers or mutants of biomolecules with or without a range of ligands. At the same time, advances in performance and scaling now make it possible to model complex biomolecular interaction and function in a manner directly testable by experiment. These applications share a need for fast and efficient software that can be deployed on massive scale in clusters, web servers, distributed computing or cloud resources. Results: Here, we present a range of new simulation algorithms and features developed during the past 4 years, leading up to the GROMACS 4.5 software package. The software now automatically handles wide classes of biomolecules, such as proteins, nucleic acids and lipids, and comes with all commonly used force fields for these molecules built-in. GROMACS supports several implicit solvent models, as well as new free-energy algorithms, and the software now uses multithreading for efficient parallelization even on low-end systems, including windows-based workstations. Together with hand-tuned assembly kernels and state-of-the-art parallelization, this provides extremely high performance and cost efficiency for high-throughput as well as massively parallel simulations. Availability: GROMACS is an open source and free software available from http://www.gromacs.org. Contact: erik.lindahl@scilifelab.se Supplementary information: Supplementary data are available at Bioinformatics online.",
+      "publication_date": "2013-02-13",
+      "publication_year": 2013,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310311648",
+      "container_title": "Bioinformatics",
+      "volume": "29",
+      "issue": "7",
+      "pages": "845-854",
+      "issn": [
+        "1367-4803",
+        "1367-4811"
+      ],
+      "doi": "10.1093/bioinformatics/btt055",
+      "pmid": "23407358",
+      "openalex_id": "https://openalex.org/W2160544821",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Sander Pronk",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "KTH Royal Institute of Technology",
+              "ror_id": "https://ror.org/026vcq606",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "Science for Life Laboratory",
+              "ror_id": "https://ror.org/04ev03g22",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "Oak Ridge National Laboratory",
+              "ror_id": "https://ror.org/01qz5mb56",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Stockholm University",
+              "ror_id": "https://ror.org/05f0yaq80",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Tennessee at Knoxville",
+              "ror_id": "https://ror.org/020f3ap87",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Virginia",
+              "ror_id": "https://ror.org/0153tk833",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5051579614",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Szil\u00e1rd P\u00e1ll",
+            "orcid": "0000-0003-0603-5514",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Tennessee at Knoxville",
+              "ror_id": "https://ror.org/020f3ap87",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Virginia",
+              "ror_id": "https://ror.org/0153tk833",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Stockholm University",
+              "ror_id": "https://ror.org/05f0yaq80",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "Oak Ridge National Laboratory",
+              "ror_id": "https://ror.org/01qz5mb56",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "KTH Royal Institute of Technology",
+              "ror_id": "https://ror.org/026vcq606",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "Science for Life Laboratory",
+              "ror_id": "https://ror.org/04ev03g22",
+              "country_code": "SE",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5009705616",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Roland Schulz",
+            "orcid": "0000-0003-1603-2413",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Stockholm University",
+              "ror_id": "https://ror.org/05f0yaq80",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Tennessee at Knoxville",
+              "ror_id": "https://ror.org/020f3ap87",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Science for Life Laboratory",
+              "ror_id": "https://ror.org/04ev03g22",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "KTH Royal Institute of Technology",
+              "ror_id": "https://ror.org/026vcq606",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Virginia",
+              "ror_id": "https://ror.org/0153tk833",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Oak Ridge National Laboratory",
+              "ror_id": "https://ror.org/01qz5mb56",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5041396463",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Per Larsson",
+            "orcid": "0000-0002-8418-4956",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "KTH Royal Institute of Technology",
+              "ror_id": "https://ror.org/026vcq606",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "Stockholm University",
+              "ror_id": "https://ror.org/05f0yaq80",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "Oak Ridge National Laboratory",
+              "ror_id": "https://ror.org/01qz5mb56",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Tennessee at Knoxville",
+              "ror_id": "https://ror.org/020f3ap87",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Virginia",
+              "ror_id": "https://ror.org/0153tk833",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Science for Life Laboratory",
+              "ror_id": "https://ror.org/04ev03g22",
+              "country_code": "SE",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5036519166",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "P\u00e4r Bjelkmar",
+            "orcid": "0000-0002-5560-865X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Oak Ridge National Laboratory",
+              "ror_id": "https://ror.org/01qz5mb56",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Science for Life Laboratory",
+              "ror_id": "https://ror.org/04ev03g22",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Tennessee at Knoxville",
+              "ror_id": "https://ror.org/020f3ap87",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Virginia",
+              "ror_id": "https://ror.org/0153tk833",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Stockholm University",
+              "ror_id": "https://ror.org/05f0yaq80",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "KTH Royal Institute of Technology",
+              "ror_id": "https://ror.org/026vcq606",
+              "country_code": "SE",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5070322644",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Rossen Apostolov",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Virginia",
+              "ror_id": "https://ror.org/0153tk833",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Tennessee at Knoxville",
+              "ror_id": "https://ror.org/020f3ap87",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Oak Ridge National Laboratory",
+              "ror_id": "https://ror.org/01qz5mb56",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Stockholm University",
+              "ror_id": "https://ror.org/05f0yaq80",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "KTH Royal Institute of Technology",
+              "ror_id": "https://ror.org/026vcq606",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "Science for Life Laboratory",
+              "ror_id": "https://ror.org/04ev03g22",
+              "country_code": "SE",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5009536511",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Michael R. Shirts",
+            "orcid": "0000-0003-3249-1097",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "KTH Royal Institute of Technology",
+              "ror_id": "https://ror.org/026vcq606",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "Science for Life Laboratory",
+              "ror_id": "https://ror.org/04ev03g22",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Virginia",
+              "ror_id": "https://ror.org/0153tk833",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Stockholm University",
+              "ror_id": "https://ror.org/05f0yaq80",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "Oak Ridge National Laboratory",
+              "ror_id": "https://ror.org/01qz5mb56",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Tennessee at Knoxville",
+              "ror_id": "https://ror.org/020f3ap87",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5080360440",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jeremy C. Smith",
+            "orcid": "0000-0002-2978-3227",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "KTH Royal Institute of Technology",
+              "ror_id": "https://ror.org/026vcq606",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "Oak Ridge National Laboratory",
+              "ror_id": "https://ror.org/01qz5mb56",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Science for Life Laboratory",
+              "ror_id": "https://ror.org/04ev03g22",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "Stockholm University",
+              "ror_id": "https://ror.org/05f0yaq80",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Tennessee at Knoxville",
+              "ror_id": "https://ror.org/020f3ap87",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Virginia",
+              "ror_id": "https://ror.org/0153tk833",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5018366869",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Peter M. Kasson",
+            "orcid": "0000-0002-3111-8103",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "KTH Royal Institute of Technology",
+              "ror_id": "https://ror.org/026vcq606",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "Science for Life Laboratory",
+              "ror_id": "https://ror.org/04ev03g22",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "Oak Ridge National Laboratory",
+              "ror_id": "https://ror.org/01qz5mb56",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Stockholm University",
+              "ror_id": "https://ror.org/05f0yaq80",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Virginia",
+              "ror_id": "https://ror.org/0153tk833",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Tennessee at Knoxville",
+              "ror_id": "https://ror.org/020f3ap87",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5081016259",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "David van der Spoel",
+            "orcid": "0000-0002-7659-8526",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "KTH Royal Institute of Technology",
+              "ror_id": "https://ror.org/026vcq606",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Virginia",
+              "ror_id": "https://ror.org/0153tk833",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Science for Life Laboratory",
+              "ror_id": "https://ror.org/04ev03g22",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "Stockholm University",
+              "ror_id": "https://ror.org/05f0yaq80",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "Oak Ridge National Laboratory",
+              "ror_id": "https://ror.org/01qz5mb56",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Tennessee at Knoxville",
+              "ror_id": "https://ror.org/020f3ap87",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5020854808",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Berk Hess",
+            "orcid": "0000-0002-7498-7763",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Tennessee at Knoxville",
+              "ror_id": "https://ror.org/020f3ap87",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "KTH Royal Institute of Technology",
+              "ror_id": "https://ror.org/026vcq606",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Virginia",
+              "ror_id": "https://ror.org/0153tk833",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Stockholm University",
+              "ror_id": "https://ror.org/05f0yaq80",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "Science for Life Laboratory",
+              "ror_id": "https://ror.org/04ev03g22",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "Oak Ridge National Laboratory",
+              "ror_id": "https://ror.org/01qz5mb56",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5050108763",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Erik Lindahl",
+            "orcid": "0000-0002-2734-2794",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Oak Ridge National Laboratory",
+              "ror_id": "https://ror.org/01qz5mb56",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "KTH Royal Institute of Technology",
+              "ror_id": "https://ror.org/026vcq606",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Tennessee at Knoxville",
+              "ror_id": "https://ror.org/020f3ap87",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Virginia",
+              "ror_id": "https://ror.org/0153tk833",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Science for Life Laboratory",
+              "ror_id": "https://ror.org/04ev03g22",
+              "country_code": "SE",
+              "source": "openalex"
+            },
+            {
+              "name": "Stockholm University",
+              "ror_id": "https://ror.org/05f0yaq80",
+              "country_code": "SE",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5008875190",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 7394,
+      "reference_count": 53,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2026": 57,
+        "2025": 574,
+        "2024": 538,
+        "2023": 563,
+        "2022": 587,
+        "2021": 667,
+        "2020": 626,
+        "2019": 638,
+        "2018": 632,
+        "2017": 705,
+        "2016": 716,
+        "2015": 603,
+        "2014": 388,
+        "2013": 89,
+        "2012": 1
+      },
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btt055",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/29/7/845/49060801/bioinformatics_29_7_845.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btt055",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btt055",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/29/7/845/49060801/bioinformatics_29_7_845.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btt055",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23407358",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/23407358",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-121462",
+          "landing_page_url": "http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-121462",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "is_best": false,
+          "source": "openalex"
+        },
+        {
+          "url": "http://europepmc.org/articles/PMC3605599",
+          "landing_page_url": "http://europepmc.org/articles/PMC3605599",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1303153112",
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3605599",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3605599",
+          "host_type": "journal",
+          "version": "submittedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://academic.oup.com/bioinformatics/article-pdf/29/7/845/49060801/bioinformatics_29_7_845.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Protein Structure and Dynamics",
+          "scheme": "openalex_topic",
+          "score": 0.9998999834060669,
+          "source": "openalex"
+        },
+        {
+          "value": "Enzyme Structure and Function",
+          "scheme": "openalex_topic",
+          "score": 0.9986000061035156,
+          "source": "openalex"
+        },
+        {
+          "value": "Mass Spectrometry Techniques and Applications",
+          "scheme": "openalex_topic",
+          "score": 0.9883000254631042,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.8185794949531555,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Massively parallel",
+          "scheme": "openalex_concept",
+          "score": 0.6709083914756775,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Software",
+          "scheme": "openalex_concept",
+          "score": 0.6419389247894287,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Throughput",
+          "scheme": "openalex_concept",
+          "score": 0.5391474366188049,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Computational science",
+          "scheme": "openalex_concept",
+          "score": 0.5292084813117981,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Multithreading",
+          "scheme": "openalex_concept",
+          "score": 0.49726584553718567,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Parallel computing",
+          "scheme": "openalex_concept",
+          "score": 0.48296207189559937,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Workstation",
+          "scheme": "openalex_concept",
+          "score": 0.47436460852622986,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Cloud computing",
+          "scheme": "openalex_concept",
+          "score": 0.43156546354293823,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Supercomputer",
+          "scheme": "openalex_concept",
+          "score": 0.4314735531806946,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Multi-core processor",
+          "scheme": "openalex_concept",
+          "score": 0.41830307245254517,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Distributed computing",
+          "scheme": "openalex_concept",
+          "score": 0.3451537787914276,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Operating system",
+          "scheme": "openalex_concept",
+          "score": 0.1468818187713623,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Wireless",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Thread (computing)",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Affordable and clean energy",
+          "scheme": "SDG",
+          "score": 0.6399999856948853,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "descriptor_ui": "D011506",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "descriptor_ui": "D011506",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "descriptor_ui": "D011506",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "descriptor_ui": "D011506",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Molecular Dynamics Simulation",
+          "descriptor_ui": "D056004",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Molecular Dynamics Simulation",
+          "descriptor_ui": "D056004",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Molecular Dynamics Simulation",
+          "descriptor_ui": "D056004",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Molecular Dynamics Simulation",
+          "descriptor_ui": "D056004",
+          "is_major_topic": true,
+          "source": "openalex"
+        }
+      ],
+      "keywords": [
+        "Computer science",
+        "Massively parallel",
+        "Software",
+        "Throughput",
+        "Computational science",
+        "Multithreading",
+        "Parallel computing",
+        "Workstation",
+        "Cloud computing",
+        "Supercomputer",
+        "Multi-core processor",
+        "Distributed computing",
+        "Operating system"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 254.79474871,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.99997309,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 3618.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btt055",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "GROMACS 4.5: a high-throughput and highly parallel open source molecular simulation toolkit",
+      "publication_date": "2013-02-13",
+      "publication_year": 2013,
+      "work_type": "journal-article",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "Bioinformatics",
+      "issn": [
+        "1367-4811",
+        "1367-4803"
+      ],
+      "doi": "10.1093/bioinformatics/btt055",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_locations": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/29/7/845/49060801/bioinformatics_29_7_845.pdf",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/29/7/845/49060801/bioinformatics_29_7_845.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btt055",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/29/7/845/49060801/bioinformatics_29_7_845.pdf",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/29/7/845/49060801/bioinformatics_29_7_845.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btt055",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-121462",
+          "landing_page_url": "http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-121462",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "evidence": "deprecated",
+          "is_best": false,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3605599",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3605599",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://academic.oup.com/bioinformatics/article-pdf/29/7/845/49060801/bioinformatics_29_7_845.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btt055",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openaire": {
+      "source": "openaire",
+      "found": true,
+      "raw": {},
+      "title": "GROMACS 4.5: a high-throughput and highly parallel open source molecular simulation toolkit",
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>Motivation: Molecular simulation has historically been a low-throughput technique, but faster computers and increasing amounts of genomic and structural data are changing this by enabling large-scale automated simulation of, for instance, many conformers or mutants of biomolecules with or without a range of ligands. At the same time, advances in performance and scaling now make it possible to model complex biomolecular interaction and function in a manner directly testable by experiment. These applications share a need for fast and efficient software that can be deployed on massive scale in clusters, web servers, distributed computing or cloud resources.</jats:p><jats:p>Results: Here, we present a range of new simulation algorithms and features developed during the past 4 years, leading up to the GROMACS 4.5 software package. The software now automatically handles wide classes of biomolecules, such as proteins, nucleic acids and lipids, and comes with all commonly used force fields for these molecules built-in. GROMACS supports several implicit solvent models, as well as new free-energy algorithms, and the software now uses multithreading for efficient parallelization even on low-end systems, including windows-based workstations. Together with hand-tuned assembly kernels and state-of-the-art parallelization, this provides extremely high performance and cost efficiency for high-throughput as well as massively parallel simulations.</jats:p><jats:p>Availability: GROMACS is an open source and free software available from http://www.gromacs.org.</jats:p><jats:p>Contact: \u00a0erik.lindahl@scilifelab.se</jats:p><jats:p>Supplementary information: \u00a0Supplementary data are available at Bioinformatics online.</jats:p>",
+      "publication_date": "2013-02-13",
+      "publication_year": 2013,
+      "work_type": "publication",
+      "language": "eng",
+      "publisher": "Oxford University Press (OUP)",
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btt055",
+      "pmid": "23407358",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Sander Pronk",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Szil\u00e1rd P\u00e1ll",
+            "orcid": "0000-0003-0603-5514",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Roland Schulz",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Per Larsson",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "P\u00e4r Bjelkmar",
+            "orcid": "0000-0002-5560-865x",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Rossen Apostolov",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Michael R. Shirts",
+            "orcid": "0000-0003-3249-1097",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jeremy C. Smith",
+            "orcid": "0000-0002-2978-3227",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Peter M. Kasson",
+            "orcid": "0000-0002-3111-8103",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "David van der Spoel",
+            "orcid": "0000-0002-7659-8526",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Berk Hess",
+            "orcid": "0000-0002-7498-7763",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Erik Lindahl",
+            "orcid": "0000-0002-2734-2794",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "citation_count": 6707,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btt055",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/29/7/845/17343875/btt055.pdf",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23407358",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btt055",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1093/bioinformatics/btt055",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1093/bioinformatics/btt055",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1093/bioinformatics/btt055",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-121462",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-121462",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1093/bioinformatics/btt055",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://publications-affiliated.scilifelab.se/publication/b3a85013928c44eab8788398a1cf76b5",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "209825",
+          "agency": "European Commission",
+          "title": "Multiscale and Distributed Computing Algorithms for Biomolecular Simulation and Efficient Free Energy Calculations",
+          "pi_names": [],
+          "openaire_project_id": "corda_______::a58dc226a696903fba56c12d9fd4d80e",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5R01GM098304-02",
+          "agency": "National Institutes of Health",
+          "title": "Understanding fusion peptide mutations in influenza hemagglutinin",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::22cd7f0c51fd6b4372bfe4d7c6b621d5",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "261523",
+          "agency": "European Commission",
+          "title": "Scalable Software Services for Life Science",
+          "pi_names": [],
+          "openaire_project_id": "corda_______::c5053c2da95bc7e5fa3c51b0e34725ca",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "258980",
+          "agency": "European Commission",
+          "title": "Million-core Molecular Simulation",
+          "pi_names": [],
+          "openaire_project_id": "corda_______::b21f6b1618151028fe7e3b4a2f2f894f",
+          "source": "openaire"
+        }
+      ],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "0301 basic medicine",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "Proteins",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Biomolecular Simulation",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Refinement",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Biological Sciences",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Molecular Dynamics Simulation",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "01 natural sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "Dynamics",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "03 medical and health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "Efficient",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Transition",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "0103 physical sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "Biologiska vetenskaper",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Free-Energy",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Constant",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Algorithms",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Software",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Force-Field",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Model",
+          "scheme": "keyword",
+          "source": "openaire"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "bip_citationCount",
+          "value": 6707.0,
+          "class_label": "C1",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_influence",
+          "value": 2.2600851e-07,
+          "class_label": "C1",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_popularity",
+          "value": 2.3185526e-06,
+          "class_label": "C1",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_impulse",
+          "value": 1661.0,
+          "class_label": "C1",
+          "source": "openaire"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [
+        {
+          "grant_id": "209825",
+          "agency": "European Commission",
+          "title": "Multiscale and Distributed Computing Algorithms for Biomolecular Simulation and Efficient Free Energy Calculations",
+          "pi_names": [],
+          "openaire_project_id": "corda_______::a58dc226a696903fba56c12d9fd4d80e",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5R01GM098304-02",
+          "agency": "National Institutes of Health",
+          "title": "Understanding fusion peptide mutations in influenza hemagglutinin",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::22cd7f0c51fd6b4372bfe4d7c6b621d5",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "261523",
+          "agency": "European Commission",
+          "title": "Scalable Software Services for Life Science",
+          "pi_names": [],
+          "openaire_project_id": "corda_______::c5053c2da95bc7e5fa3c51b0e34725ca",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "258980",
+          "agency": "European Commission",
+          "title": "Million-core Molecular Simulation",
+          "pi_names": [],
+          "openaire_project_id": "corda_______::b21f6b1618151028fe7e3b4a2f2f894f",
+          "source": "openaire"
+        }
+      ],
+      "alternate_ids": [
+        "doi:10.1093/bioinformatics/btt055",
+        "doi:10.1093/bioinformatics/btt055",
+        "pmid:23407358",
+        "pmc:PMC3605599",
+        "doi:10.1093/bioinformatics/btt055",
+        "doi:10.1093/bioinformatics/btt055",
+        "doi:10.1093/bioinformatics/btt055",
+        "doi:10.1093/bioinformatics/btt055",
+        "doi:10.1093/bioinformatics/btt055",
+        "urn:urn:nbn:se:kth:diva-121462",
+        "doi:10.1093/bioinformatics/btt055",
+        "doi:10.1093/bioinformatics/btt055",
+        "doi:10.1093/bioinformatics/btt055",
+        "pmid:23407358"
+      ],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btt055",
+      "pmid": "23671333",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btt055",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btt055",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btt055",
+      "authors": [
+        {
+          "name": {
+            "given": "P\u00e4r",
+            "family": "Bjelkmar",
+            "full_name": "P\u00e4r Bjelkmar",
+            "orcid": "0000-0002-5560-865X",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Szil\u00e1rd",
+            "family": "P\u00e1ll",
+            "full_name": "Szil\u00e1rd P\u00e1ll",
+            "orcid": "0000-0003-0603-5514",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michael",
+            "family": "Shirts",
+            "full_name": "Michael Shirts",
+            "orcid": "0000-0003-3249-1097",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Berk",
+            "family": "Hess",
+            "full_name": "Berk Hess",
+            "orcid": "0000-0002-7498-7763",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jeremy",
+            "family": "Smith",
+            "full_name": "Jeremy Smith",
+            "orcid": "0000-0002-2978-3227",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Erik",
+            "family": "Lindahl",
+            "full_name": "Erik Lindahl",
+            "orcid": "0000-0002-2734-2794",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Peter",
+            "family": "Kasson",
+            "full_name": "Peter Kasson",
+            "orcid": "0000-0002-3111-8103",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0002-5560-865X",
+          "given_names": "P\u00e4r",
+          "family_names": "Bjelkmar",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Folkh\u00e4lsomyndigheten",
+            "Inera AB",
+            "NASA Ames Research Center",
+            "Stockholm County Council",
+            "Stockholm University",
+            "Uppsala University"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0003-0603-5514",
+          "given_names": "Szil\u00e1rd",
+          "family_names": "P\u00e1ll",
+          "credit_name": null,
+          "other_names": [
+            "Szilard Pall",
+            "S. Pall",
+            "S. P\u00e1ll"
+          ],
+          "institutions": [
+            "Babe\u0219-Bolyai University",
+            "Johannes Kepler Universitat Linz",
+            "KTH Royal Institute of Technology",
+            "Royal Institute of Technology",
+            "Software Competence Center Hagenberg GmbH",
+            "Stockholm University"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0003-3249-1097",
+          "given_names": "Michael",
+          "family_names": "Shirts",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Stanford University",
+            "University of Colorado Boulder",
+            "University of Virginia"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-7498-7763",
+          "given_names": "Berk",
+          "family_names": "Hess",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "KTH Royal Institute of Technology"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-2978-3227",
+          "given_names": "Jeremy",
+          "family_names": "Smith",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Commissariat \u00e0 l'Energie Atomique",
+            "Harvard University",
+            "University of Heidelberg",
+            "University of Leeds"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-2734-2794",
+          "given_names": "Erik",
+          "family_names": "Lindahl",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Institut Pasteur",
+            "KTH Royal Institute of Technology",
+            "Kungliga Tekniska Hogskolan",
+            "Lunds Universitet Tekniska H\u00f6gskola",
+            "Rijksuniversiteit Groningen",
+            "Science for Life Laboratory",
+            "Stanford University School of Medicine",
+            "Stockholms Universitet"
+          ],
+          "emails": [
+            "erik.lindahl@scilifelab.se",
+            "erik.lindahl@dbb.su.se",
+            "erik.lindahl@gmail.com",
+            "erik@kth.se"
+          ]
+        },
+        {
+          "orcid_id": "0000-0002-3111-8103",
+          "given_names": "Peter",
+          "family_names": "Kasson",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": true,
+      "raw": {},
+      "title": "GROMACS 4.5: a high-throughput and highly parallel open source molecular simulation toolkit.",
+      "abstract": "MOTIVATION: Molecular simulation has historically been a low-throughput technique, but faster computers and increasing amounts of genomic and structural data are changing this by enabling large-scale automated simulation of, for instance, many conformers or mutants of biomolecules with or without a range of ligands. At the same time, advances in performance and scaling now make it possible to model complex biomolecular interaction and function in a manner directly testable by experiment. These applications share a need for fast and efficient software that can be deployed on massive scale in clusters, web servers, distributed computing or cloud resources.\nRESULTS: Here, we present a range of new simulation algorithms and features developed during the past 4 years, leading up to the GROMACS 4.5 software package. The software now automatically handles wide classes of biomolecules, such as proteins, nucleic acids and lipids, and comes with all commonly used force fields for these molecules built-in. GROMACS supports several implicit solvent models, as well as new free-energy algorithms, and the software now uses multithreading for efficient parallelization even on low-end systems, including windows-based workstations. Together with hand-tuned assembly kernels and state-of-the-art parallelization, this provides extremely high performance and cost efficiency for high-throughput as well as massively parallel simulations.\nAVAILABILITY: GROMACS is an open source and free software available from http://www.gromacs.org.\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+      "publication_date": "2013-Apr-01",
+      "publication_year": 2013,
+      "work_type": "journal-article",
+      "language": "eng",
+      "container_title": "Bioinformatics (Oxford, England)",
+      "volume": "29",
+      "issue": "7",
+      "pages": "845-54",
+      "issn": [
+        "1367-4811",
+        "1367-4803"
+      ],
+      "doi": "10.1093/bioinformatics/btt055",
+      "pmid": "23407358",
+      "pmcid": "PMC3605599",
+      "authors": [
+        {
+          "name": {
+            "given": "Sander",
+            "family": "Pronk",
+            "full_name": "Sander Pronk",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Science for Life Laboratory, Stockholm and Uppsala, 171 21 Stockholm, Sweden.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Szil\u00e1rd",
+            "family": "P\u00e1ll",
+            "full_name": "Szil\u00e1rd P\u00e1ll",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Roland",
+            "family": "Schulz",
+            "full_name": "Roland Schulz",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Per",
+            "family": "Larsson",
+            "full_name": "Per Larsson",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "P\u00e4r",
+            "family": "Bjelkmar",
+            "full_name": "P\u00e4r Bjelkmar",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Rossen",
+            "family": "Apostolov",
+            "full_name": "Rossen Apostolov",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michael R",
+            "family": "Shirts",
+            "full_name": "Michael R Shirts",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jeremy C",
+            "family": "Smith",
+            "full_name": "Jeremy C Smith",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Peter M",
+            "family": "Kasson",
+            "full_name": "Peter M Kasson",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "David",
+            "family": "van der Spoel",
+            "full_name": "David van der Spoel",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Berk",
+            "family": "Hess",
+            "full_name": "Berk Hess",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Erik",
+            "family": "Lindahl",
+            "full_name": "Erik Lindahl",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [],
+          "sources": [
+            "entrez"
+          ]
+        }
+      ],
+      "reference_count": 51,
+      "references": [
+        {
+          "unstructured": "Alder B, Wainwright T. Phase transition for a hard sphere system. J. Chem. Phys. 1957;27:1208\u20131209.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Bennett CH. Efficient estimation of free energy differences from Monte Carlo data. J. Comp. Phys. 1976;22:245.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Berendsen H. Technical report. CECAM, Lyon: 1976. Report of CECAM workshop: models for protein dynamics.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Bowers KJ, et al. Proceedings of the ACM/IEEE Conference on Supercomputing (SC06) ACM, New York, NY: 2006. Scalable algorithms for molecular dynamics simulations on commodity clusters.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "21174461",
+          "unstructured": "Bowman G, et al. Atomistic folding simulations of the five helix bundle protein 6-85. J. Am. Chem. Soc. 2011;133:664\u2013667.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "19782087",
+          "unstructured": "Boyce S, et al. Predicting ligand binding affinity with alchemical free energy methods in a polar model binding site. J. Mol. Biol. 2009;394:747\u2013763.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "19444816",
+          "unstructured": "Brooks B, et al. Charmm: The biomolecular simulation program. J. Comp. Chem. 2009;30:1545\u20131614.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "22241968",
+          "unstructured": "Caleman C, et al. Force field benchmark of organic liquids: density, enthalpy of vaporization, heat capacities, surface tension, compressibility, expansion coefficient and dielectric constant. J. Chem. Theor. Comput. 2012;8:61\u201374.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "16200636",
+          "unstructured": "Case D, et al. The amer biomolecular simulation programs. J. Comp. Chem. 2005;26:1668\u20131688.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "10588705",
+          "unstructured": "Chong L, et al. Molecular dynamics and free-energy calculations applied to affinity maturation in antibody 48g7. Proc. Natl Acad. Sci. USA. 1999;96:14330\u201314335.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "16211540",
+          "unstructured": "Christen M, et al. The gromos software for biomolecular simulation: Gromos05. J. Comp. Chem. 2005;26:1719\u20131951.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "9784131",
+          "unstructured": "Duan Y, Kollman P. Pathways to a protein folding intermediate observed in a 1-microsecond simulation in aqueous solution. Science. 1998;282:740\u2013744.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Essmann U, et al. A smooth particle mesh Ewald method. J. Chem. Phys. 1995;103:8577\u20138592.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Hawkins D, et al. Parametrized models of aqueous free energies of solvation based on pairwise descreening of solute atomic charges from a dielectric medium. J. Phys. Chem. A. 1996;100:19824\u201319839.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Helms V, Wade R. Computational alchemy to calculate absolute protein-ligand binding free energy. J. Am. Chem. Soc. 1998;120:2710\u20132713.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "26620784",
+          "unstructured": "Hess B, et al. Gromacs 4: Algorithms for highly efficient, load-balanced, and scalable molecular simulation. J. Chem. Theor. Comput. 2008;4:435\u2013447.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "21390201",
+          "unstructured": "Huang D, Caflisch A. The free energy landscape of small molecule unbinding. PLoS Comput. Biol. 2011;7:e1002002.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Hub JS, et al. g_wham-a free weighted histogram analysis implementation including robust error and autocorrelation estimates. J. Chem. Theor. Comput. 2010;6:3713\u20133720.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "8744570",
+          "unstructured": "Humphrey W, et al. VMD\u2014Visual Molecular Dynamics. J. Molec. Graphics. 1996;14:33\u201338.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "20585620",
+          "unstructured": "Kasson PM, et al. Atomic-resolution simulations predict a transition state for vesicle fusion defined by contact of a few lipid tails. PLoS Comput. Biol. 2010;6:e1000829.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "20643085",
+          "unstructured": "Lange OF, et al. Scrutinizing molecular mechanics force fields on the submicrosecond timescale with NMR data. Biophys. J. 2010;99:647\u2013655.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "22589708",
+          "unstructured": "Larsson D, et al. Virus capsid dissolution studied by microsecond molecular dynamics simulations. PLoS Comput. Biol. 2012;8:e1002502.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "20740558",
+          "unstructured": "Larsson P, Lindahl E. A high-performance parallel-generalized born implementation enabled by tabulated interaction rescaling. J. Comp. Chem. 2010;31:2593\u20132600.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "5360040",
+          "unstructured": "Levitt M, Lifson S. Refinement of protein conformations using a macromolecular energy minimization procedure. J. Mol. Biol. 1969;46:269\u2013279.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Lifson S, Warshel A. A consistent force field for calculation on conformations, vibrational spectra and enthalpies of cycloalkanes and n-alkane molecules. J. Phys. Chem. 1968;49:5116\u20135130.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "22034434",
+          "unstructured": "Lindorff-Larsen K, et al. How fast-folding proteins fold. Science. 2011;334:517\u2013520.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "26598349",
+          "unstructured": "Malde AK, et al. An automated force field topology builder (ATB) and repository: version 1.0. J. Chem. Theor. Comput. 2011;7:4026\u20134037.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "17569554",
+          "unstructured": "Marrink SJ, et al. The MARTINI force field: Coarse grained model for biomolecular simulations. J. Phys. Chem. B. 2007;111:7812\u20137824.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Martyna GJ, et al. Explicit reversible integrators for extended systems dynamics. Mol. Phys. 1996;87:1117\u20131157.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "301613",
+          "unstructured": "McCammon J, et al. Dynamics of folded proteins. Nature. 1977;267:585\u2013590.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "21463577",
+          "unstructured": "Murail S, et al. Microsecond simulations indicate that ethanol binds between subunits and could stabilize an open-state model of a glycine receptor. Biophys J. 2011;100:1642\u20131650.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "18378442",
+          "unstructured": "No\u00e9 F, Fischer S. Transition networks for modeling the kinetics of conformational change in macromolecules. Curr. Opin. Struct. Biol. 2008;18:154\u2013162.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Nos\u00e9 S, Klein ML. Constant pressure molecular dynamics for molecular systems. Mol. Phys. 1983;50:1055\u20131076.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "20308576",
+          "unstructured": "Nury H, et al. One-microsecond molecular dynamics simulation of channel gating in a nicotinic receptor homologue. Proc. Natl Acad. Sci. USA. 2010;107:6275\u20136280.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "15048829",
+          "unstructured": "Onufriev A, et al. Exploring protein native states and large-scale conformational changes with a modified generalized born model. Proteins. 2004;55:383\u2013394.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "20570730",
+          "unstructured": "Pande V, et al. Everything you wanted to know about Markov state models but were afraid to ask. Methods. 2010;52:99\u2013105.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Parrinello M, Rahman A. Polymorphic transitions in single crystals: a new molecular dynamics method. J. Appl. Phys. 1981;52:7182\u20137190.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "16222654",
+          "unstructured": "Phillips J, et al. Scalable molecular dynamics with namd. J. Comp. Chem. 2005;26:1781\u20131802.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Qui D, et al. The GB/SA continuum model for solvation. A fast analytical method for the calculation of approximate born radii. J. Phys. Chem. A. 1997;101:3005\u20133014.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "26631792",
+          "unstructured": "Schulz R, et al. Scaling of multimillion-atom biological molecular dynamics simulation on a petascale supercomputer. J. Chem. Theor. Comput. 2009;5:2798\u20132808.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "15847516",
+          "unstructured": "Shirts MR, Pande VS. Comparison of efficiency and bias of free energies computed by exponential averaging, the Bennett acceptance ratio, and thermodynamic integration. J. Chem. Phys. 2005;122:144107.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Swope WC, et al. A computer-simulation method for the calculation of equilibrium-constants for the formation of physical clusters of molecules: application to small water clusters. J. Chem. Phys. 1982;76:637\u2013649.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Valiev M, et al. NWChem: a comprehensive and scalable open-source solution for large scale molecular simulations. Comput. Phys. Commun. 2010;181:1477\u20131489.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "van der Spoel D, Hess B. Gromacs\u2014the road ahead. WIREs Comput. Mol. Sci. 2011;1:710\u2013715.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "16803409",
+          "unstructured": "van der Spoel D, Seibert M. Protein folding kinetics and thermodynamics from atomistic simulations. Phys. Rev. Lett. 2006;96:238102\u2013238106.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "26626372",
+          "unstructured": "van der Spoel D, van Maaren PJ. The origin of layer structure artifacts in simulations of liquid water. J. Chem. Theor. Comput. 2006;2:1\u201311.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "22238269",
+          "unstructured": "van der Spoel D, et al. GROMACS molecule and liquid database. Bioinformatics. 2012;28:752\u2013753.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "19575467",
+          "unstructured": "Vanommeslaeghe K, et al. CHARMM general force field: a force field for drug-like molecules compatible with the CHARMM all-atom additive biological force fields. J. Comput. Chem. 2010;31:671\u2013690.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Wang J, et al. Antechamber, an accessory software package for molecular mechanical calculations. J. Comput. Chem. 2005;25:1157\u20131174.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "20336801",
+          "unstructured": "Wold M, et al. g_membed: efficient insertion of a membrane protein into an equilibrated lipid bilayer with minimal perturbation. J. Comp. Chem. 2010;31:2169\u20132174.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "22153501",
+          "unstructured": "Zhang J, et al. Atomic-level protein structure refinement using fragment-guided molecular dynamics conformation sampling. Structure. 2011;19:1784\u20131795.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "R01 GM098304",
+          "agency": "NIGMS NIH HHS",
+          "agency_abbreviation": "GM",
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "source": "entrez"
+        },
+        {
+          "grant_id": "R01GM098304",
+          "agency": "NIGMS NIH HHS",
+          "agency_abbreviation": "GM",
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "source": "entrez"
+        }
+      ],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Algorithms",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Molecular Dynamics Simulation",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Proteins",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Software",
+          "scheme": "MeSH",
+          "source": "entrez"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Molecular Dynamics Simulation",
+          "descriptor_ui": "D056004",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "descriptor_ui": "D011506",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "descriptor_ui": "D011506",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "entrez"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [
+        {
+          "name": "Proteins",
+          "registry_number": "0",
+          "substance_ui": "D011506"
+        }
+      ],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {
+        "entrez": "2013-02-15",
+        "pubmed": "2013-02-15",
+        "medline": "2013-09-21",
+        "pmc-release": "2014-04-01"
+      },
+      "structured_abstract": {
+        "MOTIVATION": "Molecular simulation has historically been a low-throughput technique, but faster computers and increasing amounts of genomic and structural data are changing this by enabling large-scale automated simulation of, for instance, many conformers or mutants of biomolecules with or without a range of ligands. At the same time, advances in performance and scaling now make it possible to model complex biomolecular interaction and function in a manner directly testable by experiment. These applications share a need for fast and efficient software that can be deployed on massive scale in clusters, web servers, distributed computing or cloud resources.",
+        "RESULTS": "Here, we present a range of new simulation algorithms and features developed during the past 4 years, leading up to the GROMACS 4.5 software package. The software now automatically handles wide classes of biomolecules, such as proteins, nucleic acids and lipids, and comes with all commonly used force fields for these molecules built-in. GROMACS supports several implicit solvent models, as well as new free-energy algorithms, and the software now uses multithreading for efficient parallelization even on low-end systems, including windows-based workstations. Together with hand-tuned assembly kernels and state-of-the-art parallelization, this provides extremely high performance and cost efficiency for high-throughput as well as massively parallel simulations.",
+        "AVAILABILITY": "GROMACS is an open source and free software available from http://www.gromacs.org.",
+        "SUPPLEMENTARY INFORMATION": "Supplementary data are available at Bioinformatics online."
+      },
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "publication_status": "ppublish",
+      "country_of_publication": "England",
+      "nlm_journal_id": "9808944",
+      "medline_ta": "Bioinformatics",
+      "citation_subsets": [
+        "IM"
+      ],
+      "pii": "btt055",
+      "electronic_publication_date": "2013-02-13",
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1093/bioinformatics/btt055",
+    "pmid": "23407358",
+    "pmcid": "PMC3605599",
+    "openalex_id": "https://openalex.org/W2160544821",
+    "pii": "btt055",
+    "nlm_unique_id": "9808944",
+    "handles": [],
+    "orcids": [
+      "0000-0002-2734-2794",
+      "0000-0002-2978-3227",
+      "0000-0002-3111-8103",
+      "0000-0002-5560-865X",
+      "0000-0002-5560-865x",
+      "0000-0002-7498-7763",
+      "0000-0002-7659-8526",
+      "0000-0002-8418-4956",
+      "0000-0003-0603-5514",
+      "0000-0003-1603-2413",
+      "0000-0003-3249-1097"
+    ],
+    "ror_ids": [
+      "https://ror.org/0153tk833",
+      "https://ror.org/01qz5mb56",
+      "https://ror.org/020f3ap87",
+      "https://ror.org/026vcq606",
+      "https://ror.org/04ev03g22",
+      "https://ror.org/05f0yaq80"
+    ],
+    "grant_ids": [
+      "209825",
+      "258980",
+      "261523",
+      "5R01GM098304-02",
+      "R01 GM098304",
+      "R01GM098304"
+    ],
+    "nct_ids": [],
+    "pmid_source": "entrez",
+    "pmcid_source": "entrez"
+  },
+  "conflicts": {
+    "doi": "10.1093/bioinformatics/btt055",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 6801,
+          "openalex": 7394,
+          "openaire": 6707
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 51,
+          "openalex": 53,
+          "entrez": 51
+        },
+        "risk": "low"
+      },
+      {
+        "field": "oa_status",
+        "values": {
+          "openalex": "bronze",
+          "unpaywall": "bronze",
+          "openaire": "gold"
+        },
+        "risk": "medium"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article",
+          "openaire": "publication",
+          "entrez": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 12,
+          "openalex": 12,
+          "unpaywall": 12,
+          "openaire": 12,
+          "orcid": 7,
+          "entrez": 12
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Oxford University Press (OUP)",
+          "openalex": "https://openalex.org/P4310311648",
+          "unpaywall": "Oxford University Press (OUP)",
+          "openaire": "Oxford University Press (OUP)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Bioinformatics",
+          "openalex": "Bioinformatics",
+          "unpaywall": "Bioinformatics",
+          "entrez": "Bioinformatics (Oxford, England)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "mesh_term_count",
+        "values": {
+          "openalex": 16,
+          "entrez": 5
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "openaire": "eng",
+          "entrez": "eng"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "grant_count",
+        "values": {
+          "openaire": 4,
+          "entrez": 2
+        },
+        "risk": "medium"
+      }
+    ],
+    "agreement_count": 2,
+    "conflict_count": 10
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1093/bioinformatics/btt055",
+    "fetched_at": "2026-02-11T15:59:37.670145+00:00"
+  }
+}

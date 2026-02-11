@@ -1,0 +1,4310 @@
+{
+  "doi": "10.1162/neco.1997.9.8.1735",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T13:24:25.974343Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "Long Short-Term Memory",
+      "abstract": "<jats:p> Learning to store information over extended time intervals by recurrent backpropagation takes a very long time, mostly because of insufficient, decaying error backflow. We briefly review Hochreiter's (1991) analysis of this problem, then address it by introducing a novel, efficient, gradient based method called long short-term memory (LSTM). Truncating the gradient where this does not do harm, LSTM can learn to bridge minimal time lags in excess of 1000 discrete-time steps by enforcing constant error flow through constant error carousels within special units. Multiplicative gate units learn to open and close access to the constant error flow. LSTM is local in space and time; its computational complexity per time step and weight is O. 1. Our experiments with artificial data involve local, distributed, real-valued, and noisy pattern representations. In comparisons with real-time recurrent learning, back propagation through time, recurrent cascade correlation, Elman nets, and neural sequence chunking, LSTM leads to many more successful runs, and learns much faster. LSTM also solves complex, artificial long-time-lag tasks that have never been solved by previous recurrent network algorithms. </jats:p>",
+      "publication_date": "1997-11-01",
+      "publication_year": 1997,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "MIT Press",
+      "container_title": "Neural Computation",
+      "volume": "9",
+      "issue": "8",
+      "pages": "1735-1780",
+      "issn": [
+        "0899-7667",
+        "1530-888X"
+      ],
+      "doi": "10.1162/neco.1997.9.8.1735",
+      "authors": [
+        {
+          "name": {
+            "given": "Sepp",
+            "family": "Hochreiter",
+            "full_name": "Sepp Hochreiter",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Fakult\u00e4t f\u00fcr Informatik, Technische Universit\u00e4t M\u00fcnchen, 80290 M\u00fcnchen, Germany",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "J\u00fcrgen",
+            "family": "Schmidhuber",
+            "full_name": "J\u00fcrgen Schmidhuber",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "IDSIA, Corso Elvezia 36, 6900 Lugano, Switzerland",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 77228,
+      "reference_count": 20,
+      "references": [
+        {
+          "doi": "10.1162/neco.1991.3.4.526",
+          "year": 1991,
+          "author": "Baldi P.",
+          "key": "p_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/72.279181",
+          "year": 1994,
+          "author": "Bengio Y.",
+          "key": "p_4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1162/neco.1989.1.3.372",
+          "year": 1989,
+          "author": "Cleeremans A.",
+          "key": "p_5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/0893-6080(89)90022-1",
+          "year": 1989,
+          "author": "Doya K.",
+          "key": "p_8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/0893-6080(90)90044-L",
+          "year": 1990,
+          "author": "Lang K.",
+          "key": "p_15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/72.548162",
+          "year": 1996,
+          "author": "Lin T.",
+          "key": "p_16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1142/S0218001493000431",
+          "year": 1993,
+          "author": "Miller C. B.",
+          "key": "p_17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1989,
+          "author": "Mozer M. C.",
+          "key": "p_18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1162/neco.1989.1.2.263",
+          "year": 1989,
+          "author": "Pearlmutter B. A.",
+          "key": "p_20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/72.410363",
+          "year": 1995,
+          "author": "Pearlmutter B. A.",
+          "key": "p_21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1103/PhysRevLett.59.2229",
+          "year": 1987,
+          "author": "Pineda F. J.",
+          "key": "p_22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/0885-064X(88)90021-0",
+          "year": 1988,
+          "author": "Pineda F. J.",
+          "key": "p_23",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/72.279191",
+          "year": 1994,
+          "author": "Puskorius G. V.",
+          "key": "p_26",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1080/09540098908915650",
+          "year": 1989,
+          "author": "Schmidhuber J.",
+          "key": "p_29",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1162/neco.1992.4.2.243",
+          "year": 1992,
+          "author": "Schmidhuber J.",
+          "key": "p_30",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1162/neco.1992.4.2.234",
+          "year": 1992,
+          "author": "Schmidhuber J.",
+          "key": "p_31",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1142/S0129065789000037",
+          "year": 1989,
+          "author": "Smith A. W.",
+          "key": "p_36",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1162/neco.1992.4.3.406",
+          "year": 1992,
+          "author": "Watrous R. L.",
+          "key": "p_38",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/0893-6080(88)90007-X",
+          "year": 1988,
+          "author": "Werbos P. J.",
+          "key": "p_39",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1990,
+          "author": "Williams R. J.",
+          "key": "p_41",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://www.mitpressjournals.org/doi/pdf/10.1162/neco.1997.9.8.1735",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1162/neco.1997.9.8.1735",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "Long Short-Term Memory",
+      "abstract": "Learning to store information over extended time intervals by recurrent backpropagation takes a very long time, mostly because of insufficient, decaying error backflow. We briefly review Hochreiter's (1991) analysis of this problem, then address it by introducing a novel, efficient, gradient based method called long short-term memory (LSTM). Truncating the gradient where this does not do harm, LSTM can learn to bridge minimal time lags in excess of 1000 discrete-time steps by enforcing constant error flow through constant error carousels within special units. Multiplicative gate units learn to open and close access to the constant error flow. LSTM is local in space and time; its computational complexity per time step and weight is O. 1. Our experiments with artificial data involve local, distributed, real-valued, and noisy pattern representations. In comparisons with real-time recurrent learning, back propagation through time, recurrent cascade correlation, Elman nets, and neural sequence chunking, LSTM leads to many more successful runs, and learns much faster. LSTM also solves complex, artificial long-time-lag tasks that have never been solved by previous recurrent network algorithms.",
+      "publication_date": "1997-11-01",
+      "publication_year": 1997,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310315718",
+      "container_title": "Neural Computation",
+      "volume": "9",
+      "issue": "8",
+      "pages": "1735-1780",
+      "issn": [
+        "0899-7667",
+        "1530-888X"
+      ],
+      "doi": "10.1162/neco.1997.9.8.1735",
+      "pmid": "9377276",
+      "openalex_id": "https://openalex.org/W2064675550",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Sepp Hochreiter",
+            "orcid": "0000-0001-7449-2528",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Technical University of Munich",
+              "ror_id": "https://ror.org/02kkvpp62",
+              "country_code": "DE",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5053148274",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "J\u00fcrgen Schmidhuber",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Dalle Molle Institute for Artificial Intelligence Research",
+              "ror_id": "https://ror.org/013355g38",
+              "country_code": "CH",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5071172037",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 93053,
+      "reference_count": 34,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2026": 1096,
+        "2025": 12105,
+        "2024": 11909,
+        "2023": 11870,
+        "2022": 11171,
+        "2021": 12831,
+        "2020": 10912,
+        "2019": 9072,
+        "2018": 6008,
+        "2017": 3225,
+        "2016": 1583,
+        "2015": 548,
+        "2014": 139,
+        "2013": 78,
+        "2012": 78
+      },
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1162/neco.1997.9.8.1735",
+          "landing_page_url": "https://doi.org/10.1162/neco.1997.9.8.1735",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310315718",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9377276",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/9377276",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Neural Networks and Applications",
+          "scheme": "openalex_topic",
+          "score": 0.9715999960899353,
+          "source": "openalex"
+        },
+        {
+          "value": "Domain Adaptation and Few-Shot Learning",
+          "scheme": "openalex_topic",
+          "score": 0.9226999878883362,
+          "source": "openalex"
+        },
+        {
+          "value": "Term (time)",
+          "scheme": "openalex_concept",
+          "score": 0.6298137307167053,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Short-term memory",
+          "scheme": "openalex_concept",
+          "score": 0.4886475205421448,
+          "level": 4,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.41314831376075745,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Mathematics",
+          "scheme": "openalex_concept",
+          "score": 0.3207841217517853,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Psychology",
+          "scheme": "openalex_concept",
+          "score": 0.3027428686618805,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Neuroscience",
+          "scheme": "openalex_concept",
+          "score": 0.2080390453338623,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Cognition",
+          "scheme": "openalex_concept",
+          "score": 0.18833708763122559,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Working memory",
+          "scheme": "openalex_concept",
+          "score": 0.18085071444511414,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Physics",
+          "scheme": "openalex_concept",
+          "score": 0.14113420248031616,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Quantum mechanics",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Learning",
+          "descriptor_ui": "D007858",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Learning",
+          "descriptor_ui": "D007858",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Learning",
+          "descriptor_ui": "D007858",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Learning",
+          "descriptor_ui": "D007858",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Memory",
+          "descriptor_ui": "D008568",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Memory",
+          "descriptor_ui": "D008568",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Memory, Short-Term",
+          "descriptor_ui": "D008570",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Memory, Short-Term",
+          "descriptor_ui": "D008570",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Models, Neurological",
+          "descriptor_ui": "D008959",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Models, Neurological",
+          "descriptor_ui": "D008959",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Models, Neurological",
+          "descriptor_ui": "D008959",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Models, Neurological",
+          "descriptor_ui": "D008959",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Models, Psychological",
+          "descriptor_ui": "D008960",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Models, Psychological",
+          "descriptor_ui": "D008960",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Models, Psychological",
+          "descriptor_ui": "D008960",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Models, Psychological",
+          "descriptor_ui": "D008960",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Nerve Net",
+          "descriptor_ui": "D009415",
+          "qualifier_name": "physiology",
+          "qualifier_ui": "Q000502",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Nerve Net",
+          "descriptor_ui": "D009415",
+          "qualifier_name": "physiology",
+          "qualifier_ui": "Q000502",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Nerve Net",
+          "descriptor_ui": "D009415",
+          "qualifier_name": "physiology",
+          "qualifier_ui": "Q000502",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Nerve Net",
+          "descriptor_ui": "D009415",
+          "qualifier_name": "physiology",
+          "qualifier_ui": "Q000502",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Time Factors",
+          "descriptor_ui": "D013997",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Time Factors",
+          "descriptor_ui": "D013997",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Time Factors",
+          "descriptor_ui": "D013997",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Time Factors",
+          "descriptor_ui": "D013997",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Neural Networks, Computer",
+          "descriptor_ui": "D016571",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Neural Networks, Computer",
+          "descriptor_ui": "D016571",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Neural Networks, Computer",
+          "descriptor_ui": "D016571",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Neural Networks, Computer",
+          "descriptor_ui": "D016571",
+          "is_major_topic": true,
+          "source": "openalex"
+        }
+      ],
+      "keywords": [
+        "Term (time)",
+        "Short-term memory",
+        "Computer science",
+        "Mathematics",
+        "Psychology",
+        "Neuroscience",
+        "Cognition",
+        "Working memory",
+        "Physics"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 16.56726057,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.99323055,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": true,
+      "raw": {},
+      "title": "Long Short-Term Memory",
+      "publication_date": "1997-11-01",
+      "publication_year": 1997,
+      "work_type": "JournalArticle",
+      "container_title": "Neural Computation",
+      "volume": "9",
+      "pages": "1735-1780",
+      "issn": [],
+      "doi": "10.1162/neco.1997.9.8.1735",
+      "pmid": "9377276",
+      "s2_paper_id": "2e9d221c206e9503ceb452302d68d10e293f2a10",
+      "s2_corpus_id": "1915014",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Sepp Hochreiter",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "3308557",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "J. Schmidhuber",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "145341374",
+          "sources": [
+            "semantic_scholar"
+          ]
+        }
+      ],
+      "citation_count": 100402,
+      "reference_count": 48,
+      "influential_citation_count": 9934,
+      "references": [],
+      "citations": [
+        {
+          "doi": "10.1016/j.bspc.2026.109492",
+          "title": "BFCNet: A bidirectional feature coupling network for cross-modal emotion recognition based on brain functional connectivity",
+          "year": 2026,
+          "s2_paper_id": "b0656f8d53d728d7640acbed1bb5817ac0e8d4a4",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.bspc.2026.109593",
+          "title": "MFBRU-Net: Multi-scale feature fusion and boundary refining U-Net for medical image segmentation",
+          "year": 2026,
+          "s2_paper_id": "64d4f2ce15a2598ef82217cbb7cd00a03226c41d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.conengprac.2026.106816",
+          "title": "Prediction model of the gas utilization rate in a blast furnace considering smelting intensity classification",
+          "year": 2026,
+          "s2_paper_id": "f3a7f9fce6d4c0f93b7fcef97bcb7c585be105df",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jairtraman.2026.102981",
+          "title": "Beyond route-specific forecasting: An empirical test of two cross-series transfer learning strategies for airline demand with short-data constraints",
+          "year": 2026,
+          "s2_paper_id": "b60ea0d7e8b2b5a99f2f8453d40f7a653ff6b917",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.infsof.2026.108043",
+          "title": "COTVD: A function-level vulnerability detection framework using chain-of-thought reasoning with large language models",
+          "year": 2026,
+          "s2_paper_id": "46e865fe1621748050d202a10105dd4a2cdcb029",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.rcim.2025.103181",
+          "title": "Intelligent tool wear monitoring approach in milling of titanium alloys",
+          "year": 2026,
+          "s2_paper_id": "d2524ba8fd1cc80123ad20875b704c25e8472a10",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ins.2025.122993",
+          "title": "Microblog sentiment classification via a multilayer graph with social and semantic representations using hyperbolic learning",
+          "year": 2026,
+          "s2_paper_id": "b67b93ef3779be70163a35fea88f4337c71a0692",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.eswa.2025.130887",
+          "title": "GeoLSTM: A road geometry-aware neural network model for spatio-temporal highway traffic speed and intensity forecasting",
+          "year": 2026,
+          "s2_paper_id": "656f3d8a07e212d66545483ceaec420535864d91",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.eswa.2025.130653",
+          "title": "Cross-multi-modal seamless training for image captioning",
+          "year": 2026,
+          "s2_paper_id": "5a666ca125278ff7617a849b3e85b43259c07656",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.aei.2025.104260",
+          "title": "A damage-integrated image-point cloud registration network for characterizing macro-meso hysteretic features of semi-rigid precast concrete beam-column joints under strong earthquakes",
+          "year": 2026,
+          "s2_paper_id": "590df249a03d0f31605addb68235ac599f379f9a",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.aei.2025.104249",
+          "title": "Unmanned delivery aerial vehicles fault detection method based on enhanced spatiotemporal feature fusion framework and multi-head attention mechanism classifier",
+          "year": 2026,
+          "s2_paper_id": "8208e7ba0bb94030e72dd34ba40f838d2be13615",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.aei.2025.104273",
+          "title": "Engineformer: A digital twin model for predicting aero-engine performance and degradation",
+          "year": 2026,
+          "s2_paper_id": "d4d53ceb942e08cb85fe322d564af12b57cbea12",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.tust.2025.107420",
+          "title": "Enhanced Swin-Transformer model for real-time assessment of overall shield machine cutterhead wear",
+          "year": 2026,
+          "s2_paper_id": "f6ac26ce5d89a760ea3e040a3703a779614b6494",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.robot.2026.105331",
+          "title": "System identification and model reference adaptive control of bipedal locomotion with neural networks",
+          "year": 2026,
+          "s2_paper_id": "0e441d9930925aa3649f6b1b2ae88a6abd3fb741",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.eswa.2025.131063",
+          "title": "DGSSformer : Dynamically global-aware spatiotemporal synchronous transformer for traffic prediction",
+          "year": 2026,
+          "s2_paper_id": "4b5b4a2d10f87468cb8471232dbb5078075b50a1",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.tre.2025.104653",
+          "title": "Discriminatory order assignment and payment-setting of on-demand food-delivery platforms: A multi-action and multi-agent reinforcement learning framework",
+          "year": 2026,
+          "s2_paper_id": "ef9ed6474184660b033c52455ce4d1f55653559c",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.optlastec.2025.114646",
+          "title": "A novel stepwise generative-discriminative reasoning framework for metasurface inverse design",
+          "year": 2026,
+          "s2_paper_id": "d666f83167670596a350311fc82af6ddd8706135",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.chaos.2026.117866",
+          "title": "Hybrid residual reservoir computing using dynamic memristor for time series prediction",
+          "year": 2026,
+          "s2_paper_id": "423eb17a12f45ba219edc93c8b951825900c0bb2",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.pmcj.2026.102161",
+          "title": "SMOTE-Enhanced CNN-Bi-LSTM for wearable sensor-based human activity recognition",
+          "year": 2026,
+          "s2_paper_id": "1ffa68e7e3a1119173e582a618042cf441f6e775",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ejrh.2026.103116",
+          "title": "Interpretable deep learning for sewer network water level forecasting in a Northern Chinese City: Implications for enhancing real-time assessment of system operational conditions",
+          "year": 2026,
+          "s2_paper_id": "8efb80f28a6d4fff25f97c4a37403b1f08016dbc",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.infsof.2026.108037",
+          "title": "VulATMHD: Joint adaptive triplet mining and hybrid distillation for type-aware vulnerability classification",
+          "year": 2026,
+          "s2_paper_id": "bb5700bcfbf448f5860b940554e92f4f850eeb6f",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ejrh.2026.103142",
+          "title": "Spatio \u2013 temporal hydrological cycle characteristics in the upper reaches of the Yangtze River: A multi-source remote sensing and machine learning perspective",
+          "year": 2026,
+          "s2_paper_id": "feee5a23af669a7de80da8342bd3d211426585fe",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ejrh.2025.103088",
+          "title": "Attention in MLP: A new architecture for urban sewer overflow and flood depth prediction",
+          "year": 2026,
+          "s2_paper_id": "5268fb02f35fef8a3119833185b6c33a22bd8024",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.aei.2026.104370",
+          "title": "Physics-informed embodied intelligence in the foundation model era: Advancing robot manipulation for smart manufacturing",
+          "year": 2026,
+          "s2_paper_id": "3b624fb53d0a17704eb6cdd1a8aa6fdc6535756d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ejrh.2026.103145",
+          "title": "Enhancing hydrological simulation and climate change impact assessment for the Poyang Lake Region, China: A novel hybrid SWAT-GCN-BiLSTM framework",
+          "year": 2026,
+          "s2_paper_id": "cf8d72d7390ae71a419f4df6a94cd2a6529d7a6f",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.oceaneng.2026.124312",
+          "title": "Data-driven condition monitoring of mooring systems: A demonstration with the M4 multi-float wave energy converter",
+          "year": 2026,
+          "s2_paper_id": "cc60bd583f19158ee451f6da0afc0d37e2f39b48",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.oceaneng.2026.124339",
+          "title": "A wind force prediction method for autonomous sailboats based on an improved TCN-LSTM model",
+          "year": 2026,
+          "s2_paper_id": "cee7615f581b1652fb9fbeb50e79c3d94c373aff",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.eja.2026.128013",
+          "title": "A comprehensive comparative analysis of ETc prediction methods: Traditional formulations, crop models, machine learning, and coupled optimization pathways",
+          "year": 2026,
+          "s2_paper_id": "d24f33134bf9808aa08d4da08afc9f3c15f2c00d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ejrh.2026.103158",
+          "title": "Deciphering the daily spatiotemporal dynamics and mechanisms of floods in the Tarim Basin desert region",
+          "year": 2026,
+          "s2_paper_id": "9c84dce83c4103e1af8f4ff2ccbdf740e3e4fb8b",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.engstruct.2026.122221",
+          "title": "A novel cross-LSTM model for predicting the behavior and strength of concrete-filled steel tube columns",
+          "year": 2026,
+          "s2_paper_id": "82939ed98df08a56380fd0c0c199d0c1c35622f4",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.soildyn.2026.110113",
+          "title": "High-precision bedrock motion inversion from surface records using decoder-only convolutional attention Transformer",
+          "year": 2026,
+          "s2_paper_id": "6c3aa93c0432713e263c3610ec509fcadb307cf8",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jfluidstructs.2026.104511",
+          "title": "A CNN-BiLSTM-ATT hybrid model for predicting wind pressure on saddle-shaped membrane structures",
+          "year": 2026,
+          "s2_paper_id": "3fc135ac64355159e764dbe4b7222ccca6d7c929",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ejrh.2026.103166",
+          "title": "A rapid flood inundation integrated surrogate model based on a CNN-LSTM-ATT deep learning framework",
+          "year": 2026,
+          "s2_paper_id": "71d0f75f0daf80a6d420bf5f7a23ddfa9b079f2a",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ejrh.2026.103147",
+          "title": "Improving transparency in karst spring discharge and water quality forecasts using interpretable machine learning models in the Eastern Alps",
+          "year": 2026,
+          "s2_paper_id": "c1fc71f2ae9f5317d6e479e10ccff8ab69413c23",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.aei.2026.104375",
+          "title": "DuoTransFormer for nonlinear seismic response prediction: Cover large, focus local, and enforce law",
+          "year": 2026,
+          "s2_paper_id": "c4cfaebf7041face064600699359bf9345db7795",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ribaf.2026.103329",
+          "title": "Bridging behavioral insights and quantitative finance: AI-powered Black\u2013Litterman framework with technical and sentiment signals",
+          "year": 2026,
+          "s2_paper_id": "627efe7043201aad6d756ba67da7bab8e18f1a43",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.oceaneng.2026.124425",
+          "title": "Enhancing prediction performance of experimental pressure on square cylinders with CFD data and deep transfer learning",
+          "year": 2026,
+          "s2_paper_id": "0997a348781af50d9d9011d0350a805895fcd067",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.oceaneng.2026.124456",
+          "title": "Determinants of casualty severity in maritime accidents: Evidence from text mining of 581 investigation reports, 2014\u20132023",
+          "year": 2026,
+          "s2_paper_id": "0eb5f36d1fa14eacc133f5e0284d335aa5d887b6",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.oceaneng.2026.124412",
+          "title": "A hybrid model based on a dual-layer decomposition framework and LSTM-Informer for significant wave height prediction",
+          "year": 2026,
+          "s2_paper_id": "3499c1dc1fb75cbc317351eebbb1f95deb4ef833",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.oceaneng.2026.124444",
+          "title": "Motion prediction enhancement for offshore platforms under typhoon conditions using DynaSparse-ConvLSTM with dynamic sparse gating and multi-source fusion",
+          "year": 2026,
+          "s2_paper_id": "9415e34e44182de7db1ba76deb4f887f011f747b",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.oceaneng.2026.124347",
+          "title": "A hybrid non-linear observer for maritime surface vessel state estimation using physics-based and data-driven modelling",
+          "year": 2026,
+          "s2_paper_id": "02411bd3c19c44eb892d9bf7400ef0c311d21f68",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.oceaneng.2026.124398",
+          "title": "Enhancing transfer learning strategies for ship fuel consumption prediction under data scarcity",
+          "year": 2026,
+          "s2_paper_id": "38f6376e4dffd6df72e6ae400e29127491ab68e9",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jhydrol.2026.135099",
+          "title": "A distributed monitoring method for soil water content based on actively heated optical frequency domain reflectometry and physics-informed neural networks",
+          "year": 2026,
+          "s2_paper_id": "33c7175566ee2d57b77b5ba3bc9dded5a454f048",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jhydrol.2026.135098",
+          "title": "Hybrid process-based and deep learning for river nutrient prediction under limited monitoring data",
+          "year": 2026,
+          "s2_paper_id": "3f2aecd41eda2685a2b8720594b207e6c8eff179",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jhydrol.2026.135097",
+          "title": "A heterogeneous weighting strategy for leveraging Cross-Basin data enhances the Usability of deep learning hydrological models",
+          "year": 2026,
+          "s2_paper_id": "526968c652769a39eb97b6fde6ffd984540921ae",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.eswa.2025.129824",
+          "title": "Enhanced multi-scale TCN ensemble for component chain prediction using evolutionary algorithms",
+          "year": 2026,
+          "s2_paper_id": "f2797766631a5ba552b36b516a8924fd94d2930f",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.bspc.2025.108942",
+          "title": "A lightweight and efficient deep learning model for real-time fall detection on edge device",
+          "year": 2026,
+          "s2_paper_id": "f0c1033b91dc0f8fdd58c233bc2f5a0e924a334e",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.eswa.2025.130036",
+          "title": "Short-term traffic flow prediction based on deep learning approach with inter-day and intra-day strategies",
+          "year": 2026,
+          "s2_paper_id": "852347faea2564d6725560f761b112d9cb528822",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.eswa.2025.130177",
+          "title": "Time-weaver query in sparse temporal knowledge graphs leveraging complex space embedding and adjacent timestamp relations",
+          "year": 2026,
+          "s2_paper_id": "f06b92dbf3964edc6a6d1aef611eb61f8f3509dc",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ipm.2025.104451",
+          "title": "Bidirectional GPT",
+          "year": 2026,
+          "s2_paper_id": "e18258f37c98c447527598fa063b93df8b81c00d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ipm.2025.104474",
+          "title": "A multi-source data fusion model for air quality inference with hybrid supervised and self-supervised learning and adaptive feature importance estimation",
+          "year": 2026,
+          "s2_paper_id": "453a8577bf67612ba9c07fdaed8e8c3cc3c6b28b",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ipm.2025.104466",
+          "title": "Explainable zero-shot trading using multi-agent LLM architecture: A backtested approach for Bitcoin price",
+          "year": 2026,
+          "s2_paper_id": "8c9d9c20ab7b9b128d34285ad1cfcdf60bd26296",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ress.2025.111928",
+          "title": "A transfer condition-focused model for battery capacity forecast",
+          "year": 2026,
+          "s2_paper_id": "2cd099f7a0f6e7a0f5bb83e2300f363bd8881934",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.eswa.2025.130413",
+          "title": "Enhancing person-job fit through multi-temporal career trajectory modeling",
+          "year": 2026,
+          "s2_paper_id": "4376346c4c5bb04aac8bde20526107f8b0b7e6a6",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.eswa.2025.130457",
+          "title": "Industrial steel slag flow data loading method for deep learning applications",
+          "year": 2026,
+          "s2_paper_id": "4ac660af6f3af7ac38e8d88c73824b88c5ac3518",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.tust.2025.107259",
+          "title": "Physics-informed neural network for predicting longitudinal deformation in super-large-diameter shallow-buried shield tunnel during construction",
+          "year": 2026,
+          "s2_paper_id": "02b8b0f8f1587612a08d7f59f0a2fb97f301da7f",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.eswa.2025.130480",
+          "title": "Legal judgment prediction based on charge-anchored graph constraints",
+          "year": 2026,
+          "s2_paper_id": "ee4451fece98d0299b30d3fdaa50c7aa9e62e2a9",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.aei.2025.104153",
+          "title": "Uncertainty-Aware Bayesian Time Series framework for probabilistic imputation",
+          "year": 2026,
+          "s2_paper_id": "5dbd6a057ebc98cf0493b6e06867b36bb5378699",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.eswa.2025.130607",
+          "title": "Novel wound image segmentation with enhanced global context and Adaptive Channel-Aware Normalization",
+          "year": 2026,
+          "s2_paper_id": "3c04fab1794212c5631b159db97e1eff4da15613",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.cma.2025.118586",
+          "title": "Time resolution independent operator learning",
+          "year": 2026,
+          "s2_paper_id": "8331d627c4d28275a0a46988230072509da7b3d2",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.rineng.2025.108590",
+          "title": "Time series masked autoencoder for process anomaly detection of reduced information redundancy",
+          "year": 2026,
+          "s2_paper_id": "97e584612a8872eb92f923bf0ed5738904d93d0d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.iot.2025.101850",
+          "title": "Fault detection of industrial air separation stations based on metaheuristic optimization and bidirectional long short-term memory technique",
+          "year": 2026,
+          "s2_paper_id": "40a10b24f7ac5bdcda168ad654c3a8d13b8b7df3",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1109/LPT.2025.3636736",
+          "title": "Dual-LSTM-Based Inverse System Control for Laser Nonlinear Compensation",
+          "year": 2026,
+          "s2_paper_id": "c6457cfdc4e0386bf9e9fc34696498de69f32bf2",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "The rising and falling ramps are fed separately into the two LSTM networks [22], which are used to extract the temporal features of the respective up-and down-ramp dynamics."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.engstruct.2025.121926",
+          "title": "A physics-encoded recurrent neural network inspired by Bouc\u2013Wen class models for hysteretic behavior identification and prediction of flexural-failure reinforced concrete columns",
+          "year": 2026,
+          "s2_paper_id": "f84d82ca3e28b2a47a1fbe9d7e40cab422488548",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.agrformet.2025.110985",
+          "title": "Synergistic importance of memory and spatial neighbourhood effects in modelling net ecosystem productivity",
+          "year": 2026,
+          "s2_paper_id": "38cb74dde545e82ac9ec11e31f6d7c38b19954da",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.icheatmasstransfer.2025.110296",
+          "title": "Physically informed machine learning for predicting non-Newtonian blood flow in Giant MCA aneurysms after endovascular treatment",
+          "year": 2026,
+          "s2_paper_id": "f4f550c34cf1110933b275e77ce8d99507d5f53b",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ces.2025.123156",
+          "title": "Machine Learning-based Reduced-Order Model and multi-fidelity approaches for field reconstruction in CFD: A review",
+          "year": 2026,
+          "s2_paper_id": "fa8a9edb5d7c57366d2241512ba2d931da1be087",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.eswa.2025.130735",
+          "title": "SWDAKT: Knowledge tracing using sliding window-based dynamic ability perception",
+          "year": 2026,
+          "s2_paper_id": "6730b32660762c9a7f4fa30cc62db8514c6ffb07",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.actaastro.2025.12.001",
+          "title": "Fine-grained space object classification with Convolution-Boosted LSTM using light curves: A new method and a large scale dataset",
+          "year": 2026,
+          "s2_paper_id": "438590a7a08c3e43cfa824790ac1d44be2f85018",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.automatica.2025.112745",
+          "title": "Dynamics of opinion propagation with memory and fake news",
+          "year": 2026,
+          "s2_paper_id": "7b40297b99d7018e82494b45bdfb45595870e0ab",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.atech.2025.101713",
+          "title": "Behaviour recognition of tail and ear biting in pigs using AI-based computer vision",
+          "year": 2026,
+          "s2_paper_id": "23a97243eccdc4c6548cbb6823e0dc7aec8044a7",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1061/joeedu.eeeng-8196",
+          "title": "Predicting Near-Road Exposure from Vehicular Emission in Urban Areas Using the LSTM Technique",
+          "year": 2026,
+          "s2_paper_id": "461485bf582350deeb441611056c091a91aee818",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.apenergy.2025.127262",
+          "title": "Short-term regional EV charging load forecasting based on GAT and GRU with trip distribution estimation",
+          "year": 2026,
+          "s2_paper_id": "577e2b55dec72c46a82fe84e1bc632588016c4b4",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.rse.2025.115218",
+          "title": "Gap-free GNSS-R wind field reconstruction: A neural mapping scheme and initial validation",
+          "year": 2026,
+          "s2_paper_id": "43ac16c074e597320985bd7d2b98c7659d421428",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.pnucene.2025.106200",
+          "title": "Data-driven prediction of HTR-PM bottom reflector maximum temperature using recurrent neural networks",
+          "year": 2026,
+          "s2_paper_id": "a2931ebaa5d61c9e5077c1e76c1c79e169ff5355",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.nucengdes.2025.114731",
+          "title": "Multistep forecasting of state variables in nuclear power plants using deep learning",
+          "year": 2026,
+          "s2_paper_id": "249a42ea8bc4b7ffcbbc9b7df9e2ce52e8584bc1",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.trc.2025.105507",
+          "title": "Uncertainty quantification for joint demand prediction of multi-modal ride-sourcing services using spatiotemporal Mixture-of-Expert neural network",
+          "year": 2026,
+          "s2_paper_id": "5e47654af05abb9b5cc5f0027640b8ce3020e876",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.engstruct.2025.122058",
+          "title": "Semi-supervised pointwise VIV detection via few-shot and sequential transfer learning",
+          "year": 2026,
+          "s2_paper_id": "645717e37e6919dd7460ee4325652600f955f99d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.oceaneng.2025.124135",
+          "title": "An interpretable significant wave height forecasting model using a causal AI framework with error correction",
+          "year": 2026,
+          "s2_paper_id": "94ddf2fcd9d335a1fd70f3d200f9af97ff1467a2",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.neucom.2025.132574",
+          "title": "PriFLRC: A secure multi-party computation-based privacy-enhanced federated learning scheme resilient to collusion",
+          "year": 2026,
+          "s2_paper_id": "eae08161f9eb5130a66d2afc05522dceab347a40",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.applthermaleng.2026.129712",
+          "title": "Similarity theory-driven dimensionless parameter migration framework: Digital twin approach for cross-condition gas turbine performance monitoring",
+          "year": 2026,
+          "s2_paper_id": "1543fe8250bcaa5ca31b59321d3e6589cd90422a",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.asoc.2026.114556",
+          "title": "Enhancing exchange rate forecasting with contextual sentiment indices: A fine-tuned FinBERT approach",
+          "year": 2026,
+          "s2_paper_id": "40dbf105e3308a5d61bac4d2c75a0a3e717c49e1",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.cageo.2026.106106",
+          "title": "Deep-learning-based hybrid model with iterative lithology constraints for the enhanced prediction of missing well-logs",
+          "year": 2026,
+          "s2_paper_id": "1b4a1df389432bd1f976607a3686a357d6280ace",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jgsce.2026.205846",
+          "title": "Deep-learning-based prediction of mutant formation pore pressure: A case study from the Xihu Sag in the East China sea",
+          "year": 2026,
+          "s2_paper_id": "b78e62643a94d1f3436861b8152909199649121c",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.engappai.2025.113660",
+          "title": "A single-to-multiple framework for structural dynamic prediction via graph data representation and mixed strategy deep learning",
+          "year": 2026,
+          "s2_paper_id": "e56d451984a0445f70a82e796cdbf4a84386747e",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.compeleceng.2026.110962",
+          "title": "Quantitative EEG-based autism spectrum disorder detection using neural sequence models",
+          "year": 2026,
+          "s2_paper_id": "c4ccc50ec5b9b5abfaefb01adaebd292458148a8",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.array.2025.100663",
+          "title": "Ladderpath: An efficient algorithm for revealing nested hierarchy in sequences",
+          "year": 2026,
+          "s2_paper_id": "90c1cb6790fddea979dac5f7bacc2509879b6a0b",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.teler.2026.100292",
+          "title": "Advancing solar radiation prediction with explainable AI and ensemble learning techniques",
+          "year": 2026,
+          "s2_paper_id": "47cf7b4161868d7a0469178b227b597a4e374424",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.flowmeasinst.2026.103187",
+          "title": "A hybrid CWT\u2013BiLSTM framework for accurate fault diagnosis in triplex pumps under complex operating conditions",
+          "year": 2026,
+          "s2_paper_id": "226b78ee5840771b5bdca3286d51ee62f807f543",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.engappai.2025.113719",
+          "title": "Long-term traffic prediction with inner-outer contrastive representation learning",
+          "year": 2026,
+          "s2_paper_id": "211973eab4dbeae8327660e2538a54f370ad2daf",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.image.2025.117455",
+          "title": "Learned lossless medical image compression via dual transform and subimage-wise auto-regression",
+          "year": 2026,
+          "s2_paper_id": "e4c147d7cece95bd3117283ecc661b11a91b3edb",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.aeolia.2026.101031",
+          "title": "A high-accuracy stacking model for automatic identification of aeolian saltating tracks in high-speed pictures",
+          "year": 2026,
+          "s2_paper_id": "b05b550144b4585f1ce87c2402429dd6aa907492",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jhydrol.2026.134945",
+          "title": "Improved flash drought forecasting and attribution: A spatial-temporal causality-aware deep learning approach",
+          "year": 2026,
+          "s2_paper_id": "f38de89d81a8f8ef0a84800ca3b510a742123023",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.oceaneng.2025.124166",
+          "title": "Sparse-to-full reconstruction of ocean wave height fields using lightweight recurrent neural models",
+          "year": 2026,
+          "s2_paper_id": "f02f795990af42ba78b3f05104a7ca05fa244470",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.apenergy.2026.127365",
+          "title": "WeTRaC: Scalable EV charging demand forecasting for heavy-duty fleets",
+          "year": 2026,
+          "s2_paper_id": "5340b7b62da766548e8f24299f63b4fa4965861c",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.engappai.2026.113817",
+          "title": "A generative pretrained transformer framework for museum visitor experience analysis through aspect-based sentiment analysis",
+          "year": 2026,
+          "s2_paper_id": "9de193c49a5cf583dae61447999c2183420b22f9",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.engappai.2026.113871",
+          "title": "Dynamic multi-periodic spatio-temporal graph neural network for multivariate time series forecasting",
+          "year": 2026,
+          "s2_paper_id": "a3451967c1d9f8a77953680eab835c47f54ca42c",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.oceaneng.2026.124264",
+          "title": "A CNN-LSTM-SE model for the short-term roll and heave forecasting of a semi-submersible",
+          "year": 2026,
+          "s2_paper_id": "6c36ff901ed49756a106e5ad28acd205735e489b",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.oceaneng.2026.124295",
+          "title": "Optimizing typhoon wave height forecasting with LSTM model using SWAN-BP model output and TCWiSE synthetic typhoons",
+          "year": 2026,
+          "s2_paper_id": "86ff1295a25d5f6bc142ff7f24aadb38e84e3842",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.engappai.2026.113845",
+          "title": "Component-wise independent adaptive learning and local optimization for long-term forecasting",
+          "year": 2026,
+          "s2_paper_id": "35c9ddd01cd9a17d8bf42af6158d198fa41203db",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        }
+      ],
+      "counts_by_year": {},
+      "is_oa": false,
+      "oa_locations": [
+        {
+          "pdf_url": "",
+          "host_type": "CLOSED",
+          "is_best": false,
+          "source": "semantic_scholar"
+        }
+      ],
+      "best_oa_url": "",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Computer Science",
+          "scheme": "s2_external",
+          "source": "semantic_scholar"
+        },
+        {
+          "value": "Medicine",
+          "scheme": "s2_external",
+          "source": "semantic_scholar"
+        },
+        {
+          "value": "Computer Science",
+          "scheme": "s2_s2-fos-model",
+          "source": "semantic_scholar"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "influential_citation_count",
+          "value": 9934.0,
+          "source": "semantic_scholar"
+        }
+      ],
+      "tldr": "A novel, efficient, gradient based method called long short-term memory (LSTM) is introduced, which can learn to bridge minimal time lags in excess of 1000 discrete-time steps by enforcing constant error flow through constant error carousels within special units.",
+      "citation_styles": {
+        "bibtex": "@Article{Hochreiter1997LongSM,\n author = {Sepp Hochreiter and J. Schmidhuber},\n booktitle = {Neural Computation},\n journal = {Neural Computation},\n pages = {1735-1780},\n title = {Long Short-Term Memory},\n volume = {9},\n year = {1997}\n}\n"
+      },
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "Long Short-Term Memory",
+      "publication_date": "1997-11-01",
+      "publication_year": 1997,
+      "work_type": "journal-article",
+      "publisher": "MIT Press",
+      "container_title": "Neural Computation",
+      "issn": [
+        "0899-7667",
+        "1530-888X"
+      ],
+      "doi": "10.1162/neco.1997.9.8.1735",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "Long short-term memory.",
+      "abstract": "Learning to store information over extended time intervals by recurrent backpropagation takes a very long time, mostly because of insufficient, decaying error backflow. We briefly review Hochreiter's (1991) analysis of this problem, then address it by introducing a novel, efficient, gradient-based method called long short-term memory (LSTM). Truncating the gradient where this does not do harm, LSTM can learn to bridge minimal time lags in excess of 1000 discrete-time steps by enforcing constant error flow through constant error carousels within special units. Multiplicative gate units learn to open and close access to the constant error flow. LSTM is local in space and time; its computational complexity per time step and weight is O(1). Our experiments with artificial data involve local, distributed, real-valued, and noisy pattern representations. In comparisons with real-time recurrent learning, back propagation through time, recurrent cascade correlation, Elman nets, and neural sequence chunking, LSTM leads to many more successful runs, and learns much faster. LSTM also solves complex, artificial long-time-lag tasks that have never been solved by previous recurrent network algorithms.",
+      "publication_year": 1997,
+      "language": "eng",
+      "container_title": "Neural computation",
+      "volume": "9",
+      "issue": "8",
+      "pages": "1735-1780",
+      "issn": [],
+      "doi": "10.1162/neco.1997.9.8.1735",
+      "pmid": "9377276",
+      "authors": [
+        {
+          "name": {
+            "given": "S",
+            "family": "Hochreiter",
+            "full_name": "Hochreiter S",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Fakult\u00e4t f\u00fcr Informatik, Technische Universit\u00e4t M\u00fcnchen, Germany.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "J",
+            "family": "Schmidhuber",
+            "full_name": "Schmidhuber J",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 9779,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": false,
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Nerve Net",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Nerve Net",
+          "qualifier_name": "physiology",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Learning",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Models, Neurological",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Models, Psychological",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Time Factors",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Neural Networks, Computer",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 9779.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [
+        {
+          "url": "https://doi.org/10.1162/neco.1997.9.8.1735",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1162/neco.1997.9.8.1735",
+      "pmid": "23671333",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1162/neco.1997.9.8.1735",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1162/neco.1997.9.8.1735",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1162/neco.1997.9.8.1735",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1162/neco.1997.9.8.1735",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1162/neco.1997.9.8.1735",
+    "pmid": "9377276",
+    "openalex_id": "https://openalex.org/W2064675550",
+    "s2_paper_id": "2e9d221c206e9503ceb452302d68d10e293f2a10",
+    "s2_corpus_id": "1915014",
+    "handles": [],
+    "orcids": [
+      "0000-0001-7449-2528"
+    ],
+    "ror_ids": [
+      "https://ror.org/013355g38",
+      "https://ror.org/02kkvpp62"
+    ],
+    "grant_ids": [],
+    "nct_ids": [],
+    "pmid_source": "europe_pmc"
+  },
+  "conflicts": {
+    "doi": "10.1162/neco.1997.9.8.1735",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 77228,
+          "openalex": 93053,
+          "semantic_scholar": 100402,
+          "europe_pmc": 9779
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 20,
+          "openalex": 34,
+          "semantic_scholar": 48
+        },
+        "risk": "low"
+      },
+      {
+        "field": "title",
+        "values": {
+          "crossref": "Long Short-Term Memory",
+          "openalex": "Long Short-Term Memory",
+          "semantic_scholar": "Long Short-Term Memory",
+          "unpaywall": "Long Short-Term Memory",
+          "europe_pmc": "Long short-term memory"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "semantic_scholar": "JournalArticle",
+          "unpaywall": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "MIT Press",
+          "openalex": "https://openalex.org/P4310315718",
+          "unpaywall": "MIT Press"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Neural Computation",
+          "openalex": "Neural Computation",
+          "semantic_scholar": "Neural Computation",
+          "unpaywall": "Neural Computation",
+          "europe_pmc": "Neural computation"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "mesh_term_count",
+        "values": {
+          "openalex": 32,
+          "europe_pmc": 8
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 2,
+    "conflict_count": 8
+  },
+  "datacite_linked_datasets": [
+    {
+      "identifier": "10.4230/tgdk.3.3.4",
+      "identifier_type": "DOI",
+      "resource_type": "JournalArticle",
+      "title": "Mining Inter-Document Argument Structures in Scientific Papers for an Argument Web",
+      "publisher": "Schloss Dagstuhl \u2013 Leibniz-Zentrum f\u00fcr Informatik",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.30219298.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Other",
+      "title": "<b>Efficient AI and Deep Learning for Sentiment Analysis: Optimized Hybrid MLP for Low-Computational Setups</b>",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.30219298",
+      "identifier_type": "DOI",
+      "resource_type": "Other",
+      "title": "<b>Efficient AI and Deep Learning for Sentiment Analysis: Optimized Hybrid MLP for Low-Computational Setups</b>",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.4230/lipics.giscience.2025.9",
+      "identifier_type": "DOI",
+      "resource_type": "ConferencePaper",
+      "title": "Identifying Resilient Communities in Road Networks: A Path-Based Embedding Approach",
+      "publisher": "Schloss Dagstuhl \u2013 Leibniz-Zentrum f\u00fcr Informatik",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.5281/zenodo.15185971",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "BNAI, NO-TOKEN, and MIND-UNITY: Pillars of a Systemic Revolution in Artificial Intelligence (Results + Code)",
+      "publisher": "Zenodo",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.5281/zenodo.14894878",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "BNAI, NO-TOKEN, and MIND-UNITY: Pillars of a Systemic Revolution  in Artificial Intelligence",
+      "publisher": "Zenodo",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.5281/zenodo.14894877",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "BNAI, NO-TOKEN, and MIND-UNITY: Pillars of a Systemic Revolution in Artificial Intelligence (Results + Code)",
+      "publisher": "Zenodo",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.27140850",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 2 of Machine-learning-based models for the optimization of post-cervical spinal laminoplasty outpatient follow-up schedules",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.27140850.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 2 of Machine-learning-based models for the optimization of post-cervical spinal laminoplasty outpatient follow-up schedules",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.27140847.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of Machine-learning-based models for the optimization of post-cervical spinal laminoplasty outpatient follow-up schedules",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.27140847",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of Machine-learning-based models for the optimization of post-cervical spinal laminoplasty outpatient follow-up schedules",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26793805.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 2 of Current limitations in predicting mRNA translation with deep learning models",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26793805",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 2 of Current limitations in predicting mRNA translation with deep learning models",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26793712.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Additional file 1 of Current limitations in predicting mRNA translation with deep learning models",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26793712",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Additional file 1 of Current limitations in predicting mRNA translation with deep learning models",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26182185",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of VirRep: a hybrid language representation learning framework for identifying viruses from human gut metagenomes",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26182321",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 2 of VirRep: a hybrid language representation learning framework for identifying viruses from human gut metagenomes",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26182321.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 2 of VirRep: a hybrid language representation learning framework for identifying viruses from human gut metagenomes",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26182185.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of VirRep: a hybrid language representation learning framework for identifying viruses from human gut metagenomes",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.25547049",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of Edge-based relative entropy as a sensitive indicator of critical transitions in biological systems",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.25547049.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of Edge-based relative entropy as a sensitive indicator of critical transitions in biological systems",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26681680",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 3 of Automatic de-identification of French electronic health records: a cost-effective approach exploiting distant supervision and deep learning models",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.25237268",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of Automatic de-identification of French electronic health records: a cost-effective approach exploiting distant supervision and deep learning models",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26681680.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 3 of Automatic de-identification of French electronic health records: a cost-effective approach exploiting distant supervision and deep learning models",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.25237407.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 2 of Automatic de-identification of French electronic health records: a cost-effective approach exploiting distant supervision and deep learning models",
+      "publisher": "figshare",
+      "source": "datacite"
+    }
+  ],
+  "analyses": {
+    "impact": {
+      "doi": "10.1162/neco.1997.9.8.1735",
+      "citation_comparison": {
+        "values": {
+          "crossref": 77228,
+          "openalex": 93053,
+          "semantic_scholar": 100402,
+          "europe_pmc": 9779
+        },
+        "min": 9779,
+        "max": 100402,
+        "spread": 90623,
+        "median": 93053
+      },
+      "fwci": 16.56726057,
+      "citation_percentile": 0.99323055,
+      "influential_citation_count": 9934,
+      "influential_ratio": 0.099,
+      "citation_trend": [
+        {
+          "year": 2012,
+          "count": 78
+        },
+        {
+          "year": 2013,
+          "count": 78
+        },
+        {
+          "year": 2014,
+          "count": 139
+        },
+        {
+          "year": 2015,
+          "count": 548
+        },
+        {
+          "year": 2016,
+          "count": 1583
+        },
+        {
+          "year": 2017,
+          "count": 3225
+        },
+        {
+          "year": 2018,
+          "count": 6008
+        },
+        {
+          "year": 2019,
+          "count": 9072
+        },
+        {
+          "year": 2020,
+          "count": 10912
+        },
+        {
+          "year": 2021,
+          "count": 12831
+        },
+        {
+          "year": 2022,
+          "count": 11171
+        },
+        {
+          "year": 2023,
+          "count": 11870
+        },
+        {
+          "year": 2024,
+          "count": 11909
+        },
+        {
+          "year": 2025,
+          "count": 12105
+        },
+        {
+          "year": 2026,
+          "count": 1096
+        }
+      ],
+      "trend_direction": "declining",
+      "dataset_reuse_count": 25,
+      "narrative": "Cited ~93053 times across sources. (counts range 9779\u2013100402, significant cross-source divergence). FWCI 16.6x field average. 9% of citations are influential (S2), well above typical ~2%. Citation trend: declining. 25 downstream datasets reference this work."
+    },
+    "funding": {
+      "doi": "10.1162/neco.1997.9.8.1735",
+      "total_funders": 0,
+      "total_grants": 0,
+      "entries": [],
+      "nih_grants": [],
+      "eu_grants": [],
+      "other_grants": [],
+      "funding_agencies": [],
+      "narrative": "No funding information found."
+    },
+    "dataset_reuse": {
+      "doi": "10.1162/neco.1997.9.8.1735",
+      "datacite_linked_datasets": [
+        {
+          "identifier": "10.4230/tgdk.3.3.4",
+          "identifier_type": "DOI",
+          "resource_type": "JournalArticle",
+          "title": "Mining Inter-Document Argument Structures in Scientific Papers for an Argument Web",
+          "publisher": "Schloss Dagstuhl \u2013 Leibniz-Zentrum f\u00fcr Informatik",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.30219298.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Other",
+          "title": "<b>Efficient AI and Deep Learning for Sentiment Analysis: Optimized Hybrid MLP for Low-Computational Setups</b>",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.30219298",
+          "identifier_type": "DOI",
+          "resource_type": "Other",
+          "title": "<b>Efficient AI and Deep Learning for Sentiment Analysis: Optimized Hybrid MLP for Low-Computational Setups</b>",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.4230/lipics.giscience.2025.9",
+          "identifier_type": "DOI",
+          "resource_type": "ConferencePaper",
+          "title": "Identifying Resilient Communities in Road Networks: A Path-Based Embedding Approach",
+          "publisher": "Schloss Dagstuhl \u2013 Leibniz-Zentrum f\u00fcr Informatik",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.5281/zenodo.15185971",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "BNAI, NO-TOKEN, and MIND-UNITY: Pillars of a Systemic Revolution in Artificial Intelligence (Results + Code)",
+          "publisher": "Zenodo",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.5281/zenodo.14894878",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "BNAI, NO-TOKEN, and MIND-UNITY: Pillars of a Systemic Revolution  in Artificial Intelligence",
+          "publisher": "Zenodo",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.5281/zenodo.14894877",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "BNAI, NO-TOKEN, and MIND-UNITY: Pillars of a Systemic Revolution in Artificial Intelligence (Results + Code)",
+          "publisher": "Zenodo",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.27140850",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 2 of Machine-learning-based models for the optimization of post-cervical spinal laminoplasty outpatient follow-up schedules",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.27140850.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 2 of Machine-learning-based models for the optimization of post-cervical spinal laminoplasty outpatient follow-up schedules",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.27140847.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of Machine-learning-based models for the optimization of post-cervical spinal laminoplasty outpatient follow-up schedules",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.27140847",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of Machine-learning-based models for the optimization of post-cervical spinal laminoplasty outpatient follow-up schedules",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26793805.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 2 of Current limitations in predicting mRNA translation with deep learning models",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26793805",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 2 of Current limitations in predicting mRNA translation with deep learning models",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26793712.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Additional file 1 of Current limitations in predicting mRNA translation with deep learning models",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26793712",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Additional file 1 of Current limitations in predicting mRNA translation with deep learning models",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26182185",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of VirRep: a hybrid language representation learning framework for identifying viruses from human gut metagenomes",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26182321",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 2 of VirRep: a hybrid language representation learning framework for identifying viruses from human gut metagenomes",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26182321.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 2 of VirRep: a hybrid language representation learning framework for identifying viruses from human gut metagenomes",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26182185.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of VirRep: a hybrid language representation learning framework for identifying viruses from human gut metagenomes",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.25547049",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of Edge-based relative entropy as a sensitive indicator of critical transitions in biological systems",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.25547049.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of Edge-based relative entropy as a sensitive indicator of critical transitions in biological systems",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26681680",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 3 of Automatic de-identification of French electronic health records: a cost-effective approach exploiting distant supervision and deep learning models",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.25237268",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of Automatic de-identification of French electronic health records: a cost-effective approach exploiting distant supervision and deep learning models",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26681680.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 3 of Automatic de-identification of French electronic health records: a cost-effective approach exploiting distant supervision and deep learning models",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.25237407.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 2 of Automatic de-identification of French electronic health records: a cost-effective approach exploiting distant supervision and deep learning models",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        }
+      ],
+      "datacite_linked_count": 25,
+      "publishers_breakdown": {
+        "figshare": 20,
+        "Zenodo": 3,
+        "Schloss Dagstuhl \u2013 Leibniz-Zentrum f\u00fcr Informatik": 2
+      },
+      "supplements_to": [],
+      "supplemented_by": [],
+      "cites": [],
+      "cited_by": [],
+      "derived_from": [],
+      "source_of": [],
+      "parts": [],
+      "other_relations": [],
+      "related_software": [],
+      "related_data": [],
+      "file_count": 0,
+      "file_types": [],
+      "narrative": "25 downstream datasets reference this work (mostly from figshare: 20)."
+    },
+    "authors": {
+      "doi": "10.1162/neco.1997.9.8.1735",
+      "authors": [
+        {
+          "full_name": "Sepp Hochreiter",
+          "orcid": "0000-0001-7449-2528",
+          "authenticated_orcid": false,
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5053148274",
+          "affiliations": [
+            {
+              "name": "Technical University of Munich",
+              "ror_id": "https://ror.org/02kkvpp62",
+              "country_code": "DE",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": [
+            "Sepp Hochreiter"
+          ]
+        },
+        {
+          "given": "Sepp",
+          "family": "Hochreiter",
+          "full_name": "Sepp Hochreiter",
+          "authenticated_orcid": false,
+          "sequence": "first",
+          "affiliations": [
+            {
+              "name": "Fakult\u00e4t f\u00fcr Informatik, Technische Universit\u00e4t M\u00fcnchen, 80290 M\u00fcnchen, Germany",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "J\u00fcrgen",
+          "family": "Schmidhuber",
+          "full_name": "J\u00fcrgen Schmidhuber",
+          "authenticated_orcid": false,
+          "sequence": "additional",
+          "affiliations": [
+            {
+              "name": "IDSIA, Corso Elvezia 36, 6900 Lugano, Switzerland",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "J\u00fcrgen Schmidhuber",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5071172037",
+          "affiliations": [
+            {
+              "name": "Dalle Molle Institute for Artificial Intelligence Research",
+              "ror_id": "https://ror.org/013355g38",
+              "country_code": "CH",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Sepp Hochreiter",
+          "authenticated_orcid": false,
+          "s2_author_id": "3308557",
+          "affiliations": [],
+          "sources": [
+            "semantic_scholar"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "J. Schmidhuber",
+          "authenticated_orcid": false,
+          "s2_author_id": "145341374",
+          "affiliations": [],
+          "sources": [
+            "semantic_scholar"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "S",
+          "family": "Hochreiter",
+          "full_name": "Hochreiter S",
+          "authenticated_orcid": false,
+          "affiliations": [
+            {
+              "name": "Fakult\u00e4t f\u00fcr Informatik, Technische Universit\u00e4t M\u00fcnchen, Germany.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "J",
+          "family": "Schmidhuber",
+          "full_name": "Schmidhuber J",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ],
+          "name_variants": []
+        }
+      ],
+      "total_authors": 10,
+      "authors_with_orcid": 1,
+      "authors_with_authenticated_orcid": 0,
+      "unique_institutions": [
+        "Dalle Molle Institute for Artificial Intelligence Research",
+        "Fakult\u00e4t f\u00fcr Informatik, Technische Universit\u00e4t M\u00fcnchen, 80290 M\u00fcnchen, Germany",
+        "Fakult\u00e4t f\u00fcr Informatik, Technische Universit\u00e4t M\u00fcnchen, Germany.",
+        "IDSIA, Corso Elvezia 36, 6900 Lugano, Switzerland",
+        "Technical University of Munich"
+      ],
+      "unique_countries": [
+        "CH",
+        "DE"
+      ],
+      "orcid_coverage": 0.1,
+      "author_count_by_source": {
+        "crossref": 2,
+        "openalex": 2,
+        "semantic_scholar": 2,
+        "unpaywall": 2,
+        "europe_pmc": 2
+      },
+      "narrative": "10 unique authors across 5 sources. 1 have ORCID (10% coverage). 5 institutions. Spanning 2 countries (CH, DE)."
+    },
+    "grant_siblings": {
+      "doi": "10.1162/neco.1997.9.8.1735",
+      "grants_with_siblings": [],
+      "total_sibling_pmids": 0,
+      "unique_sibling_pmids": 0,
+      "most_prolific_count": 0,
+      "multi_grant_pmids": 0,
+      "narrative": "No grant sibling information found."
+    },
+    "oa_audit": {
+      "doi": "10.1162/neco.1997.9.8.1735",
+      "source_claims": [
+        {
+          "source": "openalex",
+          "is_oa": false,
+          "oa_status": "closed",
+          "version": "publishedVersion",
+          "host_type": "journal"
+        },
+        {
+          "source": "semantic_scholar",
+          "is_oa": false,
+          "best_url": "",
+          "host_type": "CLOSED"
+        },
+        {
+          "source": "unpaywall",
+          "is_oa": false,
+          "oa_status": "closed"
+        },
+        {
+          "source": "europe_pmc",
+          "is_oa": false
+        }
+      ],
+      "consensus_is_oa": false,
+      "consensus_status": "closed",
+      "status_agrees": true,
+      "all_locations": [
+        {
+          "url": "https://www.mitpressjournals.org/doi/pdf/10.1162/neco.1997.9.8.1735",
+          "host_type": "publisher",
+          "is_best": false,
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "url": "https://doi.org/10.1162/neco.1997.9.8.1735",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "repository": "https://openalex.org/P4310315718",
+          "is_best": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9377276",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "repository": "https://openalex.org/I1299303238",
+          "is_best": false,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "total_locations": 3,
+      "has_publisher_version": true,
+      "has_accepted_manuscript": false,
+      "has_repository_copy": true,
+      "licenses_found": [],
+      "status_conflict": false,
+      "conflicting_statuses": {},
+      "narrative": "Closed access. 3 unique OA locations found. Publisher version available. Repository copy available."
+    },
+    "topics": {
+      "doi": "10.1162/neco.1997.9.8.1735",
+      "fields_of_study": [
+        {
+          "value": "Neural Networks and Applications",
+          "scheme": "openalex_topic",
+          "score": 0.9715999960899353,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Domain Adaptation and Few-Shot Learning",
+          "scheme": "openalex_topic",
+          "score": 0.9226999878883362,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Computer Science",
+          "scheme": "s2_external",
+          "is_major": false,
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "value": "Medicine",
+          "scheme": "s2_external",
+          "is_major": false,
+          "sources": [
+            "semantic_scholar"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "value": "Term (time)",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Short-term memory",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Computer science",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Mathematics",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Psychology",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Neuroscience",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Cognition",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Working memory",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Physics",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Learning",
+          "descriptor_ui": "D007858",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Learning",
+          "descriptor_ui": "D007858",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Learning",
+          "descriptor_ui": "D007858",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Learning",
+          "descriptor_ui": "D007858",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Memory",
+          "descriptor_ui": "D008568",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Memory",
+          "descriptor_ui": "D008568",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Memory, Short-Term",
+          "descriptor_ui": "D008570",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Memory, Short-Term",
+          "descriptor_ui": "D008570",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Models, Neurological",
+          "descriptor_ui": "D008959",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Models, Neurological",
+          "descriptor_ui": "D008959",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Models, Neurological",
+          "descriptor_ui": "D008959",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Models, Neurological",
+          "descriptor_ui": "D008959",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Models, Psychological",
+          "descriptor_ui": "D008960",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Models, Psychological",
+          "descriptor_ui": "D008960",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Models, Psychological",
+          "descriptor_ui": "D008960",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Models, Psychological",
+          "descriptor_ui": "D008960",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Nerve Net",
+          "descriptor_ui": "D009415",
+          "qualifier": "physiology",
+          "qualifier_ui": "Q000502",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Nerve Net",
+          "descriptor_ui": "D009415",
+          "qualifier": "physiology",
+          "qualifier_ui": "Q000502",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Nerve Net",
+          "descriptor_ui": "D009415",
+          "qualifier": "physiology",
+          "qualifier_ui": "Q000502",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Nerve Net",
+          "descriptor_ui": "D009415",
+          "qualifier": "physiology",
+          "qualifier_ui": "Q000502",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Time Factors",
+          "descriptor_ui": "D013997",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Time Factors",
+          "descriptor_ui": "D013997",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Time Factors",
+          "descriptor_ui": "D013997",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Time Factors",
+          "descriptor_ui": "D013997",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Neural Networks, Computer",
+          "descriptor_ui": "D016571",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Neural Networks, Computer",
+          "descriptor_ui": "D016571",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Neural Networks, Computer",
+          "descriptor_ui": "D016571",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Neural Networks, Computer",
+          "descriptor_ui": "D016571",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Nerve Net",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Nerve Net",
+          "qualifier": "physiology",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Learning",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Algorithms",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Models, Neurological",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Models, Psychological",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Time Factors",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Neural Networks, Computer",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        }
+      ],
+      "sdg_mappings": [],
+      "openalex_concepts": [
+        {
+          "value": "Neuroscience",
+          "scheme": "openalex_concept",
+          "score": 0.2080390453338623,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Quantum mechanics",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Term (time)",
+          "scheme": "openalex_concept",
+          "score": 0.6298137307167053,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Cognition",
+          "scheme": "openalex_concept",
+          "score": 0.18833708763122559,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Working memory",
+          "scheme": "openalex_concept",
+          "score": 0.18085071444511414,
+          "level": 3,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Short-term memory",
+          "scheme": "openalex_concept",
+          "score": 0.4886475205421448,
+          "level": 4,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.41314831376075745,
+          "level": 0,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Mathematics",
+          "scheme": "openalex_concept",
+          "score": 0.3207841217517853,
+          "level": 0,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Psychology",
+          "scheme": "openalex_concept",
+          "score": 0.3027428686618805,
+          "level": 0,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Physics",
+          "scheme": "openalex_concept",
+          "score": 0.14113420248031616,
+          "level": 0,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "s2_fields": [],
+      "asjc_subjects": [],
+      "all_topics_flat": [
+        "Algorithms",
+        "Cognition",
+        "Computer Science",
+        "Computer science",
+        "Domain Adaptation and Few-Shot Learning",
+        "Learning",
+        "Mathematics",
+        "Medicine",
+        "Memory",
+        "Memory, Short-Term",
+        "Models, Neurological",
+        "Models, Psychological",
+        "Nerve Net",
+        "Neural Networks and Applications",
+        "Neural Networks, Computer",
+        "Neuroscience",
+        "Physics",
+        "Psychology",
+        "Quantum mechanics",
+        "Short-term memory",
+        "Term (time)",
+        "Time Factors",
+        "Working memory"
+      ],
+      "vocabulary_count": 6,
+      "topics_by_vocabulary": {
+        "openalex_topic": 1,
+        "OpenAlex_Concepts": 1,
+        "Keywords": 1,
+        "MeSH": 40,
+        "s2_external": 1,
+        "FOS": 1
+      },
+      "narrative": "Classified in 6 vocabularies. Fields of study: Neural Networks and Applications, Domain Adaptation and Few-Shot Learning, Computer Science. Major MeSH terms: Algorithms, Algorithms, Algorithms. Broad concepts: Neuroscience, Quantum mechanics. 9 unique keywords."
+    }
+  },
+  "discrepancy_report": {
+    "doi": "10.1162/neco.1997.9.8.1735",
+    "sources_queried": 11,
+    "sources_found": 6,
+    "sources_not_found": 5,
+    "sources_errored": 0,
+    "total_discrepancies": 6,
+    "high_risk_count": 1,
+    "medium_risk_count": 0,
+    "low_risk_count": 5,
+    "data_completeness_score": 0.875,
+    "source_coverage": [
+      {
+        "source": "crossref",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "datacite",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "openalex",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": false,
+        "has_subjects": true,
+        "has_related_works": false
+      },
+      {
+        "source": "semantic_scholar",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": false,
+        "has_subjects": true,
+        "has_related_works": false
+      },
+      {
+        "source": "unpaywall",
+        "found": true,
+        "has_title": true,
+        "has_citations": false,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "europe_pmc",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": false,
+        "has_subjects": true,
+        "has_related_works": false
+      },
+      {
+        "source": "nih_reporter",
+        "found": true,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "zenodo",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "dryad",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "orcid",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "entrez",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      }
+    ],
+    "scalar_discrepancies": [
+      {
+        "field": "title",
+        "values": {
+          "crossref": "Long Short-Term Memory",
+          "openalex": "Long Short-Term Memory",
+          "semantic_scholar": "Long Short-Term Memory",
+          "unpaywall": "Long Short-Term Memory",
+          "europe_pmc": "Long short-term memory"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "semantic_scholar": "JournalArticle",
+          "unpaywall": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "MIT Press",
+          "openalex": "https://openalex.org/P4310315718",
+          "unpaywall": "MIT Press"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Neural Computation",
+          "openalex": "Neural Computation",
+          "semantic_scholar": "Neural Computation",
+          "unpaywall": "Neural Computation",
+          "europe_pmc": "Neural computation"
+        },
+        "risk": "low"
+      }
+    ],
+    "citations": {
+      "counts_by_source": {
+        "crossref": 77228,
+        "openalex": 93053,
+        "semantic_scholar": 100402,
+        "europe_pmc": 9779
+      },
+      "min_count": 9779,
+      "max_count": 100402,
+      "median_count": 85140,
+      "spread": 90623,
+      "spread_pct": 90.3,
+      "divergence_level": "high",
+      "outlier_sources": [
+        "europe_pmc"
+      ]
+    },
+    "oa_status": {
+      "is_oa_by_source": {
+        "openalex": false,
+        "semantic_scholar": false,
+        "unpaywall": false,
+        "europe_pmc": false
+      },
+      "status_by_source": {
+        "openalex": "closed",
+        "unpaywall": "closed"
+      },
+      "is_oa_agrees": true,
+      "status_agrees": true,
+      "consensus_is_oa": false,
+      "consensus_status": "closed",
+      "unique_oa_urls": 3,
+      "sources_only_in": {
+        "crossref": [
+          "https://www.mitpressjournals.org/doi/pdf/10.1162/neco.1997.9.8.1735"
+        ],
+        "openalex": [
+          "https://doi.org/10.1162/neco.1997.9.8.1735",
+          "https://pubmed.ncbi.nlm.nih.gov/9377276"
+        ]
+      }
+    },
+    "authors": {
+      "count_by_source": {
+        "crossref": 2,
+        "openalex": 2,
+        "semantic_scholar": 2,
+        "unpaywall": 2,
+        "europe_pmc": 2
+      },
+      "count_agrees": true,
+      "min_count": 2,
+      "max_count": 2,
+      "orcid_coverage": 0.1,
+      "sources_missing_orcids": [
+        "crossref",
+        "semantic_scholar",
+        "unpaywall",
+        "europe_pmc"
+      ],
+      "name_variant_examples": []
+    },
+    "funding": {
+      "grant_count_by_source": {},
+      "total_unique_grants": 0,
+      "grants_single_source": 0,
+      "grants_multi_source": 0,
+      "sources_with_no_funding": [
+        "crossref",
+        "openalex",
+        "semantic_scholar",
+        "unpaywall",
+        "europe_pmc",
+        "nih_reporter"
+      ],
+      "sources_with_funding": []
+    },
+    "references": {
+      "count_by_source": {
+        "crossref": 20,
+        "openalex": 34,
+        "semantic_scholar": 48
+      },
+      "count_agrees": false,
+      "min_count": 20,
+      "max_count": 48
+    },
+    "topics": {
+      "vocabulary_count": 6,
+      "topics_by_source": {
+        "openalex": 53,
+        "semantic_scholar": 3,
+        "europe_pmc": 8
+      },
+      "multi_source_topics": 0,
+      "single_source_topics": 13
+    },
+    "related_works": {
+      "related_count_by_source": {},
+      "datacite_reverse_count": 25,
+      "software_links": 0,
+      "data_links": 0,
+      "has_version_chain": false
+    },
+    "narrative": "6 of 11 sources returned data. Data completeness: 87% of key fields have 2+ source coverage. CITATIONS: 9,779\u2013100,402 across 4 sources (high divergence, 90% spread).   Outlier sources: europe_pmc. 3 OA URLs found by only one source. REFERENCES: 20\u201348 across sources. TITLE DIFFERS: crossref: Long Short-Term Memory, openalex: Long Short-Term Memory, semantic_scholar: Long Short-Term Memory, unpaywall: Long Short-Term Memory, europe_pmc: Long short-term memory. WORK_TYPE DIFFERS: crossref: journal-article, openalex: article, semantic_scholar: JournalArticle, unpaywall: journal-article. PUBLISHER DIFFERS: crossref: MIT Press, openalex: https://openalex.org/P4310315718, unpaywall: MIT Press. CONTAINER_TITLE DIFFERS: crossref: Neural Computation, openalex: Neural Computation, semantic_scholar: Neural Computation, unpaywall: Neural Computation, europe_pmc: Neural computation. Total: 6 discrepancies (1 high, 0 medium, 5 low risk)."
+  },
+  "_benchmark": {
+    "doi": "10.1162/neco.1997.9.8.1735",
+    "fetched_at": "2026-02-11T13:24:25.977340+00:00"
+  }
+}

@@ -1,0 +1,3656 @@
+{
+  "doi": "10.1073/pnas.1611835114",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T16:09:17.409834Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "Overcoming catastrophic forgetting in neural networks",
+      "abstract": "<jats:title>Significance</jats:title>\n                  <jats:p>Deep neural networks are currently the most successful machine-learning technique for solving a variety of tasks, including language translation, image classification, and image generation. One weakness of such models is that, unlike humans, they are unable to learn multiple tasks sequentially. In this work we propose a practical solution to train such models sequentially by protecting the weights important for previous tasks. This approach, inspired by synaptic consolidation in neuroscience, enables state of the art results on multiple reinforcement learning problems experienced sequentially.</jats:p>",
+      "publication_date": "2017-03-14",
+      "publication_year": 2017,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Proceedings of the National Academy of Sciences",
+      "container_title": "Proceedings of the National Academy of Sciences",
+      "volume": "114",
+      "issue": "13",
+      "pages": "3521-3526",
+      "issn": [
+        "0027-8424",
+        "1091-6490"
+      ],
+      "doi": "10.1073/pnas.1611835114",
+      "authors": [
+        {
+          "name": {
+            "given": "James",
+            "family": "Kirkpatrick",
+            "full_name": "James Kirkpatrick",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom;",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Razvan",
+            "family": "Pascanu",
+            "full_name": "Razvan Pascanu",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom;",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Neil",
+            "family": "Rabinowitz",
+            "full_name": "Neil Rabinowitz",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom;",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Joel",
+            "family": "Veness",
+            "full_name": "Joel Veness",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom;",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Guillaume",
+            "family": "Desjardins",
+            "full_name": "Guillaume Desjardins",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom;",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Andrei A.",
+            "family": "Rusu",
+            "full_name": "Andrei A. Rusu",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom;",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Kieran",
+            "family": "Milan",
+            "full_name": "Kieran Milan",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom;",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "John",
+            "family": "Quan",
+            "full_name": "John Quan",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom;",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Tiago",
+            "family": "Ramalho",
+            "full_name": "Tiago Ramalho",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom;",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Agnieszka",
+            "family": "Grabska-Barwinska",
+            "full_name": "Agnieszka Grabska-Barwinska",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom;",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Demis",
+            "family": "Hassabis",
+            "full_name": "Demis Hassabis",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom;",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Claudia",
+            "family": "Clopath",
+            "full_name": "Claudia Clopath",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Bioengineering Department, Imperial College London, London SW7 2AZ, United Kingdom",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Dharshan",
+            "family": "Kumaran",
+            "full_name": "Dharshan Kumaran",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom;",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Raia",
+            "family": "Hadsell",
+            "full_name": "Raia Hadsell",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom;",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 4992,
+      "reference_count": 44,
+      "references": [
+        {
+          "doi": "10.1007/s11023-007-9079-x",
+          "key": "e_1_3_3_1_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S1364-6613(99)01294-2",
+          "key": "e_1_3_3_2_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1989,
+          "author": "McCloskey M",
+          "unstructured": "M McCloskey, NJ Cohen, Catastrophic interference in connectionist networks: The sequential learning problem. The Psychology of Learning and Motivation, ed GH Bower (Academic, New York) Vol 24, 109\u2013165 (1989).",
+          "key": "e_1_3_3_3_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1037/0033-295X.102.3.419",
+          "key": "e_1_3_3_4_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.tics.2016.05.004",
+          "key": "e_1_3_3_5_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1037/0033-295X.97.2.285",
+          "key": "e_1_3_3_6_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2012,
+          "author": "Krizhevsky A",
+          "unstructured": "A Krizhevsky, I Sutskever, GE Hinton, Imagenet classification with deep convolutional neural networks. Advances in Neural Information Processing Systems 25, eds F Pereira, CJC Burges, L Bottou, KQ Weinberger (Curran Assoc, Red Hook, NY), pp. 1097\u20131105 (2012).",
+          "key": "e_1_3_3_7_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nature14539",
+          "key": "e_1_3_3_8_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "AA Rusu Policy distillation. arXiv:1511.06295. (2015).",
+          "key": "e_1_3_3_9_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "E Parisotto JL Ba R Salakhutdinov Actor-mimic: Deep multitask and transfer reinforcement learning. arXiv:1511.06342. (2015).",
+          "key": "e_1_3_3_10_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nature14251",
+          "key": "e_1_3_3_11_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nature15257",
+          "key": "e_1_3_3_12_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nature08577",
+          "key": "e_1_3_3_13_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1126/science.1249098",
+          "key": "e_1_3_3_14_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.neuron.2005.02.001",
+          "key": "e_1_3_3_15_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "MK Benna S Fusi Computational principles of biological memory. arXiv:1507.07580. (2015).",
+          "key": "e_1_3_3_16_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1988,
+          "author": "Hecht-Nielsen R",
+          "unstructured": "R Hecht-Nielsen, Theory of the backpropagating network. Neural Netw (Suppl 1), pp. 445\u2013448 (1988).",
+          "key": "e_1_3_3_17_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S0893-6080(05)80037-1",
+          "key": "e_1_3_3_18_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1162/neco.1992.4.3.448",
+          "key": "e_1_3_3_19_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "R Pascanu Y Bengio Revisiting natural gradient for deep networks. arXiv:1301.3584. (2013).",
+          "key": "e_1_3_3_20_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2004,
+          "author": "Eskin E",
+          "unstructured": "E Eskin, AJ Smola, S Vishwanathan, Laplace propagation. Advances in Neural Information Processing Systems 16, eds S Thrun, LK Saul, PB Schoelkopf (MIT Press, Cambridge, MA), pp. 441\u2013448 (2004).",
+          "key": "e_1_3_3_21_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Y LeCun C Cortes CJ Burges The MNIST database of handwritten digits. Available at yann.lecun.com/exdb/mnist/. Accessed March 3 2017. (1998).",
+          "key": "e_1_3_3_22_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2013,
+          "author": "Srivastava RK",
+          "unstructured": "RK Srivastava, J Masci, S Kazerounian, F Gomez, J Schmidhuber, Compete to compute. Advances in Neural Information Processing Systems 26, eds CJC Burges, L Bottou, M Welling, Z Ghahramani, KQ Weinberg (Curran Assoc, Red Hook, NY) Vol 26, 2310\u20132318 (2013).",
+          "key": "e_1_3_3_23_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "IJ Goodfellow M Mirza D Xiao A Courville Y Bengio An empirical investigation of catastrophic forgeting in gradient-based neural networks. arXiv:1312.6211. (2015).",
+          "key": "e_1_3_3_24_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nature14236",
+          "key": "e_1_3_3_25_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1613/jair.3912",
+          "key": "e_1_3_3_26_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/978-1-4615-5529-2_11",
+          "key": "e_1_3_3_27_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "AA Rusu Progressive neural networks. arXiv:1606.04671. (2016).",
+          "key": "e_1_3_3_28_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1037/a0030852",
+          "key": "e_1_3_3_29_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1162/089976606775093909",
+          "key": "e_1_3_3_30_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nature12742",
+          "key": "e_1_3_3_31_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1146/annurev.neuro.24.1.167",
+          "key": "e_1_3_3_32_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1162/089976602753712972",
+          "key": "e_1_3_3_33_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "K Milan The forget-me-not process. Advances in Neural Information Processing Systems 29 eds DD Lee M Sugiyama UV Luxburg I Guyon R Garnett (Curran Assoc Red Hook NY 2016).",
+          "key": "e_1_3_3_34_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1162/08997660260028700",
+          "key": "e_1_3_3_35_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2013,
+          "author": "Ruvolo PL",
+          "unstructured": "PL Ruvolo, E Eaton, ELLA: An efficient lifelong learning algorithm. JMLR Workshop Conf Proc 28, 507\u2013515 (2013).",
+          "key": "e_1_3_3_36_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2015,
+          "author": "Blundell C",
+          "unstructured": "C Blundell, J Cornebise, K Kavukcuoglu, D Wierstra, Weight uncertainty in neural networks. JMLR Workshop Conf Proc 37, 1613\u20131622 (2015).",
+          "key": "e_1_3_3_37_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1017/CBO9780511623257",
+          "key": "e_1_3_3_38_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "L Aitchison PE Latham Synaptic sampling: A connection between PSP variability and uncertainty explains neurophysiological observations. arXiv:1505.04544. (2015).",
+          "key": "e_1_3_3_39_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nn.2640",
+          "key": "e_1_3_3_40_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1000248",
+          "key": "e_1_3_3_41_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2016,
+          "author": "van Hasselt H",
+          "unstructured": "H van Hasselt, A Guez, D Silver, Deep reinforcement learning with double q-learning. Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence, eds D Schuurmans, M Wellman (AAAI Press, Palo Alto, CA), pp. 2094\u20132100 (2016).",
+          "key": "e_1_3_3_42_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/DCC.2012.39",
+          "key": "e_1_3_3_43_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/0047-259X(82)90077-X",
+          "key": "e_1_3_3_44_2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://pnas.org/doi/pdf/10.1073/pnas.1611835114",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [
+        {
+          "value": "2017-03-14",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1073/pnas.1611835114",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "Overcoming catastrophic forgetting in neural networks",
+      "abstract": "Significance Deep neural networks are currently the most successful machine-learning technique for solving a variety of tasks, including language translation, image classification, and image generation. One weakness of such models is that, unlike humans, they are unable to learn multiple tasks sequentially. In this work we propose a practical solution to train such models sequentially by protecting the weights important for previous tasks. This approach, inspired by synaptic consolidation in neuroscience, enables state of the art results on multiple reinforcement learning problems experienced sequentially.",
+      "publication_date": "2017-03-14",
+      "publication_year": 2017,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310320052",
+      "container_title": "Proceedings of the National Academy of Sciences",
+      "volume": "114",
+      "issue": "13",
+      "pages": "3521-3526",
+      "issn": [
+        "0027-8424",
+        "1091-6490"
+      ],
+      "doi": "10.1073/pnas.1611835114",
+      "pmid": "28292907",
+      "openalex_id": "https://openalex.org/W2560647685",
+      "authors": [
+        {
+          "name": {
+            "full_name": "James Kirkpatrick",
+            "orcid": "0000-0002-6344-8190",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind (United Kingdom)",
+              "ror_id": "https://ror.org/00971b260",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5102954368",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Razvan Pascanu",
+            "orcid": "0000-0002-5470-1238",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind (United Kingdom)",
+              "ror_id": "https://ror.org/00971b260",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5043910056",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Neil C. Rabinowitz",
+            "orcid": "0000-0002-4030-1567",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind (United Kingdom)",
+              "ror_id": "https://ror.org/00971b260",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5010900024",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Joel Veness",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind (United Kingdom)",
+              "ror_id": "https://ror.org/00971b260",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5060709021",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Guillaume Desjardins",
+            "orcid": "0000-0002-5669-6671",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind (United Kingdom)",
+              "ror_id": "https://ror.org/00971b260",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5089648583",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Andrei A. Rusu",
+            "orcid": "0000-0001-9395-8223",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind (United Kingdom)",
+              "ror_id": "https://ror.org/00971b260",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5101742327",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kieran Milan",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind (United Kingdom)",
+              "ror_id": "https://ror.org/00971b260",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5031656858",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "John Quan",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind (United Kingdom)",
+              "ror_id": "https://ror.org/00971b260",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5018191427",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Tiago Ramalho",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind (United Kingdom)",
+              "ror_id": "https://ror.org/00971b260",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5059552797",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Agnieszka Grabska\u2010Barwi\u0144ska",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind (United Kingdom)",
+              "ror_id": "https://ror.org/00971b260",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5038813361",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Demis Hassabis",
+            "orcid": "0000-0003-2812-9917",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind (United Kingdom)",
+              "ror_id": "https://ror.org/00971b260",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5005349213",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Claudia Clopath",
+            "orcid": "0000-0003-4507-8648",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Imperial College London",
+              "ror_id": "https://ror.org/041kmwe10",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5039497694",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Dharshan Kumaran",
+            "orcid": "0000-0001-5995-5264",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind (United Kingdom)",
+              "ror_id": "https://ror.org/00971b260",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5048551460",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Raia Hadsell",
+            "orcid": "0000-0002-2390-1771",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind (United Kingdom)",
+              "ror_id": "https://ror.org/00971b260",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5079415139",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 6592,
+      "reference_count": 56,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2026": 104,
+        "2025": 1297,
+        "2024": 1189,
+        "2023": 1123,
+        "2022": 772,
+        "2021": 898,
+        "2020": 618,
+        "2019": 346,
+        "2018": 169,
+        "2017": 60,
+        "2016": 2,
+        "2015": 13,
+        "2012": 1
+      },
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1073/pnas.1611835114",
+          "pdf_url": "https://www.pnas.org/content/pnas/114/13/3521.full.pdf",
+          "landing_page_url": "https://doi.org/10.1073/pnas.1611835114",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310320052",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1073/pnas.1611835114",
+          "pdf_url": "https://www.pnas.org/content/pnas/114/13/3521.full.pdf",
+          "landing_page_url": "https://doi.org/10.1073/pnas.1611835114",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310320052",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28292907",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/28292907",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "http://arxiv.org/abs/1612.00796",
+          "pdf_url": "https://arxiv.org/pdf/1612.00796",
+          "landing_page_url": "http://arxiv.org/abs/1612.00796",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I205783295",
+          "source": "openalex"
+        },
+        {
+          "url": "http://doi.org/10.1073/pnas.1611835114",
+          "landing_page_url": "http://doi.org/10.1073/pnas.1611835114",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "http://hdl.handle.net/10044/1/44663",
+          "landing_page_url": "http://hdl.handle.net/10044/1/44663",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I47508984",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://www.pnas.org/content/pnas/114/13/3521.full.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Neural Networks and Applications",
+          "scheme": "openalex_topic",
+          "score": 0.9987000226974487,
+          "source": "openalex"
+        },
+        {
+          "value": "Model Reduction and Neural Networks",
+          "scheme": "openalex_topic",
+          "score": 0.9944999814033508,
+          "source": "openalex"
+        },
+        {
+          "value": "Domain Adaptation and Few-Shot Learning",
+          "scheme": "openalex_topic",
+          "score": 0.9742000102996826,
+          "source": "openalex"
+        },
+        {
+          "value": "Forgetting",
+          "scheme": "openalex_concept",
+          "score": 0.8256326913833618,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Artificial neural network",
+          "scheme": "openalex_concept",
+          "score": 0.529144823551178,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.4151880443096161,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Psychology",
+          "scheme": "openalex_concept",
+          "score": 0.36353325843811035,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Artificial intelligence",
+          "scheme": "openalex_concept",
+          "score": 0.34923791885375977,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Cognitive psychology",
+          "scheme": "openalex_concept",
+          "score": 0.29520511627197266,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Quality Education",
+          "scheme": "SDG",
+          "score": 0.5799999833106995,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Artificial Intelligence",
+          "descriptor_ui": "D001185",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Artificial Intelligence",
+          "descriptor_ui": "D001185",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Artificial Intelligence",
+          "descriptor_ui": "D001185",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Artificial Intelligence",
+          "descriptor_ui": "D001185",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Artificial Intelligence",
+          "descriptor_ui": "D001185",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computer Simulation",
+          "descriptor_ui": "D003198",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computer Simulation",
+          "descriptor_ui": "D003198",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computer Simulation",
+          "descriptor_ui": "D003198",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computer Simulation",
+          "descriptor_ui": "D003198",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computer Simulation",
+          "descriptor_ui": "D003198",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Learning",
+          "descriptor_ui": "D007858",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Learning",
+          "descriptor_ui": "D007858",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Learning",
+          "descriptor_ui": "D007858",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Learning",
+          "descriptor_ui": "D007858",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Learning",
+          "descriptor_ui": "D007858",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Memory",
+          "descriptor_ui": "D008568",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Memory",
+          "descriptor_ui": "D008568",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Memory",
+          "descriptor_ui": "D008568",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Memory",
+          "descriptor_ui": "D008568",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Memory",
+          "descriptor_ui": "D008568",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Mental Recall",
+          "descriptor_ui": "D011939",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Mental Recall",
+          "descriptor_ui": "D011939",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Mental Recall",
+          "descriptor_ui": "D011939",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Mental Recall",
+          "descriptor_ui": "D011939",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Mental Recall",
+          "descriptor_ui": "D011939",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Neural Networks, Computer",
+          "descriptor_ui": "D016571",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Neural Networks, Computer",
+          "descriptor_ui": "D016571",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Neural Networks, Computer",
+          "descriptor_ui": "D016571",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Neural Networks, Computer",
+          "descriptor_ui": "D016571",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Neural Networks, Computer",
+          "descriptor_ui": "D016571",
+          "is_major_topic": true,
+          "source": "openalex"
+        }
+      ],
+      "keywords": [
+        "Forgetting",
+        "Artificial neural network",
+        "Computer science",
+        "Psychology",
+        "Artificial intelligence",
+        "Cognitive psychology"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 273.64048754,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.99988322,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1073/pnas.1611835114",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "Overcoming catastrophic forgetting in neural networks",
+      "publication_date": "2017-03-14",
+      "publication_year": 2017,
+      "work_type": "journal-article",
+      "publisher": "Proceedings of the National Academy of Sciences",
+      "container_title": "Proceedings of the National Academy of Sciences",
+      "issn": [
+        "1091-6490",
+        "0027-8424"
+      ],
+      "doi": "10.1073/pnas.1611835114",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_locations": [
+        {
+          "url": "https://www.pnas.org/content/pnas/114/13/3521.full.pdf",
+          "pdf_url": "https://www.pnas.org/content/pnas/114/13/3521.full.pdf",
+          "landing_page_url": "https://doi.org/10.1073/pnas.1611835114",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.pnas.org/content/pnas/114/13/3521.full.pdf",
+          "pdf_url": "https://www.pnas.org/content/pnas/114/13/3521.full.pdf",
+          "landing_page_url": "https://doi.org/10.1073/pnas.1611835114",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://arxiv.org/pdf/1612.00796",
+          "pdf_url": "https://arxiv.org/pdf/1612.00796",
+          "landing_page_url": "http://arxiv.org/abs/1612.00796",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "Cornell University",
+          "source": "unpaywall"
+        },
+        {
+          "url": "http://doi.org/10.1073/pnas.1611835114",
+          "landing_page_url": "http://doi.org/10.1073/pnas.1611835114",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://www.pnas.org/content/pnas/114/13/3521.full.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "Overcoming catastrophic forgetting in neural networks.",
+      "abstract": "The ability to learn tasks in a sequential fashion is crucial to the development of artificial intelligence. Until now neural networks have not been capable of this and it has been widely thought that catastrophic forgetting is an inevitable feature of connectionist models. We show that it is possible to overcome this limitation and train networks that can maintain expertise on tasks that they have not experienced for a long time. Our approach remembers old tasks by selectively slowing down learning on the weights important for those tasks. We demonstrate our approach is scalable and effective by solving a set of classification tasks based on a hand-written digit dataset and by learning several Atari 2600 games sequentially.",
+      "publication_year": 2017,
+      "language": "eng",
+      "container_title": "Proceedings of the National Academy of Sciences of the United States of America",
+      "volume": "114",
+      "issue": "13",
+      "pages": "3521-3526",
+      "issn": [],
+      "doi": "10.1073/pnas.1611835114",
+      "pmid": "28292907",
+      "pmcid": "PMC5380101",
+      "authors": [
+        {
+          "name": {
+            "given": "James",
+            "family": "Kirkpatrick",
+            "full_name": "Kirkpatrick J",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom; kirkpatrick@google.com.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Razvan",
+            "family": "Pascanu",
+            "full_name": "Pascanu R",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Neil",
+            "family": "Rabinowitz",
+            "full_name": "Rabinowitz N",
+            "orcid": "0000-0002-4030-1567",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Joel",
+            "family": "Veness",
+            "full_name": "Veness J",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Guillaume",
+            "family": "Desjardins",
+            "full_name": "Desjardins G",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Andrei A",
+            "family": "Rusu",
+            "full_name": "Rusu AA",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Kieran",
+            "family": "Milan",
+            "full_name": "Milan K",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "John",
+            "family": "Quan",
+            "full_name": "Quan J",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Tiago",
+            "family": "Ramalho",
+            "full_name": "Ramalho T",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Agnieszka",
+            "family": "Grabska-Barwinska",
+            "full_name": "Grabska-Barwinska A",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Demis",
+            "family": "Hassabis",
+            "full_name": "Hassabis D",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Claudia",
+            "family": "Clopath",
+            "full_name": "Clopath C",
+            "orcid": "0000-0003-4507-8648",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Bioengineering Department, Imperial College London, London SW7 2AZ, United Kingdom.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Dharshan",
+            "family": "Kumaran",
+            "full_name": "Kumaran D",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Raia",
+            "family": "Hadsell",
+            "full_name": "Hadsell R",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 706,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": false,
+      "oa_locations": [],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "EP/M019780/1",
+          "agency": "Engineering and Physical Sciences Research Council",
+          "pi_names": [],
+          "source": "europe_pmc"
+        }
+      ],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Humans",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Learning",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Memory",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Mental Recall",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Artificial Intelligence",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Computer Simulation",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Neural Networks, Computer",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        }
+      ],
+      "keywords": [
+        "Artificial intelligence",
+        "Synaptic Consolidation",
+        "Deep Learning",
+        "Continual Learning",
+        "Stability Plasticity"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 706.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [
+        {
+          "type": "Comment in",
+          "id": "28442279",
+          "source": "MED"
+        },
+        {
+          "type": "Comment in",
+          "id": "29463734",
+          "source": "MED"
+        },
+        {
+          "type": "Comment in",
+          "id": "29463735",
+          "source": "MED"
+        }
+      ],
+      "full_text_urls": [
+        {
+          "url": "https://doi.org/10.1073/pnas.1611835114",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC5380101",
+          "availability": "Free",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC5380101?pdf=render",
+          "availability": "Free",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://doi.org/10.1073/pnas.1611835114",
+          "availability": "Free",
+          "document_style": "doi",
+          "site": "DOI"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1073/pnas.1611835114",
+      "pmid": "23671333",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1073/pnas.1611835114",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1073/pnas.1611835114",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1073/pnas.1611835114",
+      "authors": [
+        {
+          "name": {
+            "given": "Neil",
+            "family": "Rabinowitz",
+            "full_name": "Neil Rabinowitz",
+            "orcid": "0000-0002-4030-1567",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Claudia",
+            "family": "Clopath",
+            "full_name": "Claudia Clopath",
+            "orcid": "0000-0003-4507-8648",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0002-4030-1567",
+          "given_names": "Neil",
+          "family_names": "Rabinowitz",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "DeepMind"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0003-4507-8648",
+          "given_names": "Claudia",
+          "family_names": "Clopath",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": true,
+      "raw": {},
+      "title": "Overcoming catastrophic forgetting in neural networks.",
+      "abstract": "The ability to learn tasks in a sequential fashion is crucial to the development of artificial intelligence. Until now neural networks have not been capable of this and it has been widely thought that catastrophic forgetting is an inevitable feature of connectionist models. We show that it is possible to overcome this limitation and train networks that can maintain expertise on tasks that they have not experienced for a long time. Our approach remembers old tasks by selectively slowing down learning on the weights important for those tasks. We demonstrate our approach is scalable and effective by solving a set of classification tasks based on a hand-written digit dataset and by learning several Atari 2600 games sequentially.",
+      "publication_date": "2017-Mar-28",
+      "publication_year": 2017,
+      "work_type": "journal-article",
+      "language": "eng",
+      "container_title": "Proceedings of the National Academy of Sciences of the United States of America",
+      "volume": "114",
+      "issue": "13",
+      "pages": "3521-3526",
+      "issn": [
+        "1091-6490",
+        "0027-8424"
+      ],
+      "doi": "10.1073/pnas.1611835114",
+      "pmid": "28292907",
+      "pmcid": "PMC5380101",
+      "authors": [
+        {
+          "name": {
+            "given": "James",
+            "family": "Kirkpatrick",
+            "full_name": "James Kirkpatrick",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom; kirkpatrick@google.com.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Razvan",
+            "family": "Pascanu",
+            "full_name": "Razvan Pascanu",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Neil",
+            "family": "Rabinowitz",
+            "full_name": "Neil Rabinowitz",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Joel",
+            "family": "Veness",
+            "full_name": "Joel Veness",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Guillaume",
+            "family": "Desjardins",
+            "full_name": "Guillaume Desjardins",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Andrei A",
+            "family": "Rusu",
+            "full_name": "Andrei A Rusu",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Kieran",
+            "family": "Milan",
+            "full_name": "Kieran Milan",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "John",
+            "family": "Quan",
+            "full_name": "John Quan",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Tiago",
+            "family": "Ramalho",
+            "full_name": "Tiago Ramalho",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Agnieszka",
+            "family": "Grabska-Barwinska",
+            "full_name": "Agnieszka Grabska-Barwinska",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Demis",
+            "family": "Hassabis",
+            "full_name": "Demis Hassabis",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Claudia",
+            "family": "Clopath",
+            "full_name": "Claudia Clopath",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Bioengineering Department, Imperial College London, London SW7 2AZ, United Kingdom.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Dharshan",
+            "family": "Kumaran",
+            "full_name": "Dharshan Kumaran",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Raia",
+            "family": "Hadsell",
+            "full_name": "Raia Hadsell",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "DeepMind, London EC4 5TW, United Kingdom.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        }
+      ],
+      "reference_count": 44,
+      "references": [
+        {
+          "unstructured": "Legg S, Hutter M. Universal intelligence: A definition of machine intelligence. Minds Mach. 2007;17(4):391\u2013444.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "10322466",
+          "unstructured": "French RM. Catastrophic forgetting in connectionist networks. Trends Cognit Sci. 1999;3(4):128\u2013135.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "McCloskey M, Cohen NJ. Catastrophic interference in connectionist networks: The sequential learning problem. In: Bower GH, editor. The Psychology of Learning and Motivation. Vol 24. Academic; New York: 1989. pp. 109\u2013165.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "7624455",
+          "unstructured": "McClelland JL, McNaughton BL, O\u2019Reilly RC. Why there are complementary learning systems in the hippocampus and neocortex: Insights from the successes and failures of connectionist models of learning and memory. Psychol Rev. 1995;102(3):419\u2013457.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "27315762",
+          "unstructured": "Kumaran D, Hassabis D, McClelland JL. What learning systems do intelligent agents need? Complementary learning systems theory updated. Trends Cogn Sci. 2016;20(7):512\u2013534.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "2186426",
+          "unstructured": "Ratcliff R. Connectionist models of recognition memory: Constraints imposed by learning and forgetting functions. Psychol Rev. 1990;97(2):285\u2013308.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Krizhevsky A, Sutskever I, Hinton GE. Imagenet classification with deep convolutional neural networks. In: Pereira F, Burges CJC, Bottou L, Weinberger KQ, editors. Advances in Neural Information Processing Systems 25. Curran Assoc, Red Hook; NY: 2012. pp. 1097\u20131105.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "26017442",
+          "unstructured": "LeCun Y, Bengio Y, Hinton G. Deep learning. Nature. 2015;521(7553):436\u2013444.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Rusu AA, et al. 2015. Policy distillation. arXiv:1511.06295.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Parisotto E, Ba JL, Salakhutdinov R. 2015. Actor-mimic: Deep multitask and transfer reinforcement learning. arXiv:1511.06342.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "25822789",
+          "unstructured": "Cichon J, Gan WB. Branch-specific dendritic ca2+ spikes cause persistent synaptic plasticity. Nature. 2015;520(7546):180\u2013185.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "26352471",
+          "unstructured": "Hayashi-Takagi A, et al. Labelling and optical erasure of synaptic memory traces in the motor cortex. Nature. 2015;525(7569):333\u2013338.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "19946265",
+          "unstructured": "Yang G, Pan F, Gan WB. Stably maintained dendritic spines are associated with lifelong memories. Nature. 2009;462(7275):920\u2013924.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "24904169",
+          "unstructured": "Yang G, et al. Sleep promotes branch-specific formation of dendritic spines after learning. Science. 2014;344(6188):1173\u20131178.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "15721245",
+          "unstructured": "Fusi S, Drew PJ, Abbott L. Cascade models of synaptically stored memories. Neuron. 2005;45(4):599\u2013611.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Benna MK, Fusi S. 2015. Computational principles of biological memory. arXiv:1507.07580.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Hecht-Nielsen R. Neural Netw. Suppl 1; 1988. Theory of the backpropagating network; pp. 445\u2013448.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Sussmann HJ. Uniqueness of the weights for minimal feedforward nets with a given input-output map. Neural Networks. 1992;5:589\u2013593.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "MacKay DJ. A practical Bayesian framework for backpropagation networks. Neural Comput. 1992;4(3):448\u2013472.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Pascanu R, Bengio Y. 2013. Revisiting natural gradient for deep networks. arXiv:1301.3584.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Eskin E, Smola AJ, Vishwanathan S. Laplace propagation. In: Thrun S, Saul LK, Schoelkopf PB, editors. Advances in Neural Information Processing Systems 16. MIT Press; Cambridge, MA: 2004. pp. 441\u2013448.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "LeCun Y, Cortes C, Burges CJ. 1998.  The MNIST database of handwritten digits. Available at  yann.lecun.com/exdb/mnist/. Accessed March 3, 2017.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Srivastava RK, Masci J, Kazerounian S, Gomez F, Schmidhuber J. Compete to compute. In: Burges CJC, Bottou L, Welling M, Ghahramani Z, Weinberg KQ, editors. Advances in Neural Information Processing Systems 26. Vol 26. Curran Assoc; Red Hook, NY: 2013. pp. 2310\u20132318.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Goodfellow IJ, Mirza M, Xiao D, Courville A, Bengio Y. 2015. An empirical investigation of catastrophic forgeting in gradient-based neural networks. arXiv:1312.6211.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "25719670",
+          "unstructured": "Mnih V, et al. Human-level control through deep reinforcement learning. Nature. 2015;518(7540):529\u2013533.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Bellemare MG, Naddaf Y, Veness J, Bowling M. The arcade learning environment: An evaluation platform for general agents. J Artif Intell Res. 2013;47:253\u2013279.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Ring MB. Child: A first step towards continual learning. In: Thrun S, Pratt L, editors. Learning to Learn. Kluwer Acadamic; Norwell, MA: 1998. pp. 261\u2013292.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Rusu AA, et al. 2016. Progressive neural networks. arXiv:1606.04671.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "23356780",
+          "unstructured": "Collins AG, Frank MJ. Cognitive control over learning: Creating, clustering, and generalizing task-set structure. Psychol Rev. 2013;120(1):190\u2013229.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "16378516",
+          "unstructured": "O\u2019Reilly RC, Frank MJ. Making working memory work: A computational model of learning in the prefrontal cortex and basal ganglia. Neural Comput. 2006;18(2):283\u2013328.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "24201281",
+          "unstructured": "Mante V, Sussillo D, Shenoy KV, Newsome WT. Context-dependent computation by recurrent dynamics in prefrontal cortex. Nature. 2013;503(7474):78\u201384.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "11283309",
+          "unstructured": "Miller EK, Cohen JD. An integrative theory of prefrontal cortex function. Annu Rev Neurosci. 2001;24(1):167\u2013202.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "12020450",
+          "unstructured": "Doya K, Samejima K, Katagiri K-i, Kawato M. Multiple model-based reinforcement learning. Neural Comput. 2002;14(6):1347\u20131369.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Milan K, et al. The forget-me-not process. In: Lee DD, Sugiyama M, Luxburg UV, Guyon I, Garnett R, editors. Advances in Neural Information Processing Systems 29. Curran Assoc; Red Hook, NY: 2016.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "12079555",
+          "unstructured": "French RM, Chater N. Using noise to compute error surfaces in connectionist networks: A novel means of reducing catastrophic forgetting. Neural Comput. 2002;14(7):1755\u20131769.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Ruvolo PL, Eaton E. ELLA: An efficient lifelong learning algorithm. JMLR Workshop Conf Proc. 2013;28(1):507\u2013515.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Blundell C, Cornebise J, Kavukcuoglu K, Wierstra D. Weight uncertainty in neural networks. JMLR Workshop Conf Proc. 2015;37:1613\u20131622.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Amit D. Modeling Brain Function. Cambridge Univ Press; Cambridge, UK: 1989.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Aitchison L, Latham PE. 2015. Synaptic sampling: A connection between PSP variability and uncertainty explains neurophysiological observations. arXiv:1505.04544.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "20852625",
+          "unstructured": "Pfister JP, Dayan P, Lengyel M. Synapses with short-term plasticity are optimal estimators of presynaptic membrane potentials. Nat Neurosci. 2010;13(10):1271\u20131275.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "19112486",
+          "unstructured": "Clopath C, Ziegler L, Vasilaki E, B\u00fcsing L, Gerstner W. Tag-trigger-consolidation: A model of early and late long-term-potentiation and depression. PLoS Comput Biol. 2008;4(12):e1000248.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "van Hasselt H, Guez A, Silver D. Deep reinforcement learning with double q-learning. In: Schuurmans D, Wellman M, editors. Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence. AAAI Press; Palo Alto, CA: 2016. pp. 2094\u20132100.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Veness J, Ng KS, Hutter M, Bowling M. Context tree switching. In: Malvar H, editor. 2012 Data Compression Conference. IEEE; New York: 2012. pp. 327\u2013336.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Dowson D, Landau B. The fr\u00e9chet distance between multivariate normal distributions. J Multivar Anal. 1982;12(3):450\u2013455.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Algorithms",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Artificial Intelligence",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Computer Simulation",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Humans",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Learning",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Memory",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Mental Recall",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Neural Networks, Computer",
+          "scheme": "MeSH",
+          "source": "entrez"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Artificial Intelligence",
+          "descriptor_ui": "D001185",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Computer Simulation",
+          "descriptor_ui": "D003198",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Learning",
+          "descriptor_ui": "D007858",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Memory",
+          "descriptor_ui": "D008568",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Mental Recall",
+          "descriptor_ui": "D011939",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Neural Networks, Computer",
+          "descriptor_ui": "D016571",
+          "is_major_topic": true,
+          "source": "entrez"
+        }
+      ],
+      "keywords": [
+        "artificial intelligence",
+        "continual learning",
+        "deep learning",
+        "stability plasticity",
+        "synaptic consolidation"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {
+        "pubmed": "2017-03-16",
+        "medline": "2018-07-10",
+        "entrez": "2017-03-16",
+        "pmc-release": "2017-03-14"
+      },
+      "structured_abstract": {},
+      "comment_corrections": [
+        {
+          "ref_type": "CommentIn",
+          "ref_source": "Trends Cogn Sci. 2017 Jun;21(6):407-408. doi: 10.1016/j.tics.2017.04.001.",
+          "pmid": "28442279"
+        },
+        {
+          "ref_type": "CommentIn",
+          "ref_source": "Proc Natl Acad Sci U S A. 2018 Mar 13;115(11):E2498. doi: 10.1073/pnas.1800157115.",
+          "pmid": "29463734"
+        },
+        {
+          "ref_type": "CommentIn",
+          "ref_source": "Proc Natl Acad Sci U S A. 2018 Mar 13;115(11):E2496-E2497. doi: 10.1073/pnas.1717042115.",
+          "pmid": "29463735"
+        }
+      ],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "publication_status": "ppublish",
+      "country_of_publication": "United States",
+      "nlm_journal_id": "7505876",
+      "medline_ta": "Proc Natl Acad Sci U S A",
+      "citation_subsets": [
+        "IM"
+      ],
+      "pii": "1611835114",
+      "electronic_publication_date": "2017-03-14",
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1073/pnas.1611835114",
+    "pmid": "28292907",
+    "pmcid": "PMC5380101",
+    "openalex_id": "https://openalex.org/W2560647685",
+    "pii": "1611835114",
+    "nlm_unique_id": "7505876",
+    "handles": [],
+    "orcids": [
+      "0000-0001-5995-5264",
+      "0000-0001-9395-8223",
+      "0000-0002-2390-1771",
+      "0000-0002-4030-1567",
+      "0000-0002-5470-1238",
+      "0000-0002-5669-6671",
+      "0000-0002-6344-8190",
+      "0000-0003-2812-9917",
+      "0000-0003-4507-8648"
+    ],
+    "ror_ids": [
+      "https://ror.org/00971b260",
+      "https://ror.org/041kmwe10"
+    ],
+    "grant_ids": [
+      "EP/M019780/1"
+    ],
+    "nct_ids": [],
+    "pmid_source": "entrez",
+    "pmcid_source": "entrez"
+  },
+  "conflicts": {
+    "doi": "10.1073/pnas.1611835114",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 4992,
+          "openalex": 6592,
+          "europe_pmc": 706
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 44,
+          "openalex": 56,
+          "entrez": 44
+        },
+        "risk": "low"
+      },
+      {
+        "field": "is_oa",
+        "values": {
+          "openalex": true,
+          "unpaywall": true,
+          "europe_pmc": false
+        },
+        "risk": "medium"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article",
+          "entrez": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 14,
+          "openalex": 14,
+          "unpaywall": 14,
+          "europe_pmc": 14,
+          "orcid": 2,
+          "entrez": 14
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Proceedings of the National Academy of Sciences",
+          "openalex": "https://openalex.org/P4310320052",
+          "unpaywall": "Proceedings of the National Academy of Sciences"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Proceedings of the National Academy of Sciences",
+          "openalex": "Proceedings of the National Academy of Sciences",
+          "unpaywall": "Proceedings of the National Academy of Sciences",
+          "europe_pmc": "Proceedings of the National Academy of Sciences of the United States of America",
+          "entrez": "Proceedings of the National Academy of Sciences of the United States of America"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "mesh_term_count",
+        "values": {
+          "openalex": 40,
+          "europe_pmc": 8,
+          "entrez": 8
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng",
+          "entrez": "eng"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 1,
+    "conflict_count": 9
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1073/pnas.1611835114",
+    "fetched_at": "2026-02-11T16:09:17.411786+00:00"
+  }
+}

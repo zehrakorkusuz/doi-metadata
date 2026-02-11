@@ -1,0 +1,2612 @@
+{
+  "doi": "10.1186/1471-2105-12-303",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T18:42:07.288916Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "Prototype semantic infrastructure for automated small molecule classification and annotation in lipidomics",
+      "abstract": "<jats:title>Abstract</jats:title>\n          <jats:sec>\n            <jats:title>Background</jats:title>\n            <jats:p>The development of high-throughput experimentation has led to astronomical growth in biologically relevant lipids and lipid derivatives identified, screened, and deposited in numerous online databases. Unfortunately, efforts to annotate, classify, and analyze these chemical entities have largely remained in the hands of human curators using manual or semi-automated protocols, leaving many novel entities unclassified. Since chemical function is often closely linked to structure, accurate structure-based classification and annotation of chemical entities is imperative to understanding their functionality.</jats:p>\n          </jats:sec>\n          <jats:sec>\n            <jats:title>Results</jats:title>\n            <jats:p>As part of an exploratory study, we have investigated the utility of semantic web technologies in automated chemical classification and annotation of lipids. Our prototype framework consists of two components: an ontology and a set of federated web services that operate upon it. The formal lipid ontology we use here extends a part of the LiPrO ontology and draws on the lipid hierarchy in the LIPID MAPS database, as well as literature-derived knowledge. The federated semantic web services that operate upon this ontology are deployed within the Semantic Annotation, Discovery, and Integration (SADI) framework. Structure-based lipid classification is enacted by two core services. Firstly, a structural annotation service detects and enumerates relevant functional groups for a specified chemical structure. A second service reasons over lipid ontology class descriptions using the attributes obtained from the annotation service and identifies the appropriate lipid classification. We extend the utility of these core services by combining them with additional SADI services that retrieve associations between lipids and proteins and identify publications related to specified lipid types. We analyze the performance of SADI-enabled eicosanoid classification relative to the LIPID MAPS classification and reflect on the contribution of our integrative methodology in the context of high-throughput lipidomics.</jats:p>\n          </jats:sec>\n          <jats:sec>\n            <jats:title>Conclusions</jats:title>\n            <jats:p>Our prototype framework is capable of accurate automated classification of lipids and facile integration of lipid class information with additional data obtained with SADI web services. The potential of programming-free integration of external web services through the SADI framework offers an opportunity for development of powerful novel applications in lipidomics. We conclude that semantic web technologies can provide an accurate and versatile means of classification and annotation of lipids.</jats:p>\n          </jats:sec>",
+      "publication_date": "2011-07-26",
+      "publication_year": 2011,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Springer Science and Business Media LLC",
+      "container_title": "BMC Bioinformatics",
+      "volume": "12",
+      "issue": "1",
+      "pages": "303",
+      "issn": [
+        "1471-2105"
+      ],
+      "doi": "10.1186/1471-2105-12-303",
+      "authors": [
+        {
+          "name": {
+            "given": "Leonid L",
+            "family": "Chepelev",
+            "full_name": "Leonid L Chepelev",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Alexandre",
+            "family": "Riazanov",
+            "full_name": "Alexandre Riazanov",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Alexandre",
+            "family": "Kouznetsov",
+            "full_name": "Alexandre Kouznetsov",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Hong Sang",
+            "family": "Low",
+            "full_name": "Hong Sang Low",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michel",
+            "family": "Dumontier",
+            "full_name": "Michel Dumontier",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Christopher JO",
+            "family": "Baker",
+            "full_name": "Christopher JO Baker",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 18,
+      "reference_count": 46,
+      "references": [
+        {
+          "doi": "10.1038/nrd1776",
+          "year": 2005,
+          "author": "MR Wenk",
+          "unstructured": "Wenk MR: The emerging field of Lipidomics. Nat Rev Drug Discov 2005, 4: 594\u2013610. 10.1038/nrd1776",
+          "key": "4732_CR1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkm791",
+          "year": 2008,
+          "author": "K Degtyarenko",
+          "unstructured": "Degtyarenko K, de Matos P, Ennis M, Hastings J, Zbinden M, McNaught A, Alc\u00e1ntara R, Darsow M, Guedj M, Ashburner M: ChEBI: a database and ontology for chemical entities of biological interest. Nucleic Acids Res 2008, 36: D344-D350.",
+          "key": "4732_CR2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2004,
+          "author": "SJ Nelson",
+          "unstructured": "Nelson SJ, Schopen M, Savage AG, Schulman JL, Arluk N: The MeSH Translation Maintenance System: Structure, Interface Design, and Implementation. In Proceedings of the 11th World Congress on Medical Informatics; 2004 Sep 7\u201311; San Francisco, CA, USA. Edited by: Fieschi M. IOS Press; 2004:67\u201369.",
+          "key": "4732_CR3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Anatomical Therapeutic Chemical (ATC) Classification System[http://www.whocc.no/atc/structure_and_principles]",
+          "key": "4732_CR4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/75556",
+          "year": 2000,
+          "author": "The Gene Ontology Consortium",
+          "unstructured": "The Gene Ontology Consortium: Gene ontology: tool for the unification of biology. Nat Genet 2000, 25: 25\u201329. 10.1038/75556",
+          "key": "4732_CR5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkm324",
+          "year": 2007,
+          "author": "E Fahy",
+          "unstructured": "Fahy E, Sud M, Cotter D, Subramaniam S: LIPID MAPS online tools for lipid research. Nucl Acids Res 2007, 35(Suppl 2):W606-W612.",
+          "key": "4732_CR6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "University of Minnesota Biocatalysis/Biodegradation Database[http://umbbd.msi.umn.edu/predict/]",
+          "key": "4732_CR7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/npre.2009.3590",
+          "unstructured": "Low HS, Baker CJO, Garcia A, Wenk M: OWL-DL Ontology for Classification of Lipids. International Conference on Biomedical Ontology 2009 July 24\u201326; Buffalo, New York [http://precedings.nature.com/documents/3590/version/2]",
+          "key": "4732_CR8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-9-S1-S5",
+          "year": 2008,
+          "author": "CJO Baker",
+          "unstructured": "Baker CJO, Kanagasabai R, Ang WT, Veeramani A, Low HS, Wenk MR: Towards ontology-driven navigation of the lipid bibliosphere. BMC Bioinformatics 2008, 9(Suppl 1):S5. 10.1186/1471-2105-9-S1-S5",
+          "key": "4732_CR9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Villanueva-Rosales N, Dumontier M: Describing chemical functional groups in OWL-DL for the classification of chemical compounds. Third International Workshop on OWL: Experiences and Directions; June 6\u20137, 2007; Innsbruck, Austria [http://www.webont.org/owled/2007/PapersPDF/submission_36.pdf]",
+          "key": "4732_CR10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Resource Description Framework[http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/]",
+          "key": "4732_CR11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jbi.2008.03.004",
+          "year": 2008,
+          "author": "F Belleau",
+          "unstructured": "Belleau F, Nolin MA, Tourigny N, Rigault P, Morissette J: Bio2RDF: towards a mashup to build bioinformatics knowledge systems. J Biomed Inform 2008, 41(5):706\u201316. 10.1016/j.jbi.2008.03.004",
+          "key": "4732_CR12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-11-255",
+          "year": 2010,
+          "author": "B Chen",
+          "unstructured": "Chen B, Dong X, Jiao D, Wang H, Zhu Q, Ding Y, Wild DJ: Chem2Bio2RDF: a semantic framework for linking and data mining chemogenomic and systems chemical biology data. BMC Bioinformatics 2010, 11: 255. 10.1186/1471-2105-11-255",
+          "key": "4732_CR13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/APSCC.2009.5394148",
+          "year": 2009,
+          "author": "MD Wilkinson",
+          "unstructured": "Wilkinson MD, Vandervalk BP, McCarthy EL: SADI SemanticWeb Services - 'cause you can't always GET what you want! In Asia-Pacific Services Computing Conference; December 7\u201311, 2009; Singapore. IEEE Press; 2009:13\u201318.",
+          "key": "4732_CR14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/978-3-642-10871-6_27",
+          "year": 2009,
+          "author": "BP Vandervalk",
+          "unstructured": "Vandervalk BP, McCarthy EL, Wilkinson MD: SHARE: A Semantic Web Query Engine for Bioinformatics. Lecture Notes in Computer Science 2009, 5926: 367\u2013369. 10.1007/978-3-642-10871-6_27",
+          "key": "4732_CR15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "SHARE Web Interface[http://biordf.net/cardioSHARE/]",
+          "key": "4732_CR16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2010,
+          "author": "JB Laurila",
+          "unstructured": "Laurila JB, Naderi N, Witte R, Kouznetsov A, Riazanov A, Baker CJO: Algorithms and Semantic Infrastructure for mutation impact extraction and grounding. BMC Genomics 2010, in press.",
+          "key": "4732_CR17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2011,
+          "author": "A Riazanov",
+          "unstructured": "Riazanov A, Laurila JB, Baker CJO: Deploying mutation impact text-mining software with the SADI Semantic Web Services framework. BMC Bioinformatics, Proceedings of the European Conference on Computational Biology (ECCB) 2010 Workshop: Annotations, interpretation and management of mutations (AIMM) 2011, in press. http://sunsite.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-645/Paper5.pdf",
+          "key": "4732_CR18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1021/ci00057a005",
+          "year": 1988,
+          "author": "D Weininger",
+          "unstructured": "Weininger D: SMILES, a chemical language and information system. 1. Introduction to methodology and encoding rules. J Chem Inf Comput Sci 1988, 28(1):31\u201336.",
+          "key": "4732_CR19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Functional Group Annotation Service[http://s7.semanticscience.org:9090/computesas/fgannotate]",
+          "key": "4732_CR20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Semanticscience Integrated Ontology[http://semanticscience.org]",
+          "key": "4732_CR21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Lipid Classifier Service[http://unbsj.biordf.net/lipid-class-sadi/classifyLipid]",
+          "key": "4732_CR22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Lipid Classification Service Ontology[http://unbsj.biordf.net/lipids/lipid-classification-service-ontology.owl]",
+          "key": "4732_CR23",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Lipid Classification Queries[http://unbsj.biordf.net/lipids/classification_queries.html]",
+          "key": "4732_CR24",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Service to retrieve LIPID MAPS classes from LiPrO classes[http://unbsj.biordf.net/lipid-class-sadi/getLMLipidClassByLiProClass]",
+          "key": "4732_CR25",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Publication Retrieval Service[http://unbsj.biordf.net/lipid-ref-sadi/getPublicationByLiProClass]",
+          "key": "4732_CR26",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkj122",
+          "year": 2006,
+          "author": "D Cotter",
+          "unstructured": "Cotter D, Maer A, Guda C, Saunders B, Subramaniam S: LMPD: LIPID MAPS proteome database. Nucleic Acids Res 2006, 34: D507-D510. 10.1093/nar/gkj122",
+          "key": "4732_CR27",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Service for Retrieval of Lipid-Related Proteins[http://unbsj.biordf.net/lipids-sadi/getProteinRelatedToLMLipidCategory]",
+          "key": "4732_CR28",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Service for the Identification of Upper-Level LIPID MAPS Classes[http://unbsj.biordf.net/lipids-sadi/getLMLipidCategoryByLMLipidClass]",
+          "key": "4732_CR29",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Chemical Metrics Service Collection[http://s7.semanticscience.org:9090/computesas/]",
+          "key": "4732_CR30",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Chepelev LL, Willighagen E, Dumontier M: Semantic envelopment of cheminfromatics resources with SADI. American Chemical Society National Meeting and Exposition; August 22\u201326, 2010; Boston, MA, USA [http://acscinf.org/docs/meetings/240nm/240cinfabstracts.htm]",
+          "key": "4732_CR31",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2010,
+          "author": "L McCarthy",
+          "unstructured": "McCarthy L, Vandervalk B, Wilkinson M: SPARQL Assist Language-Neutral Query Composer. Semantic Web Applications and Tools for Life Sciences; December 10th, 2010; Berlin, Germany 2010. [http://arxiv.org/abs/1012.1666]",
+          "key": "4732_CR32",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Sentient Knowledge Explorer[http://www.io-informatics.com/products/sentient-KE.html]",
+          "key": "4732_CR33",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "SADI Taverna Plugin[http://www.taverna.org.uk/documentation/taverna-plugins/taverna-2-x-plugins/#sadi_plugin]",
+          "key": "4732_CR34",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bib/3.4.331",
+          "year": 2002,
+          "author": "MD Wilkinson",
+          "unstructured": "Wilkinson MD, Links M: BioMOBY: An open source biological web services proposal. Briefings in Bioinformatics 2002, 3(4):331\u2013341. 10.1093/bib/3.4.331",
+          "key": "4732_CR35",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Semantic Annotations for WSDL and XML Schema[http://www.w3.org/TR/sawsdl/]",
+          "key": "4732_CR36",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/MIC.2007.133",
+          "year": 2007,
+          "author": "AP Sheth",
+          "unstructured": "Sheth AP, Gomadam K, Lathem J: SA-REST: Semantically Interoperable and Easier-to-Use Services and Mashups. IEEE Internet Computing 2007, 11(6):91\u201394.",
+          "key": "4732_CR37",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkq394",
+          "year": 2010,
+          "author": "J Bhagat",
+          "unstructured": "Bhagat J, Tanoh F, Nzuobontane E, Laurent T, Orlowski J, Roos M, Wolstencroft K, Aleksejevs S, Stevens R, Pettifer S, Lopez R, Goble CA: BioCatalogue: a universal catalogue of Web services for the life sciences. Nucleic Acids Research 2010, 38(S5):W689-W694.",
+          "key": "4732_CR38",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.cell.2010.11.033",
+          "year": 2010,
+          "author": "MR Wenk",
+          "unstructured": "Wenk MR: Lipidomics: new tools and applications. Cell 2010, 143(6):888\u2013895. 10.1016/j.cell.2010.11.033",
+          "key": "4732_CR39",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "SMARTS - A Language for Describing Molecular Patterns[http://www.daylight.com/dayhtml/doc/theory/theory.smarts.html]",
+          "key": "4732_CR40",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1021/ci025584y",
+          "year": 2003,
+          "author": "C Steinbeck",
+          "unstructured": "Steinbeck C, Han YQ, Kuhn S, Horlacher O, Luttmann E, Willighagen EL: The Chemistry Development Kit (CDK): An open-source Java library for chemo- and bioinformatics. J Chem Inf Comp Sci 2003, 43: 493\u2013500.",
+          "key": "4732_CR41",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Horridge M, Bechhofer S, Noppens O: Igniting the OWL 1.1 Touch Paper: The OWL API. Third OWL Experienced and Directions Workshop; June 6\u20137, 2007; Innsbruck, Austria [http://sunsite.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-258/paper19.pdf]",
+          "key": "4732_CR42",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Pellet OWL 2 Reasoner for Java[http://clarkparsia.com/pellet/]",
+          "key": "4732_CR43",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Lipid Eicosanoid Ontology[http://semanticscience.org/sadi/ontology/leo.owl]",
+          "key": "4732_CR44",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Cunningham H, Maynard D, Bontcheva K, Tablan V: GATE: A Framework and Graphical Development Environment for Robust NLP Tools and Applications. Proceedings of the 40th Anniversary Meeting of the Association for Computational Linguistics; July 7\u201312, 2002; Philadelphia, USA [http://www.aclweb.org/anthology-new/P/P02/P02\u20131022.pdf]",
+          "key": "4732_CR45",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "ANNIE: a Nearly-New Information Extraction System[http://gate.ac.uk/sale/tao/splitch6.html#chap:annie]",
+          "key": "4732_CR46",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://link.springer.com/content/pdf/10.1186/1471-2105-12-303.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [
+        {
+          "value": "28 October 2010",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "26 July 2011",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "26 July 2011",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        }
+      ],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/1471-2105-12-303",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "Prototype semantic infrastructure for automated small molecule classification and annotation in lipidomics",
+      "publication_date": "2011-07-26",
+      "publication_year": 2011,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310320256",
+      "container_title": "BMC Bioinformatics",
+      "volume": "12",
+      "issue": "1",
+      "pages": "303-303",
+      "issn": [
+        "1471-2105"
+      ],
+      "doi": "10.1186/1471-2105-12-303",
+      "pmid": "21791100",
+      "openalex_id": "https://openalex.org/W2074909362",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Leonid Chepelev",
+            "orcid": "0000-0001-7010-3812",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Carleton University",
+              "ror_id": "https://ror.org/02qtvee93",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5004083401",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Alexandre Riazanov",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of New Brunswick",
+              "ror_id": "https://ror.org/05nkf0n29",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5014954456",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Alexandre Kouznetsov",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of New Brunswick",
+              "ror_id": "https://ror.org/05nkf0n29",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5040593387",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Hong Sang Low",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "National University of Singapore",
+              "ror_id": "https://ror.org/01tgyzw49",
+              "country_code": "SG",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5058861955",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Michel Dumontier",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Carleton University",
+              "ror_id": "https://ror.org/02qtvee93",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5044836472",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Christopher J. O. Baker",
+            "orcid": "0000-0003-4004-6479",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of New Brunswick",
+              "ror_id": "https://ror.org/05nkf0n29",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5080598287",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 24,
+      "reference_count": 27,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2022": 1,
+        "2020": 1,
+        "2018": 3,
+        "2017": 1,
+        "2016": 1,
+        "2015": 1,
+        "2014": 4,
+        "2013": 6,
+        "2012": 5
+      },
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1186/1471-2105-12-303",
+          "pdf_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-12-303",
+          "landing_page_url": "https://doi.org/10.1186/1471-2105-12-303",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310320256",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1186/1471-2105-12-303",
+          "pdf_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-12-303",
+          "landing_page_url": "https://doi.org/10.1186/1471-2105-12-303",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310320256",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21791100",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/21791100",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "https://cris.maastrichtuniversity.nl/en/publications/f9cd47fe-1fb1-4c10-9648-001cbc3c74c3",
+          "landing_page_url": "https://cris.maastrichtuniversity.nl/en/publications/f9cd47fe-1fb1-4c10-9648-001cbc3c74c3",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I34352273",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doaj.org/article/6ee2b5c6b69041b98cfdfb70a2a03d8e",
+          "landing_page_url": "https://doaj.org/article/6ee2b5c6b69041b98cfdfb70a2a03d8e",
+          "host_type": "journal",
+          "version": "submittedVersion",
+          "license": "cc-by-sa",
+          "is_best": false,
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3163564",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3163564",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1303153112",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-12-303",
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "cc-by",
+          "source": "openalex"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Biomedical Text Mining and Ontologies",
+          "scheme": "openalex_topic",
+          "score": 0.9983999729156494,
+          "source": "openalex"
+        },
+        {
+          "value": "Bioinformatics and Genomic Networks",
+          "scheme": "openalex_topic",
+          "score": 0.9961000084877014,
+          "source": "openalex"
+        },
+        {
+          "value": "Metabolomics and Mass Spectrometry Studies",
+          "scheme": "openalex_topic",
+          "score": 0.9959999918937683,
+          "source": "openalex"
+        },
+        {
+          "value": "Ontology",
+          "scheme": "openalex_concept",
+          "score": 0.7659660577774048,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.7438254952430725,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Annotation",
+          "scheme": "openalex_concept",
+          "score": 0.6709368228912354,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Service (business)",
+          "scheme": "openalex_concept",
+          "score": 0.5512505173683167,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Information retrieval",
+          "scheme": "openalex_concept",
+          "score": 0.5188056826591492,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Semantic Web",
+          "scheme": "openalex_concept",
+          "score": 0.511436402797699,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Web service",
+          "scheme": "openalex_concept",
+          "score": 0.43884649872779846,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "World Wide Web",
+          "scheme": "openalex_concept",
+          "score": 0.41966933012008667,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Lipidomics",
+          "scheme": "openalex_concept",
+          "score": 0.41341912746429443,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Bioinformatics",
+          "scheme": "openalex_concept",
+          "score": 0.2147613763809204,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Artificial intelligence",
+          "scheme": "openalex_concept",
+          "score": 0.21341192722320557,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Biology",
+          "scheme": "openalex_concept",
+          "score": 0.0914340615272522,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Epistemology",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Economy",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Economics",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Philosophy",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Industry, innovation and infrastructure",
+          "scheme": "SDG",
+          "score": 0.6200000047683716,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Lipids",
+          "descriptor_ui": "D008055",
+          "qualifier_name": "classification",
+          "qualifier_ui": "Q000145",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Lipids",
+          "descriptor_ui": "D008055",
+          "qualifier_name": "classification",
+          "qualifier_ui": "Q000145",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Lipids",
+          "descriptor_ui": "D008055",
+          "qualifier_name": "classification",
+          "qualifier_ui": "Q000145",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Lipids",
+          "descriptor_ui": "D008055",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Lipids",
+          "descriptor_ui": "D008055",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Lipids",
+          "descriptor_ui": "D008055",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "descriptor_ui": "D011506",
+          "qualifier_name": "metabolism",
+          "qualifier_ui": "Q000378",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "descriptor_ui": "D011506",
+          "qualifier_name": "metabolism",
+          "qualifier_ui": "Q000378",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "descriptor_ui": "D011506",
+          "qualifier_name": "metabolism",
+          "qualifier_ui": "Q000378",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Semantics",
+          "descriptor_ui": "D012660",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Semantics",
+          "descriptor_ui": "D012660",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Semantics",
+          "descriptor_ui": "D012660",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Databases, Factual",
+          "descriptor_ui": "D016208",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Databases, Factual",
+          "descriptor_ui": "D016208",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Databases, Factual",
+          "descriptor_ui": "D016208",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Lipid Metabolism",
+          "descriptor_ui": "D050356",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Lipid Metabolism",
+          "descriptor_ui": "D050356",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Lipid Metabolism",
+          "descriptor_ui": "D050356",
+          "is_major_topic": false,
+          "source": "openalex"
+        }
+      ],
+      "keywords": [
+        "Ontology",
+        "Computer science",
+        "Annotation",
+        "Service (business)",
+        "Information retrieval",
+        "Semantic Web",
+        "Web service",
+        "World Wide Web",
+        "Lipidomics",
+        "Bioinformatics",
+        "Artificial intelligence",
+        "Biology"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 2.23619082,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.86753412,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 2072.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/1471-2105-12-303",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "Prototype semantic infrastructure for automated small molecule classification and annotation in lipidomics",
+      "publication_date": "2011-07-26",
+      "publication_year": 2011,
+      "work_type": "journal-article",
+      "publisher": "Springer Science and Business Media LLC",
+      "container_title": "BMC Bioinformatics",
+      "issn": [
+        "1471-2105"
+      ],
+      "doi": "10.1186/1471-2105-12-303",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-12-303",
+          "pdf_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-12-303",
+          "landing_page_url": "https://doi.org/10.1186/1471-2105-12-303",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-12-303",
+          "pdf_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-12-303",
+          "landing_page_url": "https://doi.org/10.1186/1471-2105-12-303",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://cris.maastrichtuniversity.nl/en/publications/f9cd47fe-1fb1-4c10-9648-001cbc3c74c3",
+          "landing_page_url": "https://cris.maastrichtuniversity.nl/en/publications/f9cd47fe-1fb1-4c10-9648-001cbc3c74c3",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "Maastricht University",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://doaj.org/article/6ee2b5c6b69041b98cfdfb70a2a03d8e",
+          "landing_page_url": "https://doaj.org/article/6ee2b5c6b69041b98cfdfb70a2a03d8e",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by-sa",
+          "evidence": "deprecated",
+          "is_best": false,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3163564",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3163564",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "European Bioinformatics Institute",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-12-303",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "Prototype semantic infrastructure for automated small molecule classification and annotation in lipidomics.",
+      "abstract": "<h4>Background</h4>The development of high-throughput experimentation has led to astronomical growth in biologically relevant lipids and lipid derivatives identified, screened, and deposited in numerous online databases. Unfortunately, efforts to annotate, classify, and analyze these chemical entities have largely remained in the hands of human curators using manual or semi-automated protocols, leaving many novel entities unclassified. Since chemical function is often closely linked to structure, accurate structure-based classification and annotation of chemical entities is imperative to understanding their functionality.<h4>Results</h4>As part of an exploratory study, we have investigated the utility of semantic web technologies in automated chemical classification and annotation of lipids. Our prototype framework consists of two components: an ontology and a set of federated web services that operate upon it. The formal lipid ontology we use here extends a part of the LiPrO ontology and draws on the lipid hierarchy in the LIPID MAPS database, as well as literature-derived knowledge. The federated semantic web services that operate upon this ontology are deployed within the Semantic Annotation, Discovery, and Integration (SADI) framework. Structure-based lipid classification is enacted by two core services. Firstly, a structural annotation service detects and enumerates relevant functional groups for a specified chemical structure. A second service reasons over lipid ontology class descriptions using the attributes obtained from the annotation service and identifies the appropriate lipid classification. We extend the utility of these core services by combining them with additional SADI services that retrieve associations between lipids and proteins and identify publications related to specified lipid types. We analyze the performance of SADI-enabled eicosanoid classification relative to the LIPID MAPS classification and reflect on the contribution of our integrative methodology in the context of high-throughput lipidomics.<h4>Conclusions</h4>Our prototype framework is capable of accurate automated classification of lipids and facile integration of lipid class information with additional data obtained with SADI web services. The potential of programming-free integration of external web services through the SADI framework offers an opportunity for development of powerful novel applications in lipidomics. We conclude that semantic web technologies can provide an accurate and versatile means of classification and annotation of lipids.",
+      "publication_year": 2011,
+      "language": "eng",
+      "container_title": "BMC bioinformatics",
+      "volume": "12",
+      "pages": "303",
+      "issn": [],
+      "doi": "10.1186/1471-2105-12-303",
+      "pmid": "21791100",
+      "pmcid": "PMC3163564",
+      "authors": [
+        {
+          "name": {
+            "given": "Leonid L",
+            "family": "Chepelev",
+            "full_name": "Chepelev LL",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Biology, Carleton University, Ottawa, Canada.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Alexandre",
+            "family": "Riazanov",
+            "full_name": "Riazanov A",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Alexandre",
+            "family": "Kouznetsov",
+            "full_name": "Kouznetsov A",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Hong Sang",
+            "family": "Low",
+            "full_name": "Low HS",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michel",
+            "family": "Dumontier",
+            "full_name": "Dumontier M",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Christopher J O",
+            "family": "Baker",
+            "full_name": "Baker CJ",
+            "orcid": "0000-0003-4004-6479",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 10,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "url": "https://europepmc.org/articles/PMC3163564",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC3163564?pdf=render",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Humans",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Lipids",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Lipids",
+          "qualifier_name": "classification",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Lipids",
+          "qualifier_name": "chemistry",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "qualifier_name": "metabolism",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Semantics",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Databases, Factual",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Lipid Metabolism",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 10.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [
+        {
+          "name": "Lipids",
+          "registry_number": "0"
+        },
+        {
+          "name": "Proteins",
+          "registry_number": "0"
+        }
+      ],
+      "text_mined_accessions": [
+        "uniprot"
+      ],
+      "corrections": [],
+      "full_text_urls": [
+        {
+          "url": "https://doi.org/10.1186/1471-2105-12-303",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC3163564",
+          "availability": "Open access",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC3163564?pdf=render",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openaire": {
+      "source": "openaire",
+      "found": true,
+      "raw": {},
+      "title": "Prototype semantic infrastructure for automated small molecule classification and annotation in lipidomics",
+      "abstract": "<jats:title>Abstract</jats:title>           <jats:sec>             <jats:title>Background</jats:title>             <jats:p>The development of high-throughput experimentation has led to astronomical growth in biologically relevant lipids and lipid derivatives identified, screened, and deposited in numerous online databases. Unfortunately, efforts to annotate, classify, and analyze these chemical entities have largely remained in the hands of human curators using manual or semi-automated protocols, leaving many novel entities unclassified. Since chemical function is often closely linked to structure, accurate structure-based classification and annotation of chemical entities is imperative to understanding their functionality.</jats:p>           </jats:sec>           <jats:sec>             <jats:title>Results</jats:title>             <jats:p>As part of an exploratory study, we have investigated the utility of semantic web technologies in automated chemical classification and annotation of lipids. Our prototype framework consists of two components: an ontology and a set of federated web services that operate upon it. The formal lipid ontology we use here extends a part of the LiPrO ontology and draws on the lipid hierarchy in the LIPID MAPS database, as well as literature-derived knowledge. The federated semantic web services that operate upon this ontology are deployed within the Semantic Annotation, Discovery, and Integration (SADI) framework. Structure-based lipid classification is enacted by two core services. Firstly, a structural annotation service detects and enumerates relevant functional groups for a specified chemical structure. A second service reasons over lipid ontology class descriptions using the attributes obtained from the annotation service and identifies the appropriate lipid classification. We extend the utility of these core services by combining them with additional SADI services that retrieve associations between lipids and proteins and identify publications related to specified lipid types. We analyze the performance of SADI-enabled eicosanoid classification relative to the LIPID MAPS classification and reflect on the contribution of our integrative methodology in the context of high-throughput lipidomics.</jats:p>           </jats:sec>           <jats:sec>             <jats:title>Conclusions</jats:title>             <jats:p>Our prototype framework is capable of accurate automated classification of lipids and facile integration of lipid class information with additional data obtained with SADI web services. The potential of programming-free integration of external web services through the SADI framework offers an opportunity for development of powerful novel applications in lipidomics. We conclude that semantic web technologies can provide an accurate and versatile means of classification and annotation of lipids.</jats:p>           </jats:sec>",
+      "publication_date": "2011-07-26",
+      "publication_year": 2011,
+      "work_type": "publication",
+      "language": "eng",
+      "publisher": "Springer Science and Business Media LLC",
+      "issn": [],
+      "doi": "10.1186/1471-2105-12-303",
+      "pmid": "21791100",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Leonid L. Chepelev",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Alexandre Riazanov",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Alexandre Kouznetsov",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Hong Sang Low",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Michel Dumontier",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Christopher J. O. Baker",
+            "orcid": "0000-0003-4004-6479",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "citation_count": 15,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1186/1471-2105-12-303",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/1471-2105-12-303",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21791100",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1186/1471-2105-12-303",
+          "version": "Other literature type",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1186/1471-2105-12-303",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1186/1471-2105-12-303",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doaj.org/article/6ee2b5c6b69041b98cfdfb70a2a03d8e",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1186/1471-2105-12-303",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://cris.maastrichtuniversity.nl/en/publications/f9cd47fe-1fb1-4c10-9648-001cbc3c74c3",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://dx.doi.org/10.1186/1471-2105-12-303",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "unidentified",
+          "agency": "Natural Sciences and Engineering Research Council of Canada",
+          "title": "unidentified",
+          "pi_names": [],
+          "openaire_project_id": "nserc_______::1e5e62235d094afd01cd56e65112fc63",
+          "source": "openaire"
+        }
+      ],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "0301 basic medicine",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "0303 health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "Databases, Factual",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "QH301-705.5",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Methodology Article",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Computer applications to medicine. Medical informatics",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "R858-859.7",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Proteins",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Lipid Metabolism",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Biochemistry",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Lipids",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Computer Science Applications",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Semantics",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "03 medical and health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "Humans",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Biology (General)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Molecular Biology",
+          "scheme": "keyword",
+          "source": "openaire"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "bip_citationCount",
+          "value": 15.0,
+          "class_label": "C4",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_influence",
+          "value": 3.6684482e-09,
+          "class_label": "C4",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_popularity",
+          "value": 2.25679e-09,
+          "class_label": "C5",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_impulse",
+          "value": 9.0,
+          "class_label": "C4",
+          "source": "openaire"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [
+        {
+          "grant_id": "unidentified",
+          "agency": "Natural Sciences and Engineering Research Council of Canada",
+          "title": "unidentified",
+          "pi_names": [],
+          "openaire_project_id": "nserc_______::1e5e62235d094afd01cd56e65112fc63",
+          "source": "openaire"
+        }
+      ],
+      "alternate_ids": [
+        "doi:10.1186/1471-2105-12-303",
+        "doi:10.1186/1471-2105-12-303",
+        "pmid:21791100",
+        "pmc:PMC3163564",
+        "doi:10.1186/1471-2105-12-303",
+        "doi:10.1186/1471-2105-12-303",
+        "doi:10.1186/1471-2105-12-303",
+        "doi:10.1186/1471-2105-12-303",
+        "doi:10.1186/1471-2105-12-303",
+        "mag_id:2074909362",
+        "doi:10.1186/1471-2105-12-303"
+      ],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/1471-2105-12-303",
+      "pmid": "23671333",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/1471-2105-12-303",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/1471-2105-12-303",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/1471-2105-12-303",
+      "authors": [
+        {
+          "name": {
+            "given": "Michel",
+            "family": "Dumontier",
+            "full_name": "Michel Dumontier",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Christopher J. O.",
+            "family": "Baker",
+            "full_name": "Christopher J. O. Baker",
+            "orcid": "0000-0003-4004-6479",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0003-4727-9435",
+          "given_names": "Michel",
+          "family_names": "Dumontier",
+          "credit_name": "Michel Dumontier",
+          "other_names": [],
+          "institutions": [
+            "Carleton University",
+            "Maastricht University",
+            "Stanford University",
+            "University of Manitoba",
+            "University of Toronto"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0003-4004-6479",
+          "given_names": "Christopher J. O.",
+          "family_names": "Baker",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/1471-2105-12-303",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1186/1471-2105-12-303",
+    "pmid": "21791100",
+    "pmcid": "PMC3163564",
+    "mag_id": "2074909362",
+    "openalex_id": "https://openalex.org/W2074909362",
+    "handles": [],
+    "orcids": [
+      "0000-0001-7010-3812",
+      "0000-0003-4004-6479",
+      "0000-0003-4727-9435"
+    ],
+    "ror_ids": [
+      "https://ror.org/01tgyzw49",
+      "https://ror.org/02qtvee93",
+      "https://ror.org/05nkf0n29"
+    ],
+    "grant_ids": [
+      "unidentified"
+    ],
+    "nct_ids": [],
+    "pmid_source": "europe_pmc",
+    "pmcid_source": "europe_pmc"
+  },
+  "conflicts": {
+    "doi": "10.1186/1471-2105-12-303",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 18,
+          "openalex": 24,
+          "europe_pmc": 10,
+          "openaire": 15
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 46,
+          "openalex": 27
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article",
+          "openaire": "publication"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 6,
+          "openalex": 6,
+          "unpaywall": 6,
+          "europe_pmc": 6,
+          "openaire": 6,
+          "orcid": 2
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Springer Science and Business Media LLC",
+          "openalex": "https://openalex.org/P4310320256",
+          "unpaywall": "Springer Science and Business Media LLC",
+          "openaire": "Springer Science and Business Media LLC"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "BMC Bioinformatics",
+          "openalex": "BMC Bioinformatics",
+          "unpaywall": "BMC Bioinformatics",
+          "europe_pmc": "BMC bioinformatics"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "mesh_term_count",
+        "values": {
+          "openalex": 21,
+          "europe_pmc": 9
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng",
+          "openaire": "eng"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 2,
+    "conflict_count": 8
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1186/1471-2105-12-303",
+    "fetched_at": "2026-02-11T18:42:07.290068+00:00"
+  }
+}

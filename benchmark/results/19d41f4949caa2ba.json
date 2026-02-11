@@ -1,0 +1,2032 @@
+{
+  "doi": "10.48550/arxiv.1506.01497",
+  "registration_agency": "datacite",
+  "retrieved_at": "2026-02-11T14:03:50.753737Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.48550/arxiv.1506.01497",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": true,
+      "raw": {},
+      "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+      "abstract": "State-of-the-art object detection networks depend on region proposal algorithms to hypothesize object locations. Advances like SPPnet and Fast R-CNN have reduced the running time of these detection networks, exposing region proposal computation as a bottleneck. In this work, we introduce a Region Proposal Network (RPN) that shares full-image convolutional features with the detection network, thus enabling nearly cost-free region proposals. An RPN is a fully convolutional network that simultaneously predicts object bounds and objectness scores at each position. The RPN is trained end-to-end to generate high-quality region proposals, which are used by Fast R-CNN for detection. We further merge RPN and Fast R-CNN into a single network by sharing their convolutional features---using the recently popular terminology of neural networks with 'attention' mechanisms, the RPN component tells the unified network where to look. For the very deep VGG-16 model, our detection system has a frame rate of 5fps (including all steps) on a GPU, while achieving state-of-the-art object detection accuracy on PASCAL VOC 2007, 2012, and MS COCO datasets with only 300 proposals per image. In ILSVRC and COCO 2015 competitions, Faster R-CNN and RPN are the foundations of the 1st-place winning entries in several tracks. Code has been made publicly available.",
+      "publication_date": "2015",
+      "publication_year": 2015,
+      "work_type": "Preprint",
+      "publisher": "arXiv",
+      "issn": [],
+      "doi": "10.48550/arxiv.1506.01497",
+      "authors": [
+        {
+          "name": {
+            "given": "Shaoqing",
+            "family": "Ren",
+            "full_name": "Ren, Shaoqing",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Kaiming",
+            "family": "He",
+            "full_name": "He, Kaiming",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ross",
+            "family": "Girshick",
+            "full_name": "Girshick, Ross",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jian",
+            "family": "Sun",
+            "full_name": "Sun, Jian",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        }
+      ],
+      "citation_count": 4,
+      "reference_count": 0,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+          "source": "datacite"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Computer Vision and Pattern Recognition (cs.CV)",
+          "scheme": "arXiv",
+          "source": "datacite"
+        },
+        {
+          "value": "FOS: Computer and information sciences",
+          "scheme": "Fields of Science and Technology (FOS)",
+          "source": "datacite"
+        },
+        {
+          "value": "FOS: Computer and information sciences",
+          "scheme": "Fields of Science and Technology (FOS)",
+          "source": "datacite"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "version_info": {
+        "total_versions": 0,
+        "version_dois": [],
+        "source": "datacite"
+      },
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "view_count",
+          "value": 0.0,
+          "source": "datacite"
+        },
+        {
+          "name": "download_count",
+          "value": 0.0,
+          "source": "datacite"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+      "abstract": "State-of-the-art object detection networks depend on region proposal algorithms to hypothesize object locations. Advances like SPPnet and Fast R-CNN have reduced the running time of these detection networks, exposing region proposal computation as a bottleneck. In this work, we introduce a Region Proposal Network (RPN) that shares full-image convolutional features with the detection network, thus enabling nearly cost-free region proposals. An RPN is a fully convolutional network that simultaneously predicts object bounds and objectness scores at each position. The RPN is trained end-to-end to generate high-quality region proposals, which are used by Fast R-CNN for detection. We further merge RPN and Fast R-CNN into a single network by sharing their convolutional features---using the recently popular terminology of neural networks with 'attention' mechanisms, the RPN component tells the unified network where to look. For the very deep VGG-16 model, our detection system has a frame rate of 5fps (including all steps) on a GPU, while achieving state-of-the-art object detection accuracy on PASCAL VOC 2007, 2012, and MS COCO datasets with only 300 proposals per image. In ILSVRC and COCO 2015 competitions, Faster R-CNN and RPN are the foundations of the 1st-place winning entries in several tracks. Code has been made publicly available.",
+      "publication_date": "2015-06-04",
+      "publication_year": 2015,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/I205783295",
+      "container_title": "arXiv (Cornell University)",
+      "volume": "28",
+      "pages": "91-99",
+      "issn": [],
+      "doi": "10.48550/arxiv.1506.01497",
+      "openalex_id": "https://openalex.org/W2613718673",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Shaoqing Ren",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Microsoft Research (United Kingdom)",
+              "ror_id": "https://ror.org/05k87vq12",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5100824251",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kaiming He",
+            "orcid": "0000-0001-7318-9658",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Microsoft Research (United Kingdom)",
+              "ror_id": "https://ror.org/05k87vq12",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5100700361",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ross Girshick",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Microsoft Research (United Kingdom)",
+              "ror_id": "https://ror.org/05k87vq12",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5049246408",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jian Sun",
+            "orcid": "0000-0001-6270-2698",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Microsoft Research (United Kingdom)",
+              "ror_id": "https://ror.org/05k87vq12",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5101425421",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 18218,
+      "reference_count": 22,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2025": 419,
+        "2024": 991,
+        "2023": 1299,
+        "2022": 1193,
+        "2021": 3490,
+        "2020": 4076,
+        "2019": 3481,
+        "2018": 1902,
+        "2017": 1065,
+        "2016": 284,
+        "2015": 17
+      },
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_locations": [
+        {
+          "url": "http://arxiv.org/abs/1506.01497",
+          "pdf_url": "https://arxiv.org/pdf/1506.01497",
+          "landing_page_url": "http://arxiv.org/abs/1506.01497",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/I205783295",
+          "source": "openalex"
+        },
+        {
+          "url": "http://arxiv.org/abs/1506.01497",
+          "pdf_url": "https://arxiv.org/pdf/1506.01497",
+          "landing_page_url": "http://arxiv.org/abs/1506.01497",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I205783295",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.48550/arxiv.1506.01497",
+          "landing_page_url": "https://doi.org/10.48550/arxiv.1506.01497",
+          "host_type": "repository",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I205783295",
+          "source": "openalex"
+        },
+        {
+          "url": "https://papers.nips.cc/paper/2015/file/14bfa6bb14875e45bba028a21ed38046-Paper.pdf",
+          "landing_page_url": "https://papers.nips.cc/paper/2015/file/14bfa6bb14875e45bba028a21ed38046-Paper.pdf",
+          "host_type": "conference",
+          "is_best": false,
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://arxiv.org/pdf/1506.01497",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Advanced Neural Network Applications",
+          "scheme": "openalex_topic",
+          "score": 1.0,
+          "source": "openalex"
+        },
+        {
+          "value": "Advanced Image and Video Retrieval Techniques",
+          "scheme": "openalex_topic",
+          "score": 0.9994999766349792,
+          "source": "openalex"
+        },
+        {
+          "value": "Multimodal Machine Learning Applications",
+          "scheme": "openalex_topic",
+          "score": 0.996999979019165,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.8618380427360535,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Pascal (unit)",
+          "scheme": "openalex_concept",
+          "score": 0.7938553094863892,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Object detection",
+          "scheme": "openalex_concept",
+          "score": 0.7494302988052368,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Convolutional neural network",
+          "scheme": "openalex_concept",
+          "score": 0.7399752736091614,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Bottleneck",
+          "scheme": "openalex_concept",
+          "score": 0.7165501117706299,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Artificial intelligence",
+          "scheme": "openalex_concept",
+          "score": 0.6198927164077759,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Frame rate",
+          "scheme": "openalex_concept",
+          "score": 0.5771692991256714,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Computation",
+          "scheme": "openalex_concept",
+          "score": 0.4633534252643585,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Frame (networking)",
+          "scheme": "openalex_concept",
+          "score": 0.4275365471839905,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Pattern recognition (psychology)",
+          "scheme": "openalex_concept",
+          "score": 0.4132942259311676,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer vision",
+          "scheme": "openalex_concept",
+          "score": 0.36031603813171387,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Algorithm",
+          "scheme": "openalex_concept",
+          "score": 0.20602846145629883,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer network",
+          "scheme": "openalex_concept",
+          "score": 0.07906234264373779,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Embedded system",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Programming language",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Computer science",
+        "Pascal (unit)",
+        "Object detection",
+        "Convolutional neural network",
+        "Bottleneck",
+        "Artificial intelligence",
+        "Frame rate",
+        "Computation",
+        "Frame (networking)",
+        "Pattern recognition (psychology)",
+        "Computer vision",
+        "Algorithm",
+        "Computer network"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.48550/arxiv.1506.01497",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.48550/arxiv.1506.01497",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.48550/arxiv.1506.01497",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.48550/arxiv.1506.01497",
+      "pmid": "23671333",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.48550/arxiv.1506.01497",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.48550/arxiv.1506.01497",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.48550/arxiv.1506.01497",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.48550/arxiv.1506.01497",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.48550/arxiv.1506.01497",
+    "pmid": "23671333",
+    "openalex_id": "https://openalex.org/W2613718673",
+    "handles": [],
+    "orcids": [
+      "0000-0001-6270-2698",
+      "0000-0001-7318-9658"
+    ],
+    "ror_ids": [
+      "https://ror.org/05k87vq12"
+    ],
+    "grant_ids": [],
+    "nct_ids": [],
+    "pmid_source": "nih_reporter"
+  },
+  "conflicts": {
+    "doi": "10.48550/arxiv.1506.01497",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "datacite": 4,
+          "openalex": 18218
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "datacite": 0,
+          "openalex": 22
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "datacite": "Preprint",
+          "openalex": "article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "datacite": "arXiv",
+          "openalex": "https://openalex.org/I205783295"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 3,
+    "conflict_count": 4
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {
+      "doi": "10.48550/arxiv.1506.01497",
+      "citation_comparison": {
+        "values": {
+          "datacite": 4,
+          "openalex": 18218
+        },
+        "min": 4,
+        "max": 18218,
+        "spread": 18214,
+        "median": 18218
+      },
+      "citation_trend": [
+        {
+          "year": 2015,
+          "count": 17
+        },
+        {
+          "year": 2016,
+          "count": 284
+        },
+        {
+          "year": 2017,
+          "count": 1065
+        },
+        {
+          "year": 2018,
+          "count": 1902
+        },
+        {
+          "year": 2019,
+          "count": 3481
+        },
+        {
+          "year": 2020,
+          "count": 4076
+        },
+        {
+          "year": 2021,
+          "count": 3490
+        },
+        {
+          "year": 2022,
+          "count": 1193
+        },
+        {
+          "year": 2023,
+          "count": 1299
+        },
+        {
+          "year": 2024,
+          "count": 991
+        },
+        {
+          "year": 2025,
+          "count": 419
+        }
+      ],
+      "trend_direction": "declining",
+      "dataset_reuse_count": 0,
+      "narrative": "Cited ~18218 times across sources. (counts range 4\u201318218, significant cross-source divergence). Citation trend: declining."
+    },
+    "funding": {
+      "doi": "10.48550/arxiv.1506.01497",
+      "total_funders": 0,
+      "total_grants": 0,
+      "entries": [],
+      "nih_grants": [],
+      "eu_grants": [],
+      "other_grants": [],
+      "funding_agencies": [],
+      "narrative": "No funding information found."
+    },
+    "dataset_reuse": {
+      "doi": "10.48550/arxiv.1506.01497",
+      "datacite_linked_datasets": [],
+      "datacite_linked_count": 0,
+      "publishers_breakdown": {},
+      "supplements_to": [],
+      "supplemented_by": [],
+      "cites": [],
+      "cited_by": [],
+      "derived_from": [],
+      "source_of": [],
+      "parts": [],
+      "other_relations": [],
+      "related_software": [],
+      "related_data": [],
+      "version_chain": {
+        "total_versions": 0,
+        "version_dois": [],
+        "sources": [
+          "datacite"
+        ]
+      },
+      "file_count": 0,
+      "file_types": [],
+      "narrative": "Version ? of ?."
+    },
+    "authors": {
+      "doi": "10.48550/arxiv.1506.01497",
+      "authors": [
+        {
+          "full_name": "Kaiming He",
+          "orcid": "0000-0001-7318-9658",
+          "authenticated_orcid": false,
+          "openalex_author_id": "https://openalex.org/A5100700361",
+          "affiliations": [
+            {
+              "name": "Microsoft Research (United Kingdom)",
+              "ror_id": "https://ror.org/05k87vq12",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": [
+            "Kaiming He"
+          ]
+        },
+        {
+          "full_name": "Jian Sun",
+          "orcid": "0000-0001-6270-2698",
+          "authenticated_orcid": false,
+          "openalex_author_id": "https://openalex.org/A5101425421",
+          "affiliations": [
+            {
+              "name": "Microsoft Research (United Kingdom)",
+              "ror_id": "https://ror.org/05k87vq12",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": [
+            "Jian Sun"
+          ]
+        },
+        {
+          "given": "Shaoqing",
+          "family": "Ren",
+          "full_name": "Ren, Shaoqing",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Kaiming",
+          "family": "He",
+          "full_name": "He, Kaiming",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Ross",
+          "family": "Girshick",
+          "full_name": "Girshick, Ross",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Jian",
+          "family": "Sun",
+          "full_name": "Sun, Jian",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Shaoqing Ren",
+          "authenticated_orcid": false,
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5100824251",
+          "affiliations": [
+            {
+              "name": "Microsoft Research (United Kingdom)",
+              "ror_id": "https://ror.org/05k87vq12",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Ross Girshick",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5049246408",
+          "affiliations": [
+            {
+              "name": "Microsoft Research (United Kingdom)",
+              "ror_id": "https://ror.org/05k87vq12",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        }
+      ],
+      "total_authors": 8,
+      "authors_with_orcid": 2,
+      "authors_with_authenticated_orcid": 0,
+      "unique_institutions": [
+        "Microsoft Research (United Kingdom)"
+      ],
+      "unique_countries": [
+        "GB"
+      ],
+      "orcid_coverage": 0.25,
+      "author_count_by_source": {
+        "datacite": 4,
+        "openalex": 4
+      },
+      "narrative": "8 unique authors across 2 sources. 2 have ORCID (25% coverage). 1 institutions. Spanning 1 countries (GB)."
+    },
+    "grant_siblings": {
+      "doi": "10.48550/arxiv.1506.01497",
+      "grants_with_siblings": [],
+      "total_sibling_pmids": 0,
+      "unique_sibling_pmids": 0,
+      "most_prolific_count": 0,
+      "multi_grant_pmids": 0,
+      "narrative": "No grant sibling information found."
+    },
+    "oa_audit": {
+      "doi": "10.48550/arxiv.1506.01497",
+      "source_claims": [
+        {
+          "source": "openalex",
+          "is_oa": true,
+          "oa_status": "green",
+          "best_url": "https://arxiv.org/pdf/1506.01497",
+          "version": "submittedVersion",
+          "host_type": "repository"
+        }
+      ],
+      "consensus_is_oa": true,
+      "consensus_status": "green",
+      "status_agrees": true,
+      "all_locations": [
+        {
+          "url": "http://arxiv.org/abs/1506.01497",
+          "pdf_url": "https://arxiv.org/pdf/1506.01497",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "repository": "https://openalex.org/I205783295",
+          "is_best": true,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "url": "https://doi.org/10.48550/arxiv.1506.01497",
+          "host_type": "repository",
+          "repository": "https://openalex.org/I205783295",
+          "is_best": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "url": "https://papers.nips.cc/paper/2015/file/14bfa6bb14875e45bba028a21ed38046-Paper.pdf",
+          "host_type": "conference",
+          "is_best": false,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "total_locations": 3,
+      "has_publisher_version": false,
+      "has_accepted_manuscript": false,
+      "has_repository_copy": true,
+      "licenses_found": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ],
+      "status_conflict": false,
+      "conflicting_statuses": {},
+      "narrative": "Open Access (green). 3 unique OA locations found. Repository copy available. Licenses: http://arxiv.org/licenses/nonexclusive-distrib/1.0/."
+    },
+    "topics": {
+      "doi": "10.48550/arxiv.1506.01497",
+      "fields_of_study": [
+        {
+          "value": "Advanced Neural Network Applications",
+          "scheme": "openalex_topic",
+          "score": 1.0,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Advanced Image and Video Retrieval Techniques",
+          "scheme": "openalex_topic",
+          "score": 0.9994999766349792,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Multimodal Machine Learning Applications",
+          "scheme": "openalex_topic",
+          "score": 0.996999979019165,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Computer Vision and Pattern Recognition (cs.CV)",
+          "scheme": "arXiv",
+          "is_major": false,
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "value": "FOS: Computer and information sciences",
+          "scheme": "Fields of Science and Technology (FOS)",
+          "is_major": false,
+          "sources": [
+            "datacite"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "value": "Computer science",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Pascal (unit)",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Object detection",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Convolutional neural network",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Bottleneck",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Artificial intelligence",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Frame rate",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Computation",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Frame (networking)",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Pattern recognition (psychology)",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Computer vision",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Algorithm",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Computer network",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "sdg_mappings": [],
+      "openalex_concepts": [
+        {
+          "value": "Artificial intelligence",
+          "scheme": "openalex_concept",
+          "score": 0.6198927164077759,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Computer vision",
+          "scheme": "openalex_concept",
+          "score": 0.36031603813171387,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Algorithm",
+          "scheme": "openalex_concept",
+          "score": 0.20602846145629883,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Computer network",
+          "scheme": "openalex_concept",
+          "score": 0.07906234264373779,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Embedded system",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Programming language",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Pascal (unit)",
+          "scheme": "openalex_concept",
+          "score": 0.7938553094863892,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Convolutional neural network",
+          "scheme": "openalex_concept",
+          "score": 0.7399752736091614,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Bottleneck",
+          "scheme": "openalex_concept",
+          "score": 0.7165501117706299,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Frame rate",
+          "scheme": "openalex_concept",
+          "score": 0.5771692991256714,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Computation",
+          "scheme": "openalex_concept",
+          "score": 0.4633534252643585,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Frame (networking)",
+          "scheme": "openalex_concept",
+          "score": 0.4275365471839905,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Pattern recognition (psychology)",
+          "scheme": "openalex_concept",
+          "score": 0.4132942259311676,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Object detection",
+          "scheme": "openalex_concept",
+          "score": 0.7494302988052368,
+          "level": 3,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.8618380427360535,
+          "level": 0,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "s2_fields": [],
+      "asjc_subjects": [],
+      "all_topics_flat": [
+        "Advanced Image and Video Retrieval Techniques",
+        "Advanced Neural Network Applications",
+        "Algorithm",
+        "Artificial intelligence",
+        "Bottleneck",
+        "Computation",
+        "Computer Vision and Pattern Recognition (cs.CV)",
+        "Computer network",
+        "Computer science",
+        "Computer vision",
+        "Convolutional neural network",
+        "Embedded system",
+        "FOS: Computer and information sciences",
+        "Frame (networking)",
+        "Frame rate",
+        "Multimodal Machine Learning Applications",
+        "Object detection",
+        "Pascal (unit)",
+        "Pattern recognition (psychology)",
+        "Programming language"
+      ],
+      "vocabulary_count": 5,
+      "topics_by_vocabulary": {
+        "arxiv": 1,
+        "FOS": 1,
+        "openalex_topic": 1,
+        "OpenAlex_Concepts": 1,
+        "Keywords": 1
+      },
+      "narrative": "Classified in 5 vocabularies. Fields of study: Advanced Neural Network Applications, Advanced Image and Video Retrieval Techniques, Multimodal Machine Learning Applications. Broad concepts: Artificial intelligence, Computer vision, Algorithm. 13 unique keywords."
+    }
+  },
+  "discrepancy_report": {
+    "doi": "10.48550/arxiv.1506.01497",
+    "sources_queried": 11,
+    "sources_found": 3,
+    "sources_not_found": 8,
+    "sources_errored": 0,
+    "total_discrepancies": 4,
+    "high_risk_count": 1,
+    "medium_risk_count": 0,
+    "low_risk_count": 3,
+    "data_completeness_score": 0.75,
+    "source_coverage": [
+      {
+        "source": "crossref",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "datacite",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": true,
+        "has_related_works": false
+      },
+      {
+        "source": "openalex",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": false,
+        "has_subjects": true,
+        "has_related_works": false
+      },
+      {
+        "source": "semantic_scholar",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "unpaywall",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "europe_pmc",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "nih_reporter",
+        "found": true,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "zenodo",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "dryad",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "orcid",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "entrez",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      }
+    ],
+    "scalar_discrepancies": [
+      {
+        "field": "work_type",
+        "values": {
+          "datacite": "Preprint",
+          "openalex": "article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "datacite": "arXiv",
+          "openalex": "https://openalex.org/I205783295"
+        },
+        "risk": "low"
+      }
+    ],
+    "citations": {
+      "counts_by_source": {
+        "datacite": 4,
+        "openalex": 18218
+      },
+      "min_count": 4,
+      "max_count": 18218,
+      "median_count": 9111,
+      "spread": 18214,
+      "spread_pct": 100.0,
+      "divergence_level": "high",
+      "outlier_sources": [
+        "datacite",
+        "openalex"
+      ]
+    },
+    "oa_status": {
+      "is_oa_by_source": {
+        "openalex": true
+      },
+      "status_by_source": {
+        "openalex": "green"
+      },
+      "is_oa_agrees": true,
+      "status_agrees": true,
+      "consensus_is_oa": true,
+      "consensus_status": "green",
+      "unique_oa_urls": 3,
+      "sources_only_in": {
+        "openalex": [
+          "https://doi.org/10.48550/arxiv.1506.01497",
+          "https://papers.nips.cc/paper/2015/file/14bfa6bb14875e45bba028a21ed38046-Paper.pdf"
+        ]
+      }
+    },
+    "authors": {
+      "count_by_source": {
+        "datacite": 4,
+        "openalex": 4
+      },
+      "count_agrees": true,
+      "min_count": 4,
+      "max_count": 4,
+      "orcid_coverage": 0.25,
+      "sources_missing_orcids": [
+        "datacite"
+      ],
+      "name_variant_examples": []
+    },
+    "funding": {
+      "grant_count_by_source": {},
+      "total_unique_grants": 0,
+      "grants_single_source": 0,
+      "grants_multi_source": 0,
+      "sources_with_no_funding": [
+        "datacite",
+        "openalex",
+        "nih_reporter"
+      ],
+      "sources_with_funding": []
+    },
+    "references": {
+      "count_by_source": {
+        "datacite": 0,
+        "openalex": 22
+      },
+      "count_agrees": false,
+      "min_count": 0,
+      "max_count": 22
+    },
+    "topics": {
+      "vocabulary_count": 5,
+      "topics_by_source": {
+        "datacite": 3,
+        "openalex": 31
+      },
+      "multi_source_topics": 0,
+      "single_source_topics": 18
+    },
+    "related_works": {
+      "related_count_by_source": {},
+      "datacite_reverse_count": 0,
+      "software_links": 0,
+      "data_links": 0,
+      "has_version_chain": true
+    },
+    "narrative": "3 of 11 sources returned data. Data completeness: 75% of key fields have 2+ source coverage. CITATIONS: 4\u201318,218 across 2 sources (high divergence, 100% spread).   Outlier sources: datacite, openalex. 2 OA URLs found by only one source. REFERENCES: 0\u201322 across sources. WORK_TYPE DIFFERS: datacite: Preprint, openalex: article. PUBLISHER DIFFERS: datacite: arXiv, openalex: https://openalex.org/I205783295. Total: 4 discrepancies (1 high, 0 medium, 3 low risk)."
+  },
+  "_benchmark": {
+    "doi": "10.48550/arxiv.1506.01497",
+    "fetched_at": "2026-02-11T14:03:50.758025+00:00"
+  }
+}

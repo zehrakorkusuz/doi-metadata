@@ -1,0 +1,2778 @@
+{
+  "doi": "10.1038/sdata.2018.273",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T18:41:32.709884Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "Columbia Open Health Data, clinical concept prevalence and co-occurrence from electronic health records",
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>Columbia Open Health Data (COHD) is a publicly accessible database of electronic health record (EHR) prevalence and co-occurrence frequencies between conditions, drugs, procedures, and demographics. COHD was derived from Columbia University Irving Medical Center\u2019s Observational Health Data Sciences and Informatics (OHDSI) database. The lifetime dataset, derived from all records, contains 36,578 single concepts (11,952 conditions, 12,334 drugs, and 10,816 procedures) and 32,788,901 concept pairs from 5,364,781 patients. The 5-year dataset, derived from records from 2013\u20132017, contains 29,964 single concepts (10,159 conditions, 10,264 drugs, and 8,270 procedures) and 15,927,195 concept pairs from 1,790,431 patients. Exclusion of rare concepts (count\u2009\u2264\u200910) and Poisson randomization enable data sharing by eliminating risks to patient privacy. EHR prevalences are informative of healthcare consumption rates. Analysis of co-occurrence frequencies via relative frequency analysis and observed-expected frequency ratio are informative of associations between clinical concepts, useful for biomedical research tasks such as drug repurposing and pharmacovigilance. COHD is publicly accessible through a web application-programming interface (API) and downloadable from the Figshare repository. The code is available on GitHub.</jats:p>",
+      "publication_date": "2018-11-27",
+      "publication_year": 2018,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Springer Science and Business Media LLC",
+      "container_title": "Scientific Data",
+      "volume": "5",
+      "issue": "1",
+      "pages": "180273",
+      "issn": [
+        "2052-4463"
+      ],
+      "doi": "10.1038/sdata.2018.273",
+      "authors": [
+        {
+          "name": {
+            "given": "Casey N.",
+            "family": "Ta",
+            "full_name": "Casey N. Ta",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michel",
+            "family": "Dumontier",
+            "full_name": "Michel Dumontier",
+            "sequence": "additional",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "George",
+            "family": "Hripcsak",
+            "full_name": "George Hripcsak",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Nicholas P.",
+            "family": "Tatonetti",
+            "full_name": "Nicholas P. Tatonetti",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Chunhua",
+            "family": "Weng",
+            "full_name": "Chunhua Weng",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 47,
+      "reference_count": 37,
+      "references": [
+        {
+          "doi": "10.1161/CIRCOUTCOMES.112.965798",
+          "year": 2012,
+          "author": "JS Ross",
+          "unstructured": "Ross, J. S., Lehman, R. & Gross, C. P. The importance of clinical trial data sharing: toward more open science. Circ. Cardiovasc. Qual. Outcomes 5, 238\u2013240 (2012).",
+          "key": "BFsdata2018273_CR1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Olson, S. & Downey, A. S. Sharing Clinical Research Data: Workshop Summary. National Academies Press, (2013).",
+          "key": "BFsdata2018273_CR2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1001/jama.2015.292",
+          "year": 2015,
+          "author": "B Lo",
+          "unstructured": "Lo, B. Sharing clinical trial data: maximizing benefits, minimizing risk. JAMA 313, 793\u2013794 (2015).",
+          "key": "BFsdata2018273_CR3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1136/jamia.2009.000026",
+          "year": 2010,
+          "author": "K Benitez",
+          "unstructured": "Benitez, K. & Malin, B. Evaluating re-identification risks with respect to the HIPAA privacy rule. J. Am. Med. Inform. Assoc 17, 169\u2013177 (2010).",
+          "key": "BFsdata2018273_CR4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3899/jrheum.130675",
+          "year": 2013,
+          "author": "MM Ward",
+          "unstructured": "Ward, M. M. Estimating disease prevalence and incidence using administrative data: some assembly required. J. Rheumatol. 40, 1241\u20131243 (2013).",
+          "key": "BFsdata2018273_CR5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/qjmed/93.10.669",
+          "year": 2000,
+          "author": "M Goldacre",
+          "unstructured": "Goldacre, M., Kurina, L., Yeates, D., Seagroatt, V. & Gill, L. Use of large medical databases to study associations between diseases. QJM Int. J. Med 93, 669\u2013675 (2000).",
+          "key": "BFsdata2018273_CR6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2005,
+          "author": "H Cao",
+          "unstructured": "Cao, H, Markatou, M, Melton, G. B, Chiang, M. F . & Hripcsak, G. Mining a clinical data warehouse to discover disease-finding associations using co-occurrence statistics. AMIA. Annu. Symp. Proc. 2005, 106\u2013110 (2005).",
+          "key": "BFsdata2018273_CR7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1197/jamia.M3028",
+          "year": 2009,
+          "author": "X Wang",
+          "unstructured": "Wang, X., Hripcsak, G., Markatou, M. & Friedman, C. Active computerized pharmacovigilance using natural language processing, statistics, and electronic health records: a feasibility study. J. Am. Med. Inform. Assoc 16, 328\u2013337 (2009).",
+          "key": "BFsdata2018273_CR8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.comppsych.2004.07.019",
+          "year": 2005,
+          "author": "BF Grant",
+          "unstructured": "Grant, B. F., Stinson, F. S., Dawson, D. A., Chou, S. P. & Ruan, W. J. Co-occurrence of DSM-IV personality disorders in the United States: results from the National Epidemiologic Survey on Alcohol and Related Conditions. Compr. Psychiatry 46, 1\u20135 (2005).",
+          "key": "BFsdata2018273_CR9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/j.1532-5415.2008.02150.x",
+          "year": 2009,
+          "author": "PG Lee",
+          "unstructured": "Lee, P. G., Cigolle, C. & Blaum, C. The co\u2010occurrence of chronic diseases and geriatric syndromes: The Health and Retirement Study. J. Am. Geriatr. Soc 57, 511\u2013516 (2009).",
+          "key": "BFsdata2018273_CR10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3322/caac.21442",
+          "year": 2018,
+          "author": "RL Siegel",
+          "unstructured": "Siegel, R. L., Miller, K. D. & Jemal, A. Cancer statistics, 2018. CA. Cancer J. Clin. 68, 7\u201330 (2018).",
+          "key": "BFsdata2018273_CR11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1080/14034940701195230",
+          "year": 2007,
+          "author": "A-BE Wir\u00e9hn",
+          "unstructured": "Wir\u00e9hn, A.-B. E., Karlsson, H. M. & Carstensen, J. M. Estimating disease prevalence using a population-based administrative healthcare database. Scand. J. Public Health 35, 424\u2013431 (2007).",
+          "key": "BFsdata2018273_CR12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/ageing/afl106",
+          "year": 2006,
+          "author": "C Naughton",
+          "unstructured": "Naughton, C., Bennett, K. & Feely, J. Prevalence of chronic disease in the elderly based on a national pharmacy claims database. Age Ageing 35, 633\u2013636 (2006).",
+          "key": "BFsdata2018273_CR13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2458-13-251",
+          "year": 2013,
+          "author": "C Viol\u00e1n",
+          "unstructured": "Viol\u00e1n, C. et al. Comparison of the information provided by electronic health records data and a population health survey to estimate prevalence of selected health conditions and multimorbidity. BMC Public Health 13, 251 (2013).",
+          "key": "BFsdata2018273_CR14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3122/jabfm.2013.05.130012",
+          "year": 2013,
+          "author": "SM Ornstein",
+          "unstructured": "Ornstein, S. M., Nietert, P. J., Jenkins, R. G. & Litvin, C. B. The prevalence of chronic diseases and multimorbidity in primary care practice: a PPRNet report. J. Am. Board Fam. Med. 26, 518\u2013524 (2013).",
+          "key": "BFsdata2018273_CR15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jbi.2018.04.008",
+          "year": 2018,
+          "author": "M Bhattacharya",
+          "unstructured": "Bhattacharya, M., Jurkovitz, C. & Shatkay, H. Co-occurrence of medical conditions: exposing patterns through probabilistic topic modeling of SNOMED codes. J. Biomed. Inform. 82, 31\u201340 (2018).",
+          "key": "BFsdata2018273_CR16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2015,
+          "author": "G Hripcsak",
+          "unstructured": "Hripcsak, G. et al. Observational Health Data Sciences and Informatics (OHDSI): opportunities for observational researchers. Stud. Health Technol. Inform. 216, 574\u2013578 (2015).",
+          "key": "BFsdata2018273_CR17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/sdata.2014.32",
+          "year": 2014,
+          "author": "SG Finlayson",
+          "unstructured": "Finlayson, S. G., LePendu, P. & Shah, N. H. Building the graph of medicine from millions of clinical narratives. Sci. Data 1, 140032 (2014).",
+          "key": "BFsdata2018273_CR18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Census Bureau, U. S. American FactFinder https://factfinder.census.gov/bkmk/table/1.0/en/DEC/10_DP/DPDP1/1600000US3651000?slice=GEO~1600000US3651000 (2018).",
+          "key": "BFsdata2018273_CR19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Bulmer, M. G. Principles of Statistics. Dover Publications, (2012).",
+          "key": "BFsdata2018273_CR20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S0140-6736(10)61194-4",
+          "year": 2010,
+          "author": "L Wallentin",
+          "unstructured": "Wallentin, L. et al. Efficacy and safety of dabigatran compared with warfarin at different levels of international normalised ratio control for stroke prevention in atrial fibrillation: an analysis of the RE-LY trial. The Lancet 376, 975\u2013983 (2010).",
+          "key": "BFsdata2018273_CR21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.7326/0003-4819-133-12-200012190-00014",
+          "year": 2000,
+          "author": "R Gonzales",
+          "unstructured": "Gonzales, R. Uncomplicated acute bronchitis. Ann. Intern. Med. 133, 981\u2013991 (2000).",
+          "key": "BFsdata2018273_CR22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1136/thx.2005.047803",
+          "year": 2005,
+          "author": "GJ Rodrigo",
+          "unstructured": "Rodrigo, G. J. & Castro-Rodriguez, J. A. Anticholinergics in the treatment of children and adults with acute asthma: a systematic review with meta-analysis. Thorax 60, 740\u2013746 (2005).",
+          "key": "BFsdata2018273_CR23",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1097/ACO.0b013e32831b466c",
+          "year": 2009,
+          "author": "M Licker",
+          "unstructured": "Licker, M., Fauconnet, P., Villiger, Y. & Tschopp, J.-M. Acute lung injury and outcomes after thoracic surgery. Curr. Opin. Anesthesiol 22, 61\u201367 (2009).",
+          "key": "BFsdata2018273_CR24",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S0025-6196(11)64215-8",
+          "year": 2000,
+          "author": "KJ Warrington",
+          "unstructured": "Warrington, K. J., Moder, K. G. & Brutinel, W. M. The shrinking lungs syndrome in systemic lupus erythematosus. Mayo Clin. Proc. 75, 467\u2013472 (2000).",
+          "key": "BFsdata2018273_CR25",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1001/jama.2010.1497",
+          "year": 2010,
+          "author": "AK Jha",
+          "unstructured": "Jha, A. K. Meaningful use of electronic health records: the road ahead. JAMA 304, 1709\u20131710 (2010).",
+          "key": "BFsdata2018273_CR26",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2013,
+          "author": "T Nwankwo",
+          "unstructured": "Nwankwo, T., Yoon, S. S., Burt, V. & Gu, Q. Hypertension among adults in the United States: National Health and Nutrition Examination Survey, 2011\u20132012. NCHS Data Brief 133, 1\u20138 (2013).",
+          "key": "BFsdata2018273_CR27",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2011,
+          "author": "E Kuklina",
+          "unstructured": "Kuklina, E, Shaw, K . & Hong, Y. Vital signs: prevalence, treatment, and control of high levels of low-density lipoprotein cholesterol \u2014 United States, 1999\u20132002 and 2005\u20132008. Morb. Mortal. Wkly. Rep. 60, 109\u2013114 (2011).",
+          "key": "BFsdata2018273_CR28",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "National Institute of Dental and Craniofacial Research. Dental Caries (Tooth Decay) in Adults (Age 20 to 64) https://www.nidcr.nih.gov/research/data-statistics/dental-caries/adults (2018).",
+          "key": "BFsdata2018273_CR29",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2016,
+          "author": "E Scheurwegs",
+          "unstructured": "Scheurwegs, E., Luyckx, K., Luyten, L. & Daelemans, W. & Van den Bulcke. T. Data integration of structured and unstructured sources for assigning clinical codes to patient stays. J. Am. Med. Inform. Assoc. 23, e11\u2013e19 (2016).",
+          "key": "BFsdata2018273_CR30",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/EMBC.2015.7318907",
+          "unstructured": "Wang, Y. et al. Early detection of heart failure with varying prediction windows by structured and unstructured data in electronic health records. in Eng in Med and Biol Soc, 2015 Annual Conference IEEE 2530\u20132533 https://doi.org/10.1109/EMBC.2015.7318907. (2015)).",
+          "key": "BFsdata2018273_CR31",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1097/00008571-200409000-00002",
+          "year": 2004,
+          "author": "JT Chang",
+          "unstructured": "Chang, J. T. & Altman, R. B. Extracting and characterizing gene\u2013drug relationships from the literature. Pharmacogenet. Genomics 14, 577\u2013586 (2004).",
+          "key": "BFsdata2018273_CR32",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1197/jamia.M2401",
+          "year": 2008,
+          "author": "ES Chen",
+          "unstructured": "Chen, E. S., Hripcsak, G., Xu, H., Markatou, M. & Friedman, C. Automated acquisition of disease\u2013drug knowledge from biomedical and clinical documents: an initial study. J. Am. Med. Inform. Assoc 15, 87\u201398 (2008).",
+          "key": "BFsdata2018273_CR33",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Mendon\u00e7a, E. A. & Cimino, J. J. Automated knowledge extraction from MEDLINE citations. Proc. AMIA Symp 575\u2013579 (2000).",
+          "key": "BFsdata2018273_CR34",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1136/bmjqs-2012-001419",
+          "year": 2013,
+          "author": "AB McCoy",
+          "unstructured": "McCoy, A. B. et al. Matching identifiers in electronic health records: implications for duplicate records and patient safety. BMJ Qual Saf 22, 219\u2013224 (2013).",
+          "key": "BFsdata2018273_CR35",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/jamia/ocy124",
+          "year": 2018,
+          "author": "George Hripcsak",
+          "unstructured": "Hripcsak, G., Levine, M. E., Shang, N. & Ryan, P. B. Effect of vocabulary mapping for conditions on phenotype cohorts. J. Am. Med. Inform. Assoc, In press https://doi.org/10.1093/jamia/ocy124 (2018).",
+          "key": "BFsdata2018273_CR36",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.6084/m9.figshare.c.4151252",
+          "year": 2018,
+          "author": "C. N. Ta",
+          "unstructured": "Ta, C. N., Dumontier, M., Hripcsak, G., Tatonetti, N. P., & Weng, C. figshare https://doi.org/10.6084/m9.figshare.c.4151252 (2018)",
+          "key": "BFsdata2018273_CR37",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://www.nature.com/articles/sdata2018273.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://www.nature.com/articles/sdata2018273",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "http://www.nature.com/articles/sdata2018273",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://www.nature.com/articles/sdata2018273.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "https://creativecommons.org/licenses/by/4.0",
+          "content_version": "tdm",
+          "delay_in_days": 0,
+          "source": "crossref"
+        },
+        {
+          "url": "https://creativecommons.org/licenses/by/4.0",
+          "content_version": "vor",
+          "delay_in_days": 0,
+          "source": "crossref"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [
+        {
+          "value": "9 July 2018",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "16 October 2018",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "27 November 2018",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "The authors declare no competing interests.",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1038/sdata.2018.273",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "Columbia Open Health Data, clinical concept prevalence and co-occurrence from electronic health records",
+      "publication_date": "2018-11-27",
+      "publication_year": 2018,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310319908",
+      "container_title": "Scientific Data",
+      "volume": "5",
+      "issue": "1",
+      "pages": "180273-180273",
+      "issn": [
+        "2052-4463"
+      ],
+      "doi": "10.1038/sdata.2018.273",
+      "pmid": "30480666",
+      "openalex_id": "https://openalex.org/W2902940096",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Casey Ta",
+            "orcid": "0000-0002-4679-805X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Columbia University",
+              "ror_id": "https://ror.org/00hj8s172",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5051450267",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Michel Dumontier",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Maastricht University",
+              "ror_id": "https://ror.org/02jz4aj89",
+              "country_code": "NL",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5044836472",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "George Hripcsak",
+            "orcid": "0000-0003-2664-7614",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Columbia University",
+              "ror_id": "https://ror.org/00hj8s172",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5053670656",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Nicholas P. Tatonetti",
+            "orcid": "0000-0002-2700-2597",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Columbia University",
+              "ror_id": "https://ror.org/00hj8s172",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5086753691",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Chunhua Weng",
+            "orcid": "0000-0002-9624-0214",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Columbia University",
+              "ror_id": "https://ror.org/00hj8s172",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5009604048",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 53,
+      "reference_count": 37,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2025": 4,
+        "2024": 3,
+        "2023": 3,
+        "2022": 6,
+        "2021": 17,
+        "2020": 8,
+        "2019": 10,
+        "2018": 2
+      },
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1038/sdata.2018.273",
+          "pdf_url": "https://www.nature.com/articles/sdata2018273.pdf",
+          "landing_page_url": "https://doi.org/10.1038/sdata.2018.273",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310319908",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1038/sdata.2018.273",
+          "pdf_url": "https://www.nature.com/articles/sdata2018273.pdf",
+          "landing_page_url": "https://doi.org/10.1038/sdata.2018.273",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310319908",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30480666",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/30480666",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "https://cris.maastrichtuniversity.nl/en/publications/09e6c57e-e2c0-43cd-ba27-b625bbe62cc6",
+          "landing_page_url": "https://cris.maastrichtuniversity.nl/en/publications/09e6c57e-e2c0-43cd-ba27-b625bbe62cc6",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "source": "openalex"
+        },
+        {
+          "url": "https://springernature.figshare.com/articles/dataset/5-year_data_set_paired_concept_counts/6731309/1",
+          "landing_page_url": "https://springernature.figshare.com/articles/dataset/5-year_data_set_paired_concept_counts/6731309/1",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "public-domain",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I34352273",
+          "source": "openalex"
+        },
+        {
+          "url": "https://springernature.figshare.com/articles/dataset/Lifetime_data_set_paired_concept_counts/6731321/1",
+          "landing_page_url": "https://springernature.figshare.com/articles/dataset/Lifetime_data_set_paired_concept_counts/6731321/1",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "public-domain",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I34352273",
+          "source": "openalex"
+        },
+        {
+          "url": "http://europepmc.org/pmc/articles/PMC6257042",
+          "landing_page_url": "http://europepmc.org/pmc/articles/PMC6257042",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1303153112",
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6257042",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6257042",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://www.nature.com/articles/sdata2018273.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "cc-by",
+          "source": "openalex"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Pharmacovigilance and Adverse Drug Reactions",
+          "scheme": "openalex_topic",
+          "score": 0.9988999962806702,
+          "source": "openalex"
+        },
+        {
+          "value": "Medication Adherence and Compliance",
+          "scheme": "openalex_topic",
+          "score": 0.9966999888420105,
+          "source": "openalex"
+        },
+        {
+          "value": "Chronic Disease Management Strategies",
+          "scheme": "openalex_topic",
+          "score": 0.9948999881744385,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.5539214611053467,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Health records",
+          "scheme": "openalex_concept",
+          "score": 0.5231581926345825,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Health informatics",
+          "scheme": "openalex_concept",
+          "score": 0.5054476261138916,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Pharmacovigilance",
+          "scheme": "openalex_concept",
+          "score": 0.47961434721946716,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Informatics",
+          "scheme": "openalex_concept",
+          "score": 0.4434504806995392,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Observational study",
+          "scheme": "openalex_concept",
+          "score": 0.4298096001148224,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Medical record",
+          "scheme": "openalex_concept",
+          "score": 0.4189053773880005,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Medicine",
+          "scheme": "openalex_concept",
+          "score": 0.386100709438324,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Data science",
+          "scheme": "openalex_concept",
+          "score": 0.38247430324554443,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Health care",
+          "scheme": "openalex_concept",
+          "score": 0.34964117407798767,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Public health",
+          "scheme": "openalex_concept",
+          "score": 0.21105057001113892,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Drug",
+          "scheme": "openalex_concept",
+          "score": 0.1405964493751526,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Nursing",
+          "scheme": "openalex_concept",
+          "score": 0.10227274894714355,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Electrical engineering",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Engineering",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Radiology",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Economic growth",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Psychiatry",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Economics",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Pathology",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Data Analysis",
+          "descriptor_ui": "D000078332",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Data Analysis",
+          "descriptor_ui": "D000078332",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Data Analysis",
+          "descriptor_ui": "D000078332",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Data Analysis",
+          "descriptor_ui": "D000078332",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Data Analysis",
+          "descriptor_ui": "D000078332",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Patients",
+          "descriptor_ui": "D010361",
+          "qualifier_name": "statistics & numerical data",
+          "qualifier_ui": "Q000706",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Patients",
+          "descriptor_ui": "D010361",
+          "qualifier_name": "statistics & numerical data",
+          "qualifier_ui": "Q000706",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Patients",
+          "descriptor_ui": "D010361",
+          "qualifier_name": "statistics & numerical data",
+          "qualifier_ui": "Q000706",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Patients",
+          "descriptor_ui": "D010361",
+          "qualifier_name": "statistics & numerical data",
+          "qualifier_ui": "Q000706",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Patients",
+          "descriptor_ui": "D010361",
+          "qualifier_name": "statistics & numerical data",
+          "qualifier_ui": "Q000706",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Databases, Factual",
+          "descriptor_ui": "D016208",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Databases, Factual",
+          "descriptor_ui": "D016208",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Databases, Factual",
+          "descriptor_ui": "D016208",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Databases, Factual",
+          "descriptor_ui": "D016208",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Databases, Factual",
+          "descriptor_ui": "D016208",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Data Mining",
+          "descriptor_ui": "D057225",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Data Mining",
+          "descriptor_ui": "D057225",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Data Mining",
+          "descriptor_ui": "D057225",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Data Mining",
+          "descriptor_ui": "D057225",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Data Mining",
+          "descriptor_ui": "D057225",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Electronic Health Records",
+          "descriptor_ui": "D057286",
+          "qualifier_name": "statistics & numerical data",
+          "qualifier_ui": "Q000706",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Electronic Health Records",
+          "descriptor_ui": "D057286",
+          "qualifier_name": "statistics & numerical data",
+          "qualifier_ui": "Q000706",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Electronic Health Records",
+          "descriptor_ui": "D057286",
+          "qualifier_name": "statistics & numerical data",
+          "qualifier_ui": "Q000706",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Electronic Health Records",
+          "descriptor_ui": "D057286",
+          "qualifier_name": "statistics & numerical data",
+          "qualifier_ui": "Q000706",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Electronic Health Records",
+          "descriptor_ui": "D057286",
+          "qualifier_name": "statistics & numerical data",
+          "qualifier_ui": "Q000706",
+          "is_major_topic": true,
+          "source": "openalex"
+        }
+      ],
+      "keywords": [
+        "Computer science",
+        "Health records",
+        "Health informatics",
+        "Pharmacovigilance",
+        "Informatics",
+        "Observational study",
+        "Medical record",
+        "Medicine",
+        "Data science",
+        "Health care",
+        "Public health",
+        "Drug",
+        "Nursing"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 6.93343544,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.98316183,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 1990.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1038/sdata.2018.273",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "Columbia Open Health Data, clinical concept prevalence and co-occurrence from electronic health records",
+      "publication_date": "2018-11-27",
+      "publication_year": 2018,
+      "work_type": "journal-article",
+      "publisher": "Springer Science and Business Media LLC",
+      "container_title": "Scientific Data",
+      "issn": [
+        "2052-4463"
+      ],
+      "doi": "10.1038/sdata.2018.273",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://www.nature.com/articles/sdata2018273.pdf",
+          "pdf_url": "https://www.nature.com/articles/sdata2018273.pdf",
+          "landing_page_url": "https://doi.org/10.1038/sdata.2018.273",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.nature.com/articles/sdata2018273.pdf",
+          "pdf_url": "https://www.nature.com/articles/sdata2018273.pdf",
+          "landing_page_url": "https://doi.org/10.1038/sdata.2018.273",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://cris.maastrichtuniversity.nl/en/publications/09e6c57e-e2c0-43cd-ba27-b625bbe62cc6",
+          "landing_page_url": "https://cris.maastrichtuniversity.nl/en/publications/09e6c57e-e2c0-43cd-ba27-b625bbe62cc6",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "Maastricht University",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://springernature.figshare.com/articles/dataset/5-year_data_set_paired_concept_counts/6731309/1",
+          "landing_page_url": "https://springernature.figshare.com/articles/dataset/5-year_data_set_paired_concept_counts/6731309/1",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "public-domain",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "Maastricht University",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://springernature.figshare.com/articles/dataset/Lifetime_data_set_paired_concept_counts/6731321/1",
+          "landing_page_url": "https://springernature.figshare.com/articles/dataset/Lifetime_data_set_paired_concept_counts/6731321/1",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "public-domain",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "Maastricht University",
+          "source": "unpaywall"
+        },
+        {
+          "url": "http://europepmc.org/pmc/articles/PMC6257042",
+          "landing_page_url": "http://europepmc.org/pmc/articles/PMC6257042",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "European Bioinformatics Institute",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6257042",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6257042",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://www.nature.com/articles/sdata2018273.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "Columbia Open Health Data, clinical concept prevalence and co-occurrence from electronic health records.",
+      "abstract": "Columbia Open Health Data (COHD) is a publicly accessible database of electronic health record (EHR) prevalence and co-occurrence frequencies between conditions, drugs, procedures, and demographics. COHD was derived from Columbia University Irving Medical Center's Observational Health Data Sciences and Informatics (OHDSI) database. The lifetime dataset, derived from all records, contains 36,578 single concepts (11,952 conditions, 12,334 drugs, and 10,816 procedures) and 32,788,901 concept pairs from 5,364,781 patients. The 5-year dataset, derived from records from 2013-2017, contains 29,964 single concepts (10,159 conditions, 10,264 drugs, and 8,270 procedures) and 15,927,195 concept pairs from 1,790,431 patients. Exclusion of rare concepts (count\u2009\u2264\u200910) and Poisson randomization enable data sharing by eliminating risks to patient privacy. EHR prevalences are informative of healthcare consumption rates. Analysis of co-occurrence frequencies via relative frequency analysis and observed-expected frequency ratio are informative of associations between clinical concepts, useful for biomedical research tasks such as drug repurposing and pharmacovigilance. COHD is publicly accessible through a web application-programming interface (API) and downloadable from the Figshare repository. The code is available on GitHub.",
+      "publication_year": 2018,
+      "language": "eng",
+      "container_title": "Scientific data",
+      "volume": "5",
+      "pages": "180273",
+      "issn": [],
+      "doi": "10.1038/sdata.2018.273",
+      "pmid": "30480666",
+      "pmcid": "PMC6257042",
+      "authors": [
+        {
+          "name": {
+            "given": "Casey N",
+            "family": "Ta",
+            "full_name": "Ta CN",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Biomedical Informatics, Columbia University, NY, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michel",
+            "family": "Dumontier",
+            "full_name": "Dumontier M",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Institute of Data Science, Maastricht University, Maastricht, The Netherlands.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "George",
+            "family": "Hripcsak",
+            "full_name": "Hripcsak G",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Biomedical Informatics, Columbia University, NY, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Nicholas P",
+            "family": "Tatonetti",
+            "full_name": "Tatonetti NP",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Biomedical Informatics, Columbia University, NY, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Department of Systems Biology, Columbia University, NY, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Department of Medicine, Columbia University, NY, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Chunhua",
+            "family": "Weng",
+            "full_name": "Weng C",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Biomedical Informatics, Columbia University, NY, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 35,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "url": "https://www.nature.com/articles/sdata2018273.pdf",
+          "host_type": "Unpaywall",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC6257042",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC6257042?pdf=render",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "R01 GM107145",
+          "agency": "NIGMS NIH HHS",
+          "agency_abbreviation": "GM",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "R01 LM006910",
+          "agency": "NLM NIH HHS",
+          "agency_abbreviation": "LM",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "R01 LM009886",
+          "agency": "NLM NIH HHS",
+          "agency_abbreviation": "LM",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "OT3 TR002027",
+          "agency": "NCATS NIH HHS",
+          "agency_abbreviation": "TR",
+          "pi_names": [],
+          "source": "europe_pmc"
+        }
+      ],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Humans",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Databases, Factual",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Patients",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Patients",
+          "qualifier_name": "statistics & numerical data",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Data Mining",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Data Mining",
+          "qualifier_name": "methods",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Electronic Health Records",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Electronic Health Records",
+          "qualifier_name": "statistics & numerical data",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Data Analysis",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 35.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [
+        {
+          "url": "https://www.nature.com/articles/sdata2018273.pdf",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Unpaywall"
+        },
+        {
+          "url": "https://doi.org/10.1038/sdata.2018.273",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC6257042",
+          "availability": "Open access",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC6257042?pdf=render",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openaire": {
+      "source": "openaire",
+      "found": true,
+      "raw": {},
+      "title": "Columbia Open Health Data, clinical concept prevalence and co-occurrence from electronic health records",
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>Columbia Open Health Data (COHD) is a publicly accessible database of electronic health record (EHR) prevalence and co-occurrence frequencies between conditions, drugs, procedures, and demographics. COHD was derived from Columbia University Irving Medical Center\u2019s Observational Health Data Sciences and Informatics (OHDSI) database. The lifetime dataset, derived from all records, contains 36,578 single concepts (11,952 conditions, 12,334 drugs, and 10,816 procedures) and 32,788,901 concept pairs from 5,364,781 patients. The 5-year dataset, derived from records from 2013\u20132017, contains 29,964 single concepts (10,159 conditions, 10,264 drugs, and 8,270 procedures) and 15,927,195 concept pairs from 1,790,431 patients. Exclusion of rare concepts (count\u2009\u2264\u200910) and Poisson randomization enable data sharing by eliminating risks to patient privacy. EHR prevalences are informative of healthcare consumption rates. Analysis of co-occurrence frequencies via relative frequency analysis and observed-expected frequency ratio are informative of associations between clinical concepts, useful for biomedical research tasks such as drug repurposing and pharmacovigilance. COHD is publicly accessible through a web application-programming interface (API) and downloadable from the Figshare repository. The code is available on GitHub.</jats:p>",
+      "publication_date": "2018-11-27",
+      "publication_year": 2018,
+      "work_type": "publication",
+      "language": "eng",
+      "publisher": "Springer Science and Business Media LLC",
+      "issn": [],
+      "doi": "10.1038/sdata.2018.273",
+      "pmid": "30480666",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Ta, Casey N.",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Dumontier, Michel",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Hripcsak, George",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Tatonetti, Nicholas P.",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Weng, Chunhua",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "citation_count": 43,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1038/sdata.2018.273",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://www.nature.com/articles/sdata2018273.pdf",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30480666",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1038/sdata.2018.273",
+          "version": "Other literature type",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://cris.maastrichtuniversity.nl/en/publications/09e6c57e-e2c0-43cd-ba27-b625bbe62cc6",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1038/sdata.2018.273",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1038/sdata.2018.273",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://dx.doi.org/10.1038/sdata.2018.273",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "3OT3TR002027-01S1",
+          "agency": "National Institutes of Health",
+          "title": "Biomedical Data Translator Technical Feasibility Assessment and Architecture Design",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::44df36917458914f5ad8ca4c0c5ff439",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5R01LM009886-02",
+          "agency": "National Institutes of Health",
+          "title": "Bridging the Semantic Gap Between Research Eligibility Criteria and Clinical Data",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::05ce56228048392f11d91824f42611a2",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5R01GM107145-03",
+          "agency": "National Institutes of Health",
+          "title": "Drug Effect Discovery Through Data Mining and Integrative Chemical Biology",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::23a74f9e99070bdb959854d4ce0b0554",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "2R01LM006910-14",
+          "agency": "National Institutes of Health",
+          "title": "Discovering and Applying Knowledge in Clinical Databases",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::050987bc7fe526b84d33b3dd1d488983",
+          "source": "openaire"
+        }
+      ],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Statistics and Probability",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Data Analysis",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "0301 basic medicine",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "Data Descriptor",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Databases, Factual",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Patients",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "UNITED-STATES",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Library and Information Sciences",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "STATISTICS",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Computer Science Applications",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Education",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "3. Good health",
+          "scheme": "SDG",
+          "source": "openaire"
+        },
+        {
+          "value": "03 medical and health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "0302 clinical medicine",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "ESTIMATING DISEASE PREVALENCE",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Data Mining",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Electronic Health Records",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Humans",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "KNOWLEDGE",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Statistics, Probability and Uncertainty",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Information Systems",
+          "scheme": "keyword",
+          "source": "openaire"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "bip_citationCount",
+          "value": 43.0,
+          "class_label": "C4",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_influence",
+          "value": 4.77674e-09,
+          "class_label": "C4",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_popularity",
+          "value": 2.487604e-08,
+          "class_label": "C4",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_impulse",
+          "value": 30.0,
+          "class_label": "C4",
+          "source": "openaire"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [
+        {
+          "grant_id": "3OT3TR002027-01S1",
+          "agency": "National Institutes of Health",
+          "title": "Biomedical Data Translator Technical Feasibility Assessment and Architecture Design",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::44df36917458914f5ad8ca4c0c5ff439",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5R01LM009886-02",
+          "agency": "National Institutes of Health",
+          "title": "Bridging the Semantic Gap Between Research Eligibility Criteria and Clinical Data",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::05ce56228048392f11d91824f42611a2",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5R01GM107145-03",
+          "agency": "National Institutes of Health",
+          "title": "Drug Effect Discovery Through Data Mining and Integrative Chemical Biology",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::23a74f9e99070bdb959854d4ce0b0554",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "2R01LM006910-14",
+          "agency": "National Institutes of Health",
+          "title": "Discovering and Applying Knowledge in Clinical Databases",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::050987bc7fe526b84d33b3dd1d488983",
+          "source": "openaire"
+        }
+      ],
+      "alternate_ids": [
+        "doi:10.1038/sdata.2018.273",
+        "doi:10.1038/sdata.2018.273",
+        "pmid:30480666",
+        "pmc:PMC6257042",
+        "doi:10.1038/sdata.2018.273",
+        "doi:10.1038/sdata.2018.273",
+        "doi:10.1038/sdata.2018.273",
+        "doi:10.1038/sdata.2018.273",
+        "mag_id:2902940096"
+      ],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1038/sdata.2018.273",
+      "pmid": "23671333",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1038/sdata.2018.273",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1038/sdata.2018.273",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1038/sdata.2018.273",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1038/sdata.2018.273",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1038/sdata.2018.273",
+    "pmid": "30480666",
+    "pmcid": "PMC6257042",
+    "mag_id": "2902940096",
+    "openalex_id": "https://openalex.org/W2902940096",
+    "handles": [],
+    "orcids": [
+      "0000-0002-2700-2597",
+      "0000-0002-4679-805X",
+      "0000-0002-9624-0214",
+      "0000-0003-2664-7614",
+      "0000-0003-4727-9435"
+    ],
+    "ror_ids": [
+      "https://ror.org/00hj8s172",
+      "https://ror.org/02jz4aj89"
+    ],
+    "grant_ids": [
+      "2R01LM006910-14",
+      "3OT3TR002027-01S1",
+      "5R01GM107145-03",
+      "5R01LM009886-02",
+      "OT3 TR002027",
+      "R01 GM107145",
+      "R01 LM006910",
+      "R01 LM009886"
+    ],
+    "nct_ids": [],
+    "pmid_source": "europe_pmc",
+    "pmcid_source": "europe_pmc"
+  },
+  "conflicts": {
+    "doi": "10.1038/sdata.2018.273",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 47,
+          "openalex": 53,
+          "europe_pmc": 35,
+          "openaire": 43
+        },
+        "risk": "high"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article",
+          "openaire": "publication"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Springer Science and Business Media LLC",
+          "openalex": "https://openalex.org/P4310319908",
+          "unpaywall": "Springer Science and Business Media LLC",
+          "openaire": "Springer Science and Business Media LLC"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Scientific Data",
+          "openalex": "Scientific Data",
+          "unpaywall": "Scientific Data",
+          "europe_pmc": "Scientific data"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "mesh_term_count",
+        "values": {
+          "openalex": 30,
+          "europe_pmc": 9
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng",
+          "openaire": "eng"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 2,
+    "conflict_count": 6
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1038/sdata.2018.273",
+    "fetched_at": "2026-02-11T18:41:32.710932+00:00"
+  }
+}

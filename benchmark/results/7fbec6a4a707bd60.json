@@ -1,0 +1,4777 @@
+{
+  "doi": "10.1038/s43856-024-00437-7",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T17:34:48.991435Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "Machine learning models identify predictive features of patient mortality across dementia types",
+      "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:sec>\n                    <jats:title>Background</jats:title>\n                    <jats:p>Dementia care is challenging due to the divergent trajectories in disease progression and outcomes. Predictive models are needed to flag patients at risk of near-term mortality and identify factors contributing to mortality risk across different dementia types.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Methods</jats:title>\n                    <jats:p>Here, we developed machine-learning models predicting dementia patient mortality at four different survival thresholds using a dataset of 45,275 unique participants and 163,782 visit records from the U.S. National Alzheimer\u2019s Coordinating Center (NACC). We built multi-factorial XGBoost models using a small set of mortality predictors and conducted stratified analyses with dementiatype-specific models.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results</jats:title>\n                    <jats:p>Our models achieved an area under the receiver operating characteristic curve (AUC-ROC) of over 0.82 utilizing nine parsimonious features for all 1-, 3-, 5-, and 10-year thresholds. The trained models mainly consisted of dementia-related predictors such as specific neuropsychological tests and were minimally affected by other age-related causes of death, e.g., stroke and cardiovascular conditions. Notably, stratified analyses revealed shared and distinct predictors of mortality across eight dementia types. Unsupervised clustering of mortality predictors grouped vascular dementia with depression and Lewy body dementia with frontotemporal lobar dementia.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Conclusions</jats:title>\n                    <jats:p>This study demonstrates the feasibility of flagging dementia patients at risk of mortality for personalized clinical management. Parsimonious machine-learning models can be used to predict dementia patient mortality with a limited set of clinical features, and dementiatype-specific models can be applied to heterogeneous dementia patient populations.</jats:p>\n                  </jats:sec>",
+      "publication_date": "2024-02-28",
+      "publication_year": 2024,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Springer Science and Business Media LLC",
+      "container_title": "Communications Medicine",
+      "volume": "4",
+      "issue": "1",
+      "pages": "23",
+      "issn": [
+        "2730-664X"
+      ],
+      "doi": "10.1038/s43856-024-00437-7",
+      "authors": [
+        {
+          "name": {
+            "given": "Jimmy",
+            "family": "Zhang",
+            "full_name": "Jimmy Zhang",
+            "sequence": "first",
+            "orcid": "0000-0003-2369-2292",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Luo",
+            "family": "Song",
+            "full_name": "Luo Song",
+            "sequence": "additional",
+            "orcid": "0000-0003-3906-6042",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Zachary",
+            "family": "Miller",
+            "full_name": "Zachary Miller",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Kwun C. G.",
+            "family": "Chan",
+            "full_name": "Kwun C. G. Chan",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Kuan-lin",
+            "family": "Huang",
+            "full_name": "Kuan-lin Huang",
+            "sequence": "additional",
+            "orcid": "0000-0002-5537-5817",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 11,
+      "reference_count": 66,
+      "references": [
+        {
+          "doi": "10.1001/jama.2021.5469",
+          "year": 2021,
+          "author": "FB Ahmad",
+          "unstructured": "Ahmad, F. B. & Anderson, R. N. The leading causes of death in the US for 2020. JAMA 325, 1829\u20131830 (2021).",
+          "key": "437_CR1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1001/jama.2018.0158",
+          "year": 2018,
+          "author": "The U. S. Burden of Disease Collaborators.",
+          "unstructured": "The U. S. Burden of Disease Collaborators. The state of US Health, 1990-2016: burden of diseases, injuries, and risk factors among US states. JAMA 319, 1444\u20131472 (2018).",
+          "key": "437_CR2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S0140-6736(17)33185-9",
+          "year": 2017,
+          "author": "J Xu",
+          "unstructured": "Xu, J., Zhang, Y., Qiu, C. & Cheng, F. Global and regional economic costs of dementia: a systematic review. Lancet 390, S47 (2017).",
+          "key": "437_CR3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/jamiaopen/ooab052",
+          "year": 2021,
+          "author": "S Kumar",
+          "unstructured": "Kumar, S. et al. Machine learning for modeling the progression of Alzheimer disease dementia using clinical data: a systematic literature review. JAMIA Open 4, ooab052 (2021).",
+          "key": "437_CR4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S2468-2667(21)00249-8",
+          "year": 2022,
+          "author": "E Nichols",
+          "unstructured": "Nichols, E. et al. Estimation of the global prevalence of dementia in 2019 and forecasted prevalence in 2050: an analysis for the Global Burden of Disease Study 2019. Lancet Public Health 7, e105\u2013e125 (2022).",
+          "key": "437_CR5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1001/jamaneurol.2020.2831",
+          "year": 2020,
+          "author": "AC Stokes",
+          "unstructured": "Stokes, A. C. et al. Estimates of the association of dementia With US mortality levels using linked survey and mortality records. JAMA Neurol. 77, 1543\u20131550 (2020).",
+          "key": "437_CR6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/j.1532-5415.2011.03365.x",
+          "year": 2011,
+          "author": "H Brodaty",
+          "unstructured": "Brodaty, H. et al. The world of dementia beyond 2020. J. Am. Geriatr. Soc. 59, 923\u2013927 (2011).",
+          "key": "437_CR7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Gauthier, S., Rosa-Neto, P., Morais, J. A. & Webster, C. World Alzheimer Report 2021: Journey through the Diagnosis of Dementia. (Alzheimer\u2019s Disease International, London, UK (2021).",
+          "key": "437_CR8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1001/jama.2019.4782",
+          "year": 2019,
+          "author": "Z Arvanitakis",
+          "unstructured": "Arvanitakis, Z., Shah, R. C. & Bennett, D. A. Diagnosis and management of dementia: review. JAMA 322, 1589\u20131599 (2019).",
+          "key": "437_CR9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.12688/f1000research.14506.1",
+          "year": 2018,
+          "author": "J Weller",
+          "unstructured": "Weller, J. & Budson, A. Current understanding of Alzheimer\u2019s disease diagnosis and treatment. F1000Res 7, F1000 Faculty Rev\u2013F1000 Faculty1161 (2018).",
+          "key": "437_CR10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1001/archpsyc.1983.01790060110016",
+          "year": 1983,
+          "author": "MF Folstein",
+          "unstructured": "Folstein, M. F., Robins, L. N. & Helzer, J. E. The mini-mental state examination. Arch. Gen. Psychiatry 40, 812 (1983).",
+          "key": "437_CR11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1176/ajp.141.11.1356",
+          "year": 1984,
+          "author": "WG Rosen",
+          "unstructured": "Rosen, W. G., Mohs, R. C. & Davis, K. L. A new rating scale for Alzheimer\u2019s disease. Am. J. Psychiatry 141, 1356\u20131364 (1984).",
+          "key": "437_CR12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/jnen/nly049",
+          "year": 2018,
+          "author": "LM Besser",
+          "unstructured": "Besser, L. M. et al. The revised National Alzheimer\u2019s Coordinating Center\u2019s Neuropathology Form\u2014available data and new analyses. J. Neuropathol. Experiment. Neurol. 77, 717\u2013726 (2018).",
+          "key": "437_CR13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1097/WAD.0000000000000228",
+          "year": 2018,
+          "author": "M Lin",
+          "unstructured": "Lin, M. et al. Big data analytical approaches to the NACC dataset: aiding preclinical trial enrichment. Alzheimer Dis. Assoc. Disord. 32, 18\u201327 (2018).",
+          "key": "437_CR14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2020,
+          "author": "F Zhu",
+          "unstructured": "Zhu, F. et al. Machine learning for the preliminary diagnosis of dementia. Sci. Program. 2020, e5629090 (2020).",
+          "key": "437_CR15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/brain/awaa137",
+          "year": 2020,
+          "author": "S Qiu",
+          "unstructured": "Qiu, S. et al. Development and validation of an interpretable deep learning framework for Alzheimer\u2019s disease classification. Brain 143, 1920\u20131933 (2020).",
+          "key": "437_CR16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.trci.2019.11.006",
+          "unstructured": "Joshi, P. S. et al. Temporal association of neuropsychological test performance using unsupervised learning reveals a distinct signature of Alzheimer\u2019s disease status. Alzheimers Dement. 5, 964\u2013973 (2019).",
+          "key": "437_CR17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jbi.2020.103411",
+          "year": 2020,
+          "author": "N An",
+          "unstructured": "An, N., Ding, H., Yang, J., Au, R. & Ang, T. F. A. Deep ensemble learning for Alzheimer\u2019s disease classification. J. Biomed. Inform. 105, 103411 (2020).",
+          "key": "437_CR18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/trc2.12049",
+          "year": 2020,
+          "author": "A Gupta",
+          "unstructured": "Gupta, A. & Kahali, B. Machine learning-based cognitive impairment classification with optimal combination of neuropsychological tests. Alzheimers Dement. 6, e12049 (2020).",
+          "key": "437_CR19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.nicl.2019.101811",
+          "year": 2019,
+          "author": "JP Kim",
+          "unstructured": "Kim, J. P. et al. Machine learning based hierarchical classification of frontotemporal dementia and Alzheimer\u2019s disease. Neuroimage Clin. 23, 101811 (2019).",
+          "key": "437_CR20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/trc2.12229",
+          "year": 2021,
+          "author": "R Sharma",
+          "unstructured": "Sharma, R., Anand, H., Badr, Y. & Qiu, R. G. Time-to-event prediction using survival analysis methods for Alzheimer\u2019s disease progression. Alzheimer\u2019s Dement. Transl. Res. Clin. Intervent. 7, e12229 (2021).",
+          "key": "437_CR21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1212/WNL.0000000000008745",
+          "year": 2020,
+          "author": "ML Haaksma",
+          "unstructured": "Haaksma, M. L. et al. Survival time tool to guide care planning in people with dementia. Neurology 94, e538\u2013e548 (2020).",
+          "key": "437_CR22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41598-020-77220-w",
+          "year": 2020,
+          "author": "A Spooner",
+          "unstructured": "Spooner, A. et al. A comparison of machine learning methods for survival analysis of high-dimensional clinical data for dementia prediction. Sci. Rep. 10, 20410 (2020).",
+          "key": "437_CR23",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1001/jamanetworkopen.2019.6972",
+          "year": 2019,
+          "author": "L Wang",
+          "unstructured": "Wang, L. et al. Development and validation of a deep learning algorithm for mortality prediction in selecting patients with dementia for earlier palliative care interventions. JAMA Netw. Open 2, e196972 (2019).",
+          "key": "437_CR24",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/aje/kws241",
+          "year": 2013,
+          "author": "S Rose",
+          "unstructured": "Rose, S. Mortality risk score prediction in an elderly population using machine learning. Am. J. Epidemiol. 177, 443\u2013452 (2013).",
+          "key": "437_CR25",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/s00127-019-01683-0",
+          "year": 2019,
+          "author": "L Perna",
+          "unstructured": "Perna, L. et al. Incident depression and mortality among people with different types of dementia: results from a longitudinal cohort study. Soc. Psychiatry Psychiatr. Epidemiol. 54, 793\u2013801 (2019).",
+          "key": "437_CR26",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1212/01.wnl.0000247041.63081.98",
+          "year": 2006,
+          "author": "MM Williams",
+          "unstructured": "Williams, M. M., Xiong, C., Morris, J. C. & Galvin, J. E. Survival and mortality differences between dementia with Lewy bodies vs Alzheimer disease. Neurology 67, 1935\u20131941 (2006).",
+          "key": "437_CR27",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1097/WAD.0b013e318142774e",
+          "year": 2007,
+          "author": "DL Beekly",
+          "unstructured": "Beekly, D. L. et al. The National Alzheimer\u2019s Coordinating Center (NACC) Database: the uniform data set. Alzheimer Dis. Assoc. Disorders 21, 249\u2013258 (2007).",
+          "key": "437_CR28",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Therneau, T. M. A Package for Survival Analysis in R. R package version 3.5-7. https://CRAN.R-project.org/package=survival (2021).",
+          "key": "437_CR29",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2011,
+          "author": "S Van Buuren",
+          "unstructured": "Van Buuren, S. & Groothuis-Oudshoorn, K. mice: multivariate imputation by chained equations in R. J. Stat. Softw. 45, 1\u201367 (2011).",
+          "key": "437_CR30",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1136/bmj.b2393",
+          "year": 2009,
+          "author": "JAC Sterne",
+          "unstructured": "Sterne, J. A. C. et al. Multiple imputation for missing data in epidemiological and clinical research: potential and pitfalls. BMJ 338, b2393 (2009).",
+          "key": "437_CR31",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jclinepi.2013.09.009",
+          "year": 2014,
+          "author": "I Eekhout",
+          "unstructured": "Eekhout, I. et al. Missing data in a multi-item instrument were best handled by multiple imputation at the item score level. J. Clin. Epidemiol. 67, 335\u2013342 (2014).",
+          "key": "437_CR32",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.2174/156720511795745339",
+          "year": 2011,
+          "author": "N Coley",
+          "unstructured": "Coley, N. et al. How should we deal with missing data in clinical trials involving Alzheimer\u2019s disease patients? Curr. Alzheimer Res. 8, 421\u2013433 (2011).",
+          "key": "437_CR33",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1145/2939672.2939785",
+          "unstructured": "Chen, T. & Guestrin, C. XGBoost: A Scalable Tree Boosting System. in Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining 785\u2013794. https://doi.org/10.1145/2939672.2939785 (Association for Computing Machinery, 2016).",
+          "key": "437_CR34",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/s10462-020-09896-5",
+          "year": 2021,
+          "author": "C Bent\u00e9jac",
+          "unstructured": "Bent\u00e9jac, C., Cs\u00f6rg\u0151, A. & Mart\u00ednez-Mu\u00f1oz, G. A comparative analysis of gradient boosting algorithms. Artif. Intell. Rev. 54, 1937\u20131967 (2021).",
+          "key": "437_CR35",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Buitinck, L. et al. API design for machine learning software: experiences from the scikit-learn project. In: Languages for Data Mining and Machine Learning. 108\u2013122 (ECML PKDD Workshop, 2013).",
+          "key": "437_CR36",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "XGBoost Parameters\u2014xgboost 1.7.5 documentation. dmlc XGBoost. https://xgboost.readthedocs.io/en/stable/parameter.html (2022).",
+          "key": "437_CR37",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s42003-022-03068-7",
+          "year": 2022,
+          "author": "J Binder",
+          "unstructured": "Binder, J. et al. Machine learning prediction and tau-based screening identifies potential Alzheimer\u2019s disease genes relevant to immunity. Commun. Biol 5, 1\u201315 (2022).",
+          "key": "437_CR38",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Lundberg, S. M. & Lee, S.-I. A Unified Approach to Interpreting Model Predictions. In: Advances in Neural Information Processing Systems 30 (Curran Associates, Inc., 2017).",
+          "key": "437_CR39",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/SIBGRAPI51738.2020.00053",
+          "unstructured": "Marc\u00edlio, W. E. & Eler, D. M. From explanations to feature selection: assessing SHAP values as feature selection mechanism. In: 2020 33rd SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI) 340\u2013347 https://doi.org/10.1109/SIBGRAPI51738.2020.00053 (2020).",
+          "key": "437_CR40",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Nogueira, F. Bayesian Optimization: Open source constrained global optimization tool for Python. GitHub. https://github.com/fmfn/BayesianOptimization (2014).",
+          "key": "437_CR41",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Snoek, J., Larochelle, H. & Adams, R. P. Practical Bayesian Optimization of Machine Learning Algorithms. in Advances in Neural Information Processing Systems 25 (Curran Associates, Inc., 2012).",
+          "key": "437_CR42",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Wilson, J., Hutter, F. & Deisenroth, M. Maximizing acquisition functions for Bayesian optimization. in Advances in Neural Information Processing Systems 31 (Curran Associates, Inc., 2018).",
+          "key": "437_CR43",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Lundberg, S. M., Erion, G. G. & Lee, S.-I. Consistent Individualized Feature Attribution for Tree Ensembles. arXiv preprint arXiv:1802.03888 (2018).",
+          "key": "437_CR44",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2016,
+          "author": "MD Geschwind",
+          "unstructured": "Geschwind, M. D. Rapidly progressive dementia. Continuum (Minneap Minn) 22, 510\u2013537 (2016).",
+          "key": "437_CR45",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3233/JAD-150946",
+          "year": 2016,
+          "author": "MH Connors",
+          "unstructured": "Connors, M. H. et al. Predictors of mortality in dementia: the PRIME study. J. Alzheimer\u2019s Dis. 52, 967\u2013974 (2016).",
+          "key": "437_CR46",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Park, S., Lee, J.-Y., Suh, G.-H., Chang, S.-M. & Cho, M.-J. Mortality rates and risk factors in community based dementia patients. J. Korean Geriatr. Psychiatry 11, 25\u201328 (2007).",
+          "key": "437_CR47",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.2147/CLEP.S213228",
+          "year": 2019,
+          "author": "J Garre-Olmo",
+          "unstructured": "Garre-Olmo, J. et al. Survival, effect measures, and impact numbers after dementia diagnosis: a matched cohort study. Clin. Epidemiol. 11, 525\u2013542 (2019).",
+          "key": "437_CR48",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jpainsymman.2010.02.014",
+          "year": 2010,
+          "author": "SL Mitchell",
+          "unstructured": "Mitchell, S. L., Miller, S. C., Teno, J. M., Davis, R. B. & Shaffer, M. L. The advanced dementia prognostic tool: a risk score to estimate survival in nursing home residents with advanced dementia. J. Pain Symptom Manag. 40, 639\u2013651 (2010).",
+          "key": "437_CR49",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/gps.3946",
+          "year": 2013,
+          "author": "S Todd",
+          "unstructured": "Todd, S., Barr, S., Roberts, M. & Passmore, A. P. Survival in dementia and predictors of mortality: a review. Int. J. Geriatr. Psychiatry 28, 1109\u20131124 (2013).",
+          "key": "437_CR50",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pone.0178997",
+          "year": 2018,
+          "author": "K-C Lee",
+          "unstructured": "Lee, K.-C. et al. Estimating the survival of elderly patients diagnosed with dementia in Taiwan: a longitudinal study. PLoS ONE 13, e0178997 (2018).",
+          "key": "437_CR51",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3233/JAD-200078",
+          "year": 2020,
+          "author": "RD Piovezan",
+          "unstructured": "Piovezan, R. D. et al. Mortality rates and mortality risk factors in older adults with dementia from low- and middle-income countries: the 10/66 dementia research group population-based cohort study. J. Alzheimers Dis. 75, 581\u2013593 (2020).",
+          "key": "437_CR52",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.maturitas.2019.08.007",
+          "year": 2019,
+          "author": "NMS Gol\u00fcke",
+          "unstructured": "Gol\u00fcke, N. M. S. et al. Risk factors for in-hospital mortality in patients with dementia. Maturitas 129, 57\u201361 (2019).",
+          "key": "437_CR53",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1001/archneur.58.12.2034",
+          "year": 2001,
+          "author": "C Qiu",
+          "unstructured": "Qiu, C., B\u00e4ckman, L., Winblad, B., Ag\u00fcero-Torres, H. & Fratiglioni, L. The influence of education on clinically diagnosed dementia incidence and mortality data from the Kungsholmen project. Arch. Neurol. 58, 2034\u20132039 (2001).",
+          "key": "437_CR54",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jns.2009.02.004",
+          "year": 2009,
+          "author": "A Alonso",
+          "unstructured": "Alonso, A. et al. Cardiovascular risk factors and dementia mortality: 40 years of follow-up in the seven countries study. J. Neurol. Sci. 280, 79\u201383 (2009).",
+          "key": "437_CR55",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/j.1532-5415.2010.02780.x",
+          "year": 2010,
+          "author": "R Vazzana",
+          "unstructured": "Vazzana, R. et al. Trail making test predicts physical impairment and mortality in older persons. J. Am. Geriatr. Soc. 58, 719\u2013723 (2010).",
+          "key": "437_CR56",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jagp.2013.01.006",
+          "year": 2013,
+          "author": "PB Rosenberg",
+          "unstructured": "Rosenberg, P. B. et al. The association of neuropsychiatric symptoms in MCI with incident dementia and Alzheimer disease. Am. J. Geriatr. Psychiatry 21, 685\u2013695 (2013).",
+          "key": "437_CR57",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/jgs.16228",
+          "year": 2020,
+          "author": "JA Deal",
+          "unstructured": "Deal, J. A. et al. Relationship of cigarette smoking and time of quitting with incident dementia and cognitive decline. J. Am. Geriatr. Soc. 68, 337\u2013345 (2020).",
+          "key": "437_CR58",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S0929-6646(09)60150-9",
+          "year": 2006,
+          "author": "M-J Chiu",
+          "unstructured": "Chiu, M.-J., Chen, T.-F., Yip, P.-K., Hua, M.-S. & Tang, L.-Y. Behavioral and psychologic symptoms in different types of dementia. J. Formosan Med. Assoc. 105, 556\u2013562 (2006).",
+          "key": "437_CR59",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S0165-0327(99)00057-9",
+          "year": 2000,
+          "author": "C Ballard",
+          "unstructured": "Ballard, C. et al. Anxiety, depression and psychosis in vascular dementia: prevalence and associations. J. Affect. Disorders 59, 97\u2013106 (2000).",
+          "key": "437_CR60",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1037/a0016792",
+          "year": 2009,
+          "author": "EK Johns",
+          "unstructured": "Johns, E. K. et al. Executive functions in frontotemporal dementia and Lewy body dementia. Neuropsychology 23, 765\u2013777 (2009).",
+          "key": "437_CR61",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1212/WNL.48.5_Suppl_6.2S",
+          "year": 1997,
+          "author": "DS Geldmacher",
+          "unstructured": "Geldmacher, D. S. & Whitehouse, P. J. Differential diagnosis of Alzheimer\u2019s disease. Neurology 48, 2S\u20139S (1997).",
+          "key": "437_CR62",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pone.0254720",
+          "year": 2021,
+          "author": "M Mera-Gaona",
+          "unstructured": "Mera-Gaona, M., Neumann, U., Vargas-Canas, R. & L\u00f3pez, D. M. Evaluating the impact of multivariate imputation by MICE in feature selection. PLoS ONE 16, e0254720 (2021).",
+          "key": "437_CR63",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s43587-021-00138-z",
+          "year": 2021,
+          "author": "J Fang",
+          "unstructured": "Fang, J. et al. Endophenotype-based in silico network medicine discovery combined with insurance record data mining identifies sildenafil as a candidate drug for Alzheimer\u2019s disease. Nat. Aging 1, 1175\u20131188 (2021).",
+          "key": "437_CR64",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.celrep.2022.111717",
+          "year": 2022,
+          "author": "J Xu",
+          "unstructured": "Xu, J. et al. Interpretable deep learning translation of GWAS and multi-omics findings to identify pathobiology and drug repurposing in Alzheimer\u2019s disease. Cell Rep. 41, 111717 (2022).",
+          "key": "437_CR65",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.5281/zenodo.10392806",
+          "unstructured": "Zhang, J. & Huang Lab. Huang-lab/dementia-survival-prediction. Zenodo. https://doi.org/10.5281/zenodo.10392806 (2023).",
+          "key": "437_CR66",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://www.nature.com/articles/s43856-024-00437-7.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://www.nature.com/articles/s43856-024-00437-7",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://www.nature.com/articles/s43856-024-00437-7.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [
+        {
+          "name": "U.S. Department of Health & Human Services | NIH | National Institute of General Medical Sciences",
+          "doi": "10.13039/100000057",
+          "award_numbers": [
+            "R35GM138113"
+          ],
+          "source": "crossref"
+        }
+      ],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "https://creativecommons.org/licenses/by/4.0",
+          "content_version": "tdm",
+          "delay_in_days": 0,
+          "source": "crossref"
+        },
+        {
+          "url": "https://creativecommons.org/licenses/by/4.0",
+          "content_version": "vor",
+          "delay_in_days": 0,
+          "source": "crossref"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [
+        {
+          "value": "16 January 2023",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "11 January 2024",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "28 February 2024",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "The authors declare no competing interests.",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1038/s43856-024-00437-7",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "Machine learning models identify predictive features of patient mortality across dementia types",
+      "abstract": "Abstract Background Dementia care is challenging due to the divergent trajectories in disease progression and outcomes. Predictive models are needed to flag patients at risk of near-term mortality and identify factors contributing to mortality risk across different dementia types. Methods Here, we developed machine-learning models predicting dementia patient mortality at four different survival thresholds using a dataset of 45,275 unique participants and 163,782 visit records from the U.S. National Alzheimer\u2019s Coordinating Center (NACC). We built multi-factorial XGBoost models using a small set of mortality predictors and conducted stratified analyses with dementiatype-specific models. Results Our models achieved an area under the receiver operating characteristic curve (AUC-ROC) of over 0.82 utilizing nine parsimonious features for all 1-, 3-, 5-, and 10-year thresholds. The trained models mainly consisted of dementia-related predictors such as specific neuropsychological tests and were minimally affected by other age-related causes of death, e.g., stroke and cardiovascular conditions. Notably, stratified analyses revealed shared and distinct predictors of mortality across eight dementia types. Unsupervised clustering of mortality predictors grouped vascular dementia with depression and Lewy body dementia with frontotemporal lobar dementia. Conclusions This study demonstrates the feasibility of flagging dementia patients at risk of mortality for personalized clinical management. Parsimonious machine-learning models can be used to predict dementia patient mortality with a limited set of clinical features, and dementiatype-specific models can be applied to heterogeneous dementia patient populations.",
+      "publication_date": "2024-02-28",
+      "publication_year": 2024,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310319908",
+      "container_title": "Communications Medicine",
+      "volume": "4",
+      "issue": "1",
+      "pages": "23-23",
+      "issn": [
+        "2730-664X"
+      ],
+      "doi": "10.1038/s43856-024-00437-7",
+      "pmid": "38418871",
+      "openalex_id": "https://openalex.org/W4392233569",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Jimmy Zhang",
+            "orcid": "0000-0003-2369-2292",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Icahn School of Medicine at Mount Sinai",
+              "ror_id": "https://ror.org/04a9tmd77",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Columbia University",
+              "ror_id": "https://ror.org/00hj8s172",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5101927535",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Luo Song",
+            "orcid": "0000-0003-3906-6042",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Queensland",
+              "ror_id": "https://ror.org/00rqy9422",
+              "country_code": "AU",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5061884809",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Zachary Miller",
+            "orcid": "0000-0002-5991-3053",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Washington",
+              "ror_id": "https://ror.org/00cvxb145",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5059104887",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kwun Chuen Gary Chan",
+            "orcid": "0000-0003-1095-7837",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Washington",
+              "ror_id": "https://ror.org/00cvxb145",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5082676650",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kuan\u2010lin Huang",
+            "orcid": "0000-0002-5537-5817",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Icahn School of Medicine at Mount Sinai",
+              "ror_id": "https://ror.org/04a9tmd77",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5032718790",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 12,
+      "reference_count": 65,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2026": 1,
+        "2025": 10,
+        "2024": 1
+      },
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1038/s43856-024-00437-7",
+          "pdf_url": "https://www.nature.com/articles/s43856-024-00437-7.pdf",
+          "landing_page_url": "https://doi.org/10.1038/s43856-024-00437-7",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310319908",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1038/s43856-024-00437-7",
+          "pdf_url": "https://www.nature.com/articles/s43856-024-00437-7.pdf",
+          "landing_page_url": "https://doi.org/10.1038/s43856-024-00437-7",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310319908",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38418871",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/38418871",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10901806",
+          "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10901806/pdf/43856_2024_Article_437.pdf",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10901806",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doaj.org/article/74174c24a76c4e8ba25cfad62f3a50f5",
+          "landing_page_url": "https://doaj.org/article/74174c24a76c4e8ba25cfad62f3a50f5",
+          "host_type": "journal",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://www.nature.com/articles/s43856-024-00437-7.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "cc-by",
+          "source": "openalex"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Dementia and Cognitive Impairment Research",
+          "scheme": "openalex_topic",
+          "score": 0.9995999932289124,
+          "source": "openalex"
+        },
+        {
+          "value": "Geriatric Care and Nursing Homes",
+          "scheme": "openalex_topic",
+          "score": 0.9713000059127808,
+          "source": "openalex"
+        },
+        {
+          "value": "Chronic Disease Management Strategies",
+          "scheme": "openalex_topic",
+          "score": 0.9684000015258789,
+          "source": "openalex"
+        },
+        {
+          "value": "Dementia",
+          "scheme": "openalex_concept",
+          "score": 0.895534098148346,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Receiver operating characteristic",
+          "scheme": "openalex_concept",
+          "score": 0.5493447780609131,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Medicine",
+          "scheme": "openalex_concept",
+          "score": 0.5468331575393677,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Vascular dementia",
+          "scheme": "openalex_concept",
+          "score": 0.43365800380706787,
+          "level": 4,
+          "source": "openalex"
+        },
+        {
+          "value": "Neuropsychology",
+          "scheme": "openalex_concept",
+          "score": 0.4195232391357422,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Disease",
+          "scheme": "openalex_concept",
+          "score": 0.40036946535110474,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Machine learning",
+          "scheme": "openalex_concept",
+          "score": 0.3362012505531311,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Gerontology",
+          "scheme": "openalex_concept",
+          "score": 0.32496803998947144,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Psychiatry",
+          "scheme": "openalex_concept",
+          "score": 0.26617974042892456,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Internal medicine",
+          "scheme": "openalex_concept",
+          "score": 0.25873804092407227,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.1528533697128296,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Cognition",
+          "scheme": "openalex_concept",
+          "score": 0.13895374536514282,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Good health and well-being",
+          "scheme": "SDG",
+          "score": 0.8899999856948853,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Dementia",
+        "Receiver operating characteristic",
+        "Medicine",
+        "Vascular dementia",
+        "Neuropsychology",
+        "Disease",
+        "Machine learning",
+        "Gerontology",
+        "Psychiatry",
+        "Internal medicine",
+        "Computer science",
+        "Cognition"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 10.75451683,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.962868,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 2808.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": true,
+      "raw": {},
+      "title": "Machine learning models identify predictive features of patient mortality across dementia types",
+      "abstract": "Dementia care is challenging due to the divergent trajectories in disease progression and outcomes. Predictive models are needed to flag patients at risk of near-term mortality and identify factors contributing to mortality risk across different dementia types. Here, we developed machine-learning models predicting dementia patient mortality at four different survival thresholds using a dataset of 45,275 unique participants and 163,782 visit records from the U.S. National Alzheimer\u2019s Coordinating Center (NACC). We built multi-factorial XGBoost models using a small set of mortality predictors and conducted stratified analyses with dementiatype-specific models. Our models achieved an area under the receiver operating characteristic curve (AUC-ROC) of over 0.82 utilizing nine parsimonious features for all 1-, 3-, 5-, and 10-year thresholds. The trained models mainly consisted of dementia-related predictors such as specific neuropsychological tests and were minimally affected by other age-related causes of death, e.g., stroke and cardiovascular conditions. Notably, stratified analyses revealed shared and distinct predictors of mortality across eight dementia types. Unsupervised clustering of mortality predictors grouped vascular dementia with depression and Lewy body dementia with frontotemporal lobar dementia. This study demonstrates the feasibility of flagging dementia patients at risk of mortality for personalized clinical management. Parsimonious machine-learning models can be used to predict dementia patient mortality with a limited set of clinical features, and dementiatype-specific models can be applied to heterogeneous dementia patient populations. Dementia has emerged as a major cause of death in societies with increasingly aging populations. However, predicting the exact timing of death in dementia cases is challenging, due to variations in the gradual process where cognitive decline interferes with the body\u2019s normal functions. In our study, we build machine-learning models to predict whether a patient diagnosed with dementia will survive or die within 1, 3, 5, or 10 years. We found that the prediction models can work well across patients from different parts of the US and across patients with different types of dementia. The key predictive factor was the information that is already used to diagnose and stage dementia, such as the results of memory tests. Interestingly, broader risk factors related to other causes of death, such as heart conditions, were less significant for predicting death in dementia patients. The ability of these models to identify dementia patients at a heightened risk of mortality could aid clinical practices, potentially allowing for earlier interventions and tailored treatment strategies to improve patient outcomes. Zhang, Song et al. develop machine-learning models to predict dementia patient mortality at one-, three-, five-, and ten-year thresholds. The models identify dementia patients at risk of mortality using a limited set of dementia-related predictors, and the stratified analyses reveal shared and distinct predictors of mortality across dementia types.",
+      "publication_date": "2024-02-28",
+      "publication_year": 2024,
+      "work_type": "JournalArticle",
+      "container_title": "Communications Medicine",
+      "volume": "4",
+      "issn": [],
+      "doi": "10.1038/s43856-024-00437-7",
+      "pmid": "38418871",
+      "pmcid": "10901806",
+      "s2_paper_id": "a51161fdc672e5705bbbd058e8c0dfb14c10f0e5",
+      "s2_corpus_id": "268060691",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Jimmy Zhang",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "2118145576",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Luo Song",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "2203038522",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Zachary Miller",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "2288223965",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kwun Chuen Gary Chan",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "2276253860",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kuan-lin Huang",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "2269691630",
+          "sources": [
+            "semantic_scholar"
+          ]
+        }
+      ],
+      "citation_count": 10,
+      "reference_count": 69,
+      "influential_citation_count": 0,
+      "references": [
+        {
+          "doi": "10.1016/j.celrep.2022.111717",
+          "title": "Interpretable deep learning translation of GWAS and multi-omics findings to identify pathobiology and drug repurposing in Alzheimer\u2019s disease",
+          "year": 2022,
+          "s2_paper_id": "310d4f197365bf649358efd4fab182fc45152245",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1038/s42003-022-03068-7",
+          "title": "Machine learning prediction and tau-based screening identifies potential Alzheimer\u2019s disease genes relevant to immunity",
+          "year": 2022,
+          "s2_paper_id": "0400cb0e54779e189a082e69d482006f16d0cedc",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "\u2026rather than a class-based resampling method because previous studies have demonstrated the superior performance of weighted methods as compared to resampling methods in addressing class imbalance 38 , and we also wanted to avoid the additional computational complexity incurred by oversampling."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/S2468-2667(21)00249-8",
+          "title": "Estimation of the global prevalence of dementia in 2019 and forecasted prevalence in 2050: an analysis for the Global Burden of Disease Study 2019",
+          "year": 2022,
+          "s2_paper_id": "b996fc1acde3308213e823cc65a6df7b7d6430cd",
+          "intents": [],
+          "is_influential": true,
+          "contexts": [
+            "As of 2022, an estimated $1 trillion of global annual costs 3 can be attributed to Alzheimer \u2019 s disease and other dementias, affecting an estimated 6.5 million Americans 4 and 57.4 million people worldwide, and those numbers are expected to triple by 2050 5 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1038/s43587-021-00138-z",
+          "title": "Endophenotype-based in silico network medicine discovery combined with insurance record data mining identifies sildenafil as a candidate drug for Alzheimer\u2019s disease",
+          "year": 2021,
+          "s2_paper_id": "8ea1401380b8d869b4dfed293782aa1f424b1e07",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "First, the models do not account for the dynamic nature of dementia progression and the potential for interventions to alter the course of the disease 64 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1371/journal.pone.0254720",
+          "title": "Evaluating the impact of multivariate imputation by MICE in feature selection",
+          "year": 2021,
+          "s2_paper_id": "faaedd68d2e15e4bf16f9bd56e9d4acccd45d95f",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "\u2026\ufb01 rst eliminating variables with over 40% missing values and subsequently using MICE to impute the remaining features, we aimed to reduce some bias in the feature selection process 63 , though we acknowledge the limitation of neglecting features that may only be ascertained by a selection of ADCs."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/jamiaopen/ooab052",
+          "title": "Machine learning for modeling the progression of Alzheimer disease dementia using clinical data: a systematic literature review",
+          "year": 2021,
+          "s2_paper_id": "62ff77726b2cca36a37d8d1cf89117bf48605f94",
+          "intents": [],
+          "is_influential": true,
+          "contexts": [
+            "As of 2022, an estimated $1 trillion of global annual costs 3 can be attributed to Alzheimer \u2019 s disease and other dementias, affecting an estimated 6.5 million Americans 4 and 57.4 million people worldwide, and those numbers are expected to triple by 2050 5 .",
+            "While machine-learning models have been developed for the diagnosis or classi \ufb01 cation of dementia 4,15 \u2013 20 , they have rarely been applied to the prediction of near-term survival or mortality in dementia patients."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1001/jama.2021.5469",
+          "title": "The Leading Causes of Death in the US for 2020.",
+          "year": 2021,
+          "s2_paper_id": "455e36a098923f9ab7e33245396ebb47150dabb0",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1002/trc2.12229",
+          "title": "Time\u2010to\u2010event prediction using survival analysis methods for Alzheimer's disease progression",
+          "year": 2021,
+          "s2_paper_id": "e5fc6e217a6590aa340e0255c4637e6f42ef4ac2",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Most dementia survival prediction studies utilize traditional nonparametric estimator and regression models, such as Kaplan \u2013 Meier estimator curves and Cox proportional hazards models 21,22 , rather than advanced machine-learning models."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1038/s41598-020-77220-w",
+          "title": "A comparison of machine learning methods for survival analysis of high-dimensional clinical data for dementia prediction",
+          "year": 2020,
+          "s2_paper_id": "3c15d27ac9463e5701735d4dbf293ba445bc3573",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "In the few published studies that utilized machine learning to predict dementia patient mortality 23 \u2013 25 , the models achieved reasonable performance.",
+            "However, due to the issues of high dimensionality, non-linearity, censoring, heterogeneity, and missingness present in dementia clinical data, machine learning can often provide more accurate predictions as compared to traditional statistical methods 23 .",
+            "To our knowledge, our study is one of just a few studies to apply a machine-learning-based approach to predicting mortality in dementia patients 23 \u2013 25 (as opposed to statistical approaches), and the \ufb01 rst study to do so within population subsets strati \ufb01 ed by dementia type."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1109/SIBGRAPI51738.2020.00053",
+          "title": "From explanations to feature selection: assessing SHAP values as feature selection mechanism",
+          "year": 2020,
+          "s2_paper_id": "282364bc1966c515b55fd1c151302dbfe62071c0",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "We then used SHapley Additive eXplanations (SHAP) 40 , a robust, game-theoretic framework for explaining model output, to identify the important features within each survival threshold.",
+            "Though SHAP is most often used as a feature importance metric, it has demonstrated considerable utility as a feature selection method as well, even outperforming many conventional feature selection methods 40 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1001/jamaneurol.2020.2831",
+          "title": "Estimates of the Association of Dementia With US Mortality Levels Using Linked Survey and Mortality Records",
+          "year": 2020,
+          "s2_paper_id": "53014cba8f16cf88a43cbc81e0c32b4052f9d7ce",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Unfortunately, the true mortality burden associated with dementia may still be under-estimated, as dementia itself tends to be underreported on death certi \ufb01 cates as the underlying cause of death 6 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/brain/awaa137",
+          "title": "Development and validation of an interpretable deep learning framework for Alzheimer\u2019s disease classification",
+          "year": 2020,
+          "s2_paper_id": "8d54028aa9d09ee90d4c8505ddfc8561b99270b1",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3233/JAD-200078",
+          "title": "Mortality Rates and Mortality Risk Factors in Older Adults with Dementia from Low- and Middle-Income Countries: The 10/66 Dementia Research Group Population-Based Cohort Study",
+          "year": 2020,
+          "s2_paper_id": "69234a21791383988da0bceb278aaf09bb5eeec0",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1155/2020/5629090",
+          "title": "Machine Learning for the Preliminary Diagnosis of Dementia",
+          "year": 2020,
+          "s2_paper_id": "3a27fb27aab020cdd4dd13c585a6cf6a6e985fef",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "While machine-learning models have been developed for the diagnosis or classi \ufb01 cation of dementia 4,15 \u2013 20 , they have rarely been applied to the prediction of near-term survival or mortality in dementia patients."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1002/trc2.12049",
+          "title": "Machine learning\u2010based cognitive impairment classification with optimal combination of neuropsychological tests",
+          "year": 2020,
+          "s2_paper_id": "791ffec4fc152bd6a72d373fe141ce759e76d9ab",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1212/WNL.0000000000008745",
+          "title": "Survival time tool to guide care planning in people with dementia",
+          "year": 2019,
+          "s2_paper_id": "f2747a32e679ef9850117da9ba4f12a1cc9c80c1",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Most dementia survival prediction studies utilize traditional nonparametric estimator and regression models, such as Kaplan \u2013 Meier estimator curves and Cox proportional hazards models 21,22 , rather than advanced machine-learning models."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/s10462-020-09896-5",
+          "title": "A comparative analysis of gradient boosting algorithms",
+          "year": 2019,
+          "s2_paper_id": "7280df1bbbcaf743cb793d5bd654b4cf12b575f4",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "As compared to other gradient-boosting algorithms like light gradient-boosting machine (LightGBM), previous literature has found that XGBoost provides an optimal balance between accuracy and training speed 35 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1111/jgs.16228",
+          "title": "Relationship of Cigarette Smoking and Time of Quitting with Incident Dementia and Cognitive Decline",
+          "year": 2019,
+          "s2_paper_id": "171975591cfa7bec64232b4c41902db5b43f8f51",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "\u2026cessation (which was not captured by the \u201c SMOKYRS \u201c variable) against dementia risk and mortality might only be realized in long-term outcomes 58 and that the amount of time required to complete the Trail Making Test Part B (captured by \u201c TRAILB \u201d ) might be a more consistent performance\u2026"
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/J.MATURITAS.2019.08.007",
+          "title": "Risk factors for in-hospital mortality in patients with dementia.",
+          "year": 2019,
+          "s2_paper_id": "7586c5007f26540149eba2f75aa71c7a223e7f65",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "\u2026that a higher risk of mortality was predicted by older age 50 \u2013 53 , male sex 46,51 \u2013 53 , higher levels of dependency and personal care required 53 , more years of education 54 , more years of smoking 55 , and poorer performance on neuropsychological exams like the Trail Making Test 56,57 .",
+            "The multi-factorial models revealed that a higher risk of mortality was predicted by older age 50 \u2013 53 , male sex 46,51 \u2013 53 , higher levels of dependency and personal care required 53 , more years of education 54 , more years of smoking 55 , and poorer performance on neuropsychological exams like\u2026"
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1001/jama.2019.4782",
+          "title": "Diagnosis and Management of Dementia: Review.",
+          "year": 2019,
+          "s2_paper_id": "e3dbe1c137badbfd3db0ca78c300b00e3431b4fc",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "\u2026in predicting patient trajectory, and the intrinsic dif \ufb01 culty in diagnosing dementia, which often requires the evaluation of various criteria 9,10 , including risk factors (e.g., old age and family history), cognitive impairment screening questionnaires, neuropsychological testing (e.g.,\u2026"
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.2147/CLEP.S213228",
+          "title": "Survival, effect measures, and impact numbers after dementia diagnosis: a matched cohort study",
+          "year": 2019,
+          "s2_paper_id": "41a82ffea37cb6a171bd3b93ba85a06730b29d8b",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1001/jamanetworkopen.2019.6972",
+          "title": "Development and Validation of a Deep Learning Algorithm for Mortality Prediction in Selecting Patients With Dementia for Earlier Palliative Care Interventions",
+          "year": 2019,
+          "s2_paper_id": "ae781ba03578eaf5c4f1d0692aa150a9ebd01195",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jbi.2020.103411",
+          "title": "Deep ensemble learning for Alzheimers disease classification",
+          "year": 2019,
+          "s2_paper_id": "63dc9d1ddcdf1ec98089b72439da67b38021a108",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.nicl.2019.101811",
+          "title": "Machine learning based hierarchical classification of frontotemporal dementia and Alzheimer's disease",
+          "year": 2019,
+          "s2_paper_id": "8e738bd4e6226ecc22170eb3289a4cbd443c68d6",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/s00127-019-01683-0",
+          "title": "Incident depression and mortality among people with different types of dementia: results from a longitudinal cohort study",
+          "year": 2019,
+          "s2_paper_id": "4bc274b0df263823eb7939f960df8b062b3d177e",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Moreover, the grouping of VaD with depression con \ufb01 rms previous literature that has highlighted the synergistic effects of VaD and depression on patient mortality 26 , as VaD patients tend to exhibit a higher baseline risk for psychiatric symptoms like depression 59,60 .",
+            "Moreover, none of these studies differentiated among dementia types, which remains a crucial next step for the personalized treatment and management of dementia 26,27 .",
+            "In the studies that we identi \ufb01 ed, key distinctions were noted in the cohort composition and mortality risk of Lewy body dementia vs. Alzheimer \u2019 s disease 27 , vascular dementia vs. Alzheimer \u2019 s disease in the context of depression 26 , and among eight different dementia subtypes 48 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.trci.2019.11.006",
+          "title": "Temporal association of neuropsychological test performance using unsupervised learning reveals a distinct signature of Alzheimer's disease status",
+          "year": 2019,
+          "s2_paper_id": "9ba453d0e1ae436c40669fe224fc0bb0e4962ec2",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.12688/f1000research.14506.1",
+          "title": "Current understanding of Alzheimer\u2019s disease diagnosis and treatment",
+          "year": 2018,
+          "s2_paper_id": "a690dbbdd0a9d096947451d07efcc109d5791529",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "\u2026in predicting patient trajectory, and the intrinsic dif \ufb01 culty in diagnosing dementia, which often requires the evaluation of various criteria 9,10 , including risk factors (e.g., old age and family history), cognitive impairment screening questionnaires, neuropsychological testing (e.g., the\u2026"
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1371/journal.pone.0178997",
+          "title": "Estimating the survival of elderly patients diagnosed with dementia in Taiwan: A longitudinal study",
+          "year": 2018,
+          "s2_paper_id": "ef5008183e68dcbcf40f283cdd0538ce84108398",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "The multi-factorial models revealed that a higher risk of mortality was predicted by older age 50 \u2013 53 , male sex 46,51 \u2013 53 , higher levels of dependency and personal care required 53 , more years of education 54 , more years of smoking 55 , and poorer performance on neuropsychological exams like\u2026"
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/jnen/nly049",
+          "title": "The Revised National Alzheimer\u2019s Coordinating Center\u2019s Neuropathology Form\u2014Available Data and New Analyses",
+          "year": 2018,
+          "s2_paper_id": "2887a94a37737070b1d815e27cd022e7181c45bb",
+          "intents": [],
+          "is_influential": true,
+          "contexts": [
+            "Overall, model performance remained consistent across ADCs, with discrepancies primarily occurring in the ADCs with the smallest patient populations.",
+            "First, the NACC database is the largest resource of its kind in the United States, covering a large, diverse patient population that was current through September 2021.",
+            "When the ADC program was \ufb01 rst established in 1984, ADCs primarily collected cross-sectional data as part of a Minimum Data Set (MDS), which contained limited demographic and clinical data from each patient \u2019 s most recent visit.",
+            "Data for this study was obtained from the National Alzheimer \u2019 s Coordinating Center (NACC) database 13 , which spans 39 past and present Alzheimer \u2019 s Disease Centers (ADCs) across the United States.",
+            "This way, each ADC was tested and evaluated using models that were trained on data exclusively from other ADCs.",
+            "However, after the NACC was established in 1999, ADCs began collecting more extensive neuropathological data via the 2001 NP form, and then in 2005, a comprehensive longitudinal dataset known as the Uniform Data Set (UDS), replaced the MDS and became standardized across all ADCs 13,28 .",
+            "Our study utilized longitudinal data taken from the National Alzheimer \u2019 s Coordinating Center (NACC) database, following over 40,000 unique patients and spanning 39 past and present Alzheimer \u2019 s disease centers (ADCs) across the United States 13 .",
+            "To resolve these challenges, we utilize the NACC database, the largest resource of its kind in the United States, to (1) develop robust machine-learning models for predicting dementia patient mortality across various time frames, (2) identify key predictors of mortality, and (3) demonstrate how these predictors differ across dementia subtypes.",
+            "By \ufb01 rst eliminating variables with over 40% missing values and subsequently using MICE to impute the remaining features, we aimed to reduce some bias in the feature selection process 63 , though we acknowledge the limitation of neglecting features that may only be ascertained by a selection of ADCs.",
+            "Due to the high prevalence of missing values, largely attributed to the dif \ufb01 culty in acquiring certain data (e.g., neuropathological data) and differences in clinical procedures across ADCs, many features were preliminarily eliminated.",
+            "2A. Additionally, to determine whether model performance was consistent across Alzheimer \u2019 s disease centers (ADCs), we veri \ufb01 ed the performance of each model across all ADCs with at least 200 patients in the internal test set at each survival threshold.",
+            "In 2015, version 3 of the UDS was implemented and currently remains in use 13 .",
+            "To aid the detection, diagnosis, and treatment of Alz-heimer \u2019 s disease and related dementias, the National Institute of Aging (NIA) founded the National Alzheimer \u2019 s Coordinating Center (NACC) 13 in 1999."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Maximizing acquisition functions for Bayesian optimization",
+          "year": 2018,
+          "s2_paper_id": "1e64226c447a4d688817aa78ce0d09661b86185f",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Given a black-box function, Bayesian optimization builds a probabilistic surrogate model of the objective function, which is then searched by an acquisition function that incrementally selects hyperparameters to optimize the surrogate model 42,43 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1001/jama.2018.0158",
+          "title": "The State of US Health, 1990-2016: Burden of Diseases, Injuries, and Risk Factors Among US States",
+          "year": 2018,
+          "s2_paper_id": "89b0fa0c0df1ea9ceba36066b134b8602a22e2b0",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "ementia has become a growing public health concern, classi \ufb01 ed as the seventh leading cause of death 1 and the fourth most burdensome disease or injury in the United 2016 based on years of life lost 2 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Consistent Individualized Feature Attribution for Tree Ensembles",
+          "year": 2018,
+          "s2_paper_id": "861aaf3e9c8af9e23f1990d20815f7602d664619",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "We used a variant of SHAP known as TreeSHAP 44 , an enhancement to SHAP designed for tree ensemble methods, such as XGBoost."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1097/WAD.0000000000000228",
+          "title": "Big Data Analytical Approaches to the NACC Dataset: Aiding Preclinical Trial Enrichment",
+          "year": 2017,
+          "s2_paper_id": "e8ff624425b3b35cf0c54d2a0d279994fe23f4e1",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Using existing protocols, standardized and multi-institutional databases were collected and built over the past decades, encompassing clinical records for tens of thousands of patients that may be used to develop predictive models 14 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/S0140-6736(17)33185-9",
+          "title": "Global and regional economic costs of dementia: a systematic review",
+          "year": 2017,
+          "s2_paper_id": "c98bc58367678c2fd25fe507d5d01a7f8bbbae43",
+          "intents": [],
+          "is_influential": true,
+          "contexts": [
+            "As of 2022, an estimated $1 trillion of global annual costs 3 can be attributed to Alzheimer \u2019 s disease and other dementias, affecting an estimated 6.5 million Americans 4 and 57.4 million people worldwide, and those numbers are expected to triple by 2050 5 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "A Unified Approach to Interpreting Model Predictions",
+          "year": 2017,
+          "s2_paper_id": "442e10a3c6640ded9408622005e3c2a8906ce4c2",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "However, in order to make our machine-learning models more clinically feasible, we conducted feature selection using SHapley Additive exPlanations (SHAP) 39 , a uni \ufb01 ed, model-agnostic framework for interpreting the predictions of machine-learning models.",
+            "For both our pan-dementia analysis and sub-dementia analysis, we used the aforementioned SHapley Additive exPlanations (SHAP) 39 to determine feature importance within our XGBoost models."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3233/JAD-150946",
+          "title": "Predictors of Mortality in Dementia: The PRIME Study",
+          "year": 2016,
+          "s2_paper_id": "106e648f31d7875b199b536ebb18e7bd00b07ab0",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "The results of our global CDR survival analysis were consistent with those of past survival analyses in dementia patients 46,47 , con \ufb01 rming that higher CDR scores correlate with reduced survival probability.",
+            "The multi-factorial models revealed that a higher risk of mortality was predicted by older age 50 \u2013 53 , male sex 46,51 \u2013 53 , higher levels of dependency and personal care required 53 , more years of education 54 , more years of smoking 55 , and poorer performance on neuropsychological exams like\u2026"
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1212/CON.0000000000000319",
+          "title": "Rapidly Progressive Dementia",
+          "year": 2016,
+          "s2_paper_id": "386a39ec9f5413a11de23015841d7fa790138d99",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "This is consistent with the rapid onset and progression feature of prion disease 45 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1145/2939672.2939785",
+          "title": "XGBoost: A Scalable Tree Boosting System",
+          "year": 2016,
+          "s2_paper_id": "26bc9195c6343e4d7f434dd65b4ad67efe2be27a",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "\u2026forest, logistic regression, and gradient boosting), our machine-learning algorithm of choice was eXtreme Gradient Boosting (XGBoost), a high-performance, tree-based ensemble learning method that uses gradient tree boosting to sequentially add new trees to reduce the errors from previous trees 34 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jclinepi.2013.09.009",
+          "title": "Missing data in a multi-item instrument were best handled by multiple imputation at the item score level.",
+          "year": 2014,
+          "s2_paper_id": "dc48d2ddddfcf10f03cbfb57c2155bcd2937b1b9",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Thus, multiple imputation generally outperforms traditional machine-learning methods used for imputation 32,33 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1002/gps.3946",
+          "title": "Survival in dementia and predictors of mortality: a review",
+          "year": 2013,
+          "s2_paper_id": "c940639e399d7dbcd86857abde0875be23d55fea",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "The multi-factorial models revealed that a higher risk of mortality was predicted by older age 50 \u2013 53 , male sex 46,51 \u2013 53 , higher levels of dependency and personal care required 53 , more years of education 54 , more years of smoking 55 , and poorer performance on neuropsychological exams like\u2026"
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/aje/kws241",
+          "title": "Mortality risk score prediction in an elderly population using machine learning.",
+          "year": 2013,
+          "s2_paper_id": "c23c5edc98cde3a002bd7b588f089f8819e7c470",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "In the few published studies that utilized machine learning to predict dementia patient mortality 23 \u2013 25 , the models achieved reasonable performance.",
+            "To our knowledge, our study is one of just a few studies to apply a machine-learning-based approach to predicting mortality in dementia patients 23 \u2013 25 (as opposed to statistical approaches), and the \ufb01 rst study to do so within population subsets strati \ufb01 ed by dementia type."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Practical Bayesian Optimization of Machine Learning Algorithms",
+          "year": 2012,
+          "s2_paper_id": "2e2089ae76fe914706e6fa90081a79c8fe01611e",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Given a black-box function, Bayesian optimization builds a probabilistic surrogate model of the objective function, which is then searched by an acquisition function that incrementally selects hyperparameters to optimize the surrogate model 42,43 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jagp.2013.01.006",
+          "title": "The association of neuropsychiatric symptoms in MCI with incident dementia and Alzheimer disease.",
+          "year": 2012,
+          "s2_paper_id": "4fb38ab21338f569f59299ecec5856989c36905e",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "\u2026that a higher risk of mortality was predicted by older age 50 \u2013 53 , male sex 46,51 \u2013 53 , higher levels of dependency and personal care required 53 , more years of education 54 , more years of smoking 55 , and poorer performance on neuropsychological exams like the Trail Making Test 56,57 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.18637/JSS.V045.I03",
+          "title": "MICE: Multivariate Imputation by Chained Equations in R",
+          "year": 2011,
+          "s2_paper_id": "3467e34cae93c33c1be8c3dc0fa4a3a6405e18e3",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "For the 189 remaining features, we imputed missing values using MICE (Multivariate Imputation by Chained Equations) 30 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.2174/156720511795745339",
+          "title": "How should we deal with missing data in clinical trials involving Alzheimer's disease patients?",
+          "year": 2011,
+          "s2_paper_id": "fa56719f88c6d67feae0117ca19a0a23174cc2aa",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Thus, multiple imputation generally outperforms traditional machine-learning methods used for imputation 32,33 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1111/j.1532-5415.2011.03365.x",
+          "title": "The World of Dementia Beyond 2020",
+          "year": 2011,
+          "s2_paper_id": "0170fdc3393aeb4732c74ec56f73a354871175e7",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "This immense healthcare burden of dementia can be attributed to the lack of curative drugs 7,8 , the challenge in predicting patient trajectory, and the intrinsic dif \ufb01 culty in diagnosing dementia, which often requires the evaluation of various criteria 9,10 , including risk factors (e.g., old age\u2026"
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jpainsymman.2010.02.014",
+          "title": "The advanced dementia prognostic tool: a\u00a0risk score to estimate survival in nursing home residents with advanced dementia.",
+          "year": 2010,
+          "s2_paper_id": "949aebe3f5bda5ddeffdd3ef87536bb6090d9a10",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "However, whereas prior studies identi \ufb01 ed comorbidities such as cardiovascular disease 49 to be associated with reduced survival probability, we found that B A Fig."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1111/j.1532-5415.2010.02780.x",
+          "title": "Trail Making Test Predicts Physical Impairment and Mortality in Older Persons",
+          "year": 2010,
+          "s2_paper_id": "3aaee5890d499166916e8c2b7bce95c0ca651859",
+          "intents": [],
+          "is_influential": true,
+          "contexts": [
+            "Finally, within the no dementia and unknown cluster, general cognitive features such as performance on the Trail Making Test, surprisingly, remained important predictors of mortality.",
+            "Some possible explanations for these trends are that any protective effects of smoking cessation (which was not captured by the \u201c SMOKYRS \u201c variable) against dementia risk and mortality might only be realized in long-term outcomes 58 and that the amount of time required to complete the Trail Making Test Part B (captured by \u201c TRAILB \u201d ) might be a more consistent performance metric for predicting long-term mortality than the number of commission errors made (captured by \u201c TRAILBRR \u201d ).",
+            "More years of smoking ( \u201c SMOKYRS \u201d ) and more commission errors on the Trail Making Test Part B ( \u201c TRAILBRR \u201d ) were also predictive of higher risk in 1-year and 3-year mortality.",
+            "Interestingly, at the longer survival thresholds, more years of smoking and more commission errors on the Trail Making Test Part B became more associated with survival than with mortality.",
+            "The multi-factorial models revealed that a higher risk of mortality was predicted by older age 50 \u2013 53 , male sex 46,51 \u2013 53 , higher levels of dependency and personal care required 53 , more years of education 54 , more years of smoking 55 , and poorer performance on neuropsychological exams like the Trail Making Test 56,57 .",
+            "Across all four clusters (even in the no dementia and unknown cluster), many features from the multi-factorial models remained key predictors of mortality, such as age, level of independence, smoking, and performance on neuropsychological exams like the Trail Making Test.",
+            "After conducting feature selection, our resulting feature subset consisted of nine parsimonious features: \u201c NACCAGE \u201d (Subject \u2019 s age at visit), \u201c INDEPEND \u201d (Level of independence), \u201c PERS-CARE \u201d (Personal care), \u201c TRAILB \u201d (Trail Making Test Part B \u2014 Total number of seconds to complete), \u201c STOVE \u201d (In the past four weeks, did the subject have any dif \ufb01 culty or need help with Heating water, making a cup of coffee, turning off the stove), \u201c SEX \u201d (Subject \u2019 s sex), \u201c SMOKYRS \u201d (Total years smoked cigarettes), \u201c TRAILBRR \u201d (Trail Making Test Part B \u2014 Number of commission errors), and \u201c EDUC \u201d (Years of education).",
+            "Notably, a higher risk of mortality (positive SHAP value) was predicted by old age ( \u201c NACCAGE \u201d ), male sex ( \u201c SEX \u201d ), higher levels of dependency ( \u201c INDEPEND \u201d ), higher levels of personal care required ( \u201c PERSCARE \u201d ), greater dif \ufb01 culty in handling a stove or heating water ( \u201c STOVE \u201d ), more years of education ( \u201c EDUC \u201d ), and more seconds required to complete the Trail Making Test Part B ( \u201c TRAILB \u201d ) across all four survival thresholds.",
+            "However, the inverse relationship was observed for 5-year and 10-year mortality risk, as fewer years of smoking and fewer commission errors on the Trail Making Test Part B became slightly more predictive of mortality than of survival at these longer survival thresholds.",
+            "New features such as \u2018 NACCADC \u2019 (ADC at which subject was seen), \u201c VEG \u201d (Vegetables \u2014 Total number of vegetables named in 60 s), \u201c TRAVEL \u201d (In the past four weeks, did the subject have any dif \ufb01 culty or need help with Traveling out of the neighborhood, driving, or arranging to take public transportation), and \u201c TRAILA \u201d (Trail Making Test Part A \u2014 Total number of seconds to complete) also emerged as important features across numerous dementia types.",
+            "\u2026that a higher risk of mortality was predicted by older age 50 \u2013 53 , male sex 46,51 \u2013 53 , higher levels of dependency and personal care required 53 , more years of education 54 , more years of smoking 55 , and poorer performance on neuropsychological exams like the Trail Making Test 56,57 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1037/a0016792",
+          "title": "Executive functions in frontotemporal dementia and Lewy body dementia.",
+          "year": 2009,
+          "s2_paper_id": "b38dc905aa133a6663151ea91d9b4541adefa9f5",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Our \ufb01 ndings regarding FTLD and LBD align with prior studies that have similarly grouped the two subtypes together and determined that executive dysfunction and activity disturbances are the key indicators of cognitive impairment for both 59,61 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1136/bmj.b2393",
+          "title": "Multiple imputation for missing data in epidemiological and clinical research: potential and pitfalls",
+          "year": 2009,
+          "s2_paper_id": "7b0365a2e7ca7aaecd6ed55b78b544e06d6076d6",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Multiple imputation is an imputation strategy that accounts for variability in missingness by generating multiple imputed datasets, which can then be aggregated into a single complete dataset 31 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jns.2009.02.004",
+          "title": "Cardiovascular risk factors and dementia mortality: 40\u00a0years of follow-up in the Seven Countries Study",
+          "year": 2009,
+          "s2_paper_id": "e8dee275196a4cf632113f300bde9cb4490c6e08",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "\u2026that a higher risk of mortality was predicted by older age 50 \u2013 53 , male sex 46,51 \u2013 53 , higher levels of dependency and personal care required 53 , more years of education 54 , more years of smoking 55 , and poorer performance on neuropsychological exams like the Trail Making Test 56,57 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1097/WAD.0b013e318142774e",
+          "title": "The National Alzheimer's Coordinating Center (NACC) Database: The Uniform Data Set",
+          "year": 2007,
+          "s2_paper_id": "7689c4ca2756b5869c68bad2a5effac709ac8103",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "However, after the NACC was established in 1999, ADCs began collecting more extensive neuropathological data via the 2001 NP form, and then in 2005, a comprehensive longitudinal dataset known as the Uniform Data Set (UDS), replaced the MDS and became standardized across all ADCs 13,28 .",
+            "The Institutional Review Board (IRB) at the University of Washington authorizes the release and research of the NACC database 28 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1212/01.wnl.0000247041.63081.98",
+          "title": "Survival and mortality differences between dementia with Lewy bodies vs Alzheimer disease",
+          "year": 2006,
+          "s2_paper_id": "9671ce5599e43819e657ab0905ac8259c7bedd91",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Moreover, none of these studies differentiated among dementia types, which remains a crucial next step for the personalized treatment and management of dementia 26,27 .",
+            "In the studies that we identi \ufb01 ed, key distinctions were noted in the cohort composition and mortality risk of Lewy body dementia vs. Alzheimer \u2019 s disease 27 , vascular dementia vs. Alzheimer \u2019 s disease in the context of depression 26 , and among eight different dementia subtypes 48 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1001/ARCHNEUR.58.12.2034",
+          "title": "The influence of education on clinically diagnosed dementia incidence and mortality data from the Kungsholmen Project.",
+          "year": 2001,
+          "s2_paper_id": "4c8cd352dda23111be58e0a8779542510640846c",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "\u2026that a higher risk of mortality was predicted by older age 50 \u2013 53 , male sex 46,51 \u2013 53 , higher levels of dependency and personal care required 53 , more years of education 54 , more years of smoking 55 , and poorer performance on neuropsychological exams like the Trail Making Test 56,57 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1111/j.1944-8287.2000.tb00151.x",
+          "title": "Article",
+          "year": 2000,
+          "s2_paper_id": "3906d040f13c45e99ec93693a69cf3cf36d3f99e",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/S0165-0327(99)00057-9",
+          "title": "Anxiety, depression and psychosis in vascular dementia: prevalence and associations.",
+          "year": 2000,
+          "s2_paper_id": "68aee1672c43e0370d91677f7da60228abe17b65",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Moreover, the grouping of VaD with depression con \ufb01 rms previous literature that has highlighted the synergistic effects of VaD and depression on patient mortality 26 , as VaD patients tend to exhibit a higher baseline risk for psychiatric symptoms like depression 59,60 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1212/WNL.48.5_Suppl_6.2S",
+          "title": "Differential diagnosis of Alzheimer's disease",
+          "year": 1997,
+          "s2_paper_id": "4b55edb789b7d43597bbcdb7aa9c7aa87f5ad826",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "The grouping of AD with other dementia may be attributed to the dif \ufb01 culty in differentiating AD from certain other types of dementia 62 , and given that AD was by far the most prevalent dementia type in the NACC cohort, it is likely that the other dementia patients were generally similar to AD\u2026"
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1176/AJP.141.11.1356",
+          "title": "A new rating scale for Alzheimer's disease.",
+          "year": 1984,
+          "s2_paper_id": "dbbe693d9b07fb23410d40d1be2ab86901f84d9f",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "\u2026(e.g., old age and family history), cognitive impairment screening questionnaires, neuropsychological testing (e.g., the Mini-Mental State Examination (MMSE) 11 and the Alzheimer \u2019 s Disease Assessment Scale \u2014 Cognitive Subscale (ADAS-Cog) 12 ), physical examination, biomarkers, and neuroimaging."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1001/ARCHPSYC.1983.01790060110016",
+          "title": "The Mini-Mental State Examination.",
+          "year": 1983,
+          "s2_paper_id": "848a60d793a9aeaf9d10e04351fa11f60dd5b04a",
+          "intents": [],
+          "is_influential": true,
+          "contexts": [
+            "This immense healthcare burden of dementia can be attributed to the lack of curative drugs 7,8 , the challenge in predicting patient trajectory, and the intrinsic dif \ufb01 culty in diagnosing dementia, which often requires the evaluation of various criteria 9,10 , including risk factors (e.g., old age and family history), cognitive impairment screening questionnaires, neuropsychological testing (e.g., the Mini-Mental State Examination (MMSE) 11 and the Alzheimer \u2019 s Disease Assessment Scale \u2014 Cognitive Subscale (ADAS-Cog) 12 ), physical examination, biomarkers, and neuroimaging.",
+            "Second, within the FTLD and LBD cluster, features corresponding to MMSE score, standard CDR sum of boxes, and involvement in community affairs contributed more heavily to the mortality prediction.",
+            "Additionally, we re-encoded the extra categories in the Neuropsychological Battery Summary Score variables (95, 96, 97, 98, 995, 996, 997, 998), which corresponded to an inability or refusal to complete the Mini-Mental State Exam (MMSE), to NA as well.",
+            "However, other new features such as \u201c ANIMALS \u201d (Animals \u2014 Total number of animals named in 60 s), \u201c ORIENT \u201d (Orientation), and \u201c NACCMMSE \u201c (Total MMSE score (using D-L-R-O-W) were also revealed to be relevant to the mortality prediction within the LBD subgroup.",
+            "\u2026(e.g., old age and family history), cognitive impairment screening questionnaires, neuropsychological testing (e.g., the Mini-Mental State Examination (MMSE) 11 and the Alzheimer \u2019 s Disease Assessment Scale \u2014 Cognitive Subscale (ADAS-Cog) 12 ), physical examination, biomarkers, and neuroimaging.",
+            "In FTLD, for instance, a number of new cognitive features emerged: CDR \u00ae Plus NACC FTLD features (e.g., \u201c CDRLANG \u201d (Language) and \u201c COMMUN \u201d (Community Affairs)), clinician judgment features regarding motor function (e.g., \u201c NACCMOTF \u201d (Indicate the predominant symptom that was \ufb01 rst recognized as a decline in the subject \u2019 s motor function) and \u201c MOMODE \u201d (Mode of onset of motor symptoms)), and neuropsychological battery summary scores (e.g., \u201c NACCMMSE \u201d (Total MMSE score (using D-L-R-O-W)))."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "World Alzheimer Report 2021: Journey through the Diagnosis of Dementia .",
+          "year": 2021,
+          "intents": [],
+          "is_influential": true,
+          "contexts": [
+            "This immense healthcare burden of dementia can be attributed to the lack of curative drugs 7,8 , the challenge in predicting patient trajectory, and the intrinsic dif \ufb01 culty in diagnosing dementia, which often requires the evaluation of various criteria 9,10 , including risk factors (e.g., old age\u2026",
+            "For FTLD in particular, features measuring dif \ufb01 culty in performing social and functional activities were the pivotal predictors of mortality, consistent with the pathological effects of FTLD 8 .",
+            "We conducted our sub-dementia analysis on these eight dementia types with sample sizes greater than 1000: no dementia Performance-wise, the models built on the commonly de \ufb01 ned dementia types (e.g., AD, FTLD, LBD, and VaD) tended to perform better in the positive class (mortality) and, thus, generally had higher AUC-PR, whereas the models built on the non-dementia patients and the more ambiguous dementia types (e.g., depression, cognitive impairment for other speci \ufb01 ed reasons, and missing/unknown) were more robust at predicting the larger negative class (survival) and, thus, had higher AUC-ROC overall.",
+            "Our \ufb01 ndings regarding FTLD and LBD align with prior studies that have similarly grouped the two subtypes together and determined that executive dysfunction and activity disturbances are the key indicators of cognitive impairment for both 59,61 .",
+            "Second, within the FTLD and LBD cluster, features corresponding to MMSE score, standard CDR sum of boxes, and involvement in community affairs contributed more heavily to the mortality prediction.",
+            "Since many dementia types present similar symptoms and disease progressions 8 , differentiating and targeting dementia type-speci \ufb01 c symptoms and mortality predictors can be bene \ufb01 cial for patient populations 59 .",
+            "For VaD, congestive heart failure was the second most important feature after age, consistent with VaD \u2019 s common risk factors 8 .",
+            "3B. Hierarchical clustering produced the following four clusters of dementia types: (1) VaD and depression, (2) FTLD and LBD, (3) AD and other dementia, and (4) no dementia and unknown.",
+            "In the FTLD and LBD cluster, feature importance was distributed across a substantially wider array of cognitive features, with less importance attributed to age and smoking years as compared to the other dementia types.",
+            "Accordingly, dif \ufb01 culty in performing functional and social activities, in addition to the loss of motor function, were crucial predictors of mortality in FTLD patients, more so than in any other dementia type.",
+            "Hierarchical clustering of survival predictors grouped the following dementia types together: (1) vascular dementia (VaD) with depression, (2) Lewy body dementia (LBD) with frontotemporal lobar dementia (FTLD), (3) Alzheimer \u2019 s disease (AD) with other dementia, and (4) no dementia with unknown.",
+            "Meanwhile, given that FTLD and LBD are both associated with alterations in personality, behavioral changes, and motor symptoms, it is plausible that the model would group these conditions together.",
+            "In FTLD, for instance, a number of new cognitive features emerged: CDR \u00ae Plus NACC FTLD features (e.g., \u201c CDRLANG \u201d (Language) and \u201c COMMUN \u201d (Community Affairs)), clinician judgment features regarding motor function (e.g., \u201c NACCMOTF \u201d (Indicate the predominant symptom that was \ufb01 rst recognized as a decline in the subject \u2019 s motor function) and \u201c MOMODE \u201d (Mode of onset of motor symptoms)), and neuropsychological battery summary scores (e.g., \u201c NACCMMSE \u201d (Total MMSE score (using D-L-R-O-W)))."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "A Package for Survival Analysis in R. R package version 3.5-7",
+          "year": 2021,
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Bayesian Optimization: Open source constrained global optimization tool for Python",
+          "year": 2014,
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "To optimize model performance, we used Bayesian optimization to identify the optimal hyper-parameters for each XGBoost model, implemented with the BayesianOptimization 41 Python library.",
+            "We trained our models accordingly and employed Bayesian optimization 41 to select the optimal hyperparameters for each model."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Independent consultant",
+          "year": 2013,
+          "s2_paper_id": "9cf9ba251aa8a41be50a8342839b1813cfc30370",
+          "intents": [],
+          "is_influential": true,
+          "contexts": [
+            "We built all of our machine-learning models in Python v.3.7.12 using the xgboost and scikit-learn 36 libraries."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Mortality rates and risk factors in community based dementia patients",
+          "year": 2007,
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "The results of our global CDR survival analysis were consistent with those of past survival analyses in dementia patients 46,47 , con \ufb01 rming that higher CDR scores correlate with reduced survival probability."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/S0929-6646(09)60150-9",
+          "title": "Behavioral and psychologic symptoms in different types of dementia.",
+          "year": 2006,
+          "s2_paper_id": "8f5b6f64c49abaac4e2a41089af053bb7ab89eef",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Moreover, the grouping of VaD with depression con \ufb01 rms previous literature that has highlighted the synergistic effects of VaD and depression on patient mortality 26 , as VaD patients tend to exhibit a higher baseline risk for psychiatric symptoms like depression 59,60 .",
+            "Our \ufb01 ndings regarding FTLD and LBD align with prior studies that have similarly grouped the two subtypes together and determined that executive dysfunction and activity disturbances are the key indicators of cognitive impairment for both 59,61 .",
+            "Since many dementia types present similar symptoms and disease progressions 8 , differentiating and targeting dementia type-speci \ufb01 c symptoms and mortality predictors can be bene \ufb01 cial for patient populations 59 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Communications in medicine.",
+          "year": 1966,
+          "s2_paper_id": "141b5c54e9e00a3d35b0eb90f15322613b4687ec",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "XGBoost Parameters \u2014 xgboost 1.7.5 documentation",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "This parameter controls the balance of positive and negative weights, such that setting this parameter equal to the ratio between the number of samples in the negative class and the number of samples in the positive class produces a class-weighted loss function for the XGBoost model 37 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Additional information Supplementary information",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "read, edited, and approved the manuscript",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        }
+      ],
+      "citations": [
+        {
+          "doi": "10.1016/j.autcon.2025.106732",
+          "title": "Integrating metaheuristic optimization algorithms with random forest to predict waste generation in construction and demolition projects",
+          "year": 2026,
+          "s2_paper_id": "4c664bea1112b4ee473e518fc80f696d8090aa92",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fnagi.2025.1701970",
+          "title": "Music-induced physiological markers for detecting Alzheimer's disease using machine learning",
+          "year": 2025,
+          "s2_paper_id": "bb4d0f66db8f097b68d8261216646a4d81e58dab",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/s40001-025-03336-2",
+          "title": "Unsupervised clustering based on a graph attention network reveals high-risk subgroups among ICU dementia patients for enhanced mortality prediction",
+          "year": 2025,
+          "s2_paper_id": "7ff3835db64bf6b497e022bf5a8e2d1e78de2326",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1136/bmjopen-2025-105026",
+          "title": "Predicting disease progression in people living with HIV using machine learning and a nomogram: a 10-year cohort study based in Xinjiang, China",
+          "year": 2025,
+          "s2_paper_id": "1cc2a3e3d4d6ea9534eba7c75622c86bf309a5a1",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1002/dad2.70229",
+          "title": "Long\u2010term Alzheimer's disease mortality prediction in adults aged \u226560 years: A prospective cohort study benchmarking survival machine learning algorithms",
+          "year": 2025,
+          "s2_paper_id": "a59e3c8958f7d88eefd5c54cf60e5375479b44a6",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1177/13872877251380260",
+          "title": "Profile and disparities in health outcomes for older adults with dual diagnoses of diabetes and Alzheimer's disease",
+          "year": 2025,
+          "s2_paper_id": "618037034a56d568579ea7ecb38cb4e70d9e4eae",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "15,16 Throughout the paper we treat a visit as the unit of analysis but use \u2018 observation \u2019 rather than \u2018 individual \u2019 to avoid confusion."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/s41939-025-00931-y",
+          "title": "A comparative study of ML based predictive models for Alzheimer disease prediction",
+          "year": 2025,
+          "s2_paper_id": "5209e0a3b76edc2f52bb563139c2bb6a6a3fd323",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1002/ana.27229",
+          "title": "AI in Neurology: Everything, Everywhere, all at Once PART 2: Speech, Sentience, Scruples, and Service",
+          "year": 2025,
+          "s2_paper_id": "7bc43d173b51a541bfc7c50e1f289600b15bb77c",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/s11571-025-10253-x",
+          "title": "AI-driven early diagnosis of specific mental disorders: a comprehensive study",
+          "year": 2025,
+          "s2_paper_id": "10f9c6b5a3d2e3c6003faf22d8b6993b192b1b89",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "In Zhang et al. (2024), a multi-factorial XGBoost model was constructed to predict whether patients with different types of dementia would survive 1, 3, 5, or 10 years."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.4236/aad.2025.143004",
+          "title": "Optimized CNN Ensemble with Class-Balanced MRI Data Augmentation for Accurate \nMulti-Class Dementia Diagnosis",
+          "year": 2025,
+          "s2_paper_id": "fc499892a6fbffca5261c1e7d520ecc0a3adf786",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        }
+      ],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "pdf_url": "https://www.nature.com/articles/s43856-024-00437-7.pdf",
+          "host_type": "GOLD",
+          "is_best": false,
+          "source": "semantic_scholar"
+        }
+      ],
+      "best_oa_url": "https://www.nature.com/articles/s43856-024-00437-7.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Medicine",
+          "scheme": "s2_external",
+          "source": "semantic_scholar"
+        },
+        {
+          "value": "Medicine",
+          "scheme": "s2_s2-fos-model",
+          "source": "semantic_scholar"
+        },
+        {
+          "value": "Computer Science",
+          "scheme": "s2_s2-fos-model",
+          "source": "semantic_scholar"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "influential_citation_count",
+          "value": 0.0,
+          "source": "semantic_scholar"
+        }
+      ],
+      "tldr": "The ability of these models to identify dementia patients at a heightened risk of mortality could aid clinical practices, potentially allowing for earlier interventions and tailored treatment strategies to improve patient outcomes.",
+      "citation_styles": {
+        "bibtex": "@Article{Zhang2024MachineLM,\n author = {Jimmy Zhang and Luo Song and Zachary Miller and Kwun Chuen Gary Chan and Kuan-lin Huang},\n booktitle = {Communications Medicine},\n journal = {Communications Medicine},\n title = {Machine learning models identify predictive features of patient mortality across dementia types},\n volume = {4},\n year = {2024}\n}\n"
+      },
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "Machine learning models identify predictive features of patient mortality across dementia types",
+      "publication_date": "2024-02-28",
+      "publication_year": 2024,
+      "work_type": "journal-article",
+      "publisher": "Springer Science and Business Media LLC",
+      "container_title": "Communications Medicine",
+      "issn": [
+        "2730-664X"
+      ],
+      "doi": "10.1038/s43856-024-00437-7",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://www.nature.com/articles/s43856-024-00437-7.pdf",
+          "pdf_url": "https://www.nature.com/articles/s43856-024-00437-7.pdf",
+          "landing_page_url": "https://doi.org/10.1038/s43856-024-00437-7",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.nature.com/articles/s43856-024-00437-7.pdf",
+          "pdf_url": "https://www.nature.com/articles/s43856-024-00437-7.pdf",
+          "landing_page_url": "https://doi.org/10.1038/s43856-024-00437-7",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10901806/pdf/43856_2024_Article_437.pdf",
+          "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10901806/pdf/43856_2024_Article_437.pdf",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10901806",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://doaj.org/article/74174c24a76c4e8ba25cfad62f3a50f5",
+          "landing_page_url": "https://doaj.org/article/74174c24a76c4e8ba25cfad62f3a50f5",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://www.nature.com/articles/s43856-024-00437-7.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "Machine learning models identify predictive features of patient mortality across dementia types.",
+      "abstract": "<h4>Background</h4>Dementia care is challenging due to the divergent trajectories in disease progression and outcomes. Predictive models are needed to flag patients at risk of near-term mortality and identify factors contributing to mortality risk across different dementia types.<h4>Methods</h4>Here, we developed machine-learning models predicting dementia patient mortality at four different survival thresholds using a dataset of 45,275 unique participants and 163,782 visit records from the U.S. National Alzheimer's Coordinating Center (NACC). We built multi-factorial XGBoost models using a small set of mortality predictors and conducted stratified analyses with dementiatype-specific models.<h4>Results</h4>Our models achieved an area under the receiver operating characteristic curve (AUC-ROC) of over 0.82 utilizing nine parsimonious features for all 1-, 3-, 5-, and 10-year thresholds. The trained models mainly consisted of dementia-related predictors such as specific neuropsychological tests and were minimally affected by other age-related causes of death, e.g., stroke and cardiovascular conditions. Notably, stratified analyses revealed shared and distinct predictors of mortality across eight dementia types. Unsupervised clustering of mortality predictors grouped vascular dementia with depression and Lewy body dementia with frontotemporal lobar dementia.<h4>Conclusions</h4>This study demonstrates the feasibility of flagging dementia patients at risk of mortality for personalized clinical management. Parsimonious machine-learning models can be used to predict dementia patient mortality with a limited set of clinical features, and dementiatype-specific models can be applied to heterogeneous dementia patient populations.",
+      "publication_year": 2024,
+      "language": "eng",
+      "container_title": "Communications medicine",
+      "volume": "4",
+      "issue": "1",
+      "pages": "23",
+      "issn": [],
+      "doi": "10.1038/s43856-024-00437-7",
+      "pmid": "38418871",
+      "pmcid": "PMC10901806",
+      "authors": [
+        {
+          "name": {
+            "given": "Jimmy",
+            "family": "Zhang",
+            "full_name": "Zhang J",
+            "orcid": "0000-0003-2369-2292",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Genetics and Genomic Sciences, Center for Transformative Disease Modeling, Tisch Cancer Institute, Icahn Institute for Data Science and Genomic Technology, Icahn School of Medicine at Mount Sinai, New York, NY, 10029, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Columbia University, New York, NY, 10027, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Luo",
+            "family": "Song",
+            "full_name": "Song L",
+            "orcid": "0000-0003-3906-6042",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "School of Medicine, The University of Queensland, Herston, QLD, 4006, Australia.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Zachary",
+            "family": "Miller",
+            "full_name": "Miller Z",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "National Alzheimer's Coordinating Center, University of Washington, Seattle, WA, 98195, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Kwun C G",
+            "family": "Chan",
+            "full_name": "Chan KCG",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "National Alzheimer's Coordinating Center, University of Washington, Seattle, WA, 98195, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Kuan-Lin",
+            "family": "Huang",
+            "full_name": "Huang KL",
+            "orcid": "0000-0002-5537-5817",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Genetics and Genomic Sciences, Center for Transformative Disease Modeling, Tisch Cancer Institute, Icahn Institute for Data Science and Genomic Technology, Icahn School of Medicine at Mount Sinai, New York, NY, 10029, USA. kuan-lin.huang@mssm.edu.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 6,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "url": "https://europepmc.org/articles/PMC10901806",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC10901806?pdf=render",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "P30 AG008017",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P30 AG010129",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P30 AG013854",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P30 AG072947",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P30 AG072959",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P50 AG005681",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P50 AG025688",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P30 AG010124",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P50 AG005133",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P50 AG016574",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P20 AG068082",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P30 AG008051",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P30 AG010133",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P30 AG072980",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P50 AG005146",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P50 AG047266",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P30 AG019610",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P30 AG049638",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P30 AG066546",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P50 AG005134",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P20 AG068024",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P30 AG012300",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P30 AG028383",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P50 AG005136",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P50 AG016573",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P20 AG068053",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P30 AG010161",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P30 AG066518",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P50 AG023501",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P50 AG047270",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P50 AG047366",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "R35 GM138113",
+          "agency": "NIGMS NIH HHS",
+          "agency_abbreviation": "GM",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P30 AG035982",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P30 AG072958",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P50 AG005131",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P50 AG005138",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P50 AG008702",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P50 AG033514",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "U24 AG072122",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P20 AG068077",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P30 AG013846",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P30 AG053760",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P50 AG005142",
+          "agency": "NIA NIH HHS",
+          "agency_abbreviation": "AG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "R35GM138113",
+          "agency": "U.S. Department of Health &amp; Human Services | NIH | National Institute of General Medical Sciences",
+          "pi_names": [],
+          "source": "europe_pmc"
+        }
+      ],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 6.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [
+        {
+          "type": "Update of",
+          "id": "36711767",
+          "source": "MED"
+        },
+        {
+          "type": "Preprint in",
+          "id": "PPR600097",
+          "source": "PPR"
+        }
+      ],
+      "full_text_urls": [
+        {
+          "url": "https://doi.org/10.1038/s43856-024-00437-7",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC10901806",
+          "availability": "Open access",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC10901806?pdf=render",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openaire": {
+      "source": "openaire",
+      "found": true,
+      "raw": {},
+      "title": "Machine learning models identify predictive features of patient mortality across dementia types",
+      "abstract": "<jats:title>Abstract</jats:title>                   <jats:sec>                     <jats:title>Background</jats:title>                     <jats:p>Dementia care is challenging due to the divergent trajectories in disease progression and outcomes. Predictive models are needed to flag patients at risk of near-term mortality and identify factors contributing to mortality risk across different dementia types.</jats:p>                   </jats:sec>                   <jats:sec>                     <jats:title>Methods</jats:title>                     <jats:p>Here, we developed machine-learning models predicting dementia patient mortality at four different survival thresholds using a dataset of 45,275 unique participants and 163,782 visit records from the U.S. National Alzheimer\u2019s Coordinating Center (NACC). We built multi-factorial XGBoost models using a small set of mortality predictors and conducted stratified analyses with dementiatype-specific models.</jats:p>                   </jats:sec>                   <jats:sec>                     <jats:title>Results</jats:title>                     <jats:p>Our models achieved an area under the receiver operating characteristic curve (AUC-ROC) of over 0.82 utilizing nine parsimonious features for all 1-, 3-, 5-, and 10-year thresholds. The trained models mainly consisted of dementia-related predictors such as specific neuropsychological tests and were minimally affected by other age-related causes of death, e.g., stroke and cardiovascular conditions. Notably, stratified analyses revealed shared and distinct predictors of mortality across eight dementia types. Unsupervised clustering of mortality predictors grouped vascular dementia with depression and Lewy body dementia with frontotemporal lobar dementia.</jats:p>                   </jats:sec>                   <jats:sec>                     <jats:title>Conclusions</jats:title>                     <jats:p>This study demonstrates the feasibility of flagging dementia patients at risk of mortality for personalized clinical management. Parsimonious machine-learning models can be used to predict dementia patient mortality with a limited set of clinical features, and dementiatype-specific models can be applied to heterogeneous dementia patient populations.</jats:p>                   </jats:sec>",
+      "publication_date": "2024-02-28",
+      "publication_year": 2024,
+      "work_type": "publication",
+      "language": "eng",
+      "publisher": "Springer Science and Business Media LLC",
+      "issn": [],
+      "doi": "10.1038/s43856-024-00437-7",
+      "pmid": "38418871",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Jimmy Zhang",
+            "orcid": "0000-0003-2369-2292",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Luo Song",
+            "orcid": "0000-0003-3906-6042",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Zachary Miller",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kwun C. G. Chan",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kuan-lin Huang",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "citation_count": 11,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1038/s43856-024-00437-7",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38418871",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1038/s43856-024-00437-7",
+          "version": "Other literature type",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doaj.org/article/74174c24a76c4e8ba25cfad62f3a50f5",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "3P50AG016574-06S1",
+          "agency": "National Institutes of Health",
+          "title": "Mayo Alzheimers Disease Research Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::108ec7e219a2d66fcc586fa7707bb70f",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P20AG068024-02",
+          "agency": "National Institutes of Health",
+          "title": "UAB Alzheimer's Disease Research Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::30b15217741665c791ab0266aca3060a",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5R35GM138113-03",
+          "agency": "National Institutes of Health",
+          "title": "Integrative Approaches for Identifying Causal Gene-Cell Type Pairs of Complex Disease",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::03a2354e1ae7e73f2ce4640de0fbefac",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "2P50AG025688-11",
+          "agency": "National Institutes of Health",
+          "title": "A Proteogenomic Approach to Understanding AD GWAS Results",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::15778c66e6533d6c6fb52be550aea806",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P50AG005136-21",
+          "agency": "National Institutes of Health",
+          "title": "ALZHEIMERS DISEASE RESEARCH CENTER",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::0114ee9ba0b99aadc300916bebfc7384",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P20AG068053-03",
+          "agency": "National Institutes of Health",
+          "title": "Nevada Exploratory Alzheimer's Disease Research Center (NVEADRC)",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::53d02eed9b91d353602b65514644e16e",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "1P30AG072958-01",
+          "agency": "National Institutes of Health",
+          "title": "Duke/UNC Alzheimer's Disease Research Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::3977cf425068964859522682a58366c9",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P20AG068082-02",
+          "agency": "National Institutes of Health",
+          "title": "Vanderbilt Alzheimer's Disease Research Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::6ad9ec8d27b38cdc8c5e42bf63d771b9",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P30AG072959-02",
+          "agency": "National Institutes of Health",
+          "title": "Cleveland Alzheimers Disease Research Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::9c55c67a56e0b5f2e820c14fa01e0642",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P30AG010133-08",
+          "agency": "National Institutes of Health",
+          "title": "CORE-- EDUCATION AND INFORMATION TRANSFER",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::0186043eb054e5040500aeecc189090a",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P50AG047266-04",
+          "agency": "National Institutes of Health",
+          "title": "University of Florida - Mt. Sinai Medical Center AD Research Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::23630a921d7658e83e320873eb8a792a",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P50AG047270-03",
+          "agency": "National Institutes of Health",
+          "title": "Yale Alzheimer Disease Research Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::8911cef30b7091d120ce833cea8111cb",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3P50AG005134-04S3",
+          "agency": "National Institutes of Health",
+          "title": "ALZHEIMERS DISEASE RESEARCH CENTER",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::02846fe7919954f516ff56762b6e3ac8",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P50AG005131-25",
+          "agency": "National Institutes of Health",
+          "title": "CORE--CLINICAL",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::018580db0e7d1b488b3219bf57e5e301",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P20AG068077-03",
+          "agency": "National Institutes of Health",
+          "title": "New Mexico Alzheimer's Disease Research Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::2a6d82a34b349081912eac316030cc0c",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3P30AG013846-23S1",
+          "agency": "National Institutes of Health",
+          "title": "Boston University Alzheimer's Disease Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::052e31a3bf8dbe5f9254395275d68d57",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P50AG005681-19",
+          "agency": "National Institutes of Health",
+          "title": "Role of LRP &its ligand tPA in LTP &aging",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::0adc8c623abd0db2f936fbdf36c42a52",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P50AG005133-31",
+          "agency": "National Institutes of Health",
+          "title": "AMYLOID DEPOSTION, VASCULAR DISEASE AND CLINICAL PROGRESSION OF AD",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::007a5f2855756d2fe9032c50563958de",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P50AG033514-03",
+          "agency": "National Institutes of Health",
+          "title": "Clinical Core",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::06a802451a496fff8ec1068bc7d0f445",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P30AG028383-07",
+          "agency": "National Institutes of Health",
+          "title": "Clinical Core",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::1ae1c6a14139503de6d7388c4ca1befc",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P30AG008051-28",
+          "agency": "National Institutes of Health",
+          "title": "Alzheimer's Disease Core Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::0367a7dcf917b74e4be427cc31094baa",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P50AG047366-03",
+          "agency": "National Institutes of Health",
+          "title": "Stanford Alzheimer's Disease Research Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::042211a03a51f82782dd135cbb1362e1",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "2P50AG005142-31",
+          "agency": "National Institutes of Health",
+          "title": "Metabolic Factors in AD",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::1363c85d845f1d19d2a3d68c9bd616e4",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3P30AG012300-06S1",
+          "agency": "National Institutes of Health",
+          "title": "ROLE FOR FIBROBLAST GROWTH FACTOR IN ALZHEIMERS DISEASE",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::028b9c6db41167c2c95ac1da83c6c8da",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3P30AG010129-28S1",
+          "agency": "National Institutes of Health",
+          "title": "UC Davis Alzheimer's Core Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::05ef459160929cf9dc85b975b373ee08",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "2P30AG008017-21",
+          "agency": "National Institutes of Health",
+          "title": "EDUCATION AND INFORMATION CORE",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::0000a2d83bc690433ae0c9e915b9a6ea",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P30AG013854-05",
+          "agency": "National Institutes of Health",
+          "title": "CORE--CLINICAL",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::0decec4d3513fba3ea888bde25c273fa",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P50AG005138-34",
+          "agency": "National Institutes of Health",
+          "title": "Alzheimer's Disease Research Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::03c7ece42dfc9daba338fe0ac8dd88bf",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P50AG016573-09",
+          "agency": "National Institutes of Health",
+          "title": "CORE--NEUROPATHOLOGY CORE",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::1730c9fce3703e41f3f9ff29aa9f50c7",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P30AG049638-03",
+          "agency": "National Institutes of Health",
+          "title": "Wake Forest Alzheimer's Disease Core Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::02dbe05f25e2997e60c33e00011f60f2",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P50AG005146-20",
+          "agency": "National Institutes of Health",
+          "title": "ALZHEIMERS DISEASE AND ANIMAL MODELS",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::0571b96a55538edbc828b64cbeb351da",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "1P30AG010161-01",
+          "agency": "National Institutes of Health",
+          "title": "SHORT-TERM STABILITY OF CLINICAL TESTS",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::0ebc4fbc11fba5b45e030e535a7f6d74",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3P30AG010124-28S1",
+          "agency": "National Institutes of Health",
+          "title": "Alzheimer's Disease Core Center - Neuroimaging Core I",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::011b39968a5cc3da1688fb99adc53e2d",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "1P30AG066546-01A1",
+          "agency": "National Institutes of Health",
+          "title": "South Texas Alzheimer's Disease Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::40ee05feaf8804e105a4eb14b4859e97",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P30AG035982-05",
+          "agency": "National Institutes of Health",
+          "title": "Administrative Core",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::15323bd8412df4e1b8644c4326abb65a",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "1P30AG053760-01",
+          "agency": "National Institutes of Health",
+          "title": "Michigan Alzheimer's Disease Core Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::0d01ef921efe007d849a99ba0d221c0a",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P50AG023501-03",
+          "agency": "National Institutes of Health",
+          "title": "DATA MANAGEMENT AND BIOSTATISTICS",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::0532f80d8789cb9c737b281e0219e4f0",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "2P30AG019610-11",
+          "agency": "National Institutes of Health",
+          "title": "Education and Information Transfer Core",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::081a3a471a95d633ae02bae6670f467d",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3P50AG008702-11A1S1",
+          "agency": "National Institutes of Health",
+          "title": "GENES, AGING, LEARNING AND DEMENTIA",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::03787ab0d1249d2cde9ec1f0acf9a1ce",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5U24AG072122-03",
+          "agency": "National Institutes of Health",
+          "title": "National Alzheimer's Coordinating Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::2977eaf2fcf5c2331b81f1bd3ac34ac6",
+          "source": "openaire"
+        }
+      ],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "03 medical and health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "0302 clinical medicine",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "R",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Medicine",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Article",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "3. Good health",
+          "scheme": "SDG",
+          "source": "openaire"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "bip_citationCount",
+          "value": 11.0,
+          "class_label": "C5",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_influence",
+          "value": 2.9087064e-09,
+          "class_label": "C5",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_popularity",
+          "value": 9.972512e-09,
+          "class_label": "C4",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_impulse",
+          "value": 11.0,
+          "class_label": "C4",
+          "source": "openaire"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [
+        {
+          "grant_id": "3P50AG016574-06S1",
+          "agency": "National Institutes of Health",
+          "title": "Mayo Alzheimers Disease Research Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::108ec7e219a2d66fcc586fa7707bb70f",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P20AG068024-02",
+          "agency": "National Institutes of Health",
+          "title": "UAB Alzheimer's Disease Research Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::30b15217741665c791ab0266aca3060a",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5R35GM138113-03",
+          "agency": "National Institutes of Health",
+          "title": "Integrative Approaches for Identifying Causal Gene-Cell Type Pairs of Complex Disease",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::03a2354e1ae7e73f2ce4640de0fbefac",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "2P50AG025688-11",
+          "agency": "National Institutes of Health",
+          "title": "A Proteogenomic Approach to Understanding AD GWAS Results",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::15778c66e6533d6c6fb52be550aea806",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P50AG005136-21",
+          "agency": "National Institutes of Health",
+          "title": "ALZHEIMERS DISEASE RESEARCH CENTER",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::0114ee9ba0b99aadc300916bebfc7384",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P20AG068053-03",
+          "agency": "National Institutes of Health",
+          "title": "Nevada Exploratory Alzheimer's Disease Research Center (NVEADRC)",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::53d02eed9b91d353602b65514644e16e",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "1P30AG072958-01",
+          "agency": "National Institutes of Health",
+          "title": "Duke/UNC Alzheimer's Disease Research Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::3977cf425068964859522682a58366c9",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P20AG068082-02",
+          "agency": "National Institutes of Health",
+          "title": "Vanderbilt Alzheimer's Disease Research Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::6ad9ec8d27b38cdc8c5e42bf63d771b9",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P30AG072959-02",
+          "agency": "National Institutes of Health",
+          "title": "Cleveland Alzheimers Disease Research Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::9c55c67a56e0b5f2e820c14fa01e0642",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P30AG010133-08",
+          "agency": "National Institutes of Health",
+          "title": "CORE-- EDUCATION AND INFORMATION TRANSFER",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::0186043eb054e5040500aeecc189090a",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P50AG047266-04",
+          "agency": "National Institutes of Health",
+          "title": "University of Florida - Mt. Sinai Medical Center AD Research Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::23630a921d7658e83e320873eb8a792a",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P50AG047270-03",
+          "agency": "National Institutes of Health",
+          "title": "Yale Alzheimer Disease Research Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::8911cef30b7091d120ce833cea8111cb",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3P50AG005134-04S3",
+          "agency": "National Institutes of Health",
+          "title": "ALZHEIMERS DISEASE RESEARCH CENTER",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::02846fe7919954f516ff56762b6e3ac8",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P50AG005131-25",
+          "agency": "National Institutes of Health",
+          "title": "CORE--CLINICAL",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::018580db0e7d1b488b3219bf57e5e301",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P20AG068077-03",
+          "agency": "National Institutes of Health",
+          "title": "New Mexico Alzheimer's Disease Research Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::2a6d82a34b349081912eac316030cc0c",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3P30AG013846-23S1",
+          "agency": "National Institutes of Health",
+          "title": "Boston University Alzheimer's Disease Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::052e31a3bf8dbe5f9254395275d68d57",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P50AG005681-19",
+          "agency": "National Institutes of Health",
+          "title": "Role of LRP &its ligand tPA in LTP &aging",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::0adc8c623abd0db2f936fbdf36c42a52",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P50AG005133-31",
+          "agency": "National Institutes of Health",
+          "title": "AMYLOID DEPOSTION, VASCULAR DISEASE AND CLINICAL PROGRESSION OF AD",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::007a5f2855756d2fe9032c50563958de",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P50AG033514-03",
+          "agency": "National Institutes of Health",
+          "title": "Clinical Core",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::06a802451a496fff8ec1068bc7d0f445",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P30AG028383-07",
+          "agency": "National Institutes of Health",
+          "title": "Clinical Core",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::1ae1c6a14139503de6d7388c4ca1befc",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P30AG008051-28",
+          "agency": "National Institutes of Health",
+          "title": "Alzheimer's Disease Core Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::0367a7dcf917b74e4be427cc31094baa",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P50AG047366-03",
+          "agency": "National Institutes of Health",
+          "title": "Stanford Alzheimer's Disease Research Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::042211a03a51f82782dd135cbb1362e1",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "2P50AG005142-31",
+          "agency": "National Institutes of Health",
+          "title": "Metabolic Factors in AD",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::1363c85d845f1d19d2a3d68c9bd616e4",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3P30AG012300-06S1",
+          "agency": "National Institutes of Health",
+          "title": "ROLE FOR FIBROBLAST GROWTH FACTOR IN ALZHEIMERS DISEASE",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::028b9c6db41167c2c95ac1da83c6c8da",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3P30AG010129-28S1",
+          "agency": "National Institutes of Health",
+          "title": "UC Davis Alzheimer's Core Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::05ef459160929cf9dc85b975b373ee08",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "2P30AG008017-21",
+          "agency": "National Institutes of Health",
+          "title": "EDUCATION AND INFORMATION CORE",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::0000a2d83bc690433ae0c9e915b9a6ea",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P30AG013854-05",
+          "agency": "National Institutes of Health",
+          "title": "CORE--CLINICAL",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::0decec4d3513fba3ea888bde25c273fa",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P50AG005138-34",
+          "agency": "National Institutes of Health",
+          "title": "Alzheimer's Disease Research Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::03c7ece42dfc9daba338fe0ac8dd88bf",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P50AG016573-09",
+          "agency": "National Institutes of Health",
+          "title": "CORE--NEUROPATHOLOGY CORE",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::1730c9fce3703e41f3f9ff29aa9f50c7",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P30AG049638-03",
+          "agency": "National Institutes of Health",
+          "title": "Wake Forest Alzheimer's Disease Core Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::02dbe05f25e2997e60c33e00011f60f2",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P50AG005146-20",
+          "agency": "National Institutes of Health",
+          "title": "ALZHEIMERS DISEASE AND ANIMAL MODELS",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::0571b96a55538edbc828b64cbeb351da",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "1P30AG010161-01",
+          "agency": "National Institutes of Health",
+          "title": "SHORT-TERM STABILITY OF CLINICAL TESTS",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::0ebc4fbc11fba5b45e030e535a7f6d74",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3P30AG010124-28S1",
+          "agency": "National Institutes of Health",
+          "title": "Alzheimer's Disease Core Center - Neuroimaging Core I",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::011b39968a5cc3da1688fb99adc53e2d",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "1P30AG066546-01A1",
+          "agency": "National Institutes of Health",
+          "title": "South Texas Alzheimer's Disease Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::40ee05feaf8804e105a4eb14b4859e97",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P30AG035982-05",
+          "agency": "National Institutes of Health",
+          "title": "Administrative Core",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::15323bd8412df4e1b8644c4326abb65a",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "1P30AG053760-01",
+          "agency": "National Institutes of Health",
+          "title": "Michigan Alzheimer's Disease Core Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::0d01ef921efe007d849a99ba0d221c0a",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5P50AG023501-03",
+          "agency": "National Institutes of Health",
+          "title": "DATA MANAGEMENT AND BIOSTATISTICS",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::0532f80d8789cb9c737b281e0219e4f0",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "2P30AG019610-11",
+          "agency": "National Institutes of Health",
+          "title": "Education and Information Transfer Core",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::081a3a471a95d633ae02bae6670f467d",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "3P50AG008702-11A1S1",
+          "agency": "National Institutes of Health",
+          "title": "GENES, AGING, LEARNING AND DEMENTIA",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::03787ab0d1249d2cde9ec1f0acf9a1ce",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5U24AG072122-03",
+          "agency": "National Institutes of Health",
+          "title": "National Alzheimer's Coordinating Center",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::2977eaf2fcf5c2331b81f1bd3ac34ac6",
+          "source": "openaire"
+        }
+      ],
+      "alternate_ids": [
+        "doi:10.1038/s43856-024-00437-7",
+        "doi:10.1038/s43856-024-00437-7",
+        "pmid:38418871",
+        "pmc:PMC10901806",
+        "doi:10.1038/s43856-024-00437-7",
+        "doi:10.1038/s43856-024-00437-7"
+      ],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1038/s43856-024-00437-7",
+      "pmid": "19683066",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1038/s43856-024-00437-7",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1038/s43856-024-00437-7",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1038/s43856-024-00437-7",
+      "authors": [
+        {
+          "name": {
+            "given": "Jimmy",
+            "family": "Zhang",
+            "full_name": "Jimmy Zhang",
+            "orcid": "0000-0003-2369-2292",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Luo",
+            "family": "Song",
+            "full_name": "Luo Song",
+            "orcid": "0000-0003-3906-6042",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0003-2369-2292",
+          "given_names": "Jimmy",
+          "family_names": "Zhang",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0003-3906-6042",
+          "given_names": "Luo",
+          "family_names": "Song",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "KU Leuven",
+            "The University of Queensland Medicine Program",
+            "University of Texas MD Anderson Cancer Center UTHealth Graduate School of Biomedical Sciences",
+            "Zhejiang University of Technology"
+          ],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1038/s43856-024-00437-7",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1038/s43856-024-00437-7",
+    "pmid": "38418871",
+    "pmcid": "PMC10901806",
+    "openalex_id": "https://openalex.org/W4392233569",
+    "s2_paper_id": "a51161fdc672e5705bbbd058e8c0dfb14c10f0e5",
+    "s2_corpus_id": "268060691",
+    "handles": [],
+    "orcids": [
+      "0000-0002-5537-5817",
+      "0000-0002-5991-3053",
+      "0000-0003-1095-7837",
+      "0000-0003-2369-2292",
+      "0000-0003-3906-6042"
+    ],
+    "ror_ids": [
+      "https://ror.org/00cvxb145",
+      "https://ror.org/00hj8s172",
+      "https://ror.org/00rqy9422",
+      "https://ror.org/04a9tmd77"
+    ],
+    "grant_ids": [
+      "1P30AG010161-01",
+      "1P30AG053760-01",
+      "1P30AG066546-01A1",
+      "1P30AG072958-01",
+      "2P30AG008017-21",
+      "2P30AG019610-11",
+      "2P50AG005142-31",
+      "2P50AG025688-11",
+      "3P30AG010124-28S1",
+      "3P30AG010129-28S1",
+      "3P30AG012300-06S1",
+      "3P30AG013846-23S1",
+      "3P50AG005134-04S3",
+      "3P50AG008702-11A1S1",
+      "3P50AG016574-06S1",
+      "5P20AG068024-02",
+      "5P20AG068053-03",
+      "5P20AG068077-03",
+      "5P20AG068082-02",
+      "5P30AG008051-28",
+      "5P30AG010133-08",
+      "5P30AG013854-05",
+      "5P30AG028383-07",
+      "5P30AG035982-05",
+      "5P30AG049638-03",
+      "5P30AG072959-02",
+      "5P50AG005131-25",
+      "5P50AG005133-31",
+      "5P50AG005136-21",
+      "5P50AG005138-34",
+      "5P50AG005146-20",
+      "5P50AG005681-19",
+      "5P50AG016573-09",
+      "5P50AG023501-03",
+      "5P50AG033514-03",
+      "5P50AG047266-04",
+      "5P50AG047270-03",
+      "5P50AG047366-03",
+      "5R35GM138113-03",
+      "5U24AG072122-03",
+      "P20 AG068024",
+      "P20 AG068053",
+      "P20 AG068077",
+      "P20 AG068082",
+      "P30 AG008017",
+      "P30 AG008051",
+      "P30 AG010124",
+      "P30 AG010129",
+      "P30 AG010133",
+      "P30 AG010161",
+      "P30 AG012300",
+      "P30 AG013846",
+      "P30 AG013854",
+      "P30 AG019610",
+      "P30 AG028383",
+      "P30 AG035982",
+      "P30 AG049638",
+      "P30 AG053760",
+      "P30 AG066518",
+      "P30 AG066546",
+      "P30 AG072947",
+      "P30 AG072958",
+      "P30 AG072959",
+      "P30 AG072980",
+      "P50 AG005131",
+      "P50 AG005133",
+      "P50 AG005134",
+      "P50 AG005136",
+      "P50 AG005138",
+      "P50 AG005142",
+      "P50 AG005146",
+      "P50 AG005681",
+      "P50 AG008702",
+      "P50 AG016573",
+      "P50 AG016574",
+      "P50 AG023501",
+      "P50 AG025688",
+      "P50 AG033514",
+      "P50 AG047266",
+      "P50 AG047270",
+      "P50 AG047366",
+      "R35 GM138113",
+      "R35GM138113",
+      "U24 AG072122"
+    ],
+    "nct_ids": [],
+    "pmid_source": "europe_pmc",
+    "pmcid_source": "europe_pmc"
+  },
+  "conflicts": {
+    "doi": "10.1038/s43856-024-00437-7",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 11,
+          "openalex": 12,
+          "semantic_scholar": 10,
+          "europe_pmc": 6,
+          "openaire": 11
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 66,
+          "openalex": 65,
+          "semantic_scholar": 69
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "semantic_scholar": "JournalArticle",
+          "unpaywall": "journal-article",
+          "openaire": "publication"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 5,
+          "openalex": 5,
+          "semantic_scholar": 5,
+          "unpaywall": 5,
+          "europe_pmc": 5,
+          "openaire": 5,
+          "orcid": 2
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Springer Science and Business Media LLC",
+          "openalex": "https://openalex.org/P4310319908",
+          "unpaywall": "Springer Science and Business Media LLC",
+          "openaire": "Springer Science and Business Media LLC"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Communications Medicine",
+          "openalex": "Communications Medicine",
+          "semantic_scholar": "Communications Medicine",
+          "unpaywall": "Communications Medicine",
+          "europe_pmc": "Communications medicine"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng",
+          "openaire": "eng"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "grant_count",
+        "values": {
+          "europe_pmc": 44,
+          "openaire": 40
+        },
+        "risk": "medium"
+      }
+    ],
+    "agreement_count": 2,
+    "conflict_count": 8
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1038/s43856-024-00437-7",
+    "fetched_at": "2026-02-11T17:34:48.998549+00:00"
+  }
+}

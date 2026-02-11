@@ -1,0 +1,5614 @@
+{
+  "doi": "10.5281/zenodo.3406497",
+  "registration_agency": "datacite",
+  "retrieved_at": "2026-02-11T18:39:04.551966Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.5281/zenodo.3406497",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": true,
+      "raw": {},
+      "title": "RO-Crate Metadata Specification 1.2.0",
+      "abstract": "Web-version: https://w3id.org/ro/crate/1.2\n\nThis document specifies a method, known as RO-Crate (Research Object Crate), of aggregating and describing data for distribution, re-use, publishing, preservation and archiving. RO-Crates aggregate data into a Dataset, and may describe any resource including files, URI-addressable resources, or use other addressing schemes to locate digital or physical data. Describing resources includes technical metadata such as file sizes and types as well as contextual information including how datasets and files were created, and where, how they were collated and collected, who was involved in the process, what equipment and software was used, who funded the work, how to cite it, and crucially, how it may be reused, and by whom.\n\nThe core of RO-Crate is a machine-readable linked-data document in JSON-LD format known as an\u00a0RO-Crate Metadata Document. RO-Crate metadata documents can to a large extent be created and processed just like any other JSON: knowledge of JSON-LD is not needed, unless extending RO-Crate with additional concepts or combining RO-Crate with other Linked Data technologies.\n\nThis document, the RO-Crate specification, introduces the general RO-Crate concepts through a running example, adding normative pages that define in more detail these and other concepts using separate examples and recommendations.",
+      "publication_date": "2025",
+      "publication_year": 2025,
+      "work_type": "Standard",
+      "language": "en",
+      "publisher": "researchobject.org",
+      "issn": [],
+      "doi": "10.5281/zenodo.3406497",
+      "authors": [
+        {
+          "name": {
+            "given": "Peter",
+            "family": "Sefton",
+            "full_name": "Sefton, Peter",
+            "orcid": "0000-0002-3545-944X",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Eoghan",
+            "family": "\u00d3 Carrag\u00e1in",
+            "full_name": "\u00d3 Carrag\u00e1in, Eoghan",
+            "orcid": "0000-0001-8131-2150",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Stian",
+            "family": "Soiland-Reyes",
+            "full_name": "Soiland-Reyes, Stian",
+            "orcid": "0000-0001-9842-9718",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Oscar",
+            "family": "Corcho",
+            "full_name": "Corcho, Oscar",
+            "orcid": "0000-0002-9260-0753",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Daniel",
+            "family": "Garijo",
+            "full_name": "Garijo, Daniel",
+            "orcid": "0000-0003-0454-7145",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Raul",
+            "family": "Palma",
+            "full_name": "Palma, Raul",
+            "orcid": "0000-0003-4289-4922",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Frederik",
+            "family": "Coppens",
+            "full_name": "Coppens, Frederik",
+            "orcid": "0000-0001-6565-5145",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Carole",
+            "family": "Goble",
+            "full_name": "Goble, Carole",
+            "orcid": "0000-0003-1219-2137",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jos\u00e9 M.",
+            "family": "Fern\u00e1ndez",
+            "full_name": "Fern\u00e1ndez, Jos\u00e9 M.",
+            "orcid": "0000-0002-4806-5140",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Kyle",
+            "family": "Chard",
+            "full_name": "Chard, Kyle",
+            "orcid": "0000-0002-7370-4805",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jose Manuel",
+            "family": "Gomez-Perez",
+            "full_name": "Gomez-Perez, Jose Manuel",
+            "orcid": "0000-0002-5491-6431",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michael R.",
+            "family": "Crusoe",
+            "full_name": "Crusoe, Michael R.",
+            "orcid": "0000-0002-2961-9670",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ignacio",
+            "family": "Eguinoa",
+            "full_name": "Eguinoa, Ignacio",
+            "orcid": "0000-0002-6190-122X",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Nick",
+            "family": "Juty",
+            "full_name": "Juty, Nick",
+            "orcid": "0000-0002-2036-8350",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Kristi",
+            "family": "Holmes",
+            "full_name": "Holmes, Kristi",
+            "orcid": "0000-0001-8420-5254",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jason A.",
+            "family": "Clark",
+            "full_name": "Clark, Jason A.",
+            "orcid": "0000-0002-3588-6257",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Salvador",
+            "family": "Capella-Gutierrez",
+            "full_name": "Capella-Gutierrez, Salvador",
+            "orcid": "0000-0002-0309-604X",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Alasdair J. G.",
+            "family": "Gray",
+            "full_name": "Gray, Alasdair J. G.",
+            "orcid": "0000-0002-5711-4872",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Stuart",
+            "family": "Owen",
+            "full_name": "Owen, Stuart",
+            "orcid": "0000-0003-2130-0865",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Alan R.",
+            "family": "Williams",
+            "full_name": "Williams, Alan R.",
+            "orcid": "0000-0003-3156-2105",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Giacomo",
+            "family": "Tartari",
+            "full_name": "Tartari, Giacomo",
+            "orcid": "0000-0003-1130-2154",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Finn",
+            "family": "Bacall",
+            "full_name": "Bacall, Finn",
+            "orcid": "0000-0002-0048-3300",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Thomas",
+            "family": "Thelen",
+            "full_name": "Thelen, Thomas",
+            "orcid": "0000-0002-1756-2128",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Herv\u00e9",
+            "family": "M\u00e9nager",
+            "full_name": "M\u00e9nager, Herv\u00e9",
+            "orcid": "0000-0002-7552-1009",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Laura",
+            "family": "Rodr\u00edguez-Navas",
+            "full_name": "Rodr\u00edguez-Navas, Laura",
+            "orcid": "0000-0003-4929-1219",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Paul",
+            "family": "Walk",
+            "full_name": "Walk, Paul",
+            "orcid": "0000-0003-1541-5631",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "brandon",
+            "family": "whitehead",
+            "full_name": "whitehead, brandon",
+            "orcid": "0000-0002-0337-8610",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mark",
+            "family": "Wilkinson",
+            "full_name": "Wilkinson, Mark",
+            "orcid": "0000-0001-6960-357X",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Paul",
+            "family": "Groth",
+            "full_name": "Groth, Paul",
+            "orcid": "0000-0003-0183-6910",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Erich",
+            "family": "Bremer",
+            "full_name": "Bremer, Erich",
+            "orcid": "0000-0003-0223-1059",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Leyla Jael",
+            "family": "Castro",
+            "full_name": "Castro, Leyla Jael",
+            "orcid": "0000-0003-3986-0510",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Karl",
+            "family": "Sebby",
+            "full_name": "Sebby, Karl",
+            "orcid": "0000-0001-6022-9825",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Alexander",
+            "family": "Kanitz",
+            "full_name": "Kanitz, Alexander",
+            "orcid": "0000-0002-3468-0652",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ana",
+            "family": "Trisovic",
+            "full_name": "Trisovic, Ana",
+            "orcid": "0000-0003-1991-0533",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Gavin",
+            "family": "Kennedy",
+            "full_name": "Kennedy, Gavin",
+            "orcid": "0000-0003-3910-0474",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mark",
+            "family": "Graves",
+            "full_name": "Graves, Mark",
+            "orcid": "0000-0003-3486-8193",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jasper",
+            "family": "Koehorst",
+            "full_name": "Koehorst, Jasper",
+            "orcid": "0000-0001-8172-8981",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Simone",
+            "family": "Leo",
+            "full_name": "Leo, Simone",
+            "orcid": "0000-0001-8271-5429",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Marc",
+            "family": "Portier",
+            "full_name": "Portier, Marc",
+            "orcid": "0000-0002-9648-6484",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Paul",
+            "family": "Brack",
+            "full_name": "Brack, Paul",
+            "orcid": "0000-0002-5432-2748",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Milan",
+            "family": "Ojster\u0161ek",
+            "full_name": "Ojster\u0161ek, Milan",
+            "orcid": "0000-0003-1743-8300",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Bert",
+            "family": "Droesbeke",
+            "full_name": "Droesbeke, Bert",
+            "orcid": "0000-0003-0522-5674",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Chenxu",
+            "family": "Niu",
+            "full_name": "Niu, Chenxu",
+            "orcid": "0000-0002-2142-1731",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Kosuke",
+            "family": "Tanabe",
+            "full_name": "Tanabe, Kosuke",
+            "orcid": "0000-0002-9986-7223",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Tomasz",
+            "family": "Miksa",
+            "full_name": "Miksa, Tomasz",
+            "orcid": "0000-0002-4929-7875",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Marco",
+            "family": "La Rosa",
+            "full_name": "La Rosa, Marco",
+            "orcid": "0000-0001-5383-6993",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Cedric",
+            "family": "Decruw",
+            "full_name": "Decruw, Cedric",
+            "orcid": "0000-0001-6387-5988",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Andreas",
+            "family": "Czerniak",
+            "full_name": "Czerniak, Andreas",
+            "orcid": "0000-0003-3883-4169",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jeremy",
+            "family": "Jay",
+            "full_name": "Jay, Jeremy",
+            "orcid": "0000-0002-5761-7533",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sergio",
+            "family": "Serra",
+            "full_name": "Serra, Sergio",
+            "orcid": "0000-0002-0792-8157",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ronald",
+            "family": "Siebes",
+            "full_name": "Siebes, Ronald",
+            "orcid": "0000-0001-8772-7904",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Shaun",
+            "family": "de Witt",
+            "full_name": "de Witt, Shaun",
+            "orcid": "0000-0003-4196-3658",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Shady",
+            "family": "El Damaty",
+            "full_name": "El Damaty, Shady",
+            "orcid": "0000-0002-2318-4477",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Douglas",
+            "family": "Lowe",
+            "full_name": "Lowe, Douglas",
+            "orcid": "0000-0002-1248-3594",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Xuanqi",
+            "family": "Li",
+            "full_name": "Li, Xuanqi",
+            "orcid": "0000-0003-1498-6205",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sveinung",
+            "family": "Gundersen",
+            "full_name": "Gundersen, Sveinung",
+            "orcid": "0000-0001-9888-7954",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Muhammad",
+            "family": "Radifar",
+            "full_name": "Radifar, Muhammad",
+            "orcid": "0000-0001-9156-9478",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Rudolf",
+            "family": "Wittner",
+            "full_name": "Wittner, Rudolf",
+            "orcid": "0000-0002-0003-2024",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Oliver",
+            "family": "Woolland",
+            "full_name": "Woolland, Oliver",
+            "orcid": "0000-0002-4565-9760",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Paul",
+            "family": "De Geest",
+            "full_name": "De Geest, Paul",
+            "orcid": "0000-0002-8940-4946",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Douglas",
+            "family": "Fils",
+            "full_name": "Fils, Douglas",
+            "orcid": "0000-0002-2257-9127",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Florian",
+            "family": "Wetzels",
+            "full_name": "Wetzels, Florian",
+            "orcid": "0000-0002-5526-7138",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ra\u00fcl",
+            "family": "Sirvent",
+            "full_name": "Sirvent, Ra\u00fcl",
+            "orcid": "0000-0003-0606-2512",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Abigail",
+            "family": "Miller",
+            "full_name": "Miller, Abigail",
+            "orcid": "0000-0001-9228-2882",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jake",
+            "family": "Emerson",
+            "full_name": "Emerson, Jake",
+            "orcid": "0000-0003-0617-9219",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Davide",
+            "family": "Fucci",
+            "full_name": "Fucci, Davide",
+            "orcid": "0000-0002-0679-4361",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Bruno P.",
+            "family": "Kinoshita",
+            "full_name": "Kinoshita, Bruno P.",
+            "orcid": "0000-0001-8250-4074",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Maciek",
+            "family": "B\u0105k",
+            "full_name": "B\u0105k, Maciek",
+            "orcid": "0000-0003-1361-7301",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jens",
+            "family": "Hollunder",
+            "full_name": "Hollunder, Jens",
+            "orcid": "0000-0003-3234-6762",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Martin",
+            "family": "Weise",
+            "full_name": "Weise, Martin",
+            "orcid": "0000-0003-4216-302X",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Vartika",
+            "family": "Bisht",
+            "full_name": "Bisht, Vartika",
+            "orcid": "0000-0002-1880-0597",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Toshiyuki Nishiyama",
+            "family": "Hiraki",
+            "full_name": "Hiraki, Toshiyuki Nishiyama",
+            "orcid": "0000-0001-6712-6335",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Bram",
+            "family": "Ulrichts",
+            "full_name": "Ulrichts, Bram",
+            "orcid": "0000-0002-5934-8998",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michael",
+            "family": "Falk",
+            "full_name": "Falk, Michael",
+            "orcid": "0000-0001-9261-8390",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Eli",
+            "family": "Chadwick",
+            "full_name": "Chadwick, Eli",
+            "orcid": "0000-0002-0035-6475",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Daniel",
+            "family": "Bauer",
+            "full_name": "Bauer, Daniel",
+            "orcid": "0000-0001-9447-460X",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "James",
+            "family": "Love",
+            "full_name": "Love, James",
+            "orcid": "0000-0001-7760-1240",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Eleni",
+            "family": "Adamidi",
+            "full_name": "Adamidi, Eleni",
+            "orcid": "0000-0001-9925-1560",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Josh",
+            "family": "Moore",
+            "full_name": "Moore, Josh",
+            "orcid": "0000-0003-4028-811X",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Lars",
+            "family": "Sch\u00f6bitz",
+            "full_name": "Sch\u00f6bitz, Lars",
+            "orcid": "0000-0003-2196-5015",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Andreas",
+            "family": "Meier",
+            "full_name": "Meier, Andreas",
+            "orcid": "0009-0002-6541-4637",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Juan",
+            "family": "Fuentes",
+            "full_name": "Fuentes, Juan",
+            "orcid": "0009-0002-8209-1999",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Edan",
+            "family": "Bainglass",
+            "full_name": "Bainglass, Edan",
+            "orcid": "0000-0001-7218-0176",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Bal\u00e1zs E.",
+            "family": "Pataki",
+            "full_name": "Pataki, Bal\u00e1zs E.",
+            "orcid": "0000-0003-3482-0325",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        }
+      ],
+      "citation_count": 2,
+      "reference_count": 2,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "http://www.apache.org/licenses/LICENSE-2.0",
+          "spdx_id": "apache-2.0",
+          "source": "datacite"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "research object",
+          "source": "datacite"
+        },
+        {
+          "value": "data packaging",
+          "source": "datacite"
+        },
+        {
+          "value": "metadata",
+          "source": "datacite"
+        },
+        {
+          "value": "schema.org",
+          "source": "datacite"
+        },
+        {
+          "value": "JSON-LD",
+          "source": "datacite"
+        },
+        {
+          "value": "linked data",
+          "source": "datacite"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [
+        {
+          "identifier": "https://w3id.org/ro/crate/1.2/context",
+          "identifier_type": "URL",
+          "relation_type": "IsSupplementedBy",
+          "resource_type": "Software",
+          "source": "datacite"
+        },
+        {
+          "identifier": "https://w3id.org/ro/crate",
+          "identifier_type": "URL",
+          "relation_type": "IsDocumentedBy",
+          "source": "datacite"
+        },
+        {
+          "identifier": "https://w3id.org/ro/crate/1.1",
+          "identifier_type": "URL",
+          "relation_type": "IsNewVersionOf",
+          "resource_type": "Text",
+          "source": "datacite"
+        },
+        {
+          "identifier": "10.17487/RFC2119",
+          "identifier_type": "DOI",
+          "relation_type": "Cites",
+          "resource_type": "Text",
+          "source": "datacite"
+        },
+        {
+          "identifier": "https://github.com/ResearchObject/ro-crate",
+          "identifier_type": "URL",
+          "relation_type": "IsSupplementedBy",
+          "source": "datacite"
+        },
+        {
+          "identifier": "https://www.researchobject.org/",
+          "identifier_type": "URL",
+          "relation_type": "References",
+          "source": "datacite"
+        },
+        {
+          "identifier": "https://schema.org/",
+          "identifier_type": "URL",
+          "relation_type": "References",
+          "source": "datacite"
+        },
+        {
+          "identifier": "http://www.w3.org/TR/2014/REC-json-ld-20140116/",
+          "identifier_type": "URL",
+          "relation_type": "Cites",
+          "source": "datacite"
+        },
+        {
+          "identifier": "10.17487/RFC7159",
+          "identifier_type": "DOI",
+          "relation_type": "Cites",
+          "resource_type": "Text",
+          "source": "datacite"
+        },
+        {
+          "identifier": "10.17487/RFC3986",
+          "identifier_type": "DOI",
+          "relation_type": "Cites",
+          "resource_type": "Text",
+          "source": "datacite"
+        },
+        {
+          "identifier": "https://www.w3.org/TR/html52/",
+          "identifier_type": "URL",
+          "relation_type": "Cites",
+          "source": "datacite"
+        },
+        {
+          "identifier": "10.25490/a97f-egyk",
+          "identifier_type": "DOI",
+          "relation_type": "Cites",
+          "source": "datacite"
+        },
+        {
+          "identifier": "10.17487/RFC8493",
+          "identifier_type": "DOI",
+          "relation_type": "Cites",
+          "resource_type": "Text",
+          "source": "datacite"
+        },
+        {
+          "identifier": "https://ocfl.io/",
+          "identifier_type": "URL",
+          "relation_type": "References",
+          "source": "datacite"
+        },
+        {
+          "identifier": "https://w3id.org/ro/2016-01-28/",
+          "identifier_type": "URL",
+          "relation_type": "Cites",
+          "source": "datacite"
+        },
+        {
+          "identifier": "https://github.com/duraspace/pcdm/wiki",
+          "identifier_type": "URL",
+          "relation_type": "Cites",
+          "source": "datacite"
+        },
+        {
+          "identifier": "https://orcid.org/",
+          "identifier_type": "URL",
+          "relation_type": "References",
+          "source": "datacite"
+        },
+        {
+          "identifier": "https://ror.org/",
+          "identifier_type": "URL",
+          "relation_type": "References",
+          "source": "datacite"
+        },
+        {
+          "identifier": "https://www.nationalarchives.gov.uk/PRONOM/Default.aspx",
+          "identifier_type": "URL",
+          "relation_type": "References",
+          "source": "datacite"
+        },
+        {
+          "identifier": "https://en.wikipedia.org/wiki/Exif",
+          "identifier_type": "URL",
+          "relation_type": "Cites",
+          "source": "datacite"
+        },
+        {
+          "identifier": "https://en.wikipedia.org/wiki/BagIt",
+          "identifier_type": "URL",
+          "relation_type": "Cites",
+          "source": "datacite"
+        },
+        {
+          "identifier": "https://www.geonames.org/",
+          "identifier_type": "URL",
+          "relation_type": "References",
+          "source": "datacite"
+        },
+        {
+          "identifier": "https://omeka.org/",
+          "identifier_type": "URL",
+          "relation_type": "References",
+          "source": "datacite"
+        },
+        {
+          "identifier": "http://purl.org/ontology/bibo/interviewee",
+          "identifier_type": "PURL",
+          "relation_type": "References",
+          "source": "datacite"
+        },
+        {
+          "identifier": "http://neologism.ecs.soton.ac.uk/bibo.html#interviewee",
+          "identifier_type": "URL",
+          "relation_type": "References",
+          "source": "datacite"
+        },
+        {
+          "identifier": "https://github.com/ResearchObject/ro-crate/releases/tag/1.1.3",
+          "identifier_type": "URL",
+          "relation_type": "IsIdenticalTo",
+          "source": "datacite"
+        },
+        {
+          "identifier": "10.25490/a97f-egyk",
+          "identifier_type": "DOI",
+          "relation_type": "Cites",
+          "source": "datacite"
+        },
+        {
+          "identifier": "https://www.w3.org/TR/swbp-vocab-pub/",
+          "identifier_type": "URL",
+          "relation_type": "Cites",
+          "resource_type": "Text",
+          "source": "datacite"
+        },
+        {
+          "identifier": "https://w3id.org/ro/crate/1.2",
+          "identifier_type": "URL",
+          "relation_type": "IsIdenticalTo",
+          "resource_type": "Text",
+          "source": "datacite"
+        },
+        {
+          "identifier": "https://www.researchobject.org/ro-crate/specification/1.2/",
+          "identifier_type": "URL",
+          "relation_type": "IsIdenticalTo",
+          "source": "datacite"
+        },
+        {
+          "identifier": "https://www.researchobject.org/ro-crate/specification/1.2/ro-crate-metadata.jsonld",
+          "identifier_type": "URL",
+          "relation_type": "IsDocumentedBy",
+          "resource_type": "Dataset",
+          "source": "datacite"
+        },
+        {
+          "identifier": "https://www.researchobject.org/ro-crate/specification/1.2/ro-crate-preview.html",
+          "identifier_type": "URL",
+          "relation_type": "IsDocumentedBy",
+          "source": "datacite"
+        },
+        {
+          "identifier": "10.3233/DS-210053",
+          "identifier_type": "DOI",
+          "relation_type": "IsDescribedBy",
+          "resource_type": "JournalArticle",
+          "source": "datacite"
+        },
+        {
+          "identifier": "10.5281/zenodo.5841615",
+          "identifier_type": "DOI",
+          "relation_type": "HasVersion",
+          "source": "datacite"
+        },
+        {
+          "identifier": "10.5281/zenodo.3406498",
+          "identifier_type": "DOI",
+          "relation_type": "HasVersion",
+          "source": "datacite"
+        },
+        {
+          "identifier": "10.5281/zenodo.13751027",
+          "identifier_type": "DOI",
+          "relation_type": "HasVersion",
+          "source": "datacite"
+        },
+        {
+          "identifier": "10.5281/zenodo.7867028",
+          "identifier_type": "DOI",
+          "relation_type": "HasVersion",
+          "source": "datacite"
+        },
+        {
+          "identifier": "10.5281/zenodo.4541002",
+          "identifier_type": "DOI",
+          "relation_type": "HasVersion",
+          "source": "datacite"
+        },
+        {
+          "identifier": "10.5281/zenodo.3541888",
+          "identifier_type": "DOI",
+          "relation_type": "HasVersion",
+          "source": "datacite"
+        },
+        {
+          "identifier": "10.5281/zenodo.4031327",
+          "identifier_type": "DOI",
+          "relation_type": "HasVersion",
+          "source": "datacite"
+        }
+      ],
+      "version_info": {
+        "total_versions": 5,
+        "version_dois": [
+          "10.5281/zenodo.3541888",
+          "10.5281/zenodo.5841615",
+          "10.5281/zenodo.3406498",
+          "10.5281/zenodo.4031327",
+          "10.5281/zenodo.4541002",
+          "10.5281/zenodo.13751027",
+          "10.5281/zenodo.7867028"
+        ],
+        "source": "datacite"
+      },
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "view_count",
+          "value": 0.0,
+          "source": "datacite"
+        },
+        {
+          "name": "download_count",
+          "value": 0.0,
+          "source": "datacite"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "RO-Crate Metadata Specification 1.2.0",
+      "abstract": "Web-version: https://w3id.org/ro/crate/1.2 This document specifies a method, known as RO-Crate (Research Object Crate), of aggregating and describing data for distribution, re-use, publishing, preservation and archiving. RO-Crates aggregate data into a Dataset, and may describe any resource including files, URI-addressable resources, or use other addressing schemes to locate digital or physical data. Describing resources includes technical metadata such as file sizes and types as well as contextual information including how datasets and files were created, and where, how they were collated and collected, who was involved in the process, what equipment and software was used, who funded the work, how to cite it, and crucially, how it may be reused, and by whom. The core of RO-Crate is a machine-readable linked-data document in JSON-LD format known as an RO-Crate Metadata Document. RO-Crate metadata documents can to a large extent be created and processed just like any other JSON: knowledge of JSON-LD is not needed, unless extending RO-Crate with additional concepts or combining RO-Crate with other Linked Data technologies. This document, the RO-Crate specification, introduces the general RO-Crate concepts through a running example, adding normative pages that define in more detail these and other concepts using separate examples and recommendations.",
+      "publication_date": "2025-06-04",
+      "publication_year": 2025,
+      "work_type": "other",
+      "language": "en",
+      "publisher": "https://openalex.org/I1294671590",
+      "container_title": "HAL (Le Centre pour la Communication Scientifique Directe)",
+      "issn": [],
+      "doi": "10.5281/zenodo.3406497",
+      "openalex_id": "https://openalex.org/W4400118483",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Peter Sefton",
+            "orcid": "0000-0002-3545-944X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "The University of Queensland",
+              "ror_id": "https://ror.org/00rqy9422",
+              "country_code": "AU",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5089852293",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Eoghan \u00d3 Carrag\u00e1in",
+            "orcid": "0000-0001-8131-2150",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "National Museum of Ireland",
+              "ror_id": "https://ror.org/035t6ww14",
+              "country_code": "IE",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5075406912",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Stian Soiland\u2010Reyes",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Manchester",
+              "ror_id": "https://ror.org/027m9bs27",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5029941394",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "\u00d3scar Corcho",
+            "orcid": "0000-0002-9260-0753",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Universidad Polit\u00e9cnica de Madrid",
+              "ror_id": "https://ror.org/03n6nwv02",
+              "country_code": "ES",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5082377531",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Daniel Garijo",
+            "orcid": "0000-0003-0454-7145",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Universidad Polit\u00e9cnica de Madrid",
+              "ror_id": "https://ror.org/03n6nwv02",
+              "country_code": "ES",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5033224077",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ra\u00fal Palma",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Poznan Supercomputing and Networking Center",
+              "ror_id": "https://ror.org/025cj6e44",
+              "country_code": "PL",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5111429552",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Frederik Coppens",
+            "orcid": "0000-0001-6565-5145",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "VIB-VUB Center for Structural Biology",
+              "ror_id": "https://ror.org/03e84cm85",
+              "country_code": "BE",
+              "source": "openalex"
+            },
+            {
+              "name": "Ghent University",
+              "ror_id": "https://ror.org/00cv9y106",
+              "country_code": "BE",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5034617878",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Carole Goble",
+            "orcid": "0000-0003-1219-2137",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Manchester",
+              "ror_id": "https://ror.org/027m9bs27",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5027899893",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jos\u00e9 Lu\u00eds Fern\u00e1ndez",
+            "orcid": "0000-0002-2985-7169",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Barcelona Supercomputing Center",
+              "ror_id": "https://ror.org/05sd8tv96",
+              "country_code": "ES",
+              "source": "openalex"
+            },
+            {
+              "name": "Universitat Polit\u00e8cnica de Catalunya",
+              "ror_id": "https://ror.org/03mb6wj31",
+              "country_code": "ES",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5100681489",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kyle Chard",
+            "orcid": "0000-0002-7370-4805",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Chicago",
+              "ror_id": "https://ror.org/024mw5h28",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5065464552",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jose Manu\u00e9l G\u00f3mez-P\u00e9rez",
+            "orcid": "0000-0002-5491-6431",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5011911779",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Michael R. Crusoe",
+            "orcid": "0000-0002-2961-9670",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Vrije Universiteit Amsterdam",
+              "ror_id": "https://ror.org/008xxew50",
+              "country_code": "NL",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5020288899",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ignacio Eguinoa",
+            "orcid": "0000-0002-6190-122X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "VIB-VUB Center for Structural Biology",
+              "ror_id": "https://ror.org/03e84cm85",
+              "country_code": "BE",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5060114066",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Nick Juty",
+            "orcid": "0000-0002-2036-8350",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Manchester",
+              "ror_id": "https://ror.org/027m9bs27",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5057780150",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kristi Holmes",
+            "orcid": "0000-0001-8420-5254",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Northwestern University",
+              "ror_id": "https://ror.org/000e0be47",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5091019754",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jason A. Clark",
+            "orcid": "0000-0002-3588-6257",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Montana State University",
+              "ror_id": "https://ror.org/02w0trx84",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5080044971",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Salvador Capella-Guti\u00e9rrez",
+            "orcid": "0000-0002-0309-604X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Barcelona Supercomputing Center",
+              "ror_id": "https://ror.org/05sd8tv96",
+              "country_code": "ES",
+              "source": "openalex"
+            },
+            {
+              "name": "Universitat Polit\u00e8cnica de Catalunya",
+              "ror_id": "https://ror.org/03mb6wj31",
+              "country_code": "ES",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5059757648",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Alasdair J. G. Gray",
+            "orcid": "0000-0002-5711-4872",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Heriot-Watt University",
+              "ror_id": "https://ror.org/04mghma93",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5016133956",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Stuart Owen",
+            "orcid": "0000-0003-2130-0865",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Manchester",
+              "ror_id": "https://ror.org/027m9bs27",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5022818385",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Alan Williams",
+            "orcid": "0000-0003-3156-2105",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Manchester",
+              "ror_id": "https://ror.org/027m9bs27",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5074143964",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Giacomo Tartari",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Bologna",
+              "ror_id": "https://ror.org/01111rn36",
+              "country_code": "IT",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5111374379",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Finn Bacall",
+            "orcid": "0000-0002-0048-3300",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Manchester",
+              "ror_id": "https://ror.org/027m9bs27",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5009097065",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Thomas Thelen",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "State Street (United States)",
+              "ror_id": "https://ror.org/0116zdb24",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "National Center for Ecological Analysis and Synthesis",
+              "ror_id": "https://ror.org/0146z4r19",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5080605220",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Herv\u00e9 M\u00e9nager",
+            "orcid": "0000-0002-7552-1009",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "G\u00e9nomique Bioinformatique et Applications",
+              "ror_id": "https://ror.org/0264vhs54",
+              "country_code": "FR",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5057666741",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Laura Rodr\u00edguez\u2010Navas",
+            "orcid": "0000-0003-4929-1219",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Universitat Polit\u00e8cnica de Catalunya",
+              "ror_id": "https://ror.org/03mb6wj31",
+              "country_code": "ES",
+              "source": "openalex"
+            },
+            {
+              "name": "Barcelona Supercomputing Center",
+              "ror_id": "https://ror.org/05sd8tv96",
+              "country_code": "ES",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5101729659",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Paul Walk",
+            "orcid": "0000-0003-1541-5631",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5089323632",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Brandon Whitehead",
+            "orcid": "0000-0002-0337-8610",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Manaaki Whenua \u2013 Landcare Research",
+              "ror_id": "https://ror.org/02p9cyn66",
+              "country_code": "NZ",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5011112960",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Mark D. Wilkinson",
+            "orcid": "0000-0001-6960-357X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Universidad Polit\u00e9cnica de Madrid",
+              "ror_id": "https://ror.org/03n6nwv02",
+              "country_code": "ES",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5067974158",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Paul Groth",
+            "orcid": "0000-0003-0183-6910",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Amsterdam",
+              "ror_id": "https://ror.org/04dkp9463",
+              "country_code": "NL",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5034924491",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Erich Bremer",
+            "orcid": "0000-0003-0223-1059",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Stony Brook University",
+              "ror_id": "https://ror.org/05qghxh33",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5056187087",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Leyla Jael Castro",
+            "orcid": "0000-0003-3986-0510",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "ZB MED - Information Centre for Life Sciences",
+              "ror_id": "https://ror.org/0259fwx54",
+              "country_code": "DE",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5053160264",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Karl Sebby",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "National Institute of Standards and Technology",
+              "ror_id": "https://ror.org/05xpvk416",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5079081262",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Alexander Kanitz",
+            "orcid": "0000-0002-3468-0652",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Basel",
+              "ror_id": "https://ror.org/02s6k3f65",
+              "country_code": "CH",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5016824263",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "A. Trisovic",
+            "orcid": "0000-0003-1991-0533",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Harvard University Press",
+              "ror_id": "https://ror.org/006v7bf86",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5114375346",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Gavin Kennedy",
+            "orcid": "0000-0003-3910-0474",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5010455484",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Mark Graves",
+            "orcid": "0000-0003-3146-3203",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5080265363",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jasper J. Koehorst",
+            "orcid": "0000-0001-8172-8981",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Wageningen University & Research",
+              "ror_id": "https://ror.org/04qw24q55",
+              "country_code": "NL",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5028433887",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Simone Leo",
+            "orcid": "0000-0001-8271-5429",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Center for Advanced Studies Research and Development in Sardinia",
+              "ror_id": "https://ror.org/03jdxdk20",
+              "country_code": "IT",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5041142252",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Marc Portier",
+            "orcid": "0000-0002-9648-6484",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Flanders Marine Institute",
+              "ror_id": "https://ror.org/0496vr396",
+              "country_code": "BE",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5074768260",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Paul Brack",
+            "orcid": "0000-0002-5432-2748",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Manchester",
+              "ror_id": "https://ror.org/027m9bs27",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5059103997",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Milan Ojster\u0161ek",
+            "orcid": "0000-0003-1743-8300",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Maribor",
+              "ror_id": "https://ror.org/01d5jce07",
+              "country_code": "SI",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5044430271",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Bert Droesbeke",
+            "orcid": "0000-0003-0522-5674",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "VIB-VUB Center for Structural Biology",
+              "ror_id": "https://ror.org/03e84cm85",
+              "country_code": "BE",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5029629528",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Chenxu Niu",
+            "orcid": "0000-0002-2142-1731",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Science and Technology of China",
+              "ror_id": "https://ror.org/04c4dkn09",
+              "country_code": "CN",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5065223452",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kosuke Tanabe",
+            "orcid": "0000-0002-9986-7223",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "National Institute for Materials Science",
+              "ror_id": "https://ror.org/026v1ze26",
+              "country_code": "JP",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5037733987",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Tomasz Miksa",
+            "orcid": "0000-0002-4929-7875",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "TU Wien",
+              "ror_id": "https://ror.org/04d836q62",
+              "country_code": "AT",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5015351144",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "M. Rosa",
+            "orcid": "0000-0001-5383-6993",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "The University of Melbourne",
+              "ror_id": "https://ror.org/01ej9dk98",
+              "country_code": "AU",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5067674070",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Cedric Decruw",
+            "orcid": "0000-0001-6387-5988",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Flanders Marine Institute",
+              "ror_id": "https://ror.org/0496vr396",
+              "country_code": "BE",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5035487276",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Andreas Czerniak",
+            "orcid": "0000-0003-3883-4169",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Bielefeld University",
+              "ror_id": "https://ror.org/02hpadn98",
+              "country_code": "DE",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5070364117",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jeremy J. Jay",
+            "orcid": "0000-0002-5761-7533",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of North Carolina at Charlotte",
+              "ror_id": "https://ror.org/04dawnj30",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5014072628",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "S\u00e9rgio Manuel Serra da Cruz",
+            "orcid": "0000-0002-0792-8157",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Universidade Federal do Estado do Rio de Janeiro",
+              "ror_id": "https://ror.org/04tec8z30",
+              "country_code": "BR",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5068310714",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ronald Siebes",
+            "orcid": "0000-0001-8772-7904",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Vrije Universiteit Amsterdam",
+              "ror_id": "https://ror.org/008xxew50",
+              "country_code": "NL",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5061125232",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Shaun de Witt",
+            "orcid": "0000-0003-4196-3658",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "United Kingdom Atomic Energy Authority",
+              "ror_id": "https://ror.org/0361bwx64",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5023272930",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Shady El Damaty",
+            "orcid": "0000-0002-2318-4477",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Georgetown University",
+              "ror_id": "https://ror.org/05vzafd60",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5017056637",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Douglas Lowe",
+            "orcid": "0000-0002-1248-3594",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Manchester",
+              "ror_id": "https://ror.org/027m9bs27",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5048955185",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Xinghong Li",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Manchester",
+              "ror_id": "https://ror.org/027m9bs27",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5025577302",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Sveinung Gundersen",
+            "orcid": "0000-0001-9888-7954",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Oslo",
+              "ror_id": "https://ror.org/01xtthb56",
+              "country_code": "NO",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5014990782",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Muhammad Radifar",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5099637209",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Wittner, Rudolf",
+            "orcid": "0000-0002-0003-2024",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Woolland, Oliver",
+            "orcid": "0000-0002-4565-9760",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "De Geest, Paul",
+            "orcid": "0000-0002-8940-4946",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Fils, Douglas",
+            "orcid": "0000-0002-2257-9127",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Wetzels, Florian",
+            "orcid": "0000-0002-5526-7138",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Sirvent, Ra\u00fcl",
+            "orcid": "0000-0003-0606-2512",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Miller, Abigail",
+            "orcid": "0000-0001-9228-2882",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Emerson, Jake",
+            "orcid": "0000-0003-0617-9219",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Fucci, Davide",
+            "orcid": "0000-0002-0679-4361",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kinoshita, Bruno P.",
+            "orcid": "0000-0001-8250-4074",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "B\u0105k, Maciek",
+            "orcid": "0000-0003-1361-7301",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Hollunder, Jens",
+            "orcid": "0000-0003-3234-6762",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Weise, Martin",
+            "orcid": "",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Bisht, Vartika",
+            "orcid": "0000-0002-1880-0597",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Hiraki, Toshiyuki Nishiyama",
+            "orcid": "0000-0001-6712-6335",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ulrichts, Bram",
+            "orcid": "0000-0002-5934-8998",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Falk, Michael",
+            "orcid": "0000-0001-9261-8390",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Chadwick, Eli",
+            "orcid": "0000-0002-0035-6475",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Bauer, Daniel",
+            "orcid": "",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Love, James",
+            "orcid": "0000-0001-7760-1240",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Adamidi, Eleni",
+            "orcid": "0000-0001-9925-1560",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Moore, Josh",
+            "orcid": "",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Sch\u00f6bitz, Lars",
+            "orcid": "0000-0003-2196-5015",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Meier, Andreas",
+            "orcid": "0009-0002-6541-4637",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Fuentes, Juan",
+            "orcid": "0009-0002-8209-1999",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Bainglass, Edan",
+            "orcid": "0000-0001-7218-0176",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Pataki, Bal\u00e1zs E.",
+            "orcid": "0000-0003-3482-0325",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 15,
+      "reference_count": 0,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {
+        "2025": 1,
+        "2024": 4,
+        "2023": 4,
+        "2022": 5,
+        "2021": 1
+      },
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_locations": [
+        {
+          "url": "https://hal.science/hal-04627962",
+          "pdf_url": "https://hal.science/hal-04627962v1/document",
+          "landing_page_url": "https://hal.science/hal-04627962",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/I1294671590",
+          "source": "openalex"
+        },
+        {
+          "url": "https://hal.science/hal-04627962",
+          "pdf_url": "https://hal.science/hal-04627962v1/document",
+          "landing_page_url": "https://hal.science/hal-04627962",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1294671590",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.5281/zenodo.3406497",
+          "landing_page_url": "https://doi.org/10.5281/zenodo.3406497",
+          "host_type": "repository",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I67311998",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://hal.science/hal-04627962v1/document",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Distributed and Parallel Computing Systems",
+          "scheme": "openalex_topic",
+          "score": 0.43689998984336853,
+          "source": "openalex"
+        },
+        {
+          "value": "Simulation Techniques and Applications",
+          "scheme": "openalex_topic",
+          "score": 0.4205000102519989,
+          "source": "openalex"
+        },
+        {
+          "value": "Crate",
+          "scheme": "openalex_concept",
+          "score": 0.9369926452636719,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Metadata",
+          "scheme": "openalex_concept",
+          "score": 0.7748390436172485,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.5528813600540161,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Programming language",
+          "scheme": "openalex_concept",
+          "score": 0.47231030464172363,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Database",
+          "scheme": "openalex_concept",
+          "score": 0.44985708594322205,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "World Wide Web",
+          "scheme": "openalex_concept",
+          "score": 0.3751954734325409,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Operating system",
+          "scheme": "openalex_concept",
+          "score": 0.34617769718170166,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Engineering",
+          "scheme": "openalex_concept",
+          "score": 0.11346253752708435,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Mechanical engineering",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Crate",
+        "Metadata",
+        "Computer science",
+        "Programming language",
+        "Database",
+        "World Wide Web",
+        "Operating system",
+        "Engineering"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.5281/zenodo.3406497",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.5281/zenodo.3406497",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.5281/zenodo.3406497",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.5281/zenodo.3406497",
+      "pmid": "23671333",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": true,
+      "raw": {},
+      "title": "RO-Crate Metadata Specification 1.2.0",
+      "abstract": "<p><strong>Web-version:</strong> <a href=\"https://w3id.org/ro/crate/1.2\">https://w3id.org/ro/crate/1.2</a></p>\n<p>This document specifies a method, known as <em>RO-Crate</em> (Research Object Crate), of aggregating and describing data for distribution, re-use, publishing, preservation and archiving. RO-Crates aggregate data into a Dataset, and may describe any resource including files, URI-addressable resources, or use other addressing schemes to locate digital or physical data. Describing resources includes technical metadata such as file sizes and types as well as contextual information including how datasets and files were created, and where, how they were collated and collected, who was involved in the process, what equipment and software was used, who funded the work, how to cite it, and crucially, how it may be reused, and by whom.</p>\n<p>The core of RO-Crate is a machine-readable linked-data document in JSON-LD format known as an&nbsp;<strong>RO-Crate Metadata Document</strong>. RO-Crate metadata documents can to a large extent be created and processed just like any other JSON: knowledge of JSON-LD is not needed, unless extending RO-Crate with additional concepts or combining RO-Crate with other Linked Data technologies.</p>\n<p>This document, the RO-Crate specification, introduces the general RO-Crate concepts through a running example, adding normative pages that define in more detail these and other concepts using separate examples and recommendations.</p>",
+      "publication_date": "2025-06-04",
+      "publication_year": 2025,
+      "work_type": "publication",
+      "language": "eng",
+      "issn": [],
+      "doi": "10.5281/zenodo.13751027",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Sefton, Peter",
+            "orcid": "0000-0002-3545-944X",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "\u00d3 Carrag\u00e1in, Eoghan",
+            "orcid": "0000-0001-8131-2150",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Soiland-Reyes, Stian",
+            "orcid": "0000-0001-9842-9718",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Corcho, Oscar",
+            "orcid": "0000-0002-9260-0753",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Garijo, Daniel",
+            "orcid": "0000-0003-0454-7145",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Palma, Raul",
+            "orcid": "0000-0003-4289-4922",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Coppens, Frederik",
+            "orcid": "0000-0001-6565-5145",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Goble, Carole",
+            "orcid": "0000-0003-1219-2137",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Fern\u00e1ndez, Jos\u00e9 M.",
+            "orcid": "0000-0002-4806-5140",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Chard, Kyle",
+            "orcid": "0000-0002-7370-4805",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Gomez-Perez, Jose Manuel",
+            "orcid": "0000-0002-5491-6431",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Crusoe, Michael R.",
+            "orcid": "0000-0002-2961-9670",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Eguinoa, Ignacio",
+            "orcid": "0000-0002-6190-122X",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Juty, Nick",
+            "orcid": "0000-0002-2036-8350",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Holmes, Kristi",
+            "orcid": "0000-0001-8420-5254",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Clark, Jason A.",
+            "orcid": "0000-0002-3588-6257",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Capella-Gutierrez, Salvador",
+            "orcid": "0000-0002-0309-604X",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Gray, Alasdair J. G.",
+            "orcid": "0000-0002-5711-4872",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Owen, Stuart",
+            "orcid": "0000-0003-2130-0865",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Williams, Alan R.",
+            "orcid": "0000-0003-3156-2105",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Tartari, Giacomo",
+            "orcid": "0000-0003-1130-2154",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Bacall, Finn",
+            "orcid": "0000-0002-0048-3300",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Thelen, Thomas",
+            "orcid": "0000-0002-1756-2128",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "M\u00e9nager, Herv\u00e9",
+            "orcid": "0000-0002-7552-1009",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Rodr\u00edguez-Navas, Laura",
+            "orcid": "0000-0003-4929-1219",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Walk, Paul",
+            "orcid": "0000-0003-1541-5631",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "whitehead, brandon",
+            "orcid": "0000-0002-0337-8610",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Wilkinson, Mark",
+            "orcid": "0000-0001-6960-357X",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Groth, Paul",
+            "orcid": "0000-0003-0183-6910",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Bremer, Erich",
+            "orcid": "0000-0003-0223-1059",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Castro, Leyla Jael",
+            "orcid": "0000-0003-3986-0510",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Sebby, Karl",
+            "orcid": "0000-0001-6022-9825",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kanitz, Alexander",
+            "orcid": "0000-0002-3468-0652",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Trisovic, Ana",
+            "orcid": "0000-0003-1991-0533",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kennedy, Gavin",
+            "orcid": "0000-0003-3910-0474",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Graves, Mark",
+            "orcid": "0000-0003-3486-8193",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Koehorst, Jasper",
+            "orcid": "0000-0001-8172-8981",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Leo, Simone",
+            "orcid": "0000-0001-8271-5429",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Portier, Marc",
+            "orcid": "0000-0002-9648-6484",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Brack, Paul",
+            "orcid": "0000-0002-5432-2748",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ojster\u0161ek, Milan",
+            "orcid": "0000-0003-1743-8300",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Droesbeke, Bert",
+            "orcid": "0000-0003-0522-5674",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Niu, Chenxu",
+            "orcid": "0000-0002-2142-1731",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Tanabe, Kosuke",
+            "orcid": "0000-0002-9986-7223",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Miksa, Tomasz",
+            "orcid": "0000-0002-4929-7875",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "La Rosa, Marco",
+            "orcid": "0000-0001-5383-6993",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Decruw, Cedric",
+            "orcid": "0000-0001-6387-5988",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Czerniak, Andreas",
+            "orcid": "0000-0003-3883-4169",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jay, Jeremy",
+            "orcid": "0000-0002-5761-7533",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Serra, Sergio",
+            "orcid": "0000-0002-0792-8157",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Siebes, Ronald",
+            "orcid": "0000-0001-8772-7904",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "de Witt, Shaun",
+            "orcid": "0000-0003-4196-3658",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "El Damaty, Shady",
+            "orcid": "0000-0002-2318-4477",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Lowe, Douglas",
+            "orcid": "0000-0002-1248-3594",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Li, Xuanqi",
+            "orcid": "0000-0003-1498-6205",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Gundersen, Sveinung",
+            "orcid": "0000-0001-9888-7954",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Radifar, Muhammad",
+            "orcid": "0000-0001-9156-9478",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Wittner, Rudolf",
+            "orcid": "0000-0002-0003-2024",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Woolland, Oliver",
+            "orcid": "0000-0002-4565-9760",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "De Geest, Paul",
+            "orcid": "0000-0002-8940-4946",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Fils, Douglas",
+            "orcid": "0000-0002-2257-9127",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Wetzels, Florian",
+            "orcid": "0000-0002-5526-7138",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Sirvent, Ra\u00fcl",
+            "orcid": "0000-0003-0606-2512",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Miller, Abigail",
+            "orcid": "0000-0001-9228-2882",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Emerson, Jake",
+            "orcid": "0000-0003-0617-9219",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Fucci, Davide",
+            "orcid": "0000-0002-0679-4361",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kinoshita, Bruno P.",
+            "orcid": "0000-0001-8250-4074",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "B\u0105k, Maciek",
+            "orcid": "0000-0003-1361-7301",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Hollunder, Jens",
+            "orcid": "0000-0003-3234-6762",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Weise, Martin",
+            "orcid": "0000-0003-4216-302X",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Bisht, Vartika",
+            "orcid": "0000-0002-1880-0597",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Hiraki, Toshiyuki Nishiyama",
+            "orcid": "0000-0001-6712-6335",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ulrichts, Bram",
+            "orcid": "0000-0002-5934-8998",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Falk, Michael",
+            "orcid": "0000-0001-9261-8390",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Chadwick, Eli",
+            "orcid": "0000-0002-0035-6475",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Bauer, Daniel",
+            "orcid": "0000-0001-9447-460X",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Love, James",
+            "orcid": "0000-0001-7760-1240",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Adamidi, Eleni",
+            "orcid": "0000-0001-9925-1560",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Moore, Josh",
+            "orcid": "0000-0003-4028-811X",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Sch\u00f6bitz, Lars",
+            "orcid": "0000-0003-2196-5015",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Meier, Andreas",
+            "orcid": "0009-0002-6541-4637",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Fuentes, Juan",
+            "orcid": "0009-0002-8209-1999",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Bainglass, Edan",
+            "orcid": "0000-0001-7218-0176",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Pataki, Bal\u00e1zs E.",
+            "orcid": "0000-0003-3482-0325",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Peter Sefton",
+            "orcid": "0000-0002-3545-944X",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Stian Soiland-Reyes",
+            "orcid": "0000-0001-9842-9718",
+            "authenticated_orcid": false,
+            "source": "zenodo"
+          },
+          "affiliations": [],
+          "sources": [
+            "zenodo"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "apache2.0",
+          "source": "zenodo"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [
+        "research object",
+        "data packaging",
+        "metadata",
+        "schema.org",
+        "JSON-LD",
+        "linked data"
+      ],
+      "related_works": [
+        {
+          "identifier": "https://w3id.org/ro/crate/1.2/context",
+          "identifier_type": "URL",
+          "relation_type": "isSupplementedBy",
+          "resource_type": "software",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "https://w3id.org/ro/crate",
+          "identifier_type": "URL",
+          "relation_type": "isDocumentedBy",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "https://w3id.org/ro/crate/1.1",
+          "identifier_type": "URL",
+          "relation_type": "isNewVersionOf",
+          "resource_type": "publication-technicalnote",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "10.17487/RFC2119",
+          "identifier_type": "DOI",
+          "relation_type": "cites",
+          "resource_type": "publication-technicalnote",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "https://github.com/ResearchObject/ro-crate",
+          "identifier_type": "URL",
+          "relation_type": "isSupplementedBy",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "https://www.researchobject.org/",
+          "identifier_type": "URL",
+          "relation_type": "references",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "https://schema.org/",
+          "identifier_type": "URL",
+          "relation_type": "references",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "http://www.w3.org/TR/2014/REC-json-ld-20140116/",
+          "identifier_type": "URL",
+          "relation_type": "cites",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "10.17487/RFC7159",
+          "identifier_type": "DOI",
+          "relation_type": "cites",
+          "resource_type": "publication-technicalnote",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "10.17487/RFC3986",
+          "identifier_type": "DOI",
+          "relation_type": "cites",
+          "resource_type": "publication-technicalnote",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "https://www.w3.org/TR/html52/",
+          "identifier_type": "URL",
+          "relation_type": "cites",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "10.25490/a97f-egyk",
+          "identifier_type": "DOI",
+          "relation_type": "cites",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "10.17487/RFC8493",
+          "identifier_type": "DOI",
+          "relation_type": "cites",
+          "resource_type": "publication-technicalnote",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "https://ocfl.io/",
+          "identifier_type": "URL",
+          "relation_type": "references",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "https://w3id.org/ro/2016-01-28/",
+          "identifier_type": "URL",
+          "relation_type": "cites",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "https://github.com/duraspace/pcdm/wiki",
+          "identifier_type": "URL",
+          "relation_type": "cites",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "https://orcid.org/",
+          "identifier_type": "URL",
+          "relation_type": "references",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "https://ror.org/",
+          "identifier_type": "URL",
+          "relation_type": "references",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "https://www.nationalarchives.gov.uk/PRONOM/Default.aspx",
+          "identifier_type": "URL",
+          "relation_type": "references",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "https://en.wikipedia.org/wiki/Exif",
+          "identifier_type": "URL",
+          "relation_type": "cites",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "https://en.wikipedia.org/wiki/BagIt",
+          "identifier_type": "URL",
+          "relation_type": "cites",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "https://www.geonames.org/",
+          "identifier_type": "URL",
+          "relation_type": "references",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "https://omeka.org/",
+          "identifier_type": "URL",
+          "relation_type": "references",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "http://purl.org/ontology/bibo/interviewee",
+          "identifier_type": "PURL",
+          "relation_type": "references",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "http://neologism.ecs.soton.ac.uk/bibo.html#interviewee",
+          "identifier_type": "URL",
+          "relation_type": "references",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "https://github.com/ResearchObject/ro-crate/releases/tag/1.1.3",
+          "identifier_type": "URL",
+          "relation_type": "isIdenticalTo",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "10.25490/a97f-egyk",
+          "identifier_type": "DOI",
+          "relation_type": "cites",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "https://www.w3.org/TR/swbp-vocab-pub/",
+          "identifier_type": "URL",
+          "relation_type": "cites",
+          "resource_type": "publication-technicalnote",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "https://w3id.org/ro/crate/1.2",
+          "identifier_type": "URL",
+          "relation_type": "isIdenticalTo",
+          "resource_type": "publication-technicalnote",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "https://www.researchobject.org/ro-crate/specification/1.2/",
+          "identifier_type": "URL",
+          "relation_type": "isIdenticalTo",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "https://www.researchobject.org/ro-crate/specification/1.2/ro-crate-metadata.jsonld",
+          "identifier_type": "URL",
+          "relation_type": "isDocumentedBy",
+          "resource_type": "dataset",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "https://www.researchobject.org/ro-crate/specification/1.2/ro-crate-preview.html",
+          "identifier_type": "URL",
+          "relation_type": "isDocumentedBy",
+          "source": "zenodo"
+        },
+        {
+          "identifier": "10.3233/DS-210053",
+          "identifier_type": "DOI",
+          "relation_type": "isDescribedBy",
+          "resource_type": "publication-article",
+          "source": "zenodo"
+        }
+      ],
+      "version_info": {
+        "concept_doi": "10.5281/zenodo.3406497",
+        "concept_recid": "3406497",
+        "version_number": 6,
+        "is_latest": true,
+        "version_dois": [],
+        "source": "zenodo"
+      },
+      "files": [
+        {
+          "filename": "ro-crate-metadata.jsonld",
+          "size_bytes": 71066,
+          "checksum": "md5:15220f33caa1b6aadca560d00ab24490",
+          "source": "zenodo"
+        },
+        {
+          "filename": "ro-crate-preview.html",
+          "size_bytes": 349350,
+          "checksum": "md5:17b51632022edc8596b22134882faf54",
+          "source": "zenodo"
+        },
+        {
+          "filename": "ro-crate-context-1.2.0.jsonld",
+          "size_bytes": 184412,
+          "checksum": "md5:ed2bd47d74cac6e9be2732a4e40a4e10",
+          "source": "zenodo"
+        },
+        {
+          "filename": "ro-crate-metadata.json",
+          "size_bytes": 71066,
+          "checksum": "md5:15220f33caa1b6aadca560d00ab24490",
+          "source": "zenodo"
+        },
+        {
+          "filename": "ro-crate-1.2.0.pdf",
+          "size_bytes": 493161,
+          "checksum": "md5:b730bea2dc6d89d76951560fc6387af1",
+          "source": "zenodo"
+        },
+        {
+          "filename": "ro-crate-1.2.0.html",
+          "size_bytes": 746231,
+          "checksum": "md5:05fe4f6fb1d1043d776aacfec4b54db2",
+          "source": "zenodo"
+        },
+        {
+          "filename": "ro-crate-1.2.0.md",
+          "size_bytes": 302360,
+          "checksum": "md5:ae86ece066c0fac3f5289175e694ecca",
+          "source": "zenodo"
+        }
+      ],
+      "impact_indicators": [],
+      "usage_stats": {
+        "downloads": 5189,
+        "unique_downloads": 4545,
+        "views": 6528,
+        "unique_views": 6152,
+        "source": "zenodo"
+      },
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [
+        "ro"
+      ],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.5281/zenodo.3406497",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.5281/zenodo.3406497",
+      "authors": [
+        {
+          "name": {
+            "given": "Stian",
+            "family": "Soiland-Reyes",
+            "full_name": "Stian Soiland-Reyes",
+            "orcid": "0000-0001-9842-9718",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Eoghan",
+            "family": "\u00d3 Carrag\u00e1in",
+            "full_name": "Eoghan \u00d3 Carrag\u00e1in",
+            "orcid": "0000-0001-8131-2150",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Kosuke",
+            "family": "Tanabe",
+            "full_name": "Kosuke Tanabe",
+            "orcid": "0000-0002-9986-7223",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jos\u00e9 Mar\u00eda",
+            "family": "Fern\u00e1ndez Gonz\u00e1lez",
+            "full_name": "Jos\u00e9 Mar\u00eda Fern\u00e1ndez Gonz\u00e1lez",
+            "orcid": "0000-0002-4806-5140",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Daniel",
+            "family": "Garijo",
+            "full_name": "Daniel Garijo",
+            "orcid": "0000-0003-0454-7145",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michael",
+            "family": "Crusoe",
+            "full_name": "Michael R. Crusoe",
+            "orcid": "0000-0002-2961-9670",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Kristi",
+            "family": "Holmes",
+            "full_name": "Kristi L. Holmes",
+            "orcid": "0000-0001-8420-5254",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Paul",
+            "family": "Groth",
+            "full_name": "Paul Groth",
+            "orcid": "0000-0003-0183-6910",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Leyla Jael",
+            "family": "Castro",
+            "full_name": "Leyla Jael Castro",
+            "orcid": "0000-0003-3986-0510",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Tomasz",
+            "family": "Miksa",
+            "full_name": "Tomasz Miksa",
+            "orcid": "0000-0002-4929-7875",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0001-9842-9718",
+          "given_names": "Stian",
+          "family_names": "Soiland-Reyes",
+          "credit_name": "Stian Soiland-Reyes",
+          "other_names": [
+            "stain",
+            "@soilandreyes",
+            "Stian Soiland",
+            "Stian S\u00f8iland"
+          ],
+          "institutions": [
+            "BioCompute Object",
+            "Linpro",
+            "Norwegian University of Science and Technology",
+            "Software Freedom Conservancy",
+            "The Apache Software Foundation",
+            "University of Amsterdam",
+            "University of Manchester",
+            "World Wide Web Consortium"
+          ],
+          "emails": [
+            "soiland-reyes@manchester.ac.uk",
+            "stian@soiland-reyes.com"
+          ]
+        },
+        {
+          "orcid_id": "0000-0001-8131-2150",
+          "given_names": "Eoghan",
+          "family_names": "\u00d3 Carrag\u00e1in",
+          "credit_name": null,
+          "other_names": [
+            "eocarragain"
+          ],
+          "institutions": [
+            "National Library of Ireland",
+            "University College Cork",
+            "University College Dublin"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-9986-7223",
+          "given_names": "Kosuke",
+          "family_names": "Tanabe",
+          "credit_name": "Kosuke Tanabe",
+          "other_names": [
+            "\u7530\u8fba \u6d69\u4ecb"
+          ],
+          "institutions": [
+            "Japan Link Center",
+            "Keio University",
+            "Keio University Shonan Fujisawa",
+            "National Diet Library",
+            "National Institute for Materials Science",
+            "Tokyo Koka Daigaku - Kamata Campus",
+            "Toyo University"
+          ],
+          "emails": [
+            "TANABE.Kosuke@nims.go.jp"
+          ]
+        },
+        {
+          "orcid_id": "0000-0002-4806-5140",
+          "given_names": "Jos\u00e9 Mar\u00eda",
+          "family_names": "Fern\u00e1ndez Gonz\u00e1lez",
+          "credit_name": null,
+          "other_names": [
+            "Jos\u00e9 M. Fern\u00e1ndez",
+            "Jos\u00e9 M. Fern\u00e1ndez-Gonz\u00e1lez"
+          ],
+          "institutions": [
+            "Barcelona Supercomputing Center",
+            "Bioalma",
+            "Centro Nacional de Biotecnolog\u00eda",
+            "Centro Nacional de Investigaciones Oncol\u00f3gicas",
+            "Universidad Aut\u00f3noma de Madrid",
+            "Universidad de M\u00e1laga"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0003-0454-7145",
+          "given_names": "Daniel",
+          "family_names": "Garijo",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Universidad Complutense de Madrid",
+            "Universidad Polit\u00e9cnica de Madrid",
+            "University of Southern California"
+          ],
+          "emails": [
+            "daniel.garijo@upm.es"
+          ]
+        },
+        {
+          "orcid_id": "0000-0002-2961-9670",
+          "given_names": "Michael",
+          "family_names": "Crusoe",
+          "credit_name": "Michael R. Crusoe",
+          "other_names": [],
+          "institutions": [
+            "Arizona State University",
+            "Curii Corporation",
+            "DNAnexus Inc",
+            "Eberhard Karls Universit\u00e4t T\u00fcbingen Mathematisch-Naturwissenschaftliche Fakult\u00e4t (University of T\u00fcbingen, Faculty of Mathematics and Natural Sciences)",
+            "Forschungszentrum J\u00fclich",
+            "IEEE Standards Association",
+            "Michigan State University",
+            "Octiog, Inc.",
+            "Open Bioinformatics Foundation",
+            "Stichting DTL Projects",
+            "University of California, Davis",
+            "Vrije Universiteit Amsterdam",
+            "V\u0161\u012e \"Darbo eigos\""
+          ],
+          "emails": [
+            "mrc@commonwl.org",
+            "crusoe@debian.org",
+            "michael.crusoe@fu-berlin.de"
+          ]
+        },
+        {
+          "orcid_id": "0000-0001-8420-5254",
+          "given_names": "Kristi",
+          "family_names": "Holmes",
+          "credit_name": "Kristi L. Holmes",
+          "other_names": [],
+          "institutions": [
+            "Iowa State University",
+            "Northwestern University Feinberg School of Medicine",
+            "Washington University in Saint Louis"
+          ],
+          "emails": [
+            "kristi.holmes@northwestern.edu"
+          ]
+        },
+        {
+          "orcid_id": "0000-0003-0183-6910",
+          "given_names": "Paul",
+          "family_names": "Groth",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Elsevier",
+            "Information Sciences Institute - University of Southern California",
+            "Universiteit van Amsterdam",
+            "University of Amsterdam",
+            "University of Southampton",
+            "Vrije Universiteit Amsterdam"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0003-3986-0510",
+          "given_names": "Leyla Jael",
+          "family_names": "Castro",
+          "credit_name": "Leyla Jael Castro",
+          "other_names": [
+            "Leyla Garcia",
+            "Leyla Garcia Castro",
+            "Leyla Garcia-Castro",
+            "Leyla Jael Garcia Castro",
+            "Leyla Jael G. Castro"
+          ],
+          "institutions": [
+            "ZB MED - Information Centre for Life Sciences"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-4929-7875",
+          "given_names": "Tomasz",
+          "family_names": "Miksa",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "SBA Research",
+            "TU Wien",
+            "Vienna University of Technology"
+          ],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.5281/zenodo.3406497",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.5281/zenodo.3406497",
+    "pmid": "23671333",
+    "openalex_id": "https://openalex.org/W4400118483",
+    "concept_doi": "10.5281/zenodo.3406497",
+    "concept_recid": "3406497",
+    "handles": [],
+    "orcids": [
+      "0000-0001-5383-6993",
+      "0000-0001-6022-9825",
+      "0000-0001-6387-5988",
+      "0000-0001-6565-5145",
+      "0000-0001-6712-6335",
+      "0000-0001-6960-357X",
+      "0000-0001-7218-0176",
+      "0000-0001-7760-1240",
+      "0000-0001-8131-2150",
+      "0000-0001-8172-8981",
+      "0000-0001-8250-4074",
+      "0000-0001-8271-5429",
+      "0000-0001-8420-5254",
+      "0000-0001-8772-7904",
+      "0000-0001-9156-9478",
+      "0000-0001-9228-2882",
+      "0000-0001-9261-8390",
+      "0000-0001-9447-460X",
+      "0000-0001-9842-9718",
+      "0000-0001-9888-7954",
+      "0000-0001-9925-1560",
+      "0000-0002-0003-2024",
+      "0000-0002-0035-6475",
+      "0000-0002-0048-3300",
+      "0000-0002-0309-604X",
+      "0000-0002-0337-8610",
+      "0000-0002-0679-4361",
+      "0000-0002-0792-8157",
+      "0000-0002-1248-3594",
+      "0000-0002-1756-2128",
+      "0000-0002-1880-0597",
+      "0000-0002-2036-8350",
+      "0000-0002-2142-1731",
+      "0000-0002-2257-9127",
+      "0000-0002-2318-4477",
+      "0000-0002-2961-9670",
+      "0000-0002-2985-7169",
+      "0000-0002-3468-0652",
+      "0000-0002-3545-944X",
+      "0000-0002-3588-6257",
+      "0000-0002-4565-9760",
+      "0000-0002-4806-5140",
+      "0000-0002-4929-7875",
+      "0000-0002-5432-2748",
+      "0000-0002-5491-6431",
+      "0000-0002-5526-7138",
+      "0000-0002-5711-4872",
+      "0000-0002-5761-7533",
+      "0000-0002-5934-8998",
+      "0000-0002-6190-122X",
+      "0000-0002-7370-4805",
+      "0000-0002-7552-1009",
+      "0000-0002-8940-4946",
+      "0000-0002-9260-0753",
+      "0000-0002-9648-6484",
+      "0000-0002-9986-7223",
+      "0000-0003-0183-6910",
+      "0000-0003-0223-1059",
+      "0000-0003-0454-7145",
+      "0000-0003-0522-5674",
+      "0000-0003-0606-2512",
+      "0000-0003-0617-9219",
+      "0000-0003-1130-2154",
+      "0000-0003-1219-2137",
+      "0000-0003-1361-7301",
+      "0000-0003-1498-6205",
+      "0000-0003-1541-5631",
+      "0000-0003-1743-8300",
+      "0000-0003-1991-0533",
+      "0000-0003-2130-0865",
+      "0000-0003-2196-5015",
+      "0000-0003-3146-3203",
+      "0000-0003-3156-2105",
+      "0000-0003-3234-6762",
+      "0000-0003-3482-0325",
+      "0000-0003-3486-8193",
+      "0000-0003-3883-4169",
+      "0000-0003-3910-0474",
+      "0000-0003-3986-0510",
+      "0000-0003-4028-811X",
+      "0000-0003-4196-3658",
+      "0000-0003-4216-302X",
+      "0000-0003-4289-4922",
+      "0000-0003-4929-1219",
+      "0009-0002-6541-4637",
+      "0009-0002-8209-1999"
+    ],
+    "ror_ids": [
+      "https://ror.org/000e0be47",
+      "https://ror.org/006v7bf86",
+      "https://ror.org/008xxew50",
+      "https://ror.org/00cv9y106",
+      "https://ror.org/00rqy9422",
+      "https://ror.org/01111rn36",
+      "https://ror.org/0116zdb24",
+      "https://ror.org/0146z4r19",
+      "https://ror.org/01d5jce07",
+      "https://ror.org/01ej9dk98",
+      "https://ror.org/01xtthb56",
+      "https://ror.org/024mw5h28",
+      "https://ror.org/0259fwx54",
+      "https://ror.org/025cj6e44",
+      "https://ror.org/0264vhs54",
+      "https://ror.org/026v1ze26",
+      "https://ror.org/027m9bs27",
+      "https://ror.org/02hpadn98",
+      "https://ror.org/02p9cyn66",
+      "https://ror.org/02s6k3f65",
+      "https://ror.org/02w0trx84",
+      "https://ror.org/035t6ww14",
+      "https://ror.org/0361bwx64",
+      "https://ror.org/03e84cm85",
+      "https://ror.org/03jdxdk20",
+      "https://ror.org/03mb6wj31",
+      "https://ror.org/03n6nwv02",
+      "https://ror.org/0496vr396",
+      "https://ror.org/04c4dkn09",
+      "https://ror.org/04d836q62",
+      "https://ror.org/04dawnj30",
+      "https://ror.org/04dkp9463",
+      "https://ror.org/04mghma93",
+      "https://ror.org/04qw24q55",
+      "https://ror.org/04tec8z30",
+      "https://ror.org/05qghxh33",
+      "https://ror.org/05sd8tv96",
+      "https://ror.org/05vzafd60",
+      "https://ror.org/05xpvk416"
+    ],
+    "grant_ids": [],
+    "nct_ids": [],
+    "pmid_source": "nih_reporter"
+  },
+  "conflicts": {
+    "doi": "10.5281/zenodo.3406497",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "datacite": 2,
+          "openalex": 15
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "datacite": 2,
+          "openalex": 0
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "datacite": "Standard",
+          "openalex": "other",
+          "zenodo": "publication"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "datacite": 84,
+          "openalex": 84,
+          "zenodo": 86,
+          "orcid": 10
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "datacite": "researchobject.org",
+          "openalex": "https://openalex.org/I1294671590"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "datacite": "en",
+          "openalex": "en",
+          "zenodo": "eng"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 3,
+    "conflict_count": 6
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.5281/zenodo.3406497",
+    "fetched_at": "2026-02-11T18:39:04.554064+00:00"
+  }
+}

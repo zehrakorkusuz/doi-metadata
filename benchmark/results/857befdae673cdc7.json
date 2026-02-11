@@ -1,0 +1,5516 @@
+{
+  "doi": "10.1101/gr.361602",
+  "registration_agency": "unknown",
+  "retrieved_at": "2026-02-11T18:39:04.484059Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "The Bioperl Toolkit: Perl Modules for the Life Sciences",
+      "abstract": "<jats:p>The Bioperl project is an international open-source collaboration of biologists, bioinformaticians, and computer scientists that has evolved over the past 7 yr into the most comprehensive library of Perl modules available for managing and manipulating life-science information. Bioperl provides an easy-to-use, stable, and consistent programming interface for bioinformatics application programmers. The Bioperl modules have been successfully and repeatedly used to reduce otherwise complex tasks to only a few lines of code. The Bioperl object model has been proven to be flexible enough to support enterprise-level applications such as EnsEMBL, while maintaining an easy learning curve for novice Perl programmers. Bioperl is capable of executing analyses and processing results from programs such as BLAST, ClustalW, or the EMBOSS suite. Interoperation with modules written in Python and Java is supported through the evolving BioCORBA bridge. Bioperl provides access to data stores such as GenBank and SwissProt via a flexible series of sequence input/output modules, and to the emerging common sequence data storage format of the Open Bioinformatics Database Access project. This study describes the overall architecture of the toolkit, the problem domains that it addresses, and gives specific examples of how the toolkit can be used to solve common life-sciences problems. We conclude with a discussion of how the open-source nature of the project has contributed to the development effort.</jats:p><jats:p>[Supplemental material is available online at <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://www.genome.org\" xlink:type=\"simple\">www.genome.org</jats:ext-link>. Bioperl is available as open-source software free of charge and is licensed under the Perl Artistic License (<jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://www.perl.com/pub/a/language/misc/Artistic.html\" xlink:type=\"simple\">http://www.perl.com/pub/a/language/misc/Artistic.html</jats:ext-link>). It is available for download at <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://www.bioperl.org\" xlink:type=\"simple\">http://www.bioperl.org</jats:ext-link>. Support inquiries should be addressed to <jats:email xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:type=\"simple\">bioperl-l@bioperl.org</jats:email>.]</jats:p>",
+      "publication_date": "2002-10-01",
+      "publication_year": 2002,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Cold Spring Harbor Laboratory",
+      "container_title": "Genome Research",
+      "volume": "12",
+      "issue": "10",
+      "pages": "1611-1618",
+      "issn": [
+        "1088-9051",
+        "1549-5469"
+      ],
+      "doi": "10.1101/gr.361602",
+      "authors": [
+        {
+          "name": {
+            "given": "Jason E.",
+            "family": "Stajich",
+            "full_name": "Jason E. Stajich",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "David",
+            "family": "Block",
+            "full_name": "David Block",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Kris",
+            "family": "Boulez",
+            "full_name": "Kris Boulez",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Steven E.",
+            "family": "Brenner",
+            "full_name": "Steven E. Brenner",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Stephen A.",
+            "family": "Chervitz",
+            "full_name": "Stephen A. Chervitz",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Chris",
+            "family": "Dagdigian",
+            "full_name": "Chris Dagdigian",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Georg",
+            "family": "Fuellen",
+            "full_name": "Georg Fuellen",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "James G.R.",
+            "family": "Gilbert",
+            "full_name": "James G.R. Gilbert",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ian",
+            "family": "Korf",
+            "full_name": "Ian Korf",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Hilmar",
+            "family": "Lapp",
+            "full_name": "Hilmar Lapp",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Heikki",
+            "family": "Lehv\u00e4slaiho",
+            "full_name": "Heikki Lehv\u00e4slaiho",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Chad",
+            "family": "Matsalla",
+            "full_name": "Chad Matsalla",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Chris J.",
+            "family": "Mungall",
+            "full_name": "Chris J. Mungall",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Brian I.",
+            "family": "Osborne",
+            "full_name": "Brian I. Osborne",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Matthew R.",
+            "family": "Pocock",
+            "full_name": "Matthew R. Pocock",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Peter",
+            "family": "Schattner",
+            "full_name": "Peter Schattner",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Martin",
+            "family": "Senger",
+            "full_name": "Martin Senger",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Lincoln D.",
+            "family": "Stein",
+            "full_name": "Lincoln D. Stein",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Elia",
+            "family": "Stupka",
+            "full_name": "Elia Stupka",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mark D.",
+            "family": "Wilkinson",
+            "full_name": "Mark D. Wilkinson",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ewan",
+            "family": "Birney",
+            "full_name": "Ewan Birney",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 1256,
+      "reference_count": 24,
+      "references": [
+        {
+          "doi": "10.1093/bioinformatics/17.2.115",
+          "key": "2021111810472710000_12.10.1611.1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/25.17.3389",
+          "key": "2021111810472710000_12.10.1611.2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Beck K. (1999) Extreme programming examined: Embrace change. (Addison Wesley, Reading, MA).",
+          "key": "2021111810472710000_12.10.1611.3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1006/jmbi.1997.0951",
+          "key": "2021111810472710000_12.10.1611.4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Chervitz S.A. Fuellen G. Dagdigian C. Brenner S.E. Birney E. Korf I. (1998) Bioperl: Standard perl modules for bioinformatics. Bio Informatics Technology and Systems (BITS) http://www.bitsjournal.com/bioperl.html.",
+          "key": "2021111810472710000_12.10.1611.5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-2-7",
+          "key": "2021111810472710000_12.10.1611.6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Eddy S.R. (2001) HMMER: Profile hidden Markov models for biological sequence analysis. http://hmmer.wustl.edu.",
+          "key": "2021111810472710000_12.10.1611.7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Felsenstein, J. 1983. PHYLIP (Phylogeny Inference Package) version 3.5c. Distributed by the author. Department of Genetics, University of Washington, Seattle..",
+          "key": "2021111810472710000_12.10.1611.8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Gamma E. Helm R. Johnson R. Vlissides J. (1995) Design patterns: Elements of reusable -object-oriented software. Addison Wesley, Reading, MA..",
+          "key": "2021111810472710000_12.10.1611.9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Gish, W. 2002. Washington University BLAST. http://blast.wustl.edu.",
+          "key": "2021111810472710000_12.10.1611.10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/30.1.38",
+          "key": "2021111810472710000_12.10.1611.11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/18.8.1135",
+          "key": "2021111810472710000_12.10.1611.12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1006/jmbi.2000.4042",
+          "key": "2021111810472710000_12.10.1611.13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Object Management Group 2001. CORBA/IIOP Specification. OMG publications. http://www.omg.org/technology/documents/formal/corba_iiop.htm.",
+          "key": "2021111810472710000_12.10.1611.14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Open Source Initiative 2001. The open-source definition. http://opensource.org/docs/definition.html.",
+          "key": "2021111810472710000_12.10.1611.15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1073/pnas.85.8.2444",
+          "key": "2021111810472710000_12.10.1611.16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S0168-9525(00)02024-2",
+          "key": "2021111810472710000_12.10.1611.17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/29.1.165",
+          "key": "2021111810472710000_12.10.1611.18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/22.22.4673",
+          "key": "2021111810472710000_12.10.1611.19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Tremblay J.P. Cheston G. (2001) Data structures and software development in an object-oriented domain. (Prentice Hall, Upper Saddle River, NJ).",
+          "key": "2021111810472710000_12.10.1611.20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/gb-2000-1-5-research0010",
+          "key": "2021111810472710000_12.10.1611.21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1073/pnas.042692499",
+          "key": "2021111810472710000_12.10.1611.22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/30.1.13",
+          "key": "2021111810472710000_12.10.1611.23",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/18.10.1398",
+          "unstructured": "Wilkinson, M.D., Block, D., and Crosby, W.L. 2002. Genquire: Genome annotation browser/editor. Bioinformatics (in press)..",
+          "key": "2021111810472710000_12.10.1611.24",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://syndication.highwire.org/content/doi/10.1101/gr.361602",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/gr.361602",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "The Bioperl Toolkit: Perl Modules for the Life Sciences",
+      "abstract": "The Bioperl project is an international open-source collaboration of biologists, bioinformaticians, and computer scientists that has evolved over the past 7 yr into the most comprehensive library of Perl modules available for managing and manipulating life-science information. Bioperl provides an easy-to-use, stable, and consistent programming interface for bioinformatics application programmers. The Bioperl modules have been successfully and repeatedly used to reduce otherwise complex tasks to only a few lines of code. The Bioperl object model has been proven to be flexible enough to support enterprise-level applications such as EnsEMBL, while maintaining an easy learning curve for novice Perl programmers. Bioperl is capable of executing analyses and processing results from programs such as BLAST, ClustalW, or the EMBOSS suite. Interoperation with modules written in Python and Java is supported through the evolving BioCORBA bridge. Bioperl provides access to data stores such as GenBank and SwissProt via a flexible series of sequence input/output modules, and to the emerging common sequence data storage format of the Open Bioinformatics Database Access project. This study describes the overall architecture of the toolkit, the problem domains that it addresses, and gives specific examples of how the toolkit can be used to solve common life-sciences problems. We conclude with a discussion of how the open-source nature of the project has contributed to the development effort. [Supplemental material is available online at www.genome.org . Bioperl is available as open-source software free of charge and is licensed under the Perl Artistic License ( http://www.perl.com/pub/a/language/misc/Artistic.html ). It is available for download at http://www.bioperl.org . Support inquiries should be addressed to bioperl-l@bioperl.org .]",
+      "publication_date": "2002-10-01",
+      "publication_year": 2002,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310315909",
+      "container_title": "Genome Research",
+      "volume": "12",
+      "issue": "10",
+      "pages": "1611-1618",
+      "issn": [
+        "1088-9051",
+        "1549-5469"
+      ],
+      "doi": "10.1101/gr.361602",
+      "pmid": "12368254",
+      "openalex_id": "https://openalex.org/W2150934173",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Jason Stajich",
+            "orcid": "0000-0002-7591-0020",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Duke University",
+              "ror_id": "https://ror.org/00py81415",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5052869398",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "David E. Block",
+            "orcid": "0000-0003-1582-6641",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Plant Biotechnology Institute",
+              "ror_id": "https://ror.org/00qed5764",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5016408784",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kris Boulez",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Plant Biotechnology Institute",
+              "ror_id": "https://ror.org/00qed5764",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5090763175",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Steven E. Brenner",
+            "orcid": "0000-0001-7559-6185",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of California, Berkeley",
+              "ror_id": "https://ror.org/01an7q238",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Plant Biotechnology Institute",
+              "ror_id": "https://ror.org/00qed5764",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5046334676",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Stephen A. Chervitz",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Plant Biotechnology Institute",
+              "ror_id": "https://ror.org/00qed5764",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5086693737",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Chris Dagdigian",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Plant Biotechnology Institute",
+              "ror_id": "https://ror.org/00qed5764",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5006568824",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Georg Fuellen",
+            "orcid": "0000-0002-4994-9829",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University Hospital M\u00fcnster",
+              "ror_id": "https://ror.org/01856cw59",
+              "country_code": "DE",
+              "source": "openalex"
+            },
+            {
+              "name": "Plant Biotechnology Institute",
+              "ror_id": "https://ror.org/00qed5764",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5089023752",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "James Gilbert",
+            "orcid": "0000-0001-8079-3159",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Plant Biotechnology Institute",
+              "ror_id": "https://ror.org/00qed5764",
+              "country_code": "CA",
+              "source": "openalex"
+            },
+            {
+              "name": "Wellcome Sanger Institute",
+              "ror_id": "https://ror.org/05cy4wa09",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5076736767",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ian Korf",
+            "orcid": "0000-0001-5259-6182",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Plant Biotechnology Institute",
+              "ror_id": "https://ror.org/00qed5764",
+              "country_code": "CA",
+              "source": "openalex"
+            },
+            {
+              "name": "Washington University in St. Louis",
+              "ror_id": "https://ror.org/01yc7t268",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5081619085",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Hilmar Lapp",
+            "orcid": "0000-0001-9107-0714",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Plant Biotechnology Institute",
+              "ror_id": "https://ror.org/00qed5764",
+              "country_code": "CA",
+              "source": "openalex"
+            },
+            {
+              "name": "Genomics Institute of the Novartis Research Foundation",
+              "ror_id": "https://ror.org/017136v53",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5005484581",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Heikki Lehv\u00e4slaiho",
+            "orcid": "0000-0002-6263-1356",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "European Bioinformatics Institute",
+              "ror_id": "https://ror.org/02catss52",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "Plant Biotechnology Institute",
+              "ror_id": "https://ror.org/00qed5764",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5046276726",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Chad Matsalla",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Plant Biotechnology Institute",
+              "ror_id": "https://ror.org/00qed5764",
+              "country_code": "CA",
+              "source": "openalex"
+            },
+            {
+              "name": "Agriculture and Agri-Food Canada",
+              "ror_id": "https://ror.org/051dzs374",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5052643741",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Chris Mungall",
+            "orcid": "0000-0002-6601-2165",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of California, Berkeley",
+              "ror_id": "https://ror.org/01an7q238",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Plant Biotechnology Institute",
+              "ror_id": "https://ror.org/00qed5764",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5002223413",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Brian I. Osborne",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Plant Biotechnology Institute",
+              "ror_id": "https://ror.org/00qed5764",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5021234443",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Matthew Pocock",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Wellcome Sanger Institute",
+              "ror_id": "https://ror.org/05cy4wa09",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "Plant Biotechnology Institute",
+              "ror_id": "https://ror.org/00qed5764",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5109242321",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Peter Schattner",
+            "orcid": "0000-0002-8168-8294",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Plant Biotechnology Institute",
+              "ror_id": "https://ror.org/00qed5764",
+              "country_code": "CA",
+              "source": "openalex"
+            },
+            {
+              "name": "University of California, Santa Cruz",
+              "ror_id": "https://ror.org/03s65by71",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5080984913",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Martin Senger",
+            "orcid": "0000-0002-7886-1324",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "European Bioinformatics Institute",
+              "ror_id": "https://ror.org/02catss52",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "Plant Biotechnology Institute",
+              "ror_id": "https://ror.org/00qed5764",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5041778517",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Lincoln Stein",
+            "orcid": "0000-0002-1983-4588",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Cold Spring Harbor Laboratory",
+              "ror_id": "https://ror.org/02qz8b764",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Plant Biotechnology Institute",
+              "ror_id": "https://ror.org/00qed5764",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5052076713",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Elia Stupka",
+            "orcid": "0000-0003-3154-4011",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Institute of Molecular and Cell Biology",
+              "ror_id": "https://ror.org/04xpsrn94",
+              "country_code": "SG",
+              "source": "openalex"
+            },
+            {
+              "name": "Plant Biotechnology Institute",
+              "ror_id": "https://ror.org/00qed5764",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5090923781",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Mark D. Wilkinson",
+            "orcid": "0000-0001-6960-357X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Plant Biotechnology Institute",
+              "ror_id": "https://ror.org/00qed5764",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5067974158",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ewan Birney",
+            "orcid": "0000-0001-8314-8497",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "European Bioinformatics Institute",
+              "ror_id": "https://ror.org/02catss52",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "Plant Biotechnology Institute",
+              "ror_id": "https://ror.org/00qed5764",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5061379058",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 1670,
+      "reference_count": 19,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2026": 3,
+        "2025": 17,
+        "2024": 26,
+        "2023": 22,
+        "2022": 27,
+        "2021": 38,
+        "2020": 59,
+        "2019": 57,
+        "2018": 68,
+        "2017": 64,
+        "2016": 95,
+        "2015": 72,
+        "2014": 95,
+        "2013": 117,
+        "2012": 122
+      },
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1101/gr.361602",
+          "pdf_url": "http://genome.cshlp.org/content/12/10/1611.full.pdf",
+          "landing_page_url": "https://doi.org/10.1101/gr.361602",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310315909",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1101/gr.361602",
+          "pdf_url": "http://genome.cshlp.org/content/12/10/1611.full.pdf",
+          "landing_page_url": "https://doi.org/10.1101/gr.361602",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310315909",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12368254",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/12368254",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "http://europepmc.org/articles/PMC187536",
+          "landing_page_url": "http://europepmc.org/articles/PMC187536",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1303153112",
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/187536",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/187536",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "http://genome.cshlp.org/content/12/10/1611.full.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Genomics and Phylogenetic Studies",
+          "scheme": "openalex_topic",
+          "score": 0.9990000128746033,
+          "source": "openalex"
+        },
+        {
+          "value": "Algorithms and Data Compression",
+          "scheme": "openalex_topic",
+          "score": 0.9894999861717224,
+          "source": "openalex"
+        },
+        {
+          "value": "Genetics, Bioinformatics, and Biomedical Research",
+          "scheme": "openalex_topic",
+          "score": 0.9689000248908997,
+          "source": "openalex"
+        },
+        {
+          "value": "Perl",
+          "scheme": "openalex_concept",
+          "score": 0.9245694875717163,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.7612782716751099,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Python (programming language)",
+          "scheme": "openalex_concept",
+          "score": 0.701453685760498,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Scripting language",
+          "scheme": "openalex_concept",
+          "score": 0.5814518928527832,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Interoperation",
+          "scheme": "openalex_concept",
+          "score": 0.5488576889038086,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Programming language",
+          "scheme": "openalex_concept",
+          "score": 0.5278612971305847,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Structural bioinformatics",
+          "scheme": "openalex_concept",
+          "score": 0.4865628778934479,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Java",
+          "scheme": "openalex_concept",
+          "score": 0.4861621558666229,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Software engineering",
+          "scheme": "openalex_concept",
+          "score": 0.4313111901283264,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Ensembl",
+          "scheme": "openalex_concept",
+          "score": 0.4229195713996887,
+          "level": 5,
+          "source": "openalex"
+        },
+        {
+          "value": "Suite",
+          "scheme": "openalex_concept",
+          "score": 0.41677671670913696,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "World Wide Web",
+          "scheme": "openalex_concept",
+          "score": 0.3842783570289612,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Biology",
+          "scheme": "openalex_concept",
+          "score": 0.27085524797439575,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Interoperability",
+          "scheme": "openalex_concept",
+          "score": 0.21661874651908875,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Genomics",
+          "scheme": "openalex_concept",
+          "score": 0.116313636302948,
+          "level": 4,
+          "source": "openalex"
+        },
+        {
+          "value": "Genome",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Biochemistry",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Archaeology",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Protein structure",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "History",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Gene",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Responsible consumption and production",
+          "scheme": "SDG",
+          "score": 0.550000011920929,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Animals",
+          "descriptor_ui": "D000818",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Animals",
+          "descriptor_ui": "D000818",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Animals",
+          "descriptor_ui": "D000818",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Biological Science Disciplines",
+          "descriptor_ui": "D001690",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Biological Science Disciplines",
+          "descriptor_ui": "D001690",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Biological Science Disciplines",
+          "descriptor_ui": "D001690",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Biological Science Disciplines",
+          "descriptor_ui": "D001690",
+          "qualifier_name": "trends",
+          "qualifier_ui": "Q000639",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Biological Science Disciplines",
+          "descriptor_ui": "D001690",
+          "qualifier_name": "trends",
+          "qualifier_ui": "Q000639",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Biological Science Disciplines",
+          "descriptor_ui": "D001690",
+          "qualifier_name": "trends",
+          "qualifier_ui": "Q000639",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computer Graphics",
+          "descriptor_ui": "D003196",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computer Graphics",
+          "descriptor_ui": "D003196",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computer Graphics",
+          "descriptor_ui": "D003196",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Database Management Systems",
+          "descriptor_ui": "D003628",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Database Management Systems",
+          "descriptor_ui": "D003628",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Database Management Systems",
+          "descriptor_ui": "D003628",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Online Systems",
+          "descriptor_ui": "D009862",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Online Systems",
+          "descriptor_ui": "D009862",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Online Systems",
+          "descriptor_ui": "D009862",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software Design",
+          "descriptor_ui": "D012985",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software Design",
+          "descriptor_ui": "D012985",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software Design",
+          "descriptor_ui": "D012985",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Systems Integration",
+          "descriptor_ui": "D018511",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Systems Integration",
+          "descriptor_ui": "D018511",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Systems Integration",
+          "descriptor_ui": "D018511",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "descriptor_ui": "D019295",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "descriptor_ui": "D019295",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "descriptor_ui": "D019295",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "descriptor_ui": "D019295",
+          "qualifier_name": "trends",
+          "qualifier_ui": "Q000639",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "descriptor_ui": "D019295",
+          "qualifier_name": "trends",
+          "qualifier_ui": "Q000639",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "descriptor_ui": "D019295",
+          "qualifier_name": "trends",
+          "qualifier_ui": "Q000639",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Internet",
+          "descriptor_ui": "D020407",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Internet",
+          "descriptor_ui": "D020407",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Internet",
+          "descriptor_ui": "D020407",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Databases, Genetic",
+          "descriptor_ui": "D030541",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Databases, Genetic",
+          "descriptor_ui": "D030541",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Databases, Genetic",
+          "descriptor_ui": "D030541",
+          "is_major_topic": false,
+          "source": "openalex"
+        }
+      ],
+      "keywords": [
+        "Perl",
+        "Computer science",
+        "Python (programming language)",
+        "Scripting language",
+        "Interoperation",
+        "Programming language",
+        "Structural bioinformatics",
+        "Java",
+        "Software engineering",
+        "Ensembl",
+        "Suite",
+        "World Wide Web",
+        "Biology",
+        "Interoperability",
+        "Genomics"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": true,
+      "raw": {},
+      "title": "The Bioperl toolkit: Perl modules for the life sciences.",
+      "publication_date": "2002-10-01",
+      "publication_year": 2002,
+      "work_type": "JournalArticle",
+      "container_title": "Genome research",
+      "volume": "12 10",
+      "pages": "\n          1611-8\n        ",
+      "issn": [],
+      "doi": "10.1101/gr.361602",
+      "pmid": "12368254",
+      "s2_paper_id": "33780e4aba639a97f9fb7f7e773853f74dd494b7",
+      "s2_corpus_id": "14987095",
+      "authors": [
+        {
+          "name": {
+            "full_name": "J. Stajich",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "2218230",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "David Block",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "2065434109",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "K. Boulez",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "49222891",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "S. Brenner",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "3329398",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "S. Chervitz",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "3117346",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Chris Dagdigian",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "5713030",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Georg Fuellen",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "3034554",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "James G. R. Gilbert",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "2052555543",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "I. Korf",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "32115138",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "H. Lapp",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "3238995",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "H. Lehv\u00e4slaiho",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "2126353",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Chad Matsalla",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "114975356",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "C. Mungall",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "52038267",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "B. Osborne",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "39497542",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "M. Pocock",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "1930317",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "P. Schattner",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "1870577",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Martin Senger",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "2311236571",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "L. Stein",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "24917093",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "E. Stupka",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "2777228",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Mark D. Wilkinson",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "31764087",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "E. Birney",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "1702103",
+          "sources": [
+            "semantic_scholar"
+          ]
+        }
+      ],
+      "citation_count": 1734,
+      "reference_count": 28,
+      "influential_citation_count": 109,
+      "references": [],
+      "citations": [
+        {
+          "doi": "10.7717/peerj-cs.3435",
+          "title": "morloc\n : a workflow language for multi-lingual programming under a common type system",
+          "year": 2026,
+          "s2_paper_id": "60dc2e51950d5e79472020122090e0b27d20324d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/genes17010091",
+          "title": "ArGD: An Integrated Database and Analysis Platform for Artocarpus Genomics and Transcriptomics",
+          "year": 2026,
+          "s2_paper_id": "d9aee9006f84d8683684c734cf289aba84405f87",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "This module utilizes the BioPerl toolkit for core bioinformatics tasks such as parsing gene identifiers and retrieving annotations [44], while the statistical analysis, including significance testing for functional category over-representation (e.g., GO terms), is performed using the R language and\u2026"
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/ijms27010133",
+          "title": "The NAC Transcription Factors CjNAC43 and CjNAC54 Act as Positive Regulators of Leaf Senescence in Clerodendrum japonicum",
+          "year": 2025,
+          "s2_paper_id": "709976b086b8c5a646da913f59a4a622cdb41e6a",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "All NAC protein sequences were extracted using a Perl script [54] and aligned against the Plant Transcription Factor Database (PlantTFDB [24], https://planttfdb.gao-lab.org/, accessed on 1 May 2025), using HMMscan to identify members of the C. japonicum NAC family."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.17116/molgen202543042157",
+          "title": "Bioinformatic selection of the most optimal restriction endonuclease combinations for genotyping major agricultural crops using the GBS method",
+          "year": 2025,
+          "s2_paper_id": "5ccb477f7a211def780d52220f770d9afdfbc2ee",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1371/journal.ppat.1013471",
+          "title": "Phase variation of Clostridioides difficile colony morphology occurs via modulation of cell division",
+          "year": 2025,
+          "s2_paper_id": "42031889f7b27264ac7391144377e55793ad68eb",
+          "intents": [],
+          "is_influential": true,
+          "contexts": [
+            "Expasy\u2019s Translate Tool [71] was then used to identify the correct reading frame for the base sequences, and then Python Version 3.13.3 and Biopython Version 1.85 [72] were used to convert the aligned DNA sequences to amino acid sequences."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1201/9781003456247",
+          "title": "Handbook of Statistics in Clinical Oncology",
+          "year": 2025,
+          "s2_paper_id": "3d6846b64d6ea9e21a7ac76e3312539376c808ab",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1101/2025.11.06.686851",
+          "title": "Increased mutation rates and diversity are dominant features of Geobacter multi-heme cytochromes",
+          "year": 2025,
+          "s2_paper_id": "964244114b42ed81098e3d1e57fb1b935dc1fb29",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1101/2025.06.23.661074",
+          "title": "Bifidobacterium longum subsp. nexti subsp. nov., a novel subspecies isolated from infant stool",
+          "year": 2025,
+          "s2_paper_id": "a6ce96782b23e880ce8d9bacbef18b5d1e8a772b",
+          "intents": [],
+          "is_influential": true,
+          "contexts": [
+            "Gene annotations were created using Prokka (1.14.6)[49], which uses BioPerl[50], GNU Parallel[51], BLAST+[52] and Prodigal[46], and pangenomes were analyzed with Roary (3.13.1)[53]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1101/2025.10.06.680608",
+          "title": "Mango: Unearthing Patterns in Large-Scale Biological Data Through Interactive Correlation Analysis",
+          "year": 2025,
+          "s2_paper_id": "3eaf5111a60306fdd1caf1457aec5e625e7dea23",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Several software initiatives exist to lower the barrier of entry and promote reproducibility in this field, including BioPerl (7), Bioconductor (8), Bioconda (9), etc."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1038/s41467-025-62300-0",
+          "title": "A single mutation may contribute to accelerated evolution of SARS-CoV-2 toward Omicron",
+          "year": 2025,
+          "s2_paper_id": "efd4a403d6cc71974c400784995a214ba6d2ccb2",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "The Perl module BioPerl 95 was used to translate nucleotidesintoaminoacids."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/s12864-025-11850-0",
+          "title": "Comparative genome-wide characterization and evolutionary insights into the AP2/ERF gene family in three Coffea species (C. canephora, C. eugenioides, and C. arabica)",
+          "year": 2025,
+          "s2_paper_id": "3c6c721661f08f7d1225724eee2543fe204469a5",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "These protein sequence alignments were then converted to DNA alignments based on their coding sequence (CDS) using BioPerl [42]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.62773/jcocs.v6i2.329",
+          "title": "DNA marker development and assay execution: a practice-oriented perspective",
+          "year": 2025,
+          "s2_paper_id": "f858e0fd6f032d913862aaa86243525ae752b4a5",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "All the resulting fragments will contain an SSR motif with no chimeric sequences (Stajich et al., 2002)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/s12859-025-06255-5",
+          "title": "Dotplotic: a lightweight visualization tool for BLAST\u2009+\u2009alignments and genomic annotations",
+          "year": 2025,
+          "s2_paper_id": "5515499664baf358d8d9ece2808848aa22bcf7bf",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Although many advanced Perl modules for bioinformatic analyses, such as BioPerl [19], are available, their installation can sometimes be challenging depending on the computing environments."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/bioadv/vbaf079",
+          "title": "Identification of universal grass genes and estimates of their monocot-/commelinid-/grass-specificity",
+          "year": 2025,
+          "s2_paper_id": "0fc751b39563068fff109b31c21956b05e75eec6",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "All operations on these input data were carried out on the Rothamsted Linux High Performance Cluster (912 CPU Core, 16TiB memory) using custom Perl (with Bioperl routines; Stajich et al. 2002) and bash scripts to run bioinformatics tools and process data."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/ijms26083637",
+          "title": "Genome-Wide Identification and Transcriptome Analysis of P450 Superfamily Genes in Flax (Linum usitatissimum L.)",
+          "year": 2025,
+          "s2_paper_id": "e09b719e2410ccf971c18807c9259b372216c739",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "The molecular weight (Mw) and isoelectric point (pI) were determined using SeqStats and the pICalculator Bioperl module [44]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3897/imafungus.16.e142219",
+          "title": "\ufeffThree new Pseudogymnoascus species (Pseudeurotiaceae, Thelebolales) described from Antarctic soils",
+          "year": 2025,
+          "s2_paper_id": "3a6342329fd9c007bba50aea7756a70caccc1685",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Sequences were then concatenated, using Bioperl v1(Stajich et al. 2002), and RAxML (Stamatakis 2014) was subsequently run on the concatenated sequence data under the PROTGAMMAAUTO model of amino acid substitution with sup - port from 100 bootstrap replicates."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fpls.2024.1506853",
+          "title": "Pan-genome analysis and expression verification of the maize ARF gene family",
+          "year": 2025,
+          "s2_paper_id": "812182cb8842b8742438316c4a2e78c0685e812d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Ultimately, the maize ARF members were characterized, and the protein lengths of the identi \ufb01 ed ARF members were evaluated using BioPerl (Stajich et al., 2002)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1109/ESIC64052.2025.10962793",
+          "title": "Construction and Optimization of Regular Expressions in Genetic Sequence Analysis",
+          "year": 2025,
+          "s2_paper_id": "2a21e59bfc81eab6233999eee6225a59d1ae8d9b",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1111/pbi.14606",
+          "title": "A modulatory role of CG methylation on gene expression in soybean implicates its potential utility in breeding",
+          "year": 2025,
+          "s2_paper_id": "d1f6086977a0ad71c89617c2c3f4f4ecc748c89d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "The coding sequences of MET1 orthologues from G. max and P. vulgaris were aligned using \u2018Clustalw\u2019 and the nonsynonymous ( Ka ) and synonymous ( Ks ) substitution rates were calculated using the \u2018Bio::Align::DNAStatistics\u2019 BioPerl module in a custom Perl script (Stajich et al ., 2002)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1101/2024.06.07.597948",
+          "title": "SeqLengthPlot: An easy-to-use Python-based Tool for Visualizing and Retrieving Sequence Lengths from fasta files with a Tunable Splitting Point",
+          "year": 2025,
+          "s2_paper_id": "0fa70282e72f21b154cfb2cbec9fbf9bf6d8cb49",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.18699/vjgb-24-89",
+          "title": "Candidate SNP markers of changes in the expression levels of the human SCN9A gene as a hub gene for pain generation, perception, response and anesthesia",
+          "year": 2024,
+          "s2_paper_id": "dc649cf27eba146e2b725aba1dbb3b0e788b481d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "\u2026how this SNP marker was detected by the web service SNP_TATA_Comparator (Ponomarenko et al., 2015) run in automated mode using the BioPerl library (Stajich et al., 2002) for access to Ensembl (Zerbino et al., 2015) and dbSNP (Day, 2010), the official repository of the reference human genome and\u2026"
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1128/msphere.00192-24",
+          "title": "Biosynthetic gene clusters from uncultivated soil bacteria of the Atacama Desert",
+          "year": 2024,
+          "s2_paper_id": "e2acb81829a1579c3ac9a8befc0af85965bfe5b2",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "\u2026output tables were fused and BGCs of lengths shorter than 5,000 bp were filtered out (Table S5), while the genbank output files were converted into GFF format with the script bp_genbank2gff3.pl of Bio::DB::GFF module calling the flags --split and --noinfer, and then parsed (Table S6) (55)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.indcrop.2024.118597",
+          "title": "Genome-wide identification and transcription factor regulation of monolignol biosynthetic genes in Ginkgo biloba L.",
+          "year": 2024,
+          "s2_paper_id": "a82734b2c45ee20716054a7b1e2941ee3cf97487",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fmicb.2024.1412318",
+          "title": "Impact of the chemical modification of tRNAs anticodon loop on the variability and evolution of codon usage in proteobacteria",
+          "year": 2024,
+          "s2_paper_id": "095a957506db6d1c534e4bf6af091b7b695d78d0",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.21037/tcr-23-2000",
+          "title": "Bioinformatics analysis of SH2D4A in glioblastoma multiforme to evaluate immune features and predict prognosis",
+          "year": 2024,
+          "s2_paper_id": "dc061e9881828f52677fdc03a0b865a86a68ed3c",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1038/s41467-024-50239-7",
+          "title": "Ecological genomics in the Northern krill uncovers loci for local adaptation across ocean basins",
+          "year": 2024,
+          "s2_paper_id": "4cc2edf9fafa45a36b91de65d62e1d1e79279d4d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1038/s41467-024-55216-8",
+          "title": "Evolution of fast-growing piscivorous herring in the young Baltic Sea",
+          "year": 2024,
+          "s2_paper_id": "0e51d9ca982891979f8d4e148cf401579f8a7b06",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Levels and patterns of diversity ( \u03b8 W , \u03c0 , and Tajima \u2019 s D) were estimated across the 26 chromosomes using a custom Perl script that incorporated BioPerl code for Tajima \u2019 s D 68,69 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1098/rsos.240491",
+          "title": "Insights into the production and evolution of lantibiotics from a computational analysis of peptides associated with the lanthipeptide cyclase domain",
+          "year": 2024,
+          "s2_paper_id": "4fd4225062319c3f34c42724a070d7740cd7bccf",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Charge and hydrophobicity were calculated using Bioperl [45]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ympev.2024.108131",
+          "title": "Complex patterns of gene flow and convergence in the evolutionary history of the spiral-horned antelopes (Tragelaphini).",
+          "year": 2024,
+          "s2_paper_id": "9d0523fe9a15a47693f21370f384cc6ef4b5bc62",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/biom14060638",
+          "title": "Genome-Wide Identification of Specific Genetic Loci Common to Sheep and Goat",
+          "year": 2024,
+          "s2_paper_id": "9911eb9d4c38932d075a9457b694e7f4b7004d26",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "69 was first used to translate CDS to the corresponding peptide sequence [30]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1212/NXI.0000000000200226",
+          "title": "Epstein-Barr Virus in the Cerebrospinal Fluid and Blood Compartments of Patients With Multiple Sclerosis and Controls",
+          "year": 2024,
+          "s2_paper_id": "75d5b1993b5901aff737d12cdfc39070a09e23da",
+          "intents": [],
+          "is_influential": true,
+          "contexts": [
+            "36,37 This pipeline uses fastp 38 for adapter sequence and low-quality read/base trimming, MEGAHIT v.1.2.8 39 for de novo assembly, and MetaGeneAnnotator 40 for the detection of gene-like regions, which are translated to amino acids with BioPerl 41 and queried against the UniProtKB database using and SANSparallel.",
+            "\u2026uses fastp 38 for adapter sequence and low-quality read/base trimming, MEGAHIT v.1.2.8 39 for de novo assembly, and MetaGeneAnnotator 40 for the detection of gene-like regions, which are translated to amino acids with BioPerl 41 and queried against the UniProtKB database using and SANSparallel."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1371/journal.pbio.3002232",
+          "title": "The genotype of barley cultivars influences multiple aspects of their associated microbiota via differential root exudate secretion",
+          "year": 2024,
+          "s2_paper_id": "37a913311f0fa042aeada7823813b53798591cd4",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/s00239-024-10158-z",
+          "title": "Evolution of Transcript Abundance is Influenced by Indels in Protein Low Complexity Regions",
+          "year": 2024,
+          "s2_paper_id": "32dac434c28be69918fde55a61589cf5a07c481d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "These were discarded with a Perl (Wall et al. 2000) script utilizing the BioPerl package (Stajich et al. 2002)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1111/mec.17306",
+          "title": "Plant\u2013pollinator network architecture does not impact intraspecific microbiome variability",
+          "year": 2024,
+          "s2_paper_id": "ec753ba610053fad0a1632fe16b23f3ade0a1edf",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "For BLAST, we downloaded all plant rbcL nucleotide sequences from NCBI, and then used BioPerl (Stajich et al., 2002) to build a local rbcL database and classify our ASVs."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/antiox13030267",
+          "title": "Cysteine Is the Only Universally Affected and Disfavored Proteomic Amino Acid under Oxidative Conditions in Animals",
+          "year": 2024,
+          "s2_paper_id": "009cd56e78a530b813896e00b7a945dc60fdc617",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "All database sequences were numerically evaluated using customized Perl scripts (http://www.perl.org) generated with the BioPerl package (http://www.bioperl.org) for computational biology [42]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1128/aem.00243-24",
+          "title": "High-throughput nanopore DNA sequencing of large insert fosmid clones directly from bacterial colonies",
+          "year": 2024,
+          "s2_paper_id": "a38928267b8d374dcc68054fed59f3889a1498be",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Individual steps constituting the phiXXer pipeline were combined in a Perl script that makes use of BioPerl modules (37)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/s12915-024-01821-4",
+          "title": "Neofunctionalization driven by positive selection led to the retention of the loqs2 gene encoding an Aedes specific dsRNA binding protein",
+          "year": 2024,
+          "s2_paper_id": "6c1bb2a927b93b14791e33ff395b9003561b1956",
+          "intents": [
+            "background"
+          ],
+          "is_influential": true,
+          "contexts": [
+            "3.0 scripts to count the reads, normalize by RPM, and plot their size distribution based on their base type or genomic features [118].",
+            "4.15 [118\u2013123].",
+            "6.924 scripts [118]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1080/07391102.2023.2300126",
+          "title": "Comprehensive amino acid composition analysis of seed storage proteins of cereals and legumes: identification and understanding of intrinsically disordered and allergenic peptides",
+          "year": 2024,
+          "s2_paper_id": "ee8bbb857ee312d6481099b69d60b06c873373f9",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Bioperl package (Bio::Tools::Protparam available at: https:// metacpan.org/pod/BioPerl) was used to collate the Protparam parameters of individual proteins in the datasets of plant proteins, PDB set, and the database of seed storage proteins (Stajich et al., 2002)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/ijms25010607",
+          "title": "AtSNP_TATAdb: Candidate Molecular Markers of Plant Advantages Related to Single Nucleotide Polymorphisms within Proximal Promoters of Arabidopsis thaliana L.",
+          "year": 2024,
+          "s2_paper_id": "957786d5b26f5e1b38a5f2b7098e8d0826ecfd27",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "DNA sequences for ancestral and minor alleles of each Arabidopsis thaliana gene promoter were retrieved from the Ensembl Plant database [31] using the BioPerl standard library [128]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1038/s41598-023-48022-7",
+          "title": "SSR molecular marker developments and genetic diversity analysis of Zanthoxylum nitidum (Roxb.) DC",
+          "year": 2023,
+          "s2_paper_id": "109f0ada170f953e082f205df9f69f10cc40463b",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "The Perl program was used to analyze the clustering results and evaluate polymorphisms 27 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1111/2041-210X.14251",
+          "title": "NeTaGFT: A similarity network\u2010based method for trait analysis",
+          "year": 2023,
+          "s2_paper_id": "6e7ed88bf5e2a81907d09dcd701974a7651e0b41",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "We randomly defined the branch length \ud835\udefc ( 1 \u2212 ln ( u ( e \u2212 1 ) + 1 )) with uniform random value u that is based on Bio::Tree::RandomFactory using the backward Yule process with a constant birth rate (Stajich et al., 2002)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/horticulturae9111167",
+          "title": "Genome-Wide Identification of AUX/IAA Genes in Watermelon Reveals a Crucial Role for ClIAA16 during Fruit Ripening",
+          "year": 2023,
+          "s2_paper_id": "11726bf031664658a422af090806b52306ebbbf8",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/molbev/msad225",
+          "title": "Comparative Population Transcriptomics Provide New Insight into the Evolutionary History and Adaptive Potential of World Ocean Krill",
+          "year": 2023,
+          "s2_paper_id": "ce0e3078bc5ca77d4640747bf6080facbb787f36",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "We used SplitsTree to calculate transcriptome-wide pairwise genetic distance matrices among individuals and deduce \u03c0 (nucleotide diversity) and BioPerl to calculate Tajima\u2019s D as an indicator of demographic history (Stajich et al. 2002)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1038/s41598-023-50253-7",
+          "title": "Whole-genome sequencing provides novel insights into the evolutionary history and genetic adaptation of reindeer populations in northern Eurasia",
+          "year": 2023,
+          "s2_paper_id": "71d5c0ad34969bbf52f55f58d8064051e7c01c9b",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": true,
+          "contexts": [
+            "\u2026(Fi-D-R, No-D-R, No-W-T, Fi-F-R, Ar-D-R, Ya-D-R and Sv-W-A), the average pairwise nucleotide diversity within a population (\u03c0) and the proportion of polymorphic sites (Watterson\u2019s \u03b8) were calculated from the SNP data using the Bio::PopGen::Statistics package in BioPerl (Version 1.6.924) 70 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1002/ppp3.10404",
+          "title": "Genome and evolution of Prosopis\u2009alba Griseb., a drought and salinity tolerant tree legume crop for arid climates",
+          "year": 2023,
+          "s2_paper_id": "1d6928d6890d30cc464f27a6ba37f0a8d63dca2d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fmicb.2023.1162963",
+          "title": "Mitochondrial genome diversity of Balamuthia mandrillaris revealed by a fatal case of granulomatous amoebic encephalitis",
+          "year": 2023,
+          "s2_paper_id": "1a34bdf8f74bbec51b2020d79beddba0efa56c6b",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "mandrillaris, the mitochondrial genomic architectures of 10 strains were visualized by AliTV, and the result revealed a generally conserved gene synteny (Figure 1B) (Stajich et al., 2002; Harris, 2007; Ankenbrand et al., 2017)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/ijms24109010",
+          "title": "Candidate SNP Markers Significantly Altering the Affinity of TATA-Binding Protein for the Promoters of Human Hub Genes for Atherogenesis, Atherosclerosis and Atheroprotection",
+          "year": 2023,
+          "s2_paper_id": "45ae0ac0b7fdf7fb56b0e3432d649c9e63b2fc4d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1101/2023.04.16.537052",
+          "title": "Comparative population genomics provide new insight into the evolutionary history and adaptive potential of World Ocean krill",
+          "year": 2023,
+          "s2_paper_id": "8abc94ed94990272a5f70ea536633d51e3fb3562",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "We then used SplitsTree to calculate transcriptome\u2013wide pairwise genetic distance matrices among individuals and deduce \u03c0 (nucleotide diversity) and BioPerl to calculate Tajima\u2019s D (DT) as an indicator of demographic history (Stajich et al. 2002)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1101/2021.03.19.436227",
+          "title": "EffectorO: motif-independent prediction of effectors in oomycete genomes using machine learning and lineage-specificity",
+          "year": 2023,
+          "s2_paper_id": "288236a9643973f8936548f27bf5d0bc3528df47",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/ijms24043996",
+          "title": "Differentially Expressed Genes and Molecular Susceptibility to Human Age-Related Diseases",
+          "year": 2023,
+          "s2_paper_id": "ec7c65f036e0f80f7fab8e7e09f44446d8501dd2",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "For in silico analysis of the human genes encoding the novel candidate molecular markers for ARDs, we retrieved the DNA sequences and SNPs of their 70 bp proximal promoters from the Ensembl database [247] and the dbSNP database [218], respectively, using the UCSC Genome Browser (reference human genome assembly GRCh38/hg38) [248] in both dialog mode and automated mode using the Bioperl toolkit [249] (Figure S1)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/ijms24031820",
+          "title": "Three Phages One Host: Isolation and Characterization of Pantoea agglomerans Phages from a Grasshopper Specimen",
+          "year": 2023,
+          "s2_paper_id": "a78ead8e882ce300df6ccdc2396d5178dcae055b",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.55544/jrasb.1.5.17",
+          "title": "Review Article: Genetic Polymorphism Studies and Insurgence of Human Genetic Diseases",
+          "year": 2023,
+          "s2_paper_id": "9a2087bb6e3591cb57051e1ac7c219f9d4675485",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/s42976-022-00308-8",
+          "title": "Unveiling the characteristics of popcorn by genome re-sequencing and integrating the ESTs and proteome data",
+          "year": 2022,
+          "s2_paper_id": "a5d4f2e90267574960ca7fffbe65e8a804553563",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Then, these differential genes were extracted from the results using the Perl programs (Stajich et al. 2002)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1101/2022.11.08.513416",
+          "title": "Geneplot: a coordinate conversion approach for graphical representation of protein domain data on the exon-intron structure of a gene",
+          "year": 2022,
+          "s2_paper_id": "cc14268936e2a18da826a5ebb811e6a1f6be7e5f",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Likewise, Perl also offers a solution to this problem with the Bio::Location library of Bioperl [16]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/ijms232213881",
+          "title": "Evolution of Transcriptomes in Early-Generation Hybrids of the Apomictic Ranunculus auricomus Complex (Ranunculaceae)",
+          "year": 2022,
+          "s2_paper_id": "e6c9c825430b1ffd30d9f0f17fc5f8ff06ff6d2d",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "We calculated average dN/dS ratios per locus, as well as dN/dS ratios, for all sequence pairs using the Bioperl Bio:Align:Statistics module [87], employing the Jukes\u2013Cantor substitution model and the Nej\u2013Gojobori algorithm."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1099/jmm.0.001590",
+          "title": "Comparative genomics and pangenomics of vancomycin-resistant and susceptible Enterococcus faecium from Irish hospitals.",
+          "year": 2022,
+          "s2_paper_id": "9409269a5b28f8949ebf72ef0128bbf21422be67",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1101/2022.09.29.510058",
+          "title": "The paradoxical relationship between CRISPR-Cas and phage susceptibility in Pseudomonas aeruginosa",
+          "year": 2022,
+          "s2_paper_id": "e671176830b230afb47fecce4553905270b20a2f",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fpls.2023.1102715",
+          "title": "A near complete genome assembly of chia assists in identification of key fatty acid desaturases in developing seeds",
+          "year": 2022,
+          "s2_paper_id": "bd6ea7440896f3fa06c2665322bbde5e3391fa89",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/life12081236",
+          "title": "Genome-Wide Analysis of the NAC Family Associated with Two Paleohexaploidization Events in the Tomato",
+          "year": 2022,
+          "s2_paper_id": "68716d780353fd117b194ac32c4154f9a9e4fa72",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Bioperl [34] was used to manipulate sequences, Muscle [35] to perform multiple sequence alignment, and HMMER 3 [36] to perform Pfam Hmm seed-based sequence alignment."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1101/2022.07.26.501647",
+          "title": "Effect of Single Nucleotide Polymorphisms on the structure of long noncoding RNAs and their interaction with RNA Binding Proteins",
+          "year": 2022,
+          "s2_paper_id": "510e7108f4789bedf876c196337330acb162fbf6",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "This certainly helps the user in determining the potential binding site of RBPs in the scanned lncRNA sequence by applying PWMs that compute the score of every single nucleotide at its position using Bioperl (Stajich et al., 2002) and generates a relative score that reflects the percentage of the score for a maximum score of the PWM computed."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/s12859-022-04809-5",
+          "title": "getSequenceInfo: a suite of tools allowing to get genome sequence information from public repositories",
+          "year": 2022,
+          "s2_paper_id": "3e5bf641efd774d55203bfc4f646f19e83b0c272",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Several other Perl modules are required to run the software, including BioPerl (http:// biope rl. org/) [10]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fcimb.2022.912427",
+          "title": "Comparative Genomic Analysis of the Human Pathogen Wohlfahrtiimonas Chitiniclastica Provides Insight Into the Identification of Antimicrobial Resistance Genotypes and Potential Virulence Traits",
+          "year": 2022,
+          "s2_paper_id": "db29e9a1bc160298f4bbee3b629110bc65647661",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/v14071489",
+          "title": "Characterisation of the RNA Virome of Nine Ochlerotatus Species in Finland",
+          "year": 2022,
+          "s2_paper_id": "44a4a70a05adfc5915ecb5a4a88ea3fd0c22347e",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Gene-like regions were detected using MetaGeneAnnotator [21] and translated to amino acids with BioPerl [22]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/s13258-022-01264-7",
+          "title": "Identification of conserved regions from 230,163 SARS-CoV-2 genomes and their use in diagnostic PCR primer design",
+          "year": 2022,
+          "s2_paper_id": "428fecc1c92f26779cadc0118f3573f5530bbe84",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Conservations per column, defined as the percentages of the most frequent bases at a given position (taking gapped sequences into account), were calculated directly from the MSA using BioPerl (Stajich et al. 2002) Bio::AlignIO."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1009123",
+          "title": "A spectrum of free software tools for processing the VCF variant call format: vcflib, bio-vcf, cyvcf2, hts-nim and slivar",
+          "year": 2022,
+          "s2_paper_id": "4a24b061e0f4903479f2d971895ac66e1abbe145",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            ", biopython [26], bioperl [27], bioruby [28] and R\u2019s CRAN [29], contain VCF parsers that may be useful."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/genes13050834",
+          "title": "Genome-Wide Identification and Transcriptional Expression Profiles of PP2C in the Barley (Hordeum vulgare L.) Pan-Genome",
+          "year": 2022,
+          "s2_paper_id": "5f5bc518730633739b5ee6c3b8745bbb35019f43",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "The results of the HMMER search and blastp were integrated using a Perl [31] script."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1111/tpj.15773",
+          "title": "Diverse and mobile: eccDNA\u2010based identification of carrot low\u2010copy\u2010number LTR retrotransposons active in callus cultures",
+          "year": 2022,
+          "s2_paper_id": "7667938a4e47441bdbbc6f3ad2ba3d32348c4d6e",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Using a custom PERL script, based on the BIOPERL module (Stajich et al., 2002), we parsed the BLAST output file to report hits showing a minimum 80% similarity and 90% coverage."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/s12870-022-03554-4",
+          "title": "Genome-wide TCP transcription factors analysis provides insight into their new functions in seasonal and diurnal growth rhythm in Pinus tabuliformis",
+          "year": 2022,
+          "s2_paper_id": "dba0aa62fb84dca361a5754459470c536ea805d7",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Network construction The similarity distance is characterized by the Pearson correlation coefficient (Pcc) [62, 63], and looped using Bioperl software Iterative calculation [64], set the Pcc domain value to -0."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/ijms23052835",
+          "title": "Stress Reactivity, Susceptibility to Hypertension, and Differential Expression of Genes in Hypertensive Compared to Normotensive Patients",
+          "year": 2022,
+          "s2_paper_id": "ac067b6c53bd3a68701176970b6b2064e2d85723",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fmed.2021.784455",
+          "title": "Data Integration Challenges for Machine Learning in Precision Medicine",
+          "year": 2022,
+          "s2_paper_id": "2febd636f23c975ab95fd58682f8b0396e7c656b",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "The Cloud BioLinux suite has a set of pre-installed services, like a Galaxy server (153), access to the BioPerl programming language (154), BLAST (155), R/Bioconductor (156), Glimmer (157), ClustalW (158), and other general purpose (mostly bioinformatic-related) libraries/packages/environments (35,\u2026"
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/bioadv/vbac091",
+          "title": "FUSTA: leveraging FUSE for manipulation of multiFASTA files at scale",
+          "year": 2022,
+          "s2_paper_id": "c910599f2b16319ccaf11d017a9fc315087ec549",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.21203/rs.3.rs-1079760/v1",
+          "title": "Transmission of gut bacteria and viruses from mothers to infants",
+          "year": 2021,
+          "s2_paper_id": "9de6aee6fa5c0028518e8f49ad5da4efc29e2481",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1101/2021.11.22.469549",
+          "title": "\u201cComparative genomics and pangenomics of vancomycin resistant and susceptible Enterococcus faecium from Irish hospitals across 20 years\u201d",
+          "year": 2021,
+          "s2_paper_id": "f5c486d48c2748c35379621db00f5125f4715ff4",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/s12859-021-04473-1",
+          "title": "HaplotypeTools: a toolkit for accurately identifying recombination and recombinant genotypes",
+          "year": 2021,
+          "s2_paper_id": "ba6f36c05247836a8390aaead1413a1af45502a3",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Other requirements: Perl modules (Bioperl [25], BIO::DB::HTC, Hash::Merge) and Samtools [26]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1002/pld3.394",
+          "title": "Solanum galapagense \u2010derived purple tomato fruit color is conferred by novel alleles of the anthocyanin fruit and atroviolacium loci",
+          "year": 2021,
+          "s2_paper_id": "27ca14be5fea924cd6ad89c40b85a0f2d53ae66c",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Additional CDS sequences were retrieved from the National Center for Biotechnology Information (NCBI) from the following Genbank records: Indigo Rose [MN433087 (Yan et al., 2020)], S. lycopersicum accession LA1996 [MN242011.",
+            "Bioinformatics pipeline Genomes from 84 unique cultivated and wild tomato accessions published as part of the 100 Tomato Genome Sequencing Consortium (The 100 Tomato Genome Sequencing Consortium, et al., 2014) and a reference quality whole genome sequence for OH8245 generated as part of a collaboration between the Tomato Pan Genome Consortium and NRGene (Ness-Ziona, Israel; see: https://www.nrgene.com/solutions/consortia/tomato/) were stored on the Ohio Supercomputer Center (OSC) (Ohio Supercomputer center, 1987) computing environment and a nucleotide BLAST database was created using the function \u201cmakeblastdb\u201d in the Basic Local Alignment Search Tool (BLAST) version/2020-04 (Altschul et al., 1990) program.",
+            "Parsing was facilitated by \u201cSearchIO\u201d, \u201cSeq\u201d, and \u201cSeqIO\u201d, functions in BioPerl (Stajich et al., 2002) following implementation of the \u201cblastn\u201d function in the BLAST core package."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/ijms222111766",
+          "title": "An Evolutionary Analysis of B-Box Transcription Factors in Strawberry Reveals the Role of FaBBx28c1 in the Regulation of Flowering Time",
+          "year": 2021,
+          "s2_paper_id": "b16f8132036336096184642a4dc0d5187867c3aa",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Physical and chemical parameters of BBX proteins were predicted by a script of Bioperl toolkit (File S) [64]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1002/9781119104100.ch10",
+          "title": "Bioinformatics of Human Genetic Disease Studies",
+          "year": 2021,
+          "s2_paper_id": "c96b4ef918650ce20f3762468bed91189515ab48",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1093/nar/gkab862",
+          "title": "ZOVER: the database of zoonotic and vector-borne viruses",
+          "year": 2021,
+          "s2_paper_id": "629eeae4d2017066e9fee98498c2b0fac5521eef",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "All remaining records were then downloaded to the local system and converted by in-house BioPerl (17) scripts into relational tables of meta-information, including virus name, sampling time and location, associated vector, detection methods, cell culture method (if available), accession, sequence submitter(s) and affiliation, and related publication (if exists)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fgene.2021.754237",
+          "title": "Genome-Wide Characterization and Expression Analysis of bZIP Gene Family Under Abiotic Stress in Glycyrrhiza uralensis",
+          "year": 2021,
+          "s2_paper_id": "fb421766151675de8a6c09a2fac78621c40c5c8c",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/s10265-021-01338-9",
+          "title": "Metabolome and transcriptome profiling of Theobroma cacao provides insights into the molecular basis of pod color variation",
+          "year": 2021,
+          "s2_paper_id": "d4427318ef5c9cd5179a1f099284c23fa01d0ff2",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Short sequences (  50\u00a0bp) were removed using a custom Perl program (Stajich 2002)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1101/2021.04.14.439843",
+          "title": "T1TAdb: the database of type I toxin\u2013antitoxin systems",
+          "year": 2021,
+          "s2_paper_id": "f1cc9d2843353c0f1dd471fc1f42c6830d47bb1c",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": true,
+          "contexts": [
+            "Other bioinformatic software such as EMBOSS 6.6.0 (Rice et al. 2000), BioPERL (Stajich et al. 2002), and FASTX-Toolkit 0.0.14 (http://hannonlab.cshl.edu/ fastx_toolkit/) were also used to generate and/or process the data included in T1TAdb."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/s12859-021-04304-3",
+          "title": "Taxallnomy: an extension of NCBI Taxonomy that produces a hierarchically complete taxonomic tree",
+          "year": 2021,
+          "s2_paper_id": "369023476ce947d66ca5bc025a28d735fbfaa624",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1038/s41587-021-00985-6",
+          "title": "A Python-based programming language for high-performance computational genomics",
+          "year": 2021,
+          "s2_paper_id": "f491e877ddf9e881fb0aef8fbcaa37b0d17d926b",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fgene.2021.610774",
+          "title": "Disruptive Selection of Human Immunostimulatory and Immunosuppressive Genes Both Provokes and Prevents Rheumatoid Arthritis, Respectively, as a Self-Domestication Syndrome",
+          "year": 2021,
+          "s2_paper_id": "7f152311977b8271ff3b15b24c75813351d08b2c",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1038/s41598-021-90864-6",
+          "title": "Cross-species gene enrichment revealed a single population of Hilsa shad (Tenualosa ilisha) with low genetic variation in Bangladesh waters",
+          "year": 2021,
+          "s2_paper_id": "d48324afbf43b205f5b20ee13b359e64327ff4fe",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1101/2021.06.01.446427",
+          "title": "Discovery, diversity and functional associations of crAss-like phages in human gut metagenomes from four Dutch cohorts",
+          "year": 2021,
+          "s2_paper_id": "c76c13399217905a30a2795aa1eb05d3ed9de504",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1101/2021.05.21.445151",
+          "title": "Vcflib and tools for processing the VCF variant call format",
+          "year": 2021,
+          "s2_paper_id": "d9988e36ff872f965ff556893bda88de37d09594",
+          "intents": [
+            "background"
+          ],
+          "is_influential": false,
+          "contexts": [
+            ", 200 biopython [25], bioperl [26], bioruby [27] and R\u2019s CRAN [28], contain VCF parsers 201 that may be useful."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1073/pnas.2026235118",
+          "title": "100-My history of bornavirus infections hidden in vertebrate genomes",
+          "year": 2021,
+          "s2_paper_id": "c7d6b073f206f6ddfaa82e12e9e6d5afafd3a8ca",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1101/2021.05.07.443114",
+          "title": "Following the Trail of One Million Genomes: Footprints of SARS-CoV-2 Adaptation to Humans",
+          "year": 2021,
+          "s2_paper_id": "a5be97d359e7fad7a95ffe73be8aeb0db0a64622",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/life11040344",
+          "title": "Evaluation of Conserved RNA Secondary Structures within and between Geographic Lineages of Zika Virus",
+          "year": 2021,
+          "s2_paper_id": "5ab6aafcdb0899a6c3d72f5e4c6192208de88ee6",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ygcen.2021.113753",
+          "title": "GABAA receptor-mediated inhibition of Dahlgren cells electrical activity in the olive flounder, Paralichthys olivaceus.",
+          "year": 2021,
+          "s2_paper_id": "4be24e349bdf81b4f223f66f5f36001f8ba98e6b",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "title": "Amino acid frequency and domain features serve well for random forest based classification of thermophilic and mesophilic protein; a case study on serine proteases",
+          "year": 2021,
+          "s2_paper_id": "1ba4420c0fd1987a8fdf4f55f346b71ac84a7708",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Next, the pI for each sequence was evaluated using the pI calculator from BioPerl [23]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1371/journal.ppat.1009418",
+          "title": "Genomics of an endemic cystic fibrosis Burkholderia multivorans strain reveals low within-patient evolution but high between-patient diversity",
+          "year": 2021,
+          "s2_paper_id": "4b94194fb16f36d7e7da58e3ff24d9d83a254342",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "Remaining GenBank files were converted into gff3 files using the perl script \u201cbp_genbank2gff3\u201d available in the BioPerl software library [67] and given as input to roary v3."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1371/journal.ppat.1009102",
+          "title": "Genome-wide dissection reveals diverse pathogenic roles of bacterial Tc toxins",
+          "year": 2021,
+          "s2_paper_id": "aab934a810db825acd5bc367392429473c5812a0",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "All complete or draft prokaryotic genomes available from RefSeq (accessed at March, 2019) were downloaded to local system and parsed with BioPerl [57]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1099/ijsem.0.004673",
+          "title": "Sporofaciens musculi gen. nov., sp. nov., a novel bacterium isolated from the caecum of an obese mouse.",
+          "year": 2021,
+          "s2_paper_id": "713d8c6c46708662c480ddee8452f26ee30f9b70",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fpls.2021.663851",
+          "title": "Genomic and Phenotypic Biology of Novel Strains of Dickeya zeae Isolated From Pineapple and Taro in Hawaii: Insights Into Genome Plasticity, Pathogenicity, and Virulence Determinants",
+          "year": 2021,
+          "s2_paper_id": "753438a0b37379d60a2a50372a4c965738b1d0c8",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1080/07853890.2021.2014554",
+          "title": "Analysis of a circRNA-, miRNA-, and mRNA-associated ceRNA network reveals potential biomarkers in preeclampsia a ceRNA network in preeclampsia",
+          "year": 2021,
+          "s2_paper_id": "bbec2d8d4c9b8da6aff9c9070631b596d923060e",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": true,
+          "contexts": [
+            "The primary data were preprocessed using Perl [12]",
+            "Name Degree MCODE_Cluster MCODE_Score Gene title GNGT1 19 Cluster 3 4.935897 Guanine nucleotide-binding protein G(T) subunit gamma-T1 GNB5 16 Cluster 3 4.935897 Guanine nucleotide-binding protein subunit beta-5 GNG4 15 Cluster 3 4.935897 Guanine nucleotide-binding protein subunit beta-4 IL2RB 14 Cluster 1 5 Interleukin-2 receptor subunit beta ITGAX 14 Cluster 1 5 Integrin alpha-X F2R 11 Cluster 2 7 Proteinase-activated receptor 1 CNR1 11 Cluster 2 7 Cannabinoid receptor 1 CXCR2 11 Cluster 2 7 C-X-C chemokine receptor type 2 CD5 10 Cluster 1 5 T-cell surface glycoprotein CD5 CD52 10 Cluster 1 5 CAMPATH-1 antigen OXTR 10 Cluster 2 7 Oxytocin receptor GAL 10 Cluster 2 7 Galanin peptides\nanalyzed by Perl to obtain the circRNA\u2013miRNA\u2013mRNA pairs.",
+            "The primary data were preprocessed using Perl [12] and the Limma package in R software to screen the differentially expressed circRNAs, miRNAs and mRNAs between PE and control placental tissues [13]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/ani11010157",
+          "title": "Whole Genome Sequencing Reveals the Effects of Recent Artificial Selection on Litter Size of Bamei Mutton Sheep",
+          "year": 2021,
+          "s2_paper_id": "cbf81bb91a12a99ba7ce77184e8c8bc03f5f025c",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "We averaged FST values over 50 kb sliding windows along the genome with the Bio::PopGen::PopStats Package in BioPerl [33] and Z-transformed the resultant distribution."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.21037/atm-21-5183",
+          "title": "AEBP1 as a potential immune-related prognostic biomarker in glioblastoma: a bioinformatic analyses",
+          "year": 2021,
+          "s2_paper_id": "ee828fcb1f95ecad82b60f2ddfd665f5a5604e0f",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "edu/) and used a Perl (23) script to convert the Ensembl number of the gene to the Official Symbol of the gene for the subsequent analysis.",
+            "TCGA and GTEx data analysis\nTo examine messenger RNA (mRNA) expression in normal brain tissues, we downloaded GTEx data (1,152 normal brain tissues) from (22) the UCSC Xena (http:// xena.ucsc.edu/) and used a Perl (23) script to convert the Ensembl number of the gene to the Official Symbol of the gene for the subsequent analysis."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1101/2020.12.24.424364",
+          "title": "TaxOnTree: a tool that generates trees annotated with taxonomic information",
+          "year": 2020,
+          "s2_paper_id": "a1283d93992f0ad98e383a4dffde6ad4de7615c6",
+          "intents": [
+            "methodology"
+          ],
+          "is_influential": false,
+          "contexts": [
+            "TaxOnTree source code (available at http://github.com/biodados/taxontree) was written in Perl and uses phylogenetic modules from BioPerl [15] to read and edit the tree.",
+            "com/biodados/taxontree) was written in Perl and uses phylogenetic modules from BioPerl [15] to read"
+          ],
+          "source": "semantic_scholar"
+        }
+      ],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "pdf_url": "http://genome.cshlp.org/content/12/10/1611.full.pdf",
+          "host_type": "BRONZE",
+          "is_best": false,
+          "source": "semantic_scholar"
+        }
+      ],
+      "best_oa_url": "http://genome.cshlp.org/content/12/10/1611.full.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Biology",
+          "scheme": "s2_external",
+          "source": "semantic_scholar"
+        },
+        {
+          "value": "Medicine",
+          "scheme": "s2_external",
+          "source": "semantic_scholar"
+        },
+        {
+          "value": "Computer Science",
+          "scheme": "s2_s2-fos-model",
+          "source": "semantic_scholar"
+        },
+        {
+          "value": "Biology",
+          "scheme": "s2_s2-fos-model",
+          "source": "semantic_scholar"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "influential_citation_count",
+          "value": 109.0,
+          "source": "semantic_scholar"
+        }
+      ],
+      "tldr": "The overall architecture of the Bioperl toolkit is described, the problem domains that it addresses, and specific examples of how the toolkit can be used to solve common life-sciences problems are given.",
+      "citation_styles": {
+        "bibtex": "@Article{Stajich2002TheBT,\n author = {J. Stajich and David Block and K. Boulez and S. Brenner and S. Chervitz and Chris Dagdigian and Georg Fuellen and James G. R. Gilbert and I. Korf and H. Lapp and H. Lehv\u00e4slaiho and Chad Matsalla and C. Mungall and B. Osborne and M. Pocock and P. Schattner and Martin Senger and L. Stein and E. Stupka and Mark D. Wilkinson and E. Birney},\n booktitle = {Genome Research},\n journal = {Genome research},\n pages = {\n          1611-8\n        },\n title = {The Bioperl toolkit: Perl modules for the life sciences.},\n volume = {12 10},\n year = {2002}\n}\n"
+      },
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "The Bioperl Toolkit: Perl Modules for the Life Sciences",
+      "publication_date": "2002-10-01",
+      "publication_year": 2002,
+      "work_type": "journal-article",
+      "publisher": "Cold Spring Harbor Laboratory",
+      "container_title": "Genome Research",
+      "issn": [
+        "1088-9051",
+        "1549-5469"
+      ],
+      "doi": "10.1101/gr.361602",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_locations": [
+        {
+          "url": "http://genome.cshlp.org/content/12/10/1611.full.pdf",
+          "pdf_url": "http://genome.cshlp.org/content/12/10/1611.full.pdf",
+          "landing_page_url": "https://doi.org/10.1101/gr.361602",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "http://genome.cshlp.org/content/12/10/1611.full.pdf",
+          "pdf_url": "http://genome.cshlp.org/content/12/10/1611.full.pdf",
+          "landing_page_url": "https://doi.org/10.1101/gr.361602",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/187536",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/187536",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "http://genome.cshlp.org/content/12/10/1611.full.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "The Bioperl toolkit: Perl modules for the life sciences.",
+      "abstract": "The Bioperl project is an international open-source collaboration of biologists, bioinformaticians, and computer scientists that has evolved over the past 7 yr into the most comprehensive library of Perl modules available for managing and manipulating life-science information. Bioperl provides an easy-to-use, stable, and consistent programming interface for bioinformatics application programmers. The Bioperl modules have been successfully and repeatedly used to reduce otherwise complex tasks to only a few lines of code. The Bioperl object model has been proven to be flexible enough to support enterprise-level applications such as EnsEMBL, while maintaining an easy learning curve for novice Perl programmers. Bioperl is capable of executing analyses and processing results from programs such as BLAST, ClustalW, or the EMBOSS suite. Interoperation with modules written in Python and Java is supported through the evolving BioCORBA bridge. Bioperl provides access to data stores such as GenBank and SwissProt via a flexible series of sequence input/output modules, and to the emerging common sequence data storage format of the Open Bioinformatics Database Access project. This study describes the overall architecture of the toolkit, the problem domains that it addresses, and gives specific examples of how the toolkit can be used to solve common life-sciences problems. We conclude with a discussion of how the open-source nature of the project has contributed to the development effort.",
+      "publication_year": 2002,
+      "language": "eng",
+      "container_title": "Genome research",
+      "volume": "12",
+      "issue": "10",
+      "pages": "1611-1618",
+      "issn": [],
+      "doi": "10.1101/gr.361602",
+      "pmid": "12368254",
+      "pmcid": "PMC187536",
+      "authors": [
+        {
+          "name": {
+            "given": "Jason E",
+            "family": "Stajich",
+            "full_name": "Stajich JE",
+            "orcid": "0000-0002-7591-0020",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "University Program in Genetics, Duke University, Durham, North Carolina 27710, USA. jason.stajich@duke.edu",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "David",
+            "family": "Block",
+            "full_name": "Block D",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Kris",
+            "family": "Boulez",
+            "full_name": "Boulez K",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Steven E",
+            "family": "Brenner",
+            "full_name": "Brenner SE",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Stephen A",
+            "family": "Chervitz",
+            "full_name": "Chervitz SA",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Chris",
+            "family": "Dagdigian",
+            "full_name": "Dagdigian C",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Georg",
+            "family": "Fuellen",
+            "full_name": "Fuellen G",
+            "orcid": "0000-0002-4994-9829",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "James G R",
+            "family": "Gilbert",
+            "full_name": "Gilbert JG",
+            "orcid": "0000-0001-8079-3159",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ian",
+            "family": "Korf",
+            "full_name": "Korf I",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Hilmar",
+            "family": "Lapp",
+            "full_name": "Lapp H",
+            "orcid": "0000-0001-9107-0714",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Heikki",
+            "family": "Lehv\u00e4slaiho",
+            "full_name": "Lehv\u00e4slaiho H",
+            "orcid": "0000-0002-6263-1356",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Chad",
+            "family": "Matsalla",
+            "full_name": "Matsalla C",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Chris J",
+            "family": "Mungall",
+            "full_name": "Mungall CJ",
+            "orcid": "0000-0002-6601-2165",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Brian I",
+            "family": "Osborne",
+            "full_name": "Osborne BI",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Matthew R",
+            "family": "Pocock",
+            "full_name": "Pocock MR",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Peter",
+            "family": "Schattner",
+            "full_name": "Schattner P",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Martin",
+            "family": "Senger",
+            "full_name": "Senger M",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Lincoln D",
+            "family": "Stein",
+            "full_name": "Stein LD",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Elia",
+            "family": "Stupka",
+            "full_name": "Stupka E",
+            "orcid": "0000-0003-3154-4011",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mark D",
+            "family": "Wilkinson",
+            "full_name": "Wilkinson MD",
+            "orcid": "0000-0001-6960-357X",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ewan",
+            "family": "Birney",
+            "full_name": "Birney E",
+            "orcid": "0000-0001-8314-8497",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 1175,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": false,
+      "oa_locations": [],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "1 K32 HG00056",
+          "agency": "NHGRI NIH HHS",
+          "agency_abbreviation": "HG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "T32 GM007754",
+          "agency": "NIGMS NIH HHS",
+          "agency_abbreviation": "GM",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "U41 HG000739",
+          "agency": "NHGRI NIH HHS",
+          "agency_abbreviation": "HG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P41HG02223",
+          "agency": "NHGRI NIH HHS",
+          "agency_abbreviation": "HG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "HG00739",
+          "agency": "NHGRI NIH HHS",
+          "agency_abbreviation": "HG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "K22 HG-00064-01",
+          "agency": "NHGRI NIH HHS",
+          "agency_abbreviation": "HG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "K22 HG000056",
+          "agency": "NHGRI NIH HHS",
+          "agency_abbreviation": "HG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P41 HG000739",
+          "agency": "NHGRI NIH HHS",
+          "agency_abbreviation": "HG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "T32 GM07754-22",
+          "agency": "NIGMS NIH HHS",
+          "agency_abbreviation": "GM",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "K22 HG000064",
+          "agency": "NHGRI NIH HHS",
+          "agency_abbreviation": "HG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P41 HG002223",
+          "agency": "NHGRI NIH HHS",
+          "agency_abbreviation": "HG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        }
+      ],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Animals",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Humans",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "qualifier_name": "methods",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "qualifier_name": "trends",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Systems Integration",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Computer Graphics",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Internet",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Software",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Database Management Systems",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Software Design",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Databases, Genetic",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Online Systems",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Biological Science Disciplines",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Biological Science Disciplines",
+          "qualifier_name": "methods",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Biological Science Disciplines",
+          "qualifier_name": "trends",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 1175.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [
+        "gen"
+      ],
+      "corrections": [],
+      "full_text_urls": [
+        {
+          "url": "https://doi.org/10.1101/gr.361602",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC187536",
+          "availability": "Free",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC187536?pdf=render",
+          "availability": "Free",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://doi.org/10.1101/gr.361602",
+          "availability": "Free",
+          "document_style": "doi",
+          "site": "DOI"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openaire": {
+      "source": "openaire",
+      "found": true,
+      "raw": {},
+      "title": "The Bioperl Toolkit: Perl Modules for the Life Sciences",
+      "abstract": "<jats:p>The Bioperl project is an international open-source collaboration of biologists, bioinformaticians, and computer scientists that has evolved over the past 7 yr into the most comprehensive library of Perl modules available for managing and manipulating life-science information. Bioperl provides an easy-to-use, stable, and consistent programming interface for bioinformatics application programmers. The Bioperl modules have been successfully and repeatedly used to reduce otherwise complex tasks to only a few lines of code. The Bioperl object model has been proven to be flexible enough to support enterprise-level applications such as EnsEMBL, while maintaining an easy learning curve for novice Perl programmers. Bioperl is capable of executing analyses and processing results from programs such as BLAST, ClustalW, or the EMBOSS suite. Interoperation with modules written in Python and Java is supported through the evolving BioCORBA bridge. Bioperl provides access to data stores such as GenBank and SwissProt via a flexible series of sequence input/output modules, and to the emerging common sequence data storage format of the Open Bioinformatics Database Access project. This study describes the overall architecture of the toolkit, the problem domains that it addresses, and gives specific examples of how the toolkit can be used to solve common life-sciences problems. We conclude with a discussion of how the open-source nature of the project has contributed to the development effort.</jats:p><jats:p>[Supplemental material is available online at <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://www.genome.org\" xlink:type=\"simple\">www.genome.org</jats:ext-link>. Bioperl is available as open-source software free of charge and is licensed under the Perl Artistic License (<jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://www.perl.com/pub/a/language/misc/Artistic.html\" xlink:type=\"simple\">http://www.perl.com/pub/a/language/misc/Artistic.html</jats:ext-link>). It is available for download at <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://www.bioperl.org\" xlink:type=\"simple\">http://www.bioperl.org</jats:ext-link>. Support inquiries should be addressed to <jats:email xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:type=\"simple\">bioperl-l@bioperl.org</jats:email>.]</jats:p>",
+      "publication_date": "2002-10-01",
+      "publication_year": 2002,
+      "work_type": "publication",
+      "language": "eng",
+      "publisher": "Cold Spring Harbor Laboratory",
+      "issn": [],
+      "doi": "10.1101/gr.361602",
+      "pmid": "12368254",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Jason E, Stajich",
+            "orcid": "0000-0002-7591-0020",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "David, Block",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kris, Boulez",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Steven E, Brenner",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Stephen A, Chervitz",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Chris, Dagdigian",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Georg, Fuellen",
+            "orcid": "0000-0002-4994-9829",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "James G R, Gilbert",
+            "orcid": "0000-0001-8079-3159",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ian, Korf",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Hilmar, Lapp",
+            "orcid": "0000-0001-9107-0714",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Heikki, Lehv\u00e4slaiho",
+            "orcid": "0000-0002-6263-1356",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Chad, Matsalla",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Chris J, Mungall",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Brian I, Osborne",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Matthew R, Pocock",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Peter, Schattner",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Martin, Senger",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Lincoln D, Stein",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Elia, Stupka",
+            "orcid": "0000-0003-3154-4011",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Mark D, Wilkinson",
+            "orcid": "0000-0001-6960-357x",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ewan, Birney",
+            "orcid": "0000-0001-8314-8497",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "citation_count": 1369,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_status": "bronze",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1101/gr.361602",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://genome.cshlp.org/content/12/10/1611.full.pdf",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12368254",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://dx.doi.org/10.1101/gr.361602",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "5P41HG002223-07",
+          "agency": "National Institutes of Health",
+          "title": "Wormbase: A Core Data Resource for C. Elegans Biology",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::2348022563ecd0b2c83c4dc0894c01cc",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "unidentified",
+          "agency": "Wellcome Trust",
+          "title": "unidentified",
+          "pi_names": [],
+          "openaire_project_id": "wt__________::1e5e62235d094afd01cd56e65112fc63",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5K22HG000056-03",
+          "agency": "National Institutes of Health",
+          "title": "COMPUTATIONAL STRUCTURAL AND FUNCTIONAL GENOMICS",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::37d140f3d23a66fc7d4a880f6afecc14",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5T32GM007754-09",
+          "agency": "National Institutes of Health",
+          "title": "GENETICS",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::024116fd4b7885c0a20cc1e61cc0895d",
+          "source": "openaire"
+        }
+      ],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "0301 basic medicine",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "Internet",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "0303 health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "Computational Biology",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Online Systems",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Biological Science Disciplines",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Systems Integration",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "03 medical and health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "Software Design",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Databases, Genetic",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Computer Graphics",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Animals",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Database Management Systems",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Humans",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Algorithms",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Software",
+          "scheme": "keyword",
+          "source": "openaire"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "bip_citationCount",
+          "value": 1369.0,
+          "class_label": "C2",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_influence",
+          "value": 2.2650676e-07,
+          "class_label": "C1",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_popularity",
+          "value": 4.675451e-07,
+          "class_label": "C2",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_impulse",
+          "value": 159.0,
+          "class_label": "C2",
+          "source": "openaire"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [
+        {
+          "grant_id": "5P41HG002223-07",
+          "agency": "National Institutes of Health",
+          "title": "Wormbase: A Core Data Resource for C. Elegans Biology",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::2348022563ecd0b2c83c4dc0894c01cc",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "unidentified",
+          "agency": "Wellcome Trust",
+          "title": "unidentified",
+          "pi_names": [],
+          "openaire_project_id": "wt__________::1e5e62235d094afd01cd56e65112fc63",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5K22HG000056-03",
+          "agency": "National Institutes of Health",
+          "title": "COMPUTATIONAL STRUCTURAL AND FUNCTIONAL GENOMICS",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::37d140f3d23a66fc7d4a880f6afecc14",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5T32GM007754-09",
+          "agency": "National Institutes of Health",
+          "title": "GENETICS",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::024116fd4b7885c0a20cc1e61cc0895d",
+          "source": "openaire"
+        }
+      ],
+      "alternate_ids": [
+        "doi:10.1101/gr.361602",
+        "doi:10.1101/gr.361602",
+        "pmid:12368254",
+        "pmc:PMC187536",
+        "doi:10.1101/gr.361602",
+        "mag_id:2150934173"
+      ],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/gr.361602",
+      "pmid": "19683066",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/gr.361602",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/gr.361602",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/gr.361602",
+      "authors": [
+        {
+          "name": {
+            "given": "James",
+            "family": "Gilbert",
+            "full_name": "James GR Gilbert",
+            "orcid": "0000-0001-8079-3159",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Elia",
+            "family": "Stupka",
+            "full_name": "Elia Stupka",
+            "orcid": "0000-0003-3154-4011",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Hilmar",
+            "family": "Lapp",
+            "full_name": "Hilmar Lapp",
+            "orcid": "0000-0001-9107-0714",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Christopher",
+            "family": "Mungall",
+            "full_name": "Christopher Mungall",
+            "orcid": "0000-0002-6601-2165",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Heikki",
+            "family": "Lehv\u00e4slaiho",
+            "full_name": "Heikki Lehvaslaiho",
+            "orcid": "0000-0002-6263-1356",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ewan",
+            "family": "Birney",
+            "full_name": "Ewan Birney",
+            "orcid": "0000-0001-8314-8497",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mark",
+            "family": "Wilkinson",
+            "full_name": "Mark D. Wilkinson",
+            "orcid": "0000-0001-6960-357X",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jason",
+            "family": "Stajich",
+            "full_name": "Jason Stajich",
+            "orcid": "0000-0002-7591-0020",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Georg",
+            "family": "Fuellen",
+            "full_name": "Georg Fuellen",
+            "orcid": "0000-0002-4994-9829",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0001-8079-3159",
+          "given_names": "James",
+          "family_names": "Gilbert",
+          "credit_name": "James GR Gilbert",
+          "other_names": [],
+          "institutions": [
+            "University of Cambridge",
+            "University of Leeds",
+            "Wellcome Sanger Institute"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0003-3154-4011",
+          "given_names": "Elia",
+          "family_names": "Stupka",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0001-9107-0714",
+          "given_names": "Hilmar",
+          "family_names": "Lapp",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Albert-Ludwigs-Universit\u00e4t Freiburg",
+            "Data Carpentry",
+            "Duke University",
+            "Genomics Institute of the Novartis Research Foundation",
+            "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen",
+            "National Evolutionary Synthesis Center",
+            "Neuromatch",
+            "Novartis Research Institute, Vienna",
+            "Open Bioinformatics Foundation",
+            "Open Bioinformatics Foundation (OBF)",
+            "Phoenix Bioinformatics",
+            "U.S. Semantic Technologies Symposium (US2TS)",
+            "iEvoBio (Conference in Informatics of Evolution, Ecology, and Biodiversity)"
+          ],
+          "emails": [
+            "hilmar.lapp@duke.edu",
+            "hilmar.lapp@gmail.com",
+            "hilmar.lapp@neuromatch.io"
+          ]
+        },
+        {
+          "orcid_id": "0000-0002-6601-2165",
+          "given_names": "Christopher",
+          "family_names": "Mungall",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "International Society for Biocuration",
+            "Lawrence Berkeley National Laboratory",
+            "University of Edinburgh",
+            "University of Edinburgh School of Biological Sciences"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-6263-1356",
+          "given_names": "Heikki",
+          "family_names": "Lehv\u00e4slaiho",
+          "credit_name": "Heikki Lehvaslaiho",
+          "other_names": [],
+          "institutions": [
+            "CSC - IT Center for Science (Finland)"
+          ],
+          "emails": [
+            "heikki.lehvaslaiho@gmail.com"
+          ]
+        },
+        {
+          "orcid_id": "0000-0001-8314-8497",
+          "given_names": "Ewan",
+          "family_names": "Birney",
+          "credit_name": "Ewan Birney",
+          "other_names": [
+            "John Birney"
+          ],
+          "institutions": [
+            "Academy of Medical Sciences",
+            "EMBL",
+            "EMBL-EBI",
+            "Royal Society",
+            "University of Cambridge",
+            "University of Oxford"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0001-6960-357X",
+          "given_names": "Mark",
+          "family_names": "Wilkinson",
+          "credit_name": "Mark D. Wilkinson",
+          "other_names": [],
+          "institutions": [
+            "James Hogg iCAPTURE Center",
+            "Max Planck Institut fur Zuchtungsforschung",
+            "National Research Council Canada",
+            "Universidad Polit\u00e9cnica de Madrid (UPM)",
+            "University of Alberta",
+            "University of British Columbia"
+          ],
+          "emails": [
+            "mark.wilkinson@upm.es"
+          ]
+        },
+        {
+          "orcid_id": "0000-0002-7591-0020",
+          "given_names": "Jason",
+          "family_names": "Stajich",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Adolph C and Mary Sprague Miller Institute for Basic Research in Science",
+            "American Association For The Advancement of Science",
+            "American Society for Microbiology",
+            "CIFAR",
+            "Duke University",
+            "Duke University Medical Center",
+            "Genetics Society of America",
+            "Mycological Society of America",
+            "University of California Riverside"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-4994-9829",
+          "given_names": "Georg",
+          "family_names": "Fuellen",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Universit\u00e4tsmedizin Rostock"
+          ],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/gr.361602",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1101/gr.361602",
+    "pmid": "12368254",
+    "pmcid": "PMC187536",
+    "mag_id": "2150934173",
+    "openalex_id": "https://openalex.org/W2150934173",
+    "s2_paper_id": "33780e4aba639a97f9fb7f7e773853f74dd494b7",
+    "s2_corpus_id": "14987095",
+    "handles": [],
+    "orcids": [
+      "0000-0001-5259-6182",
+      "0000-0001-6960-357X",
+      "0000-0001-6960-357x",
+      "0000-0001-7559-6185",
+      "0000-0001-8079-3159",
+      "0000-0001-8314-8497",
+      "0000-0001-9107-0714",
+      "0000-0002-1983-4588",
+      "0000-0002-4994-9829",
+      "0000-0002-6263-1356",
+      "0000-0002-6601-2165",
+      "0000-0002-7591-0020",
+      "0000-0002-7886-1324",
+      "0000-0002-8168-8294",
+      "0000-0003-1582-6641",
+      "0000-0003-3154-4011"
+    ],
+    "ror_ids": [
+      "https://ror.org/00py81415",
+      "https://ror.org/00qed5764",
+      "https://ror.org/017136v53",
+      "https://ror.org/01856cw59",
+      "https://ror.org/01an7q238",
+      "https://ror.org/01yc7t268",
+      "https://ror.org/02catss52",
+      "https://ror.org/02qz8b764",
+      "https://ror.org/03s65by71",
+      "https://ror.org/04xpsrn94",
+      "https://ror.org/051dzs374",
+      "https://ror.org/05cy4wa09"
+    ],
+    "grant_ids": [
+      "1 K32 HG00056",
+      "5K22HG000056-03",
+      "5P41HG002223-07",
+      "5T32GM007754-09",
+      "HG00739",
+      "K22 HG-00064-01",
+      "K22 HG000056",
+      "K22 HG000064",
+      "P41 HG000739",
+      "P41 HG002223",
+      "P41HG02223",
+      "T32 GM007754",
+      "T32 GM07754-22",
+      "U41 HG000739",
+      "unidentified"
+    ],
+    "nct_ids": [],
+    "pmid_source": "europe_pmc",
+    "pmcid_source": "europe_pmc"
+  },
+  "conflicts": {
+    "doi": "10.1101/gr.361602",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 1256,
+          "openalex": 1670,
+          "semantic_scholar": 1734,
+          "europe_pmc": 1175,
+          "openaire": 1369
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 24,
+          "openalex": 19,
+          "semantic_scholar": 28
+        },
+        "risk": "low"
+      },
+      {
+        "field": "title",
+        "values": {
+          "crossref": "The Bioperl Toolkit: Perl Modules for the Life Sciences",
+          "openalex": "The Bioperl Toolkit: Perl Modules for the Life Sciences",
+          "semantic_scholar": "The Bioperl toolkit: Perl modules for the life sciences",
+          "unpaywall": "The Bioperl Toolkit: Perl Modules for the Life Sciences",
+          "europe_pmc": "The Bioperl toolkit: Perl modules for the life sciences",
+          "openaire": "The Bioperl Toolkit: Perl Modules for the Life Sciences"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "oa_status",
+        "values": {
+          "openalex": "hybrid",
+          "unpaywall": "hybrid",
+          "openaire": "bronze"
+        },
+        "risk": "medium"
+      },
+      {
+        "field": "is_oa",
+        "values": {
+          "openalex": true,
+          "semantic_scholar": true,
+          "unpaywall": true,
+          "europe_pmc": false
+        },
+        "risk": "medium"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "semantic_scholar": "JournalArticle",
+          "unpaywall": "journal-article",
+          "openaire": "publication"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 21,
+          "openalex": 21,
+          "semantic_scholar": 21,
+          "unpaywall": 21,
+          "europe_pmc": 21,
+          "openaire": 21,
+          "orcid": 9
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Cold Spring Harbor Laboratory",
+          "openalex": "https://openalex.org/P4310315909",
+          "unpaywall": "Cold Spring Harbor Laboratory",
+          "openaire": "Cold Spring Harbor Laboratory"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Genome Research",
+          "openalex": "Genome Research",
+          "semantic_scholar": "Genome research",
+          "unpaywall": "Genome Research",
+          "europe_pmc": "Genome research"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "mesh_term_count",
+        "values": {
+          "openalex": 45,
+          "europe_pmc": 17
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng",
+          "openaire": "eng"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "grant_count",
+        "values": {
+          "europe_pmc": 11,
+          "openaire": 4
+        },
+        "risk": "medium"
+      }
+    ],
+    "agreement_count": 1,
+    "conflict_count": 12
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1101/gr.361602",
+    "fetched_at": "2026-02-11T18:39:04.486738+00:00"
+  }
+}

@@ -1,0 +1,2895 @@
+{
+  "doi": "10.1002/hbm.1058",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T16:12:41.057773Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "Nonparametric permutation tests for functional neuroimaging: A primer with examples",
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>Requiring only minimal assumptions for validity, nonparametric permutation testing provides a flexible and intuitive methodology for the statistical analysis of data from functional neuroimaging experiments, at some computational expense. Introduced into the functional neuroimaging literature by Holmes et al. ([<jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#bib27\">1996</jats:ext-link>]: J Cereb Blood Flow Metab 16:7\u201322), the permutation approach readily accounts for the multiple comparisons problem implicit in the standard voxel\u2010by\u2010voxel hypothesis testing framework. When the appropriate assumptions hold, the nonparametric permutation approach gives results similar to those obtained from a comparable Statistical Parametric Mapping approach using a general linear model with multiple comparisons corrections derived from random field theory. For analyses with low degrees of freedom, such as single subject PET/SPECT experiments or multi\u2010subject PET/SPECT or<jats:italic>f</jats:italic>MRI designs assessed for population effects, the nonparametric approach employing a locally pooled (smoothed) variance estimate can outperform the comparable Statistical Parametric Mapping approach. Thus, these nonparametric techniques can be used to verify the validity of less computationally expensive parametric approaches. Although the theory and relative advantages of permutation approaches have been discussed by various authors, there has been no accessible explication of the method, and no freely distributed software implementing it. Consequently, there have been few practical applications of the technique. This article, and the accompanying MATLAB software, attempts to address these issues. The standard nonparametric randomization and permutation testing ideas are developed at an accessible level, using practical examples from functional neuroimaging, and the extensions for multiple comparisons described. Three worked examples from PET and<jats:italic>f</jats:italic>MRI are presented, with discussion, and comparisons with standard parametric approaches made where appropriate. Practical considerations are given throughout, and relevant statistical concepts are expounded in appendices. Hum. Brain Mapping 15:1\u201325, 2001. \u00a9 2001 Wiley\u2010Liss, Inc.</jats:p>",
+      "publication_date": "2001-10-15",
+      "publication_year": 2001,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Wiley",
+      "container_title": "Human Brain Mapping",
+      "volume": "15",
+      "issue": "1",
+      "pages": "1-25",
+      "issn": [
+        "1065-9471",
+        "1097-0193"
+      ],
+      "doi": "10.1002/hbm.1058",
+      "authors": [
+        {
+          "name": {
+            "given": "Thomas E.",
+            "family": "Nichols",
+            "full_name": "Thomas E. Nichols",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Andrew P.",
+            "family": "Holmes",
+            "full_name": "Andrew P. Holmes",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 5527,
+      "reference_count": 52,
+      "references": [
+        {
+          "doi": "10.1073/pnas.93.18.9985",
+          "key": "e_1_2_6_2_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1097/00004647-199611000-00023",
+          "key": "e_1_2_6_3_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/mrm.1910350219",
+          "key": "e_1_2_6_4_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/42.750253",
+          "key": "e_1_2_6_5_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1239/aap/1029955192",
+          "key": "e_1_2_6_6_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1214/aoms/1177707045",
+          "key": "e_1_2_6_7_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1080/00223980.1964.9916711",
+          "key": "e_1_2_6_8_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1080/00223980.1969.10543491",
+          "key": "e_1_2_6_9_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1969,
+          "author": "Edgington ES",
+          "key": "e_1_2_6_10_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1995,
+          "author": "Edgington ES",
+          "key": "e_1_2_6_11_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1990,
+          "author": "Fisher RA",
+          "key": "e_1_2_6_12_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1935,
+          "author": "Fisher RA",
+          "key": "e_1_2_6_13_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/mrm.1910330508",
+          "key": "e_1_2_6_14_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1997,
+          "author": "Frackowiak RSJ",
+          "key": "e_1_2_6_15_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/jcbfm.1991.122",
+          "key": "e_1_2_6_16_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/hbm.460010306",
+          "key": "e_1_2_6_17_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1006/nimg.1995.1007",
+          "key": "e_1_2_6_18_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/hbm.460020402",
+          "key": "e_1_2_6_19_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1006/nimg.1996.0074",
+          "key": "e_1_2_6_20_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1994,
+          "author": "Good P",
+          "key": "e_1_2_6_21_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/(SICI)1097-0193(1996)4:1<23::AID-HBM2>3.0.CO;2-R",
+          "key": "e_1_2_6_22_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1097/00004647-199710000-00004",
+          "key": "e_1_2_6_23_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/9780470316672",
+          "key": "e_1_2_6_24_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1097/00004647-199806000-00012",
+          "key": "e_1_2_6_25_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "HolmesAP(1994): Statistical issues in functional brain mapping PhD thesis. University of Glasgow.http://www.fil.ion.ucl.ac.uk/spm/papers/APH_thesis",
+          "key": "e_1_2_6_26_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S1053-8119(18)31587-8",
+          "title": "Generalizability, random effects, and population inference",
+          "year": 1999,
+          "author": "Holmes AP",
+          "key": "e_1_2_6_27_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1097/00004647-199601000-00002",
+          "key": "e_1_2_6_28_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1214/aos/1176349860",
+          "key": "e_1_2_6_29_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1990,
+          "author": "Kendal M",
+          "key": "e_1_2_6_30_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "LiuC RazJ TuretskyB(1998):An estimator and permutation test fro single\u2010trial fMRI data. In: Abstracts of ENAR meeting of the International Biometric Society. International Biometric Society.",
+          "key": "e_1_2_6_31_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/(SICI)1097-0193(1997)5:3<168::AID-HBM3>3.0.CO;2-1",
+          "key": "e_1_2_6_32_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1997,
+          "author": "Manly BFJ",
+          "key": "e_1_2_6_33_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1162/08989290051137459",
+          "key": "e_1_2_6_34_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S1053-8119(96)80036-X",
+          "key": "e_1_2_6_35_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.2307/2984124",
+          "title": "Significance tests which may be applied to samples from any population",
+          "year": 1937,
+          "author": "Pitman EJG",
+          "key": "e_1_2_6_36_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Significance tests which may be applied to samples from any population. II. The correlation coefficient test",
+          "year": 1937,
+          "author": "Pitman EJG",
+          "key": "e_1_2_6_37_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Significance tests which may be applied to samples from any population. III. The analysis of variance test",
+          "year": 1937,
+          "author": "Pitman EJG",
+          "key": "e_1_2_6_38_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/jcbfm.1993.57",
+          "key": "e_1_2_6_39_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1006/nimg.1996.0248",
+          "key": "e_1_2_6_40_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/hbm.460010103",
+          "key": "e_1_2_6_41_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/jcbfm.1994.98",
+          "key": "e_1_2_6_42_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/378176a0",
+          "key": "e_1_2_6_43_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1006/nimg.1999.0435",
+          "key": "e_1_2_6_44_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S1053-8119(01)91602-7",
+          "key": "e_1_2_6_45_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/cercor/3.2.79",
+          "key": "e_1_2_6_46_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1993,
+          "author": "Westfall PH",
+          "key": "e_1_2_6_47_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.2307/1427576",
+          "key": "e_1_2_6_48_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1080/01621459.1991.10475004",
+          "key": "e_1_2_6_49_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1080/09332480.1996.10542483",
+          "key": "e_1_2_6_50_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1006/nimg.1995.1023",
+          "key": "e_1_2_6_51_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/jcbfm.1992.127",
+          "key": "e_1_2_6_52_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/(SICI)1097-0193(1996)4:1<58::AID-HBM4>3.0.CO;2-O",
+          "title": "A unified statistical approach for determining significant signals in images of cerebral activation",
+          "year": 1995,
+          "author": "Worsley KJ",
+          "key": "e_1_2_6_53_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fhbm.1058",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/hbm.1058",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "http://onlinelibrary.wiley.com/termsAndConditions#vor",
+          "content_version": "vor",
+          "delay_in_days": 0,
+          "source": "crossref"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1002/hbm.1058",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "Nonparametric permutation tests for functional neuroimaging: A primer with examples",
+      "abstract": "Abstract Requiring only minimal assumptions for validity, nonparametric permutation testing provides a flexible and intuitive methodology for the statistical analysis of data from functional neuroimaging experiments, at some computational expense. Introduced into the functional neuroimaging literature by Holmes et al. ([ 1996 ]: J Cereb Blood Flow Metab 16:7\u201322), the permutation approach readily accounts for the multiple comparisons problem implicit in the standard voxel\u2010by\u2010voxel hypothesis testing framework. When the appropriate assumptions hold, the nonparametric permutation approach gives results similar to those obtained from a comparable Statistical Parametric Mapping approach using a general linear model with multiple comparisons corrections derived from random field theory. For analyses with low degrees of freedom, such as single subject PET/SPECT experiments or multi\u2010subject PET/SPECT or f MRI designs assessed for population effects, the nonparametric approach employing a locally pooled (smoothed) variance estimate can outperform the comparable Statistical Parametric Mapping approach. Thus, these nonparametric techniques can be used to verify the validity of less computationally expensive parametric approaches. Although the theory and relative advantages of permutation approaches have been discussed by various authors, there has been no accessible explication of the method, and no freely distributed software implementing it. Consequently, there have been few practical applications of the technique. This article, and the accompanying MATLAB software, attempts to address these issues. The standard nonparametric randomization and permutation testing ideas are developed at an accessible level, using practical examples from functional neuroimaging, and the extensions for multiple comparisons described. Three worked examples from PET and f MRI are presented, with discussion, and comparisons with standard parametric approaches made where appropriate. Practical considerations are given throughout, and relevant statistical concepts are expounded in appendices. Hum. Brain Mapping 15:1\u201325, 2001. \u00a9 2001 Wiley\u2010Liss, Inc.",
+      "publication_date": "2001-10-15",
+      "publication_year": 2001,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310320595",
+      "container_title": "Human Brain Mapping",
+      "volume": "15",
+      "issue": "1",
+      "pages": "1-25",
+      "issn": [
+        "1065-9471",
+        "1097-0193"
+      ],
+      "doi": "10.1002/hbm.1058",
+      "pmid": "11747097",
+      "openalex_id": "https://openalex.org/W2138790588",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Thomas E. Nichols",
+            "orcid": "0000-0002-4516-5103",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Michigan\u2013Ann Arbor",
+              "ror_id": "https://ror.org/00jmfr291",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5056453682",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Andrew P. Holmes",
+            "orcid": "0000-0001-9270-9401",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Glasgow",
+              "ror_id": "https://ror.org/00vtgdb53",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5005046951",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 6365,
+      "reference_count": 57,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2026": 31,
+        "2025": 283,
+        "2024": 295,
+        "2023": 311,
+        "2022": 350,
+        "2021": 384,
+        "2020": 421,
+        "2019": 412,
+        "2018": 407,
+        "2017": 386,
+        "2016": 354,
+        "2015": 391,
+        "2014": 368,
+        "2013": 358,
+        "2012": 314
+      },
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1002/hbm.1058",
+          "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hbm.1058?download=true",
+          "landing_page_url": "https://doi.org/10.1002/hbm.1058",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310320595",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1002/hbm.1058",
+          "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hbm.1058?download=true",
+          "landing_page_url": "https://doi.org/10.1002/hbm.1058",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310320595",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11747097",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/11747097",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "http://hdl.handle.net/2027.42/35194",
+          "landing_page_url": "http://hdl.handle.net/2027.42/35194",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I27837315",
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6871862",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6871862",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hbm.1058?download=true",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Functional Brain Connectivity Studies",
+          "scheme": "openalex_topic",
+          "score": 0.9995999932289124,
+          "source": "openalex"
+        },
+        {
+          "value": "Statistical Methods in Clinical Trials",
+          "scheme": "openalex_topic",
+          "score": 0.9973000288009644,
+          "source": "openalex"
+        },
+        {
+          "value": "Advanced Neuroimaging Techniques and Applications",
+          "scheme": "openalex_topic",
+          "score": 0.9962999820709229,
+          "source": "openalex"
+        },
+        {
+          "value": "Nonparametric statistics",
+          "scheme": "openalex_concept",
+          "score": 0.8218101263046265,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Permutation (music)",
+          "scheme": "openalex_concept",
+          "score": 0.74658203125,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Resampling",
+          "scheme": "openalex_concept",
+          "score": 0.6667491793632507,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.6010597348213196,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Parametric statistics",
+          "scheme": "openalex_concept",
+          "score": 0.559528648853302,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Neuroimaging",
+          "scheme": "openalex_concept",
+          "score": 0.5469709038734436,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Statistical parametric mapping",
+          "scheme": "openalex_concept",
+          "score": 0.5432232022285461,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Voxel",
+          "scheme": "openalex_concept",
+          "score": 0.4979696273803711,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Multiple comparisons problem",
+          "scheme": "openalex_concept",
+          "score": 0.47033271193504333,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Artificial intelligence",
+          "scheme": "openalex_concept",
+          "score": 0.46590906381607056,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Functional neuroimaging",
+          "scheme": "openalex_concept",
+          "score": 0.4503072202205658,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Statistical hypothesis testing",
+          "scheme": "openalex_concept",
+          "score": 0.43088972568511963,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Machine learning",
+          "scheme": "openalex_concept",
+          "score": 0.4286883473396301,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Random permutation",
+          "scheme": "openalex_concept",
+          "score": 0.41820260882377625,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Mathematics",
+          "scheme": "openalex_concept",
+          "score": 0.2569960355758667,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Econometrics",
+          "scheme": "openalex_concept",
+          "score": 0.2500181496143341,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Statistics",
+          "scheme": "openalex_concept",
+          "score": 0.22040286660194397,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Psychology",
+          "scheme": "openalex_concept",
+          "score": 0.13800418376922607,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Magnetic resonance imaging",
+          "scheme": "openalex_concept",
+          "score": 0.10165542364120483,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Psychiatry",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Acoustics",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Geometry",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Medicine",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Radiology",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Block (permutation group theory)",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Physics",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Peace, Justice and strong institutions",
+          "scheme": "SDG",
+          "score": 0.6200000047683716,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Brain",
+          "descriptor_ui": "D001921",
+          "qualifier_name": "diagnostic imaging",
+          "qualifier_ui": "Q000000981",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Brain",
+          "descriptor_ui": "D001921",
+          "qualifier_name": "diagnostic imaging",
+          "qualifier_ui": "Q000000981",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Brain",
+          "descriptor_ui": "D001921",
+          "qualifier_name": "diagnostic imaging",
+          "qualifier_ui": "Q000000981",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Brain",
+          "descriptor_ui": "D001921",
+          "qualifier_name": "anatomy & histology",
+          "qualifier_ui": "Q000033",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Brain",
+          "descriptor_ui": "D001921",
+          "qualifier_name": "anatomy & histology",
+          "qualifier_ui": "Q000033",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Brain",
+          "descriptor_ui": "D001921",
+          "qualifier_name": "anatomy & histology",
+          "qualifier_ui": "Q000033",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Brain Mapping",
+          "descriptor_ui": "D001931",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Brain Mapping",
+          "descriptor_ui": "D001931",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Brain Mapping",
+          "descriptor_ui": "D001931",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Data Interpretation, Statistical",
+          "descriptor_ui": "D003627",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Data Interpretation, Statistical",
+          "descriptor_ui": "D003627",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Data Interpretation, Statistical",
+          "descriptor_ui": "D003627",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Image Processing, Computer-Assisted",
+          "descriptor_ui": "D007091",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Image Processing, Computer-Assisted",
+          "descriptor_ui": "D007091",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Image Processing, Computer-Assisted",
+          "descriptor_ui": "D007091",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Magnetic Resonance Imaging",
+          "descriptor_ui": "D008279",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Magnetic Resonance Imaging",
+          "descriptor_ui": "D008279",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Magnetic Resonance Imaging",
+          "descriptor_ui": "D008279",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Signal Processing, Computer-Assisted",
+          "descriptor_ui": "D012815",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Signal Processing, Computer-Assisted",
+          "descriptor_ui": "D012815",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Signal Processing, Computer-Assisted",
+          "descriptor_ui": "D012815",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Tomography, Emission-Computed",
+          "descriptor_ui": "D014055",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Tomography, Emission-Computed",
+          "descriptor_ui": "D014055",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Tomography, Emission-Computed",
+          "descriptor_ui": "D014055",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Statistical Distributions",
+          "descriptor_ui": "D016008",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Statistical Distributions",
+          "descriptor_ui": "D016008",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Statistical Distributions",
+          "descriptor_ui": "D016008",
+          "is_major_topic": false,
+          "source": "openalex"
+        }
+      ],
+      "keywords": [
+        "Nonparametric statistics",
+        "Permutation (music)",
+        "Resampling",
+        "Computer science",
+        "Parametric statistics",
+        "Neuroimaging",
+        "Statistical parametric mapping",
+        "Voxel",
+        "Multiple comparisons problem",
+        "Artificial intelligence",
+        "Functional neuroimaging",
+        "Statistical hypothesis testing",
+        "Machine learning",
+        "Random permutation",
+        "Mathematics",
+        "Econometrics",
+        "Statistics",
+        "Psychology",
+        "Magnetic resonance imaging"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 14.91351902,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.995198,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 3200.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1002/hbm.1058",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "Nonparametric permutation tests for functional neuroimaging: A primer with examples",
+      "publication_date": "2001-10-15",
+      "publication_year": 2001,
+      "work_type": "journal-article",
+      "publisher": "Wiley",
+      "container_title": "Human Brain Mapping",
+      "issn": [
+        "1065-9471",
+        "1097-0193"
+      ],
+      "doi": "10.1002/hbm.1058",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_locations": [
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hbm.1058?download=true",
+          "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hbm.1058?download=true",
+          "landing_page_url": "https://doi.org/10.1002/hbm.1058",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hbm.1058?download=true",
+          "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hbm.1058?download=true",
+          "landing_page_url": "https://doi.org/10.1002/hbm.1058",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6871862",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6871862",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hbm.1058?download=true",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "Nonparametric permutation tests for functional neuroimaging: a primer with examples.",
+      "abstract": "Requiring only minimal assumptions for validity, nonparametric permutation testing provides a flexible and intuitive methodology for the statistical analysis of data from functional neuroimaging experiments, at some computational expense. Introduced into the functional neuroimaging literature by Holmes et al. ([1996]: J Cereb Blood Flow Metab 16:7-22), the permutation approach readily accounts for the multiple comparisons problem implicit in the standard voxel-by-voxel hypothesis testing framework. When the appropriate assumptions hold, the nonparametric permutation approach gives results similar to those obtained from a comparable Statistical Parametric Mapping approach using a general linear model with multiple comparisons corrections derived from random field theory. For analyses with low degrees of freedom, such as single subject PET/SPECT experiments or multi-subject PET/SPECT or fMRI designs assessed for population effects, the nonparametric approach employing a locally pooled (smoothed) variance estimate can outperform the comparable Statistical Parametric Mapping approach. Thus, these nonparametric techniques can be used to verify the validity of less computationally expensive parametric approaches. Although the theory and relative advantages of permutation approaches have been discussed by various authors, there has been no accessible explication of the method, and no freely distributed software implementing it. Consequently, there have been few practical applications of the technique. This article, and the accompanying MATLAB software, attempts to address these issues. The standard nonparametric randomization and permutation testing ideas are developed at an accessible level, using practical examples from functional neuroimaging, and the extensions for multiple comparisons described. Three worked examples from PET and fMRI are presented, with discussion, and comparisons with standard parametric approaches made where appropriate. Practical considerations are given throughout, and relevant statistical concepts are expounded in appendices.",
+      "publication_year": 2002,
+      "language": "eng",
+      "container_title": "Human brain mapping",
+      "volume": "15",
+      "issue": "1",
+      "pages": "1-25",
+      "issn": [],
+      "doi": "10.1002/hbm.1058",
+      "pmid": "11747097",
+      "pmcid": "PMC6871862",
+      "authors": [
+        {
+          "name": {
+            "given": "Thomas E",
+            "family": "Nichols",
+            "full_name": "Nichols TE",
+            "orcid": "0000-0002-4516-5103",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Biostatistics, University of Michigan, Ann Arbor, Michigan, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Andrew P",
+            "family": "Holmes",
+            "full_name": "Holmes AP",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 4930,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": false,
+      "oa_locations": [],
+      "funders": [],
+      "grants": [
+        {
+          "agency": "Wellcome Trust",
+          "pi_names": [],
+          "source": "europe_pmc"
+        }
+      ],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Brain",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Brain",
+          "qualifier_name": "diagnostic imaging",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Brain",
+          "qualifier_name": "anatomy & histology",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Humans",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Tomography, Emission-Computed",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Tomography, Emission-Computed",
+          "qualifier_name": "methods",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Magnetic Resonance Imaging",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Magnetic Resonance Imaging",
+          "qualifier_name": "methods",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Brain Mapping",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Brain Mapping",
+          "qualifier_name": "methods",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Data Interpretation, Statistical",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Statistical Distributions",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Image Processing, Computer-Assisted",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Image Processing, Computer-Assisted",
+          "qualifier_name": "methods",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Signal Processing, Computer-Assisted",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 4930.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [
+        {
+          "url": "https://doi.org/10.1002/hbm.1058",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC6871862",
+          "availability": "Free",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC6871862?pdf=render",
+          "availability": "Free",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://doi.org/10.1002/hbm.1058",
+          "availability": "Free",
+          "document_style": "doi",
+          "site": "DOI"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1002/hbm.1058",
+      "pmid": "23671333",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1002/hbm.1058",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1002/hbm.1058",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1002/hbm.1058",
+      "authors": [
+        {
+          "name": {
+            "given": "Thomas E.",
+            "family": "Nichols",
+            "full_name": "Thomas E. Nichols",
+            "orcid": "0000-0002-4516-5103",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0002-4516-5103",
+          "given_names": "Thomas E.",
+          "family_names": "Nichols",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "American Statistical Association",
+            "Carnegie Mellon University",
+            "GlaxoSmithKline",
+            "Organisation for Human Brain Mapping",
+            "University of Michigan",
+            "University of Oxford",
+            "University of Pittsburgh Medical Center",
+            "University of Warwick"
+          ],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": true,
+      "raw": {},
+      "title": "Nonparametric permutation tests for functional neuroimaging: a primer with examples.",
+      "abstract": "Requiring only minimal assumptions for validity, nonparametric permutation testing provides a flexible and intuitive methodology for the statistical analysis of data from functional neuroimaging experiments, at some computational expense. Introduced into the functional neuroimaging literature by Holmes et al. ([1996]: J Cereb Blood Flow Metab 16:7-22), the permutation approach readily accounts for the multiple comparisons problem implicit in the standard voxel-by-voxel hypothesis testing framework. When the appropriate assumptions hold, the nonparametric permutation approach gives results similar to those obtained from a comparable Statistical Parametric Mapping approach using a general linear model with multiple comparisons corrections derived from random field theory. For analyses with low degrees of freedom, such as single subject PET/SPECT experiments or multi-subject PET/SPECT or fMRI designs assessed for population effects, the nonparametric approach employing a locally pooled (smoothed) variance estimate can outperform the comparable Statistical Parametric Mapping approach. Thus, these nonparametric techniques can be used to verify the validity of less computationally expensive parametric approaches. Although the theory and relative advantages of permutation approaches have been discussed by various authors, there has been no accessible explication of the method, and no freely distributed software implementing it. Consequently, there have been few practical applications of the technique. This article, and the accompanying MATLAB software, attempts to address these issues. The standard nonparametric randomization and permutation testing ideas are developed at an accessible level, using practical examples from functional neuroimaging, and the extensions for multiple comparisons described. Three worked examples from PET and fMRI are presented, with discussion, and comparisons with standard parametric approaches made where appropriate. Practical considerations are given throughout, and relevant statistical concepts are expounded in appendices.",
+      "publication_date": "2002-Jan-01",
+      "publication_year": 2002,
+      "work_type": "journal-article",
+      "language": "eng",
+      "container_title": "Human brain mapping",
+      "volume": "15",
+      "issue": "1",
+      "pages": "1-25",
+      "issn": [
+        "1065-9471"
+      ],
+      "doi": "10.1002/hbm.1058",
+      "pmid": "11747097",
+      "pmcid": "PMC6871862",
+      "authors": [
+        {
+          "name": {
+            "given": "Thomas E",
+            "family": "Nichols",
+            "full_name": "Thomas E Nichols",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Biostatistics, University of Michigan, Ann Arbor, Michigan, USA.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Andrew P",
+            "family": "Holmes",
+            "full_name": "Andrew P Holmes",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [],
+          "sources": [
+            "entrez"
+          ]
+        }
+      ],
+      "reference_count": 52,
+      "references": [
+        {
+          "pmid": "8790444",
+          "unstructured": "Andreasen NC, O'Leary DS, Cizadlo T, Arndt S, Rezai K, Ponto LL, Watkins GL, Hichwa RD (1996): Schizophrenia and cognitive dysmetria: a positron\u2010emission tomography study of dysfunctional prefrontal\u2010thalamic\u2010cerebellar circuitry. Proc Natl Acad Sci USA 93: 9985\u20139990.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "8898701",
+          "unstructured": "Arndt S, Cizadlo T, Andreasen NC, Heckel D, Gold S, O'Leary DS (1996): Tests for comparing images based on randomization and permutation methods. J Cereb Blood Flow Metab 16: 1271\u20131279.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "8622592",
+          "unstructured": "Bullmore E, Brammer M, Williams SCR, Rabe\u2010Hesketh S, Janot N, David A, Mellers J, Howard R, Sham P (1996): Statistical methods of estimation and inference for functional MR image analysis. Magn Reson Med 35: 261\u2013277.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "10193695",
+          "unstructured": "Bullmore E, Suckling J, Overmeyer S, Rabe\u2010Hesketh S, Taylor E, Brammer MJ (1999): Global, voxel, and cluster tests, by theory and permutation, for difference between two groups of structural MR images of the brain. IEEE Trans Med Imaging 18: 32\u201342.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nCao J \n(1999): \nThe size of the connected components of the excursion sets of \u03c7",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Dwass M (1957): Modified randomization tests for nonparametric hypotheses. Ann Math Stat 28: 181\u2013187.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "14143066",
+          "unstructured": "Edgington ES (1964): Randomization tests. J Psychol 57: 445\u2013449.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Edgington ES (1969a): Approximate randomization tests. J Psychol 72: 143\u2013149.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Edgington ES (1969b): Statistical inference: the distribution free approach. New York: McGraw\u2010Hill.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Edgington ES (1995): Randomization tests, 3rd ed. New York: Marcel Dekker.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Fisher RA (1990): Statistical methods, experimental design, and scientific inference In: Bennett JH. ??: Oxford University Press.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Fisher RA (1935): The design of experiments. Edinburgh: Oliver Boyd.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "7596267",
+          "unstructured": "Forman SD, Cohen JD, Fitzgerald M, Eddy WF, Mintun MA, Noll DC (1995): Improved assessment of significant activation in functional magnetic resonance imaging (fMRI): use of a cluster\u2010size threshold. Magn Reson Med 33: 636\u2013647.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Frackowiak RSJ, Friston KJ, Frith CD, Dolan RJ, Mazziotta JC (1997): Human brain function. San Diego: Academic Press.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "2050758",
+          "unstructured": "Friston KJ, Frith CD, Liddle PF, Frackowiak RSJ (1991): Comparing functional (PET) images: the assessment of significant change. J Cereb Blood Flow Metab 11: 690\u2013699.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "24578041",
+          "unstructured": "Friston KJ, Worsley KJ, Frackowiak RSJ, Mazziotta JC, Evans AC (1994): Assessing the significance of focal activations using their spatial extent. Hum Brain Mapp 1: 214\u2013220.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "9343589",
+          "unstructured": "Friston KJ, Holmes AP, Poline JB, Grasby PJ, Williams SCR, Frackowiak RSJ, Turner R (1995a): Analysis of fMRI time series revisited. Neuroimage 2: 45\u201353.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Friston KJ, Holmes AP, Worsley KJ, Poline J\u2010B, Frackowiak RSJ (1995b): Statistical parametric maps in functional imaging: a general linear approach. Hum Brain Mapp 2: 189\u2013210.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "9345513",
+          "unstructured": "Friston KJ, Holmes AP, Poline J\u2010B, Price CJ, Frith CD (1996): Detecting activations in PET and fMRI: levels of inference and power. Neuroimage 4: 223\u2010235.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Good P (1994): Permutation tests. A practical guide to resampling methods for testing hypotheses. ??: Springer\u2010Verlag.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "20408184",
+          "unstructured": "Grabowski TJ, Frank RJ, Brown CK, Damasio H, Boles Ponto LL, Watkins GL, Hichwa RD (1996): Reliability of PET activation across statistical methods, subject groups, and sample sizes. Hum Brain Mapp 4: 23\u201346.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "9346427",
+          "unstructured": "Halber M, Herholz K, Wienhard K, Pawlik G, Heiss W\u2010D (1997): Performance of randomization test for single\u2010subject 15\u2010O\u2010water PET activation studies. J Cereb Blood Flow Metab 17: 1033\u20131039.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Hochberg Y, Tamhane AC (1987): Multiple comparison procedures. New York: Wiley.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "9626194",
+          "unstructured": "Holmes AP, Watson JDG, Nichols TE (1998): Holmes and Watson on \u2018Sherlock\u2019. J Cereb Blood Flow Metab 18: S697.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nHolmes AP \n(1994): Statistical issues in functional brain mapping, PhD thesis. University of Glasgow. http://www.fil.ion.ucl.ac.uk/spm/papers/APH_thesis\n",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Holmes AP, Friston KJ (1999): Generalizability, random effects, and population inference. Proceedings of the Fourth International Conference on Functional Mapping of the Human Brain, June 7\u201312, 1998, Montreal, Canada. Neuroimage 7: S754.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "8530558",
+          "unstructured": "Holmes AP, Blair RC, Watson JDG, Ford I (1996): Nonparametric analysis of statistic images from functional mapping experiments. J Cereb Blood Flow Metab 16: 7\u201322.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "J\u00f6ckel K\u2010H (1986): Finite sample properties and asymptotic efficiency of Monte\u2010Carlo tests. Ann Stat 14: 336\u2013347.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Kendal M, Gibbons JD (1990): Rank correlation methods, 5th ed. ??: Edward Arnold.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Liu C, Raz J, Turetsky B (1998): An estimator and permutation test fro single\u2010trial fMRI data. In: Abstracts of ENAR meeting of the International Biometric Society. International Biometric Society.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "20408214",
+          "unstructured": "Locascio JJ, Jennings PJ, Moore CI, Corkin S (1997): Time series analysis in the time domain and resampling methods for studies of functional magnetic resonance brain imaging. Hum Brain Mapp 5: 168\u2013193.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Manly BFJ (1997): Randomization, bootstrap, and Monte\u2010Carlo methods in biology. London: Chapman and Hall.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "11506653",
+          "unstructured": "Marshuetz C, Smith EE, Jonides J, DeGutis J, Chenevert TL (2000): Order information in working memory: fMRI evidence for parietal and prefrontal mechanisms. J Cogn Neurosci 12: 130\u2013144.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Noll DC, Kinahan PE, Mintun MA, Thulborn KR, Townsend DW (1996): Comparison of activation response using functional PET and MRI. Proceedings of the Second International Conference on Functional Mapping of the Human Brain, June 17\u201321, 1996, Boston, MA. Neuroimage 3: S34.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Pitman EJG (1937a): Significance tests which may be applied to samples from any population. J R Stat Soc 4(Suppl): 119\u2013130.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Pitman EJG (1937b): Significance tests which may be applied to samples from any population. II. The correlation coefficient test. J R Stat Soc 4(Suppl): 224\u2013232.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Pitman EJG (1937a): Significance tests which may be applied to samples from any population. III. The analysis of variance test. Biometrika 29: 322\u2013335.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "8478401",
+          "unstructured": "Poline JB, Mazoyer BM (1993): Analysis of individual positron emission tomography activation maps by detection of high signal\u2010to\u2010noise\u2010ratio pixel clusters. J Cereb Blood Flow Metab 13: 425\u2013437.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "9345540",
+          "unstructured": "Poline JB, Worsley KJ, Evans AC, Friston KJ (1997): Combining spatial extent and peak intensity to test for activations in functional imaging. Neuroimage 5: 83\u201396.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Roland PE, Levin B, Kawashima R, Akerman S (1993): Three\u2010dimensional analysis of clustered voxels in 15\u2010O\u2010butanol brain activation images. Hum Brain Mapp 1: 3\u201319.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "8063873",
+          "unstructured": "Silbersweig DA, Stern E, Schnorr L, Frith CD, Ashburner J, Cahill C, Frackowiak RSJ, Jones T (1994): Imaging transient, randomly occurring neuropsychological events in single subjects with positron emission tomography: an event\u2010related count rate correlational analysis. J Cereb Blood Flow Metab 14: 771\u2013782.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "7477318",
+          "unstructured": "Silbersweig DA, Stern E, Frith C, Cahill C, Holmes A, Grootoonk S, Seaward J, McKenna P, Chua SE, Schnorr L, Jones T, Frackowiak RSJ (1995): A functional neuroanatomy of hallucinations in schizophrenia. Nature 378: 169\u2013176.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "10329292",
+          "unstructured": "Smith AM, Lewis BK, Ruttimann UE, Ye FQ, Sinnwell TM, Yang Y, Duyn JH, Frank JA (1999): Investigation of low frequency drift in fMRI signal. Neuroimage 9: 526\u2013533.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Stoeckl J, Poline J\u2010B, Malandain G, Ayache N, Darcourt J (2001): Smoothness and degrees of freedom restrictions when using SPM99. NeuroImage 13: S259.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "8490322",
+          "unstructured": "Watson JDG, Myers R, Frackowiak RSJ, Hajnal JV, Woods RP, Mazziotta JC, Shipp S, Zeki S (1993): Area V5 of the human brain: evidence from a combined study using positron emission tomography and magnetic resonance imaging. Cereb Cortex 3: 79\u201394.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nWestfall PH, \nYoung SS \n(1993): \nResampling\u2010based multiple testing: examples and methods for ",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nWorsley KJ \n(1994): \nLocal maxima and the expected Euler characteristic of excursion sets of \u03c7",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Worsley KJ, Evans AC, Strother SC, Tyler JL (1991): A linear spatial correlation model, with applications to positron emission tomography. J Am Stat Assoc 86: 55\u201367.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Worsley KJ (1996): The geometry of random images. Chance 9: 27\u201340.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "9343600",
+          "unstructured": "Worsley KJ, Friston KJ (1995): Analysis of fMRI time\u2010series revised\u2013again. Neuroimage 2: 173\u2013181.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "1400644",
+          "unstructured": "Worsley KJ, Evans AC, Marrett S, Neelin P (1992): A three\u2010dimensional statistical analysis for CBF activation studies in human brain. J Cereb Blood Flow Metab 12: 1040\u20131042.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "20408186",
+          "unstructured": "Worsley KJ, Marrett S, Neelin P, Vandal AC, Friston KJ, Evans AC (1995): A unified statistical approach for determining significant signals in images of cerebral activation. Hum Brain Mapp 4: 58\u201373.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [
+        {
+          "agency": "Wellcome Trust",
+          "pi_names": [],
+          "jurisdiction": "United Kingdom",
+          "source": "entrez"
+        }
+      ],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Brain",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Brain Mapping",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Data Interpretation, Statistical",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Humans",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Image Processing, Computer-Assisted",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Magnetic Resonance Imaging",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Signal Processing, Computer-Assisted",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Statistical Distributions",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Tomography, Emission-Computed",
+          "scheme": "MeSH",
+          "source": "entrez"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Brain",
+          "descriptor_ui": "D001921",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Brain",
+          "descriptor_ui": "D001921",
+          "qualifier_name": "anatomy & histology",
+          "qualifier_ui": "Q000033",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Brain",
+          "descriptor_ui": "D001921",
+          "qualifier_name": "diagnostic imaging",
+          "qualifier_ui": "Q000000981",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Brain Mapping",
+          "descriptor_ui": "D001931",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Brain Mapping",
+          "descriptor_ui": "D001931",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Data Interpretation, Statistical",
+          "descriptor_ui": "D003627",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Image Processing, Computer-Assisted",
+          "descriptor_ui": "D007091",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Image Processing, Computer-Assisted",
+          "descriptor_ui": "D007091",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Magnetic Resonance Imaging",
+          "descriptor_ui": "D008279",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Magnetic Resonance Imaging",
+          "descriptor_ui": "D008279",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Signal Processing, Computer-Assisted",
+          "descriptor_ui": "D012815",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Statistical Distributions",
+          "descriptor_ui": "D016008",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Tomography, Emission-Computed",
+          "descriptor_ui": "D014055",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Tomography, Emission-Computed",
+          "descriptor_ui": "D014055",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": true,
+          "source": "entrez"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {
+        "pubmed": "2001-12-18",
+        "medline": "2002-01-30",
+        "entrez": "2001-12-18",
+        "pmc-release": "2001-10-15"
+      },
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [
+        {
+          "type": "Publisher",
+          "language": "fre",
+          "text": "Requiring only minimal assumptions for validity, nonparametric permutation testing provides a flexible and intuitive methodology for the statistical analysis of data from functional neuroimaging experiments, at some computational expense. Introduced into the functional neuroimaging literature by Holmes et al. ([1996]: J Cereb Blood Flow Metab 16:7\u201322), the permutation approach readily accounts for the multiple comparisons problem implicit in the standard voxel\u2010by\u2010voxel hypothesis testing framework. When the appropriate assumptions hold, the nonparametric permutation approach gives results similar to those obtained from a comparable Statistical Parametric Mapping approach using a general linear model with multiple comparisons corrections derived from random field theory. For analyses with low degrees of freedom, such as single subject PET/SPECT experiments or multi\u2010subject PET/SPECT or fMRI designs assessed for population effects, the nonparametric approach employing a locally pooled (smoothed) variance estimate can outperform the comparable Statistical Parametric Mapping approach. Thus, these nonparametric techniques can be used to verify the validity of less computationally expensive parametric approaches. Although the theory and relative advantages of permutation approaches have been discussed by various authors, there has been no accessible explication of the method, and no freely distributed software implementing it. Consequently, there have been few practical applications of the technique. This article, and the accompanying MATLAB software, attempts to address these issues. The standard nonparametric randomization and permutation testing ideas are developed at an accessible level, using practical examples from functional neuroimaging, and the extensions for multiple comparisons described. Three worked examples from PET and fMRI are presented, with discussion, and comparisons with standard parametric approaches made where appropriate. Practical considerations are given throughout, and relevant statistical concepts are expounded in appendices. Hum. Brain Mapping 15:1\u201325, 2001. \u00a9 2001 Wiley\u2010Liss, Inc."
+        }
+      ],
+      "publication_status": "ppublish",
+      "country_of_publication": "United States",
+      "nlm_journal_id": "9419065",
+      "medline_ta": "Hum Brain Mapp",
+      "citation_subsets": [
+        "IM"
+      ],
+      "pii": "10.1002/hbm.1058",
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1002/hbm.1058",
+    "pmid": "11747097",
+    "pmcid": "PMC6871862",
+    "openalex_id": "https://openalex.org/W2138790588",
+    "pii": "10.1002/hbm.1058",
+    "nlm_unique_id": "9419065",
+    "handles": [],
+    "orcids": [
+      "0000-0001-9270-9401",
+      "0000-0002-4516-5103"
+    ],
+    "ror_ids": [
+      "https://ror.org/00jmfr291",
+      "https://ror.org/00vtgdb53"
+    ],
+    "grant_ids": [],
+    "nct_ids": [],
+    "pmid_source": "entrez",
+    "pmcid_source": "entrez"
+  },
+  "conflicts": {
+    "doi": "10.1002/hbm.1058",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 5527,
+          "openalex": 6365,
+          "europe_pmc": 4930
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 52,
+          "openalex": 57,
+          "entrez": 52
+        },
+        "risk": "low"
+      },
+      {
+        "field": "title",
+        "values": {
+          "crossref": "Nonparametric permutation tests for functional neuroimaging: A primer with examples",
+          "openalex": "Nonparametric permutation tests for functional neuroimaging: A primer with examples",
+          "unpaywall": "Nonparametric permutation tests for functional neuroimaging: A primer with examples",
+          "europe_pmc": "Nonparametric permutation tests for functional neuroimaging: a primer with examples",
+          "entrez": "Nonparametric permutation tests for functional neuroimaging: a primer with examples"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publication_year",
+        "values": {
+          "crossref": 2001,
+          "openalex": 2001,
+          "unpaywall": 2001,
+          "europe_pmc": 2002,
+          "entrez": 2002
+        },
+        "risk": "low"
+      },
+      {
+        "field": "is_oa",
+        "values": {
+          "openalex": true,
+          "unpaywall": true,
+          "europe_pmc": false
+        },
+        "risk": "medium"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article",
+          "entrez": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 2,
+          "openalex": 2,
+          "unpaywall": 2,
+          "europe_pmc": 2,
+          "orcid": 1,
+          "entrez": 2
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Wiley",
+          "openalex": "https://openalex.org/P4310320595",
+          "unpaywall": "Wiley"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Human Brain Mapping",
+          "openalex": "Human Brain Mapping",
+          "unpaywall": "Human Brain Mapping",
+          "europe_pmc": "Human brain mapping",
+          "entrez": "Human brain mapping"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "mesh_term_count",
+        "values": {
+          "openalex": 30,
+          "europe_pmc": 15,
+          "entrez": 15
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng",
+          "entrez": "eng"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 0,
+    "conflict_count": 11
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1002/hbm.1058",
+    "fetched_at": "2026-02-11T16:12:41.059076+00:00"
+  }
+}

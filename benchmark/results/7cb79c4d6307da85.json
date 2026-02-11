@@ -1,0 +1,3084 @@
+{
+  "doi": "10.1093/bioinformatics/btr058",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T18:42:02.632019Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "A common layer of interoperability for biomedical ontologies based on OWL EL",
+      "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Motivation: Ontologies are essential in biomedical research due to their ability to semantically integrate content from different scientific databases and resources. Their application improves capabilities for querying and mining biological knowledge. An increasing number of ontologies is being developed for this purpose, and considerable effort is invested into formally defining them in order to represent their semantics explicitly. However, current biomedical ontologies do not facilitate data integration and interoperability yet, since reasoning over these ontologies is very complex and cannot be performed efficiently or is even impossible. We propose the use of less expressive subsets of ontology representation languages to enable efficient reasoning and achieve the goal of genuine interoperability between ontologies.</jats:p>\n               <jats:p>Results: We present and evaluate EL Vira, a framework that transforms OWL ontologies into the OWL EL subset, thereby enabling the use of tractable reasoning. We illustrate which OWL constructs and inferences are kept and lost following the conversion and demonstrate the performance gain of reasoning indicated by the significant reduction of processing time. We applied EL Vira to the open biomedical ontologies and provide a repository of ontologies resulting from this conversion. EL Vira creates a common layer of ontological interoperability that, for the first time, enables the creation of software solutions that can employ biomedical ontologies to perform inferences and answer complex queries to support scientific analyses.</jats:p>\n               <jats:p>Availability and implementation: The EL Vira software is available from http://el-vira.googlecode.com and converted OBO ontologies and their mappings are available from http://bioonto.gen.cam.ac.uk/el-ont.</jats:p>\n               <jats:p>Contact: \u00a0rh497@cam.ac.uk</jats:p>",
+      "publication_date": "2011-02-21",
+      "publication_year": 2011,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "Bioinformatics",
+      "volume": "27",
+      "issue": "7",
+      "pages": "1001-1008",
+      "issn": [
+        "1367-4811",
+        "1367-4803"
+      ],
+      "doi": "10.1093/bioinformatics/btr058",
+      "authors": [
+        {
+          "name": {
+            "given": "Robert",
+            "family": "Hoehndorf",
+            "full_name": "Robert Hoehndorf",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Department of Genetics, University of Cambridge, Downing Street, Cambridge, Cambridge CB2 3EH, UK, 2Department of Biology, Institute of Biochemistry and School of Computer Science, Carleton University, 1125 Colonel By Drive, Ottawa, Ontario K1S 5B6, Canada, 3European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK, 4Department of Physiology, Development and Neuroscience, University of Cambridge, Downing street, Cambridge CB2 3EG, UK and 5The Jackson Laboratory, 600, Main Street, Bar Harbor, ME 04609-1500, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michel",
+            "family": "Dumontier",
+            "full_name": "Michel Dumontier",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Department of Genetics, University of Cambridge, Downing Street, Cambridge, Cambridge CB2 3EH, UK, 2Department of Biology, Institute of Biochemistry and School of Computer Science, Carleton University, 1125 Colonel By Drive, Ottawa, Ontario K1S 5B6, Canada, 3European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK, 4Department of Physiology, Development and Neuroscience, University of Cambridge, Downing street, Cambridge CB2 3EG, UK and 5The Jackson Laboratory, 600, Main Street, Bar Harbor, ME 04609-1500, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Anika",
+            "family": "Oellrich",
+            "full_name": "Anika Oellrich",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Department of Genetics, University of Cambridge, Downing Street, Cambridge, Cambridge CB2 3EH, UK, 2Department of Biology, Institute of Biochemistry and School of Computer Science, Carleton University, 1125 Colonel By Drive, Ottawa, Ontario K1S 5B6, Canada, 3European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK, 4Department of Physiology, Development and Neuroscience, University of Cambridge, Downing street, Cambridge CB2 3EG, UK and 5The Jackson Laboratory, 600, Main Street, Bar Harbor, ME 04609-1500, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sarala",
+            "family": "Wimalaratne",
+            "full_name": "Sarala Wimalaratne",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Department of Genetics, University of Cambridge, Downing Street, Cambridge, Cambridge CB2 3EH, UK, 2Department of Biology, Institute of Biochemistry and School of Computer Science, Carleton University, 1125 Colonel By Drive, Ottawa, Ontario K1S 5B6, Canada, 3European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK, 4Department of Physiology, Development and Neuroscience, University of Cambridge, Downing street, Cambridge CB2 3EG, UK and 5The Jackson Laboratory, 600, Main Street, Bar Harbor, ME 04609-1500, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Dietrich",
+            "family": "Rebholz-Schuhmann",
+            "full_name": "Dietrich Rebholz-Schuhmann",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Department of Genetics, University of Cambridge, Downing Street, Cambridge, Cambridge CB2 3EH, UK, 2Department of Biology, Institute of Biochemistry and School of Computer Science, Carleton University, 1125 Colonel By Drive, Ottawa, Ontario K1S 5B6, Canada, 3European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK, 4Department of Physiology, Development and Neuroscience, University of Cambridge, Downing street, Cambridge CB2 3EG, UK and 5The Jackson Laboratory, 600, Main Street, Bar Harbor, ME 04609-1500, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Paul",
+            "family": "Schofield",
+            "full_name": "Paul Schofield",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Department of Genetics, University of Cambridge, Downing Street, Cambridge, Cambridge CB2 3EH, UK, 2Department of Biology, Institute of Biochemistry and School of Computer Science, Carleton University, 1125 Colonel By Drive, Ottawa, Ontario K1S 5B6, Canada, 3European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK, 4Department of Physiology, Development and Neuroscience, University of Cambridge, Downing street, Cambridge CB2 3EG, UK and 5The Jackson Laboratory, 600, Main Street, Bar Harbor, ME 04609-1500, USA",
+              "source": "crossref"
+            },
+            {
+              "name": "1 Department of Genetics, University of Cambridge, Downing Street, Cambridge, Cambridge CB2 3EH, UK, 2Department of Biology, Institute of Biochemistry and School of Computer Science, Carleton University, 1125 Colonel By Drive, Ottawa, Ontario K1S 5B6, Canada, 3European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK, 4Department of Physiology, Development and Neuroscience, University of Cambridge, Downing street, Cambridge CB2 3EG, UK and 5The Jackson Laboratory, 600, Main Street, Bar Harbor, ME 04609-1500, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Georgios V.",
+            "family": "Gkoutos",
+            "full_name": "Georgios V. Gkoutos",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Department of Genetics, University of Cambridge, Downing Street, Cambridge, Cambridge CB2 3EH, UK, 2Department of Biology, Institute of Biochemistry and School of Computer Science, Carleton University, 1125 Colonel By Drive, Ottawa, Ontario K1S 5B6, Canada, 3European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK, 4Department of Physiology, Development and Neuroscience, University of Cambridge, Downing street, Cambridge CB2 3EG, UK and 5The Jackson Laboratory, 600, Main Street, Bar Harbor, ME 04609-1500, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 31,
+      "reference_count": 45,
+      "references": [
+        {
+          "doi": "10.1038/75556",
+          "title": "Gene ontology: tool for the unification of biology",
+          "year": 2000,
+          "author": "Ashburner",
+          "key": "2023012512164668000_B1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Pushing the \u2130\u2112 envelope",
+          "year": 2005,
+          "author": "Baader",
+          "key": "2023012512164668000_B2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "CEL\u2014a polynomial-time reasoner for life science ontologies",
+          "year": 2006,
+          "author": "Baader",
+          "key": "2023012512164668000_B3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Efficient reasoning in \u2130\u2112+",
+          "year": 2006,
+          "author": "Baader",
+          "key": "2023012512164668000_B4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/gb-2005-6-2-r21",
+          "title": "An ontology for cell types",
+          "year": 2005,
+          "author": "Bard",
+          "key": "2023012512164668000_B5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Language, Proof and Logic",
+          "year": 2002,
+          "author": "Barwise",
+          "key": "2023012512164668000_B6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "A platform for reasoning with OWL-EL knowledge bases in a peer-to-peer environment",
+          "year": 2009,
+          "author": "Battista",
+          "key": "2023012512164668000_B7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btl266",
+          "title": "A top-level ontology of functions and its application in the open biomedical ontologies",
+          "year": 2006,
+          "author": "Burek",
+          "key": "2023012512164668000_B8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Referent tracking: the problem of negative findings",
+          "year": 2006,
+          "author": "Ceusters",
+          "key": "2023012512164668000_B9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "The OWL of biomedical investigations",
+          "year": 2008,
+          "author": "Courtot",
+          "key": "2023012512164668000_B10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Building mouse phenotype ontologies",
+          "year": 2004,
+          "author": "Gkoutos",
+          "key": "2023012512164668000_B11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.websem.2006.05.007",
+          "title": "The foundational model of anatomy in owl: Experience and perspectives",
+          "year": 2006,
+          "author": "Golbreich",
+          "key": "2023012512164668000_B12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.websem.2008.05.001",
+          "title": "Owl 2: The next step for owl",
+          "year": 2008,
+          "author": "Grau",
+          "key": "2023012512164668000_B13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Towards principles for the design of ontologies used for knowledge sharing",
+          "year": 1993,
+          "author": "Gruber",
+          "key": "2023012512164668000_B14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Formal ontology and information systems",
+          "year": 1998,
+          "author": "Guarino",
+          "key": "2023012512164668000_B15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/gb-2005-6-3-r29",
+          "title": "The adult mouse anatomical dictionary: a tool for annotating and integrating data",
+          "year": 2005,
+          "author": "Hayamizu",
+          "key": "2023012512164668000_B16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-8-377",
+          "title": "Representing default knowledge in biomedical ontologies: application to the integration of anatomy and phenotype ontologies",
+          "year": 2007,
+          "author": "Hoehndorf",
+          "key": "2023012512164668000_B17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/2041-1480-1-4",
+          "title": "Applying the functional abnormality ontology pattern to anatomical functions",
+          "year": 2010,
+          "author": "Hoehndorf",
+          "key": "2023012512164668000_B18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btq578",
+          "title": "Interoperability between phenotype and anatomy ontologies",
+          "year": 2010,
+          "author": "Hoehndorf",
+          "key": "2023012512164668000_B19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-11-441",
+          "title": "Relations as patterns: Bridging the gap between OBO and OWL",
+          "year": 2010,
+          "author": "Hoehndorf",
+          "key": "2023012512164668000_B20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Igniting the OWL 1.1 touch paper: The OWL API",
+          "year": 2007,
+          "author": "Horridge",
+          "key": "2023012512164668000_B21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/jigpal/8.3.239",
+          "title": "Practical reasoning for very expressive description logics",
+          "year": 2000,
+          "author": "Horrocks",
+          "key": "2023012512164668000_B22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "The even more irresistible SROIQ",
+          "year": 2006,
+          "author": "Horrocks",
+          "key": "2023012512164668000_B23",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Obo flat file format syntax and semantics and mapping to owl web ontology language",
+          "year": 2007,
+          "author": "Horrocks",
+          "key": "2023012512164668000_B24",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Hypertableau reasoning for description logics",
+          "year": 2009,
+          "author": "Motik",
+          "key": "2023012512164668000_B25",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2009,
+          "author": "Motik",
+          "key": "2023012512164668000_B26",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Cross-product extensions of the gene ontology",
+          "year": 2010,
+          "author": "Mungall",
+          "key": "2023012512164668000_B27",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Evolution of the sequence ontology terms and relationships",
+          "year": 2010,
+          "author": "Mungall",
+          "key": "2023012512164668000_B28",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/gb-2010-11-1-r2",
+          "title": "Integrating phenotype ontologies across multiple species",
+          "year": 2010,
+          "author": "Mungall",
+          "key": "2023012512164668000_B29",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "A MapReduce algorithm for EL+",
+          "year": 2010,
+          "author": "Mutharaju",
+          "key": "2023012512164668000_B30",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkp440",
+          "title": "Bioportal: ontologies and integrated data resources at the click of a mouse",
+          "year": 2009,
+          "author": "Noy",
+          "key": "2023012512164668000_B31",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1197/jamia.M2797",
+          "title": "Why do it the hard way? The case for an expressive description logic for SNOMED",
+          "year": 2008,
+          "author": "Rector",
+          "key": "2023012512164668000_B32",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.ajhg.2008.09.017",
+          "title": "The human phenotype ontology: a tool for annotating and analyzing human hereditary disease",
+          "year": 2008,
+          "author": "Robinson",
+          "key": "2023012512164668000_B33",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jbi.2003.11.007",
+          "title": "A reference ontology for biomedical informatics: the Foundational Model of Anatomy",
+          "year": 2003,
+          "author": "Rosse",
+          "key": "2023012512164668000_B34",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.ijmedinf.2008.06.004",
+          "title": "SNOMED reaching its adolescence: Ontologists' and logicians' health check",
+          "year": 2009,
+          "author": "Schulz",
+          "key": "2023012512164668000_B35",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Strengths and limitations of formal ontologies in the biomedical domain",
+          "year": 2009,
+          "author": "Schulz",
+          "key": "2023012512164668000_B36",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Pellet: an OWL DL reasoner",
+          "year": 2004,
+          "author": "Sirin",
+          "key": "2023012512164668000_B37",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/gb-2005-6-5-r46",
+          "title": "Relations in biomedical ontologies",
+          "year": 2005,
+          "author": "Smith",
+          "key": "2023012512164668000_B38",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nbt1346",
+          "title": "The OBO Foundry: coordinated evolution of ontologies to support biomedical data integration",
+          "year": 2007,
+          "author": "Smith",
+          "key": "2023012512164668000_B39",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/gb-2004-6-1-r7",
+          "title": "The mammalian phenotype ontology as a tool for annotating, analyzing and comparing phenotypic information",
+          "year": 2004,
+          "author": "Smith",
+          "key": "2023012512164668000_B40",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Empirical evaluation of reasoning in lightweight DLs on life science ontologies",
+          "year": 2008,
+          "author": "Suntisrivaraporn",
+          "key": "2023012512164668000_B41",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "The complexity of reasoning with cardinality restrictions and nominals in expressive description logics",
+          "year": 2000,
+          "author": "Tobies",
+          "key": "2023012512164668000_B42",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "A set of ontologies to drive tools for the control of vector-borne diseases",
+          "year": 2010,
+          "author": "Topalis",
+          "key": "2023012512164668000_B43",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/11814771_26",
+          "title": "FaCT++ description logic reasoner: System description",
+          "year": 2006,
+          "author": "Tsarkov",
+          "key": "2023012512164668000_B44",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btl208",
+          "title": "Protein classification using ontology classification",
+          "year": 2006,
+          "author": "Wolstencroft",
+          "key": "2023012512164668000_B45",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/27/7/1001/48868919/bioinformatics_27_7_1001.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/27/7/1001/48868919/bioinformatics_27_7_1001.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btr058",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "A common layer of interoperability for biomedical ontologies based on OWL EL",
+      "abstract": "Abstract Motivation: Ontologies are essential in biomedical research due to their ability to semantically integrate content from different scientific databases and resources. Their application improves capabilities for querying and mining biological knowledge. An increasing number of ontologies is being developed for this purpose, and considerable effort is invested into formally defining them in order to represent their semantics explicitly. However, current biomedical ontologies do not facilitate data integration and interoperability yet, since reasoning over these ontologies is very complex and cannot be performed efficiently or is even impossible. We propose the use of less expressive subsets of ontology representation languages to enable efficient reasoning and achieve the goal of genuine interoperability between ontologies. Results: We present and evaluate EL Vira, a framework that transforms OWL ontologies into the OWL EL subset, thereby enabling the use of tractable reasoning. We illustrate which OWL constructs and inferences are kept and lost following the conversion and demonstrate the performance gain of reasoning indicated by the significant reduction of processing time. We applied EL Vira to the open biomedical ontologies and provide a repository of ontologies resulting from this conversion. EL Vira creates a common layer of ontological interoperability that, for the first time, enables the creation of software solutions that can employ biomedical ontologies to perform inferences and answer complex queries to support scientific analyses. Availability and implementation: The EL Vira software is available from http://el-vira.googlecode.com and converted OBO ontologies and their mappings are available from http://bioonto.gen.cam.ac.uk/el-ont. Contact: rh497@cam.ac.uk",
+      "publication_date": "2011-02-21",
+      "publication_year": 2011,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310311648",
+      "container_title": "Bioinformatics",
+      "volume": "27",
+      "issue": "7",
+      "pages": "1001-1008",
+      "issn": [
+        "1367-4803",
+        "1367-4811"
+      ],
+      "doi": "10.1093/bioinformatics/btr058",
+      "pmid": "21343142",
+      "openalex_id": "https://openalex.org/W2133550211",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Robert Hoehndorf",
+            "orcid": "0000-0001-8149-5890",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Carleton University",
+              "ror_id": "https://ror.org/02qtvee93",
+              "country_code": "CA",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Cambridge",
+              "ror_id": "https://ror.org/013meh722",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "European Bioinformatics Institute",
+              "ror_id": "https://ror.org/02catss52",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5043808311",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Michel Dumontier",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "European Bioinformatics Institute",
+              "ror_id": "https://ror.org/02catss52",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "Carleton University",
+              "ror_id": "https://ror.org/02qtvee93",
+              "country_code": "CA",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Cambridge",
+              "ror_id": "https://ror.org/013meh722",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5044836472",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Anika Oellrich",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Carleton University",
+              "ror_id": "https://ror.org/02qtvee93",
+              "country_code": "CA",
+              "source": "openalex"
+            },
+            {
+              "name": "European Bioinformatics Institute",
+              "ror_id": "https://ror.org/02catss52",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Cambridge",
+              "ror_id": "https://ror.org/013meh722",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5012061875",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Sarala Wimalaratne",
+            "orcid": "0000-0002-5355-2576",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Carleton University",
+              "ror_id": "https://ror.org/02qtvee93",
+              "country_code": "CA",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Cambridge",
+              "ror_id": "https://ror.org/013meh722",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "European Bioinformatics Institute",
+              "ror_id": "https://ror.org/02catss52",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5034436640",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Dietrich Rebholz\u2010Schuhmann",
+            "orcid": "0000-0002-1018-0370",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Cambridge",
+              "ror_id": "https://ror.org/013meh722",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "Carleton University",
+              "ror_id": "https://ror.org/02qtvee93",
+              "country_code": "CA",
+              "source": "openalex"
+            },
+            {
+              "name": "European Bioinformatics Institute",
+              "ror_id": "https://ror.org/02catss52",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5006224704",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Paul N. Schofield",
+            "orcid": "0000-0002-5111-7263",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "European Bioinformatics Institute",
+              "ror_id": "https://ror.org/02catss52",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "Carleton University",
+              "ror_id": "https://ror.org/02qtvee93",
+              "country_code": "CA",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Cambridge",
+              "ror_id": "https://ror.org/013meh722",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5059588755",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Georgios V. Gkoutos",
+            "orcid": "0000-0002-2061-091X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "European Bioinformatics Institute",
+              "ror_id": "https://ror.org/02catss52",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Cambridge",
+              "ror_id": "https://ror.org/013meh722",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "Carleton University",
+              "ror_id": "https://ror.org/02qtvee93",
+              "country_code": "CA",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5089900113",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 45,
+      "reference_count": 66,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2024": 3,
+        "2023": 2,
+        "2022": 1,
+        "2019": 2,
+        "2017": 3,
+        "2016": 3,
+        "2015": 5,
+        "2014": 3,
+        "2013": 3,
+        "2012": 12
+      },
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btr058",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/27/7/1001/48868919/bioinformatics_27_7_1001.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btr058",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btr058",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/27/7/1001/48868919/bioinformatics_27_7_1001.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btr058",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21343142",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/21343142",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "https://cris.maastrichtuniversity.nl/en/publications/28573762-0227-4e00-b193-4510cfad9a10",
+          "landing_page_url": "https://cris.maastrichtuniversity.nl/en/publications/28573762-0227-4e00-b193-4510cfad9a10",
+          "version": "publishedVersion",
+          "license": "other-oa",
+          "is_best": false,
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3065691",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3065691",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        },
+        {
+          "url": "https://kclpure.kcl.ac.uk/portal/en/publications/a035c025-0979-4b2d-94b4-a84428c632d6",
+          "landing_page_url": "https://kclpure.kcl.ac.uk/portal/en/publications/a035c025-0979-4b2d-94b4-a84428c632d6",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I183935753",
+          "source": "openalex"
+        },
+        {
+          "url": "https://research.birmingham.ac.uk/en/publications/a0962266-5d5c-46a8-b92f-3dac4cd461a1",
+          "landing_page_url": "https://research.birmingham.ac.uk/en/publications/a0962266-5d5c-46a8-b92f-3dac4cd461a1",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I79619799",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://academic.oup.com/bioinformatics/article-pdf/27/7/1001/48868919/bioinformatics_27_7_1001.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Biomedical Text Mining and Ontologies",
+          "scheme": "openalex_topic",
+          "score": 0.9998999834060669,
+          "source": "openalex"
+        },
+        {
+          "value": "Semantic Web and Ontologies",
+          "scheme": "openalex_topic",
+          "score": 0.9987000226974487,
+          "source": "openalex"
+        },
+        {
+          "value": "Bioinformatics and Genomic Networks",
+          "scheme": "openalex_topic",
+          "score": 0.9682000279426575,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.802818775177002,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Interoperability",
+          "scheme": "openalex_concept",
+          "score": 0.7607327699661255,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Ontology",
+          "scheme": "openalex_concept",
+          "score": 0.7276279926300049,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Open Biomedical Ontologies",
+          "scheme": "openalex_concept",
+          "score": 0.6933705806732178,
+          "level": 5,
+          "source": "openalex"
+        },
+        {
+          "value": "Web Ontology Language",
+          "scheme": "openalex_concept",
+          "score": 0.6549632549285889,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "IDEF5",
+          "scheme": "openalex_concept",
+          "score": 0.6254204511642456,
+          "level": 4,
+          "source": "openalex"
+        },
+        {
+          "value": "Semantics (computer science)",
+          "scheme": "openalex_concept",
+          "score": 0.5320754051208496,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Knowledge representation and reasoning",
+          "scheme": "openalex_concept",
+          "score": 0.5254049897193909,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Ontology components",
+          "scheme": "openalex_concept",
+          "score": 0.4665301442146301,
+          "level": 5,
+          "source": "openalex"
+        },
+        {
+          "value": "Upper ontology",
+          "scheme": "openalex_concept",
+          "score": 0.4274655878543854,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Description logic",
+          "scheme": "openalex_concept",
+          "score": 0.4237672686576843,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Software",
+          "scheme": "openalex_concept",
+          "score": 0.4122128486633301,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Information retrieval",
+          "scheme": "openalex_concept",
+          "score": 0.3768414556980133,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Semantic Web",
+          "scheme": "openalex_concept",
+          "score": 0.35299205780029297,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Software engineering",
+          "scheme": "openalex_concept",
+          "score": 0.33365926146507263,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "World Wide Web",
+          "scheme": "openalex_concept",
+          "score": 0.3296608030796051,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Programming language",
+          "scheme": "openalex_concept",
+          "score": 0.221273273229599,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Artificial intelligence",
+          "scheme": "openalex_concept",
+          "score": 0.1830449104309082,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Ontology alignment",
+          "scheme": "openalex_concept",
+          "score": 0.1760108768939972,
+          "level": 4,
+          "source": "openalex"
+        },
+        {
+          "value": "Philosophy",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Epistemology",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Semantics",
+          "descriptor_ui": "D012660",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Semantics",
+          "descriptor_ui": "D012660",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Semantics",
+          "descriptor_ui": "D012660",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Databases, Factual",
+          "descriptor_ui": "D016208",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Databases, Factual",
+          "descriptor_ui": "D016208",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Databases, Factual",
+          "descriptor_ui": "D016208",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Vocabulary, Controlled",
+          "descriptor_ui": "D018875",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Vocabulary, Controlled",
+          "descriptor_ui": "D018875",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Vocabulary, Controlled",
+          "descriptor_ui": "D018875",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Biomedical Research",
+          "descriptor_ui": "D035843",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Biomedical Research",
+          "descriptor_ui": "D035843",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Biomedical Research",
+          "descriptor_ui": "D035843",
+          "is_major_topic": false,
+          "source": "openalex"
+        }
+      ],
+      "keywords": [
+        "Computer science",
+        "Interoperability",
+        "Ontology",
+        "Open Biomedical Ontologies",
+        "Web Ontology Language",
+        "IDEF5",
+        "Semantics (computer science)",
+        "Knowledge representation and reasoning",
+        "Ontology components",
+        "Upper ontology",
+        "Description logic",
+        "Software",
+        "Information retrieval",
+        "Semantic Web",
+        "Software engineering",
+        "World Wide Web",
+        "Programming language",
+        "Artificial intelligence",
+        "Ontology alignment"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 3.63381008,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.93163265,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 3618.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btr058",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "A common layer of interoperability for biomedical ontologies based on OWL EL",
+      "publication_date": "2011-02-21",
+      "publication_year": 2011,
+      "work_type": "journal-article",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "Bioinformatics",
+      "issn": [
+        "1367-4811",
+        "1367-4803"
+      ],
+      "doi": "10.1093/bioinformatics/btr058",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_locations": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/27/7/1001/48868919/bioinformatics_27_7_1001.pdf",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/27/7/1001/48868919/bioinformatics_27_7_1001.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btr058",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/27/7/1001/48868919/bioinformatics_27_7_1001.pdf",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/27/7/1001/48868919/bioinformatics_27_7_1001.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btr058",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://cris.maastrichtuniversity.nl/en/publications/28573762-0227-4e00-b193-4510cfad9a10",
+          "landing_page_url": "https://cris.maastrichtuniversity.nl/en/publications/28573762-0227-4e00-b193-4510cfad9a10",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "license": "other-oa",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "Maastricht University",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3065691",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3065691",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://academic.oup.com/bioinformatics/article-pdf/27/7/1001/48868919/bioinformatics_27_7_1001.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "A common layer of interoperability for biomedical ontologies based on OWL EL.",
+      "abstract": "<h4>Motivation</h4>Ontologies are essential in biomedical research due to their ability to semantically integrate content from different scientific databases and resources. Their application improves capabilities for querying and mining biological knowledge. An increasing number of ontologies is being developed for this purpose, and considerable effort is invested into formally defining them in order to represent their semantics explicitly. However, current biomedical ontologies do not facilitate data integration and interoperability yet, since reasoning over these ontologies is very complex and cannot be performed efficiently or is even impossible. We propose the use of less expressive subsets of ontology representation languages to enable efficient reasoning and achieve the goal of genuine interoperability between ontologies.<h4>Results</h4>We present and evaluate EL Vira, a framework that transforms OWL ontologies into the OWL EL subset, thereby enabling the use of tractable reasoning. We illustrate which OWL constructs and inferences are kept and lost following the conversion and demonstrate the performance gain of reasoning indicated by the significant reduction of processing time. We applied EL Vira to the open biomedical ontologies and provide a repository of ontologies resulting from this conversion. EL Vira creates a common layer of ontological interoperability that, for the first time, enables the creation of software solutions that can employ biomedical ontologies to perform inferences and answer complex queries to support scientific analyses.<h4>Availability and implementation</h4>The EL Vira software is available from http://el-vira.googlecode.com and converted OBO ontologies and their mappings are available from http://bioonto.gen.cam.ac.uk/el-ont.",
+      "publication_year": 2011,
+      "language": "eng",
+      "container_title": "Bioinformatics (Oxford, England)",
+      "volume": "27",
+      "issue": "7",
+      "pages": "1001-1008",
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btr058",
+      "pmid": "21343142",
+      "pmcid": "PMC3065691",
+      "authors": [
+        {
+          "name": {
+            "given": "Robert",
+            "family": "Hoehndorf",
+            "full_name": "Hoehndorf R",
+            "orcid": "0000-0001-8149-5890",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Genetics, University of Cambridge, Cambridge, UK. rh497@cam.ac.uk",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michel",
+            "family": "Dumontier",
+            "full_name": "Dumontier M",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Anika",
+            "family": "Oellrich",
+            "full_name": "Oellrich A",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sarala",
+            "family": "Wimalaratne",
+            "full_name": "Wimalaratne S",
+            "orcid": "0000-0002-5355-2576",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Dietrich",
+            "family": "Rebholz-Schuhmann",
+            "full_name": "Rebholz-Schuhmann D",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Paul",
+            "family": "Schofield",
+            "full_name": "Schofield P",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Georgios V",
+            "family": "Gkoutos",
+            "full_name": "Gkoutos GV",
+            "orcid": "0000-0002-2061-091X",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 27,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": false,
+      "oa_locations": [],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "FP7_248502",
+          "agency": "European Commission FP7",
+          "agency_abbreviation": "RICORDO",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "R01 HG004838-02",
+          "agency": "NHGRI NIH HHS",
+          "agency_abbreviation": "HG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "BBG0043581",
+          "agency": "Biotechnology and Biological Sciences Research Council",
+          "pi_names": [],
+          "source": "europe_pmc"
+        }
+      ],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Biomedical Research",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Semantics",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Software",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Vocabulary, Controlled",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Databases, Factual",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 27.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/27/7/1001/48868919/bioinformatics_27_7_1001.pdf",
+          "availability": "Free",
+          "document_style": "pdf",
+          "site": "Unpaywall"
+        },
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btr058",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC3065691",
+          "availability": "Free",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC3065691?pdf=render",
+          "availability": "Free",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btr058",
+          "availability": "Free",
+          "document_style": "doi",
+          "site": "DOI"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openaire": {
+      "source": "openaire",
+      "found": true,
+      "raw": {},
+      "title": "A common layer of interoperability for biomedical ontologies based on OWL EL",
+      "abstract": "<jats:title>Abstract</jats:title>                <jats:p>Motivation: Ontologies are essential in biomedical research due to their ability to semantically integrate content from different scientific databases and resources. Their application improves capabilities for querying and mining biological knowledge. An increasing number of ontologies is being developed for this purpose, and considerable effort is invested into formally defining them in order to represent their semantics explicitly. However, current biomedical ontologies do not facilitate data integration and interoperability yet, since reasoning over these ontologies is very complex and cannot be performed efficiently or is even impossible. We propose the use of less expressive subsets of ontology representation languages to enable efficient reasoning and achieve the goal of genuine interoperability between ontologies.</jats:p>                <jats:p>Results: We present and evaluate EL Vira, a framework that transforms OWL ontologies into the OWL EL subset, thereby enabling the use of tractable reasoning. We illustrate which OWL constructs and inferences are kept and lost following the conversion and demonstrate the performance gain of reasoning indicated by the significant reduction of processing time. We applied EL Vira to the open biomedical ontologies and provide a repository of ontologies resulting from this conversion. EL Vira creates a common layer of ontological interoperability that, for the first time, enables the creation of software solutions that can employ biomedical ontologies to perform inferences and answer complex queries to support scientific analyses.</jats:p>                <jats:p>Availability and implementation: The EL Vira software is available from http://el-vira.googlecode.com and converted OBO ontologies and their mappings are available from http://bioonto.gen.cam.ac.uk/el-ont.</jats:p>                <jats:p>Contact: \u00a0rh497@cam.ac.uk</jats:p>",
+      "publication_date": "2011-02-21",
+      "publication_year": 2011,
+      "work_type": "publication",
+      "language": "eng",
+      "publisher": "Oxford University Press (OUP)",
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btr058",
+      "pmid": "21343142",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Robert Hoehndorf",
+            "orcid": "0000-0001-8149-5890",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Michel Dumontier",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Anika Oellrich",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Sarala M. Wimalaratne",
+            "orcid": "0000-0002-5355-2576",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Dietrich Rebholz-Schuhmann",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Paul N. Schofield",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Georgios V. Gkoutos",
+            "orcid": "0000-0002-2061-091x",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "citation_count": 34,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btr058",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/27/7/1001/630603/btr058.pdf",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21343142",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btr058",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btr058",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://cris.maastrichtuniversity.nl/en/publications/28573762-0227-4e00-b193-4510cfad9a10",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1093/bioinformatics/btr058",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://dx.doi.org/10.1093/bioinformatics/btr058",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1093/bioinformatics/btr058",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/https://doi.org/10.1093/bioinformatics/btr058",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "unidentified",
+          "agency": "Natural Sciences and Engineering Research Council of Canada",
+          "title": "unidentified",
+          "pi_names": [],
+          "openaire_project_id": "nserc_______::1e5e62235d094afd01cd56e65112fc63",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "248502",
+          "agency": "European Commission",
+          "title": "Researching Interoperability using Core Reference Datasets and Ontologies for the Virtual Physiological Human",
+          "pi_names": [],
+          "openaire_project_id": "corda_______::3c344b901ec19b7b755f776360d670db",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "1R01HG004838-01",
+          "agency": "National Institutes of Health",
+          "title": "An Ontology of Qualities for the Annotation of Biomedical Data",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::209462ab550d009e183993963bb101e4",
+          "source": "openaire"
+        }
+      ],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "0301 basic medicine",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "0303 health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "03 medical and health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "Vocabulary-Controlled",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Biomedical Research",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Databases, Factual",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Vocabulary, Controlled",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Databases-Factual",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Software",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "004",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Semantics",
+          "scheme": "keyword",
+          "source": "openaire"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "bip_citationCount",
+          "value": 34.0,
+          "class_label": "C4",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_influence",
+          "value": 6.635682e-09,
+          "class_label": "C4",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_popularity",
+          "value": 7.012495e-09,
+          "class_label": "C4",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_impulse",
+          "value": 20.0,
+          "class_label": "C4",
+          "source": "openaire"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [
+        {
+          "grant_id": "unidentified",
+          "agency": "Natural Sciences and Engineering Research Council of Canada",
+          "title": "unidentified",
+          "pi_names": [],
+          "openaire_project_id": "nserc_______::1e5e62235d094afd01cd56e65112fc63",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "248502",
+          "agency": "European Commission",
+          "title": "Researching Interoperability using Core Reference Datasets and Ontologies for the Virtual Physiological Human",
+          "pi_names": [],
+          "openaire_project_id": "corda_______::3c344b901ec19b7b755f776360d670db",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "1R01HG004838-01",
+          "agency": "National Institutes of Health",
+          "title": "An Ontology of Qualities for the Annotation of Biomedical Data",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::209462ab550d009e183993963bb101e4",
+          "source": "openaire"
+        }
+      ],
+      "alternate_ids": [
+        "doi:10.1093/bioinformatics/btr058",
+        "doi:10.1093/bioinformatics/btr058",
+        "pmid:21343142",
+        "pmc:PMC3065691",
+        "doi:10.1093/bioinformatics/btr058",
+        "doi:10.1093/bioinformatics/btr058",
+        "doi:10.1093/bioinformatics/btr058",
+        "doi:10.1093/bioinformatics/btr058",
+        "mag_id:2133550211",
+        "doi:10.1093/bioinformatics/btr058",
+        "doi:10.1093/bioinformatics/btr058"
+      ],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btr058",
+      "pmid": "19683066",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btr058",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btr058",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btr058",
+      "authors": [
+        {
+          "name": {
+            "given": "Michel",
+            "family": "Dumontier",
+            "full_name": "Michel Dumontier",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Robert",
+            "family": "Hoehndorf",
+            "full_name": "Robert Hoehndorf",
+            "orcid": "0000-0001-8149-5890",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sarala",
+            "family": "Wimalaratne",
+            "full_name": "Sarala Wimalaratne",
+            "orcid": "0000-0002-5355-2576",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Georgios",
+            "family": "Gkoutos",
+            "full_name": "Georgios Gkoutos PhD DIC FRSB FRSM",
+            "orcid": "0000-0002-2061-091X",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0003-4727-9435",
+          "given_names": "Michel",
+          "family_names": "Dumontier",
+          "credit_name": "Michel Dumontier",
+          "other_names": [],
+          "institutions": [
+            "Carleton University",
+            "Maastricht University",
+            "Stanford University",
+            "University of Manitoba",
+            "University of Toronto"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0001-8149-5890",
+          "given_names": "Robert",
+          "family_names": "Hoehndorf",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Aberystwyth University",
+            "European Bioinformatics Institute",
+            "International Society for Computational Biology",
+            "King Abdullah University of Science and Technology",
+            "King Abdullah University of Science and Technology (KAUST)",
+            "Max Planck Institute for Evolutionary Anthropology",
+            "University of Cambridge",
+            "Universit\u00e4t Leipzig"
+          ],
+          "emails": [
+            "robert.hoehndorf@kaust.edu.sa"
+          ]
+        },
+        {
+          "orcid_id": "0000-0002-5355-2576",
+          "given_names": "Sarala",
+          "family_names": "Wimalaratne",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "DataCite",
+            "European Bioinformatics Institute",
+            "University of Auckland"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-2061-091X",
+          "given_names": "Georgios",
+          "family_names": "Gkoutos",
+          "credit_name": "Georgios Gkoutos PhD DIC FRSB FRSM",
+          "other_names": [],
+          "institutions": [
+            "Aberystwyth University",
+            "Health Data Research UK",
+            "Imperial College London",
+            "Lawrence Berkeley National Laboratory",
+            "Medical Research Council Harwell",
+            "The University of Birmingham",
+            "University Hospitals Birmingham NHS Foundation Trust",
+            "University of Birmingham",
+            "University of Cambridge",
+            "University of Thessaly"
+          ],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btr058",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1093/bioinformatics/btr058",
+    "pmid": "21343142",
+    "pmcid": "PMC3065691",
+    "mag_id": "2133550211",
+    "openalex_id": "https://openalex.org/W2133550211",
+    "handles": [],
+    "orcids": [
+      "0000-0001-8149-5890",
+      "0000-0002-1018-0370",
+      "0000-0002-2061-091X",
+      "0000-0002-2061-091x",
+      "0000-0002-5111-7263",
+      "0000-0002-5355-2576",
+      "0000-0003-4727-9435"
+    ],
+    "ror_ids": [
+      "https://ror.org/013meh722",
+      "https://ror.org/02catss52",
+      "https://ror.org/02qtvee93"
+    ],
+    "grant_ids": [
+      "1R01HG004838-01",
+      "248502",
+      "BBG0043581",
+      "FP7_248502",
+      "R01 HG004838-02",
+      "unidentified"
+    ],
+    "nct_ids": [],
+    "pmid_source": "europe_pmc",
+    "pmcid_source": "europe_pmc"
+  },
+  "conflicts": {
+    "doi": "10.1093/bioinformatics/btr058",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 31,
+          "openalex": 45,
+          "europe_pmc": 27,
+          "openaire": 34
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 45,
+          "openalex": 66
+        },
+        "risk": "low"
+      },
+      {
+        "field": "oa_status",
+        "values": {
+          "openalex": "bronze",
+          "unpaywall": "bronze",
+          "openaire": "gold"
+        },
+        "risk": "medium"
+      },
+      {
+        "field": "is_oa",
+        "values": {
+          "openalex": true,
+          "unpaywall": true,
+          "europe_pmc": false
+        },
+        "risk": "medium"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article",
+          "openaire": "publication"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 7,
+          "openalex": 7,
+          "unpaywall": 7,
+          "europe_pmc": 7,
+          "openaire": 7,
+          "orcid": 4
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Oxford University Press (OUP)",
+          "openalex": "https://openalex.org/P4310311648",
+          "unpaywall": "Oxford University Press (OUP)",
+          "openaire": "Oxford University Press (OUP)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Bioinformatics",
+          "openalex": "Bioinformatics",
+          "unpaywall": "Bioinformatics",
+          "europe_pmc": "Bioinformatics (Oxford, England)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "mesh_term_count",
+        "values": {
+          "openalex": 15,
+          "europe_pmc": 5
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng",
+          "openaire": "eng"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 1,
+    "conflict_count": 10
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1093/bioinformatics/btr058",
+    "fetched_at": "2026-02-11T18:42:02.633097+00:00"
+  }
+}

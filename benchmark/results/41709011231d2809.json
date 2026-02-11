@@ -1,0 +1,2848 @@
+{
+  "doi": "10.1186/s12859-023-05586-5",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T20:49:06.699552Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "Prop3D: A flexible, Python-based platform for machine learning with protein structural properties and biophysical data",
+      "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:sec>\n                    <jats:title>Background</jats:title>\n                    <jats:p>Machine learning (ML) has a rich history in structural bioinformatics, and modern approaches, such as deep learning, are revolutionizing our knowledge of the subtle relationships between biomolecular sequence, structure, function, dynamics and evolution. As with any advance that rests upon statistical learning approaches, the recent progress in biomolecular sciences is enabled by the availability of vast volumes of sufficiently-variable data. To be useful, such data must be well-structured, machine-readable, intelligible and manipulable. These and related requirements pose challenges that become especially acute at the computational scales typical in ML. Furthermore, in structural bioinformatics such data generally relate to protein three-dimensional (3D) structures, which are inherently more complex than sequence-based data. A significant and recurring challenge concerns the creation of large, high-quality, openly-accessible datasets that can be used for specific training and benchmarking tasks in ML pipelines for predictive modeling projects, along with reproducible splits for training and testing.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results</jats:title>\n                    <jats:p>\n                      Here, we report \u2018\u2019, a platform that allows for the creation, sharing and extensible reuse of libraries of protein domains, featurized with biophysical and evolutionary properties that can range from detailed, atomically-resolved physicochemical quantities (e.g., electrostatics) to coarser, residue-level features (e.g., phylogenetic conservation). As a community resource, we also supply a \u2018\u2019 protein dataset, obtained by applying our approach to\n                      <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://www.wikidata.org/wiki/Q5008897\">CATH</jats:ext-link>\n                      . We have developed and deployed the  framework, both in the cloud and on local HPC resources, to systematically and reproducibly create comprehensive datasets via the Highly Scalable Data Service (\n                      <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://www.wikidata.org/wiki/Q114859023\">HSDS</jats:ext-link>\n                      ). Our datasets are freely accessible via a public\n                      <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://www.wikidata.org/wiki/Q114859023\">HSDS</jats:ext-link>\n                      instance, or they can be used with accompanying Python wrappers for popular ML frameworks.\n                    </jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Conclusion</jats:title>\n                    <jats:p>\n                      and its associated  dataset can be of broad utility in at least three ways. Firstly, the  workflow code can be customized and deployed on various cloud-based compute platforms, with scalability achieved largely by saving the results to distributed\n                      <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://www.wikidata.org/wiki/Q1069215\">HDF5</jats:ext-link>\n                      files via\n                      <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://www.wikidata.org/wiki/Q114859023\">HSDS</jats:ext-link>\n                      . Secondly, the linked  dataset provides a hand-crafted, already-featurized dataset of protein domains for 20 highly-populated\n                      <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://www.wikidata.org/wiki/Q5008897\">CATH</jats:ext-link>\n                      families; importantly, provision of this pre-computed resource can aid the more efficient development (and reproducible deployment) of ML pipelines. Thirdly, \u2019s construction explicitly takes into account (in creating datasets and data-splits) the enigma of \u2018data leakage\u2019, stemming from the evolutionary relationships between proteins.\n                    </jats:p>\n                  </jats:sec>",
+      "publication_date": "2024-01-04",
+      "publication_year": 2024,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Springer Science and Business Media LLC",
+      "container_title": "BMC Bioinformatics",
+      "volume": "25",
+      "issue": "1",
+      "pages": "11",
+      "issn": [
+        "1471-2105"
+      ],
+      "doi": "10.1186/s12859-023-05586-5",
+      "authors": [
+        {
+          "name": {
+            "given": "Eli J.",
+            "family": "Draizen",
+            "full_name": "Eli J. Draizen",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "John",
+            "family": "Readey",
+            "full_name": "John Readey",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Cameron",
+            "family": "Mura",
+            "full_name": "Cameron Mura",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Philip E.",
+            "family": "Bourne",
+            "full_name": "Philip E. Bourne",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 2,
+      "reference_count": 62,
+      "references": [
+        {
+          "doi": "10.1038/s41586-021-03819-2",
+          "year": 2021,
+          "author": "J Jumper",
+          "unstructured": "Jumper J, Evans R, Pritzel A, Green T, Figurnov M, Ronneberger O, et al. Highly accurate protein structure prediction with AlphaFold. Nature. 2021;596(7873):583\u20139. https://doi.org/10.1038/s41586-021-03819-2.",
+          "key": "5586_CR1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkab1061",
+          "year": 2021,
+          "author": "M Varadi",
+          "unstructured": "Varadi M, Anyango S, Deshpande M, Nair S, Natassia C, Yordanova G, et al. AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models. Nucleic Acids Res. 2021;50(D1):D439\u201344. https://doi.org/10.1093/nar/gkab1061.",
+          "key": "5586_CR2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/25.17.3389",
+          "year": 1997,
+          "author": "SF Altschul",
+          "unstructured": "Altschul SF, Madden TL, Sch\u00e4ffer AA, Zhang J, Zhang Z, Miller W, et al. Gapped BLAST and PSI-BLAST: a new generation of protein database search programs. Nucleic Acids Res. 1997;25(17):3389\u2013402.",
+          "key": "5586_CR3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gki524",
+          "year": 2005,
+          "author": "Y Zhang",
+          "unstructured": "Zhang Y, Skolnick J. TM-align: a protein structure alignment algorithm based on the TM-score. Nucleic Acids Res. 2005;33(7):2302\u20139.",
+          "key": "5586_CR4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41576-021-00434-9",
+          "year": 2021,
+          "author": "S Whalen",
+          "unstructured": "Whalen S, Schreiber J, Noble WS, Pollard KS. Navigating the pitfalls of applying machine learning in genomics. Nat Rev Genet. 2021;23(3):169\u201381. https://doi.org/10.1038/s41576-021-00434-9.",
+          "key": "5586_CR5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1107/s2052252514009324",
+          "year": 2014,
+          "author": "RP Joosten",
+          "unstructured": "Joosten RP, Long F, Murshudov GN, Perrakis A. The PDB_REDO server for macromolecular structure model optimization. IUCrJ. 2014;1(4):213\u201320. https://doi.org/10.1107/s2052252514009324.",
+          "key": "5586_CR6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1005659",
+          "year": 2017,
+          "author": "P Eastman",
+          "unstructured": "Eastman P, Swails J, Chodera JD, McGibbon RT, Zhao Y, Beauchamp KA. OpenMM 7: rapid development of high performance algorithms for molecular dynamics. PLOS Comput Biol. 2017;13(7): e1005659. https://doi.org/10.1371/journal.pcbi.1005659.",
+          "key": "5586_CR7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1999,
+          "author": "D Graur",
+          "unstructured": "Graur D, Li WH. Fundamentals of molecular evolution. 2nd ed. New York: Oxford University Press; 1999.",
+          "key": "5586_CR8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkaa1038",
+          "year": 2020,
+          "author": "SK Burley",
+          "unstructured": "Burley SK, Bhikadiya C, Bi C, Bittrich S, Chen L, Crichlow GV, et al. RCSB Protein Data Bank: powerful new tools for exploring 3D structures of biological macromolecules for basic and applied research and education in fundamental biology, biomedicine, biotechnology, bioengineering and energy sciences. Nucleic Acids Res. 2020;49(D1):D437\u201351. https://doi.org/10.1093/nar/gkaa1038.",
+          "key": "5586_CR9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41592-018-0138-4",
+          "year": 2018,
+          "author": "AJ Riesselman",
+          "unstructured": "Riesselman AJ, Ingraham JB, Marks DS. Deep generative models of genetic variation capture the effects of mutations. Nat Methods. 2018;15(10):816\u201322. https://doi.org/10.1038/s41592-018-0138-4.",
+          "key": "5586_CR10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bib/bbv082",
+          "year": 2016,
+          "author": "I Walsh",
+          "unstructured": "Walsh I, Pollastri G, Tosatto SCE. Correct machine learning on protein sequences: a peer-reviewing perspective. Brief Bioinform. 2016;17(5):831\u201340.",
+          "key": "5586_CR11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/2022.07.29.501943",
+          "unstructured": "Draizen EJ, Veretnik S, Mura C, Bourne PE. Deep generative models of protein structure uncover distant relationships across a continuous fold space. BioRxiv. 2022; https://www.biorxiv.org/content/early/2022/08/01/2022.07.29.501943.",
+          "key": "5586_CR12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkaa1100",
+          "unstructured": "The UniProt Consortium. UniProt: the universal protein knowledgebase in 2021. Nucleic Acids Res. 2020;49(D1):D480\u2013D489. https://doi.org/10.1093/nar/gkaa1100.",
+          "key": "5586_CR13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkaa1079",
+          "year": 2020,
+          "author": "I Sillitoe",
+          "unstructured": "Sillitoe I, Bordin N, Dawson N, Waman VP, Ashford P, Scholes HM, et al. CATH: increased structural coverage of functional space. Nucleic Acids Res. 2020;49(D1):D266\u201373. https://doi.org/10.1093/nar/gkaa1079.",
+          "key": "5586_CR14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2164-9-s2-s2",
+          "year": 2008,
+          "author": "I Halperin",
+          "unstructured": "Halperin I, Glazer DS, Wu S, The Altman RB. FEATURE framework for protein function annotation: modeling new functions, improving performance, and extending to novel applications. BMC Genomics. 2008. https://doi.org/10.1186/1471-2164-9-s2-s2.",
+          "key": "5586_CR15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkab354",
+          "year": 2021,
+          "author": "M Bernhofer",
+          "unstructured": "Bernhofer M, Dallago C, Karl T, Satagopam V, Heinzinger M, Littmann M, et al. PredictProtein-predicting protein structure and function for 29 years. Nucleic Acids Res. 2021;49(W1):W535\u201340. https://doi.org/10.1093/nar/gkab354.",
+          "key": "5586_CR16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkaa931",
+          "year": 2020,
+          "author": "B Zhao",
+          "unstructured": "Zhao B, Katuwawala A, Oldfield CJ, Dunker AK, Faraggi E, Gsponer J, et al. DescribePROT: database of amino acid-level protein structure and function predictions. Nucleic Acids Res. 2020;49(D1):D298\u2013308. https://doi.org/10.1093/nar/gkaa931.",
+          "key": "5586_CR17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Townshend RJL, V\u00f6gele M, Suriana P, Derry A, Powers A, Laloudakis Y, et\u00a0al. ATOM3D: tasks on molecules in three dimensions. 2020. arXiv. arxiv:2012.04035",
+          "key": "5586_CR18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s12859-019-2932-0",
+          "unstructured": "Al Quraishi M. ProteinNet: a standardized data set for machine learning of protein structure. BMC Bioinform. 2019. https://doi.org/10.1186/s12859-019-2932-0.",
+          "key": "5586_CR19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "King JE, Koes DR. SidechainNet: an all-atom protein structure dataset for machine learning. arXiv; 2020. https://arxiv.org/abs/2010.08162.",
+          "key": "5586_CR20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pbio.3001901",
+          "year": 2022,
+          "author": "PE Bourne",
+          "unstructured": "Bourne PE, Draizen EJ, Mura C. The curse of the protein ribbon diagram. PLOS Biol. 2022;20(12):1\u20134. https://doi.org/10.1371/journal.pbio.3001901.",
+          "key": "5586_CR21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1000918",
+          "year": 2010,
+          "author": "C Mura",
+          "unstructured": "Mura C, McCrimmon CM, Vertrees J, Sawaya MR. An introduction to biomolecular graphics. PLOS Comput Biol. 2010;6(8):1\u201311. https://doi.org/10.1371/journal.pcbi.1000918.",
+          "key": "5586_CR22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/978-3-030-28954-6_10",
+          "unstructured": "Montavon G, Binder A, Lapuschkin S, Samek W, M\u00fcller KR. In: Samek W, Montavon G, Vedaldi A, Hansen LK, M\u00fcller KR, editors. Layer-wise relevance propagation: an overview. Cham: Springer; 2019. p. 193\u2013209. https://doi.org/10.1007/978-3-030-28954-6_10.",
+          "key": "5586_CR23",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btx350",
+          "year": 2017,
+          "author": "J Jim\u00e9nez",
+          "unstructured": "Jim\u00e9nez J, Doerr S, Mart\u00ednez-Rosell G, Rose AS, Fabritiis GD. DeepSite: protein-binding site predictor using 3D-convolutional neural networks. Bioinformatics. 2017;33(19):3036\u201342. https://doi.org/10.1093/bioinformatics/btx350.",
+          "key": "5586_CR24",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1021/acs.jcim.9b00554",
+          "year": 2020,
+          "author": "M Simonovsky",
+          "unstructured": "Simonovsky M, Meyers J. DeeplyTough: learning structural comparison of protein binding sites. J Chem Inf Model. 2020;60(4):2356\u201366. https://doi.org/10.1021/acs.jcim.9b00554.",
+          "key": "5586_CR25",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/RT.2006.280216",
+          "unstructured": "Wald I, Havran V. On building fast kd-trees for ray tracing, and on doing that in O(N log N). In: 2006 IEEE Symposium on Interactive Ray Tracing; 2006. p. 61\u201369.",
+          "key": "5586_CR26",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/BF03025318",
+          "year": 2002,
+          "author": "H Rummler",
+          "unstructured": "Rummler H. On the distribution of rotation angles: How great is the mean rotation angle of a random rotation? Math Intell. 2002;24(4):6\u201311.",
+          "key": "5586_CR27",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Fuchs FB, Worrall DE, Fischer V, Welling M. SE(3)-Transformers: 3D roto-translation equivariant attention networks. CoRR. 2020;abs/2006.10503. https://arxiv.org/abs/2006.10503.",
+          "key": "5586_CR28",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkab346",
+          "year": 2021,
+          "author": "D Yuen",
+          "unstructured": "Yuen D, Cabansay L, Duncan A, Luu G, Hogue G, Overbeck C, et al. The Dockstore: enhancing a community platform for sharing reproducible and accessible computational protocols. Nucleic Acids Res. 2021;49(W1):W624\u201332. https://doi.org/10.1093/nar/gkab346.",
+          "key": "5586_CR29",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nbt.3772",
+          "year": 2017,
+          "author": "J Vivian",
+          "unstructured": "Vivian J, Rao AA, Nothaft FA, Ketchum C, Armstrong J, Novak A, et al. Toil enables reproducible, open source, big biomedical data analyses. Nat Biotechnol. 2017;35(4):314\u20136. https://doi.org/10.1038/nbt.3772.",
+          "key": "5586_CR30",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pone.0177459",
+          "year": 2017,
+          "author": "GM Kurtzer",
+          "unstructured": "Kurtzer GM, Sochat V, Bauer MW. Singularity: scientific containers for mobility of compute. PLOS ONE. 2017;12(5): e0177459. https://doi.org/10.1371/journal.pone.0177459.",
+          "key": "5586_CR31",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-12-61",
+          "year": 2011,
+          "author": "M Cie\u015blik",
+          "unstructured": "Cie\u015blik M, Mura C. A lightweight, flow-based toolkit for parallel and distributed bioinformatics pipelines. BMC Bioinform. 2011;12:61.",
+          "key": "5586_CR32",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.12688/f1000research.17456.1",
+          "unstructured": "Rodrigues J, Teixeira J, Trellet M, Bonvin A. pdb-tools: a swiss army knife for molecular structures. F1000Res. 2018;7(1961).",
+          "key": "5586_CR33",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/cpbi.3",
+          "year": 2016,
+          "author": "B Webb",
+          "unstructured": "Webb B, Sali A. Comparative protein structure modeling using MODELLER. Curr Prot Bioinform. 2016. https://doi.org/10.1002/cpbi.3.",
+          "key": "5586_CR34",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/prot.22488",
+          "year": 2009,
+          "author": "GG Krivov",
+          "unstructured": "Krivov GG, Shapovalov MV, Dunbrack RL. Improved prediction of protein side-chain conformations with SCWRL4. Proteins Struct Funct Bioinform. 2009;77(4):778\u201395. https://doi.org/10.1002/prot.22488.",
+          "key": "5586_CR35",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkm276",
+          "year": 2007,
+          "author": "TJ Dolinsky",
+          "unstructured": "Dolinsky TJ, Czodrowski P, Li H, Nielsen JE, Jensen JH, Klebe G, et al. PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res. 2007;35(Web Server):W522\u20135. https://doi.org/10.1093/nar/gkm276.",
+          "key": "5586_CR36",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/pro.3280",
+          "year": 2017,
+          "author": "E Jurrus",
+          "unstructured": "Jurrus E, Engel D, Star K, Monson K, Brandi J, Felberg LE, et al. Improvements to the APBS biomolecular solvation software suite. Protein Sci. 2017;27(1):112\u201328. https://doi.org/10.1002/pro.3280.",
+          "key": "5586_CR37",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/18.7.980",
+          "year": 2002,
+          "author": "A Pintar",
+          "unstructured": "Pintar A, Carugo O, Pongor S. CX, an algorithm that identifies protruding atoms in proteins. Bioinformatics. 2002;18(7):980\u20134. https://doi.org/10.1093/bioinformatics/18.7.980.",
+          "key": "5586_CR38",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/0022-2836(82)90515-0",
+          "year": 1982,
+          "author": "J Kyte",
+          "unstructured": "Kyte J, Doolittle RF. A simple method for displaying the hydropathic character of a protein. J Mol Biol. 1982;157(1):105\u201332. https://doi.org/10.1016/0022-2836(82)90515-0.",
+          "key": "5586_CR39",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nature03216",
+          "year": 2005,
+          "author": "T Hessa",
+          "unstructured": "Hessa T, Kim H, Bihlmaier K, Lundin C, Boekel J, Andersson H, et al. Recognition of transmembrane helices by the endoplasmic reticulum translocon. Nature. 2005;433(7024):377\u201381. https://doi.org/10.1038/nature03216.",
+          "key": "5586_CR40",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nsb1096-842",
+          "year": 1996,
+          "author": "WC Wimley",
+          "unstructured": "Wimley WC, White SH. Experimentally determined hydrophobicity scale for proteins at membrane interfaces. Nat Struct Mol Biol. 1996;3(10):842\u20138. https://doi.org/10.1038/nsb1096-842.",
+          "key": "5586_CR41",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.12688/f1000research.7931.1",
+          "unstructured": "Mitternacht S. FreeSASA: an open source C library for solvent accessible surface area calculations. F1000Res. 2016;5:189. https://doi.org/10.12688/f1000research.7931.1.",
+          "key": "5586_CR42",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/bip.360221211",
+          "year": 1983,
+          "author": "W Kabsch",
+          "unstructured": "Kabsch W, Sander C. Dictionary of protein secondary structure: pattern recognition of hydrogen-bonded and geometrical features. Biopolymers. 1983;22(12):2577\u2013637. https://doi.org/10.1002/bip.360221211.",
+          "key": "5586_CR43",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1006104",
+          "year": 2018,
+          "author": "S Bliven",
+          "unstructured": "Bliven S, Lafita A, Parker A, Capitani G, Duarte JM. Automated evaluation of quaternary structures from protein crystals. PLOS Comput Biol. 2018;14(4):e1006104. https://doi.org/10.1371/journal.pcbi.1006104.",
+          "key": "5586_CR44",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/0022-2836(73)90011-9",
+          "year": 1973,
+          "author": "A Shrake",
+          "unstructured": "Shrake A, Rupley JA. Environment and exposure to solvent of protein atoms: Lysozyme and insulin. J Mol Biol. 1973;79(2):351\u201371.",
+          "key": "5586_CR45",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/SIEDS49339.2020.9106642",
+          "unstructured": "Jaiswal M, Saleem S, Kweon Y, Draizen EJ, Veretnik S, Mura C, et\u00a0al. Deep learning of protein structural classes: any evidence for an \u2018urfold\u2019? In: 2020 IEEE systems and information engineering design symposium (SIEDS); 2020. p. 1\u20136.",
+          "key": "5586_CR46",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1126/science.ade2574",
+          "year": 2023,
+          "author": "Z Lin",
+          "unstructured": "Lin Z, Akin H, Rao R, Hie B, Zhu Z, Lu W, et al. Evolutionary-scale prediction of atomic-level protein structure with a language model. Science. 2023;379(6637):1123\u201330. https://doi.org/10.1126/science.ade2574.",
+          "key": "5586_CR47",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1126/science.add2187",
+          "year": 2022,
+          "author": "J Dauparas",
+          "unstructured": "Dauparas J, Anishchenko I, Bennett N, Bai H, Ragotte RJ, Milles LF, et al. Robust deep learning-based protein sequence design using ProteinMPNN. Science. 2022;378(6615):49\u201356. https://doi.org/10.1126/science.add2187.",
+          "key": "5586_CR48",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "The HDF Group. Hierarchical Data Format, version 5; 1997-NNNN. https://www.hdfgroup.org/HDF5/.",
+          "key": "5586_CR49",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkab411",
+          "year": 2021,
+          "author": "B Shaikh",
+          "unstructured": "Shaikh B, Marupilla G, Wilson M, Blinov ML, Moraru II, Karr JR. RunBioSimulations: an extensible web application that simulates a wide range of computational modeling frameworks, algorithms, and formats. Nucleic Acids Res. 2021;49(W1):W597\u2013602. https://doi.org/10.1093/nar/gkab411.",
+          "key": "5586_CR50",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41467-021-27396-0",
+          "year": 2021,
+          "author": "N Renaud",
+          "unstructured": "Renaud N, Geng C, Georgievska S, Ambrosetti F, Ridder L, Marzella DF, et al. DeepRank: a deep learning framework for data mining 3D protein-protein interfaces. Nat Commun. 2021;1:1. https://doi.org/10.1038/s41467-021-27396-0.",
+          "key": "5586_CR51",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/2021.12.08.471762",
+          "year": 2021,
+          "author": "M R\u00e9au",
+          "unstructured": "R\u00e9au M, Renaud N, Xue LC, Bonvin AMJJ. DeepRank-GNN: a graph neural network framework to learn patterns in protein-protein interfaces. BioRxiv. 2021. https://doi.org/10.1101/2021.12.08.471762.",
+          "key": "5586_CR52",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Freiburger A, Shaikh B, Karr J. BioSimulations: a platform for sharing and reusing biological simulations; 2022. https://www.hdfgroup.org/2022/02/biosimulations-a-platform-for-sharing-and-reusing-biological-simulations.",
+          "key": "5586_CR53",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1107/s0108767307035623",
+          "year": 2007,
+          "author": "HM Berman",
+          "unstructured": "Berman HM. The protein data bank: a historical perspective. Acta Crystallogr Sect A Found Crystallogr. 2007;64(1):88\u201395. https://doi.org/10.1107/s0108767307035623.",
+          "key": "5586_CR54",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S0076-6879(97)77032-0",
+          "unstructured": "Bourne PE, Berman HM, McMahon B, Watenpaugh KD, Westbrook JD, Fitzgerald PMD. Macromolecular crystallographic information file. In: Methods in enzymology. Elsevier; 1997. p. 571\u2013590. https://doi.org/10.1016/s0076-6879(97)77032-0.",
+          "key": "5586_CR55",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1005575",
+          "year": 2017,
+          "author": "AR Bradley",
+          "unstructured": "Bradley AR, Rose AS, Pavelka A, Valasatava Y, Duarte JM, Prli\u0107 A, et al. MMTF\u2014an efficient file format for the transmission, visualization, and analysis of macromolecular structures. PLOS Comput Biol. 2017;13(6):e1005575. https://doi.org/10.1371/journal.pcbi.1005575.",
+          "key": "5586_CR56",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pone.0174846",
+          "year": 2017,
+          "author": "Y Valasatava",
+          "unstructured": "Valasatava Y, Bradley AR, Rose AS, Duarte JM, Prli\u0107 A, Rose PW. Towards an efficient compression of 3D coordinates of macromolecular structures. PLOS ONE. 2017;12(3): e0174846. https://doi.org/10.1371/journal.pone.0174846.",
+          "key": "5586_CR57",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Wilkinson MD, Dumontier M, Aalbersberg IJ, Appleton G, Axton M, Baak A, et\u00a0al. The FAIR Guiding principles for scientific data management and stewardship. Scientific Data. 2016;3.",
+          "key": "5586_CR58",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3897/rio.8.e94771",
+          "unstructured": "Rasberry L, Mietchen D. Scholia for software. Research Ideas and Outcomes. 2022;8.",
+          "key": "5586_CR59",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1080/08927022.2014.935372",
+          "year": 2014,
+          "author": "C Mura",
+          "unstructured": "Mura C, McAnany CE. An introduction to biomolecular simulations and docking. Mol Simul. 2014;40(10\u201311):732\u201364. https://doi.org/10.1080/08927022.2014.935372.",
+          "key": "5586_CR60",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.sbi.2020.11.012",
+          "year": 2021,
+          "author": "P Hoseini",
+          "unstructured": "Hoseini P, Zhao L, Shehu A. Generative deep learning for macromolecular structure and dynamics. Curr Opin Struct Biol. 2021;67:170\u20137.",
+          "key": "5586_CR61",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1021/j100785a001",
+          "year": 1964,
+          "author": "A Bondi",
+          "unstructured": "Bondi A. van der Waals volumes and radii. J Phys Chem. 1964;68(3):441\u201351. https://doi.org/10.1021/j100785a001.",
+          "key": "5586_CR62",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://link.springer.com/content/pdf/10.1186/s12859-023-05586-5.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://link.springer.com/article/10.1186/s12859-023-05586-5/fulltext.html",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://link.springer.com/content/pdf/10.1186/s12859-023-05586-5.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [
+        {
+          "name": "University of Virginia",
+          "doi": "10.13039/100008457",
+          "award_numbers": [
+            "Presidential Fellowship"
+          ],
+          "source": "crossref"
+        },
+        {
+          "name": "National Science Foundation, United States",
+          "award_numbers": [
+            "MCB-1350957"
+          ],
+          "source": "crossref"
+        }
+      ],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "https://creativecommons.org/licenses/by/4.0",
+          "content_version": "tdm",
+          "delay_in_days": 0,
+          "source": "crossref"
+        },
+        {
+          "url": "https://creativecommons.org/licenses/by/4.0",
+          "content_version": "vor",
+          "delay_in_days": 0,
+          "source": "crossref"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [
+        {
+          "value": "18 April 2023",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "27 November 2023",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "4 January 2024",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "Not applicable.",
+          "order": 2,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Ethics approval and consent to participate"
+          }
+        },
+        {
+          "value": "Not applicable.",
+          "order": 3,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Consent for publication"
+          }
+        },
+        {
+          "value": "The authors declare that they have no competing interests.",
+          "order": 4,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/s12859-023-05586-5",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "Prop3D: A flexible, Python-based platform for machine learning with protein structural properties and biophysical data",
+      "abstract": "Abstract Background Machine learning (ML) has a rich history in structural bioinformatics, and modern approaches, such as deep learning, are revolutionizing our knowledge of the subtle relationships between biomolecular sequence, structure, function, dynamics and evolution. As with any advance that rests upon statistical learning approaches, the recent progress in biomolecular sciences is enabled by the availability of vast volumes of sufficiently-variable data. To be useful, such data must be well-structured, machine-readable, intelligible and manipulable. These and related requirements pose challenges that become especially acute at the computational scales typical in ML. Furthermore, in structural bioinformatics such data generally relate to protein three-dimensional (3D) structures, which are inherently more complex than sequence-based data. A significant and recurring challenge concerns the creation of large, high-quality, openly-accessible datasets that can be used for specific training and benchmarking tasks in ML pipelines for predictive modeling projects, along with reproducible splits for training and testing. Results Here, we report \u2018\u2019, a platform that allows for the creation, sharing and extensible reuse of libraries of protein domains, featurized with biophysical and evolutionary properties that can range from detailed, atomically-resolved physicochemical quantities (e.g., electrostatics) to coarser, residue-level features (e.g., phylogenetic conservation). As a community resource, we also supply a \u2018\u2019 protein dataset, obtained by applying our approach to CATH . We have developed and deployed the framework, both in the cloud and on local HPC resources, to systematically and reproducibly create comprehensive datasets via the Highly Scalable Data Service ( HSDS ). Our datasets are freely accessible via a public HSDS instance, or they can be used with accompanying Python wrappers for popular ML frameworks. Conclusion and its associated dataset can be of broad utility in at least three ways. Firstly, the workflow code can be customized and deployed on various cloud-based compute platforms, with scalability achieved largely by saving the results to distributed HDF5 files via HSDS . Secondly, the linked dataset provides a hand-crafted, already-featurized dataset of protein domains for 20 highly-populated CATH families; importantly, provision of this pre-computed resource can aid the more efficient development (and reproducible deployment) of ML pipelines. Thirdly, \u2019s construction explicitly takes into account (in creating datasets and data-splits) the enigma of \u2018data leakage\u2019, stemming from the evolutionary relationships between proteins.",
+      "publication_date": "2024-01-04",
+      "publication_year": 2024,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310320256",
+      "container_title": "BMC Bioinformatics",
+      "volume": "25",
+      "issue": "1",
+      "pages": "11-11",
+      "issn": [
+        "1471-2105"
+      ],
+      "doi": "10.1186/s12859-023-05586-5",
+      "pmid": "38177985",
+      "openalex_id": "https://openalex.org/W4390588971",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Eli J. Draizen",
+            "orcid": "0000-0002-5645-5050",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Virginia",
+              "ror_id": "https://ror.org/0153tk833",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5068604431",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "John Readey",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Bellevue Hospital Center",
+              "ror_id": "https://ror.org/01ky34z31",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5073372312",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Cameron Mura",
+            "orcid": "0000-0001-7985-2561",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Virginia",
+              "ror_id": "https://ror.org/0153tk833",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5022761529",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Philip E. Bourne",
+            "orcid": "0000-0002-7618-7292",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Virginia",
+              "ror_id": "https://ror.org/0153tk833",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5075833022",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 4,
+      "reference_count": 64,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2025": 1,
+        "2024": 1,
+        "2023": 2
+      },
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1186/s12859-023-05586-5",
+          "pdf_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/s12859-023-05586-5",
+          "landing_page_url": "https://doi.org/10.1186/s12859-023-05586-5",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310320256",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1186/s12859-023-05586-5",
+          "pdf_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/s12859-023-05586-5",
+          "landing_page_url": "https://doi.org/10.1186/s12859-023-05586-5",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310320256",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38177985",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/38177985",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10768222",
+          "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10768222/pdf/12859_2023_Article_5586.pdf",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10768222",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doaj.org/article/c6bda3fd57b8472a998f3e96bcf243a3",
+          "landing_page_url": "https://doaj.org/article/c6bda3fd57b8472a998f3e96bcf243a3",
+          "host_type": "journal",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/s12859-023-05586-5",
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "cc-by",
+          "source": "openalex"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Machine Learning in Bioinformatics",
+          "scheme": "openalex_topic",
+          "score": 0.9966999888420105,
+          "source": "openalex"
+        },
+        {
+          "value": "Genetics, Bioinformatics, and Biomedical Research",
+          "scheme": "openalex_topic",
+          "score": 0.9966999888420105,
+          "source": "openalex"
+        },
+        {
+          "value": "Protein Structure and Dynamics",
+          "scheme": "openalex_topic",
+          "score": 0.9965000152587891,
+          "source": "openalex"
+        },
+        {
+          "value": "Python (programming language)",
+          "scheme": "openalex_concept",
+          "score": 0.9020524024963379,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.6263587474822998,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Software engineering",
+          "scheme": "openalex_concept",
+          "score": 0.3770439326763153,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Programming language",
+          "scheme": "openalex_concept",
+          "score": 0.3578230142593384,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Bioinformatics",
+          "scheme": "openalex_concept",
+          "score": 0.3440623879432678,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Computational biology",
+          "scheme": "openalex_concept",
+          "score": 0.3294077515602112,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Artificial intelligence",
+          "scheme": "openalex_concept",
+          "score": 0.329384982585907,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Data science",
+          "scheme": "openalex_concept",
+          "score": 0.3260398507118225,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Biology",
+          "scheme": "openalex_concept",
+          "score": 0.18550068140029907,
+          "level": 0,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Machine Learning",
+          "descriptor_ui": "D000069550",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Machine Learning",
+          "descriptor_ui": "D000069550",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Machine Learning",
+          "descriptor_ui": "D000069550",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Machine Learning",
+          "descriptor_ui": "D000069550",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Phylogeny",
+          "descriptor_ui": "D010802",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Phylogeny",
+          "descriptor_ui": "D010802",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Phylogeny",
+          "descriptor_ui": "D010802",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Phylogeny",
+          "descriptor_ui": "D010802",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "descriptor_ui": "D011506",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "descriptor_ui": "D011506",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "descriptor_ui": "D011506",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "descriptor_ui": "D011506",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "descriptor_ui": "D019295",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "descriptor_ui": "D019295",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "descriptor_ui": "D019295",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "descriptor_ui": "D019295",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Workflow",
+          "descriptor_ui": "D057188",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Workflow",
+          "descriptor_ui": "D057188",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Workflow",
+          "descriptor_ui": "D057188",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Workflow",
+          "descriptor_ui": "D057188",
+          "is_major_topic": false,
+          "source": "openalex"
+        }
+      ],
+      "keywords": [
+        "Python (programming language)",
+        "Computer science",
+        "Software engineering",
+        "Programming language",
+        "Bioinformatics",
+        "Computational biology",
+        "Artificial intelligence",
+        "Data science",
+        "Biology"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 0.96049445,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.62236282,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 2072.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/s12859-023-05586-5",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "Prop3D: A flexible, Python-based platform for machine learning with protein structural properties and biophysical data",
+      "publication_date": "2024-01-04",
+      "publication_year": 2024,
+      "work_type": "journal-article",
+      "publisher": "Springer Science and Business Media LLC",
+      "container_title": "BMC Bioinformatics",
+      "issn": [
+        "1471-2105"
+      ],
+      "doi": "10.1186/s12859-023-05586-5",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/s12859-023-05586-5",
+          "pdf_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/s12859-023-05586-5",
+          "landing_page_url": "https://doi.org/10.1186/s12859-023-05586-5",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/s12859-023-05586-5",
+          "pdf_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/s12859-023-05586-5",
+          "landing_page_url": "https://doi.org/10.1186/s12859-023-05586-5",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10768222/pdf/12859_2023_Article_5586.pdf",
+          "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10768222/pdf/12859_2023_Article_5586.pdf",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10768222",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://doaj.org/article/c6bda3fd57b8472a998f3e96bcf243a3",
+          "landing_page_url": "https://doaj.org/article/c6bda3fd57b8472a998f3e96bcf243a3",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/s12859-023-05586-5",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "Prop3D: A flexible, Python-based platform for machine learning with protein structural properties and biophysical data.",
+      "abstract": "<h4>Background</h4>Machine learning (ML) has a rich history in structural bioinformatics, and modern approaches, such as deep learning, are revolutionizing our knowledge of the subtle relationships between biomolecular sequence, structure, function, dynamics and evolution. As with any advance that rests upon statistical learning approaches, the recent progress in biomolecular sciences is enabled by the availability of vast volumes of sufficiently-variable data. To be useful, such data must be well-structured, machine-readable, intelligible and manipulable. These and related requirements pose challenges that become especially acute at the computational scales typical in ML. Furthermore, in structural bioinformatics such data generally relate to protein three-dimensional (3D) structures, which are inherently more complex than sequence-based data. A significant and recurring challenge concerns the creation of large, high-quality, openly-accessible datasets that can be used for specific training and benchmarking tasks in ML pipelines for predictive modeling projects, along with reproducible splits for training and testing.<h4>Results</h4>Here, we report 'Prop3D', a platform that allows for the creation, sharing and extensible reuse of libraries of protein domains, featurized with biophysical and evolutionary properties that can range from detailed, atomically-resolved physicochemical quantities (e.g., electrostatics) to coarser, residue-level features (e.g., phylogenetic conservation). As a community resource, we also supply a 'Prop3D-20sf' protein dataset, obtained by applying our approach to CATH . We have developed and deployed the Prop3D framework, both in the cloud and on local HPC resources, to systematically and reproducibly create comprehensive datasets via the Highly Scalable Data Service ( HSDS ). Our datasets are freely accessible via a public HSDS instance, or they can be used with accompanying Python wrappers for popular ML frameworks.<h4>Conclusion</h4>Prop3D and its associated Prop3D-20sf dataset can be of broad utility in at least three ways. Firstly, the Prop3D workflow code can be customized and deployed on various cloud-based compute platforms, with scalability achieved largely by saving the results to distributed HDF5 files via HSDS . Secondly, the linked Prop3D-20sf dataset provides a hand-crafted, already-featurized dataset of protein domains for 20 highly-populated CATH families; importantly, provision of this pre-computed resource can aid the more efficient development (and reproducible deployment) of ML pipelines. Thirdly, Prop3D-20sf's construction explicitly takes into account (in creating datasets and data-splits) the enigma of 'data leakage', stemming from the evolutionary relationships between proteins.",
+      "publication_year": 2024,
+      "language": "eng",
+      "container_title": "BMC bioinformatics",
+      "volume": "25",
+      "issue": "1",
+      "pages": "11",
+      "issn": [],
+      "doi": "10.1186/s12859-023-05586-5",
+      "pmid": "38177985",
+      "pmcid": "PMC10768222",
+      "authors": [
+        {
+          "name": {
+            "given": "Eli J",
+            "family": "Draizen",
+            "full_name": "Draizen EJ",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Biomedical Engineering, University of Virginia, Charlottesville, VA, USA. edraizen@gmail.com.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "School of Data Science, University of Virginia, Charlottesville, VA, USA. edraizen@gmail.com.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "John",
+            "family": "Readey",
+            "full_name": "Readey J",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "The HDF Group, Bellevue, WA, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Cameron",
+            "family": "Mura",
+            "full_name": "Mura C",
+            "orcid": "0000-0001-7985-2561",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Biomedical Engineering, University of Virginia, Charlottesville, VA, USA. cmura@virginia.edu.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "School of Data Science, University of Virginia, Charlottesville, VA, USA. cmura@virginia.edu.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Philip E",
+            "family": "Bourne",
+            "full_name": "Bourne PE",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Biomedical Engineering, University of Virginia, Charlottesville, VA, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "School of Data Science, University of Virginia, Charlottesville, VA, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 3,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/s12859-023-05586-5",
+          "host_type": "Unpaywall",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC10768222",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC10768222?pdf=render",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "Presidential Fellowship",
+          "agency": "University of Virginia",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "MCB-1350957",
+          "agency": "National Science Foundation, United States",
+          "pi_names": [],
+          "source": "europe_pmc"
+        }
+      ],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Humans",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "qualifier_name": "methods",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Phylogeny",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Workflow",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Machine Learning",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "keywords": [
+        "protein structure",
+        "Machine Learning",
+        "Structural Bioinformatics",
+        "Deep Learning",
+        "Massively Parallel Workflows"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 3.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [
+        {
+          "name": "Proteins",
+          "registry_number": "0"
+        }
+      ],
+      "text_mined_accessions": [
+        "cath",
+        "pdb"
+      ],
+      "corrections": [
+        {
+          "type": "Preprint in",
+          "id": "PPR590042",
+          "source": "PPR"
+        }
+      ],
+      "full_text_urls": [
+        {
+          "url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/s12859-023-05586-5",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Unpaywall"
+        },
+        {
+          "url": "https://doi.org/10.1186/s12859-023-05586-5",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC10768222",
+          "availability": "Open access",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC10768222?pdf=render",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openaire": {
+      "source": "openaire",
+      "found": true,
+      "raw": {},
+      "title": "Prop3D: A flexible, Python-based platform for machine learning with protein structural properties and biophysical data",
+      "abstract": "<jats:title>Abstract</jats:title>                   <jats:sec>                     <jats:title>Background</jats:title>                     <jats:p>Machine learning (ML) has a rich history in structural bioinformatics, and modern approaches, such as deep learning, are revolutionizing our knowledge of the subtle relationships between biomolecular sequence, structure, function, dynamics and evolution. As with any advance that rests upon statistical learning approaches, the recent progress in biomolecular sciences is enabled by the availability of vast volumes of sufficiently-variable data. To be useful, such data must be well-structured, machine-readable, intelligible and manipulable. These and related requirements pose challenges that become especially acute at the computational scales typical in ML. Furthermore, in structural bioinformatics such data generally relate to protein three-dimensional (3D) structures, which are inherently more complex than sequence-based data. A significant and recurring challenge concerns the creation of large, high-quality, openly-accessible datasets that can be used for specific training and benchmarking tasks in ML pipelines for predictive modeling projects, along with reproducible splits for training and testing.</jats:p>                   </jats:sec>                   <jats:sec>                     <jats:title>Results</jats:title>                     <jats:p>                       Here, we report \u2018\u2019, a platform that allows for the creation, sharing and extensible reuse of libraries of protein domains, featurized with biophysical and evolutionary properties that can range from detailed, atomically-resolved physicochemical quantities (e.g., electrostatics) to coarser, residue-level features (e.g., phylogenetic conservation). As a community resource, we also supply a \u2018\u2019 protein dataset, obtained by applying our approach to                       <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://www.wikidata.org/wiki/Q5008897\">CATH</jats:ext-link>                       . We have developed and deployed the  framework, both in the cloud and on local HPC resources, to systematically and reproducibly create comprehensive datasets via the Highly Scalable Data Service (                       <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://www.wikidata.org/wiki/Q114859023\">HSDS</jats:ext-link>                       ). Our datasets are freely accessible via a public                       <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://www.wikidata.org/wiki/Q114859023\">HSDS</jats:ext-link>                       instance, or they can be used with accompanying Python wrappers for popular ML frameworks.                     </jats:p>                   </jats:sec>                   <jats:sec>                     <jats:title>Conclusion</jats:title>                     <jats:p>                       and its associated  dataset can be of broad utility in at least three ways. Firstly, the  workflow code can be customized and deployed on various cloud-based compute platforms, with scalability achieved largely by saving the results to distributed                       <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://www.wikidata.org/wiki/Q1069215\">HDF5</jats:ext-link>                       files via                       <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://www.wikidata.org/wiki/Q114859023\">HSDS</jats:ext-link>                       . Secondly, the linked  dataset provides a hand-crafted, already-featurized dataset of protein domains for 20 highly-populated                       <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://www.wikidata.org/wiki/Q5008897\">CATH</jats:ext-link>                       families; importantly, provision of this pre-computed resource can aid the more efficient development (and reproducible deployment) of ML pipelines. Thirdly, \u2019s construction explicitly takes into account (in creating datasets and data-splits) the enigma of \u2018data leakage\u2019, stemming from the evolutionary relationships between proteins.                     </jats:p>                   </jats:sec>",
+      "publication_date": "2022-12-30",
+      "publication_year": 2022,
+      "work_type": "publication",
+      "language": "eng",
+      "publisher": "Springer Science and Business Media LLC",
+      "issn": [],
+      "doi": "10.1186/s12859-023-05586-5",
+      "pmid": "38177985",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Eli J. Draizen",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "John Readey",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Cameron Mura",
+            "orcid": "0000-0001-7985-2561",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Philip E. Bourne",
+            "orcid": "0000-0002-7618-7292",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "citation_count": 4,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1186/s12859-023-05586-5",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1101/2022.12.27.522071",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38177985",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1186/s12859-023-05586-5",
+          "version": "Other literature type",
+          "license": "http://creativecommons.org/licenses/by/4.0/Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/ (http://creativecommons.org/licenses/by/4.0/) . The Creative Commons Public Domain Dedication waiver (http://creativecommons.org/publicdomain/zero/1.0/ (http://creativecommons.org/publicdomain/zero/1.0/) ) applies to the data made available in this article, unless otherwise stated in a credit line to the data.",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1186/s12859-023-05586-5",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doaj.org/article/c6bda3fd57b8472a998f3e96bcf243a3",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "1350957",
+          "agency": "National Science Foundation",
+          "title": "CAREER: Experimental & Computational Studies of Ancient Sm-based RNA Assemblies",
+          "pi_names": [],
+          "openaire_project_id": "nsf_________::de175560a620cc3cef699f0642be6dd4",
+          "source": "openaire"
+        }
+      ],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "0301 basic medicine",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "0303 health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "QH301-705.5",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Computer applications to medicine. Medical informatics",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "R858-859.7",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Computational Biology",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Proteins",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Deep learning",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Workflow",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Machine Learning",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "03 medical and health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "Structural bioinformatics",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Machine learning",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Protein structure",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Massively parallel workflows",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Humans",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Biology (General)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Software",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Phylogeny",
+          "scheme": "keyword",
+          "source": "openaire"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "bip_citationCount",
+          "value": 4.0,
+          "class_label": "C5",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_influence",
+          "value": 2.5722433e-09,
+          "class_label": "C5",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_popularity",
+          "value": 4.8214943e-09,
+          "class_label": "C4",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_impulse",
+          "value": 4.0,
+          "class_label": "C5",
+          "source": "openaire"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [
+        {
+          "grant_id": "1350957",
+          "agency": "National Science Foundation",
+          "title": "CAREER: Experimental & Computational Studies of Ancient Sm-based RNA Assemblies",
+          "pi_names": [],
+          "openaire_project_id": "nsf_________::de175560a620cc3cef699f0642be6dd4",
+          "source": "openaire"
+        }
+      ],
+      "alternate_ids": [
+        "doi:10.1186/s12859-023-05586-5",
+        "doi:10.1101/2022.12.27.522071",
+        "doi:10.1186/s12859-023-05586-5",
+        "pmid:38177985",
+        "pmc:PMC10768222",
+        "doi:10.1186/s12859-023-05586-5",
+        "doi:10.1186/s12859-023-05586-5",
+        "doi:10.1186/s12859-023-05586-5"
+      ],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/s12859-023-05586-5",
+      "pmid": "23671333",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/s12859-023-05586-5",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/s12859-023-05586-5",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/s12859-023-05586-5",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/s12859-023-05586-5",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1186/s12859-023-05586-5",
+    "pmid": "38177985",
+    "pmcid": "PMC10768222",
+    "openalex_id": "https://openalex.org/W4390588971",
+    "handles": [],
+    "orcids": [
+      "0000-0001-7985-2561",
+      "0000-0002-5645-5050",
+      "0000-0002-7618-7292"
+    ],
+    "ror_ids": [
+      "https://ror.org/0153tk833",
+      "https://ror.org/01ky34z31"
+    ],
+    "grant_ids": [
+      "1350957",
+      "MCB-1350957",
+      "Presidential Fellowship"
+    ],
+    "nct_ids": [],
+    "pmid_source": "europe_pmc",
+    "pmcid_source": "europe_pmc"
+  },
+  "conflicts": {
+    "doi": "10.1186/s12859-023-05586-5",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 2,
+          "openalex": 4,
+          "europe_pmc": 3,
+          "openaire": 4
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 62,
+          "openalex": 64
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publication_year",
+        "values": {
+          "crossref": 2024,
+          "openalex": 2024,
+          "unpaywall": 2024,
+          "europe_pmc": 2024,
+          "openaire": 2022
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article",
+          "openaire": "publication"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Springer Science and Business Media LLC",
+          "openalex": "https://openalex.org/P4310320256",
+          "unpaywall": "Springer Science and Business Media LLC",
+          "openaire": "Springer Science and Business Media LLC"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "BMC Bioinformatics",
+          "openalex": "BMC Bioinformatics",
+          "unpaywall": "BMC Bioinformatics",
+          "europe_pmc": "BMC bioinformatics"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "mesh_term_count",
+        "values": {
+          "openalex": 24,
+          "europe_pmc": 7
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng",
+          "openaire": "eng"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "grant_count",
+        "values": {
+          "europe_pmc": 2,
+          "openaire": 1
+        },
+        "risk": "medium"
+      }
+    ],
+    "agreement_count": 1,
+    "conflict_count": 9
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1186/s12859-023-05586-5",
+    "fetched_at": "2026-02-11T20:49:06.700741+00:00"
+  }
+}

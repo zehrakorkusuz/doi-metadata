@@ -1,0 +1,5070 @@
+{
+  "doi": "10.1093/bioinformatics/btr507",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T14:46:30.702147Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "FLASH: fast length adjustment of short reads to improve genome assemblies",
+      "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Motivation: Next-generation sequencing technologies generate very large numbers of short reads. Even with very deep genome coverage, short read lengths cause problems in de novo assemblies. The use of paired-end libraries with a fragment size shorter than twice the read length provides an opportunity to generate much longer reads by overlapping and merging read pairs before assembling a genome.</jats:p>\n                  <jats:p>Results: We present FLASH, a fast computational tool to extend the length of short reads by overlapping paired-end reads from fragment libraries that are sufficiently short. We tested the correctness of the tool on one million simulated read pairs, and we then applied it as a pre-processor for genome assemblies of Illumina reads from the bacterium Staphylococcus aureus and human chromosome 14. FLASH correctly extended and merged reads &amp;gt;99% of the time on simulated reads with an error rate of &amp;lt;1%. With adequately set parameters, FLASH correctly merged reads over 90% of the time even when the reads contained up to 5% errors. When FLASH was used to extend reads prior to assembly, the resulting assemblies had substantially greater N50 lengths for both contigs and scaffolds.</jats:p>\n                  <jats:p>Availability and Implementation: The FLASH system is implemented in C and is freely available as open-source code at http://www.cbcb.umd.edu/software/flash.</jats:p>\n                  <jats:p>Contact: \u00a0t.magoc@gmail.com</jats:p>",
+      "publication_date": "2011-09-07",
+      "publication_year": 2011,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "Bioinformatics",
+      "volume": "27",
+      "issue": "21",
+      "pages": "2957-2963",
+      "issn": [
+        "1367-4811",
+        "1367-4803"
+      ],
+      "doi": "10.1093/bioinformatics/btr507",
+      "authors": [
+        {
+          "name": {
+            "given": "Tanja",
+            "family": "Mago\u010d",
+            "full_name": "Tanja Mago\u010d",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "McKusick-Nathans Institute of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Steven L.",
+            "family": "Salzberg",
+            "full_name": "Steven L. Salzberg",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "McKusick-Nathans Institute of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 13177,
+      "reference_count": 9,
+      "references": [
+        {
+          "doi": "10.1073/pnas.1017351108",
+          "title": "High-quality draft assemblies of mammalian genomes from massively parallel sequence data",
+          "year": 2011,
+          "author": "Gnerre",
+          "key": "2023012511335451000_B1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/gb-2010-11-11-r116",
+          "title": "Quake: quality-aware detection and correction of sequencing errors",
+          "year": 2010,
+          "author": "Kelley",
+          "key": "2023012511335451000_B2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/gb-2004-5-2-r12",
+          "title": "Versatile and open software for comparing large genomes",
+          "year": 2004,
+          "author": "Kurtz",
+          "key": "2023012511335451000_B3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/gb-2009-10-3-r25",
+          "title": "Ultrafast and memory efficient alignment of short DNA sequences to the human genome",
+          "year": 2009,
+          "author": "Langmead",
+          "key": "2023012511335451000_B4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btp352",
+          "title": "The sequence alignment/map (SAM) format and SAMtools",
+          "year": 2009,
+          "author": "Li",
+          "key": "2023012511335451000_B5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/gr.097261.109",
+          "title": "De novo assembly of human genomes with massively parallel short read sequencing",
+          "year": 2010,
+          "author": "Li",
+          "key": "2023012511335451000_B6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/gb-2009-10-10-r103",
+          "title": "ALLPATHS2: small genomes assembled accurately and with high continuity from short paired reads",
+          "year": 2009,
+          "author": "MacCallum",
+          "key": "2023012511335451000_B7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btn548",
+          "title": "Aggressive assembly of pyrosequencing reads with mates",
+          "year": 2008,
+          "author": "Miller",
+          "key": "2023012511335451000_B8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pone.0011840",
+          "title": "Unlocking short read sequencing for metagenomics",
+          "year": 2010,
+          "author": "Rodrigue",
+          "key": "2023012511335451000_B9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/27/21/2957/48863763/bioinformatics_27_21_2957.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/27/21/2957/48863763/bioinformatics_27_21_2957.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btr507",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "FLASH: fast length adjustment of short reads to improve genome assemblies",
+      "abstract": "Abstract Motivation: Next-generation sequencing technologies generate very large numbers of short reads. Even with very deep genome coverage, short read lengths cause problems in de novo assemblies. The use of paired-end libraries with a fragment size shorter than twice the read length provides an opportunity to generate much longer reads by overlapping and merging read pairs before assembling a genome. Results: We present FLASH, a fast computational tool to extend the length of short reads by overlapping paired-end reads from fragment libraries that are sufficiently short. We tested the correctness of the tool on one million simulated read pairs, and we then applied it as a pre-processor for genome assemblies of Illumina reads from the bacterium Staphylococcus aureus and human chromosome 14. FLASH correctly extended and merged reads &amp;gt;99% of the time on simulated reads with an error rate of &amp;lt;1%. With adequately set parameters, FLASH correctly merged reads over 90% of the time even when the reads contained up to 5% errors. When FLASH was used to extend reads prior to assembly, the resulting assemblies had substantially greater N50 lengths for both contigs and scaffolds. Availability and Implementation: The FLASH system is implemented in C and is freely available as open-source code at http://www.cbcb.umd.edu/software/flash. Contact: t.magoc@gmail.com",
+      "publication_date": "2011-09-07",
+      "publication_year": 2011,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310311648",
+      "container_title": "Bioinformatics",
+      "volume": "27",
+      "issue": "21",
+      "pages": "2957-2963",
+      "issn": [
+        "1367-4803",
+        "1367-4811"
+      ],
+      "doi": "10.1093/bioinformatics/btr507",
+      "pmid": "21903629",
+      "openalex_id": "https://openalex.org/W2157107905",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Tanja Mago\u010d",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Johns Hopkins Medicine",
+              "ror_id": "https://ror.org/037zgn354",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Johns Hopkins University",
+              "ror_id": "https://ror.org/00za53h95",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5065453594",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Steven L. Salzberg",
+            "orcid": "0000-0002-8859-7432",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Johns Hopkins Medicine",
+              "ror_id": "https://ror.org/037zgn354",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Johns Hopkins University",
+              "ror_id": "https://ror.org/00za53h95",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5010384159",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 15068,
+      "reference_count": 10,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2026": 173,
+        "2025": 1577,
+        "2024": 1871,
+        "2023": 1823,
+        "2022": 2176,
+        "2021": 1952,
+        "2020": 1698,
+        "2019": 1233,
+        "2018": 1032,
+        "2017": 700,
+        "2016": 458,
+        "2015": 236,
+        "2014": 84,
+        "2013": 35,
+        "2012": 9
+      },
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btr507",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/27/21/2957/48863763/bioinformatics_27_21_2957.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btr507",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btr507",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/27/21/2957/48863763/bioinformatics_27_21_2957.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btr507",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21903629",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/21903629",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "http://bioinformatics.oxfordjournals.org/cgi/content/short/27/21/2957",
+          "landing_page_url": "http://bioinformatics.oxfordjournals.org/cgi/content/short/27/21/2957",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": false,
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3198573",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3198573",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://academic.oup.com/bioinformatics/article-pdf/27/21/2957/48863763/bioinformatics_27_21_2957.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Genomics and Phylogenetic Studies",
+          "scheme": "openalex_topic",
+          "score": 0.9998000264167786,
+          "source": "openalex"
+        },
+        {
+          "value": "Plant Pathogenic Bacteria Studies",
+          "scheme": "openalex_topic",
+          "score": 0.9932000041007996,
+          "source": "openalex"
+        },
+        {
+          "value": "RNA and protein synthesis mechanisms",
+          "scheme": "openalex_topic",
+          "score": 0.9890000224113464,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.7329540848731995,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Contig",
+          "scheme": "openalex_concept",
+          "score": 0.6912112236022949,
+          "level": 4,
+          "source": "openalex"
+        },
+        {
+          "value": "Flash (photography)",
+          "scheme": "openalex_concept",
+          "score": 0.5704182386398315,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Genome",
+          "scheme": "openalex_concept",
+          "score": 0.5541651248931885,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Software",
+          "scheme": "openalex_concept",
+          "score": 0.4715210199356079,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Sequence assembly",
+          "scheme": "openalex_concept",
+          "score": 0.46085280179977417,
+          "level": 5,
+          "source": "openalex"
+        },
+        {
+          "value": "k-mer",
+          "scheme": "openalex_concept",
+          "score": 0.4440039098262787,
+          "level": 4,
+          "source": "openalex"
+        },
+        {
+          "value": "Hybrid genome assembly",
+          "scheme": "openalex_concept",
+          "score": 0.4301777482032776,
+          "level": 5,
+          "source": "openalex"
+        },
+        {
+          "value": "Correctness",
+          "scheme": "openalex_concept",
+          "score": 0.42719998955726624,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Computational biology",
+          "scheme": "openalex_concept",
+          "score": 0.4020302891731262,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Algorithm",
+          "scheme": "openalex_concept",
+          "score": 0.33078694343566895,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Biology",
+          "scheme": "openalex_concept",
+          "score": 0.2449806034564972,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Genetics",
+          "scheme": "openalex_concept",
+          "score": 0.17816585302352905,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Operating system",
+          "scheme": "openalex_concept",
+          "score": 0.13360154628753662,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Gene expression",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Gene",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Transcriptome",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 4,
+          "source": "openalex"
+        },
+        {
+          "value": "Art",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Visual arts",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Chromosomes, Human, Pair 14",
+          "descriptor_ui": "D002883",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Chromosomes, Human, Pair 14",
+          "descriptor_ui": "D002883",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Chromosomes, Human, Pair 14",
+          "descriptor_ui": "D002883",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Chromosomes, Human, Pair 14",
+          "descriptor_ui": "D002883",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Staphylococcus aureus",
+          "descriptor_ui": "D013211",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Staphylococcus aureus",
+          "descriptor_ui": "D013211",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Staphylococcus aureus",
+          "descriptor_ui": "D013211",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Staphylococcus aureus",
+          "descriptor_ui": "D013211",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genome",
+          "descriptor_ui": "D016678",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genome",
+          "descriptor_ui": "D016678",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genome",
+          "descriptor_ui": "D016678",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genome",
+          "descriptor_ui": "D016678",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, DNA",
+          "descriptor_ui": "D017422",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, DNA",
+          "descriptor_ui": "D017422",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, DNA",
+          "descriptor_ui": "D017422",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, DNA",
+          "descriptor_ui": "D017422",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genomics",
+          "descriptor_ui": "D023281",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genomics",
+          "descriptor_ui": "D023281",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genomics",
+          "descriptor_ui": "D023281",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genomics",
+          "descriptor_ui": "D023281",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        }
+      ],
+      "keywords": [
+        "Computer science",
+        "Contig",
+        "Flash (photography)",
+        "Genome",
+        "Software",
+        "Sequence assembly",
+        "k-mer",
+        "Hybrid genome assembly",
+        "Correctness",
+        "Computational biology",
+        "Algorithm",
+        "Biology",
+        "Genetics",
+        "Operating system"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 18.0292885,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.99560194,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 3618.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": true,
+      "raw": {},
+      "title": "FLASH: fast length adjustment of short reads to improve genome assemblies",
+      "publication_date": "2011-11-01",
+      "publication_year": 2011,
+      "work_type": "JournalArticle",
+      "container_title": "Bioinformatics",
+      "volume": "27 21",
+      "pages": "\n          2957-63\n        ",
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btr507",
+      "pmid": "21903629",
+      "s2_paper_id": "e45b0c2ba189f2bf75b6de718a2507645f4ec1a3",
+      "s2_corpus_id": "268120060",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Tanja Magoc",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "2252087626",
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Steven Salzberg",
+            "authenticated_orcid": false,
+            "source": "semantic_scholar"
+          },
+          "affiliations": [],
+          "s2_author_id": "2286826439",
+          "sources": [
+            "semantic_scholar"
+          ]
+        }
+      ],
+      "citation_count": 13020,
+      "reference_count": 13,
+      "influential_citation_count": 2002,
+      "references": [],
+      "citations": [
+        {
+          "doi": "10.1016/j.agee.2026.110280",
+          "title": "Altitude, agricultural disturbance intensity, soil biotic and abiotic factors jointly affect soil multifunctionality in mountain farmlands",
+          "year": 2026,
+          "s2_paper_id": "a21ce4cbc0f51feefab32c31944b0aea2d2e95a2",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.agee.2026.110300",
+          "title": "Long-term manure addition restores soil microbial network complexity disrupted by chemical fertilization across 3\u202fm soil profiles",
+          "year": 2026,
+          "s2_paper_id": "97945e3f0a662689cb91f3c087ca1985791bb96c",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.bcdf.2026.100524",
+          "title": "Impact of a fermented quinoa-lentil bread on gut microbiota: An in vitro dynamic colonic fermentation study with two opposing enterotypes",
+          "year": 2026,
+          "s2_paper_id": "064df6d26d4e3fbd2cc122bd9917624f10dde2e4",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.apsoil.2026.106839",
+          "title": "Hydrological fluctuations govern the decline of microbial carbon pump efficiency by shifting microbial life history strategies and assembly processes in reservoir drawdown zones",
+          "year": 2026,
+          "s2_paper_id": "add9a13d15d7785242829212df7933a872dd6bfb",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.apsoil.2026.106857",
+          "title": "Earthworms enhance nitrogen-metabolizing microbiota in drilosphere and rhizosphere co-occurrence networks",
+          "year": 2026,
+          "s2_paper_id": "8303bb6084081b37d7e25242debf159d0f40d96a",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.microb.2025.100640",
+          "title": "Insights into the riverine metaplasmidome: The role of anthropogenic factors in shaping microbial communities",
+          "year": 2026,
+          "s2_paper_id": "936f69ca7abe817e608c6957ca486c12aeae4550",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.aqrep.2025.103294",
+          "title": "Effects of probiotic and antibiotic on gut microbiome and antibiotic resistance genes in black tiger shrimp (Penaeus monodon) in Bangladesh",
+          "year": 2026,
+          "s2_paper_id": "825681b80d2759b268d1bcb0063e511c7ab09cd6",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ejsobi.2025.103802",
+          "title": "Biochar amendment slowed down the decomposition of wheat residue by suppressing the population of wheat residue-decomposers in bacterial community",
+          "year": 2026,
+          "s2_paper_id": "837167984552912bededa6c769f41ccbb27010a5",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.foodres.2025.118273",
+          "title": "Segment-specific amelioration of gut homeostasis by vitamin B3 in high-fat diet-fed mice: Roles in barrier integrity, inflammatory response, and microbiota composition.",
+          "year": 2026,
+          "s2_paper_id": "e41e771c6b92a96c3ce94ae19437b68e9decfe35",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.foodres.2025.118233",
+          "title": "Microbial community dynamics in spontaneous fermentation of Vitis quinquangularis Rehd. Wine across Southwest China: Correlations with volatile compounds.",
+          "year": 2026,
+          "s2_paper_id": "bec04589ab76681b7ddee6c172e4e64bac23ba28",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.catena.2025.109778",
+          "title": "Diversity, composition, networks, and assembly processes of soil microbial communities across slope positions in a karst peak cluster depression",
+          "year": 2026,
+          "s2_paper_id": "f950d949078dd98aa819521d40f133d2924b6eff",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.aqrep.2025.103313",
+          "title": "Horizontal transmission of white spot syndrome virus (wssv) from Procambarus clarkii to Eriocheir sinensis in polyculture systems: Infection characteristics, physiological responses, and ecological impacts",
+          "year": 2026,
+          "s2_paper_id": "d2a5e4caf54be0a2a98c49ca755e4ac674ab76da",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.apsoil.2026.106783",
+          "title": "Rhizosphere filtering drives the diversity and assembly of soil rotifer communities",
+          "year": 2026,
+          "s2_paper_id": "45c501900607b07614dce4515bfa9c91e9f2537c",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ejsobi.2026.103804",
+          "title": "Regulation of nutrient homeostasis by soil microbial functional differentiation and metabolic limitations under interactive forest type and Stropharia rugosoannulata cultivation",
+          "year": 2026,
+          "s2_paper_id": "bdc1609b4f87cecb6f2720b5202534fcbb3a3556",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.apsoil.2026.106788",
+          "title": "Solid and liquid fractions of digestate: manure or slurry just like any others?",
+          "year": 2026,
+          "s2_paper_id": "90854095439a0a3e44588ccc4a0062cbd70a5732",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.aquaculture.2026.743661",
+          "title": "Dietary D-mannose maintains intestinal microbiota balance and alleviates dextrose sodium sulfate (DSS)-induced enteritis of juvenile grass carp (Ctenopharyngodon idella)",
+          "year": 2026,
+          "s2_paper_id": "f795d2fbba42d5ffd062dbcc1001effb07a76e1e",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.catena.2026.109829",
+          "title": "Contrasting biogeography of soil protists with broad versus narrow habitat ranges across forest types and climatic zones",
+          "year": 2026,
+          "s2_paper_id": "a54df3135b64182d3f168bd72ad607667f287f4d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ejsobi.2026.103809",
+          "title": "Soil microbial beta diversity is correlated positively with ecosystem multifunctionality of alpine meadows on the Tibetan plateau",
+          "year": 2026,
+          "s2_paper_id": "be44fcff9dd89f3ac85dc12bbb555e8619475d05",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.anifeedsci.2026.116684",
+          "title": "Response of blood biochemical metabolites, ruminal fermentation, and bacterial genetic diversity to chitosan supplementation in goats",
+          "year": 2026,
+          "s2_paper_id": "9e1acba5bfe47ab44e0e78b0cc71d08f8ce34d01",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1017/S174217052610026X",
+          "title": "Housefly larvae as a protein source in rainbow trout diet: impact on growth, carcass composition and the gut microbiome",
+          "year": 2026,
+          "s2_paper_id": "fd9d1721bea4fa0ee048822d5f96de187c8856e0",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Reads were assembled with FLASH (Mago \u010d and Salzberg, 2011), primers were trimmed with Cutadapt (Martin, 2011), and sequences were quality filtered based on expected error rates, length, and ambiguous bases."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/s40793-025-00843-x",
+          "title": "Temporal and spatial shifts in the foliar fungal endophyte community of Norway spruce (Picea abies) over 150\u00a0years in Finland.",
+          "year": 2026,
+          "s2_paper_id": "0ec4b95a146a8128a8e6a168f1e6602b6227b2b3",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/s00227-025-04771-9",
+          "title": "Substrate generalism and typhoon resilience in tropical sea cucumber Holothuria edulis: insights from gut content microbiome dynamics",
+          "year": 2026,
+          "s2_paper_id": "112ab38be86dfa9e92be88a65318e9425e2763ed",
+          "intents": [],
+          "is_influential": true,
+          "contexts": [
+            "2.11) with the following parameters: minimum overlap length (-m) of 10 bp, expected fragment length (-f) of 300 bp, maximum mismatch ratio (-x) of 0.1, and Phred quality score encoding system (-p) of 33 (Mago\u010d and Salzberg 2011 )."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fmicb.2026.1756444",
+          "title": "Synergistic remediation of Pb contamination in rice field soil with FeMg-LDH@Bentonite and compost: impacts on Pb bioavailability and soil environment",
+          "year": 2026,
+          "s2_paper_id": "ad6a50600ac3a3fe736a2e73d71a26897c49738e",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fpls.2026.1727907",
+          "title": "Micro-nanobubble oxygenation irrigation ameliorates saline-alkali soil properties, cotton physiology, and yield under different salt stress levels",
+          "year": 2026,
+          "s2_paper_id": "a6969f49617ed827e60b2c665d67a4eee9e1deb1",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1038/s42003-026-09657-0",
+          "title": "Sleep deprivation disrupts lacrimal gland homeostasis via hypothalamic-pituitary-adrenal axis and gut dysbiosis in mice.",
+          "year": 2026,
+          "s2_paper_id": "d1b4d98917f200693154c67cf7bf3d54962494d2",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.64898/2026.02.03.702761",
+          "title": "Seven Millennia of Human Exploitation drove genomic Changes in Iberian Sheep",
+          "year": 2026,
+          "s2_paper_id": "43724dcf1620dd85a75768647f6f4b716629f924",
+          "intents": [],
+          "is_influential": true,
+          "contexts": [
+            "Sheep ( Ovis aries ) have been a key resource in human societies since they became first domesticated in the North-Western Fertile Crescent about 10000 \u2212 12000 years ago (1\u2013 6), along with playing an important role on most societies due to their symbolic and cultural significance.",
+            "Furthermore, one may speculate that such a broad movement, which also changed the sheep gene pool in other parts of Europe (6, 29, 32), was associated with a transition in the way sheep were exploited, such as an increased use of their fibers.",
+            "A recently published study (6) with a wider regional and temporal sampling described how the early domestic sheep populations were formed and how they are related to Northwestern European flocks from later time periods.",
+            "Similar to previous studies (6), we cannot link the Pre-4.",
+            "\u2026of Eastern ancestry when the source of the Eastern Ancestry is a Southwestern Asian sheep breed such as Afshari or Awassi (Supplementary Figure 6B, C), which might indicate their generally increased Eastern affinity compared to the Neolithic, as described in previous literature on the Balkans (6)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/s10482-026-02257-2",
+          "title": "Dynamic changes in gut microbiota and identification of inflammation-associated biomarkers in high-fat diet-induced obese mice",
+          "year": 2026,
+          "s2_paper_id": "3b0db01288e88f36216977cbf03c7056cc89b155",
+          "intents": [],
+          "is_influential": true,
+          "contexts": [
+            "Subsequently, clean reads were merged into tags using FLASH (version 1.2.11) (Magoc and Salzberg 2011) with a minimum overlap of 10 bp and a maximum error rate of 2%."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/s00253-026-13713-4",
+          "title": "Nutrient content of grass influences microbial communities in the phyllosphere more than climate change",
+          "year": 2026,
+          "s2_paper_id": "708d0021f746532f501539126d79417d97f4efb6",
+          "intents": [],
+          "is_influential": true,
+          "contexts": [
+            "Then, all the paired-end reads were filtered using fastp (Chen et al. 2018) and merged into sequences using FLASH (Version 1.2.11) (Magoc and Salzberg 2011)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/s11104-025-08192-x",
+          "title": "Harnessing the legacy effect of soil microbiome in organic manure application for better crop performance and greenhouse gas emission",
+          "year": 2026,
+          "s2_paper_id": "60ab24aafab6569e6c7ecfb9eefc3c7898587bb2",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.marpolbul.2026.119367",
+          "title": "Conserved bacterial assembly across sediment depths with divergent community composition and ecological functions during the early stage of mangrove restoration.",
+          "year": 2026,
+          "s2_paper_id": "d588e7cdda82569e88c540ce7b501d8288c945c1",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1038/s41522-026-00930-y",
+          "title": "Diet and environmental factors jointly drive the gut microbiome, resistome, and virulome of urban bats.",
+          "year": 2026,
+          "s2_paper_id": "d3ab3344320f2c9d002c73e736ee20f687eb7728",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/insects17020169",
+          "title": "Oligosaccharides Reduce the Survival of Apis cerana and Disrupt the Gut Symbiont Gilliamella",
+          "year": 2026,
+          "s2_paper_id": "1fb64f9e4fab582c9873e60a4c28d2618ebfd615",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/microorganisms14020359",
+          "title": "Deciphering the Arterial and Venous Blood Bacterial DNA Profile: Pioneering Insights into Coronary Heart Disease Etiology and Progression",
+          "year": 2026,
+          "s2_paper_id": "6cc84597c955da012f93415635f5777a5ed77939",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/insects17020168",
+          "title": "Gut Bacterial Community Structure and Function Prediction of Lygus pratensis at Different Developmental Stages",
+          "year": 2026,
+          "s2_paper_id": "81da60a4cdb0271be4ac58e0efaf9e7621fa4518",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1038/s41477-025-02210-7",
+          "title": "Large-scale multi-omics unveils host-microbiome interactions driving root development and nitrogen acquisition.",
+          "year": 2026,
+          "s2_paper_id": "e5f60f57a1d74b6c85228cf5f3a5bb6606213562",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/s12870-026-08135-3",
+          "title": "Location and growth period influence the bioactive compounds of Angelica sinensis (Oliv.) diels: multi-omics insights.",
+          "year": 2026,
+          "s2_paper_id": "511fbca5b72f3154d4232f487a7b1cc83228a71f",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/app16031540",
+          "title": "Microbiome as a Sensitive Indicator of River Environmental Health\u2014A Catchment-Scale Approach (Poland)",
+          "year": 2026,
+          "s2_paper_id": "0fc19889fdc3d158ad8bce2b1501bc22045c580c",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/s00253-026-13729-w",
+          "title": "Post-defecation exposure alters gut microbiota of forest musk deer with implications for conservation metagenomics",
+          "year": 2026,
+          "s2_paper_id": "26177e0156aca6ca187f0fddf00d5b60c2660644",
+          "intents": [],
+          "is_influential": true,
+          "contexts": [
+            "Paired-end reads were then merged based on their overlapping regions using FLASH (Fast Length Adjustment of Short reads, version 1.2.11, http:// www. cbcb. umd. edu/ softw are/ flash) (Mago\u010d and Salzberg 2011)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/s12864-026-12572-7",
+          "title": "Comparison and structure of fungal diversity in roots and rhizosphere soils of wild and reintroduced populations of three Paphiopedilum species.",
+          "year": 2026,
+          "s2_paper_id": "0901a7740de76ed1f4e6fc19e47fb77b6f27e6ba",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1080/19490976.2026.2623578",
+          "title": "A novel exopolysaccharide from Lactiplantibacillus plantarum H6 improves cholesterol metabolism via Muribaculum-mediated activation of the enterohepatic FXR\u2013FGF15 axis",
+          "year": 2026,
+          "s2_paper_id": "b12ddecb61435f7726e09b5f9af80f85b9ef81bb",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/s42729-026-03064-4",
+          "title": "Integrated Rice Management Changes Soil Physicochemical Properties and Affects Rhizosphere Microbial-Community Diversity",
+          "year": 2026,
+          "s2_paper_id": "6693420e1d4022637969c8e7d32cbab4fce316fe",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/s42729-026-03033-x",
+          "title": "Effects of a Coal-derived Soil Amendment on Plant Growth of Sweet Pepper (Capsicum annuum) and Rhizosphere Microbial Communities",
+          "year": 2026,
+          "s2_paper_id": "fb8e62a01dd153e347dadf8cd3797637bbc73db0",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/life16020252",
+          "title": "Molecular Insights into Rhodococcus sp. A17: Physiological Adaptations and Degradation Characteristics for Organic \u00a0Contamination at Alkaline pH",
+          "year": 2026,
+          "s2_paper_id": "8f0f201d01ff344d40e47aa68fbc2f869678a7e4",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.foreco.2025.123321",
+          "title": "Aluminum addition alters bacterial community structure in rhizospheric soil and root endosphere of Pinus massoniana forests",
+          "year": 2026,
+          "s2_paper_id": "723d8ef85dc57dd0d3e8e1049722dca91a42fd64",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.soilbio.2025.110041",
+          "title": "Biological invasions of three different alien tree species has comparable influence in soil mycobiome: increase the abundance of pathogens, and decomposers, but decrease root-associated endophytic symbionts",
+          "year": 2026,
+          "s2_paper_id": "f584e03f6bd99af7ac2c2fb6984c50eb96f6d21d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jece.2025.120545",
+          "title": "Effects of plant and environmental variables on soil microbial community diversity in typical alpine wetlands of the Qinghai-Tibet Plateau",
+          "year": 2026,
+          "s2_paper_id": "20265331f76d469f12370914a5f3946d0fad67a4",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jece.2025.120534",
+          "title": "Distinct assembly mechanisms, functional traits and pathogenic risks of the plastisphere microbiome in a freshwater lake: Evidence from Baiyangdian Wetland",
+          "year": 2026,
+          "s2_paper_id": "48ca5fcea2f4b8d4714dca8ee366aca4012c1624",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.apsoil.2025.106674",
+          "title": "Mariculture sludge alters microbial carbon utilization strategies and functional metabolism in the paddy rhizosphere",
+          "year": 2026,
+          "s2_paper_id": "5fb8040c7d6d27d0797f93660da487164e5438cd",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jece.2025.120654",
+          "title": "Zeolite enhanced nitrogen retention in chicken manure composting: Differential responses of abundant and rare bacteria",
+          "year": 2026,
+          "s2_paper_id": "a1a1864c7aa50141d04a2218c517036f981eac00",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.apsoil.2025.106678",
+          "title": "Warming-driven and depth-dependent responses of soil microbial communities toward nutrient limitations: Ecological insights into alpine grassland restoration",
+          "year": 2026,
+          "s2_paper_id": "14ed65558994f49c47ea08e60cc8f9f9d302bfc3",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.apsoil.2025.106713",
+          "title": "Biostimulant-induced phosphorus activation in soils: mechanisms and efficacy of polyglutamic and humic acids",
+          "year": 2026,
+          "s2_paper_id": "a8aea84b9712fe4ecdc1ca81ca5a5d171f15aada",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.apsoil.2025.106738",
+          "title": "Soil microbial community co-occurrence network structure and its drivers in arid mountainous areas",
+          "year": 2026,
+          "s2_paper_id": "b88cdb5c821606e117ebc4c31e2c9ca05a79d7ea",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.indcrop.2025.122570",
+          "title": "Agroforestry systems improve phosphorus bioavailability and reshape soil fungal communities in acidic forest soils by mitigating aluminum-induced stress",
+          "year": 2026,
+          "s2_paper_id": "ae1d2e3e87fb7e3c355fabb0951459ec87e02831",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ecolind.2026.114632",
+          "title": "Urbanization reshapes planktonic and benthic microbial communities and networks along a river continuum",
+          "year": 2026,
+          "s2_paper_id": "6da95749ec4d944763f29fc2795849da50a42791",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jenvman.2026.128692",
+          "title": "Dual mechanisms of mineral-microbial interactions in suppressing organic carbon sequestration in calcareous soils.",
+          "year": 2026,
+          "s2_paper_id": "5818ca19b36b647f3d431203f037ea3dbc89307d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.watres.2026.125502",
+          "title": "Artificial reefs promote coastal carbon stabilization potential through hydrological condition and microbial pathways.",
+          "year": 2026,
+          "s2_paper_id": "a0b2b36549ba65decd38d17aee79dddc58c1d22f",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3168/jds.2025-26925",
+          "title": "Methane category, immune response, feed efficiency, and rumen microbial community in lactating dairy cows.",
+          "year": 2026,
+          "s2_paper_id": "999247d58f9d2dcf0d7e6f522fa4a34d8d8b68b9",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.jhazmat.2026.141396",
+          "title": "Synthetic microbial communities derived from nanoplastic-reshaped root endophytes alleviate phytotoxicity in Populus \u00d7 euramericana cv. '74/76'.",
+          "year": 2026,
+          "s2_paper_id": "e7a54aec92ba9a7351d1b31cccc12ef6b944661a",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.ccell.2026.01.006",
+          "title": "CCL3 is produced by aged neutrophils across cancers and promotes tumor growth.",
+          "year": 2026,
+          "s2_paper_id": "a440321137f32ffdb6eab52c5f0b3275d2799103",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.aninu.2025.10.006",
+          "title": "Single-nucleus RNA sequencing reveals regulatory mechanisms of bile acids on lipid metabolism in Litopenaeus vannamei",
+          "year": 2026,
+          "s2_paper_id": "93c4fe1a14edc90a84dbbaa28867af25b7172a31",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.foodres.2026.118575",
+          "title": "Stochastic and deterministic processes shape microbiota and flavors of strong-flavor Daqu made from different wheat varieties during fermentation",
+          "year": 2026,
+          "s2_paper_id": "748f306213762a49db6c0e61462dcc026d351e26",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.scienta.2026.114667",
+          "title": "Seasonal dynamics of soil microecology shaping ginseng quality: a case study of 4-year-old agricultural ginseng",
+          "year": 2026,
+          "s2_paper_id": "07dd614bbdae39e681c5c393602e56d09e15c32d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.64898/2026.01.30.702774",
+          "title": "Riboflavin Deficiency-Induced Angular Stomatitis and Conjunctivitis in Associated with Gut Microbiota Dysbiosis",
+          "year": 2026,
+          "s2_paper_id": "cbfcbb321867a79fa7802f7b8b673213f93b4922",
+          "intents": [],
+          "is_influential": true,
+          "contexts": [
+            "2.11) [16] ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1128/spectrum.01835-25",
+          "title": "Microbial assembly among plant parts of a tropical tree in different habitats and seasons",
+          "year": 2026,
+          "s2_paper_id": "3402eebe7e665d628300b82d5e31a2a161d7e254",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/s11104-025-08267-9",
+          "title": "Interactive effects of soil phosphorus and nitrogen availability on mycorrhiza-mediated nutrition in wheat",
+          "year": 2026,
+          "s2_paper_id": "304c1e909e6fa61e053ed9f11fbb31da6d5281c0",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1038/s41598-025-18830-0",
+          "title": "Comprehensive 16s rRNA sequencing and metabolomics to investigate the effect of anticancer bioactive peptides combined with oxaliplatin on gastric cancer",
+          "year": 2026,
+          "s2_paper_id": "ca1bb79b3720bb1327c66378e3b54af11d239260",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1128/msystems.00844-25",
+          "title": "2Pipe starts with a question: matching you with the correct pipeline for MAG reconstruction",
+          "year": 2026,
+          "s2_paper_id": "d0163bfcc62a1523cdbdd1d8caca64c262f0ea81",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1080/19490976.2026.2620128",
+          "title": "Akkermansia muciniphila's nifJ gene enhances colostrum sIgA synthesis by branched-chain amino acid degradation to branched short-chain fatty acids",
+          "year": 2026,
+          "s2_paper_id": "9c1053c652676576e1911d02f0ab9ee187f13697",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fpls.2025.1703258",
+          "title": "Altitude-mediated soil microbe-nutrient dynamics shape medicinal properties of Angelica sinensis",
+          "year": 2026,
+          "s2_paper_id": "098bed0888b2d3d29f9d3c40d973f7b55c89f4fa",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fmicb.2025.1617468",
+          "title": "Camptothecin-PHA nanoparticles attenuate drug-induced gut microbiome dysbiosis and metabolic toxicity",
+          "year": 2026,
+          "s2_paper_id": "fec33c0ab22a6d7b8f5aa1196a2cfd587d431228",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/ani16030407",
+          "title": "Gut Microbiota Response in Meagre (Argyrosomus regius) Subjected to a Plant-Based Nutritional Challenge",
+          "year": 2026,
+          "s2_paper_id": "2e954ad00fa03cb46764505fbf420ef7ffadcdac",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.64898/2026.01.28.702283",
+          "title": "Biosynthetic gene clusters everywhere, but the environment selects",
+          "year": 2026,
+          "s2_paper_id": "d9f4d22fcb1ea056f42626accefe3d4bf7d4b6c0",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Within the RiPP category, the most abundant subtypes were RiPP-like clusters (531), RRE-containing clusters (333), ranthipeptides (194), lassopeptides (87), redox cofactors (52), linear azol(in)e-containing peptides (LAP; 39), thioamitides (30), and class IV lanthipeptides (73)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/fishes11020077",
+          "title": "Correlation Analysis of Gut Microbiota of Fish in Yi\u2019an Reservoir with Water Quality Parameters and Aquatic Environment Microbiota",
+          "year": 2026,
+          "s2_paper_id": "c8a86f439f1b5cbd465d5fe9e828743638b20fbb",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1021/acssynbio.5c00765",
+          "title": "AI-Guided Design and Predictive Modeling of Synthetic Escherichia coli Promoters through Comprehensive -10/-35 Box Engineering.",
+          "year": 2026,
+          "s2_paper_id": "65027ea23e5341889a7c724945ad916017dde2c5",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fbioe.2026.1732779",
+          "title": "Microbe-enzyme synergistic fermentation enhances tobacco stem cell wall degradation by modulating enzymatic activity and microbial community structure",
+          "year": 2026,
+          "s2_paper_id": "8d6c9a32222de8a5f07e520a139221ac720bc55e",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/frmbi.2025.1707779",
+          "title": "Community assembly following disturbance in batch anaerobic digesters displays highly reproducible secondary succession and a shifting stochastic-deterministic balance",
+          "year": 2026,
+          "s2_paper_id": "411958a80f803c42c2696f1fcdba50f093de80ab",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fmicb.2025.1725706",
+          "title": "Comparative analysis of cecal microbiota and metabolites in relation to growth performance of Tibetan and Hu sheep",
+          "year": 2026,
+          "s2_paper_id": "d5f6ce6c1d9ee4207deb7a670c1796b40ec81f79",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/w18030307",
+          "title": "Preliminary Study of Potential Hydrocarbon-Degrading Bacteria Identified by 16S rRNA Sequencing in Haina Port Water Samples, Dominican Republic",
+          "year": 2026,
+          "s2_paper_id": "6fe0ef24a848a9a324cc5f8da7f8927228605b57",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/foods15030429",
+          "title": "Probiotics Lactobacillus acidophilus LA4 and Lacticaseibacillus paracasei F5 Alleviate Cognitive Dysfunction in Alzheimer\u2019s Disease Models: A Dual-Screening Study in Drosophila and Mice",
+          "year": 2026,
+          "s2_paper_id": "f3da47c2ada253df634bb3e67fa6e4b6b704de94",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1007/s11802-026-6204-0",
+          "title": "Live Feed Drives the Succession of Bacterioplankton Community During Larval Breeding of Chinese Mitten Crab (Eriocheir sinensis) in Open Earthen Ponds",
+          "year": 2026,
+          "s2_paper_id": "332ca5fe048baf634a0062ea2943701a8277fad1",
+          "intents": [],
+          "is_influential": true,
+          "contexts": [
+            "2.11; Mago\u010d and Salzberg, 2011)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.64898/2026.01.21.700897",
+          "title": "Systematic functional dissection of germline noncoding risk variants impacting clonal hematopoiesis",
+          "year": 2026,
+          "s2_paper_id": "103a0a6127003db01ce70e503d0d9d03c9b83f1d",
+          "intents": [],
+          "is_influential": true,
+          "contexts": [
+            "Briefly, oligo-barcode pairs were identified by merging paired-end reads from the lenti transfer plasmid into single amplicons using Flash2 (2.2.00) 46 ."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1016/j.marpolbul.2026.119321",
+          "title": "Implications of aquaculture-derived organic matter enrichment for sustainable mariculture density management in coastal waters.",
+          "year": 2026,
+          "s2_paper_id": "c1630de3953a73a76973d2720684c0432f0a0280",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1371/journal.pone.0340664",
+          "title": "Intestinal decontamination with rifaximin attenuates LSEC dysfunction and liver fibrosis in mice",
+          "year": 2026,
+          "s2_paper_id": "68ea3c252f4992cec66f710b958fbdbd9d6db318",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/d18020061",
+          "title": "Formation of Rhizospheric Microbial Consortia Under Combined Phytoremediation and Bacterial Introduction in Oil-Polluted Environments",
+          "year": 2026,
+          "s2_paper_id": "b7f472c08cf5f6677c12b109a8c7fe54072f2837",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/fermentation12020067",
+          "title": "Insights into the Influence of Workshop Spatial Heterogeneity on the Quality and Flavor of Strong-Flavor Daqu from a Microbial Community Perspective",
+          "year": 2026,
+          "s2_paper_id": "f2b4fe02733dabc6bb84b4cd3a7ab5daac04beac",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "High-quality reads were then merged according to overlapping regions, and only successfully merged, non-chimeric sequences were retained for downstream analyses [22]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1186/s12876-025-04362-4",
+          "title": "Influences of transcutaneous neuromodulation on fecal microbiota and short chain fatty acids in patients with functional constipation",
+          "year": 2026,
+          "s2_paper_id": "8346003a53b4d9989f715bc9ca53d17888127590",
+          "intents": [],
+          "is_influential": true,
+          "contexts": [
+            "2.7) [17]."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fmicb.2026.1753173",
+          "title": "Effects of Saccharomyces cerevisiae-lactic acid bacteria cocultured maize silage on dairy cows performance and in vitro rumen fermentation",
+          "year": 2026,
+          "s2_paper_id": "a9a65db230519f99b494bd26dbb4d811163a7d9d",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "PCR amplification of the 16S rRNA gene was conducted according to the protocol described by Mago\u010d and Salzberg (2011)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fnins.2026.1702092",
+          "title": "Altered gut fungal microbiota and associated mycotoxins in juvenile rat offspring induced by maternal immune activation with Poly I:C",
+          "year": 2026,
+          "s2_paper_id": "b92164be5801ce0deb5ad6a70a86ae3b8aabcb09",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fpls.2025.1668095",
+          "title": "Micro-nano aeration oxygenation and column P gradient variations enhance the soil microbial environment, thereby increasing corn yield",
+          "year": 2026,
+          "s2_paper_id": "c27dfc180aa5860746617969222c45eb68ab5867",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1128/spectrum.02843-25",
+          "title": "Integrated metabolome and microbiome analysis deciphers the effects of resveratrol and \u03b2-hydroxy-\u03b2-methylbutyric acid on jejunal function under different protein levels in Tibetan sheep",
+          "year": 2026,
+          "s2_paper_id": "a11072048cb85720a7bc6f2def4542ce88f61854",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/horticulturae12010119",
+          "title": "Effects of Biochar on Soil Nutrients and Microorganisms in Litchi Seedling Cultivation",
+          "year": 2026,
+          "s2_paper_id": "b81585917da5fa39b6e1ef4754da73d68db61b0e",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1080/19490976.2026.2617691",
+          "title": "Phascolarctobacterium faecium reduces food intake via PYY signaling, contributing to the mitigation of body weight gain in diet-induced obese mice",
+          "year": 2026,
+          "s2_paper_id": "5b57bf3be345b2ee042d0ba0159964202e0572da",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fmicb.2026.1742444",
+          "title": "Integrative genomic and functional characterization of a feline milk\u2013derived Lactiplantibacillus plantarum MNN reveals host-specific adaptation and ecological safety",
+          "year": 2026,
+          "s2_paper_id": "120feeeb5794d3b298e9272c1dfcf360a006a763",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [
+            "Metagenomic functions were predicted with PICRUSt2, which placed representative sequences into a reference tree using EPA-NG and Gappa, normalized copy numbers with Castor, and predicted gene pathways via MinPath, following the recommended workflow (Mago\u010d and Salzberg, 2011)."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3390/w18020268",
+          "title": "Water Quality and Sediment Microbial Community Differences Between Sea Urchin Monoculture and Sea Urchin\u2013Shrimp IMTA Systems",
+          "year": 2026,
+          "s2_paper_id": "91996080218891c53c9f42e72f9784eb15041178",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1038/s41467-026-68527-9",
+          "title": "Atmospheric deposition enhances marine methane production and emissions from global oceans.",
+          "year": 2026,
+          "s2_paper_id": "e4da013efd6d310bf5a2c1fb77553bb9ea4adfa8",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fmicb.2025.1734633",
+          "title": "Endophyte-mediated chromium detoxification in Sorghum sudanense: plant growth promotion and soil microbial enrichment",
+          "year": 2026,
+          "s2_paper_id": "2920c2108f33cf7327dd73f622cf8f1f4e3ee5ea",
+          "intents": [],
+          "is_influential": true,
+          "contexts": [
+            "\u202616S rRNA gene sequencing reads were demultiplexed, quality-filtered by fastp version 0.20.0 (Chen et al., 2018), and merged by FLASH version 1.2.7 (Mago\u010d and Salzberg, 2011) with the following criteria: (i) the 300 bp reads were truncated at any site receiving an average quality score of < 20\u2026"
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fcimb.2025.1639811",
+          "title": "A potential association between the characteristics of the multi-organ microbiota and lymph node metastasis in cervical cancer",
+          "year": 2026,
+          "s2_paper_id": "0da85df5ffc1bd313cca1bef7b151b97f8c41106",
+          "intents": [],
+          "is_influential": true,
+          "contexts": [
+            "Pared end clean reads were merged as raw tags using FLASH (Magoc \u030c and Salzberg, 2011) (version 1.2.11) with a minimum overlap of 10 bp and mismatch error rates of 2%."
+          ],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fmicb.2025.1756253",
+          "title": "Synergistic remediation of Cd/Pb contamination in paddy soils using iron-based sulfur-rich material combined with foliar Zn fertilizer",
+          "year": 2026,
+          "s2_paper_id": "7c7e4e1bec2c5202b710d77c7941a0793296dda2",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.1038/s41467-026-68508-y",
+          "title": "Simultaneous sulfide oxidation and sulfate reduction for intracellular redox homeostasis under highly acidic conditions.",
+          "year": 2026,
+          "s2_paper_id": "b6350aed1ec3dab45ddf1c112558a130f9655c44",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        },
+        {
+          "doi": "10.3389/fmars.2025.1690596",
+          "title": "Assessing benthic community structure and diversity in the Western Pacific polymetallic nodule area: insights from multi-primer eDNA metabarcoding",
+          "year": 2026,
+          "s2_paper_id": "02d05a4721408c81a0f2719331375aa71280f732",
+          "intents": [],
+          "is_influential": false,
+          "contexts": [],
+          "source": "semantic_scholar"
+        }
+      ],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/27/21/2957/48863763/bioinformatics_27_21_2957.pdf",
+          "host_type": "BRONZE",
+          "is_best": false,
+          "source": "semantic_scholar"
+        }
+      ],
+      "best_oa_url": "https://academic.oup.com/bioinformatics/article-pdf/27/21/2957/48863763/bioinformatics_27_21_2957.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Biology",
+          "scheme": "s2_external",
+          "source": "semantic_scholar"
+        },
+        {
+          "value": "Computer Science",
+          "scheme": "s2_external",
+          "source": "semantic_scholar"
+        },
+        {
+          "value": "Medicine",
+          "scheme": "s2_external",
+          "source": "semantic_scholar"
+        },
+        {
+          "value": "Computer Science",
+          "scheme": "s2_s2-fos-model",
+          "source": "semantic_scholar"
+        },
+        {
+          "value": "Biology",
+          "scheme": "s2_s2-fos-model",
+          "source": "semantic_scholar"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "influential_citation_count",
+          "value": 2002.0,
+          "source": "semantic_scholar"
+        }
+      ],
+      "tldr": "FLASH is a fast computational tool to extend the length of short reads by overlapping paired-end reads from fragment libraries that are sufficiently short and when FLASH was used to extend reads prior to assembly, the resulting assemblies had substantially greater N50 lengths for both contigs and scaffolds.",
+      "citation_styles": {
+        "bibtex": "@Article{Magoc2011FLASHFL,\n author = {Tanja Magoc and Steven Salzberg},\n booktitle = {Bioinform.},\n journal = {Bioinformatics},\n pages = {\n          2957-63\n        },\n title = {FLASH: fast length adjustment of short reads to improve genome assemblies},\n volume = {27 21},\n year = {2011}\n}\n"
+      },
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "FLASH: fast length adjustment of short reads to improve genome assemblies",
+      "publication_date": "2011-09-07",
+      "publication_year": 2011,
+      "work_type": "journal-article",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "Bioinformatics",
+      "issn": [
+        "1367-4803",
+        "1367-4811"
+      ],
+      "doi": "10.1093/bioinformatics/btr507",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_locations": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/27/21/2957/48863763/bioinformatics_27_21_2957.pdf",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/27/21/2957/48863763/bioinformatics_27_21_2957.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btr507",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/27/21/2957/48863763/bioinformatics_27_21_2957.pdf",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/27/21/2957/48863763/bioinformatics_27_21_2957.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btr507",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3198573",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3198573",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://academic.oup.com/bioinformatics/article-pdf/27/21/2957/48863763/bioinformatics_27_21_2957.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "FLASH: fast length adjustment of short reads to improve genome assemblies.",
+      "abstract": "<h4>Motivation</h4>Next-generation sequencing technologies generate very large numbers of short reads. Even with very deep genome coverage, short read lengths cause problems in de novo assemblies. The use of paired-end libraries with a fragment size shorter than twice the read length provides an opportunity to generate much longer reads by overlapping and merging read pairs before assembling a genome.<h4>Results</h4>We present FLASH, a fast computational tool to extend the length of short reads by overlapping paired-end reads from fragment libraries that are sufficiently short. We tested the correctness of the tool on one million simulated read pairs, and we then applied it as a pre-processor for genome assemblies of Illumina reads from the bacterium Staphylococcus aureus and human chromosome 14. FLASH correctly extended and merged reads >99% of the time on simulated reads with an error rate of <1%. With adequately set parameters, FLASH correctly merged reads over 90% of the time even when the reads contained up to 5% errors. When FLASH was used to extend reads prior to assembly, the resulting assemblies had substantially greater N50 lengths for both contigs and scaffolds.<h4>Availability and implementation</h4>The FLASH system is implemented in C and is freely available as open-source code at http://www.cbcb.umd.edu/software/flash.<h4>Contact</h4>t.magoc@gmail.com.",
+      "publication_year": 2011,
+      "language": "eng",
+      "container_title": "Bioinformatics (Oxford, England)",
+      "volume": "27",
+      "issue": "21",
+      "pages": "2957-2963",
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btr507",
+      "pmid": "21903629",
+      "pmcid": "PMC3198573",
+      "authors": [
+        {
+          "name": {
+            "given": "Tanja",
+            "family": "Mago\u010d",
+            "full_name": "Mago\u010d T",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "McKusick-Nathans Institute of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA. t.magoc@gmail.com",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Steven L",
+            "family": "Salzberg",
+            "full_name": "Salzberg SL",
+            "orcid": "0000-0002-8859-7432",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 9293,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": false,
+      "oa_locations": [],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "R01 HG006102",
+          "agency": "NHGRI NIH HHS",
+          "agency_abbreviation": "HG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "R01 GM083873",
+          "agency": "NIGMS NIH HHS",
+          "agency_abbreviation": "GM",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "R01 LM006845",
+          "agency": "NLM NIH HHS",
+          "agency_abbreviation": "LM",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "R01 HG006677",
+          "agency": "NHGRI NIH HHS",
+          "agency_abbreviation": "HG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "R01-GM083873",
+          "agency": "NIGMS NIH HHS",
+          "agency_abbreviation": "GM",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "R01-LM006845",
+          "agency": "NLM NIH HHS",
+          "agency_abbreviation": "LM",
+          "pi_names": [],
+          "source": "europe_pmc"
+        }
+      ],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Chromosomes, Human, Pair 14",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Humans",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Staphylococcus aureus",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Staphylococcus aureus",
+          "qualifier_name": "genetics",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, DNA",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Genomics",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Genomics",
+          "qualifier_name": "methods",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Genome",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Software",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 9293.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [
+        "gen"
+      ],
+      "corrections": [],
+      "full_text_urls": [
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btr507",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC3198573",
+          "availability": "Free",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC3198573?pdf=render",
+          "availability": "Free",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btr507",
+          "availability": "Free",
+          "document_style": "doi",
+          "site": "DOI"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btr507",
+      "pmid": "19683066",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btr507",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btr507",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btr507",
+      "authors": [
+        {
+          "name": {
+            "given": "Steven",
+            "family": "Salzberg",
+            "full_name": "Steven L. Salzberg",
+            "orcid": "0000-0002-8859-7432",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0002-8859-7432",
+          "given_names": "Steven",
+          "family_names": "Salzberg",
+          "credit_name": "Steven L. Salzberg",
+          "other_names": [],
+          "institutions": [
+            "American Academy of Arts and Sciences",
+            "American Association For The Advancement of Science",
+            "American Institute for Medical and Biological Engineering",
+            "Association for Computing Machinery",
+            "Faculty Opinions",
+            "Harvard University",
+            "International Society for Computational Biology",
+            "Johns Hopkins Medicine",
+            "Johns Hopkins University",
+            "The Institute for Genomic Research",
+            "University of Maryland at College Park",
+            "Yale University"
+          ],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": true,
+      "raw": {},
+      "title": "FLASH: fast length adjustment of short reads to improve genome assemblies.",
+      "abstract": "MOTIVATION: Next-generation sequencing technologies generate very large numbers of short reads. Even with very deep genome coverage, short read lengths cause problems in de novo assemblies. The use of paired-end libraries with a fragment size shorter than twice the read length provides an opportunity to generate much longer reads by overlapping and merging read pairs before assembling a genome.\nRESULTS: We present FLASH, a fast computational tool to extend the length of short reads by overlapping paired-end reads from fragment libraries that are sufficiently short. We tested the correctness of the tool on one million simulated read pairs, and we then applied it as a pre-processor for genome assemblies of Illumina reads from the bacterium Staphylococcus aureus and human chromosome 14. FLASH correctly extended and merged reads >99% of the time on simulated reads with an error rate of <1%. With adequately set parameters, FLASH correctly merged reads over 90% of the time even when the reads contained up to 5% errors. When FLASH was used to extend reads prior to assembly, the resulting assemblies had substantially greater N50 lengths for both contigs and scaffolds.\nAVAILABILITY AND IMPLEMENTATION: The FLASH system is implemented in C and is freely available as open-source code at http://www.cbcb.umd.edu/software/flash.\nCONTACT: t.magoc@gmail.com.",
+      "publication_date": "2011-Nov-01",
+      "publication_year": 2011,
+      "work_type": "journal-article",
+      "language": "eng",
+      "container_title": "Bioinformatics (Oxford, England)",
+      "volume": "27",
+      "issue": "21",
+      "pages": "2957-63",
+      "issn": [
+        "1367-4811",
+        "1367-4803"
+      ],
+      "doi": "10.1093/bioinformatics/btr507",
+      "pmid": "21903629",
+      "pmcid": "PMC3198573",
+      "authors": [
+        {
+          "name": {
+            "given": "Tanja",
+            "family": "Mago\u010d",
+            "full_name": "Tanja Mago\u010d",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "McKusick-Nathans Institute of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA. t.magoc@gmail.com",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Steven L",
+            "family": "Salzberg",
+            "full_name": "Steven L Salzberg",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [],
+          "sources": [
+            "entrez"
+          ]
+        }
+      ],
+      "reference_count": 9,
+      "references": [
+        {
+          "pmid": "21187386",
+          "unstructured": "Gnerre S, et al. High-quality draft assemblies of mammalian genomes from massively parallel sequence data. Proc. Natl Acad. Sci. USA. 2011;108:1513\u20131518.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "21114842",
+          "unstructured": "Kelley DR, et al. Quake: quality-aware detection and correction of sequencing errors. Genome Biol. 2010;11:R116.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "14759262",
+          "unstructured": "Kurtz S, et al. Versatile and open software for comparing large genomes. Genome Biol. 2004;5:R12.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "19261174",
+          "unstructured": "Langmead B, et al. Ultrafast and memory efficient alignment of short DNA sequences to the human genome. Genome Biol. 2009;10:R25.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "19505943",
+          "unstructured": "Li H, 1000 Genome Project Data Processing Subgroup The sequence alignment/map (SAM) format and SAMtools. Bioinformatics. 2009;25:2078\u20132079.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "20019144",
+          "unstructured": "Li R, et al. De novo assembly of human genomes with massively parallel short read sequencing. Genome Res. 2010;20:265\u2013272.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "19796385",
+          "unstructured": "MacCallum I, et al. ALLPATHS2: small genomes assembled accurately and with high continuity from short paired reads. Genome Biol. 2009;10:R103.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "18952627",
+          "unstructured": "Miller JR, et al. Aggressive assembly of pyrosequencing reads with mates. Bioinformatics. 2008;24:2818\u20132824.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "20676378",
+          "unstructured": "Rodrigue S, et al. Unlocking short read sequencing for metagenomics. PloS One. 2010;5:e11840.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "R01 HG006677",
+          "agency": "NHGRI NIH HHS",
+          "agency_abbreviation": "HG",
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "source": "entrez"
+        },
+        {
+          "grant_id": "R01 GM083873",
+          "agency": "NIGMS NIH HHS",
+          "agency_abbreviation": "GM",
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "source": "entrez"
+        },
+        {
+          "grant_id": "R01-LM006845",
+          "agency": "NLM NIH HHS",
+          "agency_abbreviation": "LM",
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "source": "entrez"
+        },
+        {
+          "grant_id": "R01 HG006102",
+          "agency": "NHGRI NIH HHS",
+          "agency_abbreviation": "HG",
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "source": "entrez"
+        },
+        {
+          "grant_id": "R01-GM083873",
+          "agency": "NIGMS NIH HHS",
+          "agency_abbreviation": "GM",
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "source": "entrez"
+        },
+        {
+          "grant_id": "R01 LM006845",
+          "agency": "NLM NIH HHS",
+          "agency_abbreviation": "LM",
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "source": "entrez"
+        }
+      ],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Chromosomes, Human, Pair 14",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Genome",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Genomics",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Humans",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Sequence Analysis, DNA",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Software",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Staphylococcus aureus",
+          "scheme": "MeSH",
+          "source": "entrez"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Chromosomes, Human, Pair 14",
+          "descriptor_ui": "D002883",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Genome",
+          "descriptor_ui": "D016678",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Genomics",
+          "descriptor_ui": "D023281",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Genomics",
+          "descriptor_ui": "D023281",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, DNA",
+          "descriptor_ui": "D017422",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Staphylococcus aureus",
+          "descriptor_ui": "D013211",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Staphylococcus aureus",
+          "descriptor_ui": "D013211",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "entrez"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [
+        "Evaluation Study",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {
+        "entrez": "2011-09-10",
+        "pubmed": "2011-09-10",
+        "medline": "2012-03-14",
+        "pmc-release": "2012-11-01"
+      },
+      "structured_abstract": {
+        "MOTIVATION": "Next-generation sequencing technologies generate very large numbers of short reads. Even with very deep genome coverage, short read lengths cause problems in de novo assemblies. The use of paired-end libraries with a fragment size shorter than twice the read length provides an opportunity to generate much longer reads by overlapping and merging read pairs before assembling a genome.",
+        "RESULTS": "We present FLASH, a fast computational tool to extend the length of short reads by overlapping paired-end reads from fragment libraries that are sufficiently short. We tested the correctness of the tool on one million simulated read pairs, and we then applied it as a pre-processor for genome assemblies of Illumina reads from the bacterium Staphylococcus aureus and human chromosome 14. FLASH correctly extended and merged reads >99% of the time on simulated reads with an error rate of <1%. With adequately set parameters, FLASH correctly merged reads over 90% of the time even when the reads contained up to 5% errors. When FLASH was used to extend reads prior to assembly, the resulting assemblies had substantially greater N50 lengths for both contigs and scaffolds.",
+        "AVAILABILITY AND IMPLEMENTATION": "The FLASH system is implemented in C and is freely available as open-source code at http://www.cbcb.umd.edu/software/flash.",
+        "CONTACT": "t.magoc@gmail.com."
+      },
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "publication_status": "ppublish",
+      "country_of_publication": "England",
+      "nlm_journal_id": "9808944",
+      "medline_ta": "Bioinformatics",
+      "citation_subsets": [
+        "IM"
+      ],
+      "pii": "btr507",
+      "electronic_publication_date": "2011-09-07",
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc_annotations": {
+      "source": "europe_pmc_annotations",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btr507",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [
+        {
+          "annotation_type": "Sequence",
+          "exact_text": "reads",
+          "prefix": "adjustment of short ",
+          "postfix": " to improve genome a",
+          "section": "Title (http://purl.org/dc/elements/1.1/title)",
+          "tags": [
+            {
+              "name": "EST",
+              "uri": "http://purl.obolibrary.org/obo/SO_0000345"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Sequence",
+          "exact_text": "genome",
+          "prefix": "rt reads to improve ",
+          "postfix": " assemblies.\nNext-ge",
+          "section": "Title (http://purl.org/dc/elements/1.1/title)",
+          "tags": [
+            {
+              "name": "genome",
+              "uri": "http://purl.obolibrary.org/obo/SO_0001026"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Sequence",
+          "exact_text": "genome",
+          "prefix": "Even with very deep ",
+          "postfix": " coverage, short rea",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "genome",
+              "uri": "http://purl.obolibrary.org/obo/SO_0001026"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Sequence",
+          "exact_text": "genome",
+          "prefix": "before assembling a ",
+          "postfix": ".\nWe present FLASH, ",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "genome",
+              "uri": "http://purl.obolibrary.org/obo/SO_0001026"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Sequence",
+          "exact_text": "genome",
+          "prefix": "a pre-processor for ",
+          "postfix": " assemblies of Illum",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "genome",
+              "uri": "http://purl.obolibrary.org/obo/SO_0001026"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Sequence",
+          "exact_text": "contigs",
+          "prefix": "50 lengths for both ",
+          "postfix": " and scaffolds.\nThe ",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "contig",
+              "uri": "http://purl.obolibrary.org/obo/SO_0000149"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Cell Line",
+          "exact_text": "com",
+          "prefix": "lash.\nt.magoc@gmail.",
+          "postfix": ".\n",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "CoMS",
+              "uri": "http://web.expasy.org/cellosaurus/CVCL_L345"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Organisms",
+          "exact_text": "bacterium",
+          "prefix": "reads from the",
+          "postfix": "Staphylococcus aureus and",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "candidatus gribaldobacteria bacterium",
+              "uri": "http://identifiers.org/taxonomy/2798521"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Organisms",
+          "exact_text": "Staphylococcus aureus",
+          "prefix": "from the bacterium",
+          "postfix": "aureus and human",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "staphylococcus aureus subsp. aureus str. mw2",
+              "uri": "http://identifiers.org/taxonomy/196620"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Organisms",
+          "exact_text": "human",
+          "prefix": "Staphylococcus aureus and",
+          "postfix": "chromosome 14.",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "human",
+              "uri": "http://identifiers.org/taxonomy/9606"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Gene Ontology",
+          "exact_text": "chromosome",
+          "prefix": "aureus and human",
+          "postfix": "14.",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "chromosome",
+              "uri": "http://identifiers.org/GO:0005694"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Organisms",
+          "exact_text": "Staphylococcus aureus",
+          "tags": [
+            {
+              "name": "staphylococcus aureus subsp. aureus str. mw2",
+              "uri": "http://identifiers.org/taxonomy/196620"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Organisms",
+          "exact_text": "human",
+          "tags": [
+            {
+              "name": "human",
+              "uri": "http://identifiers.org/taxonomy/9606"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Gene Ontology",
+          "exact_text": "chromosome",
+          "tags": [
+            {
+              "name": "chromosome",
+              "uri": "http://identifiers.org/GO:0005694"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Organisms",
+          "exact_text": "S.aureus",
+          "tags": [
+            {
+              "name": "staphylococcus aureus subsp. aureus str. mw2",
+              "uri": "http://identifiers.org/taxonomy/196620"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Organisms",
+          "exact_text": "bacterium",
+          "tags": [
+            {
+              "name": "candidatus gribaldobacteria bacterium",
+              "uri": "http://identifiers.org/taxonomy/2798521"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Experimental Methods",
+          "exact_text": "RNA-seq",
+          "tags": [
+            {
+              "name": "rnaseq",
+              "uri": "http://www.ebi.ac.uk/efo/EFO_0008896"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Accession Numbers",
+          "exact_text": "SRX007714",
+          "tags": [
+            {
+              "name": "SRX007714",
+              "uri": "http://identifiers.org/ebi/ena.embl:SRX007714"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Accession Numbers",
+          "exact_text": "SRA024407",
+          "tags": [
+            {
+              "name": "SRA024407",
+              "uri": "http://identifiers.org/ebi/ena.embl:SRA024407"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        }
+      ],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1093/bioinformatics/btr507",
+    "pmid": "21903629",
+    "pmcid": "PMC3198573",
+    "openalex_id": "https://openalex.org/W2157107905",
+    "s2_paper_id": "e45b0c2ba189f2bf75b6de718a2507645f4ec1a3",
+    "s2_corpus_id": "268120060",
+    "pii": "btr507",
+    "nlm_unique_id": "9808944",
+    "handles": [],
+    "orcids": [
+      "0000-0002-8859-7432"
+    ],
+    "ror_ids": [
+      "https://ror.org/00za53h95",
+      "https://ror.org/037zgn354"
+    ],
+    "grant_ids": [
+      "R01 GM083873",
+      "R01 HG006102",
+      "R01 HG006677",
+      "R01 LM006845",
+      "R01-GM083873",
+      "R01-LM006845"
+    ],
+    "nct_ids": [],
+    "pmid_source": "entrez",
+    "pmcid_source": "entrez"
+  },
+  "conflicts": {
+    "doi": "10.1093/bioinformatics/btr507",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 13177,
+          "openalex": 15068,
+          "semantic_scholar": 13020,
+          "europe_pmc": 9293
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 9,
+          "openalex": 10,
+          "semantic_scholar": 13,
+          "entrez": 9
+        },
+        "risk": "low"
+      },
+      {
+        "field": "is_oa",
+        "values": {
+          "openalex": true,
+          "semantic_scholar": true,
+          "unpaywall": true,
+          "europe_pmc": false
+        },
+        "risk": "medium"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "semantic_scholar": "JournalArticle",
+          "unpaywall": "journal-article",
+          "entrez": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 2,
+          "openalex": 2,
+          "semantic_scholar": 2,
+          "unpaywall": 2,
+          "europe_pmc": 2,
+          "orcid": 1,
+          "entrez": 2
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Oxford University Press (OUP)",
+          "openalex": "https://openalex.org/P4310311648",
+          "unpaywall": "Oxford University Press (OUP)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Bioinformatics",
+          "openalex": "Bioinformatics",
+          "semantic_scholar": "Bioinformatics",
+          "unpaywall": "Bioinformatics",
+          "europe_pmc": "Bioinformatics (Oxford, England)",
+          "entrez": "Bioinformatics (Oxford, England)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "mesh_term_count",
+        "values": {
+          "openalex": 28,
+          "europe_pmc": 9,
+          "entrez": 9
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng",
+          "entrez": "eng"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 1,
+    "conflict_count": 9
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {
+      "doi": "10.1093/bioinformatics/btr507",
+      "citation_comparison": {
+        "values": {
+          "crossref": 13177,
+          "openalex": 15068,
+          "semantic_scholar": 13020,
+          "europe_pmc": 9293
+        },
+        "min": 9293,
+        "max": 15068,
+        "spread": 5775,
+        "median": 13177
+      },
+      "fwci": 18.0292885,
+      "citation_percentile": 0.99560194,
+      "influential_citation_count": 2002,
+      "influential_ratio": 0.154,
+      "citation_trend": [
+        {
+          "year": 2012,
+          "count": 9
+        },
+        {
+          "year": 2013,
+          "count": 35
+        },
+        {
+          "year": 2014,
+          "count": 84
+        },
+        {
+          "year": 2015,
+          "count": 236
+        },
+        {
+          "year": 2016,
+          "count": 458
+        },
+        {
+          "year": 2017,
+          "count": 700
+        },
+        {
+          "year": 2018,
+          "count": 1032
+        },
+        {
+          "year": 2019,
+          "count": 1233
+        },
+        {
+          "year": 2020,
+          "count": 1698
+        },
+        {
+          "year": 2021,
+          "count": 1952
+        },
+        {
+          "year": 2022,
+          "count": 2176
+        },
+        {
+          "year": 2023,
+          "count": 1823
+        },
+        {
+          "year": 2024,
+          "count": 1871
+        },
+        {
+          "year": 2025,
+          "count": 1577
+        },
+        {
+          "year": 2026,
+          "count": 173
+        }
+      ],
+      "trend_direction": "declining",
+      "dataset_reuse_count": 0,
+      "narrative": "Cited ~13177 times across sources. (counts range 9293\u201315068, significant cross-source divergence). FWCI 18.0x field average. 15% of citations are influential (S2), well above typical ~2%. Citation trend: declining."
+    },
+    "funding": {
+      "doi": "10.1093/bioinformatics/btr507",
+      "total_funders": 3,
+      "total_grants": 6,
+      "entries": [
+        {
+          "grant_id": "R01 HG006102",
+          "funder_name": "NHGRI NIH HHS",
+          "award_numbers": [],
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "sources": [
+            "europe_pmc",
+            "entrez"
+          ]
+        },
+        {
+          "grant_id": "R01 GM083873",
+          "funder_name": "NIGMS NIH HHS",
+          "award_numbers": [],
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "sources": [
+            "europe_pmc",
+            "entrez"
+          ]
+        },
+        {
+          "grant_id": "R01 LM006845",
+          "funder_name": "NLM NIH HHS",
+          "award_numbers": [],
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "sources": [
+            "europe_pmc",
+            "entrez"
+          ]
+        },
+        {
+          "grant_id": "R01 HG006677",
+          "funder_name": "NHGRI NIH HHS",
+          "award_numbers": [],
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "sources": [
+            "europe_pmc",
+            "entrez"
+          ]
+        },
+        {
+          "grant_id": "R01-GM083873",
+          "funder_name": "NIGMS NIH HHS",
+          "award_numbers": [],
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "sources": [
+            "europe_pmc",
+            "entrez"
+          ]
+        },
+        {
+          "grant_id": "R01-LM006845",
+          "funder_name": "NLM NIH HHS",
+          "award_numbers": [],
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "sources": [
+            "europe_pmc",
+            "entrez"
+          ]
+        }
+      ],
+      "nih_grants": [
+        {
+          "grant_id": "R01 HG006102",
+          "funder_name": "NHGRI NIH HHS",
+          "award_numbers": [],
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "sources": [
+            "europe_pmc",
+            "entrez"
+          ]
+        },
+        {
+          "grant_id": "R01 GM083873",
+          "funder_name": "NIGMS NIH HHS",
+          "award_numbers": [],
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "sources": [
+            "europe_pmc",
+            "entrez"
+          ]
+        },
+        {
+          "grant_id": "R01 LM006845",
+          "funder_name": "NLM NIH HHS",
+          "award_numbers": [],
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "sources": [
+            "europe_pmc",
+            "entrez"
+          ]
+        },
+        {
+          "grant_id": "R01 HG006677",
+          "funder_name": "NHGRI NIH HHS",
+          "award_numbers": [],
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "sources": [
+            "europe_pmc",
+            "entrez"
+          ]
+        },
+        {
+          "grant_id": "R01-GM083873",
+          "funder_name": "NIGMS NIH HHS",
+          "award_numbers": [],
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "sources": [
+            "europe_pmc",
+            "entrez"
+          ]
+        },
+        {
+          "grant_id": "R01-LM006845",
+          "funder_name": "NLM NIH HHS",
+          "award_numbers": [],
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "sources": [
+            "europe_pmc",
+            "entrez"
+          ]
+        }
+      ],
+      "eu_grants": [],
+      "other_grants": [],
+      "funding_agencies": [
+        "NHGRI NIH HHS",
+        "NIGMS NIH HHS",
+        "NLM NIH HHS"
+      ],
+      "narrative": "Funded by 3 agencies across 6 grants. 6 NIH grants. 6 grants confirmed by multiple sources."
+    },
+    "dataset_reuse": {
+      "doi": "10.1093/bioinformatics/btr507",
+      "datacite_linked_datasets": [],
+      "datacite_linked_count": 0,
+      "publishers_breakdown": {},
+      "supplements_to": [],
+      "supplemented_by": [],
+      "cites": [],
+      "cited_by": [],
+      "derived_from": [],
+      "source_of": [],
+      "parts": [],
+      "other_relations": [],
+      "related_software": [],
+      "related_data": [],
+      "file_count": 0,
+      "file_types": [],
+      "narrative": "No dataset reuse information found."
+    },
+    "authors": {
+      "doi": "10.1093/bioinformatics/btr507",
+      "authors": [
+        {
+          "given": "Steven L",
+          "family": "Salzberg",
+          "full_name": "Steven L. Salzberg",
+          "orcid": "0000-0002-8859-7432",
+          "authenticated_orcid": false,
+          "openalex_author_id": "https://openalex.org/A5010384159",
+          "affiliations": [
+            {
+              "name": "Johns Hopkins Medicine",
+              "ror_id": "https://ror.org/037zgn354",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Johns Hopkins University",
+              "ror_id": "https://ror.org/00za53h95",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex",
+            "europe_pmc",
+            "orcid",
+            "entrez"
+          ],
+          "name_variants": [
+            "Salzberg SL",
+            "Steven L. Salzberg",
+            "Steven L Salzberg"
+          ]
+        },
+        {
+          "given": "Tanja",
+          "family": "Mago\u010d",
+          "full_name": "Tanja Mago\u010d",
+          "authenticated_orcid": false,
+          "sequence": "first",
+          "affiliations": [
+            {
+              "name": "McKusick-Nathans Institute of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA",
+              "source": "crossref"
+            },
+            {
+              "name": "McKusick-Nathans Institute of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA. t.magoc@gmail.com",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "McKusick-Nathans Institute of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA. t.magoc@gmail.com",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "crossref",
+            "europe_pmc",
+            "entrez"
+          ],
+          "name_variants": [
+            "Mago\u010d T",
+            "Tanja Mago\u010d"
+          ]
+        },
+        {
+          "given": "Steven L.",
+          "family": "Salzberg",
+          "full_name": "Steven L. Salzberg",
+          "authenticated_orcid": false,
+          "sequence": "additional",
+          "affiliations": [
+            {
+              "name": "McKusick-Nathans Institute of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Tanja Mago\u010d",
+          "authenticated_orcid": false,
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5065453594",
+          "affiliations": [
+            {
+              "name": "Johns Hopkins Medicine",
+              "ror_id": "https://ror.org/037zgn354",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Johns Hopkins University",
+              "ror_id": "https://ror.org/00za53h95",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Tanja Magoc",
+          "authenticated_orcid": false,
+          "s2_author_id": "2252087626",
+          "affiliations": [],
+          "sources": [
+            "semantic_scholar"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Steven Salzberg",
+          "authenticated_orcid": false,
+          "s2_author_id": "2286826439",
+          "affiliations": [],
+          "sources": [
+            "semantic_scholar"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        }
+      ],
+      "total_authors": 8,
+      "authors_with_orcid": 1,
+      "authors_with_authenticated_orcid": 0,
+      "unique_institutions": [
+        "Johns Hopkins Medicine",
+        "Johns Hopkins University",
+        "McKusick-Nathans Institute of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA",
+        "McKusick-Nathans Institute of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA. t.magoc@gmail.com"
+      ],
+      "unique_countries": [
+        "US"
+      ],
+      "orcid_coverage": 0.125,
+      "author_count_by_source": {
+        "crossref": 2,
+        "openalex": 2,
+        "semantic_scholar": 2,
+        "unpaywall": 2,
+        "europe_pmc": 2,
+        "orcid": 1,
+        "entrez": 2
+      },
+      "narrative": "8 unique authors across 7 sources. 1 have ORCID (12% coverage). 4 institutions. Spanning 1 countries (US). Author count varies: 1\u20132 across sources. 2 authors confirmed by multiple sources."
+    },
+    "grant_siblings": {
+      "doi": "10.1093/bioinformatics/btr507",
+      "grants_with_siblings": [
+        {
+          "grant_id": "R01 HG006102",
+          "agency": "NHGRI NIH HHS",
+          "pi_names": [],
+          "sibling_pmid_count": 0,
+          "sibling_pmids": [],
+          "sources": [
+            "europe_pmc",
+            "entrez"
+          ]
+        },
+        {
+          "grant_id": "R01 GM083873",
+          "agency": "NIGMS NIH HHS",
+          "pi_names": [],
+          "sibling_pmid_count": 0,
+          "sibling_pmids": [],
+          "sources": [
+            "europe_pmc",
+            "entrez"
+          ]
+        },
+        {
+          "grant_id": "R01 LM006845",
+          "agency": "NLM NIH HHS",
+          "pi_names": [],
+          "sibling_pmid_count": 0,
+          "sibling_pmids": [],
+          "sources": [
+            "europe_pmc",
+            "entrez"
+          ]
+        },
+        {
+          "grant_id": "R01 HG006677",
+          "agency": "NHGRI NIH HHS",
+          "pi_names": [],
+          "sibling_pmid_count": 0,
+          "sibling_pmids": [],
+          "sources": [
+            "europe_pmc",
+            "entrez"
+          ]
+        },
+        {
+          "grant_id": "R01-GM083873",
+          "agency": "NIGMS NIH HHS",
+          "pi_names": [],
+          "sibling_pmid_count": 0,
+          "sibling_pmids": [],
+          "sources": [
+            "europe_pmc",
+            "entrez"
+          ]
+        },
+        {
+          "grant_id": "R01-LM006845",
+          "agency": "NLM NIH HHS",
+          "pi_names": [],
+          "sibling_pmid_count": 0,
+          "sibling_pmids": [],
+          "sources": [
+            "europe_pmc",
+            "entrez"
+          ]
+        }
+      ],
+      "total_sibling_pmids": 0,
+      "unique_sibling_pmids": 0,
+      "most_prolific_count": 0,
+      "multi_grant_pmids": 0,
+      "narrative": "6 grants identified but no sibling publication data available. 6 grants confirmed by multiple sources."
+    },
+    "oa_audit": {
+      "doi": "10.1093/bioinformatics/btr507",
+      "source_claims": [
+        {
+          "source": "openalex",
+          "is_oa": true,
+          "oa_status": "bronze",
+          "best_url": "https://academic.oup.com/bioinformatics/article-pdf/27/21/2957/48863763/bioinformatics_27_21_2957.pdf",
+          "version": "publishedVersion",
+          "host_type": "journal"
+        },
+        {
+          "source": "semantic_scholar",
+          "is_oa": true,
+          "best_url": "https://academic.oup.com/bioinformatics/article-pdf/27/21/2957/48863763/bioinformatics_27_21_2957.pdf",
+          "host_type": "BRONZE"
+        },
+        {
+          "source": "unpaywall",
+          "is_oa": true,
+          "oa_status": "bronze",
+          "best_url": "https://academic.oup.com/bioinformatics/article-pdf/27/21/2957/48863763/bioinformatics_27_21_2957.pdf",
+          "version": "publishedVersion",
+          "host_type": "publisher",
+          "evidence": "deprecated"
+        },
+        {
+          "source": "europe_pmc",
+          "is_oa": false
+        }
+      ],
+      "consensus_is_oa": true,
+      "consensus_status": "bronze",
+      "status_agrees": true,
+      "all_locations": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/27/21/2957/48863763/bioinformatics_27_21_2957.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "sources": [
+            "crossref",
+            "semantic_scholar",
+            "unpaywall"
+          ]
+        },
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btr507",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/27/21/2957/48863763/bioinformatics_27_21_2957.pdf",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "repository": "https://openalex.org/P4310311648",
+          "is_best": true,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21903629",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "repository": "https://openalex.org/I1299303238",
+          "is_best": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "url": "http://bioinformatics.oxfordjournals.org/cgi/content/short/27/21/2957",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3198573",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "repository": "https://openalex.org/I1299303238",
+          "is_best": false,
+          "sources": [
+            "openalex",
+            "unpaywall"
+          ]
+        }
+      ],
+      "total_locations": 5,
+      "has_publisher_version": true,
+      "has_accepted_manuscript": false,
+      "has_repository_copy": true,
+      "licenses_found": [],
+      "status_conflict": false,
+      "conflicting_statuses": {},
+      "narrative": "Open Access (bronze). 5 unique OA locations found. Publisher version available. Repository copy available. 2 locations confirmed by multiple sources."
+    },
+    "topics": {
+      "doi": "10.1093/bioinformatics/btr507",
+      "fields_of_study": [
+        {
+          "value": "Genomics and Phylogenetic Studies",
+          "scheme": "openalex_topic",
+          "score": 0.9998000264167786,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Plant Pathogenic Bacteria Studies",
+          "scheme": "openalex_topic",
+          "score": 0.9932000041007996,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "RNA and protein synthesis mechanisms",
+          "scheme": "openalex_topic",
+          "score": 0.9890000224113464,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Biology",
+          "scheme": "s2_external",
+          "is_major": false,
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "value": "Computer Science",
+          "scheme": "s2_external",
+          "is_major": false,
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "value": "Medicine",
+          "scheme": "s2_external",
+          "is_major": false,
+          "sources": [
+            "semantic_scholar"
+          ]
+        },
+        {
+          "value": "Chromosomes, Human, Pair 14",
+          "scheme": "MeSH",
+          "is_major": false,
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "value": "Genome",
+          "scheme": "MeSH",
+          "is_major": false,
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "value": "Genomics",
+          "scheme": "MeSH",
+          "is_major": false,
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "value": "Humans",
+          "scheme": "MeSH",
+          "is_major": false,
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "value": "Sequence Analysis, DNA",
+          "scheme": "MeSH",
+          "is_major": false,
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "value": "Software",
+          "scheme": "MeSH",
+          "is_major": false,
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "value": "Staphylococcus aureus",
+          "scheme": "MeSH",
+          "is_major": false,
+          "sources": [
+            "entrez"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "value": "Computer science",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Contig",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Flash (photography)",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Genome",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Software",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Sequence assembly",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "k-mer",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Hybrid genome assembly",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Correctness",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Computational biology",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Algorithm",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Biology",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Genetics",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Operating system",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor": "Chromosomes, Human, Pair 14",
+          "descriptor_ui": "D002883",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Chromosomes, Human, Pair 14",
+          "descriptor_ui": "D002883",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Chromosomes, Human, Pair 14",
+          "descriptor_ui": "D002883",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Chromosomes, Human, Pair 14",
+          "descriptor_ui": "D002883",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Staphylococcus aureus",
+          "descriptor_ui": "D013211",
+          "qualifier": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Staphylococcus aureus",
+          "descriptor_ui": "D013211",
+          "qualifier": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Staphylococcus aureus",
+          "descriptor_ui": "D013211",
+          "qualifier": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Staphylococcus aureus",
+          "descriptor_ui": "D013211",
+          "qualifier": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Genome",
+          "descriptor_ui": "D016678",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Genome",
+          "descriptor_ui": "D016678",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Genome",
+          "descriptor_ui": "D016678",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Genome",
+          "descriptor_ui": "D016678",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Sequence Analysis, DNA",
+          "descriptor_ui": "D017422",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Sequence Analysis, DNA",
+          "descriptor_ui": "D017422",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Sequence Analysis, DNA",
+          "descriptor_ui": "D017422",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Sequence Analysis, DNA",
+          "descriptor_ui": "D017422",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Genomics",
+          "descriptor_ui": "D023281",
+          "qualifier": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Genomics",
+          "descriptor_ui": "D023281",
+          "qualifier": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Genomics",
+          "descriptor_ui": "D023281",
+          "qualifier": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Genomics",
+          "descriptor_ui": "D023281",
+          "qualifier": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Chromosomes, Human, Pair 14",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Humans",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Staphylococcus aureus",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Staphylococcus aureus",
+          "qualifier": "genetics",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Sequence Analysis, DNA",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Genomics",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Genomics",
+          "qualifier": "methods",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Genome",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Software",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Chromosomes, Human, Pair 14",
+          "descriptor_ui": "D002883",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor": "Genome",
+          "descriptor_ui": "D016678",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor": "Genomics",
+          "descriptor_ui": "D023281",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor": "Genomics",
+          "descriptor_ui": "D023281",
+          "qualifier": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor": "Sequence Analysis, DNA",
+          "descriptor_ui": "D017422",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor": "Staphylococcus aureus",
+          "descriptor_ui": "D013211",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor": "Staphylococcus aureus",
+          "descriptor_ui": "D013211",
+          "qualifier": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "entrez"
+        }
+      ],
+      "sdg_mappings": [],
+      "openalex_concepts": [
+        {
+          "value": "Computational biology",
+          "scheme": "openalex_concept",
+          "score": 0.4020302891731262,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Algorithm",
+          "scheme": "openalex_concept",
+          "score": 0.33078694343566895,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Genetics",
+          "scheme": "openalex_concept",
+          "score": 0.17816585302352905,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Operating system",
+          "scheme": "openalex_concept",
+          "score": 0.13360154628753662,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Visual arts",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Flash (photography)",
+          "scheme": "openalex_concept",
+          "score": 0.5704182386398315,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Software",
+          "scheme": "openalex_concept",
+          "score": 0.4715210199356079,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Correctness",
+          "scheme": "openalex_concept",
+          "score": 0.42719998955726624,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Gene",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Genome",
+          "scheme": "openalex_concept",
+          "score": 0.5541651248931885,
+          "level": 3,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Gene expression",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 3,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Contig",
+          "scheme": "openalex_concept",
+          "score": 0.6912112236022949,
+          "level": 4,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "k-mer",
+          "scheme": "openalex_concept",
+          "score": 0.4440039098262787,
+          "level": 4,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Transcriptome",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 4,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Sequence assembly",
+          "scheme": "openalex_concept",
+          "score": 0.46085280179977417,
+          "level": 5,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Hybrid genome assembly",
+          "scheme": "openalex_concept",
+          "score": 0.4301777482032776,
+          "level": 5,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.7329540848731995,
+          "level": 0,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Biology",
+          "scheme": "openalex_concept",
+          "score": 0.2449806034564972,
+          "level": 0,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Art",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "s2_fields": [],
+      "asjc_subjects": [],
+      "all_topics_flat": [
+        "Algorithm",
+        "Art",
+        "Biology",
+        "Chromosomes, Human, Pair 14",
+        "Computational biology",
+        "Computer Science",
+        "Computer science",
+        "Contig",
+        "Correctness",
+        "Flash (photography)",
+        "Gene",
+        "Gene expression",
+        "Genetics",
+        "Genome",
+        "Genomics",
+        "Genomics and Phylogenetic Studies",
+        "Humans",
+        "Hybrid genome assembly",
+        "Medicine",
+        "Operating system",
+        "Plant Pathogenic Bacteria Studies",
+        "RNA and protein synthesis mechanisms",
+        "Sequence Analysis, DNA",
+        "Sequence assembly",
+        "Software",
+        "Staphylococcus aureus",
+        "Transcriptome",
+        "Visual arts",
+        "k-mer"
+      ],
+      "vocabulary_count": 7,
+      "topics_by_vocabulary": {
+        "openalex_topic": 1,
+        "OpenAlex_Concepts": 1,
+        "Keywords": 1,
+        "MeSH": 46,
+        "s2_external": 1,
+        "FOS": 1,
+        "mesh": 1
+      },
+      "narrative": "Classified in 7 vocabularies. Fields of study: Genomics and Phylogenetic Studies, Plant Pathogenic Bacteria Studies, RNA and protein synthesis mechanisms. Major MeSH terms: Software, Software, Software. Broad concepts: Computational biology, Algorithm, Genetics. 14 unique keywords."
+    }
+  },
+  "discrepancy_report": {
+    "doi": "10.1093/bioinformatics/btr507",
+    "sources_queried": 11,
+    "sources_found": 9,
+    "sources_not_found": 3,
+    "sources_errored": 0,
+    "total_discrepancies": 7,
+    "high_risk_count": 2,
+    "medium_risk_count": 1,
+    "low_risk_count": 4,
+    "data_completeness_score": 1.0,
+    "source_coverage": [
+      {
+        "source": "crossref",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "datacite",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "openalex",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": false,
+        "has_subjects": true,
+        "has_related_works": false
+      },
+      {
+        "source": "semantic_scholar",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": false,
+        "has_subjects": true,
+        "has_related_works": false
+      },
+      {
+        "source": "unpaywall",
+        "found": true,
+        "has_title": true,
+        "has_citations": false,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "europe_pmc",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": true,
+        "has_subjects": true,
+        "has_related_works": false
+      },
+      {
+        "source": "nih_reporter",
+        "found": true,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "zenodo",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "dryad",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "orcid",
+        "found": true,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": true,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "entrez",
+        "found": true,
+        "has_title": true,
+        "has_citations": false,
+        "has_authors": true,
+        "has_oa_info": false,
+        "has_funding": true,
+        "has_subjects": true,
+        "has_related_works": false
+      },
+      {
+        "source": "europe_pmc_annotations",
+        "found": true,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      }
+    ],
+    "scalar_discrepancies": [
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "semantic_scholar": "JournalArticle",
+          "unpaywall": "journal-article",
+          "entrez": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Oxford University Press (OUP)",
+          "openalex": "https://openalex.org/P4310311648",
+          "unpaywall": "Oxford University Press (OUP)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Bioinformatics",
+          "openalex": "Bioinformatics",
+          "semantic_scholar": "Bioinformatics",
+          "unpaywall": "Bioinformatics",
+          "europe_pmc": "Bioinformatics (Oxford, England)",
+          "entrez": "Bioinformatics (Oxford, England)"
+        },
+        "risk": "low"
+      }
+    ],
+    "citations": {
+      "counts_by_source": {
+        "crossref": 13177,
+        "openalex": 15068,
+        "semantic_scholar": 13020,
+        "europe_pmc": 9293
+      },
+      "min_count": 9293,
+      "max_count": 15068,
+      "median_count": 13098,
+      "spread": 5775,
+      "spread_pct": 38.3,
+      "divergence_level": "medium",
+      "outlier_sources": []
+    },
+    "oa_status": {
+      "is_oa_by_source": {
+        "openalex": true,
+        "semantic_scholar": true,
+        "unpaywall": true,
+        "europe_pmc": false
+      },
+      "status_by_source": {
+        "openalex": "bronze",
+        "unpaywall": "bronze"
+      },
+      "is_oa_agrees": false,
+      "status_agrees": true,
+      "consensus_is_oa": true,
+      "consensus_status": "bronze",
+      "unique_oa_urls": 5,
+      "sources_only_in": {
+        "openalex": [
+          "https://pubmed.ncbi.nlm.nih.gov/21903629",
+          "http://bioinformatics.oxfordjournals.org/cgi/content/short/27/21/2957"
+        ]
+      }
+    },
+    "authors": {
+      "count_by_source": {
+        "crossref": 2,
+        "openalex": 2,
+        "semantic_scholar": 2,
+        "unpaywall": 2,
+        "europe_pmc": 2,
+        "orcid": 1,
+        "entrez": 2
+      },
+      "count_agrees": false,
+      "min_count": 1,
+      "max_count": 2,
+      "orcid_coverage": 0.125,
+      "sources_missing_orcids": [
+        "crossref",
+        "semantic_scholar",
+        "unpaywall",
+        "entrez"
+      ],
+      "name_variant_examples": [
+        "Salzberg SL / Steven L. Salzberg",
+        "Mago\u010d T / Tanja Mago\u010d"
+      ]
+    },
+    "funding": {
+      "grant_count_by_source": {
+        "europe_pmc": 6,
+        "entrez": 6
+      },
+      "total_unique_grants": 6,
+      "grants_single_source": 0,
+      "grants_multi_source": 6,
+      "sources_with_no_funding": [
+        "crossref",
+        "openalex",
+        "semantic_scholar",
+        "unpaywall",
+        "nih_reporter",
+        "orcid",
+        "europe_pmc_annotations"
+      ],
+      "sources_with_funding": [
+        "europe_pmc",
+        "entrez"
+      ]
+    },
+    "references": {
+      "count_by_source": {
+        "crossref": 9,
+        "openalex": 10,
+        "semantic_scholar": 13,
+        "entrez": 9
+      },
+      "count_agrees": false,
+      "min_count": 9,
+      "max_count": 13
+    },
+    "topics": {
+      "vocabulary_count": 7,
+      "topics_by_source": {
+        "openalex": 64,
+        "semantic_scholar": 5,
+        "europe_pmc": 9,
+        "entrez": 16
+      },
+      "multi_source_topics": 0,
+      "single_source_topics": 27
+    },
+    "related_works": {
+      "related_count_by_source": {},
+      "datacite_reverse_count": 0,
+      "software_links": 0,
+      "data_links": 0,
+      "has_version_chain": false
+    },
+    "narrative": "9 of 12 sources returned data. Data completeness: 100% of key fields have 2+ source coverage. CITATIONS: 9,293\u201315,068 across 4 sources (medium divergence, 38% spread). OA BOOLEAN CONFLICT: openalex: OA, semantic_scholar: OA, unpaywall: OA, europe_pmc: closed. 2 OA URLs found by only one source. AUTHOR COUNT VARIES: 1\u20132 (crossref: 2, openalex: 2, semantic_scholar: 2, unpaywall: 2, europe_pmc: 2, orcid: 1, entrez: 2). Name variants detected: Salzberg SL / Steven L. Salzberg; Mago\u010d T / Tanja Mago\u010d. FUNDING: 6 unique grants \u2014 6 confirmed by multiple sources, 0 from single source only. REFERENCES: 9\u201313 across sources. WORK_TYPE DIFFERS: crossref: journal-article, openalex: article, semantic_scholar: JournalArticle, unpaywall: journal-article, entrez: journal-article. PUBLISHER DIFFERS: crossref: Oxford University Press (OUP), openalex: https://openalex.org/P4310311648, unpaywall: Oxford University Press (OUP). CONTAINER_TITLE DIFFERS: crossref: Bioinformatics, openalex: Bioinformatics, semantic_scholar: Bioinformatics, unpaywall: Bioinformatics, europe_pmc: Bioinformatics (Oxford, England), entrez: Bioinformatics (Oxford, England). Total: 7 discrepancies (2 high, 1 medium, 4 low risk)."
+  },
+  "_benchmark": {
+    "doi": "10.1093/bioinformatics/btr507",
+    "fetched_at": "2026-02-11T14:46:30.707541+00:00"
+  }
+}

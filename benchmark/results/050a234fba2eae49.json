@@ -1,0 +1,3984 @@
+{
+  "doi": "10.1093/bioinformatics/btp220",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T20:45:57.152737Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "A unified statistical model to support local sequence order independent similarity searching for ligand-binding sites and its application to genome-based drug discovery",
+      "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Functional relationships between proteins that do not share global structure similarity can be established by detecting their ligand-binding-site similarity. For a large-scale comparison, it is critical to accurately and efficiently assess the statistical significance of this similarity. Here, we report an efficient statistical model that supports local sequence order independent ligand\u2013binding-site similarity searching. Most existing statistical models only take into account the matching vertices between two sites that are defined by a fixed number of points. In reality, the boundary of the binding site is not known or is dependent on the bound ligand making these approaches limited. To address these shortcomings and to perform binding-site mapping on a genome-wide scale, we developed a sequence-order independent profile\u2013profile alignment (SOIPPA) algorithm that is able to detect local similarity between unknown binding sites a priori. The SOIPPA scoring integrates geometric, evolutionary and physical information into a unified framework. However, this imposes a significant challenge in assessing the statistical significance of the similarity because the conventional probability model that is based on fixed-point matching cannot be applied. Here we find that scores for binding-site matching by SOIPPA follow an extreme value distribution (EVD). Benchmark studies show that the EVD model performs at least two-orders faster and is more accurate than the non-parametric statistical method in the previous SOIPPA version. Efficient statistical analysis makes it possible to apply SOIPPA to genome-based drug discovery. Consequently, we have applied the approach to the structural genome of Mycobacterium tuberculosis to construct a protein\u2013ligand interaction network. The network reveals highly connected proteins, which represent suitable targets for promiscuous drugs.</jats:p>\n               <jats:p>Contact: \u00a0lxie@sdsc.edu</jats:p>",
+      "publication_date": "2009-05-27",
+      "publication_year": 2009,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "Bioinformatics",
+      "volume": "25",
+      "issue": "12",
+      "pages": "i305-i312",
+      "issn": [
+        "1367-4811",
+        "1367-4803"
+      ],
+      "doi": "10.1093/bioinformatics/btp220",
+      "authors": [
+        {
+          "name": {
+            "given": "Lei",
+            "family": "Xie",
+            "full_name": "Lei Xie",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 San Diego Supercomputer Center and 2Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego, 9500 Gilman Drive, La Jolla, CA 92093, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Li",
+            "family": "Xie",
+            "full_name": "Li Xie",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 San Diego Supercomputer Center and 2Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego, 9500 Gilman Drive, La Jolla, CA 92093, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Philip E.",
+            "family": "Bourne",
+            "full_name": "Philip E. Bourne",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 San Diego Supercomputer Center and 2Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego, 9500 Gilman Drive, La Jolla, CA 92093, USA",
+              "source": "crossref"
+            },
+            {
+              "name": "1 San Diego Supercomputer Center and 2Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego, 9500 Gilman Drive, La Jolla, CA 92093, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 86,
+      "reference_count": 80,
+      "references": [
+        {
+          "doi": "10.1093/nar/25.17.3389",
+          "title": "Gapped BLAST and PSI-BLAST: a new generation of protein database search programs",
+          "year": 1997,
+          "author": "AltschulS",
+          "key": "2023013112033827400_B1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.sbi.2006.04.003",
+          "title": "Evolution of protein fold in the presence of functional constraints",
+          "year": 2006,
+          "author": "Andreeva",
+          "key": "2023013112033827400_B2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1006/jmbi.1994.1657",
+          "title": "A graph-theoretic approach to the identification of three-dimensional patterns of amino acid side-chains in protein structures",
+          "year": 1994,
+          "author": "Artymiuk",
+          "key": "2023013112033827400_B3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btg226",
+          "title": "An algorithm for constraint-based structural template matching: application to 3D templates with statistical analysis",
+          "year": 2003,
+          "author": "Barker",
+          "key": "2023013112033827400_B4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.str.2006.11.009",
+          "title": "The generation of new protein functions by the combination of domains",
+          "year": 2007,
+          "author": "Bashton",
+          "key": "2023013112033827400_B5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/28.1.235",
+          "title": "The Protein Data Bank",
+          "year": 2000,
+          "author": "Berman",
+          "key": "2023013112033827400_B6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S0022-2836(03)00882-9",
+          "title": "Inferring functional relationships of proteins from local sequence and spatial surface patterns",
+          "year": 2003,
+          "author": "Binkowski",
+          "key": "2023013112033827400_B7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1472-6807-8-45",
+          "title": "Protein functional surfaces: global shape matching and local spatial alignments of ligand binding sites",
+          "year": 2008,
+          "author": "Binkowski",
+          "key": "2023013112033827400_B8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.bmcl.2007.01.012",
+          "title": "Probing binding requirements of NAD kinase with modified substrate (NAD) analogues",
+          "year": 2007,
+          "author": "Bonnac",
+          "key": "2023013112033827400_B9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/prot.20123",
+          "title": "Towards a structural classification of phosphate binding sites in protein-nucleotide complexes: an automated all-against-all structural comparison using geometric matching",
+          "year": 2004,
+          "author": "Brakoulias",
+          "key": "2023013112033827400_B10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.tibs.2008.04.005",
+          "title": "The long and short of it - polyphosphate, PPK and bacterial survival",
+          "year": 2008,
+          "author": "Brown",
+          "key": "2023013112033827400_B11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jmb.2003.09.062",
+          "title": "Structure-based active site profiles for genome analysis and functional family subclassification",
+          "year": 2003,
+          "author": "Cammer",
+          "key": "2023013112033827400_B12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S0959-440X(03)00075-7",
+          "title": "Ligand binding: functional site location, similarity and docking",
+          "year": 2003,
+          "author": "Campbell",
+          "key": "2023013112033827400_B13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Algorithms for structural comparison and statistical analysis of 3D protein motifs",
+          "year": 2005,
+          "author": "Chen",
+          "key": "2023013112033827400_B14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1073/pnas.0606239103",
+          "title": "Evolution of protein structural classes and protein sequence families",
+          "year": 2006,
+          "author": "Choi",
+          "key": "2023013112033827400_B15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/0097-8485(94)85024-0",
+          "title": "Some useful statistical properties of position-weight matrices",
+          "year": 1994,
+          "author": "Claverie",
+          "key": "2023013112033827400_B16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btm470",
+          "title": "The Poisson Index: a new probabilistic model for protein ligand binding site similarity",
+          "year": 2007,
+          "author": "Davies",
+          "key": "2023013112033827400_B17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1054/tube.2002.0337",
+          "title": "Selective identification of new therapeutic targets of Mycobacterium tuberculosis by IVIAT approach",
+          "year": 2002,
+          "author": "Deb",
+          "key": "2023013112033827400_B18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gki057",
+          "title": "The RCSB Protein Data Bank: a redesigned query system and relational database based on the mmCIF schema",
+          "year": 2005,
+          "author": "Deshpande",
+          "key": "2023013112033827400_B19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.2174/0929867043364702",
+          "title": "Prediction of protein function in the absence of significant sequence similarity",
+          "year": 2004,
+          "author": "Dobson",
+          "key": "2023013112033827400_B20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jmb.2006.11.017",
+          "title": "Modeling the evolution of protein domain architectures using maximum parsimony",
+          "year": 2007,
+          "author": "Fong",
+          "key": "2023013112033827400_B21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.str.2005.05.009",
+          "title": "Connecting the protein structure universe by using sparse recurring fragments",
+          "year": 2005,
+          "author": "Friedberg",
+          "key": "2023013112033827400_B22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1146/annurev.biochem.70.1.209",
+          "title": "Divergent evolution of enzymatic function: mechanistically diverse superfamilies and functionally distinct suprafamilies",
+          "year": 2001,
+          "author": "Gerlt",
+          "key": "2023013112033827400_B23",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jmb.2007.06.017",
+          "title": "Convergent evolution of enzyme active sites is not a rare phenomenon",
+          "year": 2007,
+          "author": "Gherardini",
+          "key": "2023013112033827400_B24",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/biomet/93.2.235",
+          "title": "Bayesian alignment using hierarchical models, with applications in protein bioinformatics",
+          "year": 2006,
+          "author": "Green",
+          "key": "2023013112033827400_B25",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1006/jsbi.2001.4335",
+          "title": "Fold change in evolution of protein structures",
+          "year": 2001,
+          "author": "Grishin",
+          "key": "2023013112033827400_B26",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkm862",
+          "title": "SuperTarget and Matador: resources for exploring drug-target relationships",
+          "year": 2008,
+          "author": "Gunther",
+          "key": "2023013112033827400_B27",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1073/pnas.89.22.10915",
+          "title": "Amino acid substitution matrices from protein blocks",
+          "year": 1992,
+          "author": "Henikoff",
+          "key": "2023013112033827400_B28",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkh439",
+          "title": "PDBSiteScan: a program for searching for active, binding and posttranslational modification sites in the 3D structures of proteins",
+          "year": 2004,
+          "author": "Ivanisenko",
+          "key": "2023013112033827400_B29",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/prot.10339",
+          "title": "A new bioinformatic approach to detect common 3D sites in protein structures",
+          "year": 2003,
+          "author": "Jambon",
+          "key": "2023013112033827400_B30",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Drug resistance in Mycobacterium tuberculosis",
+          "year": 2006,
+          "author": "Johnson",
+          "key": "2023013112033827400_B31",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1000423",
+          "title": "Drug discovery using chemical systems biology: discovery of novel drug leads to treat multi-drug and extensively drug resistant tuberculosis by repositioning safe pharmaceuticals",
+          "year": 2009,
+          "author": "Kinnings",
+          "key": "2023013112033827400_B32",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1023/A:1011318527094",
+          "title": "Identification of protein functions from a molecular surface database, eF-site",
+          "year": 2001,
+          "author": "Kinoshita",
+          "key": "2023013112033827400_B33",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1110/ps.0368703",
+          "title": "Identification of protein biochemical functions by similarity search using the molecular surface database eF-site",
+          "year": 2003,
+          "author": "Kinoshita",
+          "key": "2023013112033827400_B34",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nrd2195",
+          "title": "A robustness-based approach to systems-oriented drug design",
+          "year": 2007,
+          "author": "Kitano",
+          "key": "2023013112033827400_B35",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1006/jmbi.1998.2393",
+          "title": "Recognition of spatial motifs in protein structures",
+          "year": 1999,
+          "author": "Kleywegt",
+          "key": "2023013112033827400_B36",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.sbi.2006.04.007",
+          "title": "Protein structure comparison: implications for the nature of \u2018fold space\u2019, and structure and function prediction",
+          "year": 2006,
+          "author": "Kolodny",
+          "key": "2023013112033827400_B37",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jmb.2006.04.024",
+          "title": "From the similarity analysis of protein cavities to the functional classification of protein families using cavbase",
+          "year": 2006,
+          "author": "Kuhn",
+          "key": "2023013112033827400_B38",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "A new exact algorithm for the maximum-weight clique problem based on a heuristic vertex-coloring and a backtrack search",
+          "year": 2004,
+          "author": "Kumlander",
+          "key": "2023013112033827400_B39",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jmb.2005.05.067",
+          "title": "Protein function prediction using local 3D templates",
+          "year": 2005,
+          "author": "Laskowski",
+          "key": "2023013112033827400_B40",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1073/pnas.95.11.5913",
+          "title": "A unified statistical framework for sequence comparison and structure comparison",
+          "year": 1998,
+          "author": "Levitt",
+          "key": "2023013112033827400_B41",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-8-257",
+          "title": "Bayesian refinement of protein functional site matching",
+          "year": 2007,
+          "author": "Mardia",
+          "key": "2023013112033827400_B42",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/0022-2836(72)90508-6",
+          "title": "Repeating sequences and gene duplication in proteins",
+          "year": 1972,
+          "author": "McLachlan",
+          "key": "2023013112033827400_B43",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/prot.20099",
+          "title": "Superfamily active site templates",
+          "year": 2004,
+          "author": "Meng",
+          "key": "2023013112033827400_B44",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/bti337",
+          "title": "Real Spherical harmonic expansion coefficients as 3D shape descriptors for protein binding pocket and ligand comparisons",
+          "year": 2005,
+          "author": "Morris",
+          "key": "2023013112033827400_B45",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.tim.2006.05.005",
+          "title": "Foundations of antibiotic resistance in bacterial physiology: the mycobacterial paradigm",
+          "year": 2006,
+          "author": "Nguyen",
+          "key": "2023013112033827400_B46",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "A new algorithm for the maximum-weight clique problem",
+          "year": 2001,
+          "author": "Ostergard",
+          "key": "2023013112033827400_B47",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S0166-218X(01)00290-6",
+          "title": "A fast algorithm for the maximum clique problem",
+          "year": 2002,
+          "author": "Ostergard",
+          "key": "2023013112033827400_B48",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1110/ps.062268106",
+          "title": "The origami of thioredoxin-like folds",
+          "year": 2006,
+          "author": "Pan",
+          "key": "2023013112033827400_B49",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1073/pnas.0404569101",
+          "title": "Automated prediction of protein function and detection of functional sites from structure",
+          "year": 2004,
+          "author": "Pazos",
+          "key": "2023013112033827400_B50",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1006/jmbi.1997.1525",
+          "title": "Empirical statistical estimates for sequence similarity searches",
+          "year": 1998,
+          "author": "Pearson",
+          "key": "2023013112033827400_B51",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S0097-8485(01)00102-4",
+          "title": "AI-based algorithms for protein surface comparison",
+          "year": 2001,
+          "author": "Pickering",
+          "key": "2023013112033827400_B52",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/prot.21092",
+          "title": "Comparsion of protein active site structures for functional annotation of proteins and drug design",
+          "year": 2006,
+          "author": "Powers",
+          "key": "2023013112033827400_B53",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2180-8-234",
+          "title": "Mycobacterium tuberculosis interactome analysis unravels potential pathways to drug resistance",
+          "year": 2008,
+          "author": "Raman",
+          "key": "2023013112033827400_B54",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jmb.2006.05.035",
+          "title": "Structural diversity of domain superfamilies in the CATH database",
+          "year": 2006,
+          "author": "Reeves",
+          "key": "2023013112033827400_B55",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.micpath.2007.05.010",
+          "title": "Comparative genomics of mycobacterial proteases",
+          "year": 2007,
+          "author": "Ribeiro-Guimar\u00e3es",
+          "key": "2023013112033827400_B56",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1006/jmbi.1998.1844",
+          "title": "Detection of protein three-dimensional side-chain patterns: new examples of convergent evolution",
+          "year": 1998,
+          "author": "Russell",
+          "key": "2023013112033827400_B57",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.0010049",
+          "title": "Structural evolution of the protein kinase-like supefamily",
+          "year": 2005,
+          "author": "Scheeff",
+          "key": "2023013112033827400_B58",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S0022-2836(02)00811-2",
+          "title": "A new method to detect related function among proteins independent of sequence and fold homology",
+          "year": 2003,
+          "author": "Schmitt",
+          "key": "2023013112033827400_B59",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/(SICI)1097-0134(20000215)38:3<247::AID-PROT2>3.0.CO;2-T",
+          "title": "An alternative view of protein fold space",
+          "year": 2000,
+          "author": "Shindyalov",
+          "key": "2023013112033827400_B60",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jmb.2004.04.012",
+          "title": "Recognition of functional sites in protein structures",
+          "year": 2004,
+          "author": "Shulman-Peleg",
+          "key": "2023013112033827400_B61",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jmb.2004.11.010",
+          "title": "Structural alignment of protein\u2013DNA interfaces: insights into the determinants of binding specificity",
+          "year": 2005,
+          "author": "Siggers",
+          "key": "2023013112033827400_B62",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nchembio.2007.27",
+          "title": "Combating bacteria and drug resistance by inhibiting mechanisms of persistence and adaptation",
+          "year": 2007,
+          "author": "Smith",
+          "key": "2023013112033827400_B63",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/0022-2836(81)90087-5",
+          "title": "Identification of common molecular subsequences",
+          "year": 1981,
+          "author": "Smith",
+          "key": "2023013112033827400_B64",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkg506",
+          "title": "Annotation in three dimensions. PINTS: patterns in non-homologous tertiary structures",
+          "year": 2003,
+          "author": "Stark",
+          "key": "2023013112033827400_B65",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S0022-2836(03)00045-7",
+          "title": "A model for statistical significance of local similarities in structure",
+          "year": 2003,
+          "author": "Stark",
+          "key": "2023013112033827400_B66",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jmb.2005.12.084",
+          "title": "Decoy models for protein structure score normalisation",
+          "year": 2006,
+          "author": "Taylor",
+          "key": "2023013112033827400_B67",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.sbi.2007.06.002",
+          "title": "Evolutionary transitions in protein fold space",
+          "year": 2007,
+          "author": "Taylor",
+          "key": "2023013112033827400_B68",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jmb.2005.01.044",
+          "title": "Using a library of structural templates to recognise catalytic sites and explore their evolution in homologous families",
+          "year": 2005,
+          "author": "Torrance",
+          "key": "2023013112033827400_B69",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jmb.2008.12.072",
+          "title": "Predicting protein function and binding profile via matching of local evolutionary and geometric surface patterns",
+          "year": 2009,
+          "author": "Tseng",
+          "key": "2023013112033827400_B70",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/molbev/msj048",
+          "title": "Estimation of amino acid residue substitution rates at local spatial regions and application in protein function inference: a Bayesian Monte Carlo approach",
+          "year": 2006,
+          "author": "Tseng",
+          "key": "2023013112033827400_B71",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/pro.5560061104",
+          "title": "TESS: a geometric hashing algorithm for deriving 3D coordinate templates for searching structural databases. Application to enzyme active sites",
+          "year": 1997,
+          "author": "Wallace",
+          "key": "2023013112033827400_B72",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1021/jm030912m",
+          "title": "Unexpected nanomolar inhibition of carbonic anhydrase by COX-2-selective celecoxib: new pharmacological opportunities due to related binding site recognition",
+          "year": 2004,
+          "author": "Weber",
+          "key": "2023013112033827400_B73",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/bti1008",
+          "title": "How old is your fold?",
+          "year": 2005,
+          "author": "Winstanley",
+          "key": "2023013112033827400_B74",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.0010031",
+          "title": "Functional coverage of the human genome by existing structures, structural genomics targets, and homology models",
+          "year": 2005,
+          "author": "Xie",
+          "key": "2023013112033827400_B75",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1073/pnas.0704422105",
+          "title": "Detecting evolutionary relationships across existing fold space, using sequence order-independent profile\u2013profile alignments",
+          "year": 2008,
+          "author": "Xie",
+          "key": "2023013112033827400_B76",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1000387",
+          "title": "Drug discovery using chemical systems biology: identification of the protein-ligand binding network to explain the side effects of CETP inhibitors",
+          "year": 2009,
+          "author": "Xie",
+          "key": "2023013112033827400_B77",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.0030217",
+          "title": "In silico elucidation of the molecular mechanism defining the adverse effect of selective estrogen receptor modulators",
+          "year": 2007,
+          "author": "Xie",
+          "key": "2023013112033827400_B78",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/prot.20752",
+          "title": "Similarity networks of protein binding sites",
+          "year": 2006,
+          "author": "Zhang",
+          "key": "2023013112033827400_B79",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jmgm.2006.06.002",
+          "title": "eHiTS: A new fast, exhaustive flexible ligand docking system",
+          "year": 2007,
+          "author": "Zsoldos",
+          "key": "2023013112033827400_B80",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/25/12/i305/48991160/bioinformatics_25_12_i305.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/25/12/i305/48991160/bioinformatics_25_12_i305.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "http://creativecommons.org/licenses/by-nc/2.0/uk/",
+          "content_version": "vor",
+          "delay_in_days": 2685,
+          "source": "crossref"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btp220",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "A unified statistical model to support local sequence order independent similarity searching for ligand-binding sites and its application to genome-based drug discovery",
+      "abstract": "Abstract Functional relationships between proteins that do not share global structure similarity can be established by detecting their ligand-binding-site similarity. For a large-scale comparison, it is critical to accurately and efficiently assess the statistical significance of this similarity. Here, we report an efficient statistical model that supports local sequence order independent ligand\u2013binding-site similarity searching. Most existing statistical models only take into account the matching vertices between two sites that are defined by a fixed number of points. In reality, the boundary of the binding site is not known or is dependent on the bound ligand making these approaches limited. To address these shortcomings and to perform binding-site mapping on a genome-wide scale, we developed a sequence-order independent profile\u2013profile alignment (SOIPPA) algorithm that is able to detect local similarity between unknown binding sites a priori. The SOIPPA scoring integrates geometric, evolutionary and physical information into a unified framework. However, this imposes a significant challenge in assessing the statistical significance of the similarity because the conventional probability model that is based on fixed-point matching cannot be applied. Here we find that scores for binding-site matching by SOIPPA follow an extreme value distribution (EVD). Benchmark studies show that the EVD model performs at least two-orders faster and is more accurate than the non-parametric statistical method in the previous SOIPPA version. Efficient statistical analysis makes it possible to apply SOIPPA to genome-based drug discovery. Consequently, we have applied the approach to the structural genome of Mycobacterium tuberculosis to construct a protein\u2013ligand interaction network. The network reveals highly connected proteins, which represent suitable targets for promiscuous drugs. Contact: lxie@sdsc.edu",
+      "publication_date": "2009-05-27",
+      "publication_year": 2009,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310311648",
+      "container_title": "Bioinformatics",
+      "volume": "25",
+      "issue": "12",
+      "pages": "i305-i312",
+      "issn": [
+        "1367-4803",
+        "1367-4811"
+      ],
+      "doi": "10.1093/bioinformatics/btp220",
+      "pmid": "19478004",
+      "openalex_id": "https://openalex.org/W2133035849",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Lei Xie",
+            "orcid": "0000-0001-9051-2111",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of California, San Diego",
+              "ror_id": "https://ror.org/0168r3w48",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "San Diego Supercomputer Center",
+              "ror_id": "https://ror.org/04mg3nk07",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5066245750",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Li Xie",
+            "orcid": "0000-0003-3658-2535",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "San Diego Supercomputer Center",
+              "ror_id": "https://ror.org/04mg3nk07",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "University of California, San Diego",
+              "ror_id": "https://ror.org/0168r3w48",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5051041953",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Philip E. Bourne",
+            "orcid": "0000-0002-7618-7292",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "San Diego Supercomputer Center",
+              "ror_id": "https://ror.org/04mg3nk07",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "University of California, San Diego",
+              "ror_id": "https://ror.org/0168r3w48",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5075833022",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 96,
+      "reference_count": 87,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2024": 2,
+        "2023": 2,
+        "2022": 2,
+        "2021": 1,
+        "2020": 2,
+        "2019": 8,
+        "2018": 7,
+        "2017": 8,
+        "2016": 8,
+        "2015": 7,
+        "2014": 10,
+        "2013": 16,
+        "2012": 7
+      },
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btp220",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/25/12/i305/473541/btp220.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btp220",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by-nc",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btp220",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/25/12/i305/473541/btp220.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btp220",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by-nc",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19478004",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/19478004",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "http://europepmc.org/articles/PMC2687974",
+          "landing_page_url": "http://europepmc.org/articles/PMC2687974",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1303153112",
+          "source": "openalex"
+        },
+        {
+          "url": "http://doi.org/10.1093/bioinformatics/btp220",
+          "landing_page_url": "http://doi.org/10.1093/bioinformatics/btp220",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://academic.oup.com/bioinformatics/article-pdf/25/12/i305/473541/btp220.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "cc-by-nc",
+          "source": "openalex"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "RNA and protein synthesis mechanisms",
+          "scheme": "openalex_topic",
+          "score": 0.9983999729156494,
+          "source": "openalex"
+        },
+        {
+          "value": "Protein Structure and Dynamics",
+          "scheme": "openalex_topic",
+          "score": 0.9973000288009644,
+          "source": "openalex"
+        },
+        {
+          "value": "vaccines and immunoinformatics approaches",
+          "scheme": "openalex_topic",
+          "score": 0.9962000250816345,
+          "source": "openalex"
+        },
+        {
+          "value": "Similarity (geometry)",
+          "scheme": "openalex_concept",
+          "score": 0.5978571176528931,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.5596780776977539,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Matching (statistics)",
+          "scheme": "openalex_concept",
+          "score": 0.4972410500049591,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Benchmark (surveying)",
+          "scheme": "openalex_concept",
+          "score": 0.45242300629615784,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Data mining",
+          "scheme": "openalex_concept",
+          "score": 0.4440302848815918,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Sequence (biology)",
+          "scheme": "openalex_concept",
+          "score": 0.4399169981479645,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Computational biology",
+          "scheme": "openalex_concept",
+          "score": 0.3937769830226898,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Artificial intelligence",
+          "scheme": "openalex_concept",
+          "score": 0.345725417137146,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Mathematics",
+          "scheme": "openalex_concept",
+          "score": 0.2682901620864868,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Biology",
+          "scheme": "openalex_concept",
+          "score": 0.1778782308101654,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Genetics",
+          "scheme": "openalex_concept",
+          "score": 0.14645510911941528,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Statistics",
+          "scheme": "openalex_concept",
+          "score": 0.12855517864227295,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Geography",
+          "scheme": "openalex_concept",
+          "score": 0.09139144420623779,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Image (mathematics)",
+          "scheme": "openalex_concept",
+          "score": 0.07679402828216553,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Geodesy",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Good health and well-being",
+          "scheme": "SDG",
+          "score": 0.7699999809265137,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Binding Sites",
+          "descriptor_ui": "D001665",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Binding Sites",
+          "descriptor_ui": "D001665",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Binding Sites",
+          "descriptor_ui": "D001665",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Binding Sites",
+          "descriptor_ui": "D001665",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Ligands",
+          "descriptor_ui": "D008024",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Ligands",
+          "descriptor_ui": "D008024",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Ligands",
+          "descriptor_ui": "D008024",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Ligands",
+          "descriptor_ui": "D008024",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Mycobacterium tuberculosis",
+          "descriptor_ui": "D009169",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Mycobacterium tuberculosis",
+          "descriptor_ui": "D009169",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Mycobacterium tuberculosis",
+          "descriptor_ui": "D009169",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Mycobacterium tuberculosis",
+          "descriptor_ui": "D009169",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Mycobacterium tuberculosis",
+          "descriptor_ui": "D009169",
+          "qualifier_name": "metabolism",
+          "qualifier_ui": "Q000378",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Mycobacterium tuberculosis",
+          "descriptor_ui": "D009169",
+          "qualifier_name": "metabolism",
+          "qualifier_ui": "Q000378",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Mycobacterium tuberculosis",
+          "descriptor_ui": "D009169",
+          "qualifier_name": "metabolism",
+          "qualifier_ui": "Q000378",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Mycobacterium tuberculosis",
+          "descriptor_ui": "D009169",
+          "qualifier_name": "metabolism",
+          "qualifier_ui": "Q000378",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "descriptor_ui": "D011506",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "descriptor_ui": "D011506",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "descriptor_ui": "D011506",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "descriptor_ui": "D011506",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Models, Statistical",
+          "descriptor_ui": "D015233",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Models, Statistical",
+          "descriptor_ui": "D015233",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Models, Statistical",
+          "descriptor_ui": "D015233",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Models, Statistical",
+          "descriptor_ui": "D015233",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genome",
+          "descriptor_ui": "D016678",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genome",
+          "descriptor_ui": "D016678",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genome",
+          "descriptor_ui": "D016678",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genome",
+          "descriptor_ui": "D016678",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "descriptor_ui": "D019295",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "descriptor_ui": "D019295",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "descriptor_ui": "D019295",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "descriptor_ui": "D019295",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Drug Discovery",
+          "descriptor_ui": "D055808",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Drug Discovery",
+          "descriptor_ui": "D055808",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Drug Discovery",
+          "descriptor_ui": "D055808",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Drug Discovery",
+          "descriptor_ui": "D055808",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        }
+      ],
+      "keywords": [
+        "Similarity (geometry)",
+        "Computer science",
+        "Matching (statistics)",
+        "Benchmark (surveying)",
+        "Data mining",
+        "Sequence (biology)",
+        "Computational biology",
+        "Artificial intelligence",
+        "Mathematics",
+        "Biology",
+        "Genetics",
+        "Statistics",
+        "Geography",
+        "Image (mathematics)"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 3.29337435,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.9183224,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 3618.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btp220",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "A unified statistical model to support local sequence order independent similarity searching for ligand-binding sites and its application to genome-based drug discovery",
+      "publication_date": "2009-05-27",
+      "publication_year": 2009,
+      "work_type": "journal-article",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "Bioinformatics",
+      "issn": [
+        "1367-4811",
+        "1367-4803"
+      ],
+      "doi": "10.1093/bioinformatics/btp220",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_locations": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/25/12/i305/473541/btp220.pdf",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/25/12/i305/473541/btp220.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btp220",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by-nc",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/25/12/i305/473541/btp220.pdf",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/25/12/i305/473541/btp220.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/btp220",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by-nc",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "http://doi.org/10.1093/bioinformatics/btp220",
+          "landing_page_url": "http://doi.org/10.1093/bioinformatics/btp220",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://academic.oup.com/bioinformatics/article-pdf/25/12/i305/473541/btp220.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "A unified statistical model to support local sequence order independent similarity searching for ligand-binding sites and its application to genome-based drug discovery.",
+      "abstract": "Functional relationships between proteins that do not share global structure similarity can be established by detecting their ligand-binding-site similarity. For a large-scale comparison, it is critical to accurately and efficiently assess the statistical significance of this similarity. Here, we report an efficient statistical model that supports local sequence order independent ligand-binding-site similarity searching. Most existing statistical models only take into account the matching vertices between two sites that are defined by a fixed number of points. In reality, the boundary of the binding site is not known or is dependent on the bound ligand making these approaches limited. To address these shortcomings and to perform binding-site mapping on a genome-wide scale, we developed a sequence-order independent profile-profile alignment (SOIPPA) algorithm that is able to detect local similarity between unknown binding sites a priori. The SOIPPA scoring integrates geometric, evolutionary and physical information into a unified framework. However, this imposes a significant challenge in assessing the statistical significance of the similarity because the conventional probability model that is based on fixed-point matching cannot be applied. Here we find that scores for binding-site matching by SOIPPA follow an extreme value distribution (EVD). Benchmark studies show that the EVD model performs at least two-orders faster and is more accurate than the non-parametric statistical method in the previous SOIPPA version. Efficient statistical analysis makes it possible to apply SOIPPA to genome-based drug discovery. Consequently, we have applied the approach to the structural genome of Mycobacterium tuberculosis to construct a protein-ligand interaction network. The network reveals highly connected proteins, which represent suitable targets for promiscuous drugs.",
+      "publication_year": 2009,
+      "language": "eng",
+      "container_title": "Bioinformatics (Oxford, England)",
+      "volume": "25",
+      "issue": "12",
+      "pages": "i305-12",
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btp220",
+      "pmid": "19478004",
+      "pmcid": "PMC2687974",
+      "authors": [
+        {
+          "name": {
+            "given": "Lei",
+            "family": "Xie",
+            "full_name": "Xie L",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "San Diego Supercomputer Center, University of California, San Diego, La Jolla, CA 92093, USA. lxie@sdsc.edu",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Li",
+            "family": "Xie",
+            "full_name": "Xie L",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Philip E",
+            "family": "Bourne",
+            "full_name": "Bourne PE",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 69,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "url": "https://europepmc.org/articles/PMC2687974",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC2687974?pdf=render",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "GM078596",
+          "agency": "NIGMS NIH HHS",
+          "agency_abbreviation": "GM",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "R01 GM078596",
+          "agency": "NIGMS NIH HHS",
+          "agency_abbreviation": "GM",
+          "pi_names": [],
+          "source": "europe_pmc"
+        }
+      ],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Mycobacterium tuberculosis",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Mycobacterium tuberculosis",
+          "qualifier_name": "genetics",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Mycobacterium tuberculosis",
+          "qualifier_name": "metabolism",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "qualifier_name": "chemistry",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Ligands",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Models, Statistical",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "qualifier_name": "methods",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Binding Sites",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Genome",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Drug Discovery",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Drug Discovery",
+          "qualifier_name": "methods",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 69.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [
+        {
+          "name": "Proteins",
+          "registry_number": "0"
+        },
+        {
+          "name": "Ligands",
+          "registry_number": "0"
+        }
+      ],
+      "text_mined_accessions": [
+        "pdb"
+      ],
+      "corrections": [],
+      "full_text_urls": [
+        {
+          "url": "http://bioinformatics.oxfordjournals.org/cgi/content/abstract/25/12/i305",
+          "availability": "Free",
+          "document_style": "abs",
+          "site": "bioinformatics.oxfordjournals.org"
+        },
+        {
+          "url": "http://bioinformatics.oxfordjournals.org/cgi/content/full/25/12/i305",
+          "availability": "Free after 12 months",
+          "document_style": "html",
+          "site": "bioinformatics.oxfordjournals.org"
+        },
+        {
+          "url": "http://bioinformatics.oxfordjournals.org/cgi/reprint/25/12/i305",
+          "availability": "Free after 12 months",
+          "document_style": "pdf",
+          "site": "bioinformatics.oxfordjournals.org"
+        },
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btp220",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC2687974",
+          "availability": "Open access",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC2687974?pdf=render",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openaire": {
+      "source": "openaire",
+      "found": true,
+      "raw": {},
+      "title": "A unified statistical model to support local sequence order independent similarity searching for ligand-binding sites and its application to genome-based drug discovery",
+      "abstract": "<jats:title>Abstract</jats:title>                <jats:p>Functional relationships between proteins that do not share global structure similarity can be established by detecting their ligand-binding-site similarity. For a large-scale comparison, it is critical to accurately and efficiently assess the statistical significance of this similarity. Here, we report an efficient statistical model that supports local sequence order independent ligand\u2013binding-site similarity searching. Most existing statistical models only take into account the matching vertices between two sites that are defined by a fixed number of points. In reality, the boundary of the binding site is not known or is dependent on the bound ligand making these approaches limited. To address these shortcomings and to perform binding-site mapping on a genome-wide scale, we developed a sequence-order independent profile\u2013profile alignment (SOIPPA) algorithm that is able to detect local similarity between unknown binding sites a priori. The SOIPPA scoring integrates geometric, evolutionary and physical information into a unified framework. However, this imposes a significant challenge in assessing the statistical significance of the similarity because the conventional probability model that is based on fixed-point matching cannot be applied. Here we find that scores for binding-site matching by SOIPPA follow an extreme value distribution (EVD). Benchmark studies show that the EVD model performs at least two-orders faster and is more accurate than the non-parametric statistical method in the previous SOIPPA version. Efficient statistical analysis makes it possible to apply SOIPPA to genome-based drug discovery. Consequently, we have applied the approach to the structural genome of Mycobacterium tuberculosis to construct a protein\u2013ligand interaction network. The network reveals highly connected proteins, which represent suitable targets for promiscuous drugs.</jats:p>                <jats:p>Contact: \u00a0lxie@sdsc.edu</jats:p>",
+      "publication_date": "2009-05-27",
+      "publication_year": 2009,
+      "work_type": "publication",
+      "language": "eng",
+      "publisher": "Oxford University Press (OUP)",
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btp220",
+      "pmid": "19478004",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Lei Xie 0006",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Li Xie 0002",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Philip E. Bourne",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "citation_count": 90,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btp220",
+          "version": "Article",
+          "license": "CC BY NC",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/25/12/i305/473541/btp220.pdf",
+          "version": "Article",
+          "license": "implied-oa",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19478004",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1093/bioinformatics/btp220",
+          "version": "Other literature type",
+          "license": "CC BY NC",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/btp220",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://dx.doi.org/10.1093/bioinformatics/btp220",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "5R01GM078596-03",
+          "agency": "National Institutes of Health",
+          "title": "Protein Functional Site Characterization and Analysis",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::2d8560850d364d6e7584be0efd3690c5",
+          "source": "openaire"
+        }
+      ],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "0301 basic medicine",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "0303 health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "03 medical and health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "Binding Sites",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Genome",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Models, Statistical",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Ismb/Eccb 2009 Conference Proceedings June 27 to July 2, 2009, Stockholm, Sweden",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Drug Discovery",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Computational Biology",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Proteins",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Mycobacterium tuberculosis",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Ligands",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "3. Good health",
+          "scheme": "SDG",
+          "source": "openaire"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "bip_citationCount",
+          "value": 90.0,
+          "class_label": "C4",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_influence",
+          "value": 5.6098304e-09,
+          "class_label": "C4",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_popularity",
+          "value": 8.219757e-09,
+          "class_label": "C4",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_impulse",
+          "value": 26.0,
+          "class_label": "C4",
+          "source": "openaire"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [
+        {
+          "grant_id": "5R01GM078596-03",
+          "agency": "National Institutes of Health",
+          "title": "Protein Functional Site Characterization and Analysis",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::2d8560850d364d6e7584be0efd3690c5",
+          "source": "openaire"
+        }
+      ],
+      "alternate_ids": [
+        "doi:10.1093/bioinformatics/btp220",
+        "doi:10.1093/bioinformatics/btp220",
+        "pmid:19478004",
+        "pmc:PMC2687974",
+        "doi:10.1093/bioinformatics/btp220",
+        "doi:10.1093/bioinformatics/btp220",
+        "mag_id:2133035849",
+        "doi:10.1093/bioinformatics/btp220"
+      ],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btp220",
+      "pmid": "23671333",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btp220",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btp220",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/btp220",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": true,
+      "raw": {},
+      "title": "A unified statistical model to support local sequence order independent similarity searching for ligand-binding sites and its application to genome-based drug discovery.",
+      "abstract": "Functional relationships between proteins that do not share global structure similarity can be established by detecting their ligand-binding-site similarity. For a large-scale comparison, it is critical to accurately and efficiently assess the statistical significance of this similarity. Here, we report an efficient statistical model that supports local sequence order independent ligand-binding-site similarity searching. Most existing statistical models only take into account the matching vertices between two sites that are defined by a fixed number of points. In reality, the boundary of the binding site is not known or is dependent on the bound ligand making these approaches limited. To address these shortcomings and to perform binding-site mapping on a genome-wide scale, we developed a sequence-order independent profile-profile alignment (SOIPPA) algorithm that is able to detect local similarity between unknown binding sites a priori. The SOIPPA scoring integrates geometric, evolutionary and physical information into a unified framework. However, this imposes a significant challenge in assessing the statistical significance of the similarity because the conventional probability model that is based on fixed-point matching cannot be applied. Here we find that scores for binding-site matching by SOIPPA follow an extreme value distribution (EVD). Benchmark studies show that the EVD model performs at least two-orders faster and is more accurate than the non-parametric statistical method in the previous SOIPPA version. Efficient statistical analysis makes it possible to apply SOIPPA to genome-based drug discovery. Consequently, we have applied the approach to the structural genome of Mycobacterium tuberculosis to construct a protein-ligand interaction network. The network reveals highly connected proteins, which represent suitable targets for promiscuous drugs.",
+      "publication_date": "2009-Jun-15",
+      "publication_year": 2009,
+      "work_type": "journal-article",
+      "language": "eng",
+      "container_title": "Bioinformatics (Oxford, England)",
+      "volume": "25",
+      "issue": "12",
+      "pages": "i305-12",
+      "issn": [
+        "1367-4811",
+        "1367-4803"
+      ],
+      "doi": "10.1093/bioinformatics/btp220",
+      "pmid": "19478004",
+      "pmcid": "PMC2687974",
+      "authors": [
+        {
+          "name": {
+            "given": "Lei",
+            "family": "Xie",
+            "full_name": "Lei Xie",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "San Diego Supercomputer Center, University of California, San Diego, La Jolla, CA 92093, USA. lxie@sdsc.edu",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Li",
+            "family": "Xie",
+            "full_name": "Li Xie",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Philip E",
+            "family": "Bourne",
+            "full_name": "Philip E Bourne",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [],
+          "sources": [
+            "entrez"
+          ]
+        }
+      ],
+      "reference_count": 80,
+      "references": [
+        {
+          "pmid": "9254694",
+          "unstructured": "AltschulS F, et al. Gapped BLAST and PSI-BLAST: a new generation of protein database search programs. Nucleic Acids Res. 1997;25:3389\u20133402.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "16650981",
+          "unstructured": "Andreeva A, Murzin AG. Evolution of protein fold in the presence of functional constraints. Curr. Opin. Struct. Biol. 2006;16:399\u2013408.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "7932758",
+          "unstructured": "Artymiuk PJ, et al. A graph-theoretic approach to the identification of three-dimensional patterns of amino acid side-chains in protein structures. J. Mol. Biol. 1994;243:327\u2013344.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "12967960",
+          "unstructured": "Barker JA, Thornton JM. An algorithm for constraint-based structural template matching: application to 3D templates with statistical analysis. Bioinformatics. 2003;19:1644\u20131649.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "17223535",
+          "unstructured": "Bashton M, Chothia C. The generation of new protein functions by the combination of domains. Structure. 2007;15:85\u201399.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "10592235",
+          "unstructured": "Berman HM, et al. The Protein Data Bank. Nucleic Acids Res. 2000;28:235\u2013242.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "12948498",
+          "unstructured": "Binkowski TA, et al. Inferring functional relationships of proteins from local sequence and spatial surface patterns. J. Mol. Biol. 2003;332:505\u2013526.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "18954462",
+          "unstructured": "Binkowski TA, Joachimiak A. Protein functional surfaces: global shape matching and local spatial alignments of ligand binding sites. BMC Struct. Biol. 2008;8:45.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "17258457",
+          "unstructured": "Bonnac L, et al. Probing binding requirements of NAD kinase with modified substrate (NAD) analogues. Bioorg. Med. Chem. Lett. 2007;17:1512\u20131515.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "15211509",
+          "unstructured": "Brakoulias A, Jackson RM. Towards a structural classification of phosphate binding sites in protein-nucleotide complexes: an automated all-against-all structural comparison using geometric matching. Proteins. 2004;56:250\u2013260.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "18487048",
+          "unstructured": "Brown MRW, Kornberg A. The long and short of it - polyphosphate, PPK and bacterial survival. Trends in Biochem. Sci. 2008;33:284\u2013290.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "14623182",
+          "unstructured": "Cammer SA, et al. Structure-based active site profiles for genome analysis and functional family subclassification. J. Mol. Biol. 2003;334:387\u2013401.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "12831892",
+          "unstructured": "Campbell SJ, et al. Ligand binding: functional site location, similarity and docking. Curr. Opin. Struct. Biol. 2003;13:389\u2013395.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "15759639",
+          "unstructured": "Chen BY, et al. Algorithms for structural comparison and statistical analysis of 3D protein motifs. Pac. Symp. Biocomput. 2005;10:334\u2013345.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "16959887",
+          "unstructured": "Choi I-G, Kim S-H. Evolution of protein structural classes and protein sequence families. Proc. Natl Acad. Sci. USA. 2006;103:14056\u201314061.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "7952899",
+          "unstructured": "Claverie JM. Some useful statistical properties of position-weight matrices. Comput. Chem. 1994;18:287\u2013294.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "17893083",
+          "unstructured": "Davies JR, et al. The Poisson Index: a new probabilistic model for protein ligand binding site similarity. Bioinformatics. 2007;23:3001\u20133008.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "12464489",
+          "unstructured": "Deb DK, et al. Selective identification of new therapeutic targets of Mycobacterium tuberculosis by IVIAT approach. Tuberculosis. 2002;82:175\u2013182.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "15608185",
+          "unstructured": "Deshpande N, et al. The RCSB Protein Data Bank: a redesigned query system and relational database based on the mmCIF schema. Nucleic Acids Res. 2005;33:D233\u2013D237.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "15279553",
+          "unstructured": "Dobson PD, et al. Prediction of protein function in the absence of significant sequence similarity. Curr. Med. Chem. 2004;11:2135\u20132142.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "17166515",
+          "unstructured": "Fong JH, et al. Modeling the evolution of protein domain architectures using maximum parsimony. J. Mol. Biol. 2007;366:307\u2013315.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "16084393",
+          "unstructured": "Friedberg I, Godzik A. Connecting the protein structure universe by using sparse recurring fragments. Structure. 2005;13:1213\u20131224.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "11395407",
+          "unstructured": "Gerlt JA, Babbitt PC. Divergent evolution of enzymatic function: mechanistically diverse superfamilies and functionally distinct suprafamilies. Annu. Rev. Biochem. 2001;70:209\u2013246.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "17681532",
+          "unstructured": "Gherardini PF, et al. Convergent evolution of enzyme active sites is not a rare phenomenon. J. Mol. Biol. 2007;372:817\u2013845.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Green PJ. Bayesian alignment using hierarchical models, with applications in protein bioinformatics. Biometrika. 2006;93:235\u2013254.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "11551177",
+          "unstructured": "Grishin NV. Fold change in evolution of protein structures. J. Struct. Biol. 2001;134:167\u2013185.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "17942422",
+          "unstructured": "Gunther S, et al. SuperTarget and Matador: resources for exploring drug-target relationships. Nucleic Acids Res. 2008;36:D919\u2013D922.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "1438297",
+          "unstructured": "Henikoff S, Henikoff JG. Amino acid substitution matrices from protein blocks. Proc. Natl Acad. Sci. USA. 1992;89:10915\u201310919.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "15215447",
+          "unstructured": "Ivanisenko VA, et al. PDBSiteScan: a program for searching for active, binding and posttranslational modification sites in the 3D structures of proteins. Nucleic Acids Res. 2004;32:W549\u2013W554.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "12833538",
+          "unstructured": "Jambon M, et al. A new bioinformatic approach to detect common 3D sites in protein structures. Proteins. 2003;52:137\u2013145.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "16878362",
+          "unstructured": "Johnson R, et al. Drug resistance in Mycobacterium tuberculosis. Curr. Issues Mol. Biol. 2006;8:97\u2013111.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "19578428",
+          "unstructured": "Kinnings S, et al. Drug discovery using chemical systems biology: discovery of novel drug leads to treat multi-drug and extensively drug resistant tuberculosis by repositioning safe pharmaceuticals. PLoS Comp. Biol. 2009 manuscript submitted.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "12836670",
+          "unstructured": "Kinoshita K, et al. Identification of protein functions from a molecular surface database, eF-site. J. Struc. Func. Genomics. 2001;2:9\u201322.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "12876308",
+          "unstructured": "Kinoshita K, Nakamura H. Identification of protein biochemical functions by similarity search using the molecular surface database eF-site. Protein Sci. 2003;12:1589\u20131595.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "17318209",
+          "unstructured": "Kitano H. A robustness-based approach to systems-oriented drug design. Nat. Rev. Drug Discov. 2007;6:202\u2013210.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "9917419",
+          "unstructured": "Kleywegt GJ. Recognition of spatial motifs in protein structures. J. Mol. Biol. 1999;285:1887\u20131897.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "16678402",
+          "unstructured": "Kolodny R, et al. Protein structure comparison: implications for the nature of \u2018fold space\u2019, and structure and function prediction. Curr. Opin. Struct. Biol. 2006;16:393\u2013398.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "16697007",
+          "unstructured": "Kuhn D, et al. From the similarity analysis of protein cavities to the functional classification of protein families using cavbase. J. Mol. Biol. 2006;359:1023\u20131044.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Kumlander D. A new exact algorithm for the maximum-weight clique problem based on a heuristic vertex-coloring and a backtrack search. 4th European Congress of Mathematics. 2004;127:77\u201387.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "16019027",
+          "unstructured": "Laskowski RA, et al. Protein function prediction using local 3D templates. J. Mol. Biol. 2005;351:614\u2013626.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "9600892",
+          "unstructured": "Levitt M, Gerstein M. A unified statistical framework for sequence comparison and structure comparison. Proc. Natl. Acad. Sci. USA. 1998;95:5913\u20135920.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "17640336",
+          "unstructured": "Mardia KV, et al. Bayesian refinement of protein functional site matching. BMC Bioinformatics. 2007;8:257.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "5023183",
+          "unstructured": "McLachlan AD. Repeating sequences and gene duplication in proteins. J. Mol. Biol. 1972;64:417\u2013437.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "15146493",
+          "unstructured": "Meng EC, et al. Superfamily active site templates. Proteins. 2004;55:962\u2013976.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "15728116",
+          "unstructured": "Morris RJ, et al. Real Spherical harmonic expansion coefficients as 3D shape descriptors for protein binding pocket and ligand comparisons. Bioinformatics. 2005;21:2347\u20132355.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "16759863",
+          "unstructured": "Nguyen L, Thompson CJ. Foundations of antibiotic resistance in bacterial physiology: the mycobacterial paradigm. Trends Microbiol. 2006;14:304\u2013312.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Ostergard PRJ. A new algorithm for the maximum-weight clique problem. Nordic J. Comput. 2001;8:424\u2013436.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Ostergard PRJ. A fast algorithm for the maximum clique problem. Discrete Appl. Math. 2002;120:195\u2013205.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "17008712",
+          "unstructured": "Pan JL, Bardwell JCA. The origami of thioredoxin-like folds. Protein Sci. 2006;15:2217\u20132227.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "15456910",
+          "unstructured": "Pazos F, Sternberg MJE. Automated prediction of protein function and detection of functional sites from structure. Proc. Natl Acad. Sci. USA. 2004;101:14754\u201314759.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "9514730",
+          "unstructured": "Pearson WR. Empirical statistical estimates for sequence similarity searches. J. Mol. Biol. 1998;276:71\u201384.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "11765855",
+          "unstructured": "Pickering SJ, et al. AI-based algorithms for protein surface comparison. Comput. Chem. 2001;26:79\u201384.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "16862592",
+          "unstructured": "Powers R, et al. Comparsion of protein active site structures for functional annotation of proteins and drug design. Proteins: Struct. Funct. Bioinform. 2006;65:124\u2013135.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "19105810",
+          "unstructured": "Raman K, Chandra N. Mycobacterium tuberculosis interactome analysis unravels potential pathways to drug resistance. BMC Microbiol. 2008;8:234.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "16780872",
+          "unstructured": "Reeves GA, et al. Structural diversity of domain superfamilies in the CATH database. J. Mol. Biol. 2006;360:725\u2013741.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "17611072",
+          "unstructured": "Ribeiro-Guimar\u00e3es ML, Pessolani MC. Comparative genomics of mycobacterial proteases. Microb. Pathog. 2007;43:173\u2013178.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "9642096",
+          "unstructured": "Russell RB. Detection of protein three-dimensional side-chain patterns: new examples of convergent evolution. J. Mol. Biol. 1998;279:1211\u20131227.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "16244704",
+          "unstructured": "Scheeff ED, Bourne PE. Structural evolution of the protein kinase-like supefamily. PLoS Comp. Biol. 2005;1:e49.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "12381328",
+          "unstructured": "Schmitt S, et al. A new method to detect related function among proteins independent of sequence and fold homology. J. Mol. Biol. 2003;323:387\u2013406.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "10713986",
+          "unstructured": "Shindyalov IN, Bourne PE. An alternative view of protein fold space. Proteins. 2000;38:247\u2013260.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "15147845",
+          "unstructured": "Shulman-Peleg A, et al. Recognition of functional sites in protein structures. J. Mol. Biol. 2004;339:607\u2013633.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "15644202",
+          "unstructured": "Siggers TW, et al. Structural alignment of protein\u2013DNA interfaces: insights into the determinants of binding specificity. J. Mol. Biol. 2005;345:1027\u20131045.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "17710101",
+          "unstructured": "Smith PA, Romesberg FE. Combating bacteria and drug resistance by inhibiting mechanisms of persistence and adaptation. Nat. Chem. Biol. 2007;3:549\u2013556.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "7265238",
+          "unstructured": "Smith TF, Waterman MS. Identification of common molecular subsequences. J. Mol. Biol. 1981;147:195\u2013197.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "12824322",
+          "unstructured": "Stark A, Russell RB. Annotation in three dimensions. PINTS: patterns in non-homologous tertiary structures. Nucleic Acids Res. 2003;31:3341\u20133344.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "12595245",
+          "unstructured": "Stark A, et al. A model for statistical significance of local similarities in structure. J. Mol. Biol. 2003;326:1307\u20131316.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "16457842",
+          "unstructured": "Taylor WR. Decoy models for protein structure score normalisation. J. Mol. Biol. 2006;357:676\u2013699.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "17580115",
+          "unstructured": "Taylor WR. Evolutionary transitions in protein fold space. Curr. Opin. Struct. Biol. 2007;17:354\u2013361.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "15755451",
+          "unstructured": "Torrance JW, et al. Using a library of structural templates to recognise catalytic sites and explore their evolution in homologous families. J. Mol. Biol. 2005;347:565\u2013581.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "19154742",
+          "unstructured": "Tseng YY, et al. Predicting protein function and binding profile via matching of local evolutionary and geometric surface patterns. J. Mol. Biol. 2009;387:451\u2013464.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "16251508",
+          "unstructured": "Tseng YY, Liang J. Estimation of amino acid residue substitution rates at local spatial regions and application in protein function inference: a Bayesian Monte Carlo approach. Mol. Biol. Evol. 2006;23:421\u2013436.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "9385633",
+          "unstructured": "Wallace AC, et al. TESS: a geometric hashing algorithm for deriving 3D coordinate templates for searching structural databases. Application to enzyme active sites. Protein Sci. 1997;6:2308\u20132323.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "14736236",
+          "unstructured": "Weber A, et al. Unexpected nanomolar inhibition of carbonic anhydrase by COX-2-selective celecoxib: new pharmacological opportunities due to related binding site recognition. J. Med. Chem. 2004;47:550\u2013557.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "15961490",
+          "unstructured": "Winstanley HF, et al. How old is your fold? Bioinformatics. 2005;21(Suppl. 1):i449\u2013i485.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "16118666",
+          "unstructured": "Xie L, Bourne PE. Functional coverage of the human genome by existing structures, structural genomics targets, and homology models. PLoS Comp. Biol. 2005;1:e31.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "18385384",
+          "unstructured": "Xie L, Bourne PE. Detecting evolutionary relationships across existing fold space, using sequence order-independent profile\u2013profile alignments. Proc. Natl. Acad. Sci. USA. 2008;105:5441\u20135446.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "19436720",
+          "unstructured": "Xie L, et al. Drug discovery using chemical systems biology: identification of the protein-ligand binding network to explain the side effects of CETP inhibitors. PLoS Comp. Biol. 2009 in press.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "18052534",
+          "unstructured": "Xie L, et al. In silico elucidation of the molecular mechanism defining the adverse effect of selective estrogen receptor modulators. PLoS Comp. Biol. 2007;3:e217.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "16299776",
+          "unstructured": "Zhang Z, Grigorov MG. Similarity networks of protein binding sites. Proteins: Struct. Funct. Bioinform. 2006;62:470\u2013478.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "16860582",
+          "unstructured": "Zsoldos Z, et al. eHiTS: A new fast, exhaustive flexible ligand docking system. J. Mol. Graph Model. 2007;26:198\u2013212.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "R01 GM078596",
+          "agency": "NIGMS NIH HHS",
+          "agency_abbreviation": "GM",
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "source": "entrez"
+        },
+        {
+          "grant_id": "GM078596",
+          "agency": "NIGMS NIH HHS",
+          "agency_abbreviation": "GM",
+          "pi_names": [],
+          "jurisdiction": "United States",
+          "source": "entrez"
+        }
+      ],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Binding Sites",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Computational Biology",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Drug Discovery",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Genome",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Ligands",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Models, Statistical",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Mycobacterium tuberculosis",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Proteins",
+          "scheme": "MeSH",
+          "source": "entrez"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Binding Sites",
+          "descriptor_ui": "D001665",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "descriptor_ui": "D019295",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "descriptor_ui": "D019295",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Drug Discovery",
+          "descriptor_ui": "D055808",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Drug Discovery",
+          "descriptor_ui": "D055808",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Genome",
+          "descriptor_ui": "D016678",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Ligands",
+          "descriptor_ui": "D008024",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Models, Statistical",
+          "descriptor_ui": "D015233",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Mycobacterium tuberculosis",
+          "descriptor_ui": "D009169",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Mycobacterium tuberculosis",
+          "descriptor_ui": "D009169",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Mycobacterium tuberculosis",
+          "descriptor_ui": "D009169",
+          "qualifier_name": "metabolism",
+          "qualifier_ui": "Q000378",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "descriptor_ui": "D011506",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "descriptor_ui": "D011506",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": true,
+          "source": "entrez"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [
+        {
+          "name": "Ligands",
+          "registry_number": "0",
+          "substance_ui": "D008024"
+        },
+        {
+          "name": "Proteins",
+          "registry_number": "0",
+          "substance_ui": "D011506"
+        }
+      ],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {
+        "entrez": "2009-05-30",
+        "pubmed": "2009-05-30",
+        "medline": "2009-07-22",
+        "pmc-release": "2009-05-27"
+      },
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "publication_status": "ppublish",
+      "country_of_publication": "England",
+      "nlm_journal_id": "9808944",
+      "medline_ta": "Bioinformatics",
+      "citation_subsets": [
+        "IM"
+      ],
+      "pii": "btp220",
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1093/bioinformatics/btp220",
+    "pmid": "19478004",
+    "pmcid": "PMC2687974",
+    "mag_id": "2133035849",
+    "openalex_id": "https://openalex.org/W2133035849",
+    "pii": "btp220",
+    "nlm_unique_id": "9808944",
+    "handles": [],
+    "orcids": [
+      "0000-0001-9051-2111",
+      "0000-0002-7618-7292",
+      "0000-0003-3658-2535"
+    ],
+    "ror_ids": [
+      "https://ror.org/0168r3w48",
+      "https://ror.org/04mg3nk07"
+    ],
+    "grant_ids": [
+      "5R01GM078596-03",
+      "GM078596",
+      "R01 GM078596"
+    ],
+    "nct_ids": [],
+    "pmid_source": "entrez",
+    "pmcid_source": "entrez"
+  },
+  "conflicts": {
+    "doi": "10.1093/bioinformatics/btp220",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 86,
+          "openalex": 96,
+          "europe_pmc": 69,
+          "openaire": 90
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 80,
+          "openalex": 87,
+          "entrez": 80
+        },
+        "risk": "low"
+      },
+      {
+        "field": "oa_status",
+        "values": {
+          "openalex": "hybrid",
+          "unpaywall": "hybrid",
+          "openaire": "gold"
+        },
+        "risk": "medium"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article",
+          "openaire": "publication",
+          "entrez": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Oxford University Press (OUP)",
+          "openalex": "https://openalex.org/P4310311648",
+          "unpaywall": "Oxford University Press (OUP)",
+          "openaire": "Oxford University Press (OUP)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Bioinformatics",
+          "openalex": "Bioinformatics",
+          "unpaywall": "Bioinformatics",
+          "europe_pmc": "Bioinformatics (Oxford, England)",
+          "entrez": "Bioinformatics (Oxford, England)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "mesh_term_count",
+        "values": {
+          "openalex": 36,
+          "europe_pmc": 13,
+          "entrez": 13
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng",
+          "openaire": "eng",
+          "entrez": "eng"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "grant_count",
+        "values": {
+          "europe_pmc": 2,
+          "openaire": 1,
+          "entrez": 2
+        },
+        "risk": "medium"
+      }
+    ],
+    "agreement_count": 2,
+    "conflict_count": 9
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1093/bioinformatics/btp220",
+    "fetched_at": "2026-02-11T20:45:57.154054+00:00"
+  }
+}

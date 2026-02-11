@@ -1,0 +1,2935 @@
+{
+  "doi": "10.1186/s13059-019-1832-y",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T16:01:17.888370Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "OrthoFinder: phylogenetic orthology inference for comparative genomics",
+      "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Here, we present a major advance of the OrthoFinder method. This extends OrthoFinder\u2019s high accuracy orthogroup inference to provide phylogenetic inference of orthologs, rooted gene trees, gene duplication events, the rooted species tree, and comparative genomics statistics. Each output is benchmarked on appropriate real or simulated datasets, and where comparable methods exist, OrthoFinder is equivalent to or outperforms these methods. Furthermore, OrthoFinder is the most accurate ortholog inference method on the Quest for Orthologs benchmark test. Finally, OrthoFinder\u2019s comprehensive phylogenetic analysis is achieved with equivalent speed and scalability to the fastest, score-based heuristic methods. OrthoFinder is available at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/davidemms/OrthoFinder\">https://github.com/davidemms/OrthoFinder</jats:ext-link>\n                    .\n                  </jats:p>",
+      "publication_date": "2019-11-14",
+      "publication_year": 2019,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Springer Science and Business Media LLC",
+      "container_title": "Genome Biology",
+      "volume": "20",
+      "issue": "1",
+      "pages": "238",
+      "issn": [
+        "1474-760X"
+      ],
+      "doi": "10.1186/s13059-019-1832-y",
+      "authors": [
+        {
+          "name": {
+            "given": "David M.",
+            "family": "Emms",
+            "full_name": "David M. Emms",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Steven",
+            "family": "Kelly",
+            "full_name": "Steven Kelly",
+            "sequence": "additional",
+            "orcid": "0000-0001-8583-5362",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 6233,
+      "reference_count": 46,
+      "references": [
+        {
+          "doi": "10.1038/nmeth.3830",
+          "year": 2016,
+          "author": "AM Altenhoff",
+          "unstructured": "Altenhoff AM, Boeckmann B, Capella-Gutierrez S, Dalquen DA, DeLuca T, Forslund K, Huerta-Cepas J, Linard B, Pereira C, Pryszcz LP, et al. Standardized benchmarking in the quest for orthologs. Nature Methods. 2016;13:425.",
+          "key": "1832_CR1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3389/fgene.2017.00165",
+          "year": 2017,
+          "author": "BTL Nichio",
+          "unstructured": "Nichio BTL, Marchaukoski JN, Raittz RT. New tools in orthology analysis: a brief review of promising perspectives. Front Genet. 2017;8:165.",
+          "key": "1832_CR2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bib/bbr030",
+          "year": 2011,
+          "author": "DM Kristensen",
+          "unstructured": "Kristensen DM, Wolf YI, Mushegian AR, Koonin EV. Computational methods for gene orthology inference. Brief Bioinform. 2011;12:379\u201391.",
+          "key": "1832_CR3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-10-421",
+          "year": 2009,
+          "author": "C Camacho",
+          "unstructured": "Camacho C, Coulouris G, Avagyan V, Ma N, Papadopoulos J, Bealer K, Madden TL. BLAST+: architecture and applications. BMC Bioinformatics. 2009;10:421.",
+          "key": "1832_CR4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nmeth.3176",
+          "year": 2015,
+          "author": "B Buchfink",
+          "unstructured": "Buchfink B, Xie C, Huson DH. Fast and sensitive protein alignment using DIAMOND. Nat Methods. 2015;12:59\u201360.",
+          "key": "1832_CR5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nbt.3988",
+          "year": 2017,
+          "author": "M Steinegger",
+          "unstructured": "Steinegger M, Soding J. MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets. Nat Biotechnol. 2017;35:1026\u20138.",
+          "key": "1832_CR6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkp931",
+          "year": 2010,
+          "author": "G Ostlund",
+          "unstructured": "Ostlund G, Schmitt T, Forslund K, Kostler T, Messina DN, Roopra S, Frings O, Sonnhammer ELL. InParanoid 7: new algorithms and tools for eukaryotic orthology analysis. Nucleic Acids Res. 2010;38:D196\u2013203.",
+          "key": "1832_CR7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/gr.1224503",
+          "year": 2003,
+          "author": "L Li",
+          "unstructured": "Li L, Stoeckert CJ, Roos DS. OrthoMCL: identification of ortholog groups for eukaryotic genomes. Genome Res. 2003;13:2178\u201389.",
+          "key": "1832_CR8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkq1238",
+          "year": 2011,
+          "author": "AM Altenhoff",
+          "unstructured": "Altenhoff AM, Schneider A, Gonnet GH, Dessimoz C. OMA 2011: orthology inference among 1000 complete genomes. Nucleic Acids Res. 2011;39:D289\u201394.",
+          "key": "1832_CR9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s13059-015-0721-2",
+          "year": 2015,
+          "author": "DM Emms",
+          "unstructured": "Emms DM, Kelly S. OrthoFinder: solving fundamental biases in whole genome comparisons dramatically improves orthogroup inference accuracy. Genome Biol. 2015;16:157.",
+          "key": "1832_CR10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/bies.201100062",
+          "year": 2011,
+          "author": "K Trachana",
+          "unstructured": "Trachana K, Larsson TA, Powell S, Chen WH, Doerks T, Muller J, Bork P. Orthology prediction methods: a quality assessment using curated protein families. Bioessays. 2011;33:769\u201380.",
+          "key": "1832_CR11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/bty631",
+          "year": 2019,
+          "author": "S Cosentino",
+          "unstructured": "Cosentino S, Iwasaki W. SonicParanoid: fast, accurate and easy orthology inference. Bioinformatics. 2019;35:149\u201351.",
+          "key": "1832_CR12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-12-11",
+          "year": 2011,
+          "author": "B Linard",
+          "unstructured": "Linard B, Thompson JD, Poch O, Lecompte O. OrthoInspector: comprehensive orthology analysis and visual exploration. Bmc Bioinformatics. 2011;12:11.",
+          "key": "1832_CR13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/bty242",
+          "year": 2018,
+          "author": "M Lafond",
+          "unstructured": "Lafond M, Miardan MM, Sankoff D. Accurate prediction of orthologs in the presence of divergence after duplication. Bioinformatics. 2018;34:366\u201375.",
+          "key": "1832_CR14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.2307/2412448",
+          "year": 1970,
+          "author": "WM Fitch",
+          "unstructured": "Fitch WM. Distinguishing homologous from analogous proteins. Sys Zool. 1970;19:99.",
+          "key": "1832_CR15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1006/jmbi.2000.5197",
+          "year": 2001,
+          "author": "M Remm",
+          "unstructured": "Remm M, Storm CEV, Sonnhammer ELL. Automatic clustering of orthologs and in-paralogs from pairwise species comparisons. J Mol Biol. 2001;314:1041\u201352.",
+          "key": "1832_CR16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/gbe/evt132",
+          "year": 2013,
+          "author": "DA Dalquen",
+          "unstructured": "Dalquen DA, Dessimoz C. Bidirectional best hits miss many orthologs in duplication-rich clades such as plants and animals. Genome Biol Evol. 2013;5:1800\u20136.",
+          "key": "1832_CR17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkt1177",
+          "year": 2014,
+          "author": "J Huerta-Cepas",
+          "unstructured": "Huerta-Cepas J, Capella-Gutierrez S, Pryszcz LP, Marcet-Houben M, Gabaldon T. PhylomeDB v4: zooming into the plurality of evolutionary histories of a genome. Nucleic Acids Res. 2014;42:D897\u2013902.",
+          "key": "1832_CR18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/database/baw053",
+          "year": 2016,
+          "author": "Javier Herrero",
+          "unstructured": "Herrero J, Muffato M, Beal K, Fitzgerald S, Gordon L, Pignatelli M, Vilella AJ, Searle SMJ, Amode R, Brent S, et al. Ensembl comparative genomics resources. Database. 2016;2016:baw053. https://academic.oup.com/database/article/doi/10.1093/database/baw053/2630361.",
+          "key": "1832_CR19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkt1253",
+          "year": 2014,
+          "author": "S Powell",
+          "unstructured": "Powell S, Forslund K, Szklarczyk D, Trachana K, Roth A, Huerta-Cepas J, Gabaldon T, Rattei T, Creevey C, Kuhn M, et al. eggNOG v4.0: nested orthology inference across 3686 organisms. Nucleic Acids Res. 2014;42:D231\u20139.",
+          "key": "1832_CR20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkj118",
+          "year": 2006,
+          "author": "H Li",
+          "unstructured": "Li H, Coghlan A, Ruan J, Coin LJ, Heriche JK, Osmotherly L, Li RQ, Liu T, Zhang Z, Bolund L, et al. TreeFam: a curated database of phylogenetic trees of animal gene families. Nucleic Acids Res. 2006;34:D572\u201380.",
+          "key": "1832_CR21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/molbev/msx259",
+          "year": 2017,
+          "author": "DM Emms",
+          "unstructured": "Emms DM, Kelly S. STRIDE: species tree root inference from gene duplication events. Mol Biol Evol. 2017;34(12):3267\u201378.",
+          "key": "1832_CR22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jmb.2013.02.018",
+          "year": 2013,
+          "author": "F Schreiber",
+          "unstructured": "Schreiber F, Sonnhammer ELL. Hieranoid: hierarchical orthology inference. J Mol Biol. 2013;425:2072\u201381.",
+          "key": "1832_CR23",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pone.0058537",
+          "year": 2013,
+          "author": "S Kelly",
+          "unstructured": "Kelly S, Maini PK. DendroBLAST: approximate phylogenetic trees in the absence of multiple sequence alignments. PLoS One. 2013;8:e58537.",
+          "key": "1832_CR24",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pone.0009490",
+          "year": 2010,
+          "author": "MN Price",
+          "unstructured": "Price MN, Dehal PS, Arkin AP. FastTree 2-approximately maximum-likelihood trees for large alignments. PLoS One. 2010;5:e9490.",
+          "key": "1832_CR25",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/molbev/msv150",
+          "year": 2015,
+          "author": "V Lefort",
+          "unstructured": "Lefort V, Desper R, Gascuel O. FastME 2.0: a comprehensive, accurate, and fast distance-based phylogeny inference program. Mol Biol Evol. 2015;32:2798\u2013800.",
+          "key": "1832_CR26",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/molbev/msu300",
+          "year": 2015,
+          "author": "LT Nguyen",
+          "unstructured": "Nguyen LT, Schmidt HA, von Haeseler A, Minh BQ. IQ-TREE: a fast and effective stochastic algorithm for estimating maximum-likelihood phylogenies. Mol Biol Evol. 2015;32:268\u201374.",
+          "key": "1832_CR27",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btu033",
+          "year": 2014,
+          "author": "A Stamatakis",
+          "unstructured": "Stamatakis A. RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies. Bioinformatics. 2014;30:1312\u20133.",
+          "key": "1832_CR28",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/17.9.821",
+          "year": 2001,
+          "author": "CM Zmasek",
+          "unstructured": "Zmasek CM, Eddy SR. A simple algorithm to infer gene duplication and speciation events on a gene tree. Bioinformatics. 2001;17:821\u20138.",
+          "key": "1832_CR29",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1089/106652700750050871",
+          "year": 2000,
+          "author": "K Chen",
+          "unstructured": "Chen K, Durand D, Farach-Colton M. NOTUNG: a program for dating gene duplications and optimizing gene family trees. J Comput Biol. 2000;7:429\u201347.",
+          "key": "1832_CR30",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/gb-2007-8-6-r109",
+          "unstructured": "Huerta-Cepas J, Dopazo H, Dopazo J, Gabaldon T. The human phylome. Genome Biol. 2007;8(6):R109.",
+          "key": "1832_CR31",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/gr.161968.113",
+          "year": 2014,
+          "author": "YC Wu",
+          "unstructured": "Wu YC, Rasmussen MD, Bansal MS, Kellis M. Most parsimonious reconciliation in the presence of gene duplication, loss, and deep coalescence using labeled coalescent trees. Genome Res. 2014;24:475\u201386.",
+          "key": "1832_CR32",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/267914",
+          "unstructured": "Emms D, Kelly S. STAG: species tree inference from all genes. bioRxiv. 2018. https://www.biorxiv.org/content/10.1101/267914v1.",
+          "key": "1832_CR33",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/gr.141978.112",
+          "year": 2013,
+          "author": "B Boussau",
+          "unstructured": "Boussau B, Szollosi GJ, Duret L, Gouy M, Tannier E, Daubin V. Genome-scale coestimation of species and gene trees. Genome Res. 2013;23:323\u201330.",
+          "key": "1832_CR34",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/molbev/mst010",
+          "year": 2013,
+          "author": "K Katoh",
+          "unstructured": "Katoh K, Standley DM. MAFFT multiple sequence alignment software version 7: improvements in performance and usability. Mol Biol Evol. 2013;30:772\u201380.",
+          "key": "1832_CR35",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pone.0018093",
+          "year": 2011,
+          "author": "JD Thompson",
+          "unstructured": "Thompson JD, Linard B, Lecompte O, Poch O. A comprehensive benchmark study of multiple sequence alignment methods: current challenges and future perspectives. PLoS One. 2011;6:e18093.",
+          "key": "1832_CR36",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/molbev/msx302",
+          "year": 2018,
+          "author": "XF Zhou",
+          "unstructured": "Zhou XF, Shen XX, Hittinger CT, Rokas A. Evaluating fast maximum likelihood-based phylogenetic programs using empirical phylogenomic data sets. Mol Biol Evol. 2018;35:486\u2013503.",
+          "key": "1832_CR37",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btv234",
+          "year": 2015,
+          "author": "S Mirarab",
+          "unstructured": "Mirarab S, Warnow T. ASTRAL-II: coalescent-based species tree estimation with many hundreds of taxa and thousands of genes. Bioinformatics. 2015;31:44\u201352.",
+          "key": "1832_CR38",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/sysbio/syr027",
+          "year": 2011,
+          "author": "L Liu",
+          "unstructured": "Liu L, Yu LL. Estimating species trees from unrooted gene trees. Syst Biol. 2011;60:661\u20137.",
+          "key": "1832_CR39",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nature12130",
+          "year": 2013,
+          "author": "L Salichos",
+          "unstructured": "Salichos L, Rokas A. Inferring ancient divergences requires genes with strong phylogenetic signals. Nature. 2013;497:327.",
+          "key": "1832_CR40",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/molbev/msw046",
+          "year": 2016,
+          "author": "J Huerta-Cepas",
+          "unstructured": "Huerta-Cepas J, Serra F, Bork P: ETE 3: Reconstruction, Analysis, and Visualization of Phylogenomic Data. Molecular Biology and Evolution 2016, 33:1635\u201338.",
+          "key": "1832_CR41",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2011,
+          "author": "O Tange",
+          "unstructured": "Tange O. GNU Parallel - the command-line power tool. login. 2011;36:42\u20137.",
+          "key": "1832_CR42",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Emms D, Kelly S: Supplemental dataset for: OrthoFinder2: fast and accurate phylogenomic orthology analysis from gene sequences. https://doi.org/10.5281/zenodo.1481147 2019.",
+          "key": "1832_CR43",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btu613",
+          "year": 2015,
+          "author": "A Yates",
+          "unstructured": "Yates A, Beal K, Keenan S, McLaren W, Pignatelli M, Ritchie GRS, Ruffier M, Taylor K, Vullo A, Flicek P. The Ensembl REST API: Ensembl data for any language. Bioinformatics. 2015;31:143\u20135.",
+          "key": "1832_CR44",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gku1010",
+          "year": 2015,
+          "author": "F Cunningham",
+          "unstructured": "Cunningham F, Amode MR, Barrell D, Beal K, Billis K, Brent S, Carvalho-Silva D, Clapham P, Coates G, Fitzgerald S, et al. Ensembl 2015. Nucleic Acids Res. 2015;43:D662\u20139.",
+          "key": "1832_CR45",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Emms D, Kelly S: OrthoFinder. GitHub. https://github.com/davidemms/OrthoFinder. 2019. Accessed 21 Oct 2019.",
+          "key": "1832_CR46",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "http://link.springer.com/content/pdf/10.1186/s13059-019-1832-y.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "http://link.springer.com/article/10.1186/s13059-019-1832-y/fulltext.html",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "http://link.springer.com/content/pdf/10.1186/s13059-019-1832-y.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [
+        {
+          "name": "ERC",
+          "award_numbers": [
+            "637765"
+          ],
+          "source": "crossref"
+        },
+        {
+          "name": "Royal Society",
+          "doi": "10.13039/501100000288",
+          "award_numbers": [
+            "UF140484"
+          ],
+          "source": "crossref"
+        }
+      ],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "http://creativecommons.org/licenses/by/4.0/",
+          "content_version": "tdm",
+          "delay_in_days": 0,
+          "source": "crossref"
+        },
+        {
+          "url": "http://creativecommons.org/licenses/by/4.0/",
+          "content_version": "vor",
+          "delay_in_days": 0,
+          "source": "crossref"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [
+        {
+          "value": "24 April 2019",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "23 September 2019",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "14 November 2019",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "Not applicable",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Ethics approval and consent to participate"
+          }
+        },
+        {
+          "value": "Not applicable",
+          "order": 2,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Consent for publication"
+          }
+        },
+        {
+          "value": "The authors declare that they have no competing interests.",
+          "order": 3,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/s13059-019-1832-y",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "OrthoFinder: phylogenetic orthology inference for comparative genomics",
+      "publication_date": "2019-11-14",
+      "publication_year": 2019,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310320256",
+      "container_title": "Genome biology",
+      "volume": "20",
+      "issue": "1",
+      "pages": "238-238",
+      "issn": [
+        "1474-7596",
+        "1474-760X"
+      ],
+      "doi": "10.1186/s13059-019-1832-y",
+      "pmid": "31727128",
+      "openalex_id": "https://openalex.org/W2988396470",
+      "authors": [
+        {
+          "name": {
+            "full_name": "David Emms",
+            "orcid": "0000-0002-9065-8978",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Oxford",
+              "ror_id": "https://ror.org/052gg0110",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5042815594",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Steven Kelly",
+            "orcid": "0000-0001-8583-5362",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Oxford",
+              "ror_id": "https://ror.org/052gg0110",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5016652002",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 7234,
+      "reference_count": 47,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2026": 158,
+        "2025": 1731,
+        "2024": 1868,
+        "2023": 1315,
+        "2022": 1080,
+        "2021": 764,
+        "2020": 293,
+        "2019": 19,
+        "2012": 2
+      },
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1186/s13059-019-1832-y",
+          "landing_page_url": "https://doi.org/10.1186/s13059-019-1832-y",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310320256",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1186/s13059-019-1832-y",
+          "landing_page_url": "https://doi.org/10.1186/s13059-019-1832-y",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310320256",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31727128",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/31727128",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doaj.org/article/0de4906a857d467bbd24644546ae2a00",
+          "landing_page_url": "https://doaj.org/article/0de4906a857d467bbd24644546ae2a00",
+          "host_type": "journal",
+          "version": "submittedVersion",
+          "license": "cc-by-sa",
+          "is_best": false,
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6857279",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6857279",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://doi.org/10.1186/s13059-019-1832-y",
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "cc-by",
+          "source": "openalex"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Genomics and Phylogenetic Studies",
+          "scheme": "openalex_topic",
+          "score": 1.0,
+          "source": "openalex"
+        },
+        {
+          "value": "Chromosomal and Genetic Variations",
+          "scheme": "openalex_topic",
+          "score": 0.9857000112533569,
+          "source": "openalex"
+        },
+        {
+          "value": "Genetic diversity and population structure",
+          "scheme": "openalex_topic",
+          "score": 0.9851999878883362,
+          "source": "openalex"
+        },
+        {
+          "value": "Inference",
+          "scheme": "openalex_concept",
+          "score": 0.8001891374588013,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Phylogenetic tree",
+          "scheme": "openalex_concept",
+          "score": 0.7741521596908569,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Biology",
+          "scheme": "openalex_concept",
+          "score": 0.7217409014701843,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Genomics",
+          "scheme": "openalex_concept",
+          "score": 0.5913063883781433,
+          "level": 4,
+          "source": "openalex"
+        },
+        {
+          "value": "Computational biology",
+          "scheme": "openalex_concept",
+          "score": 0.5905303955078125,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Comparative genomics",
+          "scheme": "openalex_concept",
+          "score": 0.5664157867431641,
+          "level": 5,
+          "source": "openalex"
+        },
+        {
+          "value": "Benchmark (surveying)",
+          "scheme": "openalex_concept",
+          "score": 0.550642728805542,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Heuristic",
+          "scheme": "openalex_concept",
+          "score": 0.5351200103759766,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Tree (set theory)",
+          "scheme": "openalex_concept",
+          "score": 0.5226621031761169,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Phylogenetic network",
+          "scheme": "openalex_concept",
+          "score": 0.48612213134765625,
+          "level": 4,
+          "source": "openalex"
+        },
+        {
+          "value": "Phylogenetics",
+          "scheme": "openalex_concept",
+          "score": 0.43961483240127563,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Scalability",
+          "scheme": "openalex_concept",
+          "score": 0.42988649010658264,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Evolutionary biology",
+          "scheme": "openalex_concept",
+          "score": 0.362934410572052,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Gene",
+          "scheme": "openalex_concept",
+          "score": 0.35051971673965454,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Genetics",
+          "scheme": "openalex_concept",
+          "score": 0.30477026104927063,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Genome",
+          "scheme": "openalex_concept",
+          "score": 0.29520392417907715,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.28717517852783203,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Artificial intelligence",
+          "scheme": "openalex_concept",
+          "score": 0.2711603045463562,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Mathematics",
+          "scheme": "openalex_concept",
+          "score": 0.12334787845611572,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Database",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Geography",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Geodesy",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Mathematical analysis",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Animals",
+          "descriptor_ui": "D000818",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Animals",
+          "descriptor_ui": "D000818",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Animals",
+          "descriptor_ui": "D000818",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Phylogeny",
+          "descriptor_ui": "D010802",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Phylogeny",
+          "descriptor_ui": "D010802",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Phylogeny",
+          "descriptor_ui": "D010802",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genomics",
+          "descriptor_ui": "D023281",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genomics",
+          "descriptor_ui": "D023281",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genomics",
+          "descriptor_ui": "D023281",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        }
+      ],
+      "keywords": [
+        "Inference",
+        "Phylogenetic tree",
+        "Biology",
+        "Genomics",
+        "Computational biology",
+        "Comparative genomics",
+        "Benchmark (surveying)",
+        "Heuristic",
+        "Tree (set theory)",
+        "Phylogenetic network",
+        "Phylogenetics",
+        "Scalability",
+        "Evolutionary biology",
+        "Gene",
+        "Genetics",
+        "Genome",
+        "Computer science",
+        "Artificial intelligence",
+        "Mathematics"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 236.50206265,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.99995662,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 5030.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/s13059-019-1832-y",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "OrthoFinder: phylogenetic orthology inference for comparative genomics",
+      "publication_date": "2019-11-14",
+      "publication_year": 2019,
+      "work_type": "journal-article",
+      "publisher": "Springer Science and Business Media LLC",
+      "container_title": "Genome biology",
+      "issn": [
+        "1474-760X",
+        "1474-7596"
+      ],
+      "doi": "10.1186/s13059-019-1832-y",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1186/s13059-019-1832-y",
+          "landing_page_url": "https://doi.org/10.1186/s13059-019-1832-y",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://doi.org/10.1186/s13059-019-1832-y",
+          "landing_page_url": "https://doi.org/10.1186/s13059-019-1832-y",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://doaj.org/article/0de4906a857d467bbd24644546ae2a00",
+          "landing_page_url": "https://doaj.org/article/0de4906a857d467bbd24644546ae2a00",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by-sa",
+          "evidence": "deprecated",
+          "is_best": false,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6857279",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6857279",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://doi.org/10.1186/s13059-019-1832-y",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/s13059-019-1832-y",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openaire": {
+      "source": "openaire",
+      "found": true,
+      "raw": {},
+      "title": "OrthoFinder: phylogenetic orthology inference for comparative genomics",
+      "abstract": "<jats:title>Abstract</jats:title>                   <jats:p>                     Here, we present a major advance of the OrthoFinder method. This extends OrthoFinder\u2019s high accuracy orthogroup inference to provide phylogenetic inference of orthologs, rooted gene trees, gene duplication events, the rooted species tree, and comparative genomics statistics. Each output is benchmarked on appropriate real or simulated datasets, and where comparable methods exist, OrthoFinder is equivalent to or outperforms these methods. Furthermore, OrthoFinder is the most accurate ortholog inference method on the Quest for Orthologs benchmark test. Finally, OrthoFinder\u2019s comprehensive phylogenetic analysis is achieved with equivalent speed and scalability to the fastest, score-based heuristic methods. OrthoFinder is available at                     <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/davidemms/OrthoFinder\">https://github.com/davidemms/OrthoFinder</jats:ext-link>                     .                   </jats:p>",
+      "publication_date": "2018-11-08",
+      "publication_year": 2018,
+      "work_type": "publication",
+      "language": "eng",
+      "publisher": "Springer Science and Business Media LLC",
+      "issn": [],
+      "doi": "10.1186/s13059-019-1832-y",
+      "pmid": "31727128",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Emms, David M.",
+            "orcid": "0000-0002-9065-8978",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kelly, Steven",
+            "orcid": "0000-0001-8583-5362",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "citation_count": 5681,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1186/s13059-019-1832-y",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1186/s13059-019-1832-y",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1101/466201",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1186/s13059-019-1832-y",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31727128",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1186/s13059-019-1832-y",
+          "version": "Other literature type",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doaj.org/article/0de4906a857d467bbd24644546ae2a00",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://dx.doi.org/10.1186/s13059-019-1832-y",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://dx.doi.org/10.1101/466201",
+          "version": "Other literature type",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1186/s13059-019-1832-y",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://ora.ox.ac.uk/objects/uuid:e1a3543f-2dca-4023-99e3-6a0e228a8d2d",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1186/s13059-019-1832-y",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1101/466201",
+          "version": "Preprint",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1186/s13059-019-1832-y",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "637765",
+          "agency": "European Commission",
+          "title": "Characterising the Gene Regulatory Networks Governing Photosynthesis: From Basic Understanding to Targeted Engineering",
+          "pi_names": [],
+          "openaire_project_id": "corda__h2020::2da135cb6c183f48773ce1a7242955c1",
+          "source": "openaire"
+        }
+      ],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "0301 basic medicine",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "2. Zero hunger",
+          "scheme": "SDG",
+          "source": "openaire"
+        },
+        {
+          "value": "0303 health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "Gene tree inference",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Gene duplication",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "QH301-705.5",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Comparative genomics",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Ortholog inference",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Genomics",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "QH426-470",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "03 medical and health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "Genetics",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Animals",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Biology (General)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Algorithms",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Phylogeny",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Software",
+          "scheme": "keyword",
+          "source": "openaire"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "bip_citationCount",
+          "value": 5681.0,
+          "class_label": "C1",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_influence",
+          "value": 1.2643316e-07,
+          "class_label": "C2",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_popularity",
+          "value": 4.1242242e-06,
+          "class_label": "C1",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_impulse",
+          "value": 825.0,
+          "class_label": "C1",
+          "source": "openaire"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [
+        {
+          "grant_id": "637765",
+          "agency": "European Commission",
+          "title": "Characterising the Gene Regulatory Networks Governing Photosynthesis: From Basic Understanding to Targeted Engineering",
+          "pi_names": [],
+          "openaire_project_id": "corda__h2020::2da135cb6c183f48773ce1a7242955c1",
+          "source": "openaire"
+        }
+      ],
+      "alternate_ids": [
+        "doi:10.1186/s13059-019-1832-y",
+        "doi:10.1101/466201",
+        "doi:10.1186/s13059-019-1832-y",
+        "pmid:31727128",
+        "pmc:PMC6857279",
+        "doi:10.1186/s13059-019-1832-y",
+        "doi:10.1186/s13059-019-1832-y",
+        "mag_id:2988396470",
+        "doi:10.1186/s13059-019-1832-y",
+        "mag_id:3103762826",
+        "doi:10.1101/466201",
+        "pmid:31727128",
+        "doi:10.1186/s13059-019-1832-y",
+        "doi:10.1186/s13059-019-1832-y",
+        "doi:10.1101/466201",
+        "doi:10.1186/s13059-019-1832-y"
+      ],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/s13059-019-1832-y",
+      "pmid": "23671333",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/s13059-019-1832-y",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/s13059-019-1832-y",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/s13059-019-1832-y",
+      "authors": [
+        {
+          "name": {
+            "given": "Steven",
+            "family": "Kelly",
+            "full_name": "Steven Kelly",
+            "orcid": "0000-0001-8583-5362",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0001-8583-5362",
+          "given_names": "Steven",
+          "family_names": "Kelly",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "University of Oxford"
+          ],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": true,
+      "raw": {},
+      "title": "OrthoFinder: phylogenetic orthology inference for comparative genomics.",
+      "abstract": "Here, we present a major advance of the OrthoFinder method. This extends OrthoFinder's high accuracy orthogroup inference to provide phylogenetic inference of orthologs, rooted gene trees, gene duplication events, the rooted species tree, and comparative genomics statistics. Each output is benchmarked on appropriate real or simulated datasets, and where comparable methods exist, OrthoFinder is equivalent to or outperforms these methods. Furthermore, OrthoFinder is the most accurate ortholog inference method on the Quest for Orthologs benchmark test. Finally, OrthoFinder's comprehensive phylogenetic analysis is achieved with equivalent speed and scalability to the fastest, score-based heuristic methods. OrthoFinder is available at https://github.com/davidemms/OrthoFinder.",
+      "publication_date": "2019-Nov-14",
+      "publication_year": 2019,
+      "work_type": "journal-article",
+      "language": "eng",
+      "container_title": "Genome biology",
+      "volume": "20",
+      "issue": "1",
+      "pages": "238",
+      "issn": [
+        "1474-760X",
+        "1474-7596"
+      ],
+      "doi": "10.1186/s13059-019-1832-y",
+      "pmid": "31727128",
+      "pmcid": "PMC6857279",
+      "authors": [
+        {
+          "name": {
+            "given": "David M",
+            "family": "Emms",
+            "full_name": "David M Emms",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Plant Sciences, University of Oxford, South Parks Road, Oxford, OX1 3RB, UK.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Steven",
+            "family": "Kelly",
+            "full_name": "Steven Kelly",
+            "sequence": "additional",
+            "orcid": "0000-0001-8583-5362",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Plant Sciences, University of Oxford, South Parks Road, Oxford, OX1 3RB, UK. steven.kelly@plants.ox.ac.uk.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        }
+      ],
+      "reference_count": 46,
+      "references": [
+        {
+          "doi": "10.1038/nmeth.3830",
+          "pmid": "27043882",
+          "unstructured": "Altenhoff AM, Boeckmann B, Capella-Gutierrez S, Dalquen DA, DeLuca T, Forslund K, Huerta-Cepas J, Linard B, Pereira C, Pryszcz LP, et al. Standardized benchmarking in the quest for orthologs. Nature Methods. 2016;13:425. doi: 10.1038/nmeth.3830.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.3389/fgene.2017.00165",
+          "pmid": "29163633",
+          "unstructured": "Nichio BTL, Marchaukoski JN, Raittz RT. New tools in orthology analysis: a brief review of promising perspectives. Front Genet. 2017;8:165. doi: 10.3389/fgene.2017.00165.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/bib/bbr030",
+          "pmid": "21690100",
+          "unstructured": "Kristensen DM, Wolf YI, Mushegian AR, Koonin EV. Computational methods for gene orthology inference. Brief Bioinform. 2011;12:379\u2013391. doi: 10.1093/bib/bbr030.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1186/1471-2105-10-421",
+          "pmid": "20003500",
+          "unstructured": "Camacho C, Coulouris G, Avagyan V, Ma N, Papadopoulos J, Bealer K, Madden TL. BLAST+: architecture and applications. BMC Bioinformatics. 2009;10:421. doi: 10.1186/1471-2105-10-421.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1038/nmeth.3176",
+          "pmid": "25402007",
+          "unstructured": "Buchfink B, Xie C, Huson DH. Fast and sensitive protein alignment using DIAMOND. Nat Methods. 2015;12:59\u201360. doi: 10.1038/nmeth.3176.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1038/nbt.3988",
+          "pmid": "29035372",
+          "unstructured": "Steinegger M, Soding J. MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets. Nat Biotechnol. 2017;35:1026\u20131028. doi: 10.1038/nbt.3988.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/nar/gkp931",
+          "pmid": "19892828",
+          "unstructured": "Ostlund G, Schmitt T, Forslund K, Kostler T, Messina DN, Roopra S, Frings O, Sonnhammer ELL. InParanoid 7: new algorithms and tools for eukaryotic orthology analysis. Nucleic Acids Res. 2010;38:D196\u2013D203. doi: 10.1093/nar/gkp931.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1101/gr.1224503",
+          "pmid": "12952885",
+          "unstructured": "Li L, Stoeckert CJ, Roos DS. OrthoMCL: identification of ortholog groups for eukaryotic genomes. Genome Res. 2003;13:2178\u20132189. doi: 10.1101/gr.1224503.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/nar/gkq1238",
+          "pmid": "21113020",
+          "unstructured": "Altenhoff AM, Schneider A, Gonnet GH, Dessimoz C. OMA 2011: orthology inference among 1000 complete genomes. Nucleic Acids Res. 2011;39:D289\u2013D294. doi: 10.1093/nar/gkq1238.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1186/s13059-015-0721-2",
+          "pmid": "26243257",
+          "unstructured": "Emms DM, Kelly S. OrthoFinder: solving fundamental biases in whole genome comparisons dramatically improves orthogroup inference accuracy. Genome Biol. 2015;16:157. doi: 10.1186/s13059-015-0721-2.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1002/bies.201100062",
+          "pmid": "21853451",
+          "unstructured": "Trachana K, Larsson TA, Powell S, Chen WH, Doerks T, Muller J, Bork P. Orthology prediction methods: a quality assessment using curated protein families. Bioessays. 2011;33:769\u2013780. doi: 10.1002/bies.201100062.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/bioinformatics/bty631",
+          "pmid": "30032301",
+          "unstructured": "Cosentino S, Iwasaki W. SonicParanoid: fast, accurate and easy orthology inference. Bioinformatics. 2019;35:149\u2013151. doi: 10.1093/bioinformatics/bty631.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1186/1471-2105-12-11",
+          "pmid": "21219603",
+          "unstructured": "Linard B, Thompson JD, Poch O, Lecompte O. OrthoInspector: comprehensive orthology analysis and visual exploration. Bmc Bioinformatics. 2011;12:11. doi: 10.1186/1471-2105-12-11.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/bioinformatics/bty242",
+          "pmid": "29950018",
+          "unstructured": "Lafond M, Miardan MM, Sankoff D. Accurate prediction of orthologs in the presence of divergence after duplication. Bioinformatics. 2018;34:366\u2013375. doi: 10.1093/bioinformatics/bty242.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.2307/2412448",
+          "pmid": "5449325",
+          "unstructured": "Fitch WM. Distinguishing homologous from analogous proteins. Sys Zool. 1970;19:99. doi: 10.2307/2412448.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1006/jmbi.2000.5197",
+          "pmid": "11743721",
+          "unstructured": "Remm M, Storm CEV, Sonnhammer ELL. Automatic clustering of orthologs and in-paralogs from pairwise species comparisons. J Mol Biol. 2001;314:1041\u20131052. doi: 10.1006/jmbi.2000.5197.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/gbe/evt132",
+          "pmid": "24013106",
+          "unstructured": "Dalquen DA, Dessimoz C. Bidirectional best hits miss many orthologs in duplication-rich clades such as plants and animals. Genome Biol Evol. 2013;5:1800\u20131806. doi: 10.1093/gbe/evt132.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/nar/gkt1177",
+          "pmid": "24275491",
+          "unstructured": "Huerta-Cepas J, Capella-Gutierrez S, Pryszcz LP, Marcet-Houben M, Gabaldon T. PhylomeDB v4: zooming into the plurality of evolutionary histories of a genome. Nucleic Acids Res. 2014;42:D897\u2013D902. doi: 10.1093/nar/gkt1177.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/database/baw053",
+          "pmid": "27141089",
+          "unstructured": "Herrero Javier, Muffato Matthieu, Beal Kathryn, Fitzgerald Stephen, Gordon Leo, Pignatelli Miguel, Vilella Albert J., Searle Stephen M. J., Amode Ridwan, Brent Simon, Spooner William, Kulesha Eugene, Yates Andrew, Flicek Paul. Ensembl comparative genomics resources. Database. 2016;2016:baw053. doi: 10.1093/database/baw053.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/nar/gkt1253",
+          "pmid": "24297252",
+          "unstructured": "Powell S, Forslund K, Szklarczyk D, Trachana K, Roth A, Huerta-Cepas J, Gabaldon T, Rattei T, Creevey C, Kuhn M, et al. eggNOG v4.0: nested orthology inference across 3686 organisms. Nucleic Acids Res. 2014;42:D231\u2013D239. doi: 10.1093/nar/gkt1253.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/nar/gkj118",
+          "pmid": "16381935",
+          "unstructured": "Li H, Coghlan A, Ruan J, Coin LJ, Heriche JK, Osmotherly L, Li RQ, Liu T, Zhang Z, Bolund L, et al. TreeFam: a curated database of phylogenetic trees of animal gene families. Nucleic Acids Res. 2006;34:D572\u2013D580. doi: 10.1093/nar/gkj118.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/molbev/msx259",
+          "pmid": "29029342",
+          "unstructured": "Emms DM, Kelly S. STRIDE: species tree root inference from gene duplication events. Mol Biol Evol. 2017;34(12):3267\u20133278. doi: 10.1093/molbev/msx259.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1016/j.jmb.2013.02.018",
+          "pmid": "23485417",
+          "unstructured": "Schreiber F, Sonnhammer ELL. Hieranoid: hierarchical orthology inference. J Mol Biol. 2013;425:2072\u20132081. doi: 10.1016/j.jmb.2013.02.018.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1371/journal.pone.0058537",
+          "pmid": "23554899",
+          "unstructured": "Kelly S, Maini PK. DendroBLAST: approximate phylogenetic trees in the absence of multiple sequence alignments. PLoS One. 2013;8:e58537. doi: 10.1371/journal.pone.0058537.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1371/journal.pone.0009490",
+          "pmid": "20224823",
+          "unstructured": "Price MN, Dehal PS, Arkin AP. FastTree 2-approximately maximum-likelihood trees for large alignments. PLoS One. 2010;5:e9490. doi: 10.1371/journal.pone.0009490.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/molbev/msv150",
+          "pmid": "26130081",
+          "unstructured": "Lefort V, Desper R, Gascuel O. FastME 2.0: a comprehensive, accurate, and fast distance-based phylogeny inference program. Mol Biol Evol. 2015;32:2798\u20132800. doi: 10.1093/molbev/msv150.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/molbev/msu300",
+          "pmid": "25371430",
+          "unstructured": "Nguyen LT, Schmidt HA, von Haeseler A, Minh BQ. IQ-TREE: a fast and effective stochastic algorithm for estimating maximum-likelihood phylogenies. Mol Biol Evol. 2015;32:268\u2013274. doi: 10.1093/molbev/msu300.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btu033",
+          "pmid": "24451623",
+          "unstructured": "Stamatakis A. RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies. Bioinformatics. 2014;30:1312\u20131313. doi: 10.1093/bioinformatics/btu033.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/bioinformatics/17.9.821",
+          "pmid": "11590098",
+          "unstructured": "Zmasek CM, Eddy SR. A simple algorithm to infer gene duplication and speciation events on a gene tree. Bioinformatics. 2001;17:821\u2013828. doi: 10.1093/bioinformatics/17.9.821.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1089/106652700750050871",
+          "pmid": "11108472",
+          "unstructured": "Chen K, Durand D, Farach-Colton M. NOTUNG: a program for dating gene duplications and optimizing gene family trees. J Comput Biol. 2000;7:429\u2013447. doi: 10.1089/106652700750050871.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "17567924",
+          "unstructured": "Huerta-Cepas J, Dopazo H, Dopazo J, Gabaldon T. The human phylome. Genome Biol. 2007;8(6):R109.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1101/gr.161968.113",
+          "pmid": "24310000",
+          "unstructured": "Wu YC, Rasmussen MD, Bansal MS, Kellis M. Most parsimonious reconciliation in the presence of gene duplication, loss, and deep coalescence using labeled coalescent trees. Genome Res. 2014;24:475\u2013486. doi: 10.1101/gr.161968.113.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1101/267914v1",
+          "unstructured": "Emms D, Kelly S. STAG: species tree inference from all genes. bioRxiv. 2018. https://www.biorxiv.org/content/10.1101/267914v1.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1101/gr.141978.112",
+          "pmid": "23132911",
+          "unstructured": "Boussau B, Szollosi GJ, Duret L, Gouy M, Tannier E, Daubin V. Genome-scale coestimation of species and gene trees. Genome Res. 2013;23:323\u2013330. doi: 10.1101/gr.141978.112.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/molbev/mst010",
+          "pmid": "23329690",
+          "unstructured": "Katoh K, Standley DM. MAFFT multiple sequence alignment software version 7: improvements in performance and usability. Mol Biol Evol. 2013;30:772\u2013780. doi: 10.1093/molbev/mst010.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1371/journal.pone.0018093",
+          "pmid": "21483869",
+          "unstructured": "Thompson JD, Linard B, Lecompte O, Poch O. A comprehensive benchmark study of multiple sequence alignment methods: current challenges and future perspectives. PLoS One. 2011;6:e18093. doi: 10.1371/journal.pone.0018093.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/molbev/msx302",
+          "pmid": "29177474",
+          "unstructured": "Zhou XF, Shen XX, Hittinger CT, Rokas A. Evaluating fast maximum likelihood-based phylogenetic programs using empirical phylogenomic data sets. Mol Biol Evol. 2018;35:486\u2013503. doi: 10.1093/molbev/msx302.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btv234",
+          "pmid": "26072508",
+          "unstructured": "Mirarab S, Warnow T. ASTRAL-II: coalescent-based species tree estimation with many hundreds of taxa and thousands of genes. Bioinformatics. 2015;31:44\u201352. doi: 10.1093/bioinformatics/btv234.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/sysbio/syr027",
+          "pmid": "21447481",
+          "unstructured": "Liu L, Yu LL. Estimating species trees from unrooted gene trees. Syst Biol. 2011;60:661\u2013667. doi: 10.1093/sysbio/syr027.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1038/nature12130",
+          "pmid": "23657258",
+          "unstructured": "Salichos L, Rokas A. Inferring ancient divergences requires genes with strong phylogenetic signals. Nature. 2013;497:327. doi: 10.1038/nature12130.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/molbev/msw046",
+          "pmid": "26921390",
+          "unstructured": "Huerta-Cepas J, Serra F, Bork P. ETE 3: Reconstruction, Analysis, and Visualization of Phylogenomic Data. Molecular Biology and Evolution. 2016;33:1635\u20131638. doi: 10.1093/molbev/msw046.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Tange O. GNU Parallel - the command-line power tool. login. 2011;36:42\u201347.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Emms D, Kelly S: Supplemental dataset for: OrthoFinder2: fast and accurate phylogenomic orthology analysis from gene sequences. https://doi.org/10.5281/zenodo.1481147 2019.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btu613",
+          "pmid": "25236461",
+          "unstructured": "Yates A, Beal K, Keenan S, McLaren W, Pignatelli M, Ritchie GRS, Ruffier M, Taylor K, Vullo A, Flicek P. The Ensembl REST API: Ensembl data for any language. Bioinformatics. 2015;31:143\u2013145. doi: 10.1093/bioinformatics/btu613.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/nar/gku1010",
+          "pmid": "25352552",
+          "unstructured": "Cunningham F, Amode MR, Barrell D, Beal K, Billis K, Brent S, Carvalho-Silva D, Clapham P, Coates G, Fitzgerald S, et al. Ensembl 2015. Nucleic Acids Res. 2015;43:D662\u2013D669. doi: 10.1093/nar/gku1010.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Emms D, Kelly S: OrthoFinder. GitHub. https://github.com/davidemms/OrthoFinder. 2019. Accessed 21 Oct 2019.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Algorithms",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Animals",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Genomics",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Phylogeny",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Software",
+          "scheme": "MeSH",
+          "source": "entrez"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Animals",
+          "descriptor_ui": "D000818",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Genomics",
+          "descriptor_ui": "D023281",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Genomics",
+          "descriptor_ui": "D023281",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Phylogeny",
+          "descriptor_ui": "D010802",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "entrez"
+        }
+      ],
+      "keywords": [
+        "Comparative genomics",
+        "Gene duplication",
+        "Gene tree inference",
+        "Ortholog inference"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [
+        "Evaluation Study",
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {
+        "received": "2019-04-24",
+        "accepted": "2019-09-23",
+        "entrez": "2019-11-16",
+        "pubmed": "2019-11-16",
+        "medline": "2020-02-06",
+        "pmc-release": "2019-11-14"
+      },
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "publication_status": "epublish",
+      "country_of_publication": "England",
+      "nlm_journal_id": "100960660",
+      "medline_ta": "Genome Biol",
+      "citation_subsets": [
+        "IM"
+      ],
+      "pii": "238",
+      "electronic_publication_date": "2019-11-14",
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1186/s13059-019-1832-y",
+    "pmid": "31727128",
+    "pmcid": "PMC6857279",
+    "mag_id": "3103762826",
+    "openalex_id": "https://openalex.org/W2988396470",
+    "pii": "238",
+    "nlm_unique_id": "100960660",
+    "handles": [],
+    "orcids": [
+      "0000-0001-8583-5362",
+      "0000-0002-9065-8978"
+    ],
+    "ror_ids": [
+      "https://ror.org/052gg0110"
+    ],
+    "grant_ids": [
+      "637765"
+    ],
+    "nct_ids": [],
+    "pmid_source": "entrez",
+    "pmcid_source": "entrez"
+  },
+  "conflicts": {
+    "doi": "10.1186/s13059-019-1832-y",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 6233,
+          "openalex": 7234,
+          "openaire": 5681
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 46,
+          "openalex": 47,
+          "entrez": 46
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publication_year",
+        "values": {
+          "crossref": 2019,
+          "openalex": 2019,
+          "unpaywall": 2019,
+          "openaire": 2018,
+          "entrez": 2019
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article",
+          "openaire": "publication",
+          "entrez": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 2,
+          "openalex": 2,
+          "unpaywall": 2,
+          "openaire": 2,
+          "orcid": 1,
+          "entrez": 2
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Springer Science and Business Media LLC",
+          "openalex": "https://openalex.org/P4310320256",
+          "unpaywall": "Springer Science and Business Media LLC",
+          "openaire": "Springer Science and Business Media LLC"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Genome Biology",
+          "openalex": "Genome biology",
+          "unpaywall": "Genome biology",
+          "entrez": "Genome biology"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "mesh_term_count",
+        "values": {
+          "openalex": 15,
+          "entrez": 6
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "openaire": "eng",
+          "entrez": "eng"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 1,
+    "conflict_count": 9
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1186/s13059-019-1832-y",
+    "fetched_at": "2026-02-11T16:01:17.890277+00:00"
+  }
+}

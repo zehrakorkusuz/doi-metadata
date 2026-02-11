@@ -1,0 +1,1498 @@
+{
+  "doi": "10.6084/m9.figshare.5104873.v1",
+  "registration_agency": "datacite",
+  "retrieved_at": "2026-02-11T13:10:57.752990Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.6084/m9.figshare.5104873.v1",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": true,
+      "raw": {},
+      "title": "Chemical reactions from US patents (1976-Sep2016)",
+      "abstract": "Reactions extracted by text-mining from United States patents published between 1976 and September 2016. The reactions are available as CML or reaction SMILES. Note that the reactions SMILES are derived from the CML. The files can be unzipped using a program like 7-Zip.<br><br>The reactions were extracted using an enhanced version of the reaction extraction code described in https://www.repository.cam.ac.uk/handle/1810/244727<br>with LeadMine (https://www.nextmovesoftware.com/leadmine.html) used for chemical entity recognition.<br><br>General tips:<br>Duplicate reactions are frequent due to the same or highly similar text occurring in multiple patents, this is especially true when combining the applications and grant datasets, many reactions from applications will later appear in patent grants.<br>Paragraph numbers are only present for 2005+ patent grants and patent applications.<br>Multiple reactions can be extracted from the same paragraph.<br>Atom maps in the reactions SMILES are derived using Epam's Indigo toolkit. While typically correct, the atom-maps are wrong in many cases and hence should not be entirely relied on.<br><br>The reactions have been filtered to remove common cases of incorrectly extracted reactions:<br>All product atoms must be accounted for by the atom-mapping<br>The product(s) must have &gt;8 heavy atoms<br>The product must not be charged if it is a single component<br>The number of products must be &lt;5 and number of reactants+agents &lt;16<br><br>CML:<br>A schema for the CML is present in cml_xsd.zip<br><br>Reaction SMILES<br>For convenience the reaction SMILES includes tab delimited columns for:<br>PatentNumber, ParagraphNum, Year, TextMinedYield, CalculatedYield<br>All of this information is also present in the CML (year is inferred from the folders)<br><br><br><br><br>",
+      "publication_date": "2017",
+      "publication_year": 2017,
+      "work_type": "Dataset",
+      "publisher": "figshare",
+      "issn": [],
+      "doi": "10.6084/m9.figshare.5104873.v1",
+      "authors": [
+        {
+          "name": {
+            "given": "Daniel",
+            "family": "Lowe",
+            "full_name": "Lowe, Daniel",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        }
+      ],
+      "citation_count": 50,
+      "reference_count": 0,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "spdx_id": "cc0-1.0",
+          "source": "datacite"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Cheminformatics",
+          "source": "datacite"
+        },
+        {
+          "value": "30503 Organic Chemical Synthesis",
+          "scheme": "FOR",
+          "source": "datacite"
+        },
+        {
+          "value": "FOS: Chemical sciences",
+          "scheme": "Fields of Science and Technology (FOS)",
+          "source": "datacite"
+        },
+        {
+          "value": "FOS: Chemical sciences",
+          "scheme": "Fields of Science and Technology (FOS)",
+          "source": "datacite"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [
+        {
+          "identifier": "10.6084/m9.figshare.5104873",
+          "identifier_type": "DOI",
+          "relation_type": "IsIdenticalTo",
+          "source": "datacite"
+        }
+      ],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "view_count",
+          "value": 2543.0,
+          "source": "datacite"
+        },
+        {
+          "name": "download_count",
+          "value": 540.0,
+          "source": "datacite"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "Chemical reactions from US patents (1976-Sep2016)",
+      "abstract": "Reactions extracted by text-mining from United States patents published between 1976 and September 2016. The reactions are available as CML or reaction SMILES. Note that the reactions SMILES are derived from the CML. The files can be unzipped using a program like 7-Zip.<br><br>The reactions were extracted using an enhanced version of the reaction extraction code described in https://www.repository.cam.ac.uk/handle/1810/244727<br>with LeadMine (https://www.nextmovesoftware.com/leadmine.html) used for chemical entity recognition.<br><br>General tips:<br>Duplicate reactions are frequent due to the same or highly similar text occurring in multiple patents, this is especially true when combining the applications and grant datasets, many reactions from applications will later appear in patent grants.<br>Paragraph numbers are only present for 2005+ patent grants and patent applications.<br>Multiple reactions can be extracted from the same paragraph.<br>Atom maps in the reactions SMILES are derived using Epam's Indigo toolkit. While typically correct, the atom-maps are wrong in many cases and hence should not be entirely relied on.<br><br>The reactions have been filtered to remove common cases of incorrectly extracted reactions:<br>All product atoms must be accounted for by the atom-mapping<br>The product(s) must have &gt;8 heavy atoms<br>The product must not be charged if it is a single component<br>The number of products must be &lt;5 and number of reactants+agents &lt;16<br><br>CML:<br>A schema for the CML is present in cml_xsd.zip<br><br>Reaction SMILES<br>For convenience the reaction SMILES includes tab delimited columns for:<br>PatentNumber, ParagraphNum, Year, TextMinedYield, CalculatedYield<br>All of this information is also present in the CML (year is inferred from the folders)<br><br><br><br><br>",
+      "publication_date": "2017-01-01",
+      "publication_year": 2017,
+      "work_type": "dataset",
+      "language": "en",
+      "publisher": "https://openalex.org/I196829312",
+      "container_title": "OPAL (Open@LaTrobe) (La Trobe University)",
+      "issn": [],
+      "doi": "10.6084/m9.figshare.5104873.v1",
+      "openalex_id": "https://openalex.org/W6977367121",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Lowe, Daniel",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": true,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 88,
+      "reference_count": 0,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {
+        "2026": 2,
+        "2025": 15,
+        "2024": 13,
+        "2023": 24,
+        "2022": 14,
+        "2021": 9,
+        "2020": 8,
+        "2019": 3
+      },
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_locations": [
+        {
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/I196829312",
+          "source": "openalex"
+        },
+        {
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I196829312",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.6084/m9.figshare.5104873.v1",
+          "landing_page_url": "https://doi.org/10.6084/m9.figshare.5104873.v1",
+          "license": "public-domain",
+          "is_best": false,
+          "source": "openalex"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Military Technology and Strategies",
+          "scheme": "openalex_topic",
+          "score": 0.0210999995470047,
+          "source": "openalex"
+        },
+        {
+          "value": "Legal and Regulatory Analysis",
+          "scheme": "openalex_topic",
+          "score": 0.013100000098347664,
+          "source": "openalex"
+        },
+        {
+          "value": "Linguistic, Cultural, and Literary Studies",
+          "scheme": "openalex_topic",
+          "score": 0.01080000028014183,
+          "source": "openalex"
+        },
+        {
+          "value": "Chemical reaction",
+          "scheme": "openalex_concept",
+          "score": 0.5145000219345093,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.42890000343322754,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Chemistry",
+          "scheme": "openalex_concept",
+          "score": 0.42309999465942383,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Product (mathematics)",
+          "scheme": "openalex_concept",
+          "score": 0.4088999927043915,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Drug reaction",
+          "scheme": "openalex_concept",
+          "score": 0.32749998569488525,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Chain reaction",
+          "scheme": "openalex_concept",
+          "score": 0.296099990606308,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Nuclear reaction",
+          "scheme": "openalex_concept",
+          "score": 0.28209999203681946,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Schema (genetic algorithms)",
+          "scheme": "openalex_concept",
+          "score": 0.2727000117301941,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Skin reaction",
+          "scheme": "openalex_concept",
+          "score": 0.26829999685287476,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Organic reaction",
+          "scheme": "openalex_concept",
+          "score": 0.24480000138282776,
+          "level": 3,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Chemical reaction",
+        "Product (mathematics)",
+        "Drug reaction",
+        "Chain reaction",
+        "Nuclear reaction"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.6084/m9.figshare.5104873.v1",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.6084/m9.figshare.5104873.v1",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.6084/m9.figshare.5104873.v1",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.6084/m9.figshare.5104873.v1",
+      "pmid": "23671333",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.6084/m9.figshare.5104873.v1",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.6084/m9.figshare.5104873.v1",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.6084/m9.figshare.5104873.v1",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.6084/m9.figshare.5104873.v1",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.6084/m9.figshare.5104873.v1",
+    "pmid": "23671333",
+    "openalex_id": "https://openalex.org/W6977367121",
+    "handles": [],
+    "orcids": [],
+    "ror_ids": [],
+    "grant_ids": [],
+    "nct_ids": [],
+    "pmid_source": "nih_reporter"
+  },
+  "conflicts": {
+    "doi": "10.6084/m9.figshare.5104873.v1",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "datacite": 50,
+          "openalex": 88
+        },
+        "risk": "high"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "datacite": "Dataset",
+          "openalex": "dataset"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "datacite": "figshare",
+          "openalex": "https://openalex.org/I196829312"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 3,
+    "conflict_count": 3
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {
+      "doi": "10.6084/m9.figshare.5104873.v1",
+      "citation_comparison": {
+        "values": {
+          "datacite": 50,
+          "openalex": 88
+        },
+        "min": 50,
+        "max": 88,
+        "spread": 38,
+        "median": 88
+      },
+      "citation_trend": [
+        {
+          "year": 2019,
+          "count": 3
+        },
+        {
+          "year": 2020,
+          "count": 8
+        },
+        {
+          "year": 2021,
+          "count": 9
+        },
+        {
+          "year": 2022,
+          "count": 14
+        },
+        {
+          "year": 2023,
+          "count": 24
+        },
+        {
+          "year": 2024,
+          "count": 13
+        },
+        {
+          "year": 2025,
+          "count": 15
+        },
+        {
+          "year": 2026,
+          "count": 2
+        }
+      ],
+      "trend_direction": "declining",
+      "dataset_reuse_count": 0,
+      "narrative": "Cited ~88 times across sources. (counts range 50\u201388, significant cross-source divergence). Citation trend: declining."
+    },
+    "funding": {
+      "doi": "10.6084/m9.figshare.5104873.v1",
+      "total_funders": 0,
+      "total_grants": 0,
+      "entries": [],
+      "nih_grants": [],
+      "eu_grants": [],
+      "other_grants": [],
+      "funding_agencies": [],
+      "narrative": "No funding information found."
+    },
+    "dataset_reuse": {
+      "doi": "10.6084/m9.figshare.5104873.v1",
+      "datacite_linked_datasets": [],
+      "datacite_linked_count": 0,
+      "publishers_breakdown": {},
+      "supplements_to": [],
+      "supplemented_by": [],
+      "cites": [],
+      "cited_by": [],
+      "derived_from": [],
+      "source_of": [],
+      "parts": [],
+      "other_relations": [
+        {
+          "identifier": "10.6084/m9.figshare.5104873",
+          "identifier_type": "DOI",
+          "relation_type": "IsIdenticalTo",
+          "sources": [
+            "datacite"
+          ]
+        }
+      ],
+      "related_software": [],
+      "related_data": [],
+      "file_count": 0,
+      "file_types": [],
+      "narrative": "No dataset reuse information found."
+    },
+    "authors": {
+      "doi": "10.6084/m9.figshare.5104873.v1",
+      "authors": [
+        {
+          "given": "Daniel",
+          "family": "Lowe",
+          "full_name": "Lowe, Daniel",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Lowe, Daniel",
+          "authenticated_orcid": false,
+          "is_corresponding": true,
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        }
+      ],
+      "total_authors": 2,
+      "authors_with_orcid": 0,
+      "authors_with_authenticated_orcid": 0,
+      "unique_institutions": [],
+      "unique_countries": [],
+      "orcid_coverage": 0.0,
+      "author_count_by_source": {
+        "datacite": 1,
+        "openalex": 1
+      },
+      "narrative": "2 unique authors across 2 sources."
+    },
+    "grant_siblings": {
+      "doi": "10.6084/m9.figshare.5104873.v1",
+      "grants_with_siblings": [],
+      "total_sibling_pmids": 0,
+      "unique_sibling_pmids": 0,
+      "most_prolific_count": 0,
+      "multi_grant_pmids": 0,
+      "narrative": "No grant sibling information found."
+    },
+    "oa_audit": {
+      "doi": "10.6084/m9.figshare.5104873.v1",
+      "source_claims": [
+        {
+          "source": "openalex",
+          "is_oa": true,
+          "oa_status": "green",
+          "version": "publishedVersion",
+          "host_type": "repository"
+        }
+      ],
+      "consensus_is_oa": true,
+      "consensus_status": "green",
+      "status_agrees": true,
+      "all_locations": [
+        {
+          "url": "https://doi.org/10.6084/m9.figshare.5104873.v1",
+          "license": "public-domain",
+          "is_best": false,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "total_locations": 1,
+      "has_publisher_version": false,
+      "has_accepted_manuscript": false,
+      "has_repository_copy": false,
+      "licenses_found": [
+        "cc0-1.0",
+        "public-domain"
+      ],
+      "status_conflict": false,
+      "conflicting_statuses": {},
+      "narrative": "Open Access (green). 1 unique OA locations found. Licenses: cc0-1.0, public-domain."
+    },
+    "topics": {
+      "doi": "10.6084/m9.figshare.5104873.v1",
+      "fields_of_study": [
+        {
+          "value": "Military Technology and Strategies",
+          "scheme": "openalex_topic",
+          "score": 0.0210999995470047,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Legal and Regulatory Analysis",
+          "scheme": "openalex_topic",
+          "score": 0.013100000098347664,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Linguistic, Cultural, and Literary Studies",
+          "scheme": "openalex_topic",
+          "score": 0.01080000028014183,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "30503 Organic Chemical Synthesis",
+          "scheme": "FOR",
+          "is_major": false,
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "value": "FOS: Chemical sciences",
+          "scheme": "Fields of Science and Technology (FOS)",
+          "is_major": false,
+          "sources": [
+            "datacite"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "value": "Cheminformatics",
+          "is_major": false,
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "value": "Chemical reaction",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Product (mathematics)",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Drug reaction",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Chain reaction",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Nuclear reaction",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "sdg_mappings": [],
+      "openalex_concepts": [
+        {
+          "value": "Chemical reaction",
+          "scheme": "openalex_concept",
+          "score": 0.5145000219345093,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Product (mathematics)",
+          "scheme": "openalex_concept",
+          "score": 0.4088999927043915,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Chain reaction",
+          "scheme": "openalex_concept",
+          "score": 0.296099990606308,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Nuclear reaction",
+          "scheme": "openalex_concept",
+          "score": 0.28209999203681946,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Schema (genetic algorithms)",
+          "scheme": "openalex_concept",
+          "score": 0.2727000117301941,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Skin reaction",
+          "scheme": "openalex_concept",
+          "score": 0.26829999685287476,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Drug reaction",
+          "scheme": "openalex_concept",
+          "score": 0.32749998569488525,
+          "level": 3,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Organic reaction",
+          "scheme": "openalex_concept",
+          "score": 0.24480000138282776,
+          "level": 3,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.42890000343322754,
+          "level": 0,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Chemistry",
+          "scheme": "openalex_concept",
+          "score": 0.42309999465942383,
+          "level": 0,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "s2_fields": [],
+      "asjc_subjects": [],
+      "all_topics_flat": [
+        "30503 Organic Chemical Synthesis",
+        "Chain reaction",
+        "Chemical reaction",
+        "Cheminformatics",
+        "Chemistry",
+        "Computer science",
+        "Drug reaction",
+        "FOS: Chemical sciences",
+        "Legal and Regulatory Analysis",
+        "Linguistic, Cultural, and Literary Studies",
+        "Military Technology and Strategies",
+        "Nuclear reaction",
+        "Organic reaction",
+        "Product (mathematics)",
+        "Schema (genetic algorithms)",
+        "Skin reaction"
+      ],
+      "vocabulary_count": 5,
+      "topics_by_vocabulary": {
+        "Keywords": 2,
+        "for": 1,
+        "FOS": 1,
+        "openalex_topic": 1,
+        "OpenAlex_Concepts": 1
+      },
+      "narrative": "Classified in 5 vocabularies. Fields of study: Military Technology and Strategies, Legal and Regulatory Analysis, Linguistic, Cultural, and Literary Studies. 6 unique keywords."
+    }
+  },
+  "discrepancy_report": {
+    "doi": "10.6084/m9.figshare.5104873.v1",
+    "sources_queried": 11,
+    "sources_found": 3,
+    "sources_not_found": 8,
+    "sources_errored": 0,
+    "total_discrepancies": 3,
+    "high_risk_count": 0,
+    "medium_risk_count": 1,
+    "low_risk_count": 2,
+    "data_completeness_score": 0.75,
+    "source_coverage": [
+      {
+        "source": "crossref",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "datacite",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": true,
+        "has_related_works": true
+      },
+      {
+        "source": "openalex",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": false,
+        "has_subjects": true,
+        "has_related_works": false
+      },
+      {
+        "source": "semantic_scholar",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "unpaywall",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "europe_pmc",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "nih_reporter",
+        "found": true,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "zenodo",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "dryad",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "orcid",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "entrez",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      }
+    ],
+    "scalar_discrepancies": [
+      {
+        "field": "work_type",
+        "values": {
+          "datacite": "Dataset",
+          "openalex": "dataset"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "datacite": "figshare",
+          "openalex": "https://openalex.org/I196829312"
+        },
+        "risk": "low"
+      }
+    ],
+    "citations": {
+      "counts_by_source": {
+        "datacite": 50,
+        "openalex": 88
+      },
+      "min_count": 50,
+      "max_count": 88,
+      "median_count": 69,
+      "spread": 38,
+      "spread_pct": 43.2,
+      "divergence_level": "medium",
+      "outlier_sources": []
+    },
+    "oa_status": {
+      "is_oa_by_source": {
+        "openalex": true
+      },
+      "status_by_source": {
+        "openalex": "green"
+      },
+      "is_oa_agrees": true,
+      "status_agrees": true,
+      "consensus_is_oa": true,
+      "consensus_status": "green",
+      "unique_oa_urls": 1,
+      "sources_only_in": {
+        "openalex": [
+          "https://doi.org/10.6084/m9.figshare.5104873.v1"
+        ]
+      }
+    },
+    "authors": {
+      "count_by_source": {
+        "datacite": 1,
+        "openalex": 1
+      },
+      "count_agrees": true,
+      "min_count": 1,
+      "max_count": 1,
+      "orcid_coverage": 0.0,
+      "sources_missing_orcids": [
+        "datacite",
+        "openalex"
+      ],
+      "name_variant_examples": []
+    },
+    "funding": {
+      "grant_count_by_source": {},
+      "total_unique_grants": 0,
+      "grants_single_source": 0,
+      "grants_multi_source": 0,
+      "sources_with_no_funding": [
+        "datacite",
+        "openalex",
+        "nih_reporter"
+      ],
+      "sources_with_funding": []
+    },
+    "references": {
+      "count_by_source": {
+        "datacite": 0,
+        "openalex": 0
+      },
+      "count_agrees": true,
+      "min_count": 0,
+      "max_count": 0
+    },
+    "topics": {
+      "vocabulary_count": 5,
+      "topics_by_source": {
+        "datacite": 4,
+        "openalex": 18
+      },
+      "multi_source_topics": 0,
+      "single_source_topics": 11
+    },
+    "related_works": {
+      "related_count_by_source": {
+        "datacite": 1
+      },
+      "datacite_reverse_count": 0,
+      "software_links": 0,
+      "data_links": 0,
+      "has_version_chain": false
+    },
+    "narrative": "3 of 11 sources returned data. Data completeness: 75% of key fields have 2+ source coverage. CITATIONS: 50\u201388 across 2 sources (medium divergence, 43% spread). 1 OA URLs found by only one source. WORK_TYPE DIFFERS: datacite: Dataset, openalex: dataset. PUBLISHER DIFFERS: datacite: figshare, openalex: https://openalex.org/I196829312. Total: 3 discrepancies (0 high, 1 medium, 2 low risk)."
+  },
+  "_benchmark": {
+    "doi": "10.6084/m9.figshare.5104873.v1",
+    "fetched_at": "2026-02-11T13:10:57.755140+00:00"
+  }
+}

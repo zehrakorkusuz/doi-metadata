@@ -1,0 +1,1556 @@
+{
+  "doi": "10.1175/mwr3199.1",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T16:02:30.228418Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "A New Vertical Diffusion Package with an Explicit Treatment of Entrainment Processes",
+      "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>This paper proposes a revised vertical diffusion package with a nonlocal turbulent mixing coefficient in the planetary boundary layer (PBL). Based on the study of Noh et al. and accumulated results of the behavior of the Hong and Pan algorithm, a revised vertical diffusion algorithm that is suitable for weather forecasting and climate prediction models is developed. The major ingredient of the revision is the inclusion of an explicit treatment of entrainment processes at the top of the PBL. The new diffusion package is called the Yonsei University PBL (YSU PBL). In a one-dimensional offline test framework, the revised scheme is found to improve several features compared with the Hong and Pan implementation. The YSU PBL increases boundary layer mixing in the thermally induced free convection regime and decreases it in the mechanically induced forced convection regime, which alleviates the well-known problems in the Medium-Range Forecast (MRF) PBL. Excessive mixing in the mixed layer in the presence of strong winds is resolved. Overly rapid growth of the PBL in the case of the Hong and Pan is also rectified. The scheme has been successfully implemented in the Weather Research and Forecast model producing a more realistic structure of the PBL and its development. In a case study of a frontal tornado outbreak, it is found that some systematic biases of the large-scale features such as an afternoon cold bias at 850 hPa in the MRF PBL are resolved. Consequently, the new scheme does a better job in reproducing the convective inhibition. Because the convective inhibition is accurately predicted, widespread light precipitation ahead of a front, in the case of the MRF PBL, is reduced. In the frontal region, the YSU PBL scheme improves some characteristics, such as a double line of intense convection. This is because the boundary layer from the YSU PBL scheme remains less diluted by entrainment leaving more fuel for severe convection when the front triggers it.</jats:p>",
+      "publication_date": "2006-09-01",
+      "publication_year": 2006,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "American Meteorological Society",
+      "container_title": "Monthly Weather Review",
+      "volume": "134",
+      "issue": "9",
+      "pages": "2318-2341",
+      "issn": [
+        "1520-0493",
+        "0027-0644"
+      ],
+      "doi": "10.1175/mwr3199.1",
+      "authors": [
+        {
+          "name": {
+            "given": "Song-You",
+            "family": "Hong",
+            "full_name": "Song-You Hong",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Atmospheric Sciences, Global Environment Laboratory, Yonsei University, Seoul, South Korea",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Yign",
+            "family": "Noh",
+            "full_name": "Yign Noh",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Atmospheric Sciences, Global Environment Laboratory, Yonsei University, Seoul, South Korea",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jimy",
+            "family": "Dudhia",
+            "full_name": "Jimy Dudhia",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Mesoscale and Microscale Meteorology Division, National Center for Atmospheric Research, Boulder, Colorado",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 5763,
+      "reference_count": 30,
+      "references": [
+        {
+          "doi": "10.1007/BF00120078",
+          "title": "An evaluation of neutral and convectively planetary boundary layer parameterizations relative to large eddy simulations.",
+          "year": 1995,
+          "author": "Ayotte",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Ayotte1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1175/1520-0493(2002)130<0161:IOANCS>2.0.CO;2",
+          "title": "Impact of a nonlocal closure scheme in a simulation of a monsoon system over India.",
+          "year": 2002,
+          "author": "Basu",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Basu1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Bernardet, L. R., L. B.Nance, H-Y.Chuang, A.Loughe, M.Demirtas, S.Koch, R.Koch, and R.Gall, 2005: The Developmental Testbed Center Winter Forecasting Experiment. Preprints, 21st Conf. on Weather Analysis and Forecasting/17th Conf. on Numerical Weather Prediction, Washington, DC, Amer. Meteor. Soc., CD-ROM, P7.1.",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Bernardet1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1175/1520-0493(1996)124<1480:CONNRW>2.0.CO;2",
+          "title": "Comparison of NCEP\u2013NCAR reanalysis with 1987 FIFE data.",
+          "year": 1996,
+          "author": "Betts",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Betts1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1175/1520-0493(2000)129<3941:SOHRSO>2.0.CO;2",
+          "title": "Sensitivity of high-resolution simulations of Hurricane Bob (1991) to planetary boundary layer parameterizations.",
+          "year": 2000,
+          "author": "Braun",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Braun1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1175/1520-0434(2002)017<0099:TSOTNS>2.0.CO;2",
+          "title": "The sensitivity of the numerical simulation of the southwest monsoon boundary layer to the choice of PBL turbulence parameterization in MM5.",
+          "year": 2002,
+          "author": "Bright",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Bright1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1175/1520-0434(1997)012<0581:CTTNOM>2.0.CO;2",
+          "title": "Changes to the 1995 NCEP operational medium-range forecast model analysis-forecast system.",
+          "year": 1997,
+          "author": "Caplan",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Caplan1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1175/1520-0493(2001)129<0569:CAALSH>2.0.CO;2",
+          "title": "Coupling an advanced land surface\u2013hydrology model with the Penn State\u2013NCAR MM5 modeling system. Part I: Model implementation and sensitivity.",
+          "year": 2001,
+          "author": "Chen",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Chen1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1175/BAMS-85-8-1075",
+          "title": "The Bow Echo and MCV Experiment: Observations and opportunities.",
+          "year": 2004,
+          "author": "Davis",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Davis1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1175/1520-0469(1989)046<3077:NSOCOD>2.0.CO;2",
+          "title": "Numerical study of convection observed during the winter monsoon experiment using a mesoscale two-dimensional model.",
+          "year": 1989,
+          "author": "Dudhia",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Dudhia1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1175/1520-0469(1982)039<2490:TEOMOT>2.0.CO;2",
+          "title": "The effects of moisture on trapped mountain lee waves.",
+          "year": 1982,
+          "author": "Durran",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Durran1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1175/1520-0493(2001)129<2073:AAOTLO>2.0.CO;2",
+          "title": "An analysis of the landfall of Hurricane Nora (1997).",
+          "year": 2001,
+          "author": "Farf\u00e1n",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Farfan1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Grell, G. A., J.Dudhia, and D.Stauffer, 1994: A description of the fifth-generation PENN State/NCAR Mesoscale Model (MM5). NCAR Tech. Note NCAR/TN-398+STR, 138 pp.",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Grell1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1175/1520-0442(1993)006<1825:LVNBLD>2.0.CO;2",
+          "title": "Local versus nonlocal boundary-layer diffusion in a global climate model.",
+          "year": 1993,
+          "author": "Holtslag",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Holtslag1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1175/1520-0493(1996)124<2322:NBLVDI>2.0.CO;2",
+          "title": "Nonlocal boundary layer vertical diffusion in a Medium-Range Forecast model.",
+          "year": 1996,
+          "author": "Hong",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Hong1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "The WRF single-moment microphysics scheme (WSM6).",
+          "year": 2006,
+          "author": "Hong",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Hong2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1175/1520-0493(2004)132<0103:ARATIM>2.0.CO;2",
+          "title": "A revised approach to ice microphysical processes for the bulk parameterization of clouds and precipitation.",
+          "year": 2004,
+          "author": "Hong",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Hong3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3402/tellusa.v44i5.14969",
+          "title": "Simple formulation of turbulent mixing in the stable free atmosphere and nocturnal boundary layer.",
+          "year": 1992,
+          "author": "Kim",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Kim1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1029/94RG01872",
+          "title": "Oceanic vertical mixing: A review and a model with a nonlocal boundary layer parameterization.",
+          "year": 1994,
+          "author": "Large",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Large1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/BF00117978",
+          "title": "A parametric model of vertical eddy fluxes in the atmosphere.",
+          "year": 1979,
+          "author": "Louis",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Louis1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1175/1520-0477(2002)083<0407:DIHRPM>2.3.CO;2",
+          "title": "Does increasing horizontal resolution produce more skilful forecasts?",
+          "year": 2002,
+          "author": "Mass",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Mass1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1029/97JD00237",
+          "title": "Radiative transfer for inhomogeneous atmosphere: RRTM, a validated correlated-k model for the long wave.",
+          "year": 1997,
+          "author": "Mlawer",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Mlawer1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1175/1520-0469(1994)051<0999:ACOSAB>2.0.CO;2",
+          "title": "A comparison of shear and buoyancy-driven planetary boundary layer flows.",
+          "year": 1994,
+          "author": "Moeng",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Moeng1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1023/A:1022146015946",
+          "title": "Improvement of the K-profile model for the planetary boundary layer based on large eddy simulation data.",
+          "year": 2003,
+          "author": "Noh",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Noh1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Persson, P., B.Walter, J-W.Bao, and S.Michelson, 2001: Validation of boundary-layer parameterizations in maritime storm using aircraft data. Preprints, Ninth Conf. on Mesoscale Processes, Ft. Lauderdale, FL, Amer. Meteor. Soc., 117\u2013121.",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Persson1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Skamarock, W. C., J. B.Klemp, J.Dudhia, D. O.Gill, D. M.Barker, W.Wang, and J. G.Powers, 2005: A description of the Advanced Research WRF version 2. NCAR Tech. Note NCAR/TN-468+STR, 88 pp.",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Skamarock1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1175/1520-0493(2000)128<0824:QSAOAP>2.0.CO;2",
+          "title": "Quasi-steady analysis of a PBL model with an eddy-diffusivity profile and nonlocal fluxes.",
+          "year": 2000,
+          "author": "Stevens",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Stevens1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/BF00122760",
+          "title": "A simple model of the atmospheric boundary layer sensitivity to surface evaporation.",
+          "year": 1986,
+          "author": "Troen",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Troen1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/BF02430331",
+          "title": "Evaluation and model impacts of alternative boundary-layer height formulations.",
+          "year": 1996,
+          "author": "Vogelezang",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Vogelezang1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1175/1520-0469(1984)041<0102:TDABUD>2.0.CO;2",
+          "title": "Top-down and bottom-up diffusion of a scalar in the convective boundary layer.",
+          "year": 1984,
+          "author": "Wyngaard",
+          "key": "2020061721333132900_i1520-0493-134-9-2318-Wyngaard1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "http://journals.ametsoc.org/mwr/article-pdf/134/9/2318/4228453/mwr3199_1.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "http://journals.ametsoc.org/mwr/article-pdf/134/9/2318/4228453/mwr3199_1.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1175/mwr3199.1",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "A New Vertical Diffusion Package with an Explicit Treatment of Entrainment Processes",
+      "abstract": "Abstract This paper proposes a revised vertical diffusion package with a nonlocal turbulent mixing coefficient in the planetary boundary layer (PBL). Based on the study of Noh et al. and accumulated results of the behavior of the Hong and Pan algorithm, a revised vertical diffusion algorithm that is suitable for weather forecasting and climate prediction models is developed. The major ingredient of the revision is the inclusion of an explicit treatment of entrainment processes at the top of the PBL. The new diffusion package is called the Yonsei University PBL (YSU PBL). In a one-dimensional offline test framework, the revised scheme is found to improve several features compared with the Hong and Pan implementation. The YSU PBL increases boundary layer mixing in the thermally induced free convection regime and decreases it in the mechanically induced forced convection regime, which alleviates the well-known problems in the Medium-Range Forecast (MRF) PBL. Excessive mixing in the mixed layer in the presence of strong winds is resolved. Overly rapid growth of the PBL in the case of the Hong and Pan is also rectified. The scheme has been successfully implemented in the Weather Research and Forecast model producing a more realistic structure of the PBL and its development. In a case study of a frontal tornado outbreak, it is found that some systematic biases of the large-scale features such as an afternoon cold bias at 850 hPa in the MRF PBL are resolved. Consequently, the new scheme does a better job in reproducing the convective inhibition. Because the convective inhibition is accurately predicted, widespread light precipitation ahead of a front, in the case of the MRF PBL, is reduced. In the frontal region, the YSU PBL scheme improves some characteristics, such as a double line of intense convection. This is because the boundary layer from the YSU PBL scheme remains less diluted by entrainment leaving more fuel for severe convection when the front triggers it.",
+      "publication_date": "2006-09-01",
+      "publication_year": 2006,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310320260",
+      "container_title": "Monthly Weather Review",
+      "volume": "134",
+      "issue": "9",
+      "pages": "2318-2341",
+      "issn": [
+        "0027-0644",
+        "1520-0493"
+      ],
+      "doi": "10.1175/mwr3199.1",
+      "openalex_id": "https://openalex.org/W2028979275",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Song-You Hong",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Yonsei University",
+              "ror_id": "https://ror.org/01wjejq96",
+              "country_code": "KR",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5110023267",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Yign Noh",
+            "orcid": "0000-0002-3948-1791",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Yonsei University",
+              "ror_id": "https://ror.org/01wjejq96",
+              "country_code": "KR",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5107963335",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jimy Dudhia",
+            "orcid": "0000-0002-2394-6232",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "NSF National Center for Atmospheric Research",
+              "ror_id": "https://ror.org/05cvfcr44",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Microscale (United States)",
+              "ror_id": "https://ror.org/03ak5tq12",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5030048523",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 7140,
+      "reference_count": 28,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2026": 66,
+        "2025": 526,
+        "2024": 656,
+        "2023": 686,
+        "2022": 719,
+        "2021": 707,
+        "2020": 580,
+        "2019": 497,
+        "2018": 483,
+        "2017": 389,
+        "2016": 369,
+        "2015": 360,
+        "2014": 289,
+        "2013": 250,
+        "2012": 189
+      },
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1175/mwr3199.1",
+          "pdf_url": "https://journals.ametsoc.org/downloadpdf/journals/mwre/134/9/mwr3199.1.pdf",
+          "landing_page_url": "https://doi.org/10.1175/mwr3199.1",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310320260",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1175/mwr3199.1",
+          "pdf_url": "https://journals.ametsoc.org/downloadpdf/journals/mwre/134/9/mwr3199.1.pdf",
+          "landing_page_url": "https://doi.org/10.1175/mwr3199.1",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310320260",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://journals.ametsoc.org/downloadpdf/journals/mwre/134/9/mwr3199.1.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Meteorological Phenomena and Simulations",
+          "scheme": "openalex_topic",
+          "score": 1.0,
+          "source": "openalex"
+        },
+        {
+          "value": "Climate variability and models",
+          "scheme": "openalex_topic",
+          "score": 0.9998999834060669,
+          "source": "openalex"
+        },
+        {
+          "value": "Tropical and Extratropical Cyclones Research",
+          "scheme": "openalex_topic",
+          "score": 0.998199999332428,
+          "source": "openalex"
+        },
+        {
+          "value": "Entrainment (biomusicology)",
+          "scheme": "openalex_concept",
+          "score": 0.6982752084732056,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Convection",
+          "scheme": "openalex_concept",
+          "score": 0.6569293737411499,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Diffusion",
+          "scheme": "openalex_concept",
+          "score": 0.567887008190155,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Meteorology",
+          "scheme": "openalex_concept",
+          "score": 0.5638247728347778,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Planetary boundary layer",
+          "scheme": "openalex_concept",
+          "score": 0.5463921427726746,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Mixing (physics)",
+          "scheme": "openalex_concept",
+          "score": 0.5367233753204346,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Tornado",
+          "scheme": "openalex_concept",
+          "score": 0.5181325674057007,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Boundary layer",
+          "scheme": "openalex_concept",
+          "score": 0.48539647459983826,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Environmental science",
+          "scheme": "openalex_concept",
+          "score": 0.4772339165210724,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Mechanics",
+          "scheme": "openalex_concept",
+          "score": 0.45405131578445435,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Numerical weather prediction",
+          "scheme": "openalex_concept",
+          "score": 0.4232175350189209,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Turbulence",
+          "scheme": "openalex_concept",
+          "score": 0.41849684715270996,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.391290545463562,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Geology",
+          "scheme": "openalex_concept",
+          "score": 0.32389241456985474,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Physics",
+          "scheme": "openalex_concept",
+          "score": 0.30747315287590027,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Thermodynamics",
+          "scheme": "openalex_concept",
+          "score": 0.22371593117713928,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Rhythm",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Acoustics",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Quantum mechanics",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Climate action",
+          "scheme": "SDG",
+          "score": 0.8100000023841858,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Entrainment (biomusicology)",
+        "Convection",
+        "Diffusion",
+        "Meteorology",
+        "Planetary boundary layer",
+        "Mixing (physics)",
+        "Tornado",
+        "Boundary layer",
+        "Environmental science",
+        "Mechanics",
+        "Numerical weather prediction",
+        "Turbulence",
+        "Computer science",
+        "Geology",
+        "Physics",
+        "Thermodynamics"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 29.48095502,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.99853029,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1175/mwr3199.1",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "A New Vertical Diffusion Package with an Explicit Treatment of Entrainment Processes",
+      "publication_date": "2006-09-01",
+      "publication_year": 2006,
+      "work_type": "journal-article",
+      "publisher": "American Meteorological Society",
+      "container_title": "Monthly Weather Review",
+      "issn": [
+        "0027-0644",
+        "1520-0493"
+      ],
+      "doi": "10.1175/mwr3199.1",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_locations": [
+        {
+          "url": "https://journals.ametsoc.org/downloadpdf/journals/mwre/134/9/mwr3199.1.pdf",
+          "pdf_url": "https://journals.ametsoc.org/downloadpdf/journals/mwre/134/9/mwr3199.1.pdf",
+          "landing_page_url": "https://doi.org/10.1175/mwr3199.1",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://journals.ametsoc.org/downloadpdf/journals/mwre/134/9/mwr3199.1.pdf",
+          "pdf_url": "https://journals.ametsoc.org/downloadpdf/journals/mwre/134/9/mwr3199.1.pdf",
+          "landing_page_url": "https://doi.org/10.1175/mwr3199.1",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://journals.ametsoc.org/downloadpdf/journals/mwre/134/9/mwr3199.1.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1175/mwr3199.1",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1175/mwr3199.1",
+      "pmid": "19683066",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1175/mwr3199.1",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1175/mwr3199.1",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1175/mwr3199.1",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1175/mwr3199.1",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1175/mwr3199.1",
+    "pmid": "19683066",
+    "openalex_id": "https://openalex.org/W2028979275",
+    "handles": [],
+    "orcids": [
+      "0000-0002-2394-6232",
+      "0000-0002-3948-1791"
+    ],
+    "ror_ids": [
+      "https://ror.org/01wjejq96",
+      "https://ror.org/03ak5tq12",
+      "https://ror.org/05cvfcr44"
+    ],
+    "grant_ids": [],
+    "nct_ids": [],
+    "pmid_source": "nih_reporter"
+  },
+  "conflicts": {
+    "doi": "10.1175/mwr3199.1",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 5763,
+          "openalex": 7140
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 30,
+          "openalex": 28
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "American Meteorological Society",
+          "openalex": "https://openalex.org/P4310320260",
+          "unpaywall": "American Meteorological Society"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 3,
+    "conflict_count": 4
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1175/mwr3199.1",
+    "fetched_at": "2026-02-11T16:02:30.229749+00:00"
+  }
+}

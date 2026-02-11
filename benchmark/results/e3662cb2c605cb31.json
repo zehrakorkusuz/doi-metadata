@@ -1,0 +1,1540 @@
+{
+  "doi": "10.48550/arxiv.2407.06508",
+  "registration_agency": "datacite",
+  "retrieved_at": "2026-02-11T17:59:37.661941Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.48550/arxiv.2407.06508",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": true,
+      "raw": {},
+      "title": "A Clinical Benchmark of Public Self-Supervised Pathology Foundation Models",
+      "abstract": "The use of self-supervised learning (SSL) to train pathology foundation models has increased substantially in the past few years. Notably, several models trained on large quantities of clinical data have been made publicly available in recent months. This will significantly enhance scientific research in computational pathology and help bridge the gap between research and clinical deployment. With the increase in availability of public foundation models of different sizes, trained using different algorithms on different datasets, it becomes important to establish a benchmark to compare the performance of such models on a variety of clinically relevant tasks spanning multiple organs and diseases. In this work, we present a collection of pathology datasets comprising clinical slides associated with clinically relevant endpoints including cancer diagnoses and a variety of biomarkers generated during standard hospital operation from two medical centers. We leverage these datasets to systematically assess the performance of public pathology foundation models and provide insights into best practices for training new foundation models and selecting appropriate pretrained models.",
+      "publication_date": "2024",
+      "publication_year": 2024,
+      "work_type": "Preprint",
+      "publisher": "arXiv",
+      "issn": [],
+      "doi": "10.48550/arxiv.2407.06508",
+      "authors": [
+        {
+          "name": {
+            "given": "Gabriele",
+            "family": "Campanella",
+            "full_name": "Campanella, Gabriele",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Shengjia",
+            "family": "Chen",
+            "full_name": "Chen, Shengjia",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ruchika",
+            "family": "Verma",
+            "full_name": "Verma, Ruchika",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jennifer",
+            "family": "Zeng",
+            "full_name": "Zeng, Jennifer",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Aryeh",
+            "family": "Stock",
+            "full_name": "Stock, Aryeh",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Matt",
+            "family": "Croken",
+            "full_name": "Croken, Matt",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Brandon",
+            "family": "Veremis",
+            "full_name": "Veremis, Brandon",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Abdulkadir",
+            "family": "Elmas",
+            "full_name": "Elmas, Abdulkadir",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Kuan-lin",
+            "family": "Huang",
+            "full_name": "Huang, Kuan-lin",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ricky",
+            "family": "Kwan",
+            "full_name": "Kwan, Ricky",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jane",
+            "family": "Houldsworth",
+            "full_name": "Houldsworth, Jane",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Adam J.",
+            "family": "Schoenfeld",
+            "full_name": "Schoenfeld, Adam J.",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Chad",
+            "family": "Vanderbilt",
+            "full_name": "Vanderbilt, Chad",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        }
+      ],
+      "citation_count": 0,
+      "reference_count": 0,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "spdx_id": "cc-by-4.0",
+          "source": "datacite"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Image and Video Processing (eess.IV)",
+          "scheme": "arXiv",
+          "source": "datacite"
+        },
+        {
+          "value": "Computer Vision and Pattern Recognition (cs.CV)",
+          "scheme": "arXiv",
+          "source": "datacite"
+        },
+        {
+          "value": "FOS: Electrical engineering, electronic engineering, information engineering",
+          "scheme": "Fields of Science and Technology (FOS)",
+          "source": "datacite"
+        },
+        {
+          "value": "FOS: Electrical engineering, electronic engineering, information engineering",
+          "scheme": "Fields of Science and Technology (FOS)",
+          "source": "datacite"
+        },
+        {
+          "value": "FOS: Computer and information sciences",
+          "scheme": "Fields of Science and Technology (FOS)",
+          "source": "datacite"
+        },
+        {
+          "value": "FOS: Computer and information sciences",
+          "scheme": "Fields of Science and Technology (FOS)",
+          "source": "datacite"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "version_info": {
+        "total_versions": 0,
+        "version_dois": [],
+        "source": "datacite"
+      },
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "view_count",
+          "value": 0.0,
+          "source": "datacite"
+        },
+        {
+          "name": "download_count",
+          "value": 0.0,
+          "source": "datacite"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "A Clinical Benchmark of Public Self-Supervised Pathology Foundation Models",
+      "abstract": "The use of self-supervised learning (SSL) to train pathology foundation models has increased substantially in the past few years. Notably, several models trained on large quantities of clinical data have been made publicly available in recent months. This will significantly enhance scientific research in computational pathology and help bridge the gap between research and clinical deployment. With the increase in availability of public foundation models of different sizes, trained using different algorithms on different datasets, it becomes important to establish a benchmark to compare the performance of such models on a variety of clinically relevant tasks spanning multiple organs and diseases. In this work, we present a collection of pathology datasets comprising clinical slides associated with clinically relevant endpoints including cancer diagnoses and a variety of biomarkers generated during standard hospital operation from two medical centers. We leverage these datasets to systematically assess the performance of public pathology foundation models and provide insights into best practices for training new foundation models and selecting appropriate pretrained models.",
+      "publication_date": "2024-07-09",
+      "publication_year": 2024,
+      "work_type": "preprint",
+      "language": "en",
+      "publisher": "https://openalex.org/I205783295",
+      "container_title": "arXiv (Cornell University)",
+      "issn": [],
+      "doi": "10.48550/arxiv.2407.06508",
+      "openalex_id": "https://openalex.org/W4400611172",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Gabriele Campanella",
+            "orcid": "0000-0001-6299-1311",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5067002655",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Shengjia Chen",
+            "orcid": "0000-0003-1556-0679",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5102746372",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ruchika Verma",
+            "orcid": "0000-0003-4870-128X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5032491679",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jennifer Zeng",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5111055870",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Aryeh Stock",
+            "orcid": "0000-0003-1500-5819",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5029991941",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Matt Croken",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5114191000",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Brandon Veremis",
+            "orcid": "0000-0002-3934-9782",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5046568443",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Abd\u00fclkadir Elmas",
+            "orcid": "0000-0002-7999-5770",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5035254985",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kuan\u2010lin Huang",
+            "orcid": "0000-0002-5537-5817",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5032718790",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ricky Kwan",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5030708624",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jane Houldsworth",
+            "orcid": "0000-0002-6781-1700",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5052154203",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Adam J. Schoenfeld",
+            "orcid": "0000-0002-2644-1416",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5010486958",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Chad Vanderbilt",
+            "orcid": "0000-0002-8114-0237",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5089185942",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 6,
+      "reference_count": 0,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {
+        "2025": 4,
+        "2024": 2
+      },
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_locations": [
+        {
+          "url": "http://arxiv.org/abs/2407.06508",
+          "pdf_url": "https://arxiv.org/pdf/2407.06508",
+          "landing_page_url": "http://arxiv.org/abs/2407.06508",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/I205783295",
+          "source": "openalex"
+        },
+        {
+          "url": "http://arxiv.org/abs/2407.06508",
+          "pdf_url": "https://arxiv.org/pdf/2407.06508",
+          "landing_page_url": "http://arxiv.org/abs/2407.06508",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I205783295",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.48550/arxiv.2407.06508",
+          "landing_page_url": "https://doi.org/10.48550/arxiv.2407.06508",
+          "host_type": "repository",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I205783295",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://arxiv.org/pdf/2407.06508",
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "cc-by",
+          "source": "openalex"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Ethics in Clinical Research",
+          "scheme": "openalex_topic",
+          "score": 0.7199000120162964,
+          "source": "openalex"
+        },
+        {
+          "value": "Foundation (evidence)",
+          "scheme": "openalex_concept",
+          "score": 0.8106346130371094,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Benchmark (surveying)",
+          "scheme": "openalex_concept",
+          "score": 0.7253416776657104,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.3915131688117981,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Artificial intelligence",
+          "scheme": "openalex_concept",
+          "score": 0.3557644188404083,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Pathology",
+          "scheme": "openalex_concept",
+          "score": 0.33980217576026917,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Medicine",
+          "scheme": "openalex_concept",
+          "score": 0.3374794125556946,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Geography",
+          "scheme": "openalex_concept",
+          "score": 0.13242533802986145,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Cartography",
+          "scheme": "openalex_concept",
+          "score": 0.09224578738212585,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Archaeology",
+          "scheme": "openalex_concept",
+          "score": 0.06735903024673462,
+          "level": 1,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Foundation (evidence)",
+        "Benchmark (surveying)",
+        "Computer science",
+        "Artificial intelligence",
+        "Pathology",
+        "Medicine",
+        "Geography",
+        "Cartography",
+        "Archaeology"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.48550/arxiv.2407.06508",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.48550/arxiv.2407.06508",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.48550/arxiv.2407.06508",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openaire": {
+      "source": "openaire",
+      "found": true,
+      "raw": {},
+      "title": "A Clinical Benchmark of Public Self-Supervised Pathology Foundation Models",
+      "abstract": "The use of self-supervised learning (SSL) to train pathology foundation models has increased substantially in the past few years. Notably, several models trained on large quantities of clinical data have been made publicly available in recent months. This will significantly enhance scientific research in computational pathology and help bridge the gap between research and clinical deployment. With the increase in availability of public foundation models of different sizes, trained using different algorithms on different datasets, it becomes important to establish a benchmark to compare the performance of such models on a variety of clinically relevant tasks spanning multiple organs and diseases. In this work, we present a collection of pathology datasets comprising clinical slides associated with clinically relevant endpoints including cancer diagnoses and a variety of biomarkers generated during standard hospital operation from two medical centers. We leverage these datasets to systematically assess the performance of public pathology foundation models and provide insights into best practices for training new foundation models and selecting appropriate pretrained models.",
+      "publication_date": "2024-01-01",
+      "publication_year": 2024,
+      "work_type": "publication",
+      "language": "und",
+      "publisher": "arXiv",
+      "issn": [],
+      "doi": "10.48550/arxiv.2407.06508",
+      "arxiv_id": "2407.06508",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Gabriele Campanella",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Shengjia Chen",
+            "orcid": "0000-0003-1556-0679",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ruchika Verma",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jennifer Zeng",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Aryeh Stock",
+            "orcid": "0000-0003-1500-5819",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Matt Croken",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Brandon Veremis",
+            "orcid": "0000-0002-3934-9782",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Abdulkadir Elmas",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kuan-Lin Huang",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ricky Kwan",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jane Houldsworth",
+            "orcid": "0000-0002-6781-1700",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Adam Schoenfeld",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Chad M. Vanderbilt",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "citation_count": 0,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_status": "unknown",
+      "oa_locations": [
+        {
+          "url": "https://dx.doi.org/10.48550/arxiv.2407.06508",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://arxiv.org/abs/2407.06508",
+          "version": "Preprint",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.48550/arXiv.2407.06508",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "3UL1TR004419-01S1",
+          "agency": "National Institutes of Health",
+          "title": "Conduits:  Mount Sinai Health System Translational Science Hub",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::3661802b7dfe50b17d3d33fa2dd1e338",
+          "source": "openaire"
+        }
+      ],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "FOS: Computer and information sciences",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Computer Vision and Pattern Recognition (cs.CV)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Image and Video Processing (eess.IV)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Computer Science - Computer Vision and Pattern Recognition",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "FOS: Electrical engineering, electronic engineering, information engineering",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Electrical Engineering and Systems Science - Image and Video Processing",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "3. Good health",
+          "scheme": "SDG",
+          "source": "openaire"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "bip_citationCount",
+          "value": 0.0,
+          "class_label": "C5",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_influence",
+          "value": 2.4895952e-09,
+          "class_label": "C5",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_popularity",
+          "value": 2.3737945e-09,
+          "class_label": "C5",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_impulse",
+          "value": 0.0,
+          "class_label": "C5",
+          "source": "openaire"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [
+        {
+          "grant_id": "3UL1TR004419-01S1",
+          "agency": "National Institutes of Health",
+          "title": "Conduits:  Mount Sinai Health System Translational Science Hub",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::3661802b7dfe50b17d3d33fa2dd1e338",
+          "source": "openaire"
+        }
+      ],
+      "alternate_ids": [
+        "doi:10.48550/arxiv.2407.06508",
+        "arXiv:2407.06508",
+        "doi:10.48550/arxiv.2407.06508"
+      ],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.48550/arxiv.2407.06508",
+      "pmid": "23671333",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.48550/arxiv.2407.06508",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "error": "",
+      "raw": {},
+      "issn": [],
+      "doi": "10.48550/arxiv.2407.06508",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.48550/arxiv.2407.06508",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.48550/arxiv.2407.06508",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.48550/arxiv.2407.06508",
+    "pmid": "23671333",
+    "arxiv_id": "2407.06508",
+    "openalex_id": "https://openalex.org/W4400611172",
+    "handles": [],
+    "orcids": [
+      "0000-0001-6299-1311",
+      "0000-0002-2644-1416",
+      "0000-0002-3934-9782",
+      "0000-0002-5537-5817",
+      "0000-0002-6781-1700",
+      "0000-0002-7999-5770",
+      "0000-0002-8114-0237",
+      "0000-0003-1500-5819",
+      "0000-0003-1556-0679",
+      "0000-0003-4870-128X"
+    ],
+    "ror_ids": [],
+    "grant_ids": [
+      "3UL1TR004419-01S1"
+    ],
+    "nct_ids": [],
+    "pmid_source": "nih_reporter"
+  },
+  "conflicts": {
+    "doi": "10.48550/arxiv.2407.06508",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "datacite": 0,
+          "openalex": 6,
+          "openaire": 0
+        },
+        "risk": "high"
+      },
+      {
+        "field": "oa_status",
+        "values": {
+          "openalex": "green",
+          "openaire": "unknown"
+        },
+        "risk": "medium"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "datacite": "Preprint",
+          "openalex": "preprint",
+          "openaire": "publication"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "datacite": "arXiv",
+          "openalex": "https://openalex.org/I205783295",
+          "openaire": "arXiv"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "openalex": "en",
+          "openaire": "und"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 3,
+    "conflict_count": 5
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.48550/arxiv.2407.06508",
+    "fetched_at": "2026-02-11T17:59:37.663118+00:00"
+  }
+}

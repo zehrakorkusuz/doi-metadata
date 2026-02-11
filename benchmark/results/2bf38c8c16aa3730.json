@@ -1,0 +1,2612 @@
+{
+  "doi": "10.1093/bioinformatics/bty562",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T18:02:17.911422Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "MDPbiome: microbiome engineering through prescriptive perturbations",
+      "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:sec>\n                    <jats:title>Motivation</jats:title>\n                    <jats:p>Recent microbiome dynamics studies highlight the current inability to predict the effects of external perturbations on complex microbial populations. To do so would be particularly advantageous in fields such as medicine, bioremediation or industrial scenarios.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results</jats:title>\n                    <jats:p>MDPbiome statistically models longitudinal metagenomics samples undergoing perturbations as a Markov Decision Process (MDP). Given a starting microbial composition, our MDPbiome system suggests the sequence of external perturbation(s) that will engineer that microbiome to a goal state, for example, a healthier or more performant composition. It also estimates intermediate microbiome states along the path, thus making it possible to avoid particularly undesirable/unhealthy states. We demonstrate MDPbiome performance over three real and distinct datasets, proving its flexibility, and the reliability and universality of its output \u2018optimal perturbation policy\u2019. For example, an MDP created using a vaginal microbiome time series, with a goal of recovering from bacterial vaginosis, suggested avoidance of perturbations such as lubricants or sex toys; while another MDP provided a quantitative explanation for why salmonella vaccine accelerates gut microbiome maturation in chicks. This novel analytical approach has clear applications in medicine, where it could suggest low-impact clinical interventions that will lead to achievement or maintenance of a healthy microbial population, or alternately, the sequence of interventions necessary to avoid strongly negative microbiome states.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Availability and implementation</jats:title>\n                    <jats:p>Code (https://github.com/beatrizgj/MDPbiome) and result files (https://tomdelarosa.shinyapps.io/MDPbiome/) are available online.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Supplementary information</jats:title>\n                    <jats:p>Supplementary data are available at Bioinformatics online.</jats:p>\n                  </jats:sec>",
+      "publication_date": "2018-09-01",
+      "publication_year": 2018,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "Bioinformatics",
+      "volume": "34",
+      "issue": "17",
+      "pages": "i838-i847",
+      "issn": [
+        "1367-4803",
+        "1367-4811"
+      ],
+      "doi": "10.1093/bioinformatics/bty562",
+      "authors": [
+        {
+          "name": {
+            "given": "Beatriz",
+            "family": "Garc\u00eda-Jim\u00e9nez",
+            "full_name": "Beatriz Garc\u00eda-Jim\u00e9nez",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Center for Plant Biotechnology and Genomics UPM - INIA, Universidad Politecnica de Madrid, Madrid, Spain",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Tom\u00e1s",
+            "family": "de la Rosa",
+            "full_name": "Tom\u00e1s de la Rosa",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Computer Science, Universidad Carlos III de Madrid, Madrid, Spain",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mark D",
+            "family": "Wilkinson",
+            "full_name": "Mark D Wilkinson",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Center for Plant Biotechnology and Genomics UPM - INIA, Universidad Politecnica de Madrid, Madrid, Spain",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 12,
+      "reference_count": 40,
+      "references": [
+        {
+          "doi": "10.3389/fmicb.2018.00036",
+          "title": "A web application for obtaining insights into microbial ecology using longitudinal microbiome data",
+          "year": 2018,
+          "author": "Baksi",
+          "key": "2023061313513990700_bty562-B1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3389/fvets.2016.00002",
+          "title": "Development of the chick microbiome: how early exposure influences future microbial diversity",
+          "year": 2016,
+          "author": "Ballou",
+          "key": "2023061313513990700_bty562-B2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nature18301",
+          "title": "Universality of human microbial dynamics",
+          "year": 2016,
+          "author": "Bashan",
+          "key": "2023061313513990700_bty562-B3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1512/iumj.1957.6.56038",
+          "title": "A markovian decision process",
+          "year": 1957,
+          "author": "Bellman",
+          "key": "2023061313513990700_bty562-B4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1159/000358835",
+          "title": "The meta-genome of sepsis: host genetics, pathogens and the acute immune response",
+          "year": 2014,
+          "author": "Boyd",
+          "key": "2023061313513990700_bty562-B5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s40168-017-0244-z",
+          "title": "Proteobacteria explain significant functional variability in the human gut microbiome",
+          "year": 2017,
+          "author": "Bradley",
+          "key": "2023061313513990700_bty562-B6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Changes in vaginal community state types reflect major shifts in the microbiome",
+          "year": 2017,
+          "author": "Brooks",
+          "key": "2023061313513990700_bty562-B7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1136/sti.2009.040592",
+          "title": "Rapid fluctuation of the vaginal microbiota measured by Gram stain analysis",
+          "year": 2010,
+          "author": "Brotman",
+          "key": "2023061313513990700_bty562-B8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s13059-016-0980-6",
+          "title": "MDSINE: Microbial Dynamical Systems INference Engine for microbiome time-series analyses",
+          "year": 2016,
+          "author": "Bucci",
+          "key": "2023061313513990700_bty562-B9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/ismej.2017.119",
+          "title": "Exact sequence variants should replace operational taxonomic units in marker-gene data analysis",
+          "year": 2017,
+          "author": "Callahan",
+          "key": "2023061313513990700_bty562-B10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2017,
+          "author": "Canter",
+          "key": "2023061313513990700_bty562-B11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/bies.201600188",
+          "title": "Inferring human microbial dynamics from temporal metagenomics data: pitfalls and lessons",
+          "year": 2017,
+          "author": "Cao",
+          "key": "2023061313513990700_bty562-B12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/s10729-015-9347-x",
+          "title": "A stochastic model of acute-care decisions based on patient and provider heterogeneity",
+          "year": 2017,
+          "author": "Capan",
+          "key": "2023061313513990700_bty562-B13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/ecog.00888",
+          "title": "MDPtoolbox: a multi-platform toolbox to solve stochastic dynamic programming problems",
+          "year": 2014,
+          "author": "Chad\u00e8s",
+          "key": "2023061313513990700_bty562-B14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1177/0272989X16670605",
+          "title": "Sensitivity analysis in sequential decision models: a probabilistic approach",
+          "year": 2017,
+          "author": "Chen",
+          "key": "2023061313513990700_bty562-B15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41564-017-0072-8",
+          "title": "Enterotypes in the landscape of gut microbial community composition",
+          "year": 2018,
+          "author": "Costea",
+          "key": "2023061313513990700_bty562-B16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/gb-2014-15-7-r89",
+          "title": "Host lifestyle affects human microbiota on daily timescales",
+          "year": 2014,
+          "author": "David",
+          "key": "2023061313513990700_bty562-B17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nature13178",
+          "title": "Dynamics and associations of microbial community types across the human body",
+          "year": 2014,
+          "author": "Ding",
+          "key": "2023061313513990700_bty562-B18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1053/j.gastro.2011.02.011",
+          "title": "Development of the human gastrointestinal microbiota and insights from high-throughput sequencing",
+          "year": 2011,
+          "author": "Dominguez-Bello",
+          "key": "2023061313513990700_bty562-B19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nrmicro2832",
+          "title": "Microbial interactions: from networks to models",
+          "year": 2012,
+          "author": "Faust",
+          "key": "2023061313513990700_bty562-B20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.mib.2015.04.004",
+          "title": "Metagenomics meets time series analysis: unraveling microbial community dynamics",
+          "year": 2015,
+          "author": "Faust",
+          "key": "2023061313513990700_bty562-B21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/biot.201600099",
+          "title": "Microbiome engineering: current applications and its future",
+          "year": 2017,
+          "author": "Foo",
+          "key": "2023061313513990700_bty562-B22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/2049-2618-1-14",
+          "title": "From meta-omics to causality: experimental models for human microbiome research",
+          "year": 2013,
+          "author": "Fritz",
+          "key": "2023061313513990700_bty562-B23",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1126/scitranslmed.3003605",
+          "title": "Temporal dynamics of the human vaginal microbiota",
+          "year": 2012,
+          "author": "Gajer",
+          "key": "2023061313513990700_bty562-B24",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Automatic Definition of Robust Microbiome Sub-States in Longitudinal Data",
+          "year": 2018,
+          "author": "Garc\u00eda-Jim\u00e9nez",
+          "key": "2023061313513990700_bty562-B25",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1005364",
+          "title": "Two dynamic regimes in the human gut microbiome",
+          "year": 2017,
+          "author": "Gibbons",
+          "key": "2023061313513990700_bty562-B26",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nature18850",
+          "title": "Microbiome-wide association studies link dynamic microbial consortia to disease",
+          "year": 2016,
+          "author": "Gilbert",
+          "key": "2023061313513990700_bty562-B27",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/ismej.2017.60",
+          "title": "Multi-stability and the origin of microbial community types",
+          "year": 2017,
+          "author": "Gonze",
+          "key": "2023061313513990700_bty562-B28",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1960,
+          "author": "Howard",
+          "key": "2023061313513990700_bty562-B29",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1073/pnas.1409497111",
+          "title": "Patterned progression of bacterial populations in the premature infant gut",
+          "year": 2014,
+          "author": "La Rosa",
+          "key": "2023061313513990700_bty562-B30",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1128/mSystems.00144-16",
+          "title": "Health and disease imprinted in the time variability of the human microbiome",
+          "year": 2017,
+          "author": "Mart\u00ed",
+          "key": "2023061313513990700_bty562-B31",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1128/jcm.29.2.297-301.1991",
+          "title": "Reliability of diagnosing bacterial vaginosis is improved by a standardized method of gram stain interpretation",
+          "year": 1991,
+          "author": "Nugent",
+          "key": "2023061313513990700_bty562-B32",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s12917-014-0282-8",
+          "title": "Successional changes in the chicken cecal microbiome during 42 days of growth are independent of organic acid feed additives",
+          "year": 2014,
+          "author": "Oakley",
+          "key": "2023061313513990700_bty562-B33",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/9780470316887",
+          "year": 1994,
+          "author": "Puterman",
+          "key": "2023061313513990700_bty562-B34",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.21037/atm.2017.01.13",
+          "title": "Insights into study design and statistical analyses in translational microbiome studies",
+          "year": 2017,
+          "author": "Shankar",
+          "key": "2023061313513990700_bty562-B35",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1177/0272989X9301300409",
+          "title": "Markov models in medical decision making: a practical guide",
+          "year": 1993,
+          "author": "Sonnenberg",
+          "key": "2023061313513990700_bty562-B36",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1003388",
+          "title": "Ecological modeling from time-series inference: insight into dynamics and stability of intestinal microbiota",
+          "year": 2013,
+          "author": "Stein",
+          "key": "2023061313513990700_bty562-B37",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Estimating the reliability of mdp policies: a confidence interval approach",
+          "year": 2007,
+          "author": "Tetreault",
+          "key": "2023061313513990700_bty562-B38",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s40168-017-0256-8",
+          "title": "Temporal dynamics of the gut microbiota in people sharing a confined environment, a 520-day ground-based space simulation, MARS500",
+          "year": 2017,
+          "author": "Turroni",
+          "key": "2023061313513990700_bty562-B39",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/s00018-017-2509-x",
+          "title": "Mechanisms and consequences of intestinal dysbiosis",
+          "year": 2017,
+          "author": "Weiss",
+          "key": "2023061313513990700_bty562-B40",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i838/50582589/bioinformatics_34_17_i838.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i838/50582589/bioinformatics_34_17_i838.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [
+        {
+          "name": "Isaac Peral and/or Marie Curie co-fund Programme at UPM",
+          "award_numbers": [],
+          "source": "crossref"
+        },
+        {
+          "name": "Fundacion BBVA",
+          "award_numbers": [],
+          "source": "crossref"
+        }
+      ],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "http://creativecommons.org/licenses/by/4.0/",
+          "content_version": "vor",
+          "delay_in_days": 8,
+          "source": "crossref"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/bty562",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "MDPbiome: microbiome engineering through prescriptive perturbations",
+      "abstract": "Abstract Motivation Recent microbiome dynamics studies highlight the current inability to predict the effects of external perturbations on complex microbial populations. To do so would be particularly advantageous in fields such as medicine, bioremediation or industrial scenarios. Results MDPbiome statistically models longitudinal metagenomics samples undergoing perturbations as a Markov Decision Process (MDP). Given a starting microbial composition, our MDPbiome system suggests the sequence of external perturbation(s) that will engineer that microbiome to a goal state, for example, a healthier or more performant composition. It also estimates intermediate microbiome states along the path, thus making it possible to avoid particularly undesirable/unhealthy states. We demonstrate MDPbiome performance over three real and distinct datasets, proving its flexibility, and the reliability and universality of its output \u2018optimal perturbation policy\u2019. For example, an MDP created using a vaginal microbiome time series, with a goal of recovering from bacterial vaginosis, suggested avoidance of perturbations such as lubricants or sex toys; while another MDP provided a quantitative explanation for why salmonella vaccine accelerates gut microbiome maturation in chicks. This novel analytical approach has clear applications in medicine, where it could suggest low-impact clinical interventions that will lead to achievement or maintenance of a healthy microbial population, or alternately, the sequence of interventions necessary to avoid strongly negative microbiome states. Availability and implementation Code (https://github.com/beatrizgj/MDPbiome) and result files (https://tomdelarosa.shinyapps.io/MDPbiome/) are available online. Supplementary information Supplementary data are available at Bioinformatics online.",
+      "publication_date": "2018-07-05",
+      "publication_year": 2018,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310311648",
+      "container_title": "Bioinformatics",
+      "volume": "34",
+      "issue": "17",
+      "pages": "i838-i847",
+      "issn": [
+        "1367-4803",
+        "1367-4811"
+      ],
+      "doi": "10.1093/bioinformatics/bty562",
+      "pmid": "30423107",
+      "openalex_id": "https://openalex.org/W2889570565",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Beatriz Garc\u00eda-Jim\u00e9nez",
+            "orcid": "0000-0002-8129-6506",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Centre for Plant Biotechnology and Genomics",
+              "ror_id": "https://ror.org/04mfzb702",
+              "country_code": "ES",
+              "source": "openalex"
+            },
+            {
+              "name": "Universidad Polit\u00e9cnica de Madrid",
+              "ror_id": "https://ror.org/03n6nwv02",
+              "country_code": "ES",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5034245473",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Tom\u00e1s de la Rosa",
+            "orcid": "0000-0002-1977-9777",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Universidad Carlos III de Madrid",
+              "ror_id": "https://ror.org/03ths8210",
+              "country_code": "ES",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5103062990",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Mark D. Wilkinson",
+            "orcid": "0000-0001-6960-357X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Centre for Plant Biotechnology and Genomics",
+              "ror_id": "https://ror.org/04mfzb702",
+              "country_code": "ES",
+              "source": "openalex"
+            },
+            {
+              "name": "Universidad Polit\u00e9cnica de Madrid",
+              "ror_id": "https://ror.org/03n6nwv02",
+              "country_code": "ES",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5067974158",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 20,
+      "reference_count": 47,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2024": 1,
+        "2023": 2,
+        "2022": 1,
+        "2021": 1,
+        "2020": 6,
+        "2019": 9
+      },
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/bty562",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i838/25702530/bty562.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/bty562",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/bty562",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i838/25702530/bty562.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/bty562",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30423107",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/30423107",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "http://europepmc.org/pmc/articles/PMC6129268",
+          "landing_page_url": "http://europepmc.org/pmc/articles/PMC6129268",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1303153112",
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6129268",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6129268",
+          "host_type": "journal",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i838/25702530/bty562.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "cc-by",
+          "source": "openalex"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Gut microbiota and health",
+          "scheme": "openalex_topic",
+          "score": 0.9998000264167786,
+          "source": "openalex"
+        },
+        {
+          "value": "Climate change impacts on agriculture",
+          "scheme": "openalex_topic",
+          "score": 0.9359999895095825,
+          "source": "openalex"
+        },
+        {
+          "value": "Clostridium difficile and Clostridium perfringens research",
+          "scheme": "openalex_topic",
+          "score": 0.9241999983787537,
+          "source": "openalex"
+        },
+        {
+          "value": "Microbiome",
+          "scheme": "openalex_concept",
+          "score": 0.8536050915718079,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Metagenomics",
+          "scheme": "openalex_concept",
+          "score": 0.6156288981437683,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.5953347086906433,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Population",
+          "scheme": "openalex_concept",
+          "score": 0.44089755415916443,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Human microbiome",
+          "scheme": "openalex_concept",
+          "score": 0.43421223759651184,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Computational biology",
+          "scheme": "openalex_concept",
+          "score": 0.36586838960647583,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Risk analysis (engineering)",
+          "scheme": "openalex_concept",
+          "score": 0.35002511739730835,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Biology",
+          "scheme": "openalex_concept",
+          "score": 0.3439332842826843,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Bioinformatics",
+          "scheme": "openalex_concept",
+          "score": 0.30283990502357483,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Medicine",
+          "scheme": "openalex_concept",
+          "score": 0.1612815260887146,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Genetics",
+          "scheme": "openalex_concept",
+          "score": 0.1486085057258606,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Environmental health",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Gene",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 2,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Markov Chains",
+          "descriptor_ui": "D008390",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Markov Chains",
+          "descriptor_ui": "D008390",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Markov Chains",
+          "descriptor_ui": "D008390",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Molecular Conformation",
+          "descriptor_ui": "D008968",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Molecular Conformation",
+          "descriptor_ui": "D008968",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Molecular Conformation",
+          "descriptor_ui": "D008968",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Metagenomics",
+          "descriptor_ui": "D056186",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Metagenomics",
+          "descriptor_ui": "D056186",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Metagenomics",
+          "descriptor_ui": "D056186",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Microbiota",
+          "descriptor_ui": "D064307",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Microbiota",
+          "descriptor_ui": "D064307",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Microbiota",
+          "descriptor_ui": "D064307",
+          "is_major_topic": true,
+          "source": "openalex"
+        }
+      ],
+      "keywords": [
+        "Microbiome",
+        "Metagenomics",
+        "Computer science",
+        "Population",
+        "Human microbiome",
+        "Computational biology",
+        "Risk analysis (engineering)",
+        "Biology",
+        "Bioinformatics",
+        "Medicine",
+        "Genetics"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 1.7136738,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.82485795,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 3618.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/bty562",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "MDPbiome: microbiome engineering through prescriptive perturbations",
+      "publication_date": "2018-07-05",
+      "publication_year": 2018,
+      "work_type": "journal-article",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "Bioinformatics",
+      "issn": [
+        "1367-4811",
+        "1367-4803"
+      ],
+      "doi": "10.1093/bioinformatics/bty562",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_locations": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i838/25702530/bty562.pdf",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i838/25702530/bty562.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/bty562",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i838/25702530/bty562.pdf",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i838/25702530/bty562.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/bty562",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "http://europepmc.org/pmc/articles/PMC6129268",
+          "landing_page_url": "http://europepmc.org/pmc/articles/PMC6129268",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "European Bioinformatics Institute",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6129268",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6129268",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://academic.oup.com/bioinformatics/article-pdf/34/17/i838/25702530/bty562.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "MDPbiome: microbiome engineering through prescriptive perturbations.",
+      "abstract": "<h4>Motivation</h4>Recent microbiome dynamics studies highlight the current inability to predict the effects of external perturbations on complex microbial populations. To do so would be particularly advantageous in fields such as medicine, bioremediation or industrial scenarios.<h4>Results</h4>MDPbiome statistically models longitudinal metagenomics samples undergoing perturbations as a Markov Decision Process (MDP). Given a starting microbial composition, our MDPbiome system suggests the sequence of external perturbation(s) that will engineer that microbiome to a goal state, for example, a healthier or more performant composition. It also estimates intermediate microbiome states along the path, thus making it possible to avoid particularly undesirable/unhealthy states. We demonstrate MDPbiome performance over three real and distinct datasets, proving its flexibility, and the reliability and universality of its output 'optimal perturbation policy'. For example, an MDP created using a vaginal microbiome time series, with a goal of recovering from bacterial vaginosis, suggested avoidance of perturbations such as lubricants or sex toys; while another MDP provided a quantitative explanation for why salmonella vaccine accelerates gut microbiome maturation in chicks. This novel analytical approach has clear applications in medicine, where it could suggest low-impact clinical interventions that will lead to achievement or maintenance of a healthy microbial population, or alternately, the sequence of interventions necessary to avoid strongly negative microbiome states.<h4>Availability and implementation</h4>Code (https://github.com/beatrizgj/MDPbiome) and result files (https://tomdelarosa.shinyapps.io/MDPbiome/) are available online.<h4>Supplementary information</h4>Supplementary data are available at Bioinformatics online.",
+      "publication_year": 2018,
+      "language": "eng",
+      "container_title": "Bioinformatics (Oxford, England)",
+      "volume": "34",
+      "issue": "17",
+      "pages": "i838-i847",
+      "issn": [],
+      "doi": "10.1093/bioinformatics/bty562",
+      "pmid": "30423107",
+      "pmcid": "PMC6129268",
+      "authors": [
+        {
+          "name": {
+            "given": "Beatriz",
+            "family": "Garc\u00eda-Jim\u00e9nez",
+            "full_name": "Garc\u00eda-Jim\u00e9nez B",
+            "orcid": "0000-0002-8129-6506",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Center for Plant Biotechnology and Genomics UPM - INIA, Universidad Politecnica de Madrid, Madrid, Spain.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Tom\u00e1s",
+            "family": "de la Rosa",
+            "full_name": "de la Rosa T",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Computer Science, Universidad Carlos III de Madrid, Madrid, Spain.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mark D",
+            "family": "Wilkinson",
+            "full_name": "Wilkinson MD",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Center for Plant Biotechnology and Genomics UPM - INIA, Universidad Politecnica de Madrid, Madrid, Spain.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 9,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "url": "https://europepmc.org/articles/PMC6129268",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC6129268?pdf=render",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "agency": "Fundacion BBVA",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "agency": "Isaac Peral and/or Marie Curie co-fund Programme at UPM",
+          "pi_names": [],
+          "source": "europe_pmc"
+        }
+      ],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Markov Chains",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Molecular Conformation",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Software",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Metagenomics",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Microbiota",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 9.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [
+        {
+          "type": "Preprint in",
+          "id": "PPR34422",
+          "source": "PPR"
+        }
+      ],
+      "full_text_urls": [
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/bty562",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC6129268",
+          "availability": "Open access",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC6129268?pdf=render",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/bty562",
+      "pmid": "19683066",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/bty562",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/bty562",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/bty562",
+      "authors": [
+        {
+          "name": {
+            "given": "Beatriz",
+            "family": "Garc\u00eda-Jim\u00e9nez",
+            "full_name": "Beatriz Garc\u00eda-Jim\u00e9nez",
+            "orcid": "0000-0002-8129-6506",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mark",
+            "family": "Wilkinson",
+            "full_name": "Mark D. Wilkinson",
+            "orcid": "0000-0001-6960-357X",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0002-8129-6506",
+          "given_names": "Beatriz",
+          "family_names": "Garc\u00eda-Jim\u00e9nez",
+          "credit_name": null,
+          "other_names": [
+            "Beatriz Garc\u00eda"
+          ],
+          "institutions": [
+            "BioinfoCAM",
+            "Biological Research Center (CIB-CSIC)",
+            "Carlos III University of Madrid",
+            "Centre for Plant Biotechnology and Genomics (CBGP, UPM-INIA)",
+            "Centre for Plant Biotechnology and Genomics (CBGP, UPM-INIA) Universidad Polit\u00e9cnica de Madrid (UPM) - Instituto Nacional de Investigaci\u00f3n y Tecnolog\u00eda Agraria y Alimentaria (INIA) Campus de Montegancedo-UPM",
+            "Foundation for the promotion of the Research in Public Health and Biomedicine",
+            "GEMBIOTA: Microbiota study group",
+            "IBM Research - Zurich",
+            "International Society for Computational Biology",
+            "Madrid Regional Government",
+            "Max-Planck-Institut f\u00fcr Informatik",
+            "National Centre for Biotechnology (CNB-CSIC)",
+            "Politechnical University of Madrid",
+            "Royal Spanish Doctoral Academy",
+            "Spanish National Cancer Research Centre",
+            "Spanish society of microbiota, prebiotics and probiotics",
+            "University of Cagliari"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0001-6960-357X",
+          "given_names": "Mark",
+          "family_names": "Wilkinson",
+          "credit_name": "Mark D. Wilkinson",
+          "other_names": [],
+          "institutions": [
+            "James Hogg iCAPTURE Center",
+            "Max Planck Institut fur Zuchtungsforschung",
+            "National Research Council Canada",
+            "Universidad Polit\u00e9cnica de Madrid (UPM)",
+            "University of Alberta",
+            "University of British Columbia"
+          ],
+          "emails": [
+            "mark.wilkinson@upm.es"
+          ]
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": true,
+      "raw": {},
+      "title": "MDPbiome: microbiome engineering through prescriptive perturbations.",
+      "abstract": "MOTIVATION: Recent microbiome dynamics studies highlight the current inability to predict the effects of external perturbations on complex microbial populations. To do so would be particularly advantageous in fields such as medicine, bioremediation or industrial scenarios.\nRESULTS: MDPbiome statistically models longitudinal metagenomics samples undergoing perturbations as a Markov Decision Process (MDP). Given a starting microbial composition, our MDPbiome system suggests the sequence of external perturbation(s) that will engineer that microbiome to a goal state, for example, a healthier or more performant composition. It also estimates intermediate microbiome states along the path, thus making it possible to avoid particularly undesirable/unhealthy states. We demonstrate MDPbiome performance over three real and distinct datasets, proving its flexibility, and the reliability and universality of its output 'optimal perturbation policy'. For example, an MDP created using a vaginal microbiome time series, with a goal of recovering from bacterial vaginosis, suggested avoidance of perturbations such as lubricants or sex toys; while another MDP provided a quantitative explanation for why salmonella vaccine accelerates gut microbiome maturation in chicks. This novel analytical approach has clear applications in medicine, where it could suggest low-impact clinical interventions that will lead to achievement or maintenance of a healthy microbial population, or alternately, the sequence of interventions necessary to avoid strongly negative microbiome states.\nAVAILABILITY AND IMPLEMENTATION: Code (https://github.com/beatrizgj/MDPbiome) and result files (https://tomdelarosa.shinyapps.io/MDPbiome/) are available online.\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+      "publication_date": "2018-Sep-01",
+      "publication_year": 2018,
+      "work_type": "journal-article",
+      "language": "eng",
+      "container_title": "Bioinformatics (Oxford, England)",
+      "volume": "34",
+      "issue": "17",
+      "pages": "i838-i847",
+      "issn": [
+        "1367-4811",
+        "1367-4803"
+      ],
+      "doi": "10.1093/bioinformatics/bty562",
+      "pmid": "30423107",
+      "pmcid": "PMC6129268",
+      "authors": [
+        {
+          "name": {
+            "given": "Beatriz",
+            "family": "Garc\u00eda-Jim\u00e9nez",
+            "full_name": "Beatriz Garc\u00eda-Jim\u00e9nez",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Center for Plant Biotechnology and Genomics UPM - INIA, Universidad Politecnica de Madrid, Madrid, Spain.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Tom\u00e1s",
+            "family": "de la Rosa",
+            "full_name": "Tom\u00e1s de la Rosa",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Computer Science, Universidad Carlos III de Madrid, Madrid, Spain.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mark D",
+            "family": "Wilkinson",
+            "full_name": "Mark D Wilkinson",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Center for Plant Biotechnology and Genomics UPM - INIA, Universidad Politecnica de Madrid, Madrid, Spain.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        }
+      ],
+      "reference_count": 40,
+      "references": [
+        {
+          "pmid": "29416530",
+          "unstructured": "Baksi K.D., et al. (2018) A web application for obtaining insights into microbial ecology using longitudinal microbiome data. Front. Microbiol., 9, 36.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "26835461",
+          "unstructured": "Ballou A.L., et al. (2016) Development of the chick microbiome: how early exposure influences future microbial diversity. Front. Vet. Sci., 3, 2.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "27279224",
+          "unstructured": "Bashan A., et al. (2016) Universality of human microbial dynamics. Nature, 534, 259\u2013262.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Bellman R. (1957) A markovian decision process. Indiana Univ. Math. J., 6, 679\u2013684.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "24525633",
+          "unstructured": "Boyd J.H., et al. (2014) The meta-genome of sepsis: host genetics, pathogens and the acute immune response. J. Innate Immunity, 6, 272\u2013283.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "28330508",
+          "unstructured": "Bradley P.H., Pollard K.S. (2017) Proteobacteria explain significant functional variability in the human gut microbiome. Microbiome, 5, 36.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "28572753",
+          "unstructured": "Brooks J.P., et al. (2017) Changes in vaginal community state types reflect major shifts in the microbiome. Microb. Ecol. Health Dis., 28, 1303265.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "20660593",
+          "unstructured": "Brotman R.M., et al. (2010) Rapid fluctuation of the vaginal microbiota measured by Gram stain analysis. Sex. Transm. Infect., 86, 297\u2013302.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "27259475",
+          "unstructured": "Bucci V., et al. (2016) MDSINE: Microbial Dynamical Systems INference Engine for microbiome time-series analyses. Genome Biol., 17, 121.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "28731476",
+          "unstructured": "Callahan B.J., et al. (2017) Exact sequence variants should replace operational taxonomic units in marker-gene data analysis. ISME J., 11, 2639\u20132643.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Canter L. (2017) Environmental Impact of Agricultural Production Activities. CRC Press, Boca Raton, London, New York.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "28000336",
+          "unstructured": "Cao H.-T., et al. (2017) Inferring human microbial dynamics from temporal metagenomics data: pitfalls and lessons. BioEssays, 39, 1600188.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "26490831",
+          "unstructured": "Capan M., et al. (2017) A stochastic model of acute-care decisions based on patient and provider heterogeneity. Health Care Manag. Sci., 20, 187.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Chad\u00e8s I., et al. (2014) MDPtoolbox: a multi-platform toolbox to solve stochastic dynamic programming problems. Ecography, 37, 916\u2013920.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "27681992",
+          "unstructured": "Chen Q., et al. (2017) Sensitivity analysis in sequential decision models: a probabilistic approach. Med. Decis. Making, 37, 243\u2013252.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "29255284",
+          "unstructured": "Costea P.I., et al. (2018) Enterotypes in the landscape of gut microbial community composition. Nat. Microbiol., 3, 8\u201316.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "25146375",
+          "unstructured": "David L.A., et al. (2014) Host lifestyle affects human microbiota on daily timescales. Genome Biol., 15, R89.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "24739969",
+          "unstructured": "Ding T., Schloss P.D. (2014) Dynamics and associations of microbial community types across the human body. Nature, 509, 357\u2013360.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "21530737",
+          "unstructured": "Dominguez-Bello M.G., et al. (2011) Development of the human gastrointestinal microbiota and insights from high-throughput sequencing. Gastroenterology, 140, 1713\u20131719.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "22796884",
+          "unstructured": "Faust K., Raes J. (2012) Microbial interactions: from networks to models. Nat. Rev. Microbiol., 10, 538\u2013550.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "26005845",
+          "unstructured": "Faust K., et al. (2015) Metagenomics meets time series analysis: unraveling microbial community dynamics. Curr. Opin. Microbiol., 25, 56\u201366.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "28133942",
+          "unstructured": "Foo J.L., et al. (2017) Microbiome engineering: current applications and its future. Biotechnol. J., 12, 1600099.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "24450613",
+          "unstructured": "Fritz J.V., et al. (2013) From meta-omics to causality: experimental models for human microbiome research. Microbiome, 1, 14.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "22553250",
+          "unstructured": "Gajer P., et al. (2012) Temporal dynamics of the human vaginal microbiota. Sci. Transl. Med., 4, 132ra52.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "30941274",
+          "unstructured": "\nGarc\u00eda-Jim\u00e9nez B., Wilkinson M.D. (2018) \nAutomatic Definition of Robust Microbiome Sub-States in Longitudinal Data. PeerJ pre-print, https://peerj.com/preprints/26657.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "28222117",
+          "unstructured": "Gibbons S.M., et al. (2017) Two dynamic regimes in the human gut microbiome. PLoS Comput. Biol., 13, e1005364.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "27383984",
+          "unstructured": "Gilbert J.A., et al. (2016) Microbiome-wide association studies link dynamic microbial consortia to disease. Nature, 535, 94\u2013103.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "28475180",
+          "unstructured": "Gonze D., et al. (2017) Multi-stability and the origin of microbial community types. ISME J., 11, 2159\u20132166.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Howard R.A. (1960) Dynamic Programming and Markov Processes. MIT Press, Cambridge.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "25114261",
+          "unstructured": "La Rosa P.S., et al. (2014) Patterned progression of bacterial populations in the premature infant gut. Proc. Natl. Acad. Sci. USA, 111, 12522\u201312527.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "28345059",
+          "unstructured": "Mart\u00ed J.M., et al. (2017) Health and disease imprinted in the time variability of the human microbiome. mSystems, 2, e00144\u201316.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "1706728",
+          "unstructured": "Nugent R.P., et al. (1991) Reliability of diagnosing bacterial vaginosis is improved by a standardized method of gram stain interpretation. J. Clin. Microbiol., 29, 297\u2013301.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "25427406",
+          "unstructured": "Oakley B.B., et al. (2014) Successional changes in the chicken cecal microbiome during 42 days of growth are independent of organic acid feed additives. BMC Vet. Res., 10, 8.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "\nPuterman M.L. (1994) Markov Decision Processes: Discrete Stochastic Dynamic Programming ",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "28706917",
+          "unstructured": "Shankar J. (2017) Insights into study design and statistical analyses in translational microbiome studies. Ann. Transl. Med., 5, 249\u2013249.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "8246705",
+          "unstructured": "Sonnenberg F.A., Beck J.R. (1993) Markov models in medical decision making: a practical guide. Med. Decis. Making, 13, 322\u2013338.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "24348232",
+          "unstructured": "Stein R.R., et al. (2013) Ecological modeling from time-series inference: insight into dynamics and stability of intestinal microbiota. PLoS Comput. Biol., 9, e1003388.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Tetreault J.R., et al. (2007) Estimating the reliability of mdp policies: a confidence interval approach. In: Proceedings of Conference of the North American Chapter of the Association for Computational Linguistics. pp. 276\u2013283. Rochester, New York.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "28340597",
+          "unstructured": "Turroni S., et al. (2017) Temporal dynamics of the gut microbiota in people sharing a confined environment, a 520-day ground-based space simulation, MARS500. Microbiome, 5, 39.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "28352996",
+          "unstructured": "Weiss G.A., Hennet T. (2017) Mechanisms and consequences of intestinal dysbiosis. Cell. Mol. Life Sci., 74, 2959\u20132977.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Algorithms",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Markov Chains",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Metagenomics",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Microbiota",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Molecular Conformation",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Software",
+          "scheme": "MeSH",
+          "source": "entrez"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Markov Chains",
+          "descriptor_ui": "D008390",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Metagenomics",
+          "descriptor_ui": "D056186",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Microbiota",
+          "descriptor_ui": "D064307",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Molecular Conformation",
+          "descriptor_ui": "D008968",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "entrez"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {
+        "entrez": "2018-11-14",
+        "pubmed": "2018-11-14",
+        "medline": "2019-09-24",
+        "pmc-release": "2018-09-08"
+      },
+      "structured_abstract": {
+        "MOTIVATION": "Recent microbiome dynamics studies highlight the current inability to predict the effects of external perturbations on complex microbial populations. To do so would be particularly advantageous in fields such as medicine, bioremediation or industrial scenarios.",
+        "RESULTS": "MDPbiome statistically models longitudinal metagenomics samples undergoing perturbations as a Markov Decision Process (MDP). Given a starting microbial composition, our MDPbiome system suggests the sequence of external perturbation(s) that will engineer that microbiome to a goal state, for example, a healthier or more performant composition. It also estimates intermediate microbiome states along the path, thus making it possible to avoid particularly undesirable/unhealthy states. We demonstrate MDPbiome performance over three real and distinct datasets, proving its flexibility, and the reliability and universality of its output 'optimal perturbation policy'. For example, an MDP created using a vaginal microbiome time series, with a goal of recovering from bacterial vaginosis, suggested avoidance of perturbations such as lubricants or sex toys; while another MDP provided a quantitative explanation for why salmonella vaccine accelerates gut microbiome maturation in chicks. This novel analytical approach has clear applications in medicine, where it could suggest low-impact clinical interventions that will lead to achievement or maintenance of a healthy microbial population, or alternately, the sequence of interventions necessary to avoid strongly negative microbiome states.",
+        "AVAILABILITY AND IMPLEMENTATION": "Code (https://github.com/beatrizgj/MDPbiome) and result files (https://tomdelarosa.shinyapps.io/MDPbiome/) are available online.",
+        "SUPPLEMENTARY INFORMATION": "Supplementary data are available at Bioinformatics online."
+      },
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "publication_status": "ppublish",
+      "country_of_publication": "England",
+      "nlm_journal_id": "9808944",
+      "medline_ta": "Bioinformatics",
+      "citation_subsets": [
+        "IM"
+      ],
+      "pii": "5093255",
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1093/bioinformatics/bty562",
+    "pmid": "30423107",
+    "pmcid": "PMC6129268",
+    "openalex_id": "https://openalex.org/W2889570565",
+    "pii": "5093255",
+    "nlm_unique_id": "9808944",
+    "handles": [],
+    "orcids": [
+      "0000-0001-6960-357X",
+      "0000-0002-1977-9777",
+      "0000-0002-8129-6506"
+    ],
+    "ror_ids": [
+      "https://ror.org/03n6nwv02",
+      "https://ror.org/03ths8210",
+      "https://ror.org/04mfzb702"
+    ],
+    "grant_ids": [],
+    "nct_ids": [],
+    "pmid_source": "entrez",
+    "pmcid_source": "entrez"
+  },
+  "conflicts": {
+    "doi": "10.1093/bioinformatics/bty562",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 12,
+          "openalex": 20,
+          "europe_pmc": 9
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 40,
+          "openalex": 47,
+          "entrez": 40
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article",
+          "entrez": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 3,
+          "openalex": 3,
+          "unpaywall": 3,
+          "europe_pmc": 3,
+          "orcid": 2,
+          "entrez": 3
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Oxford University Press (OUP)",
+          "openalex": "https://openalex.org/P4310311648",
+          "unpaywall": "Oxford University Press (OUP)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Bioinformatics",
+          "openalex": "Bioinformatics",
+          "unpaywall": "Bioinformatics",
+          "europe_pmc": "Bioinformatics (Oxford, England)",
+          "entrez": "Bioinformatics (Oxford, England)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "mesh_term_count",
+        "values": {
+          "openalex": 18,
+          "europe_pmc": 6,
+          "entrez": 6
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng",
+          "entrez": "eng"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 2,
+    "conflict_count": 8
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1093/bioinformatics/bty562",
+    "fetched_at": "2026-02-11T18:02:17.912769+00:00"
+  }
+}

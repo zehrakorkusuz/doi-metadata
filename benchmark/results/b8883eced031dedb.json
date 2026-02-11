@@ -1,0 +1,3996 @@
+{
+  "doi": "10.48550/arxiv.2005.14165",
+  "registration_agency": "datacite",
+  "retrieved_at": "2026-02-11T13:22:17.366987Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.48550/arxiv.2005.14165",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": true,
+      "raw": {},
+      "title": "Language Models are Few-Shot Learners",
+      "abstract": "Recent work has demonstrated substantial gains on many NLP tasks and benchmarks by pre-training on a large corpus of text followed by fine-tuning on a specific task. While typically task-agnostic in architecture, this method still requires task-specific fine-tuning datasets of thousands or tens of thousands of examples. By contrast, humans can generally perform a new language task from only a few examples or from simple instructions - something which current NLP systems still largely struggle to do. Here we show that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even reaching competitiveness with prior state-of-the-art fine-tuning approaches. Specifically, we train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous non-sparse language model, and test its performance in the few-shot setting. For all tasks, GPT-3 is applied without any gradient updates or fine-tuning, with tasks and few-shot demonstrations specified purely via text interaction with the model. GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks, as well as several tasks that require on-the-fly reasoning or domain adaptation, such as unscrambling words, using a novel word in a sentence, or performing 3-digit arithmetic. At the same time, we also identify some datasets where GPT-3's few-shot learning still struggles, as well as some datasets where GPT-3 faces methodological issues related to training on large web corpora. Finally, we find that GPT-3 can generate samples of news articles which human evaluators have difficulty distinguishing from articles written by humans. We discuss broader societal impacts of this finding and of GPT-3 in general.",
+      "publication_date": "2020",
+      "publication_year": 2020,
+      "work_type": "Preprint",
+      "publisher": "arXiv",
+      "issn": [],
+      "doi": "10.48550/arxiv.2005.14165",
+      "authors": [
+        {
+          "name": {
+            "given": "Tom B.",
+            "family": "Brown",
+            "full_name": "Brown, Tom B.",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Benjamin",
+            "family": "Mann",
+            "full_name": "Mann, Benjamin",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Nick",
+            "family": "Ryder",
+            "full_name": "Ryder, Nick",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Melanie",
+            "family": "Subbiah",
+            "full_name": "Subbiah, Melanie",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jared",
+            "family": "Kaplan",
+            "full_name": "Kaplan, Jared",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Prafulla",
+            "family": "Dhariwal",
+            "full_name": "Dhariwal, Prafulla",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Arvind",
+            "family": "Neelakantan",
+            "full_name": "Neelakantan, Arvind",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Pranav",
+            "family": "Shyam",
+            "full_name": "Shyam, Pranav",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Girish",
+            "family": "Sastry",
+            "full_name": "Sastry, Girish",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Amanda",
+            "family": "Askell",
+            "full_name": "Askell, Amanda",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sandhini",
+            "family": "Agarwal",
+            "full_name": "Agarwal, Sandhini",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ariel",
+            "family": "Herbert-Voss",
+            "full_name": "Herbert-Voss, Ariel",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Gretchen",
+            "family": "Krueger",
+            "full_name": "Krueger, Gretchen",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Tom",
+            "family": "Henighan",
+            "full_name": "Henighan, Tom",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Rewon",
+            "family": "Child",
+            "full_name": "Child, Rewon",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Aditya",
+            "family": "Ramesh",
+            "full_name": "Ramesh, Aditya",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Daniel M.",
+            "family": "Ziegler",
+            "full_name": "Ziegler, Daniel M.",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jeffrey",
+            "family": "Wu",
+            "full_name": "Wu, Jeffrey",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Clemens",
+            "family": "Winter",
+            "full_name": "Winter, Clemens",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Christopher",
+            "family": "Hesse",
+            "full_name": "Hesse, Christopher",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mark",
+            "family": "Chen",
+            "full_name": "Chen, Mark",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Eric",
+            "family": "Sigler",
+            "full_name": "Sigler, Eric",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mateusz",
+            "family": "Litwin",
+            "full_name": "Litwin, Mateusz",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Scott",
+            "family": "Gray",
+            "full_name": "Gray, Scott",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Benjamin",
+            "family": "Chess",
+            "full_name": "Chess, Benjamin",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jack",
+            "family": "Clark",
+            "full_name": "Clark, Jack",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Christopher",
+            "family": "Berner",
+            "full_name": "Berner, Christopher",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sam",
+            "family": "McCandlish",
+            "full_name": "McCandlish, Sam",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Alec",
+            "family": "Radford",
+            "full_name": "Radford, Alec",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ilya",
+            "family": "Sutskever",
+            "full_name": "Sutskever, Ilya",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "name": {
+            "given": "Dario",
+            "family": "Amodei",
+            "full_name": "Amodei, Dario",
+            "authenticated_orcid": false,
+            "source": "datacite"
+          },
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ]
+        }
+      ],
+      "citation_count": 29,
+      "reference_count": 0,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+          "source": "datacite"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Computation and Language (cs.CL)",
+          "scheme": "arXiv",
+          "source": "datacite"
+        },
+        {
+          "value": "FOS: Computer and information sciences",
+          "scheme": "Fields of Science and Technology (FOS)",
+          "source": "datacite"
+        },
+        {
+          "value": "FOS: Computer and information sciences",
+          "scheme": "Fields of Science and Technology (FOS)",
+          "source": "datacite"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "version_info": {
+        "total_versions": 0,
+        "version_dois": [],
+        "source": "datacite"
+      },
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "view_count",
+          "value": 0.0,
+          "source": "datacite"
+        },
+        {
+          "name": "download_count",
+          "value": 0.0,
+          "source": "datacite"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "Language Models are Few-Shot Learners",
+      "abstract": "Recent work has demonstrated substantial gains on many NLP tasks and benchmarks by pre-training on a large corpus of text followed by fine-tuning on a specific task. While typically task-agnostic in architecture, this method still requires task-specific fine-tuning datasets of thousands or tens of thousands of examples. By contrast, humans can generally perform a new language task from only a few examples or from simple instructions - something which current NLP systems still largely struggle to do. Here we show that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even reaching competitiveness with prior state-of-the-art fine-tuning approaches. Specifically, we train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous non-sparse language model, and test its performance in the few-shot setting. For all tasks, GPT-3 is applied without any gradient updates or fine-tuning, with tasks and few-shot demonstrations specified purely via text interaction with the model. GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks, as well as several tasks that require on-the-fly reasoning or domain adaptation, such as unscrambling words, using a novel word in a sentence, or performing 3-digit arithmetic. At the same time, we also identify some datasets where GPT-3's few-shot learning still struggles, as well as some datasets where GPT-3 faces methodological issues related to training on large web corpora. Finally, we find that GPT-3 can generate samples of news articles which human evaluators have difficulty distinguishing from articles written by humans. We discuss broader societal impacts of this finding and of GPT-3 in general.",
+      "publication_date": "2020-05-28",
+      "publication_year": 2020,
+      "work_type": "preprint",
+      "language": "en",
+      "publisher": "https://openalex.org/I205783295",
+      "container_title": "arXiv (Cornell University)",
+      "volume": "33",
+      "pages": "1877-1901",
+      "issn": [],
+      "doi": "10.48550/arxiv.2005.14165",
+      "openalex_id": "https://openalex.org/W3030163527",
+      "authors": [
+        {
+          "name": {
+            "full_name": "T. B. Brown",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5079465685",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Benjamin Mann",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5084254760",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Nick Ryder",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5080941449",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Melanie Subbiah",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5031060893",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jared Kaplan",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5053213601",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Prafulla Dhariwal",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5076418776",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Arvind Neelakantan",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5043840749",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Pranav Shyam",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5083109184",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Girish Sastry",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5059260582",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Amanda Askell",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5030305998",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Sandhini Agarwal",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5057289323",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ariel Herbert-Voss",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5070026510",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Gretchen Krueger",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5064685592",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Tom Henighan",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5049786610",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Rewon Child",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5084512458",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Aditya Ramesh",
+            "orcid": "0000-0001-5984-8282",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5101696375",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Daniel M. Ziegler",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5109551394",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jeffrey Wu",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5081413425",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Clemens Winter",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5089232745",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Christopher Hesse",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5002922045",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Mark Chen",
+            "orcid": "0000-0001-9369-5830",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5030935953",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Eric J. Sigler",
+            "orcid": "0000-0002-1063-4440",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5016619179",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Mateusz Litwin",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5049998033",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Scott Gray",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5026541761",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Benjamin Chess",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5057742306",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Jack Clark",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5031107879",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Christopher Berner",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5022674572",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Sam McCandlish",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5054887773",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Alec Radford",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5051250767",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ilya Sutskever",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5006446297",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Dario Amodei",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5066197394",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 3027,
+      "reference_count": 127,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2025": 319,
+        "2024": 415,
+        "2023": 442,
+        "2022": 240,
+        "2021": 1230,
+        "2020": 375,
+        "2019": 6
+      },
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_locations": [
+        {
+          "url": "http://arxiv.org/abs/2005.14165",
+          "pdf_url": "https://arxiv.org/pdf/2005.14165",
+          "landing_page_url": "http://arxiv.org/abs/2005.14165",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/I205783295",
+          "source": "openalex"
+        },
+        {
+          "url": "http://arxiv.org/abs/2005.14165",
+          "pdf_url": "https://arxiv.org/pdf/2005.14165",
+          "landing_page_url": "http://arxiv.org/abs/2005.14165",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I205783295",
+          "source": "openalex"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2005.14165.pdf",
+          "landing_page_url": "https://arxiv.org/pdf/2005.14165.pdf",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I205783295",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.48550/arxiv.2005.14165",
+          "landing_page_url": "https://doi.org/10.48550/arxiv.2005.14165",
+          "host_type": "repository",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I205783295",
+          "source": "openalex"
+        },
+        {
+          "url": "https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf",
+          "landing_page_url": "https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf",
+          "host_type": "conference",
+          "is_best": false,
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://arxiv.org/pdf/2005.14165",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Topic Modeling",
+          "scheme": "openalex_topic",
+          "score": 0.9998000264167786,
+          "source": "openalex"
+        },
+        {
+          "value": "Natural Language Processing Techniques",
+          "scheme": "openalex_topic",
+          "score": 0.9990000128746033,
+          "source": "openalex"
+        },
+        {
+          "value": "Text Readability and Simplification",
+          "scheme": "openalex_topic",
+          "score": 0.9868999719619751,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.8342944383621216,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Task (project management)",
+          "scheme": "openalex_concept",
+          "score": 0.6932450532913208,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Language model",
+          "scheme": "openalex_concept",
+          "score": 0.6409756541252136,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Natural language processing",
+          "scheme": "openalex_concept",
+          "score": 0.622307538986206,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Sentence",
+          "scheme": "openalex_concept",
+          "score": 0.594061017036438,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Artificial intelligence",
+          "scheme": "openalex_concept",
+          "score": 0.5731505155563354,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Word (group theory)",
+          "scheme": "openalex_concept",
+          "score": 0.5305089354515076,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Simple (philosophy)",
+          "scheme": "openalex_concept",
+          "score": 0.47138601541519165,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Linguistics",
+          "scheme": "openalex_concept",
+          "score": 0.1510390341281891,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Economics",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Epistemology",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Philosophy",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Management",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Quality Education",
+          "scheme": "SDG",
+          "score": 0.8299999833106995,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Computer science",
+        "Task (project management)",
+        "Language model",
+        "Natural language processing",
+        "Sentence",
+        "Artificial intelligence",
+        "Word (group theory)",
+        "Simple (philosophy)",
+        "Linguistics"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.48550/arxiv.2005.14165",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.48550/arxiv.2005.14165",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.48550/arxiv.2005.14165",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.48550/arxiv.2005.14165",
+      "pmid": "19683066",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.48550/arxiv.2005.14165",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.48550/arxiv.2005.14165",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.48550/arxiv.2005.14165",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.48550/arxiv.2005.14165",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.48550/arxiv.2005.14165",
+    "pmid": "19683066",
+    "openalex_id": "https://openalex.org/W3030163527",
+    "handles": [],
+    "orcids": [
+      "0000-0001-5984-8282",
+      "0000-0001-9369-5830",
+      "0000-0002-1063-4440"
+    ],
+    "ror_ids": [],
+    "grant_ids": [],
+    "nct_ids": [],
+    "pmid_source": "nih_reporter"
+  },
+  "conflicts": {
+    "doi": "10.48550/arxiv.2005.14165",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "datacite": 29,
+          "openalex": 3027
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "datacite": 0,
+          "openalex": 127
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "datacite": "Preprint",
+          "openalex": "preprint"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "datacite": "arXiv",
+          "openalex": "https://openalex.org/I205783295"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 3,
+    "conflict_count": 4
+  },
+  "datacite_linked_datasets": [
+    {
+      "identifier": "10.5281/zenodo.15185971",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "BNAI, NO-TOKEN, and MIND-UNITY: Pillars of a Systemic Revolution in Artificial Intelligence (Results + Code)",
+      "publisher": "Zenodo",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.5281/zenodo.14894878",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "BNAI, NO-TOKEN, and MIND-UNITY: Pillars of a Systemic Revolution  in Artificial Intelligence",
+      "publisher": "Zenodo",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.5281/zenodo.14894877",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "BNAI, NO-TOKEN, and MIND-UNITY: Pillars of a Systemic Revolution in Artificial Intelligence (Results + Code)",
+      "publisher": "Zenodo",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.4230/oasics.dx.2024.25",
+      "identifier_type": "DOI",
+      "resource_type": "ConferencePaper",
+      "title": "FLEX: Fault Localization and Explanation Using Open-Source Large Language Models in Powertrain Systems (Short Paper)",
+      "publisher": "Schloss Dagstuhl \u2013 Leibniz-Zentrum f\u00fcr Informatik",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26725085.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 3 of Evaluating the accuracy of Chat Generative Pre-trained Transformer version 4 (ChatGPT-4) responses to United States Food and Drug Administration (FDA) frequently asked questions about dental amalgam",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26725091.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 5 of Evaluating the accuracy of Chat Generative Pre-trained Transformer version 4 (ChatGPT-4) responses to United States Food and Drug Administration (FDA) frequently asked questions about dental amalgam",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26725079.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of Evaluating the accuracy of Chat Generative Pre-trained Transformer version 4 (ChatGPT-4) responses to United States Food and Drug Administration (FDA) frequently asked questions about dental amalgam",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26725079",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of Evaluating the accuracy of Chat Generative Pre-trained Transformer version 4 (ChatGPT-4) responses to United States Food and Drug Administration (FDA) frequently asked questions about dental amalgam",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26725091",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 5 of Evaluating the accuracy of Chat Generative Pre-trained Transformer version 4 (ChatGPT-4) responses to United States Food and Drug Administration (FDA) frequently asked questions about dental amalgam",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26725082.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 2 of Evaluating the accuracy of Chat Generative Pre-trained Transformer version 4 (ChatGPT-4) responses to United States Food and Drug Administration (FDA) frequently asked questions about dental amalgam",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26725088.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 4 of Evaluating the accuracy of Chat Generative Pre-trained Transformer version 4 (ChatGPT-4) responses to United States Food and Drug Administration (FDA) frequently asked questions about dental amalgam",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26725082",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 2 of Evaluating the accuracy of Chat Generative Pre-trained Transformer version 4 (ChatGPT-4) responses to United States Food and Drug Administration (FDA) frequently asked questions about dental amalgam",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26725085",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 3 of Evaluating the accuracy of Chat Generative Pre-trained Transformer version 4 (ChatGPT-4) responses to United States Food and Drug Administration (FDA) frequently asked questions about dental amalgam",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26725088",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 4 of Evaluating the accuracy of Chat Generative Pre-trained Transformer version 4 (ChatGPT-4) responses to United States Food and Drug Administration (FDA) frequently asked questions about dental amalgam",
+      "publisher": "figshare",
+      "source": "datacite"
+    }
+  ],
+  "analyses": {
+    "impact": {
+      "doi": "10.48550/arxiv.2005.14165",
+      "citation_comparison": {
+        "values": {
+          "datacite": 29,
+          "openalex": 3027
+        },
+        "min": 29,
+        "max": 3027,
+        "spread": 2998,
+        "median": 3027
+      },
+      "citation_trend": [
+        {
+          "year": 2019,
+          "count": 6
+        },
+        {
+          "year": 2020,
+          "count": 375
+        },
+        {
+          "year": 2021,
+          "count": 1230
+        },
+        {
+          "year": 2022,
+          "count": 240
+        },
+        {
+          "year": 2023,
+          "count": 442
+        },
+        {
+          "year": 2024,
+          "count": 415
+        },
+        {
+          "year": 2025,
+          "count": 319
+        }
+      ],
+      "trend_direction": "declining",
+      "dataset_reuse_count": 14,
+      "narrative": "Cited ~3027 times across sources. (counts range 29\u20133027, significant cross-source divergence). Citation trend: declining. 14 downstream datasets reference this work."
+    },
+    "funding": {
+      "doi": "10.48550/arxiv.2005.14165",
+      "total_funders": 0,
+      "total_grants": 0,
+      "entries": [],
+      "nih_grants": [],
+      "eu_grants": [],
+      "other_grants": [],
+      "funding_agencies": [],
+      "narrative": "No funding information found."
+    },
+    "dataset_reuse": {
+      "doi": "10.48550/arxiv.2005.14165",
+      "datacite_linked_datasets": [
+        {
+          "identifier": "10.5281/zenodo.15185971",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "BNAI, NO-TOKEN, and MIND-UNITY: Pillars of a Systemic Revolution in Artificial Intelligence (Results + Code)",
+          "publisher": "Zenodo",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.5281/zenodo.14894878",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "BNAI, NO-TOKEN, and MIND-UNITY: Pillars of a Systemic Revolution  in Artificial Intelligence",
+          "publisher": "Zenodo",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.5281/zenodo.14894877",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "BNAI, NO-TOKEN, and MIND-UNITY: Pillars of a Systemic Revolution in Artificial Intelligence (Results + Code)",
+          "publisher": "Zenodo",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.4230/oasics.dx.2024.25",
+          "identifier_type": "DOI",
+          "resource_type": "ConferencePaper",
+          "title": "FLEX: Fault Localization and Explanation Using Open-Source Large Language Models in Powertrain Systems (Short Paper)",
+          "publisher": "Schloss Dagstuhl \u2013 Leibniz-Zentrum f\u00fcr Informatik",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26725085.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 3 of Evaluating the accuracy of Chat Generative Pre-trained Transformer version 4 (ChatGPT-4) responses to United States Food and Drug Administration (FDA) frequently asked questions about dental amalgam",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26725091.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 5 of Evaluating the accuracy of Chat Generative Pre-trained Transformer version 4 (ChatGPT-4) responses to United States Food and Drug Administration (FDA) frequently asked questions about dental amalgam",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26725079.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of Evaluating the accuracy of Chat Generative Pre-trained Transformer version 4 (ChatGPT-4) responses to United States Food and Drug Administration (FDA) frequently asked questions about dental amalgam",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26725079",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of Evaluating the accuracy of Chat Generative Pre-trained Transformer version 4 (ChatGPT-4) responses to United States Food and Drug Administration (FDA) frequently asked questions about dental amalgam",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26725091",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 5 of Evaluating the accuracy of Chat Generative Pre-trained Transformer version 4 (ChatGPT-4) responses to United States Food and Drug Administration (FDA) frequently asked questions about dental amalgam",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26725082.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 2 of Evaluating the accuracy of Chat Generative Pre-trained Transformer version 4 (ChatGPT-4) responses to United States Food and Drug Administration (FDA) frequently asked questions about dental amalgam",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26725088.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 4 of Evaluating the accuracy of Chat Generative Pre-trained Transformer version 4 (ChatGPT-4) responses to United States Food and Drug Administration (FDA) frequently asked questions about dental amalgam",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26725082",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 2 of Evaluating the accuracy of Chat Generative Pre-trained Transformer version 4 (ChatGPT-4) responses to United States Food and Drug Administration (FDA) frequently asked questions about dental amalgam",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26725085",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 3 of Evaluating the accuracy of Chat Generative Pre-trained Transformer version 4 (ChatGPT-4) responses to United States Food and Drug Administration (FDA) frequently asked questions about dental amalgam",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26725088",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 4 of Evaluating the accuracy of Chat Generative Pre-trained Transformer version 4 (ChatGPT-4) responses to United States Food and Drug Administration (FDA) frequently asked questions about dental amalgam",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        }
+      ],
+      "datacite_linked_count": 14,
+      "publishers_breakdown": {
+        "figshare": 10,
+        "Zenodo": 3,
+        "Schloss Dagstuhl \u2013 Leibniz-Zentrum f\u00fcr Informatik": 1
+      },
+      "supplements_to": [],
+      "supplemented_by": [],
+      "cites": [],
+      "cited_by": [],
+      "derived_from": [],
+      "source_of": [],
+      "parts": [],
+      "other_relations": [],
+      "related_software": [],
+      "related_data": [],
+      "version_chain": {
+        "total_versions": 0,
+        "version_dois": [],
+        "sources": [
+          "datacite"
+        ]
+      },
+      "file_count": 0,
+      "file_types": [],
+      "narrative": "14 downstream datasets reference this work (mostly from figshare: 10). Version ? of ?."
+    },
+    "authors": {
+      "doi": "10.48550/arxiv.2005.14165",
+      "authors": [
+        {
+          "full_name": "Aditya Ramesh",
+          "orcid": "0000-0001-5984-8282",
+          "authenticated_orcid": false,
+          "openalex_author_id": "https://openalex.org/A5101696375",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": [
+            "Aditya Ramesh"
+          ]
+        },
+        {
+          "full_name": "Mark Chen",
+          "orcid": "0000-0001-9369-5830",
+          "authenticated_orcid": false,
+          "openalex_author_id": "https://openalex.org/A5030935953",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": [
+            "Mark Chen"
+          ]
+        },
+        {
+          "full_name": "Eric J. Sigler",
+          "orcid": "0000-0002-1063-4440",
+          "authenticated_orcid": false,
+          "openalex_author_id": "https://openalex.org/A5016619179",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": [
+            "Eric J. Sigler"
+          ]
+        },
+        {
+          "given": "Tom B.",
+          "family": "Brown",
+          "full_name": "Brown, Tom B.",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Benjamin",
+          "family": "Mann",
+          "full_name": "Mann, Benjamin",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Nick",
+          "family": "Ryder",
+          "full_name": "Ryder, Nick",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Melanie",
+          "family": "Subbiah",
+          "full_name": "Subbiah, Melanie",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Jared",
+          "family": "Kaplan",
+          "full_name": "Kaplan, Jared",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Prafulla",
+          "family": "Dhariwal",
+          "full_name": "Dhariwal, Prafulla",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Arvind",
+          "family": "Neelakantan",
+          "full_name": "Neelakantan, Arvind",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Pranav",
+          "family": "Shyam",
+          "full_name": "Shyam, Pranav",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Girish",
+          "family": "Sastry",
+          "full_name": "Sastry, Girish",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Amanda",
+          "family": "Askell",
+          "full_name": "Askell, Amanda",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Sandhini",
+          "family": "Agarwal",
+          "full_name": "Agarwal, Sandhini",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Ariel",
+          "family": "Herbert-Voss",
+          "full_name": "Herbert-Voss, Ariel",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Gretchen",
+          "family": "Krueger",
+          "full_name": "Krueger, Gretchen",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Tom",
+          "family": "Henighan",
+          "full_name": "Henighan, Tom",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Rewon",
+          "family": "Child",
+          "full_name": "Child, Rewon",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Aditya",
+          "family": "Ramesh",
+          "full_name": "Ramesh, Aditya",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Daniel M.",
+          "family": "Ziegler",
+          "full_name": "Ziegler, Daniel M.",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Jeffrey",
+          "family": "Wu",
+          "full_name": "Wu, Jeffrey",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Clemens",
+          "family": "Winter",
+          "full_name": "Winter, Clemens",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Christopher",
+          "family": "Hesse",
+          "full_name": "Hesse, Christopher",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Mark",
+          "family": "Chen",
+          "full_name": "Chen, Mark",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Eric",
+          "family": "Sigler",
+          "full_name": "Sigler, Eric",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Mateusz",
+          "family": "Litwin",
+          "full_name": "Litwin, Mateusz",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Scott",
+          "family": "Gray",
+          "full_name": "Gray, Scott",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Benjamin",
+          "family": "Chess",
+          "full_name": "Chess, Benjamin",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Jack",
+          "family": "Clark",
+          "full_name": "Clark, Jack",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Christopher",
+          "family": "Berner",
+          "full_name": "Berner, Christopher",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Sam",
+          "family": "McCandlish",
+          "full_name": "McCandlish, Sam",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Alec",
+          "family": "Radford",
+          "full_name": "Radford, Alec",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Ilya",
+          "family": "Sutskever",
+          "full_name": "Sutskever, Ilya",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Dario",
+          "family": "Amodei",
+          "full_name": "Amodei, Dario",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "datacite"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "T. B. Brown",
+          "authenticated_orcid": false,
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5079465685",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Benjamin Mann",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5084254760",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Nick Ryder",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5080941449",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Melanie Subbiah",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5031060893",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Jared Kaplan",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5053213601",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Prafulla Dhariwal",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5076418776",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Arvind Neelakantan",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5043840749",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Pranav Shyam",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5083109184",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Girish Sastry",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5059260582",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Amanda Askell",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5030305998",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Sandhini Agarwal",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5057289323",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Ariel Herbert-Voss",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5070026510",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Gretchen Krueger",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5064685592",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Tom Henighan",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5049786610",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Rewon Child",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5084512458",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Daniel M. Ziegler",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5109551394",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Jeffrey Wu",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5081413425",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Clemens Winter",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5089232745",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Christopher Hesse",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5002922045",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Mateusz Litwin",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5049998033",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Scott Gray",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5026541761",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Benjamin Chess",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5057742306",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Jack Clark",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5031107879",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Christopher Berner",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5022674572",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Sam McCandlish",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5054887773",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Alec Radford",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5051250767",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Ilya Sutskever",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5006446297",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Dario Amodei",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5066197394",
+          "affiliations": [],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        }
+      ],
+      "total_authors": 62,
+      "authors_with_orcid": 3,
+      "authors_with_authenticated_orcid": 0,
+      "unique_institutions": [],
+      "unique_countries": [],
+      "orcid_coverage": 0.048,
+      "author_count_by_source": {
+        "datacite": 31,
+        "openalex": 31
+      },
+      "narrative": "62 unique authors across 2 sources. 3 have ORCID (4% coverage)."
+    },
+    "grant_siblings": {
+      "doi": "10.48550/arxiv.2005.14165",
+      "grants_with_siblings": [],
+      "total_sibling_pmids": 0,
+      "unique_sibling_pmids": 0,
+      "most_prolific_count": 0,
+      "multi_grant_pmids": 0,
+      "narrative": "No grant sibling information found."
+    },
+    "oa_audit": {
+      "doi": "10.48550/arxiv.2005.14165",
+      "source_claims": [
+        {
+          "source": "openalex",
+          "is_oa": true,
+          "oa_status": "green",
+          "best_url": "https://arxiv.org/pdf/2005.14165",
+          "version": "submittedVersion",
+          "host_type": "repository"
+        }
+      ],
+      "consensus_is_oa": true,
+      "consensus_status": "green",
+      "status_agrees": true,
+      "all_locations": [
+        {
+          "url": "http://arxiv.org/abs/2005.14165",
+          "pdf_url": "https://arxiv.org/pdf/2005.14165",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "repository": "https://openalex.org/I205783295",
+          "is_best": true,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "url": "https://arxiv.org/pdf/2005.14165.pdf",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "repository": "https://openalex.org/I205783295",
+          "is_best": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "url": "https://doi.org/10.48550/arxiv.2005.14165",
+          "host_type": "repository",
+          "repository": "https://openalex.org/I205783295",
+          "is_best": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "url": "https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf",
+          "host_type": "conference",
+          "is_best": false,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "total_locations": 4,
+      "has_publisher_version": false,
+      "has_accepted_manuscript": false,
+      "has_repository_copy": true,
+      "licenses_found": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ],
+      "status_conflict": false,
+      "conflicting_statuses": {},
+      "narrative": "Open Access (green). 4 unique OA locations found. Repository copy available. Licenses: http://arxiv.org/licenses/nonexclusive-distrib/1.0/."
+    },
+    "topics": {
+      "doi": "10.48550/arxiv.2005.14165",
+      "fields_of_study": [
+        {
+          "value": "Topic Modeling",
+          "scheme": "openalex_topic",
+          "score": 0.9998000264167786,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Natural Language Processing Techniques",
+          "scheme": "openalex_topic",
+          "score": 0.9990000128746033,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Text Readability and Simplification",
+          "scheme": "openalex_topic",
+          "score": 0.9868999719619751,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Computation and Language (cs.CL)",
+          "scheme": "arXiv",
+          "is_major": false,
+          "sources": [
+            "datacite"
+          ]
+        },
+        {
+          "value": "FOS: Computer and information sciences",
+          "scheme": "Fields of Science and Technology (FOS)",
+          "is_major": false,
+          "sources": [
+            "datacite"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "value": "Computer science",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Task (project management)",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Language model",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Natural language processing",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Sentence",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Artificial intelligence",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Word (group theory)",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Simple (philosophy)",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Linguistics",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "sdg_mappings": [
+        {
+          "sdg_label": "Quality Education",
+          "score": 0.8299999833106995,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "openalex_concepts": [
+        {
+          "value": "Natural language processing",
+          "scheme": "openalex_concept",
+          "score": 0.622307538986206,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Artificial intelligence",
+          "scheme": "openalex_concept",
+          "score": 0.5731505155563354,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Linguistics",
+          "scheme": "openalex_concept",
+          "score": 0.1510390341281891,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Epistemology",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Management",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Task (project management)",
+          "scheme": "openalex_concept",
+          "score": 0.6932450532913208,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Language model",
+          "scheme": "openalex_concept",
+          "score": 0.6409756541252136,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Sentence",
+          "scheme": "openalex_concept",
+          "score": 0.594061017036438,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Word (group theory)",
+          "scheme": "openalex_concept",
+          "score": 0.5305089354515076,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Simple (philosophy)",
+          "scheme": "openalex_concept",
+          "score": 0.47138601541519165,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.8342944383621216,
+          "level": 0,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Economics",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Philosophy",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "s2_fields": [],
+      "asjc_subjects": [],
+      "all_topics_flat": [
+        "Artificial intelligence",
+        "Computation and Language (cs.CL)",
+        "Computer science",
+        "Economics",
+        "Epistemology",
+        "FOS: Computer and information sciences",
+        "Language model",
+        "Linguistics",
+        "Management",
+        "Natural Language Processing Techniques",
+        "Natural language processing",
+        "Philosophy",
+        "Sentence",
+        "Simple (philosophy)",
+        "Task (project management)",
+        "Text Readability and Simplification",
+        "Topic Modeling",
+        "Word (group theory)"
+      ],
+      "vocabulary_count": 6,
+      "topics_by_vocabulary": {
+        "arxiv": 1,
+        "FOS": 1,
+        "openalex_topic": 1,
+        "OpenAlex_Concepts": 1,
+        "SDG": 1,
+        "Keywords": 1
+      },
+      "narrative": "Classified in 6 vocabularies. Fields of study: Topic Modeling, Natural Language Processing Techniques, Text Readability and Simplification. SDG alignment: Quality Education. Broad concepts: Natural language processing, Artificial intelligence, Linguistics. 9 unique keywords."
+    }
+  },
+  "discrepancy_report": {
+    "doi": "10.48550/arxiv.2005.14165",
+    "sources_queried": 11,
+    "sources_found": 3,
+    "sources_not_found": 8,
+    "sources_errored": 0,
+    "total_discrepancies": 4,
+    "high_risk_count": 1,
+    "medium_risk_count": 0,
+    "low_risk_count": 3,
+    "data_completeness_score": 0.75,
+    "source_coverage": [
+      {
+        "source": "crossref",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "datacite",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": true,
+        "has_related_works": false
+      },
+      {
+        "source": "openalex",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": false,
+        "has_subjects": true,
+        "has_related_works": false
+      },
+      {
+        "source": "semantic_scholar",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "unpaywall",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "europe_pmc",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "nih_reporter",
+        "found": true,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "zenodo",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "dryad",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "orcid",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "entrez",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      }
+    ],
+    "scalar_discrepancies": [
+      {
+        "field": "work_type",
+        "values": {
+          "datacite": "Preprint",
+          "openalex": "preprint"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "datacite": "arXiv",
+          "openalex": "https://openalex.org/I205783295"
+        },
+        "risk": "low"
+      }
+    ],
+    "citations": {
+      "counts_by_source": {
+        "datacite": 29,
+        "openalex": 3027
+      },
+      "min_count": 29,
+      "max_count": 3027,
+      "median_count": 1528,
+      "spread": 2998,
+      "spread_pct": 99.0,
+      "divergence_level": "high",
+      "outlier_sources": [
+        "datacite",
+        "openalex"
+      ]
+    },
+    "oa_status": {
+      "is_oa_by_source": {
+        "openalex": true
+      },
+      "status_by_source": {
+        "openalex": "green"
+      },
+      "is_oa_agrees": true,
+      "status_agrees": true,
+      "consensus_is_oa": true,
+      "consensus_status": "green",
+      "unique_oa_urls": 4,
+      "sources_only_in": {
+        "openalex": [
+          "https://arxiv.org/pdf/2005.14165.pdf",
+          "https://doi.org/10.48550/arxiv.2005.14165",
+          "https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf"
+        ]
+      }
+    },
+    "authors": {
+      "count_by_source": {
+        "datacite": 31,
+        "openalex": 31
+      },
+      "count_agrees": true,
+      "min_count": 31,
+      "max_count": 31,
+      "orcid_coverage": 0.048,
+      "sources_missing_orcids": [
+        "datacite"
+      ],
+      "name_variant_examples": []
+    },
+    "funding": {
+      "grant_count_by_source": {},
+      "total_unique_grants": 0,
+      "grants_single_source": 0,
+      "grants_multi_source": 0,
+      "sources_with_no_funding": [
+        "datacite",
+        "openalex",
+        "nih_reporter"
+      ],
+      "sources_with_funding": []
+    },
+    "references": {
+      "count_by_source": {
+        "datacite": 0,
+        "openalex": 127
+      },
+      "count_agrees": false,
+      "min_count": 0,
+      "max_count": 127
+    },
+    "topics": {
+      "vocabulary_count": 6,
+      "topics_by_source": {
+        "datacite": 3,
+        "openalex": 26
+      },
+      "multi_source_topics": 0,
+      "single_source_topics": 14
+    },
+    "related_works": {
+      "related_count_by_source": {},
+      "datacite_reverse_count": 14,
+      "software_links": 0,
+      "data_links": 0,
+      "has_version_chain": true
+    },
+    "narrative": "3 of 11 sources returned data. Data completeness: 75% of key fields have 2+ source coverage. CITATIONS: 29\u20133,027 across 2 sources (high divergence, 99% spread).   Outlier sources: datacite, openalex. 3 OA URLs found by only one source. REFERENCES: 0\u2013127 across sources. WORK_TYPE DIFFERS: datacite: Preprint, openalex: preprint. PUBLISHER DIFFERS: datacite: arXiv, openalex: https://openalex.org/I205783295. Total: 4 discrepancies (1 high, 0 medium, 3 low risk)."
+  },
+  "_benchmark": {
+    "doi": "10.48550/arxiv.2005.14165",
+    "fetched_at": "2026-02-11T13:22:17.371070+00:00"
+  }
+}

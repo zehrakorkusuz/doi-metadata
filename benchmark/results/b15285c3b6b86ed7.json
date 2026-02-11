@@ -1,0 +1,1308 @@
+{
+  "doi": "10.3897/rio.8.e94988",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T18:46:07.017300Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "Towards an extensible FAIRness assessment of FAIR Digital Objects",
+      "abstract": "<jats:p>The objective of the FAIR Digital Objects Framework (FDOF) is for objects published in a digital environment to comply with a set of requirements, such as identifiability, and the use of a rich metadata record (Santos 2021, Schultes and Wittenburg 2019, Schwardmann 2020). With the increasing prevalence of the FAIR (Findable, Accessible, Interoperable, Reusable) principles, and FAIR Digital Objects (FDO), used within different communities and domains (Wise et al. 2019), there will be a need to evaluate whether a FDO meets the requirements of the ecosystem in which it is used.</jats:p>\n          <jats:p>Without a dedicated framework, communities will develop isolated assessment systems from the ground up (Sun et al. 2022, Bahim et al. 2020), which will cost them time, and lead to FAIRness assessments with limited interoperability and comparability.</jats:p>\n          <jats:p>Previous work from the FAIR Metrics working group defined a framework for deploying individual FAIR metrics tests as separate services endpoints (Wilkinson et al. 2018, Wilkinson et al. 2019). To work in accordance with this framework, each test should take a subject URL as input, and return a score, either 0 or 1, a test version, and the test execution logs. A central service can then be used to assess the FAIRness of digital objects using collections of individual assessments. Such a framework could be easily extended, but there are currently no guidelines or tools to implement and publish new FAIRness assessments complying with this framework.</jats:p>\n          <jats:p>To amend this problem, we published the fair-test library in python and its documentation, which help with developing and deploying individual FAIRness assessments. With this library, developers define their metric tests using custom python objects, which will guide them to provide all required metadata for their test as attributes, and implement the test evaluation logic as a function. The library also provides additional helper functions for common tasks, such as retrieving metadata from a URL, or testing a metric test.</jats:p>\n          <jats:p>These tests can then be deployed as a web API, and registered in a central FAIR evaluation service supporting the FAIR metrics working group framework, such as FAIR enough or the FAIR evaluator. Finally, users of the evaluation services will be able to group the registered metrics tests in collections used to assess the quality of publicly available digital objects.</jats:p>\n          <jats:p>There are currently as many as 47 tests that have been defined to assess compliance with various FAIR metrics, from which 25 have been defined using the fair-test library, including assessing if the identifier used is persistent, or if the metadata record attached to a digital object complies with a specific schema. </jats:p>\n          <jats:p>This presentation introduces a user-friendly and extensible tool, which can assess whether specific requirements are met for a digital resource. Our contributions are: </jats:p>\n          <jats:p>\n            <jats:list>\n              <jats:list-item>\n                <jats:p>Developing and publishing the fair-test library to make the development and deployment of independent FAIRness assessment tests easier.</jats:p>\n              </jats:list-item>\n              <jats:list-item>\n                <jats:p>Developing and publishing tests in python for existing FAIR metrics: 23 generic tests covering most of the FAIR metrics, and 2 domain-specific tests for the Rare Disease research community.</jats:p>\n              </jats:list-item>\n            </jats:list>\n          </jats:p>\n          <jats:p>Developing and publishing the fair-test library to make the development and deployment of independent FAIRness assessment tests easier.</jats:p>\n          <jats:p>Developing and publishing tests in python for existing FAIR metrics: 23 generic tests covering most of the FAIR metrics, and 2 domain-specific tests for the Rare Disease research community.</jats:p>\n          <jats:p>We aim to engage with the FDO community to explore potential use-cases for an extensible tool to evaluate FDOs, and discuss their expectations related to the evaluation of digital objects.</jats:p>\n          <jats:p>Insights and guidelines from the FDO community would contribute to further improving the fair-test ecosystem. Among improvements that are currently being under consideration, we can cite improving the collaborative aspect of metadata extraction, or adding new metadata to be returned by the tests.</jats:p>",
+      "publication_date": "2022-10-12",
+      "publication_year": 2022,
+      "work_type": "journal-article",
+      "publisher": "Pensoft Publishers",
+      "container_title": "Research Ideas and Outcomes",
+      "volume": "8",
+      "pages": "e94988",
+      "issn": [
+        "2367-7163"
+      ],
+      "doi": "10.3897/rio.8.e94988",
+      "authors": [
+        {
+          "name": {
+            "given": "Vincent",
+            "family": "Emonet",
+            "full_name": "Vincent Emonet",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Remzi",
+            "family": "\u00c7elebi",
+            "full_name": "Remzi \u00c7elebi",
+            "sequence": "additional",
+            "orcid": "0000-0001-7769-4272",
+            "authenticated_orcid": true,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jinzhou",
+            "family": "Yang",
+            "full_name": "Jinzhou Yang",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michel",
+            "family": "Dumontier",
+            "full_name": "Michel Dumontier",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 0,
+      "reference_count": 8,
+      "references": [
+        {
+          "doi": "10.5334/dsj-2020-041",
+          "key": "94988_B8006455",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "FAIR Digital Object Framework Documentation",
+          "author": "Santos",
+          "key": "94988_B8006106",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/978-3-030-23584-0_1",
+          "key": "94988_B8006342",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.5334/dsj-2020-015",
+          "key": "94988_B8006351",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2022,
+          "author": "Sun",
+          "key": "94988_B8006767",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/sdata.2018.118",
+          "key": "94988_B8006308",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41597-019-0184-5",
+          "key": "94988_B8006166",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.drudis.2019.01.008",
+          "key": "94988_B8006319",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://riojournal.com/article/94988/download/pdf/",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://riojournal.com/article/94988/download/xml/",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://riojournal.com/article_preview.php?id=94988&skip_redirect=1",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "http://creativecommons.org/licenses/by/4.0/",
+          "content_version": "vor",
+          "delay_in_days": 0,
+          "source": "crossref"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [
+        {
+          "value": "Pensoft Publishers",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Towards an extensible FAIRness assessment of FAIR Digital Objects",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Research Ideas and Outcomes",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "name": "grant-information",
+          "label": "Grant Information"
+        },
+        {
+          "value": "http://creativecommons.org/licenses/by/4.0/",
+          "name": "copyright",
+          "label": "Copyright"
+        },
+        {
+          "value": "2022-09-16",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2022-10-12",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.3897/rio.8.e94988",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "Towards an extensible FAIRness assessment of FAIR Digital Objects",
+      "abstract": "The objective of the FAIR Digital Objects Framework (FDOF) is for objects published in a digital environment to comply with a set of requirements, such as identifiability, and the use of a rich metadata record (Santos 2021, Schultes and Wittenburg 2019, Schwardmann 2020). With the increasing prevalence of the FAIR (Findable, Accessible, Interoperable, Reusable) principles, and FAIR Digital Objects (FDO), used within different communities and domains (Wise et al. 2019), there will be a need to evaluate whether a FDO meets the requirements of the ecosystem in which it is used. Without a dedicated framework, communities will develop isolated assessment systems from the ground up (Sun et al. 2022, Bahim et al. 2020), which will cost them time, and lead to FAIRness assessments with limited interoperability and comparability. Previous work from the FAIR Metrics working group defined a framework for deploying individual FAIR metrics tests as separate services endpoints (Wilkinson et al. 2018, Wilkinson et al. 2019). To work in accordance with this framework, each test should take a subject URL as input, and return a score, either 0 or 1, a test version, and the test execution logs. A central service can then be used to assess the FAIRness of digital objects using collections of individual assessments. Such a framework could be easily extended, but there are currently no guidelines or tools to implement and publish new FAIRness assessments complying with this framework. To amend this problem, we published the fair-test library in python and its documentation, which help with developing and deploying individual FAIRness assessments. With this library, developers define their metric tests using custom python objects, which will guide them to provide all required metadata for their test as attributes, and implement the test evaluation logic as a function. The library also provides additional helper functions for common tasks, such as retrieving metadata from a URL, or testing a metric test. These tests can then be deployed as a web API, and registered in a central FAIR evaluation service supporting the FAIR metrics working group framework, such as FAIR enough or the FAIR evaluator. Finally, users of the evaluation services will be able to group the registered metrics tests in collections used to assess the quality of publicly available digital objects. There are currently as many as 47 tests that have been defined to assess compliance with various FAIR metrics, from which 25 have been defined using the fair-test library, including assessing if the identifier used is persistent, or if the metadata record attached to a digital object complies with a specific schema. This presentation introduces a user-friendly and extensible tool, which can assess whether specific requirements are met for a digital resource. Our contributions are: Developing and publishing the fair-test library to make the development and deployment of independent FAIRness assessment tests easier. Developing and publishing tests in python for existing FAIR metrics: 23 generic tests covering most of the FAIR metrics, and 2 domain-specific tests for the Rare Disease research community. Developing and publishing the fair-test library to make the development and deployment of independent FAIRness assessment tests easier. Developing and publishing tests in python for existing FAIR metrics: 23 generic tests covering most of the FAIR metrics, and 2 domain-specific tests for the Rare Disease research community. We aim to engage with the FDO community to explore potential use-cases for an extensible tool to evaluate FDOs, and discuss their expectations related to the evaluation of digital objects. Insights and guidelines from the FDO community would contribute to further improving the fair-test ecosystem. Among improvements that are currently being under consideration, we can cite improving the collaborative aspect of metadata extraction, or adding new metadata to be returned by the tests.",
+      "publication_date": "2022-10-12",
+      "publication_year": 2022,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310321056",
+      "container_title": "Research Ideas and Outcomes",
+      "volume": "8",
+      "issn": [
+        "2367-7163"
+      ],
+      "doi": "10.3897/rio.8.e94988",
+      "openalex_id": "https://openalex.org/W4304694263",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Vincent Emonet",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Maastricht University",
+              "ror_id": "https://ror.org/02jz4aj89",
+              "country_code": "NL",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5041345677",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Remzi \u00c7elebi",
+            "orcid": "0000-0001-7769-4272",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Maastricht University",
+              "ror_id": "https://ror.org/02jz4aj89",
+              "country_code": "NL",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5026467079",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Yang Jin-zhou",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Maastricht University",
+              "ror_id": "https://ror.org/02jz4aj89",
+              "country_code": "NL",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5013249684",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Michel Dumontier",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Maastricht University",
+              "ror_id": "https://ror.org/02jz4aj89",
+              "country_code": "NL",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5044836472",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 0,
+      "reference_count": 6,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "http://doi.org/10.3897/rio.8.e94988",
+          "pdf_url": "https://riojournal.com/article/94988/download/pdf/",
+          "landing_page_url": "http://doi.org/10.3897/rio.8.e94988",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310321056",
+          "source": "openalex"
+        },
+        {
+          "url": "http://doi.org/10.3897/rio.8.e94988",
+          "pdf_url": "https://riojournal.com/article/94988/download/pdf/",
+          "landing_page_url": "http://doi.org/10.3897/rio.8.e94988",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310321056",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.3897/rio.8.e94988",
+          "landing_page_url": "https://doi.org/10.3897/rio.8.e94988",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "license": "other-oa",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I8204097",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doaj.org/article/9eb718bbc8674c2d819b4fe6be334bf6",
+          "landing_page_url": "https://doaj.org/article/9eb718bbc8674c2d819b4fe6be334bf6",
+          "host_type": "journal",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://riojournal.com/article/94988/download/pdf/",
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "cc-by",
+          "source": "openalex"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Research Data Management Practices",
+          "scheme": "openalex_topic",
+          "score": 0.9993000030517578,
+          "source": "openalex"
+        },
+        {
+          "value": "Scientific Computing and Data Management",
+          "scheme": "openalex_topic",
+          "score": 0.9950000047683716,
+          "source": "openalex"
+        },
+        {
+          "value": "Big Data and Business Intelligence",
+          "scheme": "openalex_topic",
+          "score": 0.9828000068664551,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.7956060171127319,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Comparability",
+          "scheme": "openalex_concept",
+          "score": 0.6800593137741089,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Interoperability",
+          "scheme": "openalex_concept",
+          "score": 0.6474208235740662,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Metadata",
+          "scheme": "openalex_concept",
+          "score": 0.6173256635665894,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Documentation",
+          "scheme": "openalex_concept",
+          "score": 0.570395827293396,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Test (biology)",
+          "scheme": "openalex_concept",
+          "score": 0.41192659735679626,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "World Wide Web",
+          "scheme": "openalex_concept",
+          "score": 0.4012031555175781,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Software engineering",
+          "scheme": "openalex_concept",
+          "score": 0.34762731194496155,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Programming language",
+          "scheme": "openalex_concept",
+          "score": 0.09896308183670044,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Combinatorics",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Paleontology",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Biology",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Mathematics",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Partnerships for the goals",
+          "scheme": "SDG",
+          "score": 0.46000000834465027,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Computer science",
+        "Comparability",
+        "Interoperability",
+        "Metadata",
+        "Documentation",
+        "Test (biology)",
+        "World Wide Web",
+        "Software engineering",
+        "Programming language"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 0.0,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.17876436,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 322.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.3897/rio.8.e94988",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "Towards an extensible FAIRness assessment of FAIR Digital Objects",
+      "publication_date": "2022-10-12",
+      "publication_year": 2022,
+      "work_type": "journal-article",
+      "publisher": "Pensoft Publishers",
+      "container_title": "Research Ideas and Outcomes",
+      "issn": [
+        "2367-7163"
+      ],
+      "doi": "10.3897/rio.8.e94988",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://riojournal.com/article/94988/download/pdf/",
+          "pdf_url": "https://riojournal.com/article/94988/download/pdf/",
+          "landing_page_url": "http://doi.org/10.3897/rio.8.e94988",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://riojournal.com/article/94988/download/pdf/",
+          "pdf_url": "https://riojournal.com/article/94988/download/pdf/",
+          "landing_page_url": "http://doi.org/10.3897/rio.8.e94988",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://doi.org/10.3897/rio.8.e94988",
+          "landing_page_url": "https://doi.org/10.3897/rio.8.e94988",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "license": "other-oa",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://doaj.org/article/9eb718bbc8674c2d819b4fe6be334bf6",
+          "landing_page_url": "https://doaj.org/article/9eb718bbc8674c2d819b4fe6be334bf6",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://riojournal.com/article/94988/download/pdf/",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.3897/rio.8.e94988",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.3897/rio.8.e94988",
+      "pmid": "19683066",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.3897/rio.8.e94988",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.3897/rio.8.e94988",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.3897/rio.8.e94988",
+      "authors": [
+        {
+          "name": {
+            "given": "Remzi",
+            "family": "\u00c7elebi",
+            "full_name": "Remzi \u00c7elebi",
+            "orcid": "0000-0001-7769-4272",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0001-7769-4272",
+          "given_names": "Remzi",
+          "family_names": "\u00c7elebi",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Maastricht University"
+          ],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.3897/rio.8.e94988",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.3897/rio.8.e94988",
+    "pmid": "19683066",
+    "openalex_id": "https://openalex.org/W4304694263",
+    "handles": [],
+    "orcids": [
+      "0000-0001-7769-4272",
+      "0000-0003-4727-9435"
+    ],
+    "ror_ids": [
+      "https://ror.org/02jz4aj89"
+    ],
+    "grant_ids": [],
+    "nct_ids": [],
+    "pmid_source": "nih_reporter"
+  },
+  "conflicts": {
+    "doi": "10.3897/rio.8.e94988",
+    "conflicts": [
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 8,
+          "openalex": 6
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 4,
+          "openalex": 4,
+          "unpaywall": 4,
+          "orcid": 1
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Pensoft Publishers",
+          "openalex": "https://openalex.org/P4310321056",
+          "unpaywall": "Pensoft Publishers"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 4,
+    "conflict_count": 4
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.3897/rio.8.e94988",
+    "fetched_at": "2026-02-11T18:46:07.017710+00:00"
+  }
+}

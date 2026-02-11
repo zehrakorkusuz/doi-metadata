@@ -1,0 +1,3760 @@
+{
+  "doi": "10.1186/1471-2105-14-60",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T16:12:08.653962Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "Genome sequence-based species delimitation with confidence intervals and improved distance functions",
+      "abstract": "<jats:title>Abstract</jats:title><jats:sec><jats:title>Background</jats:title><jats:p>For the last 25 years species delimitation in prokaryotes (<jats:italic>Archaea</jats:italic>and<jats:italic>Bacteria</jats:italic>) was to a large extent based on DNA-DNA hybridization (DDH), a tedious lab procedure designed in the early 1970s that served its purpose astonishingly well in the absence of deciphered genome sequences. With the rapid progress in genome sequencing time has come to directly use the now available and easy to generate genome sequences for delimitation of species. (Genome Blast Distance Phylogeny) infers genome-to-genome distances between pairs of entirely or partially sequenced genomes, a digital, highly reliable estimator for the relatedness of genomes. Its application as an in-silico replacement for DDH was recently introduced. The main challenge in the implementation of such an application is to produce digital DDH values that must mimic the wet-lab DDH values as close as possible to ensure consistency in the Prokaryotic species concept.</jats:p></jats:sec><jats:sec><jats:title>Results</jats:title><jats:p>Correlation and regression analyses were used to determine the best-performing methods and the most influential parameters. was further enriched with a set of new features such as confidence intervals for intergenomic distances obtained via resampling or via the statistical models for DDH prediction and an additional family of distance functions. As in previous analyses, obtained the highest agreement with wet-lab DDH among all tested methods, but improved models led to a further increase in the accuracy of DDH prediction. Confidence intervals yielded stable results when inferred from the statistical models, whereas those obtained via resampling showed marked differences between the underlying distance functions.</jats:p></jats:sec><jats:sec><jats:title>Conclusions</jats:title><jats:p>Despite the high accuracy of -based DDH prediction, inferences from limited empirical data are always associated with a certain degree of uncertainty. It is thus crucial to enrich in-silico DDH replacements with confidence-interval estimation, enabling the user to statistically evaluate the outcomes. Such methodological advancements, easily accessible through the web service at<jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"http://ggdc.dsmz.de\" ext-link-type=\"uri\">http://ggdc.dsmz.de</jats:ext-link>, are crucial steps towards a consistent and truly genome sequence-based classification of microorganisms.</jats:p></jats:sec>",
+      "publication_date": "2013-02-21",
+      "publication_year": 2013,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Springer Science and Business Media LLC",
+      "container_title": "BMC Bioinformatics",
+      "volume": "14",
+      "issue": "1",
+      "pages": "60",
+      "issn": [
+        "1471-2105"
+      ],
+      "doi": "10.1186/1471-2105-14-60",
+      "authors": [
+        {
+          "name": {
+            "given": "Jan P",
+            "family": "Meier-Kolthoff",
+            "full_name": "Jan P Meier-Kolthoff",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Alexander F",
+            "family": "Auch",
+            "full_name": "Alexander F Auch",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Hans-Peter",
+            "family": "Klenk",
+            "full_name": "Hans-Peter Klenk",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Markus",
+            "family": "G\u00f6ker",
+            "full_name": "Markus G\u00f6ker",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 5976,
+      "reference_count": 55,
+      "references": [
+        {
+          "doi": "10.1099/00207713-37-4-463",
+          "year": 1987,
+          "author": "LG Wayne",
+          "unstructured": "Wayne LG, Brenner DJ, Colwell RR, Grimont PaD, Kandler O, Krichevsky MI, Moore LH, Moore WEC, Murray RGE, Stackebrandt E, Starr MP, Truper HG: Report of the Ad Hoc committee on reconciliation of approaches to bacterial systematics. Int J Syst Bacteriol 1987,37(4):463-464. 10.1099/00207713-37-4-463",
+          "key": "5891_CR1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1099/00207713-44-4-846",
+          "year": 1994,
+          "author": "E Stackebrandt",
+          "unstructured": "Stackebrandt E, Goebel BM: Taxonomic note: a place for DNA-DNA reassociation and 16S rRNA sequence analysis in the present species definition in bacteriology. Int J Syst Bacteriol 1994,44(4):846-849. 10.1099/00207713-44-4-846",
+          "key": "5891_CR2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.syapm.2009.09.002",
+          "year": 2009,
+          "author": "K Schleifer",
+          "unstructured": "Schleifer K: Classification of Bacteria and Archaea: past, present and future. Syst Appl Microbiol 2009,32(8):533-542. 10.1016/j.syapm.2009.09.002",
+          "key": "5891_CR3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.syapm.2010.03.003",
+          "year": 2010,
+          "author": "HP Klenk",
+          "unstructured": "Klenk HP, G\u00f6ker M: En route to a genome-based classification of Archaea and Bacteria? Syst Appl Microbiol 2010,33(4):175-182. 10.1016/j.syapm.2010.03.003",
+          "key": "5891_CR4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1128/mr.60.2.407-438.1996",
+          "year": 1996,
+          "author": "P Vandamme",
+          "unstructured": "Vandamme P, Pot B, Gillis M, de Vos P: Polyphasic taxonomy, a consensus approach to bacterial systematics. Microbiol Rev 1996,60(2):407-438.",
+          "key": "5891_CR5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1099/ijs.0.64483-0",
+          "year": 2007,
+          "author": "J Goris",
+          "unstructured": "Goris J, Konstantinidis K, Klappenbach J, Coenye T, Vandamme P, Tiedje J: DNA-DNA hybridization values and their relationship to whole-genome sequence similarities. Int J Syst Evol Microbiol 2007, 57: 81-91. 10.1099/ijs.0.64483-0",
+          "key": "5891_CR6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1073/pnas.0906412106",
+          "year": 2009,
+          "author": "M Richter",
+          "unstructured": "Richter M, Rossello R: Shifting the genomic gold standard for the prokaryotic species definition. Proc Nat Acad Sci 2009,106(45):19126-19131. 10.1073/pnas.0906412106",
+          "key": "5891_CR7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.4056/sigs.531120",
+          "year": 2010,
+          "author": "AF Auch",
+          "unstructured": "Auch AF, von Jan M, Klenk HP, G\u00f6ker M: Digital DNA-DNA hybridization for microbial species delineation by means of genome-to-genome sequence comparison. Stand Genomic Sci 2010, 2: 117-134. 10.4056/sigs.531120",
+          "key": "5891_CR8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/BF02565064",
+          "year": 1975,
+          "author": "J De Ley",
+          "unstructured": "De Ley J, De Smedt J: Improvements of the membrane filter method for DNA:rRNA hybridization. Antonie van Leeuwenhoek 1975, 41: 287-307. 10.1007/BF02565064",
+          "key": "5891_CR9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/BF02099964",
+          "year": 1986,
+          "author": "HP Klenk",
+          "unstructured": "Klenk HP, Haas B, Schwass V, Zillig W: Hybridization homology: a new parameter for the analysis of phylogenetic relations, demonstrated with the urkingdom of the archaebacteria. J Mol Evol 1986, 24: 167-173. 10.1007/BF02099964",
+          "key": "5891_CR10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1073/pnas.87.12.4576",
+          "year": 1990,
+          "author": "CR Woese",
+          "unstructured": "Woese CR, Kandler O, Wheelis ML: Towards a natural system of organisms: proposal for the domains Archaea, Bacteria, and Eucarya. Proc Nat Acad Sci 1990,87(12):4576-4579. 10.1073/pnas.87.12.4576",
+          "key": "5891_CR11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/bth324",
+          "year": 2005,
+          "author": "S Henz",
+          "unstructured": "Henz S, Huson D, Auch AF, Nieselt-Struwe K, Schuster S: Whole-genome prokaryotic phylogeny. Bioinformatics 2005,21(10):2329-2335. 10.1093/bioinformatics/bth324",
+          "key": "5891_CR12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-7-350",
+          "year": 2006,
+          "author": "AF Auch",
+          "unstructured": "Auch AF, Henz S, Holland B, G\u00f6ker M: Genome BLAST distance phylogenies inferred from whole plastid and whole mitochondrion genome sequences. BMC Bioinformatics 2006, 7: 350. 10.1186/1471-2105-7-350",
+          "key": "5891_CR13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Auch AF, Henz SR, G\u00f6ker M: Phylogenies from whole genomes: Methodological update within a distance-based framework. German conference on Bioinformatics, T\u00fcbingen 2006. T\u00fcbingen [http://nbn-resolving.de/urn:nbn:de:bsz:21-opus-34178] T\u00fcbingen []",
+          "key": "5891_CR14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Auch AF: A phylogenetic potpourri - Computational methods for analysing genome-scale data. PhD thesis. Universit\u00e4t T\u00fcbingen, Wilhelmstr. 32, 72074 T\u00fcbingen 2009, [http://nbn-resolving.de/urn:nbn:de:bsz:21-opus-44779] Universit\u00e4t T\u00fcbingen, Wilhelmstr. 32, 72074 T\u00fcbingen 2009, []",
+          "key": "5891_CR15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.4056/sigs.541628",
+          "year": 2010,
+          "author": "AF Auch",
+          "unstructured": "Auch AF, Klenk HP, G\u00f6ker M: Standard operating procedure for calculating genome-to-genome distances based on high-scoring segment pairs. Stand Genomic Sci 2010, 2: 142-148. 10.4056/sigs.541628",
+          "key": "5891_CR16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S0022-2836(05)80360-2",
+          "year": 1990,
+          "author": "S Altschul",
+          "unstructured": "Altschul S, Gish W, Miller W, Myers E, Lipman D: Basic local alignment search tool. J Mol Biol 1990,215(3):403-410.",
+          "key": "5891_CR17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1987,
+          "author": "N Saitou",
+          "unstructured": "Saitou N, Nei M: The neighbor-joining method: a new method for reconstructing phylogenetic trees. Mol Biol Evol 1987,4(4):406-425.",
+          "key": "5891_CR18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.4137/EBO.S5504",
+          "year": 2010,
+          "author": "M G\u00f6ker",
+          "unstructured": "G\u00f6ker M, Grimm GW, Auch AF, Aurahs R, Ku\u010dera M: A clustering optimization strategy for molecular taxonomy applied to planktonic foraminifera ssU rDnA. Evol Bioinf 2010, 6: 97-112.",
+          "key": "5891_CR19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/oso/9780195171792.001.0001",
+          "year": 2004,
+          "author": "H Motulsky",
+          "unstructured": "Motulsky H, Christopoulos A: Fitting Models to Biological Data Using Linear and Nonlinear Regression: A Practical Guide to Curve Fitting. Oxford: Oxford University Press; 2004.",
+          "key": "5891_CR20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/s10651-005-6817-1",
+          "year": 2005,
+          "author": "D Fletcher",
+          "unstructured": "Fletcher D, MacKenzie D, Villouta E: Modelling skewed data with many zeros: A simple approach combining ordinary and logistic regression. Environ Ecol Stat 2005, 12: 45-54. 10.1007/s10651-005-6817-1",
+          "key": "5891_CR21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkm1075",
+          "year": 2008,
+          "author": "SM Lin",
+          "unstructured": "Lin SM, Du P, Huber W, Kibbe Wa: Model-based variance-stabilizing transformation for Illumina microarray data. Nucleic acids Res 2008,36(2):e11.",
+          "key": "5891_CR22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1214/aos/1176344552",
+          "year": 1979,
+          "author": "B Efron",
+          "unstructured": "Efron B: Bootstrap methods: another look at the jackknife. Ann Stat 1979, 7: 1-26. 10.1214/aos/1176344552",
+          "key": "5891_CR23",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1974,
+          "author": "RG Miller",
+          "unstructured": "Miller RG: The jackknife - a review. Biometrika 1974, 61: 1-15.",
+          "key": "5891_CR24",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2012,
+          "author": "I Pagani",
+          "unstructured": "Pagani I, Liolios K, Jansson J, Chen IMa, Kyrpides NC, Smirnova T: The Genomes OnLine Database (GOLD) v.4: status of genomic and metagenomic projects and their associated metadata. Nucleic acids Res 2012,40(Database issue):D571\u2014D579.",
+          "key": "5891_CR25",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-10-421",
+          "year": 2009,
+          "author": "C Camacho",
+          "unstructured": "Camacho C, Coulouris G, Avagyan V, Ma N, Papadopoulos J, Bealer K, Madden T: BLAST+: architecture and applications. BMC Bioinformatics 2009, 10: 421. 10.1186/1471-2105-10-421",
+          "key": "5891_CR26",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2003,
+          "author": "I Korf",
+          "unstructured": "Korf I, Yandell M, Bedell J: BLAST. Sebastopol: O\u2019Reilly Media; 2003.",
+          "key": "5891_CR27",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1998,
+          "author": "P Legendre",
+          "unstructured": "Legendre P, Legendre L: Numerical Ecology. Amsterdam: Elsevier; 1998.",
+          "key": "5891_CR28",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/gb-2004-5-2-r12",
+          "year": 2004,
+          "author": "S Kurtz",
+          "unstructured": "Kurtz S, Phillippy A, Delcher AL, Smoot M, Shumway M, Antonescu C, Salzberg SL: Versatile and open software for comparing large genomes. Genome Biol 2004,5(2):R12. 10.1186/gb-2004-5-2-r12",
+          "key": "5891_CR29",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/gr.229202. Article published online before March 2002",
+          "year": 2002,
+          "author": "W Kent",
+          "unstructured": "Kent W: BLAT - the BLAST-like alignment tool. Genome Res 2002,12(4):656-664.",
+          "key": "5891_CR30",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/gr.809403",
+          "year": 2003,
+          "author": "S Schwartz",
+          "unstructured": "Schwartz S, Kent WJ, Smit A, Zhang Z, Baertsch R, Hardison RC, Haussler D, Miller W: Human-mouse alignments with BLASTZ. Genome Res 2003, 13: 103-107. 10.1101/gr.809403",
+          "key": "5891_CR31",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1177/109434200101500211",
+          "year": 2001,
+          "author": "D Bader",
+          "unstructured": "Bader D, Pennington R: Cluster computing: applications. Int J High Perform Comput 2001,15(2):181-185. 10.1177/109434200101500211",
+          "key": "5891_CR32",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "BwGRiD: Member of the German D-Grid initiative, funded by the Ministry of Education and Research and the Ministry for Science, Research and Arts Baden-Wuerttemberg (2007-2012). Tech. rep. Universities of Baden-W\u00fcrttemberg 2012. [http://www.bw-grid.de/] Tech. rep. Universities of Baden-W\u00fcrttemberg 2012. []",
+          "key": "5891_CR33",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2013,
+          "author": "JP Meier-Kolthoff",
+          "unstructured": "Meier-Kolthoff JP, Auch AF, Klenk HP, G\u00f6ker M: GBDP on the grid: a genome-based approach for species delimitation adjusted for an automated and highly parallel processing of large data sets. In Hochleistungsrechnen in Baden-W\u00fcrttemberg - Ausgew\u00e4hlte Aktivit\u00e4ten im bwGRiD 2012. Karlsruhe: KIT Scientific Publishing; Forthcoming 2013.",
+          "key": "5891_CR34",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1969,
+          "author": "R Sokal",
+          "unstructured": "Sokal R, Rohlf F: Biometry: The Principles and Practice of Statistics in Biological Research. San Francisco: W.H. Freeman and Company; 1969.",
+          "key": "5891_CR35",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2011,
+          "author": "Team R Development Core",
+          "unstructured": "R Development Core Team: R: a Language and Environment for Statistical computing. Vienna: R Foundation for Statistical Computing; 2011. [http://www.r-project.org] []",
+          "key": "5891_CR36",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/9780470515075",
+          "year": 2007,
+          "author": "MJ Crawley",
+          "unstructured": "Crawley MJ: The R book. Chichester: Wiley Publishing; 2007.",
+          "key": "5891_CR37",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/978-0-387-21706-2",
+          "year": 2002,
+          "author": "WN Venables",
+          "unstructured": "Venables WN, Ripley BD: Modern Applied Statistics with S. New York: Springer; 2002.",
+          "key": "5891_CR38",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.18637/jss.v008.i15",
+          "year": 2003,
+          "author": "J Fox",
+          "unstructured": "Fox J: Effect displays in {R} for generalised linear models. J Stat Software 2003,8(15):1-27.",
+          "key": "5891_CR39",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.18637/jss.v017.i01",
+          "year": 2006,
+          "author": "U Gr\u00f6mping",
+          "unstructured": "Gr\u00f6mping U: Relative importance for linear regression in R: the package relaimpo. J Stat Software 2006, 17: 1-27. 10.1360/jos170001",
+          "key": "5891_CR40",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1214/aoms/1177732503",
+          "year": 1936,
+          "author": "W Hendricks",
+          "unstructured": "Hendricks W, Robey K: The sampling distribution of the coefficient of variation. Ann Math Stat 1936,7(3):129-132. 10.1214/aoms/1177732503",
+          "key": "5891_CR41",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1972,
+          "author": "JA Nelder",
+          "unstructured": "Nelder JA, Wedderburn RWM: Generalized linear models. J R Stat Soc 1972,135(3):370-384.",
+          "key": "5891_CR42",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1990,
+          "author": "T Hastie",
+          "unstructured": "Hastie T, Tibshirani R: Generalized Additive Models. London: Chapman & Hall/CRC; 1990.",
+          "key": "5891_CR43",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1080/01621459.1979.10481038",
+          "year": 1979,
+          "author": "W Cleveland",
+          "unstructured": "Cleveland W: Robust locally weighted regression and smoothing scatterplots. J Am Stat Assoc 1979,74(368):829-836. 10.1080/01621459.1979.10481038",
+          "key": "5891_CR44",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/j.1467-9868.2010.00749.x",
+          "year": 2011,
+          "author": "SN Wood",
+          "unstructured": "Wood SN: Fast stable restricted maximum likelihood and marginal likelihood estimation of semiparametric generalized linear models. J R Stat Soc (B) 2011, 73: 3-36. 10.1111/j.1467-9868.2010.00749.x",
+          "key": "5891_CR45",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/TAC.1974.1100705",
+          "year": 1974,
+          "author": "H Akaike",
+          "unstructured": "Akaike H: A new look at the statistical model identification. IEEE Trans Autom Control 1974,19(6):716-723. 10.1109/TAC.1974.1100705",
+          "key": "5891_CR46",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/978-0-387-98141-3",
+          "year": 2009,
+          "author": "H Wickham",
+          "unstructured": "Wickham H: Ggplot2: Elegant Graphics for Data Analysis. New York: Springer; 2009.",
+          "key": "5891_CR47",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1017/CBO9780511973420",
+          "year": 2011,
+          "author": "J Hilbe",
+          "unstructured": "Hilbe J: Negative Binomial Regression. Cambridge: Cambridge Univ Pr; 2011.",
+          "key": "5891_CR48",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1017/S0016672300019005",
+          "year": 1982,
+          "author": "LD Mueller",
+          "unstructured": "Mueller LD, Ayala F J: Estimation and interpretation of genetic distance in empirical studies. Genetical Res 1982, 40: 127-137. 10.1017/S0016672300019005",
+          "key": "5891_CR49",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/j.1096-0031.1985.tb00427.x",
+          "year": 1985,
+          "author": "D Penny",
+          "unstructured": "Penny D, Hendy MD: Testing methods of evolutionary tree construction. Cladistics 1985,1(3):266-278. 10.1111/j.1096-0031.1985.tb00427.x",
+          "key": "5891_CR50",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.2307/2408678",
+          "year": 1985,
+          "author": "J Felsenstein",
+          "unstructured": "Felsenstein J: Confidence limits on phylogenies: an approach using the bootstrap. Evolution 1985,39(4):783-791. 10.2307/2408678",
+          "key": "5891_CR51",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1986,
+          "author": "D Penny",
+          "unstructured": "Penny D, Hendy M: Estimating the reliability of evolutionary trees. Mol Biol Evol 1986,3(5):403-417.",
+          "key": "5891_CR52",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2004,
+          "author": "J Felsenstein",
+          "unstructured": "Felsenstein J: Inferring Phylogenies. Sunderland: Sinauer Associates; 2004.",
+          "key": "5891_CR53",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1992,
+          "author": "J Thorne",
+          "unstructured": "Thorne J, Kishino H: Freeing phylogenies from artifacts of alignment. Mol Biol and Evol 1992,9(6):1148-1162.",
+          "key": "5891_CR54",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1128/JB.184.8.2072-2080.2002",
+          "year": 2002,
+          "author": "GDP Clarke",
+          "unstructured": "Clarke GDP, Beiko RG, Ragan MA, Charlebois RL: Inferring genome trees by using a filter to eliminate phylogenetically discordant sequences and a distance matrix based on mean normalized BLASTP scores. J Bacteriol 2002,184(8):2072-2080. 10.1128/JB.184.8.2072-2080.2002",
+          "key": "5891_CR55",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://link.springer.com/content/pdf/10.1186/1471-2105-14-60.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [
+        {
+          "value": "26 November 2012",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "4 February 2013",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "21 February 2013",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        }
+      ],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/1471-2105-14-60",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "Genome sequence-based species delimitation with confidence intervals and improved distance functions",
+      "publication_date": "2013-02-21",
+      "publication_year": 2013,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310320256",
+      "container_title": "BMC Bioinformatics",
+      "volume": "14",
+      "issue": "1",
+      "pages": "60-60",
+      "issn": [
+        "1471-2105"
+      ],
+      "doi": "10.1186/1471-2105-14-60",
+      "pmid": "23432962",
+      "openalex_id": "https://openalex.org/W2116206245",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Jan P. Meier\u2010Kolthoff",
+            "orcid": "0000-0001-9105-9814",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Leibniz Institute DSMZ \u2013 German Collection of Microorganisms and Cell Cultures",
+              "ror_id": "https://ror.org/02tyer376",
+              "country_code": "DE",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5041087984",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Alexander F. Auch",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of T\u00fcbingen",
+              "ror_id": "https://ror.org/03a1kwz48",
+              "country_code": "DE",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5012073525",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Hans-Peter Klenk",
+            "orcid": "0000-0003-0586-162X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Leibniz Institute DSMZ \u2013 German Collection of Microorganisms and Cell Cultures",
+              "ror_id": "https://ror.org/02tyer376",
+              "country_code": "DE",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5102777056",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Markus G\u00f6ker",
+            "orcid": "0000-0002-5144-6200",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Leibniz Institute DSMZ \u2013 German Collection of Microorganisms and Cell Cultures",
+              "ror_id": "https://ror.org/02tyer376",
+              "country_code": "DE",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5056895519",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 6396,
+      "reference_count": 64,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2026": 63,
+        "2025": 613,
+        "2024": 733,
+        "2023": 763,
+        "2022": 807,
+        "2021": 908,
+        "2020": 822,
+        "2019": 713,
+        "2018": 326,
+        "2017": 231,
+        "2016": 196,
+        "2015": 120,
+        "2014": 65,
+        "2013": 19,
+        "2012": 3
+      },
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1186/1471-2105-14-60",
+          "pdf_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-14-60",
+          "landing_page_url": "https://doi.org/10.1186/1471-2105-14-60",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310320256",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1186/1471-2105-14-60",
+          "pdf_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-14-60",
+          "landing_page_url": "https://doi.org/10.1186/1471-2105-14-60",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310320256",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23432962",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/23432962",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I84884186",
+          "source": "openalex"
+        },
+        {
+          "url": "http://europepmc.org/articles/PMC3665452",
+          "landing_page_url": "http://europepmc.org/articles/PMC3665452",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1303153112",
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3665452",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3665452",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "https://nbn-resolving.org/urn:nbn:de:bvb:384-opus4-1067774",
+          "landing_page_url": "https://nbn-resolving.org/urn:nbn:de:bvb:384-opus4-1067774",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I119916105",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-14-60",
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "cc-by",
+          "source": "openalex"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Genomics and Phylogenetic Studies",
+          "scheme": "openalex_topic",
+          "score": 0.9997000098228455,
+          "source": "openalex"
+        },
+        {
+          "value": "Genetic diversity and population structure",
+          "scheme": "openalex_topic",
+          "score": 0.9760000109672546,
+          "source": "openalex"
+        },
+        {
+          "value": "Identification and Quantification in Food",
+          "scheme": "openalex_topic",
+          "score": 0.9760000109672546,
+          "source": "openalex"
+        },
+        {
+          "value": "Genome",
+          "scheme": "openalex_concept",
+          "score": 0.8005771040916443,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Biology",
+          "scheme": "openalex_concept",
+          "score": 0.6602716445922852,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Resampling",
+          "scheme": "openalex_concept",
+          "score": 0.6129239201545715,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Computational biology",
+          "scheme": "openalex_concept",
+          "score": 0.5452417135238647,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "DNA sequencing",
+          "scheme": "openalex_concept",
+          "score": 0.5163575410842896,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Consistency (knowledge bases)",
+          "scheme": "openalex_concept",
+          "score": 0.4639408588409424,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Evolutionary biology",
+          "scheme": "openalex_concept",
+          "score": 0.3700317442417145,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Genetics",
+          "scheme": "openalex_concept",
+          "score": 0.3633509874343872,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Statistics",
+          "scheme": "openalex_concept",
+          "score": 0.24386727809906006,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.1994704306125641,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "DNA",
+          "scheme": "openalex_concept",
+          "score": 0.1580478847026825,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Mathematics",
+          "scheme": "openalex_concept",
+          "score": 0.14999637007713318,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Gene",
+          "scheme": "openalex_concept",
+          "score": 0.14093050360679626,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Artificial intelligence",
+          "scheme": "openalex_concept",
+          "score": 0.13279521465301514,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Life in Land",
+          "scheme": "SDG",
+          "score": 0.6299999952316284,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Archaea",
+          "descriptor_ui": "D001105",
+          "qualifier_name": "classification",
+          "qualifier_ui": "Q000145",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Archaea",
+          "descriptor_ui": "D001105",
+          "qualifier_name": "classification",
+          "qualifier_ui": "Q000145",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Archaea",
+          "descriptor_ui": "D001105",
+          "qualifier_name": "classification",
+          "qualifier_ui": "Q000145",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Archaea",
+          "descriptor_ui": "D001105",
+          "qualifier_name": "classification",
+          "qualifier_ui": "Q000145",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Archaea",
+          "descriptor_ui": "D001105",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Archaea",
+          "descriptor_ui": "D001105",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Archaea",
+          "descriptor_ui": "D001105",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Archaea",
+          "descriptor_ui": "D001105",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Bacteria",
+          "descriptor_ui": "D001419",
+          "qualifier_name": "classification",
+          "qualifier_ui": "Q000145",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Bacteria",
+          "descriptor_ui": "D001419",
+          "qualifier_name": "classification",
+          "qualifier_ui": "Q000145",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Bacteria",
+          "descriptor_ui": "D001419",
+          "qualifier_name": "classification",
+          "qualifier_ui": "Q000145",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Bacteria",
+          "descriptor_ui": "D001419",
+          "qualifier_name": "classification",
+          "qualifier_ui": "Q000145",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Bacteria",
+          "descriptor_ui": "D001419",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Bacteria",
+          "descriptor_ui": "D001419",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Bacteria",
+          "descriptor_ui": "D001419",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Bacteria",
+          "descriptor_ui": "D001419",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "DNA",
+          "descriptor_ui": "D004247",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "DNA",
+          "descriptor_ui": "D004247",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "DNA",
+          "descriptor_ui": "D004247",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "DNA",
+          "descriptor_ui": "D004247",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Nucleic Acid Hybridization",
+          "descriptor_ui": "D009693",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Nucleic Acid Hybridization",
+          "descriptor_ui": "D009693",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Nucleic Acid Hybridization",
+          "descriptor_ui": "D009693",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Nucleic Acid Hybridization",
+          "descriptor_ui": "D009693",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Phylogeny",
+          "descriptor_ui": "D010802",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Phylogeny",
+          "descriptor_ui": "D010802",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Phylogeny",
+          "descriptor_ui": "D010802",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Phylogeny",
+          "descriptor_ui": "D010802",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Regression Analysis",
+          "descriptor_ui": "D012044",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Regression Analysis",
+          "descriptor_ui": "D012044",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Regression Analysis",
+          "descriptor_ui": "D012044",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Regression Analysis",
+          "descriptor_ui": "D012044",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Models, Statistical",
+          "descriptor_ui": "D015233",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Models, Statistical",
+          "descriptor_ui": "D015233",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Models, Statistical",
+          "descriptor_ui": "D015233",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Models, Statistical",
+          "descriptor_ui": "D015233",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Confidence Intervals",
+          "descriptor_ui": "D016001",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Confidence Intervals",
+          "descriptor_ui": "D016001",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Confidence Intervals",
+          "descriptor_ui": "D016001",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Confidence Intervals",
+          "descriptor_ui": "D016001",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, DNA",
+          "descriptor_ui": "D017422",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, DNA",
+          "descriptor_ui": "D017422",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, DNA",
+          "descriptor_ui": "D017422",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, DNA",
+          "descriptor_ui": "D017422",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genomics",
+          "descriptor_ui": "D023281",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genomics",
+          "descriptor_ui": "D023281",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genomics",
+          "descriptor_ui": "D023281",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genomics",
+          "descriptor_ui": "D023281",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        }
+      ],
+      "keywords": [
+        "Genome",
+        "Biology",
+        "Resampling",
+        "Computational biology",
+        "DNA sequencing",
+        "Consistency (knowledge bases)",
+        "Evolutionary biology",
+        "Genetics",
+        "Statistics",
+        "Computer science",
+        "DNA",
+        "Mathematics",
+        "Gene",
+        "Artificial intelligence"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 56.71558124,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.99956042,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 2072.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/1471-2105-14-60",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "Genome sequence-based species delimitation with confidence intervals and improved distance functions",
+      "publication_date": "2013-02-21",
+      "publication_year": 2013,
+      "work_type": "journal-article",
+      "publisher": "Springer Science and Business Media LLC",
+      "container_title": "BMC Bioinformatics",
+      "issn": [
+        "1471-2105"
+      ],
+      "doi": "10.1186/1471-2105-14-60",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-14-60",
+          "pdf_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-14-60",
+          "landing_page_url": "https://doi.org/10.1186/1471-2105-14-60",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-14-60",
+          "pdf_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-14-60",
+          "landing_page_url": "https://doi.org/10.1186/1471-2105-14-60",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "http://europepmc.org/articles/PMC3665452",
+          "landing_page_url": "http://europepmc.org/articles/PMC3665452",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "European Bioinformatics Institute",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3665452",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3665452",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://nbn-resolving.org/urn:nbn:de:bvb:384-opus4-1067774",
+          "landing_page_url": "https://nbn-resolving.org/urn:nbn:de:bvb:384-opus4-1067774",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "Augsburg University",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-14-60",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "Genome sequence-based species delimitation with confidence intervals and improved distance functions.",
+      "abstract": "<h4>Background</h4>For the last 25 years species delimitation in prokaryotes (Archaea and Bacteria) was to a large extent based on DNA-DNA hybridization (DDH), a tedious lab procedure designed in the early 1970s that served its purpose astonishingly well in the absence of deciphered genome sequences. With the rapid progress in genome sequencing time has come to directly use the now available and easy to generate genome sequences for delimitation of species. GBDP (Genome Blast Distance Phylogeny) infers genome-to-genome distances between pairs of entirely or partially sequenced genomes, a digital, highly reliable estimator for the relatedness of genomes. Its application as an in-silico replacement for DDH was recently introduced. The main challenge in the implementation of such an application is to produce digital DDH values that must mimic the wet-lab DDH values as close as possible to ensure consistency in the Prokaryotic species concept.<h4>Results</h4>Correlation and regression analyses were used to determine the best-performing methods and the most influential parameters. GBDP was further enriched with a set of new features such as confidence intervals for intergenomic distances obtained via resampling or via the statistical models for DDH prediction and an additional family of distance functions. As in previous analyses, GBDP obtained the highest agreement with wet-lab DDH among all tested methods, but improved models led to a further increase in the accuracy of DDH prediction. Confidence intervals yielded stable results when inferred from the statistical models, whereas those obtained via resampling showed marked differences between the underlying distance functions.<h4>Conclusions</h4>Despite the high accuracy of GBDP-based DDH prediction, inferences from limited empirical data are always associated with a certain degree of uncertainty. It is thus crucial to enrich in-silico DDH replacements with confidence-interval estimation, enabling the user to statistically evaluate the outcomes. Such methodological advancements, easily accessible through the web service at http://ggdc.dsmz.de, are crucial steps towards a consistent and truly genome sequence-based classification of microorganisms.",
+      "publication_year": 2013,
+      "language": "eng",
+      "container_title": "BMC bioinformatics",
+      "volume": "14",
+      "pages": "60",
+      "issn": [],
+      "doi": "10.1186/1471-2105-14-60",
+      "pmid": "23432962",
+      "pmcid": "PMC3665452",
+      "authors": [
+        {
+          "name": {
+            "given": "Jan P",
+            "family": "Meier-Kolthoff",
+            "full_name": "Meier-Kolthoff JP",
+            "orcid": "0000-0001-9105-9814",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Leibniz Institute DSMZ - German Collection of Microorganisms and Cell Cultures, Braunschweig, Germany.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Alexander F",
+            "family": "Auch",
+            "full_name": "Auch AF",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Hans-Peter",
+            "family": "Klenk",
+            "full_name": "Klenk HP",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Markus",
+            "family": "G\u00f6ker",
+            "full_name": "G\u00f6ker M",
+            "orcid": "0000-0002-5144-6200",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 4222,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "url": "https://europepmc.org/articles/PMC3665452",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC3665452?pdf=render",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Bacteria",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Bacteria",
+          "qualifier_name": "classification",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Bacteria",
+          "qualifier_name": "genetics",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Archaea",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Archaea",
+          "qualifier_name": "classification",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Archaea",
+          "qualifier_name": "genetics",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "DNA",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "DNA",
+          "qualifier_name": "chemistry",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Confidence Intervals",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Models, Statistical",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Regression Analysis",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Nucleic Acid Hybridization",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Nucleic Acid Hybridization",
+          "qualifier_name": "methods",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, DNA",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Genomics",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Genomics",
+          "qualifier_name": "methods",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Phylogeny",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 4222.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [
+        {
+          "name": "DNA",
+          "registry_number": "9007-49-2"
+        }
+      ],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [
+        {
+          "url": "https://doi.org/10.1186/1471-2105-14-60",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC3665452",
+          "availability": "Open access",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC3665452?pdf=render",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openaire": {
+      "source": "openaire",
+      "found": true,
+      "raw": {},
+      "title": "Genome sequence-based species delimitation with confidence intervals and improved distance functions",
+      "abstract": "<jats:title>Abstract</jats:title><jats:sec><jats:title>Background</jats:title><jats:p>For the last 25 years species delimitation in prokaryotes (<jats:italic>Archaea</jats:italic>and<jats:italic>Bacteria</jats:italic>) was to a large extent based on DNA-DNA hybridization (DDH), a tedious lab procedure designed in the early 1970s that served its purpose astonishingly well in the absence of deciphered genome sequences. With the rapid progress in genome sequencing time has come to directly use the now available and easy to generate genome sequences for delimitation of species. (Genome Blast Distance Phylogeny) infers genome-to-genome distances between pairs of entirely or partially sequenced genomes, a digital, highly reliable estimator for the relatedness of genomes. Its application as an in-silico replacement for DDH was recently introduced. The main challenge in the implementation of such an application is to produce digital DDH values that must mimic the wet-lab DDH values as close as possible to ensure consistency in the Prokaryotic species concept.</jats:p></jats:sec><jats:sec><jats:title>Results</jats:title><jats:p>Correlation and regression analyses were used to determine the best-performing methods and the most influential parameters. was further enriched with a set of new features such as confidence intervals for intergenomic distances obtained via resampling or via the statistical models for DDH prediction and an additional family of distance functions. As in previous analyses, obtained the highest agreement with wet-lab DDH among all tested methods, but improved models led to a further increase in the accuracy of DDH prediction. Confidence intervals yielded stable results when inferred from the statistical models, whereas those obtained via resampling showed marked differences between the underlying distance functions.</jats:p></jats:sec><jats:sec><jats:title>Conclusions</jats:title><jats:p>Despite the high accuracy of -based DDH prediction, inferences from limited empirical data are always associated with a certain degree of uncertainty. It is thus crucial to enrich in-silico DDH replacements with confidence-interval estimation, enabling the user to statistically evaluate the outcomes. Such methodological advancements, easily accessible through the web service at<jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"http://ggdc.dsmz.de\" ext-link-type=\"uri\">http://ggdc.dsmz.de</jats:ext-link>, are crucial steps towards a consistent and truly genome sequence-based classification of microorganisms.</jats:p></jats:sec>",
+      "publication_date": "2013-02-21",
+      "publication_year": 2013,
+      "work_type": "publication",
+      "language": "eng",
+      "publisher": "Springer Science and Business Media LLC",
+      "issn": [],
+      "doi": "10.1186/1471-2105-14-60",
+      "pmid": "23432962",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Jan P. Meier-Kolthoff",
+            "orcid": "0000-0001-9105-9814",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Alexander F. Auch",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Hans-Peter Klenk",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Markus G\u00f6ker",
+            "orcid": "0000-0002-5144-6200",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "citation_count": 5900,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1186/1471-2105-14-60",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/1471-2105-14-60",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23432962",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1186/1471-2105-14-60",
+          "version": "Other literature type",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1186/1471-2105-14-60",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1186/1471-2105-14-60",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://dx.doi.org/10.1186/1471-2105-14-60",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1186/1471-2105-14-60",
+          "version": "Article",
+          "license": "http://creativecommons.org/licenses/by/2.0/de/deed.de",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://opus.bibliothek.uni-augsburg.de/opus4/files/106777/106777.pdf",
+          "version": "Article",
+          "license": "http://creativecommons.org/licenses/by/2.0/de/deed.de",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://nbn-resolving.org/urn:nbn:de:bvb:384-opus4-1067774",
+          "version": "Article",
+          "license": "http://creativecommons.org/licenses/by/2.0/de/deed.de",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://opus.bibliothek.uni-augsburg.de/opus4/frontdoor/index/index/docId/106777",
+          "version": "Article",
+          "license": "http://creativecommons.org/licenses/by/2.0/de/deed.de",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/https://doi.org/10.1186/1471-2105-14-60",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/https://doi.org/10.1186/1471-2105-14-60",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "PTDC/CCI-BIO/29266/2017",
+          "agency": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia, I.P.",
+          "title": "Deep Drug Discovery and Deployment",
+          "pi_names": [],
+          "openaire_project_id": "fct_________::f911a6d3781fcc889d2d1987bc1289bf",
+          "source": "openaire"
+        }
+      ],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "ddc:004",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "0301 basic medicine",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "570",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "0303 health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "Models, Statistical",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Bacteria",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Methodology Article",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Nucleic Acid Hybridization",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "600",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "DNA",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Genomics",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Sequence Analysis, DNA",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Biochemistry",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Archaea",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Computer Science Applications",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "03 medical and health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "Confidence Intervals",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Regression Analysis",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Molecular Biology",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Phylogeny",
+          "scheme": "keyword",
+          "source": "openaire"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "bip_citationCount",
+          "value": 5900.0,
+          "class_label": "C1",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_influence",
+          "value": 2.5743472e-07,
+          "class_label": "C1",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_popularity",
+          "value": 2.9112573e-06,
+          "class_label": "C1",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_impulse",
+          "value": 358.0,
+          "class_label": "C1",
+          "source": "openaire"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [
+        {
+          "grant_id": "PTDC/CCI-BIO/29266/2017",
+          "agency": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia, I.P.",
+          "title": "Deep Drug Discovery and Deployment",
+          "pi_names": [],
+          "openaire_project_id": "fct_________::f911a6d3781fcc889d2d1987bc1289bf",
+          "source": "openaire"
+        }
+      ],
+      "alternate_ids": [
+        "doi:10.1186/1471-2105-14-60",
+        "doi:10.1186/1471-2105-14-60",
+        "pmid:23432962",
+        "pmc:PMC3665452",
+        "doi:10.1186/1471-2105-14-60",
+        "doi:10.1186/1471-2105-14-60",
+        "doi:10.1186/1471-2105-14-60",
+        "doi:10.1186/1471-2105-14-60",
+        "mag_id:2116206245",
+        "doi:10.1186/1471-2105-14-60",
+        "doi:10.1186/1471-2105-14-60",
+        "doi:10.1186/1471-2105-14-60",
+        "handle:10900/39544"
+      ],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/1471-2105-14-60",
+      "pmid": "23671333",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/1471-2105-14-60",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/1471-2105-14-60",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/1471-2105-14-60",
+      "authors": [
+        {
+          "name": {
+            "given": "Markus",
+            "family": "G\u00f6ker",
+            "full_name": "Markus G\u00f6ker",
+            "orcid": "0000-0002-5144-6200",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jan P.",
+            "family": "Meier-Kolthoff",
+            "full_name": "Jan P. Meier-Kolthoff",
+            "orcid": "0000-0001-9105-9814",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0002-5144-6200",
+          "given_names": "Markus",
+          "family_names": "G\u00f6ker",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Bergey's Manual Trust",
+            "International Committee on Systematics of Prokaryotes",
+            "Leibniz Institute DSMZ \u2013 German Collection of Microorganisms and Cell Cultures",
+            "Scilit, MDPI, Gengfang International",
+            "Technische Universit\u00e4t Braunschweig",
+            "University of T\u00fcbingen",
+            "Web of Science"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0001-9105-9814",
+          "given_names": "Jan P.",
+          "family_names": "Meier-Kolthoff",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Clarivate (United States)",
+            "University of Augsburg"
+          ],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": true,
+      "raw": {},
+      "title": "Genome sequence-based species delimitation with confidence intervals and improved distance functions.",
+      "abstract": "BACKGROUND: For the last 25 years species delimitation in prokaryotes (Archaea and Bacteria) was to a large extent based on DNA-DNA hybridization (DDH), a tedious lab procedure designed in the early 1970s that served its purpose astonishingly well in the absence of deciphered genome sequences. With the rapid progress in genome sequencing time has come to directly use the now available and easy to generate genome sequences for delimitation of species. GBDP (Genome Blast Distance Phylogeny) infers genome-to-genome distances between pairs of entirely or partially sequenced genomes, a digital, highly reliable estimator for the relatedness of genomes. Its application as an in-silico replacement for DDH was recently introduced. The main challenge in the implementation of such an application is to produce digital DDH values that must mimic the wet-lab DDH values as close as possible to ensure consistency in the Prokaryotic species concept.\nRESULTS: Correlation and regression analyses were used to determine the best-performing methods and the most influential parameters. GBDP was further enriched with a set of new features such as confidence intervals for intergenomic distances obtained via resampling or via the statistical models for DDH prediction and an additional family of distance functions. As in previous analyses, GBDP obtained the highest agreement with wet-lab DDH among all tested methods, but improved models led to a further increase in the accuracy of DDH prediction. Confidence intervals yielded stable results when inferred from the statistical models, whereas those obtained via resampling showed marked differences between the underlying distance functions.\nCONCLUSIONS: Despite the high accuracy of GBDP-based DDH prediction, inferences from limited empirical data are always associated with a certain degree of uncertainty. It is thus crucial to enrich in-silico DDH replacements with confidence-interval estimation, enabling the user to statistically evaluate the outcomes. Such methodological advancements, easily accessible through the web service at http://ggdc.dsmz.de, are crucial steps towards a consistent and truly genome sequence-based classification of microorganisms.",
+      "publication_date": "2013-Feb-21",
+      "publication_year": 2013,
+      "work_type": "journal-article",
+      "language": "eng",
+      "container_title": "BMC bioinformatics",
+      "volume": "14",
+      "pages": "60",
+      "issn": [
+        "1471-2105"
+      ],
+      "doi": "10.1186/1471-2105-14-60",
+      "pmid": "23432962",
+      "pmcid": "PMC3665452",
+      "authors": [
+        {
+          "name": {
+            "given": "Jan P",
+            "family": "Meier-Kolthoff",
+            "full_name": "Jan P Meier-Kolthoff",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Leibniz Institute DSMZ - German Collection of Microorganisms and Cell Cultures, Braunschweig, Germany.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Alexander F",
+            "family": "Auch",
+            "full_name": "Alexander F Auch",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Hans-Peter",
+            "family": "Klenk",
+            "full_name": "Hans-Peter Klenk",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Markus",
+            "family": "G\u00f6ker",
+            "full_name": "Markus G\u00f6ker",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [],
+          "sources": [
+            "entrez"
+          ]
+        }
+      ],
+      "reference_count": 55,
+      "references": [
+        {
+          "doi": "10.1099/00207713-37-4-463",
+          "unstructured": "Wayne LG, Brenner DJ, Colwell RR, Grimont PaD, Kandler O, Krichevsky MI, Moore LH, Moore WEC, Murray RGE, Stackebrandt E, Starr MP, Truper HG. Report of the Ad Hoc committee on reconciliation of approaches to bacterial systematics. Int J Syst Bacteriol. 1987;37(4):463\u2013464. doi: 10.1099/00207713-37-4-463.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1099/00207713-44-4-846",
+          "unstructured": "Stackebrandt E, Goebel BM. Taxonomic note: a place for DNA-DNA reassociation and 16S rRNA sequence analysis in the present species definition in bacteriology. Int J Syst Bacteriol. 1994;44(4):846\u2013849. doi: 10.1099/00207713-44-4-846.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1016/j.syapm.2009.09.002",
+          "pmid": "19819658",
+          "unstructured": "Schleifer K. Classification of Bacteria and Archaea: past, present and future. Syst Appl Microbiol. 2009;32(8):533\u2013542. doi: 10.1016/j.syapm.2009.09.002.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1016/j.syapm.2010.03.003",
+          "pmid": "20409658",
+          "unstructured": "Klenk HP, G\u00f6ker M. En route to a genome-based classification of Archaea and Bacteria? Syst Appl Microbiol. 2010;33(4):175\u2013182. doi: 10.1016/j.syapm.2010.03.003.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "8801440",
+          "unstructured": "Vandamme P, Pot B, Gillis M. de Vos P. Polyphasic taxonomy, a consensus approach to bacterial systematics. Microbiol Rev. 1996;60(2):407\u2013438.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1099/ijs.0.64483-0",
+          "pmid": "17220447",
+          "unstructured": "Goris J, Konstantinidis K, Klappenbach J, Coenye T, Vandamme P, Tiedje J. DNA-DNA hybridization values and their relationship to whole-genome sequence similarities. Int J Syst Evol Microbiol. 2007;57:81\u201391. doi: 10.1099/ijs.0.64483-0.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1073/pnas.0906412106",
+          "pmid": "19855009",
+          "unstructured": "Richter M, Rossello R. Shifting the genomic gold standard for the prokaryotic species definition. Proc Nat Acad Sci. 2009;106(45):19126\u201319131. doi: 10.1073/pnas.0906412106.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.4056/sigs.531120",
+          "pmid": "21304684",
+          "unstructured": "Auch AF, von Jan M, Klenk HP, G\u00f6ker M. Digital DNA-DNA hybridization for microbial species delineation by means of genome-to-genome sequence comparison. Stand Genomic Sci. 2010;2:117\u2013134. doi: 10.4056/sigs.531120.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1007/BF02565064",
+          "pmid": "1082296",
+          "unstructured": "De Ley J, De Smedt J. Improvements of the membrane filter method for DNA:rRNA hybridization. Antonie van Leeuwenhoek. 1975;41:287\u2013307. doi: 10.1007/BF02565064.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1007/BF02099964",
+          "unstructured": "Klenk HP, Haas B, Schwass V, Zillig W. Hybridization homology: a new parameter for the analysis of phylogenetic relations, demonstrated with the urkingdom of the archaebacteria. J Mol Evol. 1986;24:167\u2013173. doi: 10.1007/BF02099964.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1073/pnas.87.12.4576",
+          "pmid": "2112744",
+          "unstructured": "Woese CR, Kandler O, Wheelis ML. Towards a natural system of organisms: proposal for the domains Archaea, Bacteria, and Eucarya. Proc Nat Acad Sci. 1990;87(12):4576\u20134579. doi: 10.1073/pnas.87.12.4576.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/bioinformatics/bth324",
+          "pmid": "15166018",
+          "unstructured": "Henz S, Huson D, Auch AF, Nieselt-Struwe K. Schuster S. Whole-genome prokaryotic phylogeny. Bioinformatics. 2005;21(10):2329\u20132335. doi: 10.1093/bioinformatics/bth324.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1186/1471-2105-7-350",
+          "pmid": "16854218",
+          "unstructured": "Auch AF, Henz S, Holland B, G\u00f6ker M. Genome BLAST distance phylogenies inferred from whole plastid and whole mitochondrion genome sequences. BMC Bioinformatics. 2006;7:350. doi: 10.1186/1471-2105-7-350.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Auch AF, Henz SR, G\u00f6ker M. Phylogenies from whole genomes: Methodological update within a distance-based framework. German conference on Bioinformatics, T\u00fcbingen 2006.  T\u00fcbingen [ http://nbn-resolving.de/urn:nbn:de:bsz:21-opus-34178]",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Auch AF. A phylogenetic potpourri \u2013 Computational methods for analysing genome-scale data. PhD thesis.  Universit\u00e4t T\u00fcbingen, Wilhelmstr. 32, 72074 T\u00fcbingen 2009, [ http://nbn-resolving.de/urn:nbn:de:bsz:21-opus-44779]",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.4056/sigs.541628",
+          "pmid": "21304686",
+          "unstructured": "Auch AF, Klenk HP, G\u00f6ker M. Standard operating procedure for calculating genome-to-genome distances based on high-scoring segment pairs. Stand Genomic Sci. 2010;2:142\u2013148. doi: 10.4056/sigs.541628.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "2231712",
+          "unstructured": "Altschul S, Gish W, Miller W, Myers E, Lipman D. Basic local alignment search tool. J Mol Biol. 1990;215(3):403\u2013410.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "3447015",
+          "unstructured": "Saitou N, Nei M. The neighbor-joining method: a new method for reconstructing phylogenetic trees. Mol Biol Evol. 1987;4(4):406\u2013425.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "21037964",
+          "unstructured": "G\u00f6ker M, Grimm GW, Auch AF, Aurahs R, Ku\u010dera M. A clustering optimization strategy for molecular taxonomy applied to planktonic foraminifera ssU rDnA. Evol Bioinf. 2010;6:97\u2013112.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Motulsky H, Christopoulos A. Fitting Models to Biological Data Using Linear and Nonlinear Regression: A Practical Guide to Curve Fitting. Oxford: Oxford University Press; 2004.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1007/s10651-005-6817-1",
+          "unstructured": "Fletcher D, MacKenzie D, Villouta E. Modelling skewed data with many zeros: A simple approach combining ordinary and logistic regression. Environ Ecol Stat. 2005;12:45\u201354. doi: 10.1007/s10651-005-6817-1.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "18178591",
+          "unstructured": "Lin SM, Du P, Huber W. Kibbe Wa. Model-based variance-stabilizing transformation for Illumina microarray data. Nucleic acids Res. 2008;36(2):e11.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1214/aos/1176344552",
+          "unstructured": "Efron B. Bootstrap methods: another look at the jackknife. Ann Stat. 1979;7:1\u201326. doi: 10.1214/aos/1176344552.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Miller RG. The jackknife \u2013 a review. Biometrika. 1974;61:1\u201315.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "22135293",
+          "unstructured": "Pagani I, Liolios K, Jansson J, Chen IMa, Kyrpides NC. Smirnova T. The Genomes OnLine Database (GOLD) v.4: status of genomic and metagenomic projects and their associated metadata. Nucleic acids Res. 2012;40(Database issue):D571\u2014D579.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1186/1471-2105-10-421",
+          "pmid": "20003500",
+          "unstructured": "Camacho C, Coulouris G, Avagyan V, Ma N, Papadopoulos J, Bealer K, Madden T. BLAST+: architecture and applications. BMC Bioinformatics. 2009;10:421. doi: 10.1186/1471-2105-10-421.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Korf I, Yandell M, Bedell J. BLAST. Sebastopol: O\u2019Reilly Media; 2003.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Legendre P, Legendre L. Numerical Ecology. Amsterdam: Elsevier; 1998.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1186/gb-2004-5-2-r12",
+          "pmid": "14759262",
+          "unstructured": "Kurtz S, Phillippy A, Delcher AL, Smoot M, Shumway M, Antonescu C, Salzberg SL. Versatile and open software for comparing large genomes. Genome Biol. 2004;5(2):R12. doi: 10.1186/gb-2004-5-2-r12.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "11932250",
+          "unstructured": "Kent W. BLAT \u2013 the BLAST-like alignment tool. Genome Res. 2002;12(4):656\u2013664.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1101/gr.809403",
+          "pmid": "12529312",
+          "unstructured": "Schwartz S, Kent WJ, Smit A, Zhang Z, Baertsch R, Hardison RC, Haussler D, Miller W. Human-mouse alignments with BLASTZ. Genome Res. 2003;13:103\u2013107. doi: 10.1101/gr.809403.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1177/109434200101500211",
+          "unstructured": "Bader D, Pennington R. Cluster computing: applications. Int J High Perform Comput. 2001;15(2):181\u2013185. doi: 10.1177/109434200101500211.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "BwGRiD. Member of the German D-Grid initiative, funded by the Ministry of Education and Research and the Ministry for Science, Research and Arts Baden-Wuerttemberg (2007-2012)  Tech. rep. Universities of Baden-W\u00fcrttemberg 2012. [ http://www.bw-grid.de/]",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Meier-Kolthoff JP, Auch AF, Klenk HP, G\u00f6ker M. Hochleistungsrechnen in Baden-W\u00fcrttemberg \u2013 Ausgew\u00e4hlte Aktivit\u00e4ten im bwGRiD 2012. Karlsruhe: KIT Scientific Publishing; Forthcoming 2013. GBDP on the grid: a genome-based approach for species delimitation adjusted for an automated and highly parallel processing of large data sets.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Sokal R, Rohlf F. Biometry: The Principles and Practice of Statistics in Biological Research. San Francisco: W.H. Freeman and Company; 1969.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "R Development Core Team.  R: a Language and Environment for Statistical computing. Vienna: R Foundation for Statistical Computing; 2011.  [ http://www.r-project.org]",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Crawley MJ. The R book. Chichester: Wiley Publishing; 2007.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Venables WN, Ripley BD. Modern Applied Statistics with S. New York: Springer; 2002.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Fox J. Effect displays in {R} for generalised linear models. J Stat Software. 2003;8(15):1\u201327.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1360/jos170001",
+          "unstructured": "Gr\u00f6mping U. Relative importance for linear regression in R: the package relaimpo. J Stat Software. 2006;17:1\u201327. doi: 10.1360/jos170001.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1214/aoms/1177732503",
+          "unstructured": "Hendricks W, Robey K. The sampling distribution of the coefficient of variation. Ann Math Stat. 1936;7(3):129\u2013132. doi: 10.1214/aoms/1177732503.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Nelder JA, Wedderburn RWM. Generalized linear models. J R Stat Soc. 1972;135(3):370\u2013384.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "8548102",
+          "unstructured": "Hastie T, Tibshirani R. Generalized Additive Models. London: Chapman & Hall/CRC; 1990.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1080/01621459.1979.10481038",
+          "unstructured": "Cleveland W. Robust locally weighted regression and smoothing scatterplots. J Am Stat Assoc. 1979;74(368):829\u2013836. doi: 10.1080/01621459.1979.10481038.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1111/j.1467-9868.2010.00749.x",
+          "unstructured": "Wood SN. Fast stable restricted maximum likelihood and marginal likelihood estimation of semiparametric generalized linear models. J R Stat Soc (B) 2011;73:3\u201336. doi: 10.1111/j.1467-9868.2010.00749.x.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1109/TAC.1974.1100705",
+          "unstructured": "Akaike H. A new look at the statistical model identification. IEEE Trans Autom Control. 1974;19(6):716\u2013723. doi: 10.1109/TAC.1974.1100705.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Wickham H. Ggplot2: Elegant Graphics for Data Analysis. New York: Springer; 2009.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Hilbe J. Negative Binomial Regression. Cambridge: Cambridge Univ Pr; 2011.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1017/S0016672300019005",
+          "pmid": "7152254",
+          "unstructured": "Mueller LD. Ayala F J. Estimation and interpretation of genetic distance in empirical studies. Genetical Res. 1982;40:127\u2013137. doi: 10.1017/S0016672300019005.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1111/j.1096-0031.1985.tb00427.x",
+          "pmid": "34965674",
+          "unstructured": "Penny D, Hendy MD. Testing methods of evolutionary tree construction. Cladistics. 1985;1(3):266\u2013278. doi: 10.1111/j.1096-0031.1985.tb00427.x.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.2307/2408678",
+          "pmid": "28561359",
+          "unstructured": "Felsenstein J. Confidence limits on phylogenies: an approach using the bootstrap. Evolution. 1985;39(4):783\u2013791. doi: 10.2307/2408678.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "2832694",
+          "unstructured": "Penny D, Hendy M. Estimating the reliability of evolutionary trees. Mol Biol Evol. 1986;3(5):403\u2013417.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Felsenstein J. Inferring Phylogenies. Sunderland: Sinauer Associates; 2004.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "pmid": "1435239",
+          "unstructured": "Thorne J, Kishino H. Freeing phylogenies from artifacts of alignment. Mol Biol and Evol. 1992;9(6):1148\u20131162.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1128/JB.184.8.2072-2080.2002",
+          "pmid": "11914337",
+          "unstructured": "Clarke GDP, Beiko RG, Ragan MA, Charlebois RL. Inferring genome trees by using a filter to eliminate phylogenetically discordant sequences and a distance matrix based on mean normalized BLASTP scores. J Bacteriol. 2002;184(8):2072\u20132080. doi: 10.1128/JB.184.8.2072-2080.2002.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Archaea",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Bacteria",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Confidence Intervals",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "DNA",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Genomics",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Models, Statistical",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Nucleic Acid Hybridization",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Phylogeny",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Regression Analysis",
+          "scheme": "MeSH",
+          "source": "entrez"
+        },
+        {
+          "value": "Sequence Analysis, DNA",
+          "scheme": "MeSH",
+          "source": "entrez"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Archaea",
+          "descriptor_ui": "D001105",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Archaea",
+          "descriptor_ui": "D001105",
+          "qualifier_name": "classification",
+          "qualifier_ui": "Q000145",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Archaea",
+          "descriptor_ui": "D001105",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Bacteria",
+          "descriptor_ui": "D001419",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Bacteria",
+          "descriptor_ui": "D001419",
+          "qualifier_name": "classification",
+          "qualifier_ui": "Q000145",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Bacteria",
+          "descriptor_ui": "D001419",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Confidence Intervals",
+          "descriptor_ui": "D016001",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "DNA",
+          "descriptor_ui": "D004247",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "DNA",
+          "descriptor_ui": "D004247",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Genomics",
+          "descriptor_ui": "D023281",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Genomics",
+          "descriptor_ui": "D023281",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Models, Statistical",
+          "descriptor_ui": "D015233",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Nucleic Acid Hybridization",
+          "descriptor_ui": "D009693",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Nucleic Acid Hybridization",
+          "descriptor_ui": "D009693",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Phylogeny",
+          "descriptor_ui": "D010802",
+          "is_major_topic": true,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Regression Analysis",
+          "descriptor_ui": "D012044",
+          "is_major_topic": false,
+          "source": "entrez"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, DNA",
+          "descriptor_ui": "D017422",
+          "is_major_topic": false,
+          "source": "entrez"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [
+        {
+          "name": "DNA",
+          "registry_number": "9007-49-2",
+          "substance_ui": "D004247"
+        }
+      ],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {
+        "received": "2012-11-26",
+        "accepted": "2013-02-04",
+        "entrez": "2013-02-26",
+        "pubmed": "2013-02-26",
+        "medline": "2013-11-06",
+        "pmc-release": "2013-02-21"
+      },
+      "structured_abstract": {
+        "BACKGROUND": "For the last 25 years species delimitation in prokaryotes (Archaea and Bacteria) was to a large extent based on DNA-DNA hybridization (DDH), a tedious lab procedure designed in the early 1970s that served its purpose astonishingly well in the absence of deciphered genome sequences. With the rapid progress in genome sequencing time has come to directly use the now available and easy to generate genome sequences for delimitation of species. GBDP (Genome Blast Distance Phylogeny) infers genome-to-genome distances between pairs of entirely or partially sequenced genomes, a digital, highly reliable estimator for the relatedness of genomes. Its application as an in-silico replacement for DDH was recently introduced. The main challenge in the implementation of such an application is to produce digital DDH values that must mimic the wet-lab DDH values as close as possible to ensure consistency in the Prokaryotic species concept.",
+        "RESULTS": "Correlation and regression analyses were used to determine the best-performing methods and the most influential parameters. GBDP was further enriched with a set of new features such as confidence intervals for intergenomic distances obtained via resampling or via the statistical models for DDH prediction and an additional family of distance functions. As in previous analyses, GBDP obtained the highest agreement with wet-lab DDH among all tested methods, but improved models led to a further increase in the accuracy of DDH prediction. Confidence intervals yielded stable results when inferred from the statistical models, whereas those obtained via resampling showed marked differences between the underlying distance functions.",
+        "CONCLUSIONS": "Despite the high accuracy of GBDP-based DDH prediction, inferences from limited empirical data are always associated with a certain degree of uncertainty. It is thus crucial to enrich in-silico DDH replacements with confidence-interval estimation, enabling the user to statistically evaluate the outcomes. Such methodological advancements, easily accessible through the web service at http://ggdc.dsmz.de, are crucial steps towards a consistent and truly genome sequence-based classification of microorganisms."
+      },
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "publication_status": "epublish",
+      "country_of_publication": "England",
+      "nlm_journal_id": "100965194",
+      "medline_ta": "BMC Bioinformatics",
+      "citation_subsets": [
+        "IM"
+      ],
+      "pii": "1471-2105-14-60",
+      "electronic_publication_date": "2013-02-21",
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1186/1471-2105-14-60",
+    "pmid": "23432962",
+    "pmcid": "PMC3665452",
+    "mag_id": "2116206245",
+    "openalex_id": "https://openalex.org/W2116206245",
+    "pii": "1471-2105-14-60",
+    "nlm_unique_id": "100965194",
+    "handles": [
+      "10900/39544"
+    ],
+    "orcids": [
+      "0000-0001-9105-9814",
+      "0000-0002-5144-6200",
+      "0000-0003-0586-162X"
+    ],
+    "ror_ids": [
+      "https://ror.org/02tyer376",
+      "https://ror.org/03a1kwz48"
+    ],
+    "grant_ids": [
+      "PTDC/CCI-BIO/29266/2017"
+    ],
+    "nct_ids": [],
+    "pmid_source": "entrez",
+    "pmcid_source": "entrez"
+  },
+  "conflicts": {
+    "doi": "10.1186/1471-2105-14-60",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 5976,
+          "openalex": 6396,
+          "europe_pmc": 4222,
+          "openaire": 5900
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 55,
+          "openalex": 64,
+          "entrez": 55
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article",
+          "openaire": "publication",
+          "entrez": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 4,
+          "openalex": 4,
+          "unpaywall": 4,
+          "europe_pmc": 4,
+          "openaire": 4,
+          "orcid": 2,
+          "entrez": 4
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Springer Science and Business Media LLC",
+          "openalex": "https://openalex.org/P4310320256",
+          "unpaywall": "Springer Science and Business Media LLC",
+          "openaire": "Springer Science and Business Media LLC"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "BMC Bioinformatics",
+          "openalex": "BMC Bioinformatics",
+          "unpaywall": "BMC Bioinformatics",
+          "europe_pmc": "BMC bioinformatics",
+          "entrez": "BMC bioinformatics"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "mesh_term_count",
+        "values": {
+          "openalex": 48,
+          "europe_pmc": 17,
+          "entrez": 17
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng",
+          "openaire": "eng",
+          "entrez": "eng"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 2,
+    "conflict_count": 8
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1186/1471-2105-14-60",
+    "fetched_at": "2026-02-11T16:12:08.655665+00:00"
+  }
+}

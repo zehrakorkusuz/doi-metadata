@@ -1,0 +1,1428 @@
+{
+  "doi": "10.1145/3451219",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T18:44:06.364610Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "Experience: Automated Prediction of Experimental Metadata from Scientific Publications",
+      "abstract": "<jats:p>While there exists an abundance of open biomedical data, the lack of high-quality metadata makes it challenging for others to find relevant datasets and to reuse them for another purpose. In particular, metadata are useful to understand the nature and provenance of the data. A common approach to improving the quality of metadata relies on expensive human curation, which itself is time-consuming and also prone to error. Towards improving the quality of metadata, we use scientific publications to automatically predict metadata key:value pairs. For prediction, we use a Convolutional Neural Network (CNN) and a Bidirectional Long-short term memory network (BiLSTM). We focus our attention on the NCBI Disease Corpus, which is used for training the CNN and BiLSTM. We perform two different kinds of experiments with these two architectures: (1) we predict the disease names by using their unique ID in the MeSH ontology and (2) we use the tree structures of MeSH ontology to move up in the hierarchy of these disease terms, which reduces the number of labels. We also perform various multi-label classification techniques for the above-mentioned experiments. We find that in both cases CNN achieves the best results in predicting the superclasses for disease with an accuracy of 83%.</jats:p>",
+      "publication_date": "2021-08-12",
+      "publication_year": 2021,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "container_title": "Journal of Data and Information Quality",
+      "volume": "13",
+      "issue": "4",
+      "pages": "1-11",
+      "issn": [
+        "1936-1955",
+        "1936-1963"
+      ],
+      "doi": "10.1145/3451219",
+      "authors": [
+        {
+          "name": {
+            "given": "Stuti",
+            "family": "Nayak",
+            "full_name": "Stuti Nayak",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Institute of Data Science, Maastricht University, Maastricht, The Netherlands",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Amrapali",
+            "family": "Zaveri",
+            "full_name": "Amrapali Zaveri",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Institute of Data Science, Maastricht University, Maastricht, The Netherlands",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Pedro Hernandez",
+            "family": "Serrano",
+            "full_name": "Pedro Hernandez Serrano",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Institute of Data Science, Maastricht University, Maastricht, The Netherlands",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michel",
+            "family": "Dumontier",
+            "full_name": "Michel Dumontier",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Institute of Data Science, Maastricht University, Maastricht, The Netherlands",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 1,
+      "reference_count": 20,
+      "references": [
+        {
+          "doi": "10.1093/nar/gks1193",
+          "key": "e_1_2_1_1_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.5555/944919.944966",
+          "key": "e_1_2_1_2_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/asi.22634",
+          "key": "e_1_2_1_3_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/ng1201-365",
+          "key": "e_1_2_1_4_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Fran\u00e7ois Chollet et\u00a0al. 2015. Keras. https://keras.io.  Fran\u00e7ois Chollet et\u00a0al. 2015. Keras. https://keras.io.",
+          "key": "e_1_2_1_5_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1145/1390156.1390177",
+          "key": "e_1_2_1_6_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.5555/2598938.2599127",
+          "key": "e_1_2_1_7_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/30.1.207",
+          "key": "e_1_2_1_8_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2017,
+          "author": "Gon\u00e7alves Rafael S.",
+          "unstructured": "Rafael S. Gon\u00e7alves , Martin J. O\u2019Connor , Marcos Mart\u00ednez-Romero , John Graybeal , and Mark A . Musen . 2017 . Metadata in the BioSample Online Repository are Impaired by Numerous Anomalies . arXiv preprint arXiv:1708.01286 (2017). Rafael S. Gon\u00e7alves, Martin J. O\u2019Connor, Marcos Mart\u00ednez-Romero, John Graybeal, and Mark A. Musen. 2017. Metadata in the BioSample Online Repository are Impaired by Numerous Anomalies. arXiv preprint arXiv:1708.01286 (2017).",
+          "key": "e_1_2_1_9_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.5555/3086952",
+          "key": "e_1_2_1_10_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2013,
+          "author": "Hoffman Sharona",
+          "unstructured": "Sharona Hoffman and Andy Podgurski . 2013. The use and misuse of biomedical data: is bigger really better?American Journal of Law & Medicine 39, 4 ( 2013 ), 497\u2013538. Sharona Hoffman and Andy Podgurski. 2013. The use and misuse of biomedical data: is bigger really better?American Journal of Law & Medicine 39, 4 (2013), 497\u2013538.",
+          "key": "e_1_2_1_11_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s12859-017-1832-4",
+          "key": "e_1_2_1_12_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2014,
+          "author": "Diederik",
+          "unstructured": "Diederik P. Kingma and Jimmy Ba . 2014 . Adam : A method for stochastic optimization. arXiv preprint arXiv:1412.6980 (2014). Diederik P. Kingma and Jimmy Ba. 2014. Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980 (2014).",
+          "key": "e_1_2_1_13_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.5555/2999792.2999959",
+          "key": "e_1_2_1_14_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2018,
+          "author": "Stuti Nayak A. Z.",
+          "unstructured": "A. Z. Stuti Nayak , Amrapali Zaveri , and Michel Dumontier . 2018 . Quality assessment of biomedical metadata using topic modeling . In 2nd Workshop on Semantic Web Solutions for Large-Scale Biomedical Data Analytics (SeWeBMeDA\u201918) . A. Z. Stuti Nayak, Amrapali Zaveri, and Michel Dumontier. 2018. Quality assessment of biomedical metadata using topic modeling. In 2nd Workshop on Semantic Web Solutions for Large-Scale Biomedical Data Analytics (SeWeBMeDA\u201918).",
+          "key": "e_1_2_1_15_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.5555/1953048.2078195",
+          "key": "e_1_2_1_16_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3115/v1/D14-1162",
+          "key": "e_1_2_1_17_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2017,
+          "author": "Singh V.",
+          "unstructured": "V. Singh . 2017. Replace or retrieve keywords in documents at scale. ArXiv e-prints (Oct . 2017 ). arxiv:cs.DS/1711.00046 V. Singh. 2017. Replace or retrieve keywords in documents at scale. ArXiv e-prints (Oct. 2017). arxiv:cs.DS/1711.00046",
+          "key": "e_1_2_1_18_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/sdata.2016.18",
+          "key": "e_1_2_1_19_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/MCI.2018.2840738",
+          "key": "e_1_2_1_20_1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://dl.acm.org/doi/10.1145/3451219",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://dl.acm.org/doi/pdf/10.1145/3451219",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "https://www.acm.org/publications/policies/copyright_policy#Background",
+          "content_version": "vor",
+          "delay_in_days": 0,
+          "source": "crossref"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [
+        {
+          "value": "2019-10-01",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2021-02-01",
+          "order": 1,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2021-08-12",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1145/3451219",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "Experience: Automated Prediction of Experimental Metadata from Scientific Publications",
+      "abstract": "While there exists an abundance of open biomedical data, the lack of high-quality metadata makes it challenging for others to find relevant datasets and to reuse them for another purpose. In particular, metadata are useful to understand the nature and provenance of the data. A common approach to improving the quality of metadata relies on expensive human curation, which itself is time-consuming and also prone to error. Towards improving the quality of metadata, we use scientific publications to automatically predict metadata key:value pairs. For prediction, we use a Convolutional Neural Network (CNN) and a Bidirectional Long-short term memory network (BiLSTM). We focus our attention on the NCBI Disease Corpus, which is used for training the CNN and BiLSTM. We perform two different kinds of experiments with these two architectures: (1) we predict the disease names by using their unique ID in the MeSH ontology and (2) we use the tree structures of MeSH ontology to move up in the hierarchy of these disease terms, which reduces the number of labels. We also perform various multi-label classification techniques for the above-mentioned experiments. We find that in both cases CNN achieves the best results in predicting the superclasses for disease with an accuracy of 83%.",
+      "publication_date": "2021-08-12",
+      "publication_year": 2021,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310319798",
+      "container_title": "Journal of Data and Information Quality",
+      "volume": "13",
+      "issue": "4",
+      "pages": "1-11",
+      "issn": [
+        "1936-1955",
+        "1936-1963"
+      ],
+      "doi": "10.1145/3451219",
+      "openalex_id": "https://openalex.org/W3194255790",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Stuti Nayak",
+            "orcid": "0000-0003-1415-4812",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Maastricht University",
+              "ror_id": "https://ror.org/02jz4aj89",
+              "country_code": "NL",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5067826352",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Amrapali Zaveri",
+            "orcid": "0000-0003-3239-4588",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Maastricht University",
+              "ror_id": "https://ror.org/02jz4aj89",
+              "country_code": "NL",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5053300261",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Pedro Hernandez Serrano",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Maastricht University",
+              "ror_id": "https://ror.org/02jz4aj89",
+              "country_code": "NL",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5111159400",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Michel Dumontier",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Maastricht University",
+              "ror_id": "https://ror.org/02jz4aj89",
+              "country_code": "NL",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5044836472",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 2,
+      "reference_count": 13,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2022": 2
+      },
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_locations": [
+        {
+          "url": "https://cris.maastrichtuniversity.nl/en/publications/f3bf7f53-879f-4dad-967c-87b040d4dd85",
+          "landing_page_url": "https://cris.maastrichtuniversity.nl/en/publications/f3bf7f53-879f-4dad-967c-87b040d4dd85",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "license": "other-oa",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/I34352273",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1145/3451219",
+          "landing_page_url": "https://doi.org/10.1145/3451219",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310319798",
+          "source": "openalex"
+        },
+        {
+          "url": "https://cris.maastrichtuniversity.nl/en/publications/f3bf7f53-879f-4dad-967c-87b040d4dd85",
+          "landing_page_url": "https://cris.maastrichtuniversity.nl/en/publications/f3bf7f53-879f-4dad-967c-87b040d4dd85",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "license": "other-oa",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I34352273",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://cris.maastrichtuniversity.nl/en/publications/f3bf7f53-879f-4dad-967c-87b040d4dd85",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Biomedical Text Mining and Ontologies",
+          "scheme": "openalex_topic",
+          "score": 0.9997000098228455,
+          "source": "openalex"
+        },
+        {
+          "value": "Topic Modeling",
+          "scheme": "openalex_topic",
+          "score": 0.9976000189781189,
+          "source": "openalex"
+        },
+        {
+          "value": "Semantic Web and Ontologies",
+          "scheme": "openalex_topic",
+          "score": 0.9918000102043152,
+          "source": "openalex"
+        },
+        {
+          "value": "Metadata",
+          "scheme": "openalex_concept",
+          "score": 0.9209285974502563,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.8846884965896606,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Convolutional neural network",
+          "scheme": "openalex_concept",
+          "score": 0.7028653621673584,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Ontology",
+          "scheme": "openalex_concept",
+          "score": 0.6698047518730164,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Information retrieval",
+          "scheme": "openalex_concept",
+          "score": 0.5297703742980957,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Hierarchy",
+          "scheme": "openalex_concept",
+          "score": 0.475740909576416,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Data element",
+          "scheme": "openalex_concept",
+          "score": 0.4506911039352417,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Key (lock)",
+          "scheme": "openalex_concept",
+          "score": 0.4205649793148041,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Data mining",
+          "scheme": "openalex_concept",
+          "score": 0.3703550696372986,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Artificial intelligence",
+          "scheme": "openalex_concept",
+          "score": 0.3062875270843506,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "World Wide Web",
+          "scheme": "openalex_concept",
+          "score": 0.22805726528167725,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Philosophy",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Epistemology",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Economics",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer security",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Market economy",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Metadata",
+        "Computer science",
+        "Convolutional neural network",
+        "Ontology",
+        "Information retrieval",
+        "Hierarchy",
+        "Data element",
+        "Key (lock)",
+        "Data mining",
+        "Artificial intelligence",
+        "World Wide Web"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 0.19506485,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.48936504,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1145/3451219",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "Experience: Automated Prediction of Experimental Metadata from Scientific Publications",
+      "publication_date": "2021-08-12",
+      "publication_year": 2021,
+      "work_type": "journal-article",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "container_title": "Journal of Data and Information Quality",
+      "issn": [
+        "1936-1955",
+        "1936-1963"
+      ],
+      "doi": "10.1145/3451219",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_locations": [
+        {
+          "url": "https://cris.maastrichtuniversity.nl/en/publications/f3bf7f53-879f-4dad-967c-87b040d4dd85",
+          "landing_page_url": "https://cris.maastrichtuniversity.nl/en/publications/f3bf7f53-879f-4dad-967c-87b040d4dd85",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "license": "other-oa",
+          "evidence": "deprecated",
+          "is_best": true,
+          "repository_institution": "Maastricht University",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://cris.maastrichtuniversity.nl/en/publications/f3bf7f53-879f-4dad-967c-87b040d4dd85",
+          "landing_page_url": "https://cris.maastrichtuniversity.nl/en/publications/f3bf7f53-879f-4dad-967c-87b040d4dd85",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "license": "other-oa",
+          "evidence": "deprecated",
+          "is_best": true,
+          "repository_institution": "Maastricht University",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://cris.maastrichtuniversity.nl/en/publications/f3bf7f53-879f-4dad-967c-87b040d4dd85",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1145/3451219",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1145/3451219",
+      "pmid": "19683066",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1145/3451219",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1145/3451219",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1145/3451219",
+      "authors": [
+        {
+          "name": {
+            "given": "Amrapali",
+            "family": "Zaveri",
+            "full_name": "Amrapali Zaveri",
+            "orcid": "0000-0003-3239-4588",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0003-3239-4588",
+          "given_names": "Amrapali",
+          "family_names": "Zaveri",
+          "credit_name": "Amrapali Zaveri",
+          "other_names": [],
+          "institutions": [
+            "Maastricht University",
+            "Stanford University"
+          ],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1145/3451219",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1145/3451219",
+    "pmid": "19683066",
+    "openalex_id": "https://openalex.org/W3194255790",
+    "handles": [],
+    "orcids": [
+      "0000-0003-1415-4812",
+      "0000-0003-3239-4588",
+      "0000-0003-4727-9435"
+    ],
+    "ror_ids": [
+      "https://ror.org/02jz4aj89"
+    ],
+    "grant_ids": [],
+    "nct_ids": [],
+    "pmid_source": "nih_reporter"
+  },
+  "conflicts": {
+    "doi": "10.1145/3451219",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 1,
+          "openalex": 2
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 20,
+          "openalex": 13
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 4,
+          "openalex": 4,
+          "unpaywall": 4,
+          "orcid": 1
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Association for Computing Machinery (ACM)",
+          "openalex": "https://openalex.org/P4310319798",
+          "unpaywall": "Association for Computing Machinery (ACM)"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 3,
+    "conflict_count": 5
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1145/3451219",
+    "fetched_at": "2026-02-11T18:44:06.365016+00:00"
+  }
+}

@@ -1,0 +1,4929 @@
+{
+  "doi": "10.1038/s41467-021-21246-9",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T15:58:59.684658Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "Inference and analysis of cell-cell communication using CellChat",
+      "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Understanding global communications among cells requires accurate representation of cell-cell signaling links and effective systems-level analyses of those links. We construct a database of interactions among ligands, receptors and their cofactors that accurately represent known heteromeric molecular complexes. We then develop CellChat, a tool that is able to quantitatively infer and analyze intercellular communication networks from single-cell RNA-sequencing (scRNA-seq) data. CellChat predicts major signaling inputs and outputs for cells and how those cells and signals coordinate for functions using network analysis and pattern recognition approaches. Through manifold learning and quantitative contrasts, CellChat classifies signaling pathways and delineates conserved and context-specific pathways across different datasets. Applying CellChat to mouse and human skin datasets shows its ability to extract complex signaling patterns. Our versatile and easy-to-use toolkit CellChat and a web-based Explorer (\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://www.cellchat.org/\">http://www.cellchat.org/</jats:ext-link>\n                    ) will help discover novel intercellular communications and build cell-cell communication atlases in diverse tissues.\n                  </jats:p>",
+      "publication_date": "2021-02-17",
+      "publication_year": 2021,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Springer Science and Business Media LLC",
+      "container_title": "Nature Communications",
+      "volume": "12",
+      "issue": "1",
+      "pages": "1088",
+      "issn": [
+        "2041-1723"
+      ],
+      "doi": "10.1038/s41467-021-21246-9",
+      "authors": [
+        {
+          "name": {
+            "given": "Suoqin",
+            "family": "Jin",
+            "full_name": "Suoqin Jin",
+            "sequence": "first",
+            "orcid": "0000-0002-5131-0215",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Christian F.",
+            "family": "Guerrero-Juarez",
+            "full_name": "Christian F. Guerrero-Juarez",
+            "sequence": "additional",
+            "orcid": "0000-0002-6245-6412",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Lihua",
+            "family": "Zhang",
+            "full_name": "Lihua Zhang",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ivan",
+            "family": "Chang",
+            "full_name": "Ivan Chang",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Raul",
+            "family": "Ramos",
+            "full_name": "Raul Ramos",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Chen-Hsiang",
+            "family": "Kuan",
+            "full_name": "Chen-Hsiang Kuan",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Peggy",
+            "family": "Myung",
+            "full_name": "Peggy Myung",
+            "sequence": "additional",
+            "orcid": "0000-0002-2970-4170",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Maksim V.",
+            "family": "Plikus",
+            "full_name": "Maksim V. Plikus",
+            "sequence": "additional",
+            "orcid": "0000-0002-8845-2559",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Qing",
+            "family": "Nie",
+            "full_name": "Qing Nie",
+            "sequence": "additional",
+            "orcid": "0000-0002-8804-3368",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 6246,
+      "reference_count": 96,
+      "references": [
+        {
+          "doi": "10.1126/science.aan6828",
+          "year": 2017,
+          "author": "MJT Stubbington",
+          "unstructured": "Stubbington, M. J. T., Rozenblatt-Rosen, O., Regev, A. & Teichmann, S. A. Single-cell transcriptomics to explore the immune system in health and disease. Science 358, 58\u201363 (2017).",
+          "key": "21246_CR1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41586-018-0698-6",
+          "year": 2018,
+          "author": "R Vento-Tormo",
+          "unstructured": "Vento-Tormo, R. et al. Single-cell reconstruction of the early maternal-fetal interface in humans. Nature 563, 347\u2013353 (2018).",
+          "key": "21246_CR2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41587-020-0442-2",
+          "year": 2020,
+          "author": "A Giladi",
+          "unstructured": "Giladi, A. et al. Dissecting cellular crosstalk by sequencing physically interacting cells. Nat. Biotechnol. 38, 629\u2013637 (2020).",
+          "key": "21246_CR3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s13059-017-1218-y",
+          "year": 2017,
+          "author": "GC Yuan",
+          "unstructured": "Yuan, G. C. et al. Challenges and emerging directions in single-cell analysis. Genome Biol. 18, 84 (2017).",
+          "key": "21246_CR4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/bty058",
+          "year": 2018,
+          "author": "S Jin",
+          "unstructured": "Jin, S., MacLean, A. L., Peng, T. & Nie, Q. scEpath: energy landscape-based inference of transition probabilities and cellular trajectories from single-cell transcriptomic data. Bioinformatics 34, 2077\u20132086 (2018).",
+          "key": "21246_CR5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/s13238-020-00727-5",
+          "year": 2020,
+          "author": "X Shao",
+          "unstructured": "Shao, X., Lu, X. Y., Liao, J., Chen, H. J. & Fan, X. H. New avenues for systematically inferring cell-cell communication: through single-cell transcriptomics data. Protein Cell 11, 866\u2013880 (2020).",
+          "key": "21246_CR6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41576-020-00292-x",
+          "year": 2021,
+          "author": "E Armingol",
+          "unstructured": "Armingol, E., Officer, A., Harismendy, O. & Lewis, N. E. Deciphering cell-cell interactions and communication from gene expression. Nat. Rev. Genet. 22, 71\u201388 (2021).",
+          "key": "21246_CR7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.celrep.2018.10.047",
+          "year": 2018,
+          "author": "MP Kumar",
+          "unstructured": "Kumar, M. P. et al. Analysis of single-cell RNA-seq identifies cell-cell communication associated with tumor characteristics. Cell Rep. 25, 1458\u20131468 e1454 (2018).",
+          "key": "21246_CR8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2020,
+          "author": "S Cabello-Aguilar",
+          "unstructured": "Cabello-Aguilar, S. et al. SingleCellSignalR: inference of intercellular networks from single-cell transcriptomics. Nucleic Acids Res. pii, gkaa183 (2020).",
+          "key": "21246_CR9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/507871",
+          "unstructured": "Wang, Y. et al. iTALK: an R Package to Characterize and Illustrate Intercellular Communication. Preprint at bioRxiv 507871 (2019).",
+          "key": "21246_CR10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1126/sciadv.aaw3851",
+          "year": 2019,
+          "author": "MSB Raredon",
+          "unstructured": "Raredon, M. S. B. et al. Single-cell connectomic analysis of adult mammalian lungs. Sci. Adv. 5, eaaw3851 (2019).",
+          "key": "21246_CR11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkz204",
+          "year": 2019,
+          "author": "S Wang",
+          "unstructured": "Wang, S., Karikomi, M., MacLean, A. L. & Nie, Q. Cell lineage and communication network inference via optimization for single-cell transcriptomics. Nucleic Acids Res. 47, e66 (2019).",
+          "key": "21246_CR12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41592-019-0667-5",
+          "year": 2020,
+          "author": "R Browaeys",
+          "unstructured": "Browaeys, R., Saelens, W. & Saeys, Y. NicheNet: modeling intercellular communication by linking ligands to target genes. Nat. Methods 17, 159\u2013162 (2020).",
+          "key": "21246_CR13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41422-020-0353-2",
+          "year": 2020,
+          "author": "X Ren",
+          "unstructured": "Ren, X. et al. Reconstruction of cell spatial organization based on ligand-receptor mediated self-assembly. Cell Res. 30, 763\u2013778 (2020).",
+          "key": "21246_CR14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1126/scisignal.aav5183",
+          "year": 2019,
+          "author": "R Derynck",
+          "unstructured": "Derynck, R. & Budi, E. H. Specificity, versatility, and control of TGF-beta family signaling. Sci. Signal. 12, eaav5183 (2019).",
+          "key": "21246_CR15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41596-020-0292-x",
+          "year": 2020,
+          "author": "M Efremova",
+          "unstructured": "Efremova, M., Vento-Tormo, M., Teichmann, S. A. & Vento-Tormo, R. CellPhoneDB: inferring cell\u2013cell communication from combined expression of multi-subunit ligand\u2013receptor complexes. Nat. Protoc. 15, 1484\u20131506 (2020).",
+          "key": "21246_CR16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "M\u00e1rio Cordeiro, R. P. S. Pavel Brazdil and Jo\u00e3o Gama in Social Media and Journalism-Trends, Connections, Implications (Intech Open, London, UK; 2018).",
+          "key": "21246_CR17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/44565",
+          "year": 1999,
+          "author": "DD Lee",
+          "unstructured": "Lee, D. D. & Seung, H. S. Learning the parts of objects by non-negative matrix factorization. Nature 401, 788\u2013791 (1999).",
+          "key": "21246_CR18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/TFUZZ.2019.2928518",
+          "year": 2020,
+          "author": "L Zhang",
+          "unstructured": "Zhang, L. & Zhang, S. A general joint matrix factorization framework for data integration and its systematic algorithmic exploration. IEEE T Fuzzy Syst. 28, 1971\u20131983 (2020).",
+          "key": "21246_CR19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.coisb.2017.12.008",
+          "year": 2018,
+          "author": "KR Moon",
+          "unstructured": "Moon, K. R. et al. Manifold learning-based methods for analyzing single-cell RNA-sequencing data. Curr. Opin. Syst. Biol. 7, 36\u201346 (2018).",
+          "key": "21246_CR20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkw1092",
+          "year": 2017,
+          "author": "M Kanehisa",
+          "unstructured": "Kanehisa, M., Furumichi, M., Tanabe, M., Sato, Y. & Morishima, K. KEGG: new perspectives on genomes, pathways, diseases and drugs. Nucleic Acids Res. 45, D353\u2013D361 (2017).",
+          "key": "21246_CR21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.devcel.2018.11.032",
+          "year": 2019,
+          "author": "K Gupta",
+          "unstructured": "Gupta, K. et al. Single-cell analysis reveals a hair follicle dermal niche molecular differentiation trajectory that begins prior to morphogenesis. Dev. Cell 48, 17\u201331 e16 (2019).",
+          "key": "21246_CR22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41467-018-08247-x",
+          "year": 2019,
+          "author": "CF Guerrero-Juarez",
+          "unstructured": "Guerrero-Juarez, C. F. et al. Single-cell analysis reveals fibroblast heterogeneity and myeloid-derived adipocyte progenitors in murine skin wounds. Nat. Commun. 10, 650 (2019).",
+          "key": "21246_CR23",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/sj.emboj.7600809",
+          "year": 2005,
+          "author": "T Peters",
+          "unstructured": "Peters, T. et al. Wound-healing defect of CD18(-/-) mice due to a decrease in TGF-beta1 and myofibroblast differentiation. EMBO J. 24, 3400\u20133410 (2005).",
+          "key": "21246_CR24",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1126/science.3041594",
+          "year": 1988,
+          "author": "DA Rappolee",
+          "unstructured": "Rappolee, D. A., Mark, D., Banda, M. J. & Werb, Z. Wound macrophages express TGF-alpha and other growth factors in vivo: analysis by mRNA phenotyping. Science 241, 708\u2013712 (1988).",
+          "key": "21246_CR25",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1242/jcs.107.5.1137",
+          "year": 1994,
+          "author": "M Shah",
+          "unstructured": "Shah, M., Foreman, D. M. & Ferguson, M. W. Neutralising antibody to TGF-beta 1,2 reduces cutaneous scarring in adult rodents. J. Cell Sci. 107, 1137\u20131157 (1994).",
+          "key": "21246_CR26",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1006/jsre.1997.5178",
+          "year": 1997,
+          "author": "L Wu",
+          "unstructured": "Wu, L., Yu, Y. L., Galiano, R. D., Roth, S. I. & Mustoe, T. A. Macrophage colony-stimulating factor accelerates wound healing and upregulates TGF-beta1 mRNA levels through tissue macrophages. J. Surg. Res. 72, 162\u2013169 (1997).",
+          "key": "21246_CR27",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.4049/jimmunol.180.1.569",
+          "year": 2008,
+          "author": "Y Ishida",
+          "unstructured": "Ishida, Y., Gao, J. L. & Murphy, P. M. Chemokine receptor CX3CR1 mediates skin wound healing by promoting macrophage and fibroblast accumulation and function. J. Immunol. 180, 569\u2013579 (2008).",
+          "key": "21246_CR28",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1056/NEJM199411103311907",
+          "year": 1994,
+          "author": "WA Border",
+          "unstructured": "Border, W. A. & Noble, N. A. Transforming growth factor beta in tissue fibrosis. N. Engl. J. Med. 331, 1286\u20131292 (1994).",
+          "key": "21246_CR29",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.stem.2020.07.008",
+          "year": 2020,
+          "author": "S Abbasi",
+          "unstructured": "Abbasi, S. et al. Distinct regulatory programs control the latent regenerative potential of dermal fibroblasts during wound healing. Cell Stem Cell 27, 396\u2013412 e396 (2020).",
+          "key": "21246_CR30",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/exd.13923",
+          "year": 2019,
+          "author": "YS Lee",
+          "unstructured": "Lee, Y. S. et al. STAT3 signalling pathway is implicated in keloid pathogenesis by preliminary transcriptome and open chromatin analyses. Exp. Dermatol. 28, 480\u2013484 (2019).",
+          "key": "21246_CR31",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1074/jbc.RA118.005457",
+          "year": 2018,
+          "author": "Y Feng",
+          "unstructured": "Feng, Y. et al. The signaling protein Wnt5a promotes TGFbeta1-mediated macrophage polarization and kidney fibrosis by inducing the transcriptional regulators Yap/Taz. J. Biol. Chem. 293, 19290\u201319302 (2018).",
+          "key": "21246_CR32",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/s00109-017-1529-1",
+          "year": 2017,
+          "author": "A Abraityte",
+          "unstructured": "Abraityte, A. et al. Wnt5a is elevated in heart failure and affects cardiac fibroblast function. J. Mol. Med. 95, 767\u2013777 (2017).",
+          "key": "21246_CR33",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1165/rcmb.2008-0201OC",
+          "year": 2009,
+          "author": "LJ Vuga",
+          "unstructured": "Vuga, L. J. et al. WNT5A is a regulator of fibroblast proliferation and resistance to apoptosis. Am. J. Respir. Cell Mol. Biol. 41, 583\u2013589 (2009).",
+          "key": "21246_CR34",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/exd.13913",
+          "year": 2019,
+          "author": "N Saxena",
+          "unstructured": "Saxena, N., Mok, K. W. & Rendl, M. An updated classification of hair follicle morphogenesis. Exp. Dermatol 28, 332\u2013344 (2019).",
+          "key": "21246_CR35",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.devcel.2018.11.034",
+          "year": 2019,
+          "author": "KW Mok",
+          "unstructured": "Mok, K. W. et al. Dermal condensate niche fate specification occurs prior to formation and is placode progenitor dependent. Dev. Cell 48, 32\u201348 e35 (2019).",
+          "key": "21246_CR36",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pbio.2002117",
+          "year": 2017,
+          "author": "JD Glover",
+          "unstructured": "Glover, J. D. et al. Hierarchical patterning modes orchestrate hair follicle morphogenesis. PLoS Biol. 15, e2002117 (2017).",
+          "key": "21246_CR37",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.ydbio.2013.11.023",
+          "year": 2014,
+          "author": "SY Tsai",
+          "unstructured": "Tsai, S. Y. et al. Wnt/beta-catenin signaling in dermal condensates is required for hair follicle formation. Dev. Biol. 385, 179\u2013188 (2014).",
+          "key": "21246_CR38",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/jid.2012.407",
+          "year": 2013,
+          "author": "J Fu",
+          "unstructured": "Fu, J. & Hsu, W. Epidermal Wnt controls hair follicle induction by orchestrating dynamic signaling crosstalk between the epidermis and dermis. J. Invest. Dermatol. 133, 890\u2013898 (2013).",
+          "key": "21246_CR39",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1242/dev.076463",
+          "year": 2012,
+          "author": "D Chen",
+          "unstructured": "Chen, D., Jarrell, A., Guo, C., Lang, R. & Atit, R. Dermal beta-catenin activity in response to epidermal Wnt ligands is required for fibroblast proliferation and hair follicle initiation. Development 139, 1522\u20131533 (2012).",
+          "key": "21246_CR40",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S1534-5807(02)00167-3",
+          "year": 2002,
+          "author": "T Andl",
+          "unstructured": "Andl, T., Reddy, S. T., Gaddapara, T. & Millar, S. E. WNT signals are required for the initiation of hair follicle development. Dev. Cell 2, 643\u2013653 (2002).",
+          "key": "21246_CR41",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.7554/eLife.36468",
+          "year": 2018,
+          "author": "LC Biggs",
+          "unstructured": "Biggs, L. C. et al. Hair follicle dermal condensation forms via Fgf20 primed cell cycle exit, cell motility, and aggregation. Elife 7, e36468 (2018).",
+          "key": "21246_CR42",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/gad.198945.112",
+          "year": 2013,
+          "author": "SH Huh",
+          "unstructured": "Huh, S. H. et al. Fgf20 governs formation of primary and secondary dermal condensations in developing hair follicles. Genes Dev. 27, 450\u2013458 (2013).",
+          "key": "21246_CR43",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pbio.0030011",
+          "year": 2005,
+          "author": "C Jamora",
+          "unstructured": "Jamora, C. et al. A signaling pathway involving TGF-beta2 and snail in hair follicle morphogenesis. PLoS Biol. 3, e11 (2005).",
+          "key": "21246_CR44",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1006/dbio.1999.9325",
+          "year": 1999,
+          "author": "K Foitzik",
+          "unstructured": "Foitzik, K., Paus, R., Doetschman, T. & Dotto, G. P. The TGF-beta2 isoform is both a required and sufficient inducer of murine hair follicle morphogenesis. Dev. Biol. 212, 278\u2013289 (1999).",
+          "key": "21246_CR45",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.4049/jimmunol.0804384",
+          "year": 2009,
+          "author": "S Scutera",
+          "unstructured": "Scutera, S. et al. Survival and migration of human dendritic cells are regulated by an IFN-alpha-inducible Axl/Gas6 pathway. J. Immunol. 183, 3004\u20133013 (2009).",
+          "key": "21246_CR46",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41467-020-17415-x",
+          "year": 2020,
+          "author": "A Abu-Thuraia",
+          "unstructured": "Abu-Thuraia, A. et al. AXL confers cell migration and invasion by hijacking a PEAK1-regulated focal adhesion protein network. Nat. Commun. 11, 3586 (2020).",
+          "key": "21246_CR47",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.neo.2018.09.008",
+          "year": 2019,
+          "author": "CC Tieche",
+          "unstructured": "Tieche, C. C. et al. Tumor initiation capacity and therapy resistance are differential features of EMT-related subpopulations in the NSCLC Cell Line A549. Neoplasia 21, 185\u2013196 (2019).",
+          "key": "21246_CR48",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/s13277-016-5112-0",
+          "year": 2016,
+          "author": "A Kumar",
+          "unstructured": "Kumar, A., Bhanja, A., Bhattacharyya, J. & Jaganathan, B. G. Multiple roles of CD90 in cancer. Tumour Biol. 37, 11611\u201311622 (2016).",
+          "key": "21246_CR49",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.yexcr.2006.07.029",
+          "year": 2006,
+          "author": "TA Rege",
+          "unstructured": "Rege, T. A. et al. Thy-1, via its GPI anchor, modulates Src family kinase and focal adhesion kinase phosphorylation and subcellular localization, and fibroblast migration, in response to thrombospondin-1/hep I. Exp. Cell Res. 312, 3752\u20133767 (2006).",
+          "key": "21246_CR50",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.18632/oncotarget.7947",
+          "year": 2016,
+          "author": "A Meshcheryakova",
+          "unstructured": "Meshcheryakova, A. et al. Exploring the role of sphingolipid machinery during the epithelial to mesenchymal transition program using an integrative approach. Oncotarget 7, 22295\u201322323 (2016).",
+          "key": "21246_CR51",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1046/j.1523-1747.2003.12176.x",
+          "year": 2003,
+          "author": "NV Botchkareva",
+          "unstructured": "Botchkareva, N. V., Botchkarev, V. A. & Gilchrest, B. A. Fate of melanocytes during development of the hair follicle pigmentary unit. J. Investig. Dermatol Symp. Proc. 8, 76\u201379 (2003).",
+          "key": "21246_CR52",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/sj.jid.5700948",
+          "year": 2008,
+          "author": "RJ Garcia",
+          "unstructured": "Garcia, R. J. et al. Endothelin 3 induces skin pigmentation in a keratin-driven inducible mouse model. J. Invest Dermatol 128, 131\u2013142 (2008).",
+          "key": "21246_CR53",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.tcb.2018.05.002",
+          "year": 2018,
+          "author": "E Rognoni",
+          "unstructured": "Rognoni, E. & Watt, F. M. Skin cell heterogeneity in development, wound healing, and cancer. Trends Cell Biol. 28, 709\u2013722 (2018).",
+          "key": "21246_CR54",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/dvdy.21099",
+          "year": 2007,
+          "author": "H Bazzi",
+          "unstructured": "Bazzi, H., Fantauzzo, K. A., Richardson, G. D., Jahoda, C. A. & Christiano, A. M. Transcriptional profiling of developing mouse epidermis reveals novel patterns of coordinated gene expression. Dev. Dyn. 236, 961\u2013970 (2007).",
+          "key": "21246_CR55",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1242/dev.120.9.2369",
+          "year": 1994,
+          "author": "C Byrne",
+          "unstructured": "Byrne, C., Tainsky, M. & Fuchs, E. Programming gene expression in developing epidermis. Development 120, 2369\u20132383 (1994).",
+          "key": "21246_CR56",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.ydbio.2012.10.024",
+          "year": 2013,
+          "author": "A Mukhopadhyay",
+          "unstructured": "Mukhopadhyay, A. et al. Negative regulation of Shh levels by Kras and Fgfr2 during hair follicle development. Dev. Biol. 373, 373\u2013382 (2013).",
+          "key": "21246_CR57",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1242/dev.031427",
+          "year": 2009,
+          "author": "GD Richardson",
+          "unstructured": "Richardson, G. D. et al. KGF and EGF signalling block hair follicle induction and promote interfollicular epidermal fate in developing mouse skin. Development 136, 2153\u20132164 (2009).",
+          "key": "21246_CR58",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1242/dev.00788",
+          "year": 2003,
+          "author": "A Petiot",
+          "unstructured": "Petiot, A. et al. A crucial role for Fgfr2-IIIb signalling in epidermal development and hair follicle patterning. Development 130, 5493\u20135501 (2003).",
+          "key": "21246_CR59",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/0022-202X(93)90509-G",
+          "year": 1993,
+          "author": "DL du Cros",
+          "unstructured": "du Cros, D. L. Fibroblast growth factor and epidermal growth factor in hair development. J. Invest. Dermatol. 101, 106S\u2013113S (1993).",
+          "key": "21246_CR60",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/j.1600-0625.2009.00926.x",
+          "year": 2009,
+          "author": "F Buback",
+          "unstructured": "Buback, F., Renkl, A. C., Schulz, G. & Weiss, J. M. Osteopontin and the skin: multiple emerging roles in cutaneous biology and pathology. Exp. Dermatol. 18, 750\u2013759 (2009).",
+          "key": "21246_CR61",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1084/jem.20071412",
+          "year": 2008,
+          "author": "R Mori",
+          "unstructured": "Mori, R., Shaw, T. J. & Martin, P. Molecular mechanisms linking wound inflammation and fibrosis: knockdown of osteopontin leads to rapid repair and reduced scarring. J. Exp. Med. 205, 43\u201351 (2008).",
+          "key": "21246_CR62",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1172/JCI2131",
+          "year": 1998,
+          "author": "L Liaw",
+          "unstructured": "Liaw, L. et al. Altered wound healing in mice lacking a functional osteopontin gene (spp1). J. Clin. Invest. 101, 1468\u20131478 (1998).",
+          "key": "21246_CR63",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/j.1600-0625.2010.01194.x",
+          "year": 2011,
+          "author": "SC Gilliver",
+          "unstructured": "Gilliver, S. C., Emmerson, E., Bernhagen, J. & Hardman, M. J. MIF: a key player in cutaneous biology and wound healing. Exp. Dermatol. 20, 1\u20136 (2011).",
+          "key": "21246_CR64",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1172/JCI16288",
+          "year": 2003,
+          "author": "GS Ashcroft",
+          "unstructured": "Ashcroft, G. S. et al. Estrogen modulates cutaneous wound healing by downregulating macrophage migration inhibitory factor. J. Clin. Invest. 111, 1309\u20131318 (2003).",
+          "key": "21246_CR65",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/BF02918343",
+          "year": 1982,
+          "author": "A Danchin",
+          "unstructured": "Danchin, A. The specification of the immune response revisited. Surv. Immunol. Res. 1, 173\u2013183 (1982).",
+          "key": "21246_CR66",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.2337/db12-1450",
+          "year": 2013,
+          "author": "RE Mirza",
+          "unstructured": "Mirza, R. E., Fang, M. M., Ennis, W. J. & Koh, T. J. Blocking interleukin-1beta induces a healing-associated wound macrophage phenotype and improves healing in type 2 diabetes. Diabetes 62, 2579\u20132587 (2013).",
+          "key": "21246_CR67",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.2353/ajpath.2009.080765",
+          "year": 2009,
+          "author": "AA Thomay",
+          "unstructured": "Thomay, A. A. et al. Disruption of interleukin-1 signaling improves the quality of wound healing. Am. J. Pathol. 174, 2129\u20132136 (2009).",
+          "key": "21246_CR68",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1990,
+          "author": "DN Sauder",
+          "unstructured": "Sauder, D. N. et al. Interleukin-1 enhances epidermal wound healing. Lymphokine Res. 9, 465\u2013473 (1990).",
+          "key": "21246_CR69",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jaci.2020.01.042",
+          "year": 2020,
+          "author": "H He",
+          "unstructured": "He, H. et al. Single-cell transcriptome analysis of human skin identifies novel fibroblast subpopulation and enrichment of immune subsets in atopic dermatitis. J. Allergy Clin. Immunol. 145, 1615\u20131628 (2020).",
+          "key": "21246_CR70",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bib/bbaa269",
+          "unstructured": "Shao, X. et al. CellTalkDB: a manually curated database of ligand-receptor interactions in humans and mice. Brief Bioinform. https://doi.org/10.1093/bib/bbaa269 (2020).",
+          "key": "21246_CR71",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/ncomms8866",
+          "year": 2015,
+          "author": "JA Ramilowski",
+          "unstructured": "Ramilowski, J. A. et al. A draft network of ligand-receptor-mediated multicellular signalling in human. Nat. Commun. 6, 7866 (2015).",
+          "key": "21246_CR72",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/2020.03.05.976878",
+          "unstructured": "No\u00ebl, F. et al. ICELLNET: a transcriptome-based framework to dissect intercellular communication. Preprint at bioRxiv 2020.2003.2005.976878 (2020).",
+          "key": "21246_CR73",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nprot.2009.97",
+          "year": 2009,
+          "author": "S Durinck",
+          "unstructured": "Durinck, S., Spellman, P. T., Birney, E. & Huber, W. Mapping identifiers for the integration of genomic datasets with the R/Bioconductor package biomaRt. Nat. Protoc. 4, 1184\u20131191 (2009).",
+          "key": "21246_CR74",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nmeth.2967",
+          "year": 2014,
+          "author": "PV Kharchenko",
+          "unstructured": "Kharchenko, P. V., Silberstein, L. & Scadden, D. T. Bayesian approach to single-cell differential expression analysis. Nat. Methods 11, 740\u2013742 (2014).",
+          "key": "21246_CR75",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/TCBB.2018.2848633",
+          "year": 2020,
+          "author": "L Zhang",
+          "unstructured": "Zhang, L. & Zhang, S. Comparison of computational methods for imputing single-cell RNA-sequencing data. IEEE/ACM Trans. Comput Biol. Bioinform. 17, 376\u2013389 (2020).",
+          "key": "21246_CR76",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41592-019-0540-6",
+          "year": 2019,
+          "author": "V Marx",
+          "unstructured": "Marx, V. A dream of single-cell proteomics. Nat. Methods 16, 809\u2013812 (2019).",
+          "key": "21246_CR77",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41576-019-0129-z",
+          "year": 2019,
+          "author": "DJ Burgess",
+          "unstructured": "Burgess, D. J. Spatial transcriptomics coming of age. Nat. Rev. Genet. 20, 317\u2013317 (2019).",
+          "key": "21246_CR78",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Dries, R. et al. Giotto, a pipeline for integrative analysis and visualization of single-cell spatial transcriptomic data. Preprint at bioRxiv 701680 (2019).",
+          "key": "21246_CR79",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41467-020-15968-5",
+          "year": 2020,
+          "author": "Z Cang",
+          "unstructured": "Cang, Z. & Nie, Q. Inferring spatial and signaling relationships between cells from single cell transcriptomic data. Nat. Commun. 11, 2084 (2020).",
+          "key": "21246_CR80",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41576-019-0093-7",
+          "year": 2019,
+          "author": "T Stuart",
+          "unstructured": "Stuart, T. & Satija, R. Integrative single-cell analysis. Nat. Rev. Genet. 20, 257\u2013272 (2019).",
+          "key": "21246_CR81",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s13059-020-1932-8",
+          "year": 2020,
+          "author": "S Jin",
+          "unstructured": "Jin, S., Zhang, L. & Nie, Q. scAI: an unsupervised approach for the integrative analysis of parallel single-cell transcriptomic and epigenomic profiles. Genome Biol. 21, 25 (2020).",
+          "key": "21246_CR82",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nrg.2017.38",
+          "year": 2017,
+          "author": "L Cowen",
+          "unstructured": "Cowen, L., Ideker, T., Raphael, B. J. & Sharan, R. Network propagation: a universal amplifier of genetic associations. Nat. Rev. Genet. 18, 551\u2013562 (2017).",
+          "key": "21246_CR83",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.12688/f1000research.13511.3",
+          "year": 2018,
+          "author": "J Ronen",
+          "unstructured": "Ronen, J. & Akalin, A. netSmooth: Network-smoothing based imputation for single cell RNA-seq. F1000Res 7, 8\u20138 (2018).",
+          "key": "21246_CR84",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gky1131",
+          "year": 2019,
+          "author": "D Szklarczyk",
+          "unstructured": "Szklarczyk, D. et al. STRING v11: protein-protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets. Nucleic Acids Res. 47, D607\u2013D613 (2019).",
+          "key": "21246_CR85",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/cshperspect.a021923",
+          "year": 2016,
+          "author": "C Chang",
+          "unstructured": "Chang, C. Agonists and antagonists of TGF-beta family ligands. Cold Spring Harb. Perspect. Biol. 8, a021923 (2016).",
+          "key": "21246_CR86",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.18637/jss.v024.i06",
+          "unstructured": "Butts, C. T. Social network analysis with sna. J. Stat. Softw. 1, 1\u201351 (2008).",
+          "key": "21246_CR87",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/s12599-010-0127-3",
+          "year": 2010,
+          "author": "A Landherr",
+          "unstructured": "Landherr, A., Friedl, B. & Heidemann, J. A critical review of centrality measures in social networks. Bus. Inf. Syst. Eng. 2, 371\u2013385 (2010).",
+          "key": "21246_CR88",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkz488",
+          "year": 2019,
+          "author": "L Zhang",
+          "unstructured": "Zhang, L. & Zhang, S. Learning common and specific patterns from data of multiple interrelated biological scenarios with matrix factorization. Nucleic Acids Res. 47, 6606\u20136617 (2019).",
+          "key": "21246_CR89",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-11-367",
+          "year": 2010,
+          "author": "R Gaujoux",
+          "unstructured": "Gaujoux, R. & Seoighe, C. A flexible R package for nonnegative matrix factorization. BMC Bioinform. 11, 367 (2010).",
+          "key": "21246_CR90",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/ncomms13928",
+          "year": 2017,
+          "author": "TA Schieber",
+          "unstructured": "Schieber, T. A. et al. Quantification of network structural dissimilarities. Nat. Commun. 8, 13928 (2017).",
+          "key": "21246_CR91",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2018,
+          "author": "JohnHealy Leland McInnes",
+          "unstructured": "Leland McInnes, JohnHealy & Melville, J. UMAP: uniform manifold approximation and projection for dimension reduction. arXiv 1802, 03426 (2018).",
+          "key": "21246_CR92",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/s11222-006-9001-z",
+          "year": 2007,
+          "author": "UvA Luxburg",
+          "unstructured": "Luxburg, Uv. A. Tutorial on spectral clustering. Stat. Comput. 17, 1\u201332 (2007).",
+          "key": "21246_CR93",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1088/1742-5468/2008/10/P10008",
+          "year": 2008,
+          "author": "VD Blondel",
+          "unstructured": "Blondel, V. D., Guillaume, J.-L., Lambiotte, R. & Lefebvre, E. Fast unfolding of communities in large networks. J. Stat. Mech. 2008, P10008 (2008).",
+          "key": "21246_CR94",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.7150/thno.44306",
+          "year": 2020,
+          "author": "W Ge",
+          "unstructured": "Ge, W. et al. Single-cell transcriptome profiling reveals dermal and epithelium cell fate decisions during embryonic hair follicle development. Theranostics 10, 7581\u20137598 (2020).",
+          "key": "21246_CR95",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.cels.2019.05.003",
+          "year": 2019,
+          "author": "B Hie",
+          "unstructured": "Hie, B., Cho, H., DeMeo, B., Bryson, B. & Berger, B. Geometric sketching compactly summarizes the single-cell transcriptomic landscape. Cell Syst. 8, 483\u2013493 e487 (2019).",
+          "key": "21246_CR96",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://www.nature.com/articles/s41467-021-21246-9.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41467-021-21246-9",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41467-021-21246-9.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [
+        {
+          "name": "National Science Foundation",
+          "doi": "10.13039/100000001",
+          "award_numbers": [
+            "DMS1763272"
+          ],
+          "source": "crossref"
+        }
+      ],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "https://creativecommons.org/licenses/by/4.0",
+          "content_version": "tdm",
+          "delay_in_days": 0,
+          "source": "crossref"
+        },
+        {
+          "url": "https://creativecommons.org/licenses/by/4.0",
+          "content_version": "vor",
+          "delay_in_days": 0,
+          "source": "crossref"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [
+        {
+          "value": "24 April 2020",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "8 January 2021",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "17 February 2021",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "The authors declare no competing interests.",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1038/s41467-021-21246-9",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "Inference and analysis of cell-cell communication using CellChat",
+      "publication_date": "2021-02-17",
+      "publication_year": 2021,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310319908",
+      "container_title": "Nature Communications",
+      "volume": "12",
+      "issue": "1",
+      "pages": "1088-1088",
+      "issn": [
+        "2041-1723"
+      ],
+      "doi": "10.1038/s41467-021-21246-9",
+      "pmid": "33597522",
+      "openalex_id": "https://openalex.org/W3132661792",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Suoqin Jin",
+            "orcid": "0000-0002-5131-0215",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of California, Irvine",
+              "ror_id": "https://ror.org/04gyf1771",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5042426564",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Christian F. Guerrero\u2010Juarez",
+            "orcid": "0000-0002-6245-6412",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of California, Irvine",
+              "ror_id": "https://ror.org/04gyf1771",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5037405025",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Lihua Zhang",
+            "orcid": "0000-0001-7841-5562",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of California, Irvine",
+              "ror_id": "https://ror.org/04gyf1771",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5100414892",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ivan Chang",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of California, Irvine",
+              "ror_id": "https://ror.org/04gyf1771",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5102180264",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ra\u00fal Ramos",
+            "orcid": "0000-0003-0853-1028",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of California, Irvine",
+              "ror_id": "https://ror.org/04gyf1771",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5006874402",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Chen\u2010Hsiang Kuan",
+            "orcid": "0000-0001-5599-7125",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of California, Irvine",
+              "ror_id": "https://ror.org/04gyf1771",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "National Taiwan University",
+              "ror_id": "https://ror.org/05bqach95",
+              "country_code": "TW",
+              "source": "openalex"
+            },
+            {
+              "name": "National Taipei University",
+              "ror_id": "https://ror.org/03e29r284",
+              "country_code": "TW",
+              "source": "openalex"
+            },
+            {
+              "name": "National Taiwan University Hospital",
+              "ror_id": "https://ror.org/03nteze27",
+              "country_code": "TW",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5036545845",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Peggy Myung",
+            "orcid": "0000-0002-2970-4170",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Yale University",
+              "ror_id": "https://ror.org/03v76x132",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5066898189",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Maksim V. Plikus",
+            "orcid": "0000-0002-8845-2559",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of California, Irvine",
+              "ror_id": "https://ror.org/04gyf1771",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5053553128",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Qing Nie",
+            "orcid": "0000-0002-8804-3368",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of California, Irvine",
+              "ror_id": "https://ror.org/04gyf1771",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5076311980",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 7447,
+      "reference_count": 102,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2026": 244,
+        "2025": 2377,
+        "2024": 2662,
+        "2023": 1371,
+        "2022": 627,
+        "2021": 155,
+        "2020": 6,
+        "2019": 1
+      },
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1038/s41467-021-21246-9",
+          "pdf_url": "https://www.nature.com/articles/s41467-021-21246-9.pdf",
+          "landing_page_url": "https://doi.org/10.1038/s41467-021-21246-9",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310319908",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1038/s41467-021-21246-9",
+          "pdf_url": "https://www.nature.com/articles/s41467-021-21246-9.pdf",
+          "landing_page_url": "https://doi.org/10.1038/s41467-021-21246-9",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310319908",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33597522",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/33597522",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doaj.org/article/eac776c8aeed43009b282c2dd2c6db3b",
+          "landing_page_url": "https://doaj.org/article/eac776c8aeed43009b282c2dd2c6db3b",
+          "host_type": "journal",
+          "version": "submittedVersion",
+          "license": "cc-by-sa",
+          "is_best": false,
+          "source": "openalex"
+        },
+        {
+          "url": "https://escholarship.org/uc/item/6wj594qk",
+          "landing_page_url": "https://escholarship.org/uc/item/6wj594qk",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I2801248553",
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7889871",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7889871",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://www.nature.com/articles/s41467-021-21246-9.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "cc-by",
+          "source": "openalex"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Advanced MIMO Systems Optimization",
+          "scheme": "openalex_topic",
+          "score": 0.9979000091552734,
+          "source": "openalex"
+        },
+        {
+          "value": "Cooperative Communication and Network Coding",
+          "scheme": "openalex_topic",
+          "score": 0.9922000169754028,
+          "source": "openalex"
+        },
+        {
+          "value": "Wireless Body Area Networks",
+          "scheme": "openalex_topic",
+          "score": 0.9772999882698059,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.5621187686920166,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Inference",
+          "scheme": "openalex_concept",
+          "score": 0.5233917832374573,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Computational biology",
+          "scheme": "openalex_concept",
+          "score": 0.4771522879600525,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Cell",
+          "scheme": "openalex_concept",
+          "score": 0.44591498374938965,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Biology",
+          "scheme": "openalex_concept",
+          "score": 0.2549324333667755,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Artificial intelligence",
+          "scheme": "openalex_concept",
+          "score": 0.21132206916809082,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Genetics",
+          "scheme": "openalex_concept",
+          "score": 0.16001883149147034,
+          "level": 1,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Animals",
+          "descriptor_ui": "D000818",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Animals",
+          "descriptor_ui": "D000818",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Animals",
+          "descriptor_ui": "D000818",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Animals",
+          "descriptor_ui": "D000818",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Animals",
+          "descriptor_ui": "D000818",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Animals",
+          "descriptor_ui": "D000818",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Animals",
+          "descriptor_ui": "D000818",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Cell Communication",
+          "descriptor_ui": "D002450",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Cell Communication",
+          "descriptor_ui": "D002450",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Cell Communication",
+          "descriptor_ui": "D002450",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Cell Communication",
+          "descriptor_ui": "D002450",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Cell Communication",
+          "descriptor_ui": "D002450",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Cell Communication",
+          "descriptor_ui": "D002450",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Cell Communication",
+          "descriptor_ui": "D002450",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Models, Theoretical",
+          "descriptor_ui": "D008962",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Models, Theoretical",
+          "descriptor_ui": "D008962",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Models, Theoretical",
+          "descriptor_ui": "D008962",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Models, Theoretical",
+          "descriptor_ui": "D008962",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Models, Theoretical",
+          "descriptor_ui": "D008962",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Models, Theoretical",
+          "descriptor_ui": "D008962",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Models, Theoretical",
+          "descriptor_ui": "D008962",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Skin",
+          "descriptor_ui": "D012867",
+          "qualifier_name": "cytology",
+          "qualifier_ui": "Q000166",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Skin",
+          "descriptor_ui": "D012867",
+          "qualifier_name": "cytology",
+          "qualifier_ui": "Q000166",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Skin",
+          "descriptor_ui": "D012867",
+          "qualifier_name": "cytology",
+          "qualifier_ui": "Q000166",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Skin",
+          "descriptor_ui": "D012867",
+          "qualifier_name": "cytology",
+          "qualifier_ui": "Q000166",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Skin",
+          "descriptor_ui": "D012867",
+          "qualifier_name": "cytology",
+          "qualifier_ui": "Q000166",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Skin",
+          "descriptor_ui": "D012867",
+          "qualifier_name": "cytology",
+          "qualifier_ui": "Q000166",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Skin",
+          "descriptor_ui": "D012867",
+          "qualifier_name": "cytology",
+          "qualifier_ui": "Q000166",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Skin",
+          "descriptor_ui": "D012867",
+          "qualifier_name": "embryology",
+          "qualifier_ui": "Q000196",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Skin",
+          "descriptor_ui": "D012867",
+          "qualifier_name": "embryology",
+          "qualifier_ui": "Q000196",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Skin",
+          "descriptor_ui": "D012867",
+          "qualifier_name": "embryology",
+          "qualifier_ui": "Q000196",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Skin",
+          "descriptor_ui": "D012867",
+          "qualifier_name": "embryology",
+          "qualifier_ui": "Q000196",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Skin",
+          "descriptor_ui": "D012867",
+          "qualifier_name": "embryology",
+          "qualifier_ui": "Q000196",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Skin",
+          "descriptor_ui": "D012867",
+          "qualifier_name": "embryology",
+          "qualifier_ui": "Q000196",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Skin",
+          "descriptor_ui": "D012867",
+          "qualifier_name": "embryology",
+          "qualifier_ui": "Q000196",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Skin",
+          "descriptor_ui": "D012867",
+          "qualifier_name": "metabolism",
+          "qualifier_ui": "Q000378",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Skin",
+          "descriptor_ui": "D012867",
+          "qualifier_name": "metabolism",
+          "qualifier_ui": "Q000378",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Skin",
+          "descriptor_ui": "D012867",
+          "qualifier_name": "metabolism",
+          "qualifier_ui": "Q000378",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Skin",
+          "descriptor_ui": "D012867",
+          "qualifier_name": "metabolism",
+          "qualifier_ui": "Q000378",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Skin",
+          "descriptor_ui": "D012867",
+          "qualifier_name": "metabolism",
+          "qualifier_ui": "Q000378",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Skin",
+          "descriptor_ui": "D012867",
+          "qualifier_name": "metabolism",
+          "qualifier_ui": "Q000378",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Skin",
+          "descriptor_ui": "D012867",
+          "qualifier_name": "metabolism",
+          "qualifier_ui": "Q000378",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Signal Transduction",
+          "descriptor_ui": "D015398",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Signal Transduction",
+          "descriptor_ui": "D015398",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Signal Transduction",
+          "descriptor_ui": "D015398",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Signal Transduction",
+          "descriptor_ui": "D015398",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Signal Transduction",
+          "descriptor_ui": "D015398",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Signal Transduction",
+          "descriptor_ui": "D015398",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Signal Transduction",
+          "descriptor_ui": "D015398",
+          "qualifier_name": "genetics",
+          "qualifier_ui": "Q000235",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, RNA",
+          "descriptor_ui": "D017423",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, RNA",
+          "descriptor_ui": "D017423",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, RNA",
+          "descriptor_ui": "D017423",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, RNA",
+          "descriptor_ui": "D017423",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, RNA",
+          "descriptor_ui": "D017423",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, RNA",
+          "descriptor_ui": "D017423",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, RNA",
+          "descriptor_ui": "D017423",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "descriptor_ui": "D019295",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "descriptor_ui": "D019295",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "descriptor_ui": "D019295",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "descriptor_ui": "D019295",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "descriptor_ui": "D019295",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "descriptor_ui": "D019295",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "descriptor_ui": "D019295",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Internet",
+          "descriptor_ui": "D020407",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Internet",
+          "descriptor_ui": "D020407",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Internet",
+          "descriptor_ui": "D020407",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Internet",
+          "descriptor_ui": "D020407",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Internet",
+          "descriptor_ui": "D020407",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Internet",
+          "descriptor_ui": "D020407",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Internet",
+          "descriptor_ui": "D020407",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Gene Expression Profiling",
+          "descriptor_ui": "D020869",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Gene Expression Profiling",
+          "descriptor_ui": "D020869",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Gene Expression Profiling",
+          "descriptor_ui": "D020869",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Gene Expression Profiling",
+          "descriptor_ui": "D020869",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Gene Expression Profiling",
+          "descriptor_ui": "D020869",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Gene Expression Profiling",
+          "descriptor_ui": "D020869",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Gene Expression Profiling",
+          "descriptor_ui": "D020869",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Mice",
+          "descriptor_ui": "D051379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Mice",
+          "descriptor_ui": "D051379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Mice",
+          "descriptor_ui": "D051379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Mice",
+          "descriptor_ui": "D051379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Mice",
+          "descriptor_ui": "D051379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Mice",
+          "descriptor_ui": "D051379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Mice",
+          "descriptor_ui": "D051379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Single-Cell Analysis",
+          "descriptor_ui": "D059010",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Single-Cell Analysis",
+          "descriptor_ui": "D059010",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Single-Cell Analysis",
+          "descriptor_ui": "D059010",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Single-Cell Analysis",
+          "descriptor_ui": "D059010",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Single-Cell Analysis",
+          "descriptor_ui": "D059010",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Single-Cell Analysis",
+          "descriptor_ui": "D059010",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Single-Cell Analysis",
+          "descriptor_ui": "D059010",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        }
+      ],
+      "keywords": [
+        "Computer science",
+        "Inference",
+        "Computational biology",
+        "Cell",
+        "Biology",
+        "Artificial intelligence",
+        "Genetics"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 487.47012592,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 1.0,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 4808.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1038/s41467-021-21246-9",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "Inference and analysis of cell-cell communication using CellChat",
+      "publication_date": "2021-02-17",
+      "publication_year": 2021,
+      "work_type": "journal-article",
+      "publisher": "Springer Science and Business Media LLC",
+      "container_title": "Nature Communications",
+      "issn": [
+        "2041-1723"
+      ],
+      "doi": "10.1038/s41467-021-21246-9",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://www.nature.com/articles/s41467-021-21246-9.pdf",
+          "pdf_url": "https://www.nature.com/articles/s41467-021-21246-9.pdf",
+          "landing_page_url": "https://doi.org/10.1038/s41467-021-21246-9",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41467-021-21246-9.pdf",
+          "pdf_url": "https://www.nature.com/articles/s41467-021-21246-9.pdf",
+          "landing_page_url": "https://doi.org/10.1038/s41467-021-21246-9",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://doaj.org/article/eac776c8aeed43009b282c2dd2c6db3b",
+          "landing_page_url": "https://doaj.org/article/eac776c8aeed43009b282c2dd2c6db3b",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by-sa",
+          "evidence": "deprecated",
+          "is_best": false,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://escholarship.org/uc/item/6wj594qk",
+          "landing_page_url": "https://escholarship.org/uc/item/6wj594qk",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "California Digital Library",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7889871",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7889871",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://www.nature.com/articles/s41467-021-21246-9.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "Inference and analysis of cell-cell communication using CellChat.",
+      "abstract": "Understanding global communications among cells requires accurate representation of cell-cell signaling links and effective systems-level analyses of those links. We construct a database of interactions among ligands, receptors and their cofactors that accurately represent known heteromeric molecular complexes. We then develop CellChat, a tool that is able to quantitatively infer and analyze intercellular communication networks from single-cell RNA-sequencing (scRNA-seq) data. CellChat predicts major signaling inputs and outputs for cells and how those cells and signals coordinate for functions using network analysis and pattern recognition approaches. Through manifold learning and quantitative contrasts, CellChat classifies signaling pathways and delineates conserved and context-specific pathways across different datasets. Applying CellChat to mouse and human skin datasets shows its ability to extract complex signaling patterns. Our versatile and easy-to-use toolkit CellChat and a web-based Explorer ( http://www.cellchat.org/ ) will help discover novel intercellular communications and build cell-cell communication atlases in diverse tissues.",
+      "publication_year": 2021,
+      "language": "eng",
+      "container_title": "Nature communications",
+      "volume": "12",
+      "issue": "1",
+      "pages": "1088",
+      "issn": [],
+      "doi": "10.1038/s41467-021-21246-9",
+      "pmid": "33597522",
+      "pmcid": "PMC7889871",
+      "authors": [
+        {
+          "name": {
+            "given": "Suoqin",
+            "family": "Jin",
+            "full_name": "Jin S",
+            "orcid": "0000-0002-5131-0215",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Mathematics, University of California, Irvine, Irvine, CA, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "NSF-Simons Center for Multiscale Cell Fate Research, University of California, Irvine, Irvine, CA, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Christian F",
+            "family": "Guerrero-Juarez",
+            "full_name": "Guerrero-Juarez CF",
+            "orcid": "0000-0002-6245-6412",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Mathematics, University of California, Irvine, Irvine, CA, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "NSF-Simons Center for Multiscale Cell Fate Research, University of California, Irvine, Irvine, CA, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Department of Developmental and Cell Biology, University of California, Irvine, Irvine, CA, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Sue and Bill Gross Stem Cell Research Center, University of California, Irvine, Irvine, CA, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Lihua",
+            "family": "Zhang",
+            "full_name": "Zhang L",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Mathematics, University of California, Irvine, Irvine, CA, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "NSF-Simons Center for Multiscale Cell Fate Research, University of California, Irvine, Irvine, CA, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ivan",
+            "family": "Chang",
+            "full_name": "Chang I",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Biological Chemistry, University of California, Irvine, Irvine, CA, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Research Cyberinfrastructure Center, University of California, Irvine, Irvine, CA, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Raul",
+            "family": "Ramos",
+            "full_name": "Ramos R",
+            "orcid": "0000-0003-0853-1028",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "NSF-Simons Center for Multiscale Cell Fate Research, University of California, Irvine, Irvine, CA, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Department of Developmental and Cell Biology, University of California, Irvine, Irvine, CA, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Sue and Bill Gross Stem Cell Research Center, University of California, Irvine, Irvine, CA, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Chen-Hsiang",
+            "family": "Kuan",
+            "full_name": "Kuan CH",
+            "orcid": "0000-0001-5599-7125",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Developmental and Cell Biology, University of California, Irvine, Irvine, CA, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Sue and Bill Gross Stem Cell Research Center, University of California, Irvine, Irvine, CA, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Graduate Institute of Clinical Medicine, College of Medicine, National Taiwan University, Taipei, Taiwan.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Division of Plastic Surgery, Department of Surgery, National Taiwan University, Taipei, Taiwan.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Peggy",
+            "family": "Myung",
+            "full_name": "Myung P",
+            "orcid": "0000-0002-2970-4170",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Dermatology, Yale University, New Haven, CT, USA.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Department of Pathology, Yale University, New Haven, CT, USA.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Maksim V",
+            "family": "Plikus",
+            "full_name": "Plikus MV",
+            "orcid": "0000-0002-8845-2559",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "NSF-Simons Center for Multiscale Cell Fate Research, University of California, Irvine, Irvine, CA, USA. plikus@uci.edu.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Department of Developmental and Cell Biology, University of California, Irvine, Irvine, CA, USA. plikus@uci.edu.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Sue and Bill Gross Stem Cell Research Center, University of California, Irvine, Irvine, CA, USA. plikus@uci.edu.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Qing",
+            "family": "Nie",
+            "full_name": "Nie Q",
+            "orcid": "0000-0002-8804-3368",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Mathematics, University of California, Irvine, Irvine, CA, USA. qnie@uci.edu.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "NSF-Simons Center for Multiscale Cell Fate Research, University of California, Irvine, Irvine, CA, USA. qnie@uci.edu.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Department of Developmental and Cell Biology, University of California, Irvine, Irvine, CA, USA. qnie@uci.edu.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 5687,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "url": "https://europepmc.org/articles/PMC7889871",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC7889871?pdf=render",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "LF-OC-20-000611",
+          "agency": "LEO Foundation",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "LF-AW_RAM-19-400008",
+          "agency": "LEO Foundation",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "R01 GM123731",
+          "agency": "NIGMS NIH HHS",
+          "agency_abbreviation": "GM",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "U01 AR073159",
+          "agency": "NIAMS NIH HHS",
+          "agency_abbreviation": "AR",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "DMS1763272",
+          "agency": "National Science Foundation",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "P30 AR075047",
+          "agency": "NIAMS NIH HHS",
+          "agency_abbreviation": "AR",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "agency": "Howard Hughes Medical Institute",
+          "agency_abbreviation": "HHMI",
+          "pi_names": [],
+          "source": "europe_pmc"
+        }
+      ],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Skin",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Skin",
+          "qualifier_name": "cytology",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Skin",
+          "qualifier_name": "embryology",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Skin",
+          "qualifier_name": "metabolism",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Animals",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Humans",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Mice",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Gene Expression Profiling",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Gene Expression Profiling",
+          "qualifier_name": "methods",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, RNA",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, RNA",
+          "qualifier_name": "methods",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Computational Biology",
+          "qualifier_name": "methods",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Cell Communication",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Cell Communication",
+          "qualifier_name": "genetics",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Signal Transduction",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Signal Transduction",
+          "qualifier_name": "genetics",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Models, Theoretical",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Internet",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Software",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Single-Cell Analysis",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Single-Cell Analysis",
+          "qualifier_name": "methods",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 5687.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [
+        "geo"
+      ],
+      "corrections": [
+        {
+          "type": "Preprint in",
+          "id": "PPR190897",
+          "source": "PPR"
+        }
+      ],
+      "full_text_urls": [
+        {
+          "url": "https://doi.org/10.1038/s41467-021-21246-9",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC7889871",
+          "availability": "Open access",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC7889871?pdf=render",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openaire": {
+      "source": "openaire",
+      "found": true,
+      "raw": {},
+      "title": "Inference and analysis of cell-cell communication using CellChat",
+      "abstract": "<jats:title>Abstract</jats:title>                   <jats:p>                     Understanding global communications among cells requires accurate representation of cell-cell signaling links and effective systems-level analyses of those links. We construct a database of interactions among ligands, receptors and their cofactors that accurately represent known heteromeric molecular complexes. We then develop CellChat, a tool that is able to quantitatively infer and analyze intercellular communication networks from single-cell RNA-sequencing (scRNA-seq) data. CellChat predicts major signaling inputs and outputs for cells and how those cells and signals coordinate for functions using network analysis and pattern recognition approaches. Through manifold learning and quantitative contrasts, CellChat classifies signaling pathways and delineates conserved and context-specific pathways across different datasets. Applying CellChat to mouse and human skin datasets shows its ability to extract complex signaling patterns. Our versatile and easy-to-use toolkit CellChat and a web-based Explorer (                     <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://www.cellchat.org/\">http://www.cellchat.org/</jats:ext-link>                     ) will help discover novel intercellular communications and build cell-cell communication atlases in diverse tissues.                   </jats:p>",
+      "publication_date": "2021-02-17",
+      "publication_year": 2021,
+      "work_type": "publication",
+      "language": "eng",
+      "publisher": "Springer Science and Business Media LLC",
+      "issn": [],
+      "doi": "10.1038/s41467-021-21246-9",
+      "pmid": "33597522",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Suoqin Jin",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Christian F. Guerrero-Juarez",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Lihua Zhang",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ivan Chang",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Raul Ramos",
+            "orcid": "0000-0003-0853-1028",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Chen-Hsiang Kuan",
+            "orcid": "0000-0001-5599-7125",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Peggy Myung",
+            "orcid": "0000-0002-2970-4170",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Maksim V. Plikus",
+            "orcid": "0000-0002-8845-2559",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Qing Nie",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "citation_count": 5668,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1038/s41467-021-21246-9",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41467-021-21246-9.pdf",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33597522",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1038/s41467-021-21246-9",
+          "version": "Other literature type",
+          "license": "http://creativecommons.org/licenses/by/4.0/Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article\u2019s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article\u2019s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ (http://creativecommons.org/licenses/by/4.0/) .",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doaj.org/article/eac776c8aeed43009b282c2dd2c6db3b",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://dx.doi.org/10.1038/s41467-021-21246-9",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://escholarship.org/uc/item/6wj594qk",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://escholarship.org/content/qt6wj594qk/qt6wj594qk.pdf",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/https://doi.org/10.1038/s41467-021-21246-9",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "1763272",
+          "agency": "National Science Foundation",
+          "title": "NSF-Simons Center for Multiscale Cell Fate Research",
+          "pi_names": [],
+          "openaire_project_id": "nsf_________::bb6d5f4dcdc3a513eed69435b7083315",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5U01AR073159-02",
+          "agency": "National Institutes of Health",
+          "title": "Multiscale Models of Wound Cell Plasticity for Regeneration",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::01dcdeb634e45cb58f3332b5d3ead3b4",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5R01GM123731-02",
+          "agency": "National Institutes of Health",
+          "title": "Mammary basal/stem cell plasticity and regulation",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::050ec5ed88c7e3bada45dfc7becdff40",
+          "source": "openaire"
+        }
+      ],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Internet (mesh)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "0301 basic medicine",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "3102 Bioinformatics and Computational Biology (for-2020)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Cell Communication",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Mice",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Theoretical",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Models",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Animals (mesh)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Skin",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Humans (mesh)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "0303 health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "Generic health relevance (hrcs-hc)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Q",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Mice (mesh)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Biological Sciences",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Theoretical (mesh)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "004",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Skin (mesh)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Computational Biology (mesh)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "RNA (mesh)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Single-Cell Analysis",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Sequence Analysis",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Algorithms",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Signal Transduction",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "570",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "1.1 Normal biological development and functioning",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Science",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Bioinformatics and Computational Biology",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Article",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "03 medical and health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "Genetics",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Animals",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Humans",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Software (mesh)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Algorithms (mesh)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "1.1 Normal biological development and functioning (hrcs-rac)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Internet",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "31 Biological Sciences (for-2020)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Cell Communication (mesh)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Genetics (rcdc)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Sequence Analysis, RNA",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "9. Industry and infrastructure",
+          "scheme": "SDG",
+          "source": "openaire"
+        },
+        {
+          "value": "Gene Expression Profiling",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Human Genome",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Computational Biology",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Models, Theoretical",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Human Genome (rcdc)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Gene Expression Profiling (mesh)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "3101 Biochemistry and Cell Biology (for-2020)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Single-Cell Analysis (mesh)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "RNA",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Signal Transduction (mesh)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Biochemistry and Cell Biology",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Generic health relevance",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Software",
+          "scheme": "keyword",
+          "source": "openaire"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "bip_citationCount",
+          "value": 5668.0,
+          "class_label": "C1",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_influence",
+          "value": 1.4941061e-07,
+          "class_label": "C2",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_popularity",
+          "value": 4.3153077e-06,
+          "class_label": "C1",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_impulse",
+          "value": 3420.0,
+          "class_label": "C1",
+          "source": "openaire"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [
+        {
+          "grant_id": "1763272",
+          "agency": "National Science Foundation",
+          "title": "NSF-Simons Center for Multiscale Cell Fate Research",
+          "pi_names": [],
+          "openaire_project_id": "nsf_________::bb6d5f4dcdc3a513eed69435b7083315",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5U01AR073159-02",
+          "agency": "National Institutes of Health",
+          "title": "Multiscale Models of Wound Cell Plasticity for Regeneration",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::01dcdeb634e45cb58f3332b5d3ead3b4",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "5R01GM123731-02",
+          "agency": "National Institutes of Health",
+          "title": "Mammary basal/stem cell plasticity and regulation",
+          "pi_names": [],
+          "openaire_project_id": "nih_________::050ec5ed88c7e3bada45dfc7becdff40",
+          "source": "openaire"
+        }
+      ],
+      "alternate_ids": [
+        "doi:10.1038/s41467-021-21246-9",
+        "doi:10.1038/s41467-021-21246-9",
+        "pmid:33597522",
+        "pmc:PMC7889871",
+        "doi:10.1038/s41467-021-21246-9",
+        "doi:10.1038/s41467-021-21246-9",
+        "doi:10.1038/s41467-021-21246-9",
+        "mag_id:3132661792",
+        "doi:10.1038/s41467-021-21246-9"
+      ],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1038/s41467-021-21246-9",
+      "pmid": "19683066",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1038/s41467-021-21246-9",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1038/s41467-021-21246-9",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1038/s41467-021-21246-9",
+      "authors": [
+        {
+          "name": {
+            "given": "Peggy",
+            "family": "Myung",
+            "full_name": "Peggy Myung",
+            "orcid": "0000-0002-2970-4170",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Raul",
+            "family": "Ramos",
+            "full_name": "Raul Ramos",
+            "orcid": "0000-0003-0853-1028",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Chen-Hsiang",
+            "family": "Kuan",
+            "full_name": "Chen-Hsiang Kuan",
+            "orcid": "0000-0001-5599-7125",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Maksim",
+            "family": "Plikus",
+            "full_name": "Maksim Plikus",
+            "orcid": "0000-0002-8845-2559",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0002-2970-4170",
+          "given_names": "Peggy",
+          "family_names": "Myung",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "University of Iowa",
+            "Yale University"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0003-0853-1028",
+          "given_names": "Raul",
+          "family_names": "Ramos",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "University of California Irvine"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0001-5599-7125",
+          "given_names": "Chen-Hsiang",
+          "family_names": "Kuan",
+          "credit_name": null,
+          "other_names": [
+            "\u5b98\u632f\u7fd4"
+          ],
+          "institutions": [
+            "National Taiwan University",
+            "National Taiwan University Hospital",
+            "National Taiwan University Hospital Hsin-Chu Branch",
+            "Stanford Hospital and Clinics",
+            "UC Irvine"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-8845-2559",
+          "given_names": "Maksim",
+          "family_names": "Plikus",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "University of California Irvine"
+          ],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "error": "Server disconnected without sending a response.",
+      "raw": {},
+      "issn": [],
+      "doi": "10.1038/s41467-021-21246-9",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1038/s41467-021-21246-9",
+    "pmid": "33597522",
+    "pmcid": "PMC7889871",
+    "mag_id": "3132661792",
+    "openalex_id": "https://openalex.org/W3132661792",
+    "handles": [],
+    "orcids": [
+      "0000-0001-5599-7125",
+      "0000-0001-7841-5562",
+      "0000-0002-2970-4170",
+      "0000-0002-5131-0215",
+      "0000-0002-6245-6412",
+      "0000-0002-8804-3368",
+      "0000-0002-8845-2559",
+      "0000-0003-0853-1028"
+    ],
+    "ror_ids": [
+      "https://ror.org/03e29r284",
+      "https://ror.org/03nteze27",
+      "https://ror.org/03v76x132",
+      "https://ror.org/04gyf1771",
+      "https://ror.org/05bqach95"
+    ],
+    "grant_ids": [
+      "1763272",
+      "5R01GM123731-02",
+      "5U01AR073159-02",
+      "DMS1763272",
+      "LF-AW_RAM-19-400008",
+      "LF-OC-20-000611",
+      "P30 AR075047",
+      "R01 GM123731",
+      "U01 AR073159"
+    ],
+    "nct_ids": [],
+    "pmid_source": "europe_pmc",
+    "pmcid_source": "europe_pmc"
+  },
+  "conflicts": {
+    "doi": "10.1038/s41467-021-21246-9",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 6246,
+          "openalex": 7447,
+          "europe_pmc": 5687,
+          "openaire": 5668
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 96,
+          "openalex": 102
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article",
+          "openaire": "publication"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 9,
+          "openalex": 9,
+          "unpaywall": 9,
+          "europe_pmc": 9,
+          "openaire": 9,
+          "orcid": 4
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Springer Science and Business Media LLC",
+          "openalex": "https://openalex.org/P4310319908",
+          "unpaywall": "Springer Science and Business Media LLC",
+          "openaire": "Springer Science and Business Media LLC"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Nature Communications",
+          "openalex": "Nature Communications",
+          "unpaywall": "Nature Communications",
+          "europe_pmc": "Nature communications"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "mesh_term_count",
+        "values": {
+          "openalex": 112,
+          "europe_pmc": 23
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng",
+          "openaire": "eng"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "grant_count",
+        "values": {
+          "europe_pmc": 7,
+          "openaire": 3
+        },
+        "risk": "medium"
+      }
+    ],
+    "agreement_count": 2,
+    "conflict_count": 9
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1038/s41467-021-21246-9",
+    "fetched_at": "2026-02-11T15:58:59.738207+00:00"
+  }
+}

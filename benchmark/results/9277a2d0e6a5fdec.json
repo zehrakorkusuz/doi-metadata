@@ -1,0 +1,2830 @@
+{
+  "doi": "10.7717/peerj.6657",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T18:02:27.891776Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "Robust and automatic definition of microbiome states",
+      "abstract": "<jats:p>Analysis of microbiome dynamics would allow elucidation of patterns within microbial community evolution under a variety of biologically or economically important circumstances; however, this is currently hampered in part by the lack of rigorous, formal, yet generally-applicable approaches to discerning distinct configurations of complex microbial populations. Clustering approaches to define microbiome \u201ccommunity state-types\u201d at a population-scale are widely used, though not yet standardized. Similarly, distinct variations within a state-type are well documented, but there is no rigorous approach to discriminating these more subtle variations in community structure. Finally, intra-individual variations with even fewer differences will likely be found in, for example, longitudinal data, and will correlate with important features such as sickness versus health. We propose an automated, generic, objective, domain-independent, and internally-validating procedure to define statistically distinct microbiome states within datasets containing any degree of phylotypic diversity. Robustness of state identification is objectively established by a combination of diverse techniques for stable cluster verification. To demonstrate the efficacy of our approach in detecting discreet states even in datasets containing highly similar bacterial communities, and to demonstrate the broad applicability of our method, we reuse eight distinct longitudinal microbiome datasets from a variety of ecological niches and species. We also demonstrate our algorithm\u2019s flexibility by providing it distinct taxa subsets as clustering input, demonstrating that it operates on filtered or unfiltered data, and at a range of different taxonomic levels. The final output is a set of robustly defined states which can then be used as general biomarkers for a wide variety of downstream purposes such as association with disease, monitoring response to intervention, or identifying optimally performant populations.</jats:p>",
+      "publication_date": "2019-03-26",
+      "publication_year": 2019,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "PeerJ",
+      "container_title": "PeerJ",
+      "volume": "7",
+      "pages": "e6657",
+      "issn": [
+        "2167-8359"
+      ],
+      "doi": "10.7717/peerj.6657",
+      "authors": [
+        {
+          "name": {
+            "given": "Beatriz",
+            "family": "Garc\u00eda-Jim\u00e9nez",
+            "full_name": "Beatriz Garc\u00eda-Jim\u00e9nez",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Centro de Biotecnolog\u00eda y Gen\u00f3mica de Plantas UPM-INIA, Universidad Polit\u00e9cnica de Madrid, Madrid, Spain",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mark D.",
+            "family": "Wilkinson",
+            "full_name": "Mark D. Wilkinson",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Centro de Biotecnolog\u00eda y Gen\u00f3mica de Plantas UPM-INIA, Universidad Polit\u00e9cnica de Madrid, Madrid, Spain",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 13,
+      "reference_count": 57,
+      "references": [
+        {
+          "doi": "10.1038/nature09944",
+          "title": "Enterotypes of the human gut microbiome",
+          "year": 2011,
+          "author": "Arumugam",
+          "key": "10.7717/peerj.6657/ref-1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Enterotyping tutorial",
+          "year": 2011,
+          "author": "Arumugam",
+          "key": "10.7717/peerj.6657/ref-2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3389/fmicb.2018.00036",
+          "title": "\u2018TIME\u2019: a web application for obtaining insights into microbial ecology using longitudinal microbiome data",
+          "year": 2018,
+          "author": "Baksi",
+          "key": "10.7717/peerj.6657/ref-3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3389/fvets.2016.00002",
+          "title": "Development of the chick microbiome: how early exposure influences future microbial diversity",
+          "year": 2016,
+          "author": "Ballou",
+          "key": "10.7717/peerj.6657/ref-4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1111/1365-2656.12362",
+          "title": "Measuring \u03b2-diversity with species abundance data",
+          "year": 2015,
+          "author": "Barwell",
+          "key": "10.7717/peerj.6657/ref-5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nature18301",
+          "title": "Universality of human microbial dynamics",
+          "year": 2016,
+          "author": "Bashan",
+          "key": "10.7717/peerj.6657/ref-6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s40168-017-0244-z",
+          "title": "Proteobacteria explain significant functional variability in the human gut microbiome",
+          "year": 2017,
+          "author": "Bradley",
+          "key": "10.7717/peerj.6657/ref-7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s13059-016-0980-6",
+          "title": "MDSINE: microbial dynamical systems inference engine for microbiome time-series analyses",
+          "year": 2016,
+          "author": "Bucci",
+          "key": "10.7717/peerj.6657/ref-8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/gb-2011-12-5-r50",
+          "title": "Moving pictures of the human microbiome",
+          "year": 2011,
+          "author": "Caporaso",
+          "key": "10.7717/peerj.6657/ref-9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1005539",
+          "title": "SteadyCom: predicting microbial abundances while ensuring community stability",
+          "year": 2017,
+          "author": "Chan",
+          "key": "10.7717/peerj.6657/ref-10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1005361",
+          "title": "Boolean analysis reveals systematic interactions among low-abundance species in the human gut microbiome",
+          "year": 2017,
+          "author": "Claussen",
+          "key": "10.7717/peerj.6657/ref-11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41564-017-0072-8",
+          "title": "Enterotypes in the landscape of gut microbial community composition",
+          "year": 2018,
+          "author": "Costea",
+          "key": "10.7717/peerj.6657/ref-12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nbt.3960",
+          "title": "Towards standards for human fecal sample processing in metagenomic studies",
+          "year": 2017,
+          "author": "Costea",
+          "key": "10.7717/peerj.6657/ref-13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/npjsba.2016.7",
+          "title": "Dynamic models of the complex microbial metapopulation of lake mendota",
+          "year": 2016,
+          "author": "Dam",
+          "key": "10.7717/peerj.6657/ref-14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/gb-2014-15-7-r89",
+          "title": "Host lifestyle affects human microbiota on daily timescales",
+          "year": 2014,
+          "author": "David",
+          "key": "10.7717/peerj.6657/ref-15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nature13178",
+          "title": "Dynamics and associations of microbial community types across the human body",
+          "year": 2014,
+          "author": "Ding",
+          "key": "10.7717/peerj.6657/ref-16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/BF00038687",
+          "title": "Compositional dissimilarity as a robust measure of ecological distance",
+          "year": 1987,
+          "author": "Faith",
+          "key": "10.7717/peerj.6657/ref-17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.mib.2015.04.004",
+          "title": "Metagenomics meets time series analysis: unraveling microbial community dynamics",
+          "year": 2015,
+          "author": "Faust",
+          "key": "10.7717/peerj.6657/ref-18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nrmicro2832",
+          "title": "Microbial interactions: from networks to models",
+          "year": 2012,
+          "author": "Faust",
+          "key": "10.7717/peerj.6657/ref-19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1126/scitranslmed.3003605",
+          "title": "Temporal dynamics of the human vaginal microbiota",
+          "year": 2012,
+          "author": "Gajer",
+          "key": "10.7717/peerj.6657/ref-20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/bty562",
+          "title": "MDPbiome: microbiome engineering through prescriptive perturbations",
+          "year": 2018,
+          "author": "Garc\u00eda-Jim\u00e9nez",
+          "key": "10.7717/peerj.6657/ref-21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1005364",
+          "title": "Two dynamic regimes in the human gut microbiome",
+          "year": 2017,
+          "author": "Gibbons",
+          "key": "10.7717/peerj.6657/ref-22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nature18850",
+          "title": "Microbiome-wide association studies link dynamic microbial consortia to disease",
+          "year": 2016,
+          "author": "Gilbert",
+          "key": "10.7717/peerj.6657/ref-23",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41592-018-0141-9",
+          "title": "Qiita: rapid, web-enabled microbiome meta-analysis",
+          "year": 2018,
+          "author": "Gonzalez",
+          "key": "10.7717/peerj.6657/ref-24",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/ismej.2017.60",
+          "title": "Multi-stability and the origin of microbial community types",
+          "year": 2017,
+          "author": "Gonze",
+          "key": "10.7717/peerj.6657/ref-25",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s40168-016-0160-7",
+          "title": "Interpreting prevotella and bacteroides as biomarkers of diet and lifestyle",
+          "year": 2016,
+          "author": "Gorvitovskaia",
+          "key": "10.7717/peerj.6657/ref-26",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.7717/peerj.3812",
+          "title": "Ananke: temporal clustering reveals ecological dynamics of microbial communities",
+          "year": 2017,
+          "author": "Hall",
+          "key": "10.7717/peerj.6657/ref-27",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.csda.2006.11.025",
+          "title": "Cluster-wise assessment of cluster stability",
+          "year": 2007,
+          "author": "Hennig",
+          "key": "10.7717/peerj.6657/ref-28",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jmva.2007.07.002",
+          "title": "Dissolution point and isolation robustness: robustness criteria for general cluster analysis methods",
+          "year": 2008,
+          "author": "Hennig",
+          "key": "10.7717/peerj.6657/ref-29",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "fpc: Flexible Procedures for Clustering",
+          "year": 2018,
+          "author": "Hennig",
+          "key": "10.7717/peerj.6657/ref-30",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nrmicro2859",
+          "title": "Categorization of the gut microbiota: enterotypes or gradients?",
+          "year": 2012,
+          "author": "Jeffery",
+          "key": "10.7717/peerj.6657/ref-31",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Clustering by means of medoids",
+          "year": 1987,
+          "author": "Kaufman",
+          "key": "10.7717/peerj.6657/ref-32",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/9780470316801",
+          "title": "Finding groups in data: an introduction to cluster analysis",
+          "year": 1990,
+          "author": "Kaufman",
+          "key": "10.7717/peerj.6657/ref-33",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1046/j.1365-2656.2003.00710.x",
+          "title": "Measuring beta diversity for presence-absence data",
+          "year": 2003,
+          "author": "Koleff",
+          "key": "10.7717/peerj.6657/ref-34",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/JOURNAL.PCBI.1002863",
+          "title": "A guide to enterotypes across the human body: meta-analysis of microbial community structures in human microbiome datasets",
+          "year": 2013,
+          "author": "Koren",
+          "key": "10.7717/peerj.6657/ref-35",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41396-018-0291-x",
+          "title": "\u2018NetShift\u2019: a methodology for understanding \u2018driver microbes\u2019 from healthy and disease microbiome datasets",
+          "year": 2019,
+          "author": "Kuntal",
+          "key": "10.7717/peerj.6657/ref-36",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1073/pnas.1409497111",
+          "title": "Patterned progression of bacterial populations in the premature infant gut",
+          "year": 2014,
+          "author": "La Rosa",
+          "key": "10.7717/peerj.6657/ref-37",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/ncomms5344",
+          "title": "Tipping elements in the human intestinal ecosystem",
+          "year": 2014,
+          "author": "Lahti",
+          "key": "10.7717/peerj.6657/ref-38",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gks335",
+          "title": "Rapid identification of high-confidence taxonomic assignments for metagenomic data",
+          "year": 2012,
+          "author": "MacDonald",
+          "key": "10.7717/peerj.6657/ref-39",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "cluster: cluster analysis basics and extensions",
+          "year": 2017,
+          "author": "Maechler",
+          "key": "10.7717/peerj.6657/ref-40",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1128/mSystems.00144-16",
+          "title": "Health and disease imprinted in the time variability of the human microbiome",
+          "year": 2017,
+          "author": "Mart\u00ed",
+          "key": "10.7717/peerj.6657/ref-41",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/2047-217X-1-7",
+          "title": "The Biological Observation Matrix (BIOM) format or: how I learned to stop worrying and love the ome-ome",
+          "year": 2012,
+          "author": "McDonald",
+          "key": "10.7717/peerj.6657/ref-42",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pone.0061217",
+          "title": "phyloseq: an R package for reproducible interactive analysis and graphics of microbiome census data",
+          "year": 2013,
+          "author": "McMurdie",
+          "key": "10.7717/peerj.6657/ref-43",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1128/mSystems.00166-16",
+          "title": "Uncovering the horseshoe effect in microbial analyses",
+          "year": 2017,
+          "author": "Morton",
+          "key": "10.7717/peerj.6657/ref-44",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "vegan: community ecology package",
+          "year": 2015,
+          "author": "Oksanen",
+          "key": "10.7717/peerj.6657/ref-45",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1073/pnas.1002611107",
+          "title": "Vaginal microbiome of reproductive-age women",
+          "year": 2011,
+          "author": "Ravel",
+          "key": "10.7717/peerj.6657/ref-46",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "R: a language and environment for statistical computing",
+          "year": 2018,
+          "author": "R Core Team",
+          "key": "10.7717/peerj.6657/ref-47",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/s10852-005-9022-1",
+          "title": "Clustering rules: a comparison of partitioning and hierarchical clustering algorithms",
+          "year": 2006,
+          "author": "Reynolds",
+          "key": "10.7717/peerj.6657/ref-48",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/0377-0427(87)90125-7",
+          "title": "Silhouettes: a graphical aid to the interpretation and validation of cluster analysis",
+          "year": 1987,
+          "author": "Rousseeuw",
+          "key": "10.7717/peerj.6657/ref-49",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.21037/atm.2017.01.13",
+          "title": "Insights into study design and statistical analyses in translational microbiome studies",
+          "year": 2017,
+          "author": "Shankar",
+          "key": "10.7717/peerj.6657/ref-50",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1003388",
+          "title": "Ecological modeling from time-series inference: insight into dynamics and stability of intestinal microbiota",
+          "year": 2013,
+          "author": "Stein",
+          "key": "10.7717/peerj.6657/ref-51",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1198/106186005X59243",
+          "title": "Cluster validation by prediction strength",
+          "year": 2005,
+          "author": "Tibshirani",
+          "key": "10.7717/peerj.6657/ref-52",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s40168-017-0256-8",
+          "title": "Temporal dynamics of the gut microbiota in people sharing a confined environment, a 520-day ground-based space simulation, MARS500",
+          "year": 2017,
+          "author": "Turroni",
+          "key": "10.7717/peerj.6657/ref-53",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s12866-017-1111-6",
+          "title": "Temporal dynamics in microbial soil communities at anthrax carcass sites",
+          "year": 2017,
+          "author": "Valseth",
+          "key": "10.7717/peerj.6657/ref-54",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/BF00344966",
+          "title": "Similarity indices, sample size and diversity",
+          "year": 1981,
+          "author": "Wolda",
+          "key": "10.7717/peerj.6657/ref-55",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/bs.ircmb.2016.01.003",
+          "title": "Engineering human microbiota: influencing cellular and community dynamics for therapeutic applications",
+          "year": 2016,
+          "author": "Woloszynek",
+          "key": "10.7717/peerj.6657/ref-56",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/gb-2014-15-5-r66",
+          "title": "Exploration of bacterial community classes in major human habitats",
+          "year": 2014,
+          "author": "Zhou",
+          "key": "10.7717/peerj.6657/ref-57",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://peerj.com/articles/6657.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://peerj.com/articles/6657.xml",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://peerj.com/articles/6657.html",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://peerj.com/articles/6657.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [
+        {
+          "name": "Ministerio de Econom\u00eda y Competitividad",
+          "doi": "10.13039/501100003329",
+          "award_numbers": [
+            "TIN2014-55993-RM"
+          ],
+          "source": "crossref"
+        },
+        {
+          "name": "Isaac Peral programme of UPM",
+          "award_numbers": [],
+          "source": "crossref"
+        },
+        {
+          "name": "CBGP UPM-INIA Severo Ochoa Center of Excellence, Madrid",
+          "award_numbers": [],
+          "source": "crossref"
+        }
+      ],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "http://creativecommons.org/licenses/by/4.0/",
+          "content_version": "unspecified",
+          "delay_in_days": 0,
+          "source": "crossref"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.7717/peerj.6657",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "Robust and automatic definition of microbiome states",
+      "abstract": "Analysis of microbiome dynamics would allow elucidation of patterns within microbial community evolution under a variety of biologically or economically important circumstances; however, this is currently hampered in part by the lack of rigorous, formal, yet generally-applicable approaches to discerning distinct configurations of complex microbial populations. Clustering approaches to define microbiome \u201ccommunity state-types\u201d at a population-scale are widely used, though not yet standardized. Similarly, distinct variations within a state-type are well documented, but there is no rigorous approach to discriminating these more subtle variations in community structure. Finally, intra-individual variations with even fewer differences will likely be found in, for example, longitudinal data, and will correlate with important features such as sickness versus health. We propose an automated, generic, objective, domain-independent, and internally-validating procedure to define statistically distinct microbiome states within datasets containing any degree of phylotypic diversity. Robustness of state identification is objectively established by a combination of diverse techniques for stable cluster verification. To demonstrate the efficacy of our approach in detecting discreet states even in datasets containing highly similar bacterial communities, and to demonstrate the broad applicability of our method, we reuse eight distinct longitudinal microbiome datasets from a variety of ecological niches and species. We also demonstrate our algorithm\u2019s flexibility by providing it distinct taxa subsets as clustering input, demonstrating that it operates on filtered or unfiltered data, and at a range of different taxonomic levels. The final output is a set of robustly defined states which can then be used as general biomarkers for a wide variety of downstream purposes such as association with disease, monitoring response to intervention, or identifying optimally performant populations.",
+      "publication_date": "2019-03-26",
+      "publication_year": 2019,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310320104",
+      "container_title": "PeerJ",
+      "volume": "7",
+      "pages": "e6657-e6657",
+      "issn": [
+        "2167-8359"
+      ],
+      "doi": "10.7717/peerj.6657",
+      "pmid": "30941274",
+      "openalex_id": "https://openalex.org/W2925253562",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Beatriz Garc\u00eda-Jim\u00e9nez",
+            "orcid": "0000-0002-8129-6506",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Centre for Plant Biotechnology and Genomics",
+              "ror_id": "https://ror.org/04mfzb702",
+              "country_code": "ES",
+              "source": "openalex"
+            },
+            {
+              "name": "Universidad Polit\u00e9cnica de Madrid",
+              "ror_id": "https://ror.org/03n6nwv02",
+              "country_code": "ES",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5034245473",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Mark D. Wilkinson",
+            "orcid": "0000-0001-6960-357X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Universidad Polit\u00e9cnica de Madrid",
+              "ror_id": "https://ror.org/03n6nwv02",
+              "country_code": "ES",
+              "source": "openalex"
+            },
+            {
+              "name": "Centre for Plant Biotechnology and Genomics",
+              "ror_id": "https://ror.org/04mfzb702",
+              "country_code": "ES",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5067974158",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 18,
+      "reference_count": 59,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2025": 2,
+        "2024": 1,
+        "2023": 1,
+        "2022": 6,
+        "2021": 2,
+        "2020": 3,
+        "2019": 2,
+        "2018": 1
+      },
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.7717/peerj.6657",
+          "landing_page_url": "https://doi.org/10.7717/peerj.6657",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310320104",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.7717/peerj.6657",
+          "landing_page_url": "https://doi.org/10.7717/peerj.6657",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310320104",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30941274",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/30941274",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "http://hdl.handle.net/10261/368311",
+          "landing_page_url": "http://hdl.handle.net/10261/368311",
+          "host_type": "repository",
+          "version": "acceptedVersion",
+          "license": "other-oa",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I134820265",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doaj.org/article/6bff46060230491095f7abc656b71d2d",
+          "landing_page_url": "https://doaj.org/article/6bff46060230491095f7abc656b71d2d",
+          "host_type": "journal",
+          "version": "submittedVersion",
+          "is_best": false,
+          "source": "openalex"
+        },
+        {
+          "url": "http://europepmc.org/pmc/articles/PMC6440462",
+          "landing_page_url": "http://europepmc.org/pmc/articles/PMC6440462",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1303153112",
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6440462",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6440462",
+          "host_type": "journal",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310320104",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://doi.org/10.7717/peerj.6657",
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "cc-by",
+          "source": "openalex"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Gut microbiota and health",
+          "scheme": "openalex_topic",
+          "score": 0.9995999932289124,
+          "source": "openalex"
+        },
+        {
+          "value": "Microbial Community Ecology and Physiology",
+          "scheme": "openalex_topic",
+          "score": 0.9186000227928162,
+          "source": "openalex"
+        },
+        {
+          "value": "Microbiome",
+          "scheme": "openalex_concept",
+          "score": 0.7638157606124878,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Cluster analysis",
+          "scheme": "openalex_concept",
+          "score": 0.6654835939407349,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Robustness (evolution)",
+          "scheme": "openalex_concept",
+          "score": 0.6350759267807007,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Identification (biology)",
+          "scheme": "openalex_concept",
+          "score": 0.5893170833587646,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.5632212162017822,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Population",
+          "scheme": "openalex_concept",
+          "score": 0.5329787731170654,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Variety (cybernetics)",
+          "scheme": "openalex_concept",
+          "score": 0.4916022717952728,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Taxon",
+          "scheme": "openalex_concept",
+          "score": 0.4713068902492523,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Human Microbiome Project",
+          "scheme": "openalex_concept",
+          "score": 0.46028298139572144,
+          "level": 4,
+          "source": "openalex"
+        },
+        {
+          "value": "Data mining",
+          "scheme": "openalex_concept",
+          "score": 0.42002034187316895,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Machine learning",
+          "scheme": "openalex_concept",
+          "score": 0.41547590494155884,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Range (aeronautics)",
+          "scheme": "openalex_concept",
+          "score": 0.4119376838207245,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Human microbiome",
+          "scheme": "openalex_concept",
+          "score": 0.39080047607421875,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Artificial intelligence",
+          "scheme": "openalex_concept",
+          "score": 0.3900092840194702,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Data science",
+          "scheme": "openalex_concept",
+          "score": 0.38499659299850464,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Computational biology",
+          "scheme": "openalex_concept",
+          "score": 0.35160496830940247,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Biology",
+          "scheme": "openalex_concept",
+          "score": 0.2980141341686249,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Ecology",
+          "scheme": "openalex_concept",
+          "score": 0.2823828458786011,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Bioinformatics",
+          "scheme": "openalex_concept",
+          "score": 0.2252292037010193,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Sociology",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Gene",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Biochemistry",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Materials science",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Composite material",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Demography",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Reduced inequalities",
+          "scheme": "SDG",
+          "score": 0.6800000071525574,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Microbiome",
+        "Cluster analysis",
+        "Robustness (evolution)",
+        "Identification (biology)",
+        "Computer science",
+        "Population",
+        "Variety (cybernetics)",
+        "Taxon",
+        "Human Microbiome Project",
+        "Data mining",
+        "Machine learning",
+        "Range (aeronautics)",
+        "Human microbiome",
+        "Artificial intelligence",
+        "Data science",
+        "Computational biology",
+        "Biology",
+        "Ecology",
+        "Bioinformatics"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 1.3396631,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.76860751,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 1395.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.7717/peerj.6657",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "Robust and automatic definition of microbiome states",
+      "publication_date": "2019-03-26",
+      "publication_year": 2019,
+      "work_type": "journal-article",
+      "publisher": "PeerJ",
+      "container_title": "PeerJ",
+      "issn": [
+        "2167-8359"
+      ],
+      "doi": "10.7717/peerj.6657",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.7717/peerj.6657",
+          "landing_page_url": "https://doi.org/10.7717/peerj.6657",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://doi.org/10.7717/peerj.6657",
+          "landing_page_url": "https://doi.org/10.7717/peerj.6657",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "http://hdl.handle.net/10261/368311",
+          "landing_page_url": "http://hdl.handle.net/10261/368311",
+          "host_type": "repository",
+          "version": "acceptedVersion",
+          "license": "other-oa",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "Consejo Superior de Investigaciones Cient\u00edficas",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://doaj.org/article/6bff46060230491095f7abc656b71d2d",
+          "landing_page_url": "https://doaj.org/article/6bff46060230491095f7abc656b71d2d",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "evidence": "deprecated",
+          "is_best": false,
+          "source": "unpaywall"
+        },
+        {
+          "url": "http://europepmc.org/pmc/articles/PMC6440462",
+          "landing_page_url": "http://europepmc.org/pmc/articles/PMC6440462",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "European Bioinformatics Institute",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6440462",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6440462",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://doi.org/10.7717/peerj.6657",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "Robust and automatic definition of microbiome states.",
+      "abstract": "Analysis of microbiome dynamics would allow elucidation of patterns within microbial community evolution under a variety of biologically or economically important circumstances; however, this is currently hampered in part by the lack of rigorous, formal, yet generally-applicable approaches to discerning distinct configurations of complex microbial populations. Clustering approaches to define microbiome \"community state-types\" at a population-scale are widely used, though not yet standardized. Similarly, distinct variations within a state-type are well documented, but there is no rigorous approach to discriminating these more subtle variations in community structure. Finally, intra-individual variations with even fewer differences will likely be found in, for example, longitudinal data, and will correlate with important features such as sickness versus health. We propose an automated, generic, objective, domain-independent, and internally-validating procedure to define statistically distinct microbiome states within datasets containing any degree of phylotypic diversity. Robustness of state identification is objectively established by a combination of diverse techniques for stable cluster verification. To demonstrate the efficacy of our approach in detecting discreet states even in datasets containing highly similar bacterial communities, and to demonstrate the broad applicability of our method, we reuse eight distinct longitudinal microbiome datasets from a variety of ecological niches and species. We also demonstrate our algorithm's flexibility by providing it distinct taxa subsets as clustering input, demonstrating that it operates on filtered or unfiltered data, and at a range of different taxonomic levels. The final output is a set of robustly defined states which can then be used as general biomarkers for a wide variety of downstream purposes such as association with disease, monitoring response to intervention, or identifying optimally performant populations.",
+      "publication_year": 2019,
+      "language": "eng",
+      "container_title": "PeerJ",
+      "volume": "7",
+      "pages": "e6657",
+      "issn": [],
+      "doi": "10.7717/peerj.6657",
+      "pmid": "30941274",
+      "pmcid": "PMC6440462",
+      "authors": [
+        {
+          "name": {
+            "given": "Beatriz",
+            "family": "Garc\u00eda-Jim\u00e9nez",
+            "full_name": "Garc\u00eda-Jim\u00e9nez B",
+            "orcid": "0000-0002-8129-6506",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Centro de Biotecnolog\u00eda y Gen\u00f3mica de Plantas UPM-INIA, Universidad Polit\u00e9cnica de Madrid, Madrid, Spain.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mark D",
+            "family": "Wilkinson",
+            "full_name": "Wilkinson MD",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Centro de Biotecnolog\u00eda y Gen\u00f3mica de Plantas UPM-INIA, Universidad Polit\u00e9cnica de Madrid, Madrid, Spain.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 9,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "url": "https://europepmc.org/articles/PMC6440462",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC6440462?pdf=render",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "TIN2014-55993-RM",
+          "agency": "Ministerio de Econom\u00eda y Competitividad",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "agency": "Isaac Peral programme of UPM",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "agency": "CBGP UPM-INIA Severo Ochoa Center of Excellence, Madrid",
+          "pi_names": [],
+          "source": "europe_pmc"
+        }
+      ],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [
+        "Clustering",
+        "Machine Learning",
+        "Metagenomics",
+        "Microbiome",
+        "Longitudinal Dataset",
+        "Sub-states"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 9.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [
+        "gen",
+        "doi"
+      ],
+      "corrections": [],
+      "full_text_urls": [
+        {
+          "url": "https://doi.org/10.7717/peerj.6657",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC6440462",
+          "availability": "Open access",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC6440462?pdf=render",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.7717/peerj.6657",
+      "pmid": "19683066",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.7717/peerj.6657",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.7717/peerj.6657",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.7717/peerj.6657",
+      "authors": [
+        {
+          "name": {
+            "given": "Beatriz",
+            "family": "Garc\u00eda-Jim\u00e9nez",
+            "full_name": "Beatriz Garc\u00eda-Jim\u00e9nez",
+            "orcid": "0000-0002-8129-6506",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mark",
+            "family": "Wilkinson",
+            "full_name": "Mark D. Wilkinson",
+            "orcid": "0000-0001-6960-357X",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0002-8129-6506",
+          "given_names": "Beatriz",
+          "family_names": "Garc\u00eda-Jim\u00e9nez",
+          "credit_name": null,
+          "other_names": [
+            "Beatriz Garc\u00eda"
+          ],
+          "institutions": [
+            "BioinfoCAM",
+            "Biological Research Center (CIB-CSIC)",
+            "Carlos III University of Madrid",
+            "Centre for Plant Biotechnology and Genomics (CBGP, UPM-INIA)",
+            "Centre for Plant Biotechnology and Genomics (CBGP, UPM-INIA) Universidad Polit\u00e9cnica de Madrid (UPM) - Instituto Nacional de Investigaci\u00f3n y Tecnolog\u00eda Agraria y Alimentaria (INIA) Campus de Montegancedo-UPM",
+            "Foundation for the promotion of the Research in Public Health and Biomedicine",
+            "GEMBIOTA: Microbiota study group",
+            "IBM Research - Zurich",
+            "International Society for Computational Biology",
+            "Madrid Regional Government",
+            "Max-Planck-Institut f\u00fcr Informatik",
+            "National Centre for Biotechnology (CNB-CSIC)",
+            "Politechnical University of Madrid",
+            "Royal Spanish Doctoral Academy",
+            "Spanish National Cancer Research Centre",
+            "Spanish society of microbiota, prebiotics and probiotics",
+            "University of Cagliari"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0001-6960-357X",
+          "given_names": "Mark",
+          "family_names": "Wilkinson",
+          "credit_name": "Mark D. Wilkinson",
+          "other_names": [],
+          "institutions": [
+            "James Hogg iCAPTURE Center",
+            "Max Planck Institut fur Zuchtungsforschung",
+            "National Research Council Canada",
+            "Universidad Polit\u00e9cnica de Madrid (UPM)",
+            "University of Alberta",
+            "University of British Columbia"
+          ],
+          "emails": [
+            "mark.wilkinson@upm.es"
+          ]
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": true,
+      "raw": {},
+      "title": "Robust and automatic definition of microbiome states.",
+      "abstract": "Analysis of microbiome dynamics would allow elucidation of patterns within microbial community evolution under a variety of biologically or economically important circumstances; however, this is currently hampered in part by the lack of rigorous, formal, yet generally-applicable approaches to discerning distinct configurations of complex microbial populations. Clustering approaches to define microbiome \"community state-types\" at a population-scale are widely used, though not yet standardized. Similarly, distinct variations within a state-type are well documented, but there is no rigorous approach to discriminating these more subtle variations in community structure. Finally, intra-individual variations with even fewer differences will likely be found in, for example, longitudinal data, and will correlate with important features such as sickness versus health. We propose an automated, generic, objective, domain-independent, and internally-validating procedure to define statistically distinct microbiome states within datasets containing any degree of phylotypic diversity. Robustness of state identification is objectively established by a combination of diverse techniques for stable cluster verification. To demonstrate the efficacy of our approach in detecting discreet states even in datasets containing highly similar bacterial communities, and to demonstrate the broad applicability of our method, we reuse eight distinct longitudinal microbiome datasets from a variety of ecological niches and species. We also demonstrate our algorithm's flexibility by providing it distinct taxa subsets as clustering input, demonstrating that it operates on filtered or unfiltered data, and at a range of different taxonomic levels. The final output is a set of robustly defined states which can then be used as general biomarkers for a wide variety of downstream purposes such as association with disease, monitoring response to intervention, or identifying optimally performant populations.",
+      "publication_date": "2019-01-01",
+      "publication_year": 2019,
+      "work_type": "journal-article",
+      "language": "eng",
+      "container_title": "PeerJ",
+      "volume": "7",
+      "pages": "e6657",
+      "issn": [
+        "2167-8359"
+      ],
+      "doi": "10.7717/peerj.6657",
+      "pmid": "30941274",
+      "pmcid": "PMC6440462",
+      "authors": [
+        {
+          "name": {
+            "given": "Beatriz",
+            "family": "Garc\u00eda-Jim\u00e9nez",
+            "full_name": "Beatriz Garc\u00eda-Jim\u00e9nez",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Centro de Biotecnolog\u00eda y Gen\u00f3mica de Plantas UPM-INIA, Universidad Polit\u00e9cnica de Madrid, Madrid, Spain.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mark D",
+            "family": "Wilkinson",
+            "full_name": "Mark D Wilkinson",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "entrez"
+          },
+          "affiliations": [
+            {
+              "name": "Centro de Biotecnolog\u00eda y Gen\u00f3mica de Plantas UPM-INIA, Universidad Polit\u00e9cnica de Madrid, Madrid, Spain.",
+              "source": "entrez"
+            }
+          ],
+          "sources": [
+            "entrez"
+          ]
+        }
+      ],
+      "reference_count": 57,
+      "references": [
+        {
+          "doi": "10.1038/nature09944",
+          "pmid": "21508958",
+          "unstructured": "Arumugam M, Raes J, Pelletier E, Le\u00a0Paslier D, Yamada T, Mende DR, Fernandes GR, Tap J, Bruls T, Batto J-M, Bertalan M, Borruel N, Casellas F, Fernandez L, Gautier L, Hansen T, Hattori M, Hayashi T, Kleerebezem M, Kurokawa K, Leclerc M, Levenez F, Manichanh C, Nielsen HB, Nielsen T, Pons N, Poulain J, Qin J, Sicheritz-Ponten T, Tims S, Torrents D, Ugarte E, Zoetendal EG, Wang J, Guarner F, Pedersen O, De\u00a0Vos WM, Brunak S, Dor\u00e9 J, Members MCA. Antol\u00edn M, Artiguenave F, Blottiere HM, Almeida M, Brechot C, Cara C, Chervaux C, Cultrone A, Delorme C, Denariaz G, Dervyn R, Foerstner KU, Friss C, Van\u00a0de Guchte M, Guedon E, Haimet F, Huber W, Van Hylckama-Vlieg J, Jamet A, Juste C, Kaci G, Knol J, Kristiansen K, Lakhdari O, Layec S, Le\u00a0Roux K, Maguin E, M\u00e9rieux A, Melo\u00a0Minardi R, M\u2019rini C, Muller J, Oozeer R, Parkhill J, Renault P, Rescigno M, Sanchez N, Sunagawa S, Torrejon A, Turner K, Vandemeulebrouck G, Varela E, Winogradsky Y, Zeller G, Weissenbach J, Ehrlich SD, Bork P. Enterotypes of the human gut microbiome. Nature. 2011a;473(7346):174\u2013180. doi: 10.1038/nature09944.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Arumugam M, Raes J, Pelletier E, Le\u00a0Paslier D, Yamada T, Mende DR, Fernandes GR, Tap J, Bruls T, Batto J-M, Bertalan M, Borruel N, Casellas F, Fernandez L, Gautier L, Hansen T, Hattori M, Hayashi T, Kleerebezem M, Kurokawa K, Leclerc M, Levenez F, Manichanh C, Nielsen HB, Nielsen T, Pons N, Poulain J, Qin J, Sicheritz-Ponten T, Tims S, Torrents D, Ugarte E, Zoetendal EG, Wang J, Guarner F, Pedersen O, De\u00a0Vos WM, Brunak S, Dor\u00e9 J, Members MCA. Antol\u00edn M, Artiguenave F, Blottiere HM, Almeida M, Brechot C, Cara C, Chervaux C, Cultrone A, Delorme C, Denariaz G, Dervyn R, Foerstner KU, Friss C, Van\u00a0de Guchte M, Guedon E, Haimet F, Huber W, Van Hylckama-Vlieg J, Jamet A, Juste C, Kaci G, Knol J, Kristiansen K, Lakhdari O, Layec S, Le\u00a0Roux K, Maguin E, M\u00e9rieux A, Melo\u00a0Minardi R, M\u2019rini C, Muller J, Oozeer R, Parkhill J, Renault P, Rescigno M, Sanchez N, Sunagawa S, Torrejon A, Turner K, Vandemeulebrouck G, Varela E, Winogradsky Y, Zeller G, Weissenbach J, Ehrlich SD, Bork P. Enterotyping tutorial. 2011b. http://enterotype.embl.de/index.html http://enterotype.embl.de/index.html",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.3389/fmicb.2018.00036",
+          "pmid": "29416530",
+          "unstructured": "Baksi KD, Kuntal BK, Mande SS. \u2018TIME\u2019: a web application for obtaining insights into microbial ecology using longitudinal microbiome data. Frontiers in Microbiology. 2018;9 doi: 10.3389/fmicb.2018.00036. Article 36.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.3389/fvets.2016.00002",
+          "pmid": "26835461",
+          "unstructured": "Ballou AL, Ali RA, Mendoza MA, Ellis JC, Hassan HM, Croom WJ, Koci MD. Development of the chick microbiome: how early exposure influences future microbial diversity. Frontiers in Veterinary Science. 2016;3 doi: 10.3389/fvets.2016.00002. Article 2.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1111/1365-2656.12362",
+          "pmid": "25732937",
+          "unstructured": "Barwell LJ, Isaac NJB, Kunin WE. Measuring \u03b2-diversity with species abundance data. Journal of Animal Ecology. 2015;84(4):1112\u20131122. doi: 10.1111/1365-2656.12362.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1038/nature18301",
+          "pmid": "27279224",
+          "unstructured": "Bashan A, Gibson TE, Friedman J, Carey VJ, Weiss ST, Hohmann EL, Liu Y-Y. Universality of human microbial dynamics. Nature. 2016;534(7606):259\u2013262. doi: 10.1038/nature18301.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1186/s40168-017-0244-z",
+          "pmid": "28330508",
+          "unstructured": "Bradley PH, Pollard KS. Proteobacteria explain significant functional variability in the human gut microbiome. Microbiome. 2017;5(1) doi: 10.1186/s40168-017-0244-z. Article 36.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1186/s13059-016-0980-6",
+          "pmid": "27259475",
+          "unstructured": "Bucci V, Tzen B, Li N, Simmons M, Tanoue T, Bogart E, Deng L, Yeliseyev V, Delaney ML, Liu Q, Olle B, Stein RR, Honda K, Bry L, Gerber GK. MDSINE: microbial dynamical systems inference engine for microbiome time-series analyses. Genome Biology. 2016;17(1) doi: 10.1186/s13059-016-0980-6. Article 121.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1186/gb-2011-12-5-r50",
+          "pmid": "21624126",
+          "unstructured": "Caporaso JG, Lauber CL, Costello EK, Berg-Lyons D, Gonzalez A, Stombaugh J, Knights D, Gajer P, Ravel J, Fierer N, Gordon JI, Knight R. Moving pictures of the human microbiome. Genome Biology. 2011;12(5) doi: 10.1186/gb-2011-12-5-r50. Article R50.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1005539",
+          "pmid": "28505184",
+          "unstructured": "Chan SHJ, Simons MN, Maranas CD. SteadyCom: predicting microbial abundances while ensuring community stability. PLOS Computational Biology. 2017;13(5):e1005539. doi: 10.1371/journal.pcbi.1005539.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1005361",
+          "pmid": "28640804",
+          "unstructured": "Claussen JC, Skiecevi\u010dien J, Wang J, Rausch P, Karlsen TH, Lieb W, Baines JF, Franke A, H\u00fctt M-T. Boolean analysis reveals systematic interactions among low-abundance species in the human gut microbiome. PLOS Computational Biology. 2017;13(6):e1005361. doi: 10.1371/journal.pcbi.1005361.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1038/s41564-017-0072-8",
+          "pmid": "29255284",
+          "unstructured": "Costea PI, Hildebrand F, Arumugam M, B\u00e4ckhed F, Blaser MJ, Bushman FD, DeVos WM, Ehrlich S, Fraser CM, Hattori M, Huttenhower C, Jeffery IB, Knights D, Lewis JD, Ley RE, Ochman H, O\u2019Toole PW, Quince C, Relman DA, Shanahan F, Sunagawa S, Wang J, Weinstock GM, Wu GD, Zeller G, Zhao L, Raes J, Knight R, Bork P. Enterotypes in the landscape of gut microbial community composition. Nature Microbiology. 2018;3(1):8\u201316. doi: 10.1038/s41564-017-0072-8.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1038/nbt.3960",
+          "pmid": "28967887",
+          "unstructured": "Costea PI, Zeller G, Sunagawa S, Pelletier E, Alberti A, Levenez F, Tramontano M, Driessen M, Hercog R, Jung F-E, Kultima JR, Hayward MR, Coelho LP, Allen-Vercoe E, Bertrand L, Blaut M, Brown JRM, Carton T, Cools-Portier S, Daigneault M, Derrien M, Druesne A, De\u00a0Vos WM, Finlay BB, Flint HJ, Guarner F, Hattori M, Heilig H, Luna RA, Van Hylckama Vlieg J, Junick J, Klymiuk I, Langella P, Le Chatelier E, Mai V, Manichanh C, Martin JC, Mery C, Morita H, O\u2019Toole PW, Orvain C, Patil KR, Penders J, Persson S, Pons N, Popova M, Salonen A, Saulnier D, Scott KP, Singh B, Slezak K, Veiga P, Versalovic J, Zhao L, Zoetendal EG, Ehrlich SD, Dore J, Bork P. Towards standards for human fecal sample processing in metagenomic studies. Nature Biotechnology. 2017;35(11):1069\u20131076. doi: 10.1038/nbt.3960.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1038/npjsba.2016.7",
+          "pmid": "28725469",
+          "unstructured": "Dam P, Fonseca LL, Konstantinidis KT, Voit EO. Dynamic models of the complex microbial metapopulation of lake mendota. NPJ Systems Biology and Applications. 2016;2:16007\u201316007. doi: 10.1038/npjsba.2016.7.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1186/gb-2014-15-7-r89",
+          "pmid": "25146375",
+          "unstructured": "David LA, Materna AC, Friedman J, Campos-Baptista MI, Blackburn MC, Perrotta A, Erdman SE, Alm EJ. Host lifestyle affects human microbiota on daily timescales. Genome Biology. 2014;15(7) doi: 10.1186/gb-2014-15-7-r89. Article R89.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1038/nature13178",
+          "pmid": "24739969",
+          "unstructured": "Ding T, Schloss PD. Dynamics and associations of microbial community types across the human body. Nature. 2014;509(7500):357\u2013360. doi: 10.1038/nature13178.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1007/BF00038687",
+          "unstructured": "Faith DP, Minchin PR, Belbin L. Compositional dissimilarity as a robust measure of ecological distance. Vegetatio. 1987;69(1\u20133):57\u201368. doi: 10.1007/BF00038687.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1016/j.mib.2015.04.004",
+          "pmid": "26005845",
+          "unstructured": "Faust K, Lahti L, Gonze D, De\u00a0Vos WM, Raes J. Metagenomics meets time series analysis: unraveling microbial community dynamics. Current Opinion in Microbiology. 2015;25:56\u201366. doi: 10.1016/j.mib.2015.04.004.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1038/nrmicro2832",
+          "pmid": "22796884",
+          "unstructured": "Faust K, Raes J. Microbial interactions: from networks to models. Nature Reviews Microbiology. 2012;10(8):538\u2013550. doi: 10.1038/nrmicro2832.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1126/scitranslmed.3003605",
+          "pmid": "22553250",
+          "unstructured": "Gajer P, Brotman RM, Bai G, Sakamoto J, Sch\u00fctte UME, Zhong X, Koenig SSK, Fu L, Ma ZS, Zhou X, Abdo Z, Forney LJ, Ravel J. Temporal dynamics of the human vaginal microbiota. Science Translational Medicine. 2012;4(132):132ra52. doi: 10.1126/scitranslmed.3003605.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/bioinformatics/bty562",
+          "pmid": "30423107",
+          "unstructured": "Garc\u00eda-Jim\u00e9nez B, De la Rosa T, Wilkinson MD. MDPbiome: microbiome engineering through prescriptive perturbations. Bioinformatics. 2018;34(17):i838\u2013i847. doi: 10.1093/bioinformatics/bty562.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1005364",
+          "pmid": "28222117",
+          "unstructured": "Gibbons SM, Kearney SM, Smillie CS, Alm EJ. Two dynamic regimes in the human gut microbiome. PLOS Computational Biology. 2017;13(2):e1005364. doi: 10.1371/journal.pcbi.1005364.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1038/nature18850",
+          "pmid": "27383984",
+          "unstructured": "Gilbert JA, Quinn RA, Debelius J, Xu ZZ, Morton J, Garg N, Jansson JK, Dorrestein PC, Knight R. Microbiome-wide association studies link dynamic microbial consortia to disease. Nature. 2016;535(7610):94\u2013103. doi: 10.1038/nature18850.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1038/s41592-018-0141-9",
+          "pmid": "30275573",
+          "unstructured": "Gonzalez A, Navas-Molina JA, Kosciolek T, McDonald D, V\u00e1zquez-Baeza Y, Ackermann G, DeReus J, Janssen S, Swafford AD, Orchanian SB, Sanders JG, Shorenstein J, Holste H, Petrus S, Robbins-Pianka A, Brislawn CJ, Wang M, Rideout JR, Bolyen E, Dillon M, Caporaso JG, Dorrestein PC, Knight R. Qiita: rapid, web-enabled microbiome meta-analysis. Nature Methods. 2018;15(10):796\u2013798. doi: 10.1038/s41592-018-0141-9.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1038/ismej.2017.60",
+          "pmid": "28475180",
+          "unstructured": "Gonze D, Lahti L, Raes J, Faust K. Multi-stability and the origin of microbial community types. The ISME Journal. 2017;11(10):2159\u20132166. doi: 10.1038/ismej.2017.60.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1186/s40168-016-0160-7",
+          "pmid": "27068581",
+          "unstructured": "Gorvitovskaia A, Holmes SP, Huse SM. Interpreting prevotella and bacteroides as biomarkers of diet and lifestyle. Microbiome. 2016;4 doi: 10.1186/s40168-016-0160-7. Article 15.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.7717/peerj.3812",
+          "pmid": "28966891",
+          "unstructured": "Hall MW, Rohwer RR, Perrie J, McMahon KD, Beiko RG. Ananke: temporal clustering reveals ecological dynamics of microbial communities. PeerJ. 2017;5:e3812\u2013e3812. doi: 10.7717/peerj.3812.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1016/j.csda.2006.11.025",
+          "unstructured": "Hennig C. Cluster-wise assessment of cluster stability. Computational Statistics & Data Analysis. 2007;52(1):258\u2013271. doi: 10.1016/j.csda.2006.11.025.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1016/j.jmva.2007.07.002",
+          "unstructured": "Hennig C. Dissolution point and isolation robustness: robustness criteria for general cluster analysis methods. Journal of Multivariate Analysis. 2008;99(6):1154\u20131176. doi: 10.1016/j.jmva.2007.07.002.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Hennig C. fpc: Flexible Procedures for Clustering. R package version 2.1-11.1https://CRAN.R-project.org/package=fpc 2018",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1038/nrmicro2859",
+          "pmid": "23066529",
+          "unstructured": "Jeffery IB, Claesson MJ, O\u2019Toole PW, Shanahan F. Categorization of the gut microbiota: enterotypes or gradients? Nature Reviews. Microbiology. 2012;10(9):591\u2013592. doi: 10.1038/nrmicro2859.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Kaufman L, Rousseeuw P. Statistical data analysis based on the L1 norm and related methods. Basel: Springer Basel; 1987. Clustering by means of medoids; pp. 405\u2013416.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Kaufman L, Rousseeuw P. Wiley-Interscience; 1990. Finding groups in data: an introduction to cluster analysis.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1046/j.1365-2656.2003.00710.x",
+          "unstructured": "Koleff P, Gaston KJ, Lennon JJ. Measuring beta diversity for presence-absence data. Journal of Animal Ecology. 2003;72(3):367\u2013382. doi: 10.1046/j.1365-2656.2003.00710.x.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1371/JOURNAL.PCBI.1002863",
+          "pmid": "23326225",
+          "unstructured": "Koren O, Knights D, Gonzalez A, Waldron L, Segata N, Knight R, Huttenhower C, Ley RE, Qin J, Li R, Raes J, Arumugam M, Burgdorf K, Arumugam M, Raes J, Pelletier E, Paslier DL, Yamada T, Caporaso J, Kuczynski J, Stombaugh J, Bittinger K, Bushman F, Filippo CD, Cavalieri D, Paola MD, Ramazzotti M, Poullet J, Dethlefsen L, Relman D, McDonald D, Price M, Goodrich J, Nawrocki E, Desantis T, Lozupone C, Knight R, Segata N, Waldron L, Ballarini A, Narasimhan V, Jousson O, Tibshirani R, Walther G, Rousseeuw P, Wu G, Chen J, Hoffmann C, Bittinger K, Chen Y, Costello E, Lauber C, Hamady M, Fierer N, Gordon J, Dominguez-Bello M, Costello E, Contreras M, Magris M, Hidalgo G, Koenig J, Spor A, Scalfone N, Fricker A, Stombaugh J, Milligan G, Cooper M, Claesson M, Jeffery I, Conde S, Power S, O\u2019Connor E, Ravel J, Gajer P, Abdo Z, Schneider G, Koenig S, Kuczynski J, Lauber C, Walters W, Parfrey L, Clemente J, Kumar P, Brooker M, Dowd S, Camerlengo T, Caporaso J, Lauber C, Costello E, Berg-Lyons D, Gonzalez A, Ley R, Turnbaugh P, Klein S, Gordon J, Turnbaugh P, Hamady M, Yatsunenko T, Cantarel B, Duncan A, Costello E, Gordon J, Secor S, Knight R, Crawford P, Crowley J, Sambandam N, Muegge B, Costello E, Jumpertz R, Le D, Turnbaugh P, Trinidad C, Bogardus C. A guide to enterotypes across the human body: meta-analysis of microbial community structures in human microbiome datasets. PLOS Computational Biology. 2013;9(1):59\u201365. doi: 10.1371/JOURNAL.PCBI.1002863.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1038/s41396-018-0291-x",
+          "pmid": "30287886",
+          "unstructured": "Kuntal BK, Chandrakar P, Sadhu S, Mande SS. \u2018NetShift\u2019: a methodology for understanding \u2018driver microbes\u2019 from healthy and disease microbiome datasets. The ISME Journal. 2019;13(2):442\u2013454. doi: 10.1038/s41396-018-0291-x.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1073/pnas.1409497111",
+          "pmid": "25114261",
+          "unstructured": "La Rosa PS, Warner BB, Zhou Y, Weinstock GM, Sodergren E, Hall-Moore CM, Stevens HJ, Bennett WE, Shaikh N, Linneman LA, Hoffmann JA, Hamvas A, Deych E, Shands BA, Shannon WD, Tarr PI. Patterned progression of bacterial populations in the premature infant gut. Proceedings of the National Academy of Sciences of the United States of America. 2014;111(34):12522\u201312527. doi: 10.1073/pnas.1409497111.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1038/ncomms5344",
+          "pmid": "25003530",
+          "unstructured": "Lahti L, Saloj\u00e4rvi J, Salonen A, Scheffer M, De\u00a0Vos WM. Tipping elements in the human intestinal ecosystem. Nature Communications. 2014;5(1) doi: 10.1038/ncomms5344. Article 4344.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1093/nar/gks335",
+          "pmid": "22532608",
+          "unstructured": "MacDonald NJ, Parks DH, Beiko RG. Rapid identification of high-confidence taxonomic assignments for metagenomic data. Nucleic Acids Research. 2012;40(14):e111\u2013e111. doi: 10.1093/nar/gks335.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Maechler M, Rousseeuw P, Struyf A, Hubert M, Hornik K. cluster: cluster analysis basics and extensions. R package version 2.0.6https://cran.r-project.org/web/packages/cluster/index.html 2017",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1128/mSystems.00144-16",
+          "pmid": "28345059",
+          "unstructured": "Mart\u00ed JM, Mart\u00ednez-Mart\u00ednez D, Rubio T, Gracia C, Pe\u00f1a M, Latorre A, Moya A, P. Garay C. Health and disease imprinted in the time variability of the human microbiome. mSystems. 2017;2(2):e00144\u201316. doi: 10.1128/mSystems.00144-16.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1186/2047-217X-1-7",
+          "pmid": "23587224",
+          "unstructured": "McDonald D, Clemente JC, Kuczynski J, Rideout JR, Stombaugh J, Wendel D, Wilke A, Huse S, Hufnagle J, Meyer F, Knight R, Caporaso JG. The Biological Observation Matrix (BIOM) format or: how I learned to stop worrying and love the ome-ome. GigaScience. 2012;1(1):7. doi: 10.1186/2047-217X-1-7.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1371/journal.pone.0061217",
+          "pmid": "23630581",
+          "unstructured": "McMurdie PJ, Holmes S. phyloseq: an R package for reproducible interactive analysis and graphics of microbiome census data. PLOS ONE. 2013;8(4):e61217. doi: 10.1371/journal.pone.0061217.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1128/mSystems.00166-16",
+          "pmid": "28251186",
+          "unstructured": "Morton JT, Toran L, Edlund A, Metcalf JL, Lauber C, Knight R. Uncovering the horseshoe effect in microbial analyses. mSystems. 2017;2(1):e00166\u201316. doi: 10.1128/mSystems.00166-16.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "Oksanen J, Blanchet FG, Kindt R, Legendre P, Minchin PR, O\u2019Hara RB, Simpson GL, Solymos P, Stevens M. HH, Wagner H. vegan: community ecology package. https://CRAN.R-project.org/package=vegan. R package version 2.3-12015",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1073/pnas.1002611107",
+          "pmid": "20534435",
+          "unstructured": "Ravel J, Gajer P, Abdo Z, Schneider GM, Koenig SSK, McCulle SL, Karlebach S, Gorle R, Russell J, Tacket CO, Brotman RM, Davis CC, Ault K, Peralta L, Forney LJ. Vaginal microbiome of reproductive-age women. Proceedings of the National Academy of Sciences of the United States of America. 2011;108(Suppl 1):4680\u20134687. doi: 10.1073/pnas.1002611107.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "unstructured": "R Core Team . R Foundation for Statistical Computing; Vienna: 2018.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1007/s10852-005-9022-1",
+          "unstructured": "Reynolds AP, Richards G, De\u00a0la Iglesia B, Rayward-Smith VJ. Clustering rules: a comparison of partitioning and hierarchical clustering algorithms. Journal of Mathematical Modelling and Algorithms. 2006;5(4):475\u2013504. doi: 10.1007/s10852-005-9022-1.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1016/0377-0427(87)90125-7",
+          "unstructured": "Rousseeuw PJ. Silhouettes: a graphical aid to the interpretation and validation of cluster analysis. Journal of Computational and Applied Mathematics. 1987;20:53\u201365. doi: 10.1016/0377-0427(87)90125-7.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.21037/atm.2017.01.13",
+          "pmid": "28706917",
+          "unstructured": "Shankar J. Insights into study design and statistical analyses in translational microbiome studies. Annals of Translational Medicine. 2017;5(12):249\u2013249. doi: 10.21037/atm.2017.01.13.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1371/journal.pcbi.1003388",
+          "pmid": "24348232",
+          "unstructured": "Stein RR, Bucci V, Toussaint NC, Buffie CG, R\u00e4tsch G, Pamer EG, Sander C, Xavier JB. Ecological modeling from time-series inference: insight into dynamics and stability of intestinal microbiota. PLOS Computational Biology. 2013;9(12):e1003388. doi: 10.1371/journal.pcbi.1003388.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1198/106186005X59243",
+          "unstructured": "Tibshirani R, Walther G. Cluster validation by prediction strength. Journal of Computational and Graphical Statistics. 2005;14(3):511\u2013528. doi: 10.1198/106186005X59243.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1186/s40168-017-0256-8",
+          "pmid": "28340597",
+          "unstructured": "Turroni S, Rampelli S, Biagi E, Consolandi C, Severgnini M, Peano C, Quercia S, Soverini M, Carbonero FG, Bianconi G, Rettberg P, Canganella F, Brigidi P, Candela M. Temporal dynamics of the gut microbiota in people sharing a confined environment, a 520-day ground-based space simulation, MARS500. Microbiome. 2017;5(1) doi: 10.1186/s40168-017-0256-8. Article 39.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1186/s12866-017-1111-6",
+          "pmid": "28950879",
+          "unstructured": "Valseth K, Nesb\u00f8 CL, Easterday WR, Turner WC, Olsen JS, Stenseth NC, Haverkamp THA. Temporal dynamics in microbial soil communities at anthrax carcass sites. BMC Microbiology. 2017;17(1):206. doi: 10.1186/s12866-017-1111-6.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1007/BF00344966",
+          "pmid": "28309044",
+          "unstructured": "Wolda H. Similarity indices, sample size and diversity. Oecologia. 1981;50(3):296\u2013302. doi: 10.1007/BF00344966.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1016/bs.ircmb.2016.01.003",
+          "pmid": "27017007",
+          "unstructured": "Woloszynek S, Pastor S, Mell J, Nandi N, Sokhansanj B, Rosen G. Engineering human microbiota: influencing cellular and community dynamics for therapeutic applications. In: Jeon KW, editor. International review of cell and molecular biology. vol. 324. New York: Academic Press; 2016. pp. 67\u2013124.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        },
+        {
+          "doi": "10.1186/gb-2014-15-5-r66",
+          "pmid": "24887286",
+          "unstructured": "Zhou Y, Mihindukulasuriya KA, Gao H, La Rosa PS, Wylie KM, Martin JC, Kota K, Shannon WD, Mitreva M, Sodergren E, Weinstock GM. Exploration of bacterial community classes in major human habitats. Genome Biology. 2014;15(5) doi: 10.1186/gb-2014-15-5-r66. Article R66.",
+          "intents": [],
+          "contexts": [],
+          "source": "entrez"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [
+        "Clustering",
+        "Longitudinal dataset",
+        "Machine Learning",
+        "Metagenomics",
+        "Microbiome",
+        "Sub-states"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {
+        "received": "2018-03-09",
+        "accepted": "2019-02-22",
+        "entrez": "2019-04-04",
+        "pubmed": "2019-04-04",
+        "medline": "2019-04-04",
+        "pmc-release": "2019-03-26"
+      },
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "publication_status": "epublish",
+      "country_of_publication": "United States",
+      "nlm_journal_id": "101603425",
+      "medline_ta": "PeerJ",
+      "citation_subsets": [],
+      "pii": "e6657",
+      "electronic_publication_date": "2019-03-26",
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.7717/peerj.6657",
+    "pmid": "30941274",
+    "pmcid": "PMC6440462",
+    "openalex_id": "https://openalex.org/W2925253562",
+    "pii": "e6657",
+    "nlm_unique_id": "101603425",
+    "handles": [],
+    "orcids": [
+      "0000-0001-6960-357X",
+      "0000-0002-8129-6506"
+    ],
+    "ror_ids": [
+      "https://ror.org/03n6nwv02",
+      "https://ror.org/04mfzb702"
+    ],
+    "grant_ids": [
+      "TIN2014-55993-RM"
+    ],
+    "nct_ids": [],
+    "pmid_source": "entrez",
+    "pmcid_source": "entrez"
+  },
+  "conflicts": {
+    "doi": "10.7717/peerj.6657",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 13,
+          "openalex": 18,
+          "europe_pmc": 9
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 57,
+          "openalex": 59,
+          "entrez": 57
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article",
+          "entrez": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "PeerJ",
+          "openalex": "https://openalex.org/P4310320104",
+          "unpaywall": "PeerJ"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng",
+          "entrez": "eng"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 2,
+    "conflict_count": 5
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.7717/peerj.6657",
+    "fetched_at": "2026-02-11T18:02:27.893319+00:00"
+  }
+}

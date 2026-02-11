@@ -1,0 +1,1844 @@
+{
+  "doi": "10.1186/1471-2105-11-310",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T20:47:04.804396Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "dConsensus: a tool for displaying domain assignments by multiple structure-based algorithms and for construction of a consensus assignment",
+      "abstract": "<jats:title>Abstract</jats:title>\n          <jats:sec>\n            <jats:title>Background</jats:title>\n            <jats:p>Partitioning of a protein into structural components, known as domains, is an important initial step in protein classification and for functional and evolutionary studies. While the systematic assignments of domains by human experts exist (CATH and SCOP), the introduction of high throughput technologies for structure determination threatens to overwhelm expert approaches. A variety of algorithmic methods have been developed to expedite this process, allowing almost instant structural decomposition into domains. The performance of algorithmic methods can approach 85% agreement on the number of domains with the consensus reached by experts. However, each algorithm takes a somewhat different conceptual approach, each with unique strengths and weaknesses. Currently there is no simple way to automatically compare assignments from different structure-based domain assignment methods, thereby providing a comprehensive understanding of possible structure partitioning as well as providing some insight into the tendencies of particular algorithms. Most importantly, a consensus assignment drawn from multiple assignment methods can provide a singular and presumably more accurate view.</jats:p>\n          </jats:sec>\n          <jats:sec>\n            <jats:title>Results</jats:title>\n            <jats:p>We introduce dConsensus <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"http://pdomains.sdsc.edu/dConsensus\" ext-link-type=\"uri\">http://pdomains.sdsc.edu/dConsensus</jats:ext-link>; a web resource that displays the results of calculations from multiple algorithmic methods and generates a domain assignment consensus with an associated reliability score. Domain assignments from seven structure-based algorithms - PDP, PUU, DomainParser2, NCBI method, DHcL, DDomains and Dodis are available for analysis and comparison alongside assignments made by expert methods. The assignments are available for all protein chains in the Protein Data Bank (PDB). A consensus domain assignment is built by either allowing each algorithm to contribute equally (simple approach) or by weighting the contribution of each method by its prior performance and observed tendencies. An analysis of secondary structure around domain and fragment boundaries is also available for display and further analysis.</jats:p>\n          </jats:sec>\n          <jats:sec>\n            <jats:title>Conclusion</jats:title>\n            <jats:p>dConsensus provides a comprehensive assignment of protein domains. For the first time, seven algorithmic methods are brought together with no need to access each method separately via a webserver or local copy of the software. This aggregation permits a consensus domain assignment to be computed. Comparison viewing of the consensus and choice methods provides the user with insights into the fundamental units of protein structure so important to the study of evolutionary and functional relationships.</jats:p>\n          </jats:sec>",
+      "publication_date": "2010-06-09",
+      "publication_year": 2010,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Springer Science and Business Media LLC",
+      "container_title": "BMC Bioinformatics",
+      "volume": "11",
+      "issue": "1",
+      "pages": "310",
+      "issn": [
+        "1471-2105"
+      ],
+      "doi": "10.1186/1471-2105-11-310",
+      "authors": [
+        {
+          "name": {
+            "given": "Kieran",
+            "family": "Alden",
+            "full_name": "Kieran Alden",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Stella",
+            "family": "Veretnik",
+            "full_name": "Stella Veretnik",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Philip E",
+            "family": "Bourne",
+            "full_name": "Philip E Bourne",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 16,
+      "reference_count": 19,
+      "references": [
+        {
+          "doi": "10.1073/pnas.70.3.697",
+          "year": 1973,
+          "author": "DB Wetlaufer",
+          "unstructured": "Wetlaufer DB: Nucleation, rapid folding, and globular intrachain regions in proteins. Proc Natl Acad Sci USA 1973, 70: 697\u2013701. 10.1073/pnas.70.3.697",
+          "key": "3767_CR1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/0022-2836(74)90136-3",
+          "year": 1974,
+          "author": "MG Rossman",
+          "unstructured": "Rossman MG, Liljas A: Letter: Recognition of structural domains in globular proteins. J Mol Biol 1974, 85: 177\u2013181. 10.1016/0022-2836(74)90136-3",
+          "key": "3767_CR2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2006,
+          "author": "S Veretnik",
+          "unstructured": "Veretnik S, Shindyalov IN: Computational methods for domain partitioning in protein structures. In Computational Methods for Protein Structure Prediction and Modeling. Edited by: Xu Y, Xu D, Liang J. Springer; 2006:125\u2013145.",
+          "key": "3767_CR3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkl959",
+          "year": 2007,
+          "author": "LH Greene",
+          "unstructured": "Greene LH, Lewis TE, Addou S, Cuff A, Dallman T, Dibley M, Redfern O, Pearl F, Nambudiry R, Reid A, Sillitoe I, Yeats C, Thornton JM, Orengo CA: The CATH domain structure database: new protocols and classification levels give a more comprehensive resource for exploring evolution. Nucleic Acids Res 2007, 35: D291\u2013297. 10.1093/nar/gkl959",
+          "key": "3767_CR4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkh039",
+          "year": 2004,
+          "author": "A Andreeva",
+          "unstructured": "Andreeva A, Howorth D, Brenner SE, Hubbard TJP, Chothia C, Murzin AG: SCOP database in 2004: refinements integrate structure and sequence family data. Nucleic Acids Res 2004, 32: D226\u2013229. 10.1093/nar/gkh039",
+          "key": "3767_CR5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2009,
+          "author": "S Veretnik",
+          "unstructured": "Veretnik S, Gu J, Wodak S: Identifying Structural Domains in Proteins. In In Genny Gu and Philip Bourne Structural Bioinformatics. Second edition. Wiley-Blackwell; 2009:485\u2013513.",
+          "key": "3767_CR6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jmb.2004.03.053",
+          "year": 2004,
+          "author": "S Veretnik",
+          "unstructured": "Veretnik S, Bourne PE, Alexandrov NN, Shindyalov IN: Toward consistent assignment of structural domains in proteins. J Mol Biol 2004, 339: 647\u2013678. 10.1016/j.jmb.2004.03.053",
+          "key": "3767_CR7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.jmb.2006.05.060",
+          "year": 2006,
+          "author": "TA Holland",
+          "unstructured": "Holland TA, Veretnik S, Shindyalov IN, Bourne PE: Partitioning protein structures into domains: why is it so difficult? J Mol Biol 2006, 361: 562\u2013590. 10.1016/j.jmb.2006.05.060",
+          "key": "3767_CR8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/pro.5560070202",
+          "year": 1998,
+          "author": "S Jones",
+          "unstructured": "Jones S, Stewart M, Michie A, Swindells MB, Orengo C, Thornton JM: Domain assignment for protein structures using a consensus approach: characterization and analysis. Protein Sci 1998, 7: 233\u2013242.",
+          "key": "3767_CR9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S0969-2126(97)00260-8",
+          "year": 1997,
+          "author": "CA Orengo",
+          "unstructured": "Orengo CA, Michie AD, Jones S, Jones DT, Swindells MB, Thornton JM: CATH--a hierarchic classification of protein domain structures. Structure 1997, 5: 1093\u20131108. 10.1016/S0969-2126(97)00260-8",
+          "key": "3767_CR10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 1995,
+          "author": "AG Murzin",
+          "unstructured": "Murzin AG, Brenner SE, Hubbard T, Chothia C: SCOP: a structural classification of proteins database for the investigation of sequences and structures. J Mol Biol 1995, 247: 536\u2013540.",
+          "key": "3767_CR11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btg006",
+          "year": 2003,
+          "author": "N Alexandrov",
+          "unstructured": "Alexandrov N, Shindyalov I: PDP: protein domain parser. Bioinformatics 2003, 19: 429\u2013430. 10.1093/bioinformatics/btg006",
+          "key": "3767_CR12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkg189",
+          "year": 2003,
+          "author": "J Guo",
+          "unstructured": "Guo J, Xu D, Kim D, Xu Y: Improving the performance of DomainParser for structural domain partition using neural network. Nucleic Acids Res 2003, 31: 944\u2013952. 10.1093/nar/gkg189",
+          "key": "3767_CR13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/prot.340190309",
+          "year": 1994,
+          "author": "L Holm",
+          "unstructured": "Holm L, Sander C: Parser for protein folding units. Proteins 1994, 19: 256\u2013268. 10.1002/prot.340190309",
+          "key": "3767_CR14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1110/ps.062597307",
+          "year": 2007,
+          "author": "H Zhou",
+          "unstructured": "Zhou H, Xue B, Zhou Y: DDOMAIN: Dividing structures into domains using a normalized domain-domain interaction profile. Protein Sci 2007, 16: 947\u2013955. 10.1110/ps.062597307",
+          "key": "3767_CR15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1002/prot.340230309",
+          "year": 1995,
+          "author": "T Madej",
+          "unstructured": "Madej T, Gibrat JF, Bryant SH: Threading a database of protein cores. Proteins 1995, 23: 356\u2013369. 10.1002/prot.340230309",
+          "key": "3767_CR16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkn326",
+          "year": 2008,
+          "author": "G Koczyk",
+          "unstructured": "Koczyk G, Berezovsky IN: Domain Hierarchy and closed Loops (DHcL): a server for exploring hierarchy of protein domain structure. Nucleic Acids Res 2008, 36: W239\u2013245. 10.1093/nar/gkn326",
+          "key": "3767_CR17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1107/S0021889807023874",
+          "year": 2007,
+          "author": "O Carugo",
+          "unstructured": "Carugo O: Identification of domains in protein crystal structures. Journal of Applied Crystallography 2007, 40: 778\u2013781. 10.1107/S0021889807023874",
+          "key": "3767_CR18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/28.1.235",
+          "year": 2000,
+          "author": "HM Berman",
+          "unstructured": "Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res 2000, 28: 235\u2013242. 10.1093/nar/28.1.235",
+          "key": "3767_CR19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://link.springer.com/content/pdf/10.1186/1471-2105-11-310.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [
+        {
+          "value": "14 January 2010",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "9 June 2010",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "9 June 2010",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        }
+      ],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/1471-2105-11-310",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "dConsensus: a tool for displaying domain assignments by multiple structure-based algorithms and for construction of a consensus assignment",
+      "abstract": "Abstract Background Partitioning of a protein into structural components, known as domains, is an important initial step in protein classification and for functional and evolutionary studies. While the systematic assignments of domains by human experts exist (CATH and SCOP), the introduction of high throughput technologies for structure determination threatens to overwhelm expert approaches. A variety of algorithmic methods have been developed to expedite this process, allowing almost instant structural decomposition into domains. The performance of algorithmic methods can approach 85% agreement on the number of domains with the consensus reached by experts. However, each algorithm takes a somewhat different conceptual approach, each with unique strengths and weaknesses. Currently there is no simple way to automatically compare assignments from different structure-based domain assignment methods, thereby providing a comprehensive understanding of possible structure partitioning as well as providing some insight into the tendencies of particular algorithms. Most importantly, a consensus assignment drawn from multiple assignment methods can provide a singular and presumably more accurate view. Results We introduce dConsensus http://pdomains.sdsc.edu/dConsensus ; a web resource that displays the results of calculations from multiple algorithmic methods and generates a domain assignment consensus with an associated reliability score. Domain assignments from seven structure-based algorithms - PDP, PUU, DomainParser2, NCBI method, DHcL, DDomains and Dodis are available for analysis and comparison alongside assignments made by expert methods. The assignments are available for all protein chains in the Protein Data Bank (PDB). A consensus domain assignment is built by either allowing each algorithm to contribute equally (simple approach) or by weighting the contribution of each method by its prior performance and observed tendencies. An analysis of secondary structure around domain and fragment boundaries is also available for display and further analysis. Conclusion dConsensus provides a comprehensive assignment of protein domains. For the first time, seven algorithmic methods are brought together with no need to access each method separately via a webserver or local copy of the software. This aggregation permits a consensus domain assignment to be computed. Comparison viewing of the consensus and choice methods provides the user with insights into the fundamental units of protein structure so important to the study of evolutionary and functional relationships.",
+      "publication_date": "2010-06-09",
+      "publication_year": 2010,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310320256",
+      "container_title": "BMC Bioinformatics",
+      "volume": "11",
+      "issue": "1",
+      "pages": "310-310",
+      "issn": [
+        "1471-2105"
+      ],
+      "doi": "10.1186/1471-2105-11-310",
+      "pmid": "20529369",
+      "openalex_id": "https://openalex.org/W2063627598",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Kieran Alden",
+            "orcid": "0000-0003-4411-1776",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of York",
+              "ror_id": "https://ror.org/04m01e293",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5024360871",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Stella Veretnik",
+            "orcid": "0000-0002-6222-7281",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "San Diego Supercomputer Center",
+              "ror_id": "https://ror.org/04mg3nk07",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "University of California, San Diego",
+              "ror_id": "https://ror.org/0168r3w48",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5085836078",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Philip E. Bourne",
+            "orcid": "0000-0002-7618-7292",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Montana",
+              "ror_id": "https://ror.org/0078xmk34",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "University of California, San Diego",
+              "ror_id": "https://ror.org/0168r3w48",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5075833022",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 17,
+      "reference_count": 19,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2026": 1,
+        "2022": 2,
+        "2018": 1,
+        "2017": 1,
+        "2016": 1,
+        "2015": 1,
+        "2014": 3,
+        "2013": 3,
+        "2012": 2
+      },
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1186/1471-2105-11-310",
+          "pdf_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-11-310",
+          "landing_page_url": "https://doi.org/10.1186/1471-2105-11-310",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310320256",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1186/1471-2105-11-310",
+          "pdf_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-11-310",
+          "landing_page_url": "https://doi.org/10.1186/1471-2105-11-310",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310320256",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20529369",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/20529369",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doaj.org/article/c76caee3108b4c1c9fd7c6fbe0a15648",
+          "landing_page_url": "https://doaj.org/article/c76caee3108b4c1c9fd7c6fbe0a15648",
+          "host_type": "journal",
+          "version": "submittedVersion",
+          "is_best": false,
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/2897830",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/2897830",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1303153112",
+          "source": "openalex"
+        },
+        {
+          "url": "http://doi.org/10.1186/1471-2105-11-310",
+          "landing_page_url": "http://doi.org/10.1186/1471-2105-11-310",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-11-310",
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "cc-by",
+          "source": "openalex"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Protein Structure and Dynamics",
+          "scheme": "openalex_topic",
+          "score": 0.9987999796867371,
+          "source": "openalex"
+        },
+        {
+          "value": "Enzyme Structure and Function",
+          "scheme": "openalex_topic",
+          "score": 0.9986000061035156,
+          "source": "openalex"
+        },
+        {
+          "value": "RNA and protein synthesis mechanisms",
+          "scheme": "openalex_topic",
+          "score": 0.9961000084877014,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.7624560594558716,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Domain (mathematical analysis)",
+          "scheme": "openalex_concept",
+          "score": 0.6604251861572266,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Algorithm",
+          "scheme": "openalex_concept",
+          "score": 0.5161186456680298,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Simple (philosophy)",
+          "scheme": "openalex_concept",
+          "score": 0.5003182888031006,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Process (computing)",
+          "scheme": "openalex_concept",
+          "score": 0.4942028820514679,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Data mining",
+          "scheme": "openalex_concept",
+          "score": 0.45339539647102356,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Reliability (semiconductor)",
+          "scheme": "openalex_concept",
+          "score": 0.4375148415565491,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Theoretical computer science",
+          "scheme": "openalex_concept",
+          "score": 0.35178107023239136,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Machine learning",
+          "scheme": "openalex_concept",
+          "score": 0.34089136123657227,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Mathematics",
+          "scheme": "openalex_concept",
+          "score": 0.1249004602432251,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Programming language",
+          "scheme": "openalex_concept",
+          "score": 0.09522554278373718,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Physics",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Power (physics)",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Philosophy",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Mathematical analysis",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Quantum mechanics",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Epistemology",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Partnerships for the goals",
+          "scheme": "SDG",
+          "score": 0.4099999964237213,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Models, Molecular",
+          "descriptor_ui": "D008958",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Models, Molecular",
+          "descriptor_ui": "D008958",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Models, Molecular",
+          "descriptor_ui": "D008958",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Protein Conformation",
+          "descriptor_ui": "D011487",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Protein Conformation",
+          "descriptor_ui": "D011487",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Protein Conformation",
+          "descriptor_ui": "D011487",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "descriptor_ui": "D011506",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "descriptor_ui": "D011506",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "descriptor_ui": "D011506",
+          "qualifier_name": "chemistry",
+          "qualifier_ui": "Q000737",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Databases, Protein",
+          "descriptor_ui": "D030562",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Databases, Protein",
+          "descriptor_ui": "D030562",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Databases, Protein",
+          "descriptor_ui": "D030562",
+          "is_major_topic": false,
+          "source": "openalex"
+        }
+      ],
+      "keywords": [
+        "Computer science",
+        "Domain (mathematical analysis)",
+        "Algorithm",
+        "Simple (philosophy)",
+        "Process (computing)",
+        "Data mining",
+        "Reliability (semiconductor)",
+        "Theoretical computer science",
+        "Machine learning",
+        "Mathematics",
+        "Programming language"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 1.01094411,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.72814361,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 2072.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/1471-2105-11-310",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "dConsensus: a tool for displaying domain assignments by multiple structure-based algorithms and for construction of a consensus assignment",
+      "publication_date": "2010-06-09",
+      "publication_year": 2010,
+      "work_type": "journal-article",
+      "publisher": "Springer Science and Business Media LLC",
+      "container_title": "BMC Bioinformatics",
+      "issn": [
+        "1471-2105"
+      ],
+      "doi": "10.1186/1471-2105-11-310",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-11-310",
+          "pdf_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-11-310",
+          "landing_page_url": "https://doi.org/10.1186/1471-2105-11-310",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-11-310",
+          "pdf_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-11-310",
+          "landing_page_url": "https://doi.org/10.1186/1471-2105-11-310",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://doaj.org/article/c76caee3108b4c1c9fd7c6fbe0a15648",
+          "landing_page_url": "https://doaj.org/article/c76caee3108b4c1c9fd7c6fbe0a15648",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "evidence": "deprecated",
+          "is_best": false,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/2897830",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/2897830",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "European Bioinformatics Institute",
+          "source": "unpaywall"
+        },
+        {
+          "url": "http://doi.org/10.1186/1471-2105-11-310",
+          "landing_page_url": "http://doi.org/10.1186/1471-2105-11-310",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-11-310",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "dConsensus: a tool for displaying domain assignments by multiple structure-based algorithms and for construction of a consensus assignment.",
+      "abstract": "<h4>Background</h4>Partitioning of a protein into structural components, known as domains, is an important initial step in protein classification and for functional and evolutionary studies. While the systematic assignments of domains by human experts exist (CATH and SCOP), the introduction of high throughput technologies for structure determination threatens to overwhelm expert approaches. A variety of algorithmic methods have been developed to expedite this process, allowing almost instant structural decomposition into domains. The performance of algorithmic methods can approach 85% agreement on the number of domains with the consensus reached by experts. However, each algorithm takes a somewhat different conceptual approach, each with unique strengths and weaknesses. Currently there is no simple way to automatically compare assignments from different structure-based domain assignment methods, thereby providing a comprehensive understanding of possible structure partitioning as well as providing some insight into the tendencies of particular algorithms. Most importantly, a consensus assignment drawn from multiple assignment methods can provide a singular and presumably more accurate view.<h4>Results</h4>We introduce dConsensus http://pdomains.sdsc.edu/dConsensus; a web resource that displays the results of calculations from multiple algorithmic methods and generates a domain assignment consensus with an associated reliability score. Domain assignments from seven structure-based algorithms - PDP, PUU, DomainParser2, NCBI method, DHcL, DDomains and Dodis are available for analysis and comparison alongside assignments made by expert methods. The assignments are available for all protein chains in the Protein Data Bank (PDB). A consensus domain assignment is built by either allowing each algorithm to contribute equally (simple approach) or by weighting the contribution of each method by its prior performance and observed tendencies. An analysis of secondary structure around domain and fragment boundaries is also available for display and further analysis.<h4>Conclusion</h4>dConsensus provides a comprehensive assignment of protein domains. For the first time, seven algorithmic methods are brought together with no need to access each method separately via a webserver or local copy of the software. This aggregation permits a consensus domain assignment to be computed. Comparison viewing of the consensus and choice methods provides the user with insights into the fundamental units of protein structure so important to the study of evolutionary and functional relationships.",
+      "publication_year": 2010,
+      "language": "eng",
+      "container_title": "BMC bioinformatics",
+      "volume": "11",
+      "pages": "310",
+      "issn": [],
+      "doi": "10.1186/1471-2105-11-310",
+      "pmid": "20529369",
+      "pmcid": "PMC2897830",
+      "authors": [
+        {
+          "name": {
+            "given": "Kieran",
+            "family": "Alden",
+            "full_name": "Alden K",
+            "orcid": "0000-0003-4411-1776",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "York Centre for Complex Systems Analysis (YCCSA), University of York, Heslington, York, YO10 5DD, UK.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Stella",
+            "family": "Veretnik",
+            "full_name": "Veretnik S",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Philip E",
+            "family": "Bourne",
+            "full_name": "Bourne PE",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 12,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "url": "http://www.biomedcentral.com/content/pdf/1471-2105-11-310.pdf",
+          "host_type": "BioMedCentral",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "http://www.biomedcentral.com/1471-2105/11/310/abstract",
+          "host_type": "BioMedCentral",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "http://www.biomedcentral.com/1471-2105/11/310",
+          "host_type": "BioMedCentral",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC2897830",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC2897830?pdf=render",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "agency": "Biotechnology and Biological Sciences Research Council",
+          "pi_names": [],
+          "source": "europe_pmc"
+        }
+      ],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Proteins",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Proteins",
+          "qualifier_name": "chemistry",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Protein Conformation",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Models, Molecular",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Software",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Databases, Protein",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 12.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [
+        {
+          "name": "Proteins",
+          "registry_number": "0"
+        }
+      ],
+      "text_mined_accessions": [
+        "pdb"
+      ],
+      "corrections": [],
+      "full_text_urls": [
+        {
+          "url": "http://www.biomedcentral.com/content/pdf/1471-2105-11-310.pdf",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "BioMedCentral"
+        },
+        {
+          "url": "http://www.biomedcentral.com/1471-2105/11/310/abstract",
+          "availability": "Open access",
+          "document_style": "abs",
+          "site": "BioMedCentral"
+        },
+        {
+          "url": "http://www.biomedcentral.com/1471-2105/11/310",
+          "availability": "Open access",
+          "document_style": "html",
+          "site": "BioMedCentral"
+        },
+        {
+          "url": "https://doi.org/10.1186/1471-2105-11-310",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC2897830",
+          "availability": "Open access",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC2897830?pdf=render",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/1471-2105-11-310",
+      "pmid": "19683066",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/1471-2105-11-310",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/1471-2105-11-310",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/1471-2105-11-310",
+      "authors": [
+        {
+          "name": {
+            "given": "Kieran James",
+            "family": "Alden",
+            "full_name": "Kieran James Alden",
+            "orcid": "0000-0003-4411-1776",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0003-4411-1776",
+          "given_names": "Kieran James",
+          "family_names": "Alden",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Royal Holloway University of London",
+            "University of Birmingham",
+            "University of Warwick",
+            "University of York"
+          ],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1186/1471-2105-11-310",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1186/1471-2105-11-310",
+    "pmid": "20529369",
+    "pmcid": "PMC2897830",
+    "openalex_id": "https://openalex.org/W2063627598",
+    "handles": [],
+    "orcids": [
+      "0000-0002-6222-7281",
+      "0000-0002-7618-7292",
+      "0000-0003-4411-1776"
+    ],
+    "ror_ids": [
+      "https://ror.org/0078xmk34",
+      "https://ror.org/0168r3w48",
+      "https://ror.org/04m01e293",
+      "https://ror.org/04mg3nk07"
+    ],
+    "grant_ids": [],
+    "nct_ids": [],
+    "pmid_source": "europe_pmc",
+    "pmcid_source": "europe_pmc"
+  },
+  "conflicts": {
+    "doi": "10.1186/1471-2105-11-310",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 16,
+          "openalex": 17,
+          "europe_pmc": 12
+        },
+        "risk": "high"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 3,
+          "openalex": 3,
+          "unpaywall": 3,
+          "europe_pmc": 3,
+          "orcid": 1
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Springer Science and Business Media LLC",
+          "openalex": "https://openalex.org/P4310320256",
+          "unpaywall": "Springer Science and Business Media LLC"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "BMC Bioinformatics",
+          "openalex": "BMC Bioinformatics",
+          "unpaywall": "BMC Bioinformatics",
+          "europe_pmc": "BMC bioinformatics"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "mesh_term_count",
+        "values": {
+          "openalex": 18,
+          "europe_pmc": 7
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 2,
+    "conflict_count": 7
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1186/1471-2105-11-310",
+    "fetched_at": "2026-02-11T20:47:04.805462+00:00"
+  }
+}

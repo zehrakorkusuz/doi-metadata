@@ -1,0 +1,2369 @@
+{
+  "doi": "10.1101/2024.04.29.591634",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T18:45:11.497069Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "Bridging Auditory Perception and Natural Language Processing with Semantically informed Deep Neural Networks",
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Sound recognition is effortless for humans but poses a significant chal-lenge for artificial hearing systems. Deep neural networks (DNNs), especially convolutional neural networks (CNNs), have recently sur-passed traditional machine learning in sound classification. However, current DNNs map sounds to labels using binary categorical variables, neglecting the semantic relations between labels. Cognitive neuroscience research suggests that human listeners exploit such semantic informa-tion besides acoustic cues. Hence, our hypothesis is that incorporating semantic information improves DNN\u2019s sound recognition performance, emulating human behavior. In our approach, sound recognition is framed as a regression problem, with CNNs trained to map spec-trograms to continuous semantic representations from NLP models (Word2Vec, BERT, and CLAP text encoder). Two DNN types were trained: semDNN with continuous embeddings and catDNN with cat-egorical labels, both with a dataset extracted from a collection of 388,211 sounds enriched with semantic descriptions. Evaluations across four external datasets, confirmed the superiority of semantic labeling from semDNN compared to catDNN, preserving higher-level relations. Importantly, an analysis of human similarity ratings for natural sounds, showed that semDNN approximated human listener behavior better than catDNN, other DNNs, and NLP models. Our work contributes to understanding the role of semantics in sound recognition, bridging the gap between artificial systems and human auditory perception.</jats:p>",
+      "publication_date": "2024-04-30",
+      "publication_year": 2024,
+      "work_type": "posted-content",
+      "publisher": "openRxiv",
+      "issn": [],
+      "doi": "10.1101/2024.04.29.591634",
+      "authors": [
+        {
+          "name": {
+            "given": "Michele",
+            "family": "Esposito",
+            "full_name": "Michele Esposito",
+            "sequence": "first",
+            "orcid": "0000-0002-7659-6520",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Giancarlo",
+            "family": "Valente",
+            "full_name": "Giancarlo Valente",
+            "sequence": "additional",
+            "orcid": "0000-0002-4525-3509",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Yenisel",
+            "family": "Plasencia-Cala\u00f1a",
+            "full_name": "Yenisel Plasencia-Cala\u00f1a",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michel",
+            "family": "Dumontier",
+            "full_name": "Michel Dumontier",
+            "sequence": "additional",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Bruno L.",
+            "family": "Giordano",
+            "full_name": "Bruno L. Giordano",
+            "sequence": "additional",
+            "orcid": "0000-0001-7002-0486",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Elia",
+            "family": "Formisano",
+            "full_name": "Elia Formisano",
+            "sequence": "additional",
+            "orcid": "0000-0001-5008-2460",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 1,
+      "reference_count": 48,
+      "references": [
+        {
+          "doi": "10.1016/j.iswa.2022.200115",
+          "unstructured": "Bansal, A. , Garg, N.K. : Environmental sound classification: A descriptive review of the literature. Intelligent Systems with Applications, 200115 (2022)",
+          "key": "2024050600100875000_2024.04.29.591634v1.1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/978-3-642-46466-9_18",
+          "unstructured": "Fukushima, K. , Miyake, S. : Neocognitron: A self-organizing neural net-work model for a mechanism of visual pattern recognition. In: Com-petition and Cooperation in Neural Nets, pp. 267\u2013285. Springer,(1982)",
+          "key": "2024050600100875000_2024.04.29.591634v1.2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/ICASSP.2017.7952132",
+          "unstructured": "Hershey, S. , Chaudhuri, S. , Ellis, D.P.W. , Gemmeke, J.F. , et al.: CNN architectures for large-scale audio classification. In: Proc. ICASSP 2017, pp. 131\u2013135 (2017)",
+          "key": "2024050600100875000_2024.04.29.591634v1.3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Huang, J.J. , Leanos, J.J.A. : Aclnet: efficient end-to-end audio classifica-tion cnn. arXiv preprint arXiv:1811.06669 (2018)",
+          "key": "2024050600100875000_2024.04.29.591634v1.4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/TASLP.2020.3030497",
+          "key": "2024050600100875000_2024.04.29.591634v1.5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/ICASSP.2017.7952261",
+          "unstructured": "Gemmeke, J.F. , Ellis, D.P.W. , Freedman, D. , Jansen, A. , Lawrence, W. , Moore, R.C. , Plakal, M. , Ritter, M. : Audio set: An ontology and human-labeled dataset for audio events. In: Proc. IEEE ICASSP 2017, New Orleans, LA (2017)",
+          "key": "2024050600100875000_2024.04.29.591634v1.6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/ACCESS.2022.3144355",
+          "title": "Real-time multi-level neonatal heart and lung sound quality assessment for telehealth applications",
+          "year": 2022,
+          "key": "2024050600100875000_2024.04.29.591634v1.7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3390/electronics9122076",
+          "title": "Audio-based aircraft detection system for safe rpas bvlos operations",
+          "year": 2020,
+          "key": "2024050600100875000_2024.04.29.591634v1.8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/ICASSP43922.2022.9747348",
+          "unstructured": "Scheidwasser-Clow, N. , Kegler, M. , Beckmann, P. , Cernak, M. : Serab: A multi-lingual benchmark for speech emotion recognition. In: ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 7697\u20137701 (2022). IEEE",
+          "key": "2024050600100875000_2024.04.29.591634v1.9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/TASLP.2021.3133208",
+          "key": "2024050600100875000_2024.04.29.591634v1.10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Jimenez, A. , Elizalde, B. , Raj, B. : Sound event classification using ontology-based neural networks. In: Proceedings of the Annual Conference on Neural Information Processing Systems, vol. 9 (2018)",
+          "key": "2024050600100875000_2024.04.29.591634v1.11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3758/APP.71.3.607",
+          "title": "The importance of semantics in auditory representations",
+          "year": 2009,
+          "key": "2024050600100875000_2024.04.29.591634v1.12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41593-023-01285-9",
+          "unstructured": "Giordano, B.L. , Esposito, M. , Valente, G. , Formisano, E .: Intermediate acoustic-to-semantic representations link behavioral and neural responses to natural sounds. Nature Neuroscience, 1\u20139 (2023)",
+          "key": "2024050600100875000_2024.04.29.591634v1.13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.bandc.2010.01.005",
+          "key": "2024050600100875000_2024.04.29.591634v1.14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Mikolov, T. , Chen, K. , Corrado, G. , Dean, J. : Efficient estimation of word representations in vector space. arXiv preprint: 1301.3781 (2013)",
+          "key": "2024050600100875000_2024.04.29.591634v1.15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Devlin, J. , Chang, M.-W. , Lee, K. , Toutanova, K. : Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805 (2018)",
+          "key": "2024050600100875000_2024.04.29.591634v1.16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/ICASSP49357.2023.10095889",
+          "unstructured": "Elizalde, B. , Deshmukh, S. , Ismail, M.A. , Wang, H. : Clap: Learn-ing audio concepts from natural language supervision. arXiv preprint arXiv:2206.04769 (2022)",
+          "key": "2024050600100875000_2024.04.29.591634v1.17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "SoundIdeasInc.: SuperHardDriveCombo. https://www.sound-ideas.com/Product/28/Super-Hard-Drive-Combo. [Online]",
+          "key": "2024050600100875000_2024.04.29.591634v1.18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.48550/ARXIV.2011.12657",
+          "key": "2024050600100875000_2024.04.29.591634v1.19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Heller, L.M. , Elizalde, B. , Raj, B. , Deshmukh, S. : Synergy between human and machine approaches to sound/scene recognition and processing: An overview of icassp special session (2023)",
+          "key": "2024050600100875000_2024.04.29.591634v1.20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Visualizing data using t-sne",
+          "year": 2008,
+          "key": "2024050600100875000_2024.04.29.591634v1.21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Dropout: A simple way to prevent neural networks from overfitting",
+          "year": 2014,
+          "key": "2024050600100875000_2024.04.29.591634v1.22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Ioffe, S. , Szegedy, C. : Batch normalization: Accelerating deep network training by reducing internal covariate shift. In: International Conference on Machine Learning, pp. 448\u2013456 (2015). PMLR",
+          "key": "2024050600100875000_2024.04.29.591634v1.23",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/ICCV.2017.283",
+          "unstructured": "Wang, J. , Zhou, F. , Wen, S. , Liu, X. , Lin, Y. : Deep Metric Learning with Angular Loss (2017)",
+          "key": "2024050600100875000_2024.04.29.591634v1.24",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3115/v1/D14-1162",
+          "unstructured": "Pennington, J. , Socher, R. , Manning, C.D. : Glove: Global vectors for word representation. In: Proceedings of the 2014 Conference on Empiri-cal Methods in Natural Language Processing (EMNLP), pp. 1532\u20131543 (2014)",
+          "key": "2024050600100875000_2024.04.29.591634v1.25",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1162/tacl_a_00051",
+          "title": "Enriching word vectors with subword information",
+          "year": 2017,
+          "key": "2024050600100875000_2024.04.29.591634v1.26",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "G\u00e9ron, A. : Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow. \u201cO\u2019Reilly Media, Inc.\u201d,(2022)",
+          "key": "2024050600100875000_2024.04.29.591634v1.27",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/CVPR.2016.90",
+          "unstructured": "He, K. , Zhang, X. , Ren, S. , Sun, J. : Deep Residual Learning for Image Recognition (2015)",
+          "key": "2024050600100875000_2024.04.29.591634v1.28",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Inc., S.: DigiEffects-dataset. https://www.sound-ideas.com/Product/130/Digiffects-Sound-Effects-Library. [Online]",
+          "key": "2024050600100875000_2024.04.29.591634v1.29",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "SoundIdeasInc.: GenHD-dataset. https://www.sound-ideas.com/Product/27/The-General-HD-Sound-Effects-Collection. [Online]",
+          "key": "2024050600100875000_2024.04.29.591634v1.30",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "SoundIdeasInc.: Holliwood-dataset. https://www.sound-ideas.com/Collection/3/2/0/The-Hollywood-Edge-Sound-Effects-Libraries. [Online]",
+          "key": "2024050600100875000_2024.04.29.591634v1.31",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "SoundIdeasInc.: Mike-McDonough. https://www.sound-ideas.com/Product/919/Mike-McDonough-SFX-Collection-on-Hard-Drive. [Online]",
+          "key": "2024050600100875000_2024.04.29.591634v1.32",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "SoundIdeasInc.: Seraphine. https://www.sound-ideas.com/Product/735/Frank-Serafine-Sound-Effects-Hard-Drive. [Online]",
+          "key": "2024050600100875000_2024.04.29.591634v1.33",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "SoundIdeasInc.: SoundStorm-dataset. https://www.sound-ideas.com/Product/376/Soundstorm-Sound-Effects-Library. [Online]",
+          "key": "2024050600100875000_2024.04.29.591634v1.34",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "SoundIdeasInc.: Ultimate-dataset. https://www.sound-ideas.com/Product/508/Sound-Ideas-Ultimate-Sound-Effects-Collection. [Online]",
+          "key": "2024050600100875000_2024.04.29.591634v1.35",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Google: GoogleNewsPretrainedModel. https://code.google.com/archive/p/word2vec/. [Online] (2013)",
+          "key": "2024050600100875000_2024.04.29.591634v1.36",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1073/pnas.2023989118",
+          "key": "2024050600100875000_2024.04.29.591634v1.37",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1007/S00357-014-9161-Z",
+          "key": "2024050600100875000_2024.04.29.591634v1.38",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1145/2733373.2806390",
+          "unstructured": "Piczak, K.J. : Esc: Dataset for environmental sound classification. In: Pro-ceedings of the 23rd ACM International Conference on Multimedia, pp. 1015\u20131018 (2015)",
+          "key": "2024050600100875000_2024.04.29.591634v1.39",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1145/2647868.2655045",
+          "key": "2024050600100875000_2024.04.29.591634v1.40",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "CVSSP: MSOS-dataset. https://cvssp.org/projects/makingsenseofsounds/site/challenge/. [Online] (2013)",
+          "key": "2024050600100875000_2024.04.29.591634v1.41",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1137/1.9781611971217",
+          "unstructured": "Lawson, C.L. , Hanson, R.J. : Solving Least Squares Problems. SIAM,(1995)",
+          "key": "2024050600100875000_2024.04.29.591634v1.42",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Inc., S.: Super Hard Drive Combo. https://www.sound-ideas.com/Product/28/Super-Hard-Drive-Combo/. [Online] (2022)",
+          "key": "2024050600100875000_2024.04.29.591634v1.43",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/J.NEURON.2018.03.044",
+          "key": "2024050600100875000_2024.04.29.591634v1.44",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/TASLP.2020.3030497",
+          "unstructured": "Kong, Q. , Cao, Y. , Iqbal, T. , Wang, Y. , Wang, W. , Plumbley, M .D.: PANNs: Large-Scale Pretrained Audio Neural Networks for Audio Pattern Recognition (2020)",
+          "key": "2024050600100875000_2024.04.29.591634v1.45",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/ICASSP40776.2020.9052990",
+          "unstructured": "Drossos, K. , Lipping, S. , Virtanen, T. : Clotho: An audio captioning dataset. In: ICASSP 2020-2020 IEEE International Conference on Acous-tics, Speech and Signal Processing (ICASSP), pp. 736\u2013740 (2020). IEEE",
+          "key": "2024050600100875000_2024.04.29.591634v1.46",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.3389/fpsyg.2022.964209",
+          "unstructured": "Giordano, B.L. , de Miranda Azevedo, R. , Plasencia-Cala\u00f1a, Y. , Formisano, E. , Dumontier, M. : What do we mean with sound seman-tics, exactly? a survey of taxonomies and ontologies of everyday sounds. Frontiers in Psychology 13 (2022)",
+          "key": "2024050600100875000_2024.04.29.591634v1.47",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "unstructured": "Inc., S.: SoundIdeasLicense. https://www.sound-ideas.com/Page/Sound-Ideas-End-User-License. [Online] (2022)",
+          "key": "2024050600100875000_2024.04.29.591634v1.48",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://syndication.highwire.org/content/doi/10.1101/2024.04.29.591634",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/2024.04.29.591634",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "Bridging Auditory Perception and Natural Language Processing with Semantically informed Deep Neural Networks",
+      "abstract": "Abstract Sound recognition is effortless for humans but poses a significant chal-lenge for artificial hearing systems. Deep neural networks (DNNs), especially convolutional neural networks (CNNs), have recently sur-passed traditional machine learning in sound classification. However, current DNNs map sounds to labels using binary categorical variables, neglecting the semantic relations between labels. Cognitive neuroscience research suggests that human listeners exploit such semantic informa-tion besides acoustic cues. Hence, our hypothesis is that incorporating semantic information improves DNN\u2019s sound recognition performance, emulating human behavior. In our approach, sound recognition is framed as a regression problem, with CNNs trained to map spec-trograms to continuous semantic representations from NLP models (Word2Vec, BERT, and CLAP text encoder). Two DNN types were trained: semDNN with continuous embeddings and catDNN with cat-egorical labels, both with a dataset extracted from a collection of 388,211 sounds enriched with semantic descriptions. Evaluations across four external datasets, confirmed the superiority of semantic labeling from semDNN compared to catDNN, preserving higher-level relations. Importantly, an analysis of human similarity ratings for natural sounds, showed that semDNN approximated human listener behavior better than catDNN, other DNNs, and NLP models. Our work contributes to understanding the role of semantics in sound recognition, bridging the gap between artificial systems and human auditory perception.",
+      "publication_date": "2024-04-30",
+      "publication_year": 2024,
+      "work_type": "preprint",
+      "language": "en",
+      "issn": [],
+      "doi": "10.1101/2024.04.29.591634",
+      "openalex_id": "https://openalex.org/W4396553201",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Michele Esposito",
+            "orcid": "0000-0002-7659-6520",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Maastricht University",
+              "ror_id": "https://ror.org/02jz4aj89",
+              "country_code": "NL",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5005840108",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Giancarlo Valente",
+            "orcid": "0000-0002-4525-3509",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Maastricht University",
+              "ror_id": "https://ror.org/02jz4aj89",
+              "country_code": "NL",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5083404139",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Yenisel Plasencia-Cala\u00f1a",
+            "orcid": "0000-0001-5173-0394",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Maastricht University",
+              "ror_id": "https://ror.org/02jz4aj89",
+              "country_code": "NL",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5024556909",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Michel Dumontier",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Maastricht University",
+              "ror_id": "https://ror.org/02jz4aj89",
+              "country_code": "NL",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5044836472",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Bruno L. Giordano",
+            "orcid": "0000-0001-7002-0486",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Aix-Marseille Universit\u00e9",
+              "ror_id": "https://ror.org/035xkbk20",
+              "country_code": "FR",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5060967255",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Elia Formisano",
+            "orcid": "0000-0001-5008-2460",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Maastricht University",
+              "ror_id": "https://ror.org/02jz4aj89",
+              "country_code": "NL",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5000413698",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 2,
+      "reference_count": 29,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2025": 1,
+        "2024": 1
+      },
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1101/2024.04.29.591634",
+          "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2024/04/30/2024.04.29.591634.full.pdf",
+          "landing_page_url": "https://doi.org/10.1101/2024.04.29.591634",
+          "version": "acceptedVersion",
+          "license": "cc-by-nc-nd",
+          "is_best": true,
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1101/2024.04.29.591634",
+          "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2024/04/30/2024.04.29.591634.full.pdf",
+          "landing_page_url": "https://doi.org/10.1101/2024.04.29.591634",
+          "version": "acceptedVersion",
+          "license": "cc-by-nc-nd",
+          "is_best": false,
+          "source": "openalex"
+        },
+        {
+          "url": "https://hal.science/hal-04732818",
+          "pdf_url": "https://hal.science/hal-04732818/document",
+          "landing_page_url": "https://hal.science/hal-04732818",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by-nc-nd",
+          "is_best": false,
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://www.biorxiv.org/content/biorxiv/early/2024/04/30/2024.04.29.591634.full.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "cc-by-nc-nd",
+          "source": "openalex"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Music and Audio Processing",
+          "scheme": "openalex_topic",
+          "score": 1.0,
+          "source": "openalex"
+        },
+        {
+          "value": "Speech and Audio Processing",
+          "scheme": "openalex_topic",
+          "score": 0.998199999332428,
+          "source": "openalex"
+        },
+        {
+          "value": "Neuroscience and Music Perception",
+          "scheme": "openalex_topic",
+          "score": 0.9945999979972839,
+          "source": "openalex"
+        },
+        {
+          "value": "Bridging (networking)",
+          "scheme": "openalex_concept",
+          "score": 0.8232466578483582,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Perception",
+          "scheme": "openalex_concept",
+          "score": 0.6467345356941223,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.579342782497406,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Natural (archaeology)",
+          "scheme": "openalex_concept",
+          "score": 0.5195184350013733,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Natural language processing",
+          "scheme": "openalex_concept",
+          "score": 0.4902539551258087,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Artificial intelligence",
+          "scheme": "openalex_concept",
+          "score": 0.3966251611709595,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Psychology",
+          "scheme": "openalex_concept",
+          "score": 0.3763350248336792,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Speech recognition",
+          "scheme": "openalex_concept",
+          "score": 0.35491371154785156,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Neuroscience",
+          "scheme": "openalex_concept",
+          "score": 0.16069847345352173,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "History",
+          "scheme": "openalex_concept",
+          "score": 0.06931975483894348,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Archaeology",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer network",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Quality Education",
+          "scheme": "SDG",
+          "score": 0.8500000238418579,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Bridging (networking)",
+        "Perception",
+        "Computer science",
+        "Natural (archaeology)",
+        "Natural language processing",
+        "Artificial intelligence",
+        "Psychology",
+        "Speech recognition",
+        "Neuroscience",
+        "History"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/2024.04.29.591634",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "Bridging Auditory Perception and Natural Language Processing with Semantically informed Deep Neural Networks",
+      "publication_date": "2024-04-30",
+      "publication_year": 2024,
+      "work_type": "posted-content",
+      "publisher": "openRxiv",
+      "issn": [],
+      "doi": "10.1101/2024.04.29.591634",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://www.biorxiv.org/content/biorxiv/early/2024/04/30/2024.04.29.591634.full.pdf",
+          "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2024/04/30/2024.04.29.591634.full.pdf",
+          "landing_page_url": "https://doi.org/10.1101/2024.04.29.591634",
+          "version": "acceptedVersion",
+          "license": "cc-by-nc-nd",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.biorxiv.org/content/biorxiv/early/2024/04/30/2024.04.29.591634.full.pdf",
+          "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2024/04/30/2024.04.29.591634.full.pdf",
+          "landing_page_url": "https://doi.org/10.1101/2024.04.29.591634",
+          "version": "acceptedVersion",
+          "license": "cc-by-nc-nd",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://hal.science/hal-04732818/document",
+          "pdf_url": "https://hal.science/hal-04732818/document",
+          "landing_page_url": "https://hal.science/hal-04732818",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by-nc-nd",
+          "evidence": "deprecated",
+          "is_best": false,
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://www.biorxiv.org/content/biorxiv/early/2024/04/30/2024.04.29.591634.full.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "Bridging Auditory Perception and Natural Language Processing with Semantically informed Deep Neural Networks",
+      "abstract": "Sound recognition is effortless for humans but poses a significant chal-lenge for artificial hearing systems. Deep neural networks (DNNs), especially convolutional neural networks (CNNs), have recently sur-passed traditional machine learning in sound classification. However, current DNNs map sounds to labels using binary categorical variables, neglecting the semantic relations between labels. Cognitive neuroscience research suggests that human listeners exploit such semantic informa-tion besides acoustic cues. Hence, our hypothesis is that incorporating semantic information improves DNN\u2019s sound recognition performance, emulating human behavior. In our approach, sound recognition is framed as a regression problem, with CNNs trained to map spec-trograms to continuous semantic representations from NLP models (Word2Vec, BERT, and CLAP text encoder). Two DNN types were trained: semDNN with continuous embeddings and catDNN with cat-egorical labels, both with a dataset extracted from a collection of 388,211 sounds enriched with semantic descriptions. Evaluations across four external datasets, confirmed the superiority of semantic labeling from semDNN compared to catDNN, preserving higher-level relations. Importantly, an analysis of human similarity ratings for natural sounds, showed that semDNN approximated human listener behavior better than catDNN, other DNNs, and NLP models. Our work contributes to understanding the role of semantics in sound recognition, bridging the gap between artificial systems and human auditory perception.",
+      "publication_year": 2024,
+      "issn": [],
+      "doi": "10.1101/2024.04.29.591634",
+      "authors": [
+        {
+          "name": {
+            "given": "Michele",
+            "family": "Esposito",
+            "full_name": "Esposito M",
+            "orcid": "0000-0002-7659-6520",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Cognitive Neuroscience, Faculty of Psychology and Neuroscience , Maastricht University, Maastricht, The Netherlands",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Giancarlo",
+            "family": "Valente",
+            "full_name": "Valente G",
+            "orcid": "0000-0002-4525-3509",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Cognitive Neuroscience, Faculty of Psychology and Neuroscience , Maastricht University, Maastricht, The Netherlands",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Yenisel",
+            "family": "Plasencia-Cala\u00f1a",
+            "full_name": "Plasencia-Cala\u00f1a Y",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "BISS institute, Faculty of Science and Engineering, Maastricht University, Maastricht, The Netherlands",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michel",
+            "family": "Dumontier",
+            "full_name": "Dumontier M",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Institut des Neurosciences de La Timone, CNRS UMR 7289 \u2013 Universit\u00e9 Aix-Marseille, Marseille, France",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Bruno",
+            "family": "Giordano",
+            "full_name": "Giordano BL",
+            "orcid": "0000-0001-7002-0486",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Institut des Neurosciences de La Timone, CNRS UMR 7289 \u2013 Universit\u00e9 Aix-Marseille, Marseille, France",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Elia",
+            "family": "Formisano",
+            "full_name": "Formisano E",
+            "orcid": "0000-0001-5008-2460",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Department of Cognitive Neuroscience, Faculty of Psychology and Neuroscience , Maastricht University, Maastricht, The Netherlands",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "BISS institute, Faculty of Science and Engineering, Maastricht University, Maastricht, The Netherlands",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 0,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1101/2024.04.29.591634",
+          "host_type": "Unpaywall",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/article/PPR/PPR846404",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR846404&type=FILE&fileName=EMS195901-pdf.pdf&mimeType=application/pdf",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 0.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [
+        {
+          "type": "Preprint of",
+          "id": "39251659",
+          "source": "MED"
+        }
+      ],
+      "full_text_urls": [
+        {
+          "url": "https://doi.org/10.1101/2024.04.29.591634",
+          "availability": "Open access",
+          "document_style": "doi",
+          "site": "Unpaywall"
+        },
+        {
+          "url": "https://doi.org/10.1101/2024.04.29.591634",
+          "availability": "Free",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/article/PPR/PPR846404",
+          "availability": "Open access",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR846404&type=FILE&fileName=EMS195901-pdf.pdf&mimeType=application/pdf",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openaire": {
+      "source": "openaire",
+      "found": true,
+      "raw": {},
+      "title": "Bridging Auditory Perception and Natural Language Processing with Semantically informed Deep Neural Networks",
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>Sound recognition is effortless for humans but poses a significant chal-lenge for artificial hearing systems. Deep neural networks (DNNs), especially convolutional neural networks (CNNs), have recently sur-passed traditional machine learning in sound classification. However, current DNNs map sounds to labels using binary categorical variables, neglecting the semantic relations between labels. Cognitive neuroscience research suggests that human listeners exploit such semantic informa-tion besides acoustic cues. Hence, our hypothesis is that incorporating semantic information improves DNN\u2019s sound recognition performance, emulating human behavior. In our approach, sound recognition is framed as a regression problem, with CNNs trained to map spec-trograms to continuous semantic representations from NLP models (Word2Vec, BERT, and CLAP text encoder). Two DNN types were trained: semDNN with continuous embeddings and catDNN with cat-egorical labels, both with a dataset extracted from a collection of 388,211 sounds enriched with semantic descriptions. Evaluations across four external datasets, confirmed the superiority of semantic labeling from semDNN compared to catDNN, preserving higher-level relations. Importantly, an analysis of human similarity ratings for natural sounds, showed that semDNN approximated human listener behavior better than catDNN, other DNNs, and NLP models. Our work contributes to understanding the role of semantics in sound recognition, bridging the gap between artificial systems and human auditory perception.</jats:p>",
+      "publication_date": "2024-04-30",
+      "publication_year": 2024,
+      "work_type": "publication",
+      "language": "und",
+      "publisher": "Cold Spring Harbor Laboratory",
+      "issn": [],
+      "doi": "10.1101/2024.04.29.591634",
+      "pmid": "39251659",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Michele Esposito",
+            "orcid": "0000-0002-7659-6520",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Giancarlo Valente",
+            "orcid": "0000-0002-4525-3509",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Yenisel Plasencia-Cala\u00f1a",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Michel Dumontier",
+            "orcid": "0000-0003-4727-9435",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Bruno L. Giordano",
+            "orcid": "0000-0001-7002-0486",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Elia Formisano",
+            "orcid": "0000-0001-5008-2460",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "citation_count": 7,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_status": "hybrid",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1101/2024.04.29.591634",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1038/s41598-024-71693-9",
+          "version": "Article",
+          "license": "CC BY NC ND",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39251659",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1038/s41598-024-71693-9",
+          "version": "Other literature type",
+          "license": "CC BY NC ND",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doaj.org/article/e19d88604e7a49d6bca4b550622cb912",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1038/s41598-024-71693-9",
+          "version": "Article",
+          "license": "CC BY NC ND",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://cris.maastrichtuniversity.nl/en/publications/f8890110-bfd0-48d9-ada8-72f91e734298",
+          "version": "Article",
+          "license": "CC BY NC ND",
+          "is_best": false,
+          "source": "openaire"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "ANR-21-CE37-0027",
+          "agency": "French National Research Agency (ANR)",
+          "title": "Representation of natural sounds in the human brain: Transforming acoustics into the semantics of sound sources in the environment",
+          "pi_names": [],
+          "openaire_project_id": "anr_________::8c92f5dac1bce91970705351b53960f3",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "ANR-16-CONV-0002",
+          "agency": "French National Research Agency (ANR)",
+          "pi_names": [],
+          "openaire_project_id": "anr_________::a99178c2c36f64bab8a85eecab00e21f",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "406.20.GO.030",
+          "agency": "Netherlands Organisation for Scientific Research (NWO)",
+          "title": "Aud2Sem: Acoustic to Semantic Transformations in Human Auditory Cortex.",
+          "pi_names": [],
+          "openaire_project_id": "nwo_________::10d3def5d65166bf4f1fc942fd774d29",
+          "source": "openaire"
+        }
+      ],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Auditory Perception/physiology",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Acoustic-to-semantic transformation",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Neural Networks",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Semantic embeddings",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Sound recognition",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Natural language processing",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Auditory perception",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Science",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Q",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "R",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Cognitive neuroscience",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Article",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Semantics",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Computer",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Deep Learning",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Sound",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Deep neural networks",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Auditory Perception",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Medicine",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Humans",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Neural Networks, Computer",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Natural Language Processing",
+          "scheme": "keyword",
+          "source": "openaire"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "bip_citationCount",
+          "value": 7.0,
+          "class_label": "C5",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_influence",
+          "value": 2.7430187e-09,
+          "class_label": "C5",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_popularity",
+          "value": 7.635543e-09,
+          "class_label": "C4",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_impulse",
+          "value": 7.0,
+          "class_label": "C4",
+          "source": "openaire"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [
+        {
+          "grant_id": "ANR-21-CE37-0027",
+          "agency": "French National Research Agency (ANR)",
+          "title": "Representation of natural sounds in the human brain: Transforming acoustics into the semantics of sound sources in the environment",
+          "pi_names": [],
+          "openaire_project_id": "anr_________::8c92f5dac1bce91970705351b53960f3",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "ANR-16-CONV-0002",
+          "agency": "French National Research Agency (ANR)",
+          "pi_names": [],
+          "openaire_project_id": "anr_________::a99178c2c36f64bab8a85eecab00e21f",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "406.20.GO.030",
+          "agency": "Netherlands Organisation for Scientific Research (NWO)",
+          "title": "Aud2Sem: Acoustic to Semantic Transformations in Human Auditory Cortex.",
+          "pi_names": [],
+          "openaire_project_id": "nwo_________::10d3def5d65166bf4f1fc942fd774d29",
+          "source": "openaire"
+        }
+      ],
+      "alternate_ids": [
+        "doi:10.1101/2024.04.29.591634",
+        "doi:10.1038/s41598-024-71693-9",
+        "doi:10.1038/s41598-024-71693-9",
+        "pmid:39251659",
+        "pmc:PMC11383964",
+        "doi:10.1038/s41598-024-71693-9",
+        "doi:10.1038/s41598-024-71693-9",
+        "doi:10.1038/s41598-024-71693-9"
+      ],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/2024.04.29.591634",
+      "pmid": "23671333",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/2024.04.29.591634",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/2024.04.29.591634",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/2024.04.29.591634",
+      "authors": [
+        {
+          "name": {
+            "given": "Bruno L.",
+            "family": "Giordano",
+            "full_name": "Bruno L. Giordano",
+            "orcid": "0000-0001-7002-0486",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michele",
+            "family": "Esposito",
+            "full_name": "Michele Esposito",
+            "orcid": "0000-0002-7659-6520",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Giancarlo",
+            "family": "Valente",
+            "full_name": "Giancarlo Valente",
+            "orcid": "0000-0002-4525-3509",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Elia",
+            "family": "Formisano",
+            "full_name": "Elia Formisano",
+            "orcid": "0000-0001-5008-2460",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0001-7002-0486",
+          "given_names": "Bruno L.",
+          "family_names": "Giordano",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Aix-Marseille Universit\u00e9",
+            "IRCAM and University of Padova (Department of Experimental Psychology)",
+            "University of Padova"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-7659-6520",
+          "given_names": "Michele",
+          "family_names": "Esposito",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Maastricht University",
+            "University of Naples Federico II"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-4525-3509",
+          "given_names": "Giancarlo",
+          "family_names": "Valente",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0001-5008-2460",
+          "given_names": "Elia",
+          "family_names": "Formisano",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Maastricht University"
+          ],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1101/2024.04.29.591634",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1101/2024.04.29.591634",
+    "pmid": "23671333",
+    "openalex_id": "https://openalex.org/W4396553201",
+    "handles": [],
+    "orcids": [
+      "0000-0001-5008-2460",
+      "0000-0001-5173-0394",
+      "0000-0001-7002-0486",
+      "0000-0002-4525-3509",
+      "0000-0002-7659-6520",
+      "0000-0003-4727-9435"
+    ],
+    "ror_ids": [
+      "https://ror.org/02jz4aj89",
+      "https://ror.org/035xkbk20"
+    ],
+    "grant_ids": [
+      "406.20.GO.030",
+      "ANR-16-CONV-0002",
+      "ANR-21-CE37-0027"
+    ],
+    "nct_ids": [],
+    "pmid_source": "nih_reporter"
+  },
+  "conflicts": {
+    "doi": "10.1101/2024.04.29.591634",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 1,
+          "openalex": 2,
+          "europe_pmc": 0,
+          "openaire": 7
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 48,
+          "openalex": 29
+        },
+        "risk": "low"
+      },
+      {
+        "field": "oa_status",
+        "values": {
+          "openalex": "gold",
+          "unpaywall": "gold",
+          "openaire": "hybrid"
+        },
+        "risk": "medium"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "posted-content",
+          "openalex": "preprint",
+          "unpaywall": "posted-content",
+          "openaire": "publication"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 6,
+          "openalex": 6,
+          "unpaywall": 6,
+          "europe_pmc": 6,
+          "openaire": 6,
+          "orcid": 4
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "openRxiv",
+          "unpaywall": "openRxiv",
+          "openaire": "Cold Spring Harbor Laboratory"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "openalex": "en",
+          "openaire": "und"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 3,
+    "conflict_count": 7
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1101/2024.04.29.591634",
+    "fetched_at": "2026-02-11T18:45:11.498063+00:00"
+  }
+}

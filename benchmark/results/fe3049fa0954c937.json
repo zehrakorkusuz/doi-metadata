@@ -1,0 +1,5049 @@
+{
+  "doi": "10.1093/bioinformatics/bts635",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T13:20:07.583261Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "STAR: ultrafast universal RNA-seq aligner",
+      "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Motivation: Accurate alignment of high-throughput RNA-seq data is a challenging and yet unsolved problem because of the non-contiguous transcript structure, relatively short read lengths and constantly increasing throughput of the sequencing technologies. Currently available RNA-seq aligners suffer from high mapping error rates, low mapping speed, read length limitation and mapping biases.</jats:p>\n                  <jats:p>Results: To align our large (&amp;gt;80 billon reads) ENCODE Transcriptome RNA-seq dataset, we developed the Spliced Transcripts Alignment to a Reference (STAR) software based on a previously undescribed RNA-seq alignment algorithm that uses sequential maximum mappable seed search in uncompressed suffix arrays followed by seed clustering and stitching procedure. STAR outperforms other aligners by a factor of &amp;gt;50 in mapping speed, aligning to the human genome 550 million 2 \u00d7 76 bp paired-end reads per hour on a modest 12-core server, while at the same time improving alignment sensitivity and precision. In addition to unbiased de novo detection of canonical junctions, STAR can discover non-canonical splices and chimeric (fusion) transcripts, and is also capable of mapping full-length RNA sequences. Using Roche 454 sequencing of reverse transcription polymerase chain reaction amplicons, we experimentally validated 1960 novel intergenic splice junctions with an 80\u201390% success rate, corroborating the high precision of the STAR mapping strategy.</jats:p>\n                  <jats:p>Availability and implementation: STAR is implemented as a standalone C++ code. STAR is free open source software distributed under GPLv3 license and can be downloaded from http://code.google.com/p/rna-star/.</jats:p>\n                  <jats:p>Contact: \u00a0dobin@cshl.edu.</jats:p>",
+      "publication_date": "2012-10-25",
+      "publication_year": 2012,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "Bioinformatics",
+      "volume": "29",
+      "issue": "1",
+      "pages": "15-21",
+      "issn": [
+        "1367-4811",
+        "1367-4803"
+      ],
+      "doi": "10.1093/bioinformatics/bts635",
+      "authors": [
+        {
+          "name": {
+            "given": "Alexander",
+            "family": "Dobin",
+            "full_name": "Alexander Dobin",
+            "sequence": "first",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA and 2Pacific Biosciences, Menlo Park, CA, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Carrie A.",
+            "family": "Davis",
+            "full_name": "Carrie A. Davis",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA and 2Pacific Biosciences, Menlo Park, CA, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Felix",
+            "family": "Schlesinger",
+            "full_name": "Felix Schlesinger",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA and 2Pacific Biosciences, Menlo Park, CA, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jorg",
+            "family": "Drenkow",
+            "full_name": "Jorg Drenkow",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA and 2Pacific Biosciences, Menlo Park, CA, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Chris",
+            "family": "Zaleski",
+            "full_name": "Chris Zaleski",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA and 2Pacific Biosciences, Menlo Park, CA, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sonali",
+            "family": "Jha",
+            "full_name": "Sonali Jha",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA and 2Pacific Biosciences, Menlo Park, CA, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Philippe",
+            "family": "Batut",
+            "full_name": "Philippe Batut",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA and 2Pacific Biosciences, Menlo Park, CA, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mark",
+            "family": "Chaisson",
+            "full_name": "Mark Chaisson",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA and 2Pacific Biosciences, Menlo Park, CA, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Thomas R.",
+            "family": "Gingeras",
+            "full_name": "Thomas R. Gingeras",
+            "sequence": "additional",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "1 Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA and 2Pacific Biosciences, Menlo Park, CA, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 47246,
+      "reference_count": 22,
+      "references": [
+        {
+          "doi": "10.1093/nar/gkq211",
+          "title": "Detection of splice junctions from paired-end RNA-seq data by SpliceMap",
+          "year": 2010,
+          "author": "Au",
+          "key": "2023020303204936400_bts635-B1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/gr.2289704",
+          "title": "Mauve: multiple alignment of conserved genomic sequence with rearrangements",
+          "year": 2004,
+          "author": "Darling",
+          "key": "2023020303204936400_bts635-B2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pone.0011147",
+          "title": "progressiveMauve: multiple genome alignment with gene gain, loss and rearrangement",
+          "year": 2010,
+          "author": "Darling",
+          "key": "2023020303204936400_bts635-B3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btn300",
+          "title": "Optimal spliced alignments of short sequence reads",
+          "year": 2008,
+          "author": "De Bona",
+          "key": "2023020303204936400_bts635-B4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/27.11.2369",
+          "title": "Alignment of whole genomes",
+          "year": 1999,
+          "author": "Delcher",
+          "key": "2023020303204936400_bts635-B5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/30.11.2478",
+          "title": "Fast algorithms for large-scale genome alignment and comparison",
+          "year": 2002,
+          "author": "Delcher",
+          "key": "2023020303204936400_bts635-B6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nature11233",
+          "title": "Landscape of transcription in human cells",
+          "year": 2012,
+          "author": "Djebali",
+          "key": "2023020303204936400_bts635-B7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nmeth.1459",
+          "title": "Direct detection of DNA methylation during single-molecule, real-time sequencing",
+          "year": 2010,
+          "author": "Flusberg",
+          "key": "2023020303204936400_bts635-B8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btr427",
+          "title": "Comparative analysis of RNA-Seq alignment algorithms and the RNA-Seq unified mapper (RUM)",
+          "year": 2011,
+          "author": "Grant",
+          "key": "2023020303204936400_bts635-B9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/j.tcb.2011.03.003",
+          "title": "Pre-mRNA splicing: where and when in the nucleus",
+          "year": 2011,
+          "author": "Han",
+          "key": "2023020303204936400_bts635-B10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/gr.135350.111",
+          "title": "GENCODE: The reference human genome annotation for the ENCODE project",
+          "year": 2012,
+          "author": "Harrow",
+          "key": "2023020303204936400_bts635-B11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1016/S0955-0674(00)00212-X",
+          "title": "Pre-mRNA splicing in the new millennium",
+          "year": 2001,
+          "author": "Hastings",
+          "key": "2023020303204936400_bts635-B12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/gb-2004-5-2-r12",
+          "title": "Versatile and open software for comparing large genomes",
+          "year": 2004,
+          "author": "Kurtz",
+          "key": "2023020303204936400_bts635-B13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "BLAT\u2013the BLAST-like alignment tool.",
+          "year": 2002,
+          "author": "Kent",
+          "key": "2023020303204936400_bts635-B22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/gr.136184.111",
+          "title": "ChIP-seq guidelines and practices of the ENCODE and modENCODE consortia",
+          "year": 2012,
+          "author": "Landt",
+          "key": "2023020303204936400_bts635-B14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1137/0222058",
+          "title": "Suffix arrays\u2014a new method for online string searches",
+          "year": 1993,
+          "author": "Manber",
+          "key": "2023020303204936400_bts635-B15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkp596",
+          "title": "Transcriptome analysis by strand-specific sequencing of complementary DNA",
+          "year": 2009,
+          "author": "Parkhomchuk",
+          "key": "2023020303204936400_bts635-B16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nature10242",
+          "title": "An integrated semiconductor device enabling non-optical genome sequencing",
+          "year": 2011,
+          "author": "Rothberg",
+          "key": "2023020303204936400_bts635-B17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btp120",
+          "title": "TopHat: discovering splice junctions with RNA-Seq",
+          "year": 2009,
+          "author": "Trapnell",
+          "key": "2023020303204936400_bts635-B18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkq622",
+          "title": "MapSplice: accurate mapping of RNA-seq reads for splice junction discovery",
+          "year": 2010,
+          "author": "Wang",
+          "key": "2023020303204936400_bts635-B19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btq057",
+          "title": "Fast and SNP-tolerant detection of complex variants and splicing in short reads",
+          "year": 2010,
+          "author": "Wu",
+          "key": "2023020303204936400_bts635-B20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btr712",
+          "title": "PASSion: a pattern growth algorithm-based pipeline for splice junction detection in paired-end RNA-Seq data",
+          "year": 2012,
+          "author": "Zhang",
+          "key": "2023020303204936400_bts635-B21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/29/1/15/49060422/bioinformatics_29_1_15.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/29/1/15/49060422/bioinformatics_29_1_15.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/bts635",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "STAR: ultrafast universal RNA-seq aligner",
+      "abstract": "Abstract Motivation: Accurate alignment of high-throughput RNA-seq data is a challenging and yet unsolved problem because of the non-contiguous transcript structure, relatively short read lengths and constantly increasing throughput of the sequencing technologies. Currently available RNA-seq aligners suffer from high mapping error rates, low mapping speed, read length limitation and mapping biases. Results: To align our large (&amp;gt;80 billon reads) ENCODE Transcriptome RNA-seq dataset, we developed the Spliced Transcripts Alignment to a Reference (STAR) software based on a previously undescribed RNA-seq alignment algorithm that uses sequential maximum mappable seed search in uncompressed suffix arrays followed by seed clustering and stitching procedure. STAR outperforms other aligners by a factor of &amp;gt;50 in mapping speed, aligning to the human genome 550 million 2 \u00d7 76 bp paired-end reads per hour on a modest 12-core server, while at the same time improving alignment sensitivity and precision. In addition to unbiased de novo detection of canonical junctions, STAR can discover non-canonical splices and chimeric (fusion) transcripts, and is also capable of mapping full-length RNA sequences. Using Roche 454 sequencing of reverse transcription polymerase chain reaction amplicons, we experimentally validated 1960 novel intergenic splice junctions with an 80\u201390% success rate, corroborating the high precision of the STAR mapping strategy. Availability and implementation: STAR is implemented as a standalone C++ code. STAR is free open source software distributed under GPLv3 license and can be downloaded from http://code.google.com/p/rna-star/. Contact: dobin@cshl.edu.",
+      "publication_date": "2012-10-25",
+      "publication_year": 2012,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310311648",
+      "container_title": "Bioinformatics",
+      "volume": "29",
+      "issue": "1",
+      "pages": "15-21",
+      "issn": [
+        "1367-4803",
+        "1367-4811"
+      ],
+      "doi": "10.1093/bioinformatics/bts635",
+      "pmid": "23104886",
+      "openalex_id": "https://openalex.org/W2169456326",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Alexander Dobin",
+            "orcid": "0000-0002-4115-9128",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Cold Spring Harbor Laboratory",
+              "ror_id": "https://ror.org/02qz8b764",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Pacific Biosciences (United States)",
+              "ror_id": "https://ror.org/00fcszb13",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5019977651",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Carrie Davis",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Cold Spring Harbor Laboratory",
+              "ror_id": "https://ror.org/02qz8b764",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Pacific Biosciences (United States)",
+              "ror_id": "https://ror.org/00fcszb13",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5111593857",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Felix Schlesinger",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Pacific Biosciences (United States)",
+              "ror_id": "https://ror.org/00fcszb13",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Cold Spring Harbor Laboratory",
+              "ror_id": "https://ror.org/02qz8b764",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5029421561",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "J\u00f6rg Drenkow",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Pacific Biosciences (United States)",
+              "ror_id": "https://ror.org/00fcszb13",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Cold Spring Harbor Laboratory",
+              "ror_id": "https://ror.org/02qz8b764",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5111957142",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Chris Zaleski",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Pacific Biosciences (United States)",
+              "ror_id": "https://ror.org/00fcszb13",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Cold Spring Harbor Laboratory",
+              "ror_id": "https://ror.org/02qz8b764",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5027700148",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Sonali Jha",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Pacific Biosciences (United States)",
+              "ror_id": "https://ror.org/00fcszb13",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Cold Spring Harbor Laboratory",
+              "ror_id": "https://ror.org/02qz8b764",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5071496329",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Philippe Batut",
+            "orcid": "0000-0003-4250-0663",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Cold Spring Harbor Laboratory",
+              "ror_id": "https://ror.org/02qz8b764",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Pacific Biosciences (United States)",
+              "ror_id": "https://ror.org/00fcszb13",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5026426674",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Mark Chaisson",
+            "orcid": "0000-0001-5395-1457",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Pacific Biosciences (United States)",
+              "ror_id": "https://ror.org/00fcszb13",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Cold Spring Harbor Laboratory",
+              "ror_id": "https://ror.org/02qz8b764",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5026460408",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "T Gingeras",
+            "orcid": "0000-0001-9106-3573",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Pacific Biosciences (United States)",
+              "ror_id": "https://ror.org/00fcszb13",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Cold Spring Harbor Laboratory",
+              "ror_id": "https://ror.org/02qz8b764",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5067538373",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 52894,
+      "reference_count": 25,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2026": 756,
+        "2025": 7884,
+        "2024": 9212,
+        "2023": 7406,
+        "2022": 6769,
+        "2021": 6602,
+        "2020": 5197,
+        "2019": 3600,
+        "2018": 2477,
+        "2017": 1510,
+        "2016": 797,
+        "2015": 422,
+        "2014": 194,
+        "2013": 42,
+        "2012": 9
+      },
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/bts635",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/29/1/15/17101697/bts635.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/bts635",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/bts635",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/29/1/15/17101697/bts635.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/bts635",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310311648",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23104886",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/23104886",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "http://repository.cshl.edu/id/eprint/28071/",
+          "landing_page_url": "http://repository.cshl.edu/id/eprint/28071/",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I2750212522",
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3530905",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3530905",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://academic.oup.com/bioinformatics/article-pdf/29/1/15/17101697/bts635.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "Genomics and Phylogenetic Studies",
+          "scheme": "openalex_topic",
+          "score": 0.9998999834060669,
+          "source": "openalex"
+        },
+        {
+          "value": "RNA modifications and cancer",
+          "scheme": "openalex_topic",
+          "score": 0.9984999895095825,
+          "source": "openalex"
+        },
+        {
+          "value": "RNA and protein synthesis mechanisms",
+          "scheme": "openalex_topic",
+          "score": 0.998199999332428,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.6207780838012695,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "JSON",
+          "scheme": "openalex_concept",
+          "score": 0.5520739555358887,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Computational biology",
+          "scheme": "openalex_concept",
+          "score": 0.49607691168785095,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Software",
+          "scheme": "openalex_concept",
+          "score": 0.47478267550468445,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "RNA-Seq",
+          "scheme": "openalex_concept",
+          "score": 0.4536069333553314,
+          "level": 5,
+          "source": "openalex"
+        },
+        {
+          "value": "Adapter (computing)",
+          "scheme": "openalex_concept",
+          "score": 0.4257257580757141,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Algorithm",
+          "scheme": "openalex_concept",
+          "score": 0.38917243480682373,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Biology",
+          "scheme": "openalex_concept",
+          "score": 0.3107697665691376,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Genetics",
+          "scheme": "openalex_concept",
+          "score": 0.2761869430541992,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Transcriptome",
+          "scheme": "openalex_concept",
+          "score": 0.19421446323394775,
+          "level": 4,
+          "source": "openalex"
+        },
+        {
+          "value": "Gene",
+          "scheme": "openalex_concept",
+          "score": 0.19036465883255005,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Database",
+          "scheme": "openalex_concept",
+          "score": 0.17621901631355286,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Programming language",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Gene expression",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 3,
+          "source": "openalex"
+        },
+        {
+          "value": "Operating system",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "RNA Splicing",
+          "descriptor_ui": "D012326",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "RNA Splicing",
+          "descriptor_ui": "D012326",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "RNA Splicing",
+          "descriptor_ui": "D012326",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genome, Human",
+          "descriptor_ui": "D015894",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genome, Human",
+          "descriptor_ui": "D015894",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Genome, Human",
+          "descriptor_ui": "D015894",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Cluster Analysis",
+          "descriptor_ui": "D016000",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Cluster Analysis",
+          "descriptor_ui": "D016000",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Cluster Analysis",
+          "descriptor_ui": "D016000",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Alignment",
+          "descriptor_ui": "D016415",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Alignment",
+          "descriptor_ui": "D016415",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Alignment",
+          "descriptor_ui": "D016415",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, RNA",
+          "descriptor_ui": "D017423",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, RNA",
+          "descriptor_ui": "D017423",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, RNA",
+          "descriptor_ui": "D017423",
+          "qualifier_name": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Gene Expression Profiling",
+          "descriptor_ui": "D020869",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Gene Expression Profiling",
+          "descriptor_ui": "D020869",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Gene Expression Profiling",
+          "descriptor_ui": "D020869",
+          "is_major_topic": false,
+          "source": "openalex"
+        }
+      ],
+      "keywords": [
+        "Computer science",
+        "JSON",
+        "Computational biology",
+        "Software",
+        "RNA-Seq",
+        "Adapter (computing)",
+        "Algorithm",
+        "Biology",
+        "Genetics",
+        "Transcriptome",
+        "Gene",
+        "Database"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 93.49001799,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.99982822,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 3618.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/bts635",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "STAR: ultrafast universal RNA-seq aligner",
+      "publication_date": "2012-10-25",
+      "publication_year": 2012,
+      "work_type": "journal-article",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "Bioinformatics",
+      "issn": [
+        "1367-4803",
+        "1367-4811"
+      ],
+      "doi": "10.1093/bioinformatics/bts635",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_locations": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/29/1/15/17101697/bts635.pdf",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/29/1/15/17101697/bts635.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/bts635",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/29/1/15/17101697/bts635.pdf",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/29/1/15/17101697/bts635.pdf",
+          "landing_page_url": "https://doi.org/10.1093/bioinformatics/bts635",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3530905",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3530905",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://academic.oup.com/bioinformatics/article-pdf/29/1/15/17101697/bts635.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "STAR: ultrafast universal RNA-seq aligner.",
+      "abstract": "<h4>Motivation</h4>Accurate alignment of high-throughput RNA-seq data is a challenging and yet unsolved problem because of the non-contiguous transcript structure, relatively short read lengths and constantly increasing throughput of the sequencing technologies. Currently available RNA-seq aligners suffer from high mapping error rates, low mapping speed, read length limitation and mapping biases.<h4>Results</h4>To align our large (>80 billon reads) ENCODE Transcriptome RNA-seq dataset, we developed the Spliced Transcripts Alignment to a Reference (STAR) software based on a previously undescribed RNA-seq alignment algorithm that uses sequential maximum mappable seed search in uncompressed suffix arrays followed by seed clustering and stitching procedure. STAR outperforms other aligners by a factor of >50 in mapping speed, aligning to the human genome 550 million 2 \u00d7 76 bp paired-end reads per hour on a modest 12-core server, while at the same time improving alignment sensitivity and precision. In addition to unbiased de novo detection of canonical junctions, STAR can discover non-canonical splices and chimeric (fusion) transcripts, and is also capable of mapping full-length RNA sequences. Using Roche 454 sequencing of reverse transcription polymerase chain reaction amplicons, we experimentally validated 1960 novel intergenic splice junctions with an 80-90% success rate, corroborating the high precision of the STAR mapping strategy.<h4>Availability and implementation</h4>STAR is implemented as a standalone C++ code. STAR is free open source software distributed under GPLv3 license and can be downloaded from http://code.google.com/p/rna-star/.",
+      "publication_year": 2013,
+      "language": "eng",
+      "container_title": "Bioinformatics (Oxford, England)",
+      "volume": "29",
+      "issue": "1",
+      "pages": "15-21",
+      "issn": [],
+      "doi": "10.1093/bioinformatics/bts635",
+      "pmid": "23104886",
+      "pmcid": "PMC3530905",
+      "authors": [
+        {
+          "name": {
+            "given": "Alexander",
+            "family": "Dobin",
+            "full_name": "Dobin A",
+            "orcid": "0000-0002-4115-9128",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA. dobin@cshl.edu",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Carrie A",
+            "family": "Davis",
+            "full_name": "Davis CA",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Felix",
+            "family": "Schlesinger",
+            "full_name": "Schlesinger F",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Jorg",
+            "family": "Drenkow",
+            "full_name": "Drenkow J",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Chris",
+            "family": "Zaleski",
+            "full_name": "Zaleski C",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Sonali",
+            "family": "Jha",
+            "full_name": "Jha S",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Philippe",
+            "family": "Batut",
+            "full_name": "Batut P",
+            "orcid": "0000-0003-4250-0663",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Mark",
+            "family": "Chaisson",
+            "full_name": "Chaisson M",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Thomas R",
+            "family": "Gingeras",
+            "full_name": "Gingeras TR",
+            "orcid": "0000-0001-9106-3573",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 40726,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": false,
+      "oa_locations": [],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "U54HG004557",
+          "agency": "NHGRI NIH HHS",
+          "agency_abbreviation": "HG",
+          "pi_names": [],
+          "source": "europe_pmc"
+        }
+      ],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Humans",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Cluster Analysis",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Gene Expression Profiling",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Sequence Alignment",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Sequence Alignment",
+          "qualifier_name": "methods",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, RNA",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Sequence Analysis, RNA",
+          "qualifier_name": "methods",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "RNA Splicing",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Genome, Human",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Algorithms",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Software",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        }
+      ],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 40726.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [
+        "geo"
+      ],
+      "corrections": [],
+      "full_text_urls": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/29/1/15/17101697/bts635.pdf",
+          "availability": "Free",
+          "document_style": "pdf",
+          "site": "Unpaywall"
+        },
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/bts635",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC3530905",
+          "availability": "Free",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC3530905?pdf=render",
+          "availability": "Free",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/bts635",
+          "availability": "Free",
+          "document_style": "doi",
+          "site": "DOI"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/bts635",
+      "pmid": "19683066",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/bts635",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/bts635",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/bts635",
+      "authors": [
+        {
+          "name": {
+            "given": "Philippe",
+            "family": "Batut",
+            "full_name": "Philippe Batut",
+            "orcid": "0000-0003-4250-0663",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Thomas",
+            "family": "Gingeras",
+            "full_name": "Thomas Gingeras",
+            "orcid": "0000-0001-9106-3573",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Alexander",
+            "family": "Dobin",
+            "full_name": "Alexander Dobin",
+            "orcid": "0000-0002-4115-9128",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0003-4250-0663",
+          "given_names": "Philippe",
+          "family_names": "Batut",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Cold Spring Harbor Laboratory",
+            "Columbia University",
+            "Princeton University",
+            "University of Washington",
+            "Universit\u00e9 Paul Sabatier"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0001-9106-3573",
+          "given_names": "Thomas",
+          "family_names": "Gingeras",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-4115-9128",
+          "given_names": "Alexander",
+          "family_names": "Dobin",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Cold Spring Harbor Laboratory"
+          ],
+          "emails": []
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/bts635",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc_annotations": {
+      "source": "europe_pmc_annotations",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/bioinformatics/bts635",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [
+        {
+          "annotation_type": "Cell Line",
+          "exact_text": "STAR",
+          "prefix": "",
+          "postfix": ": ultrafast universa",
+          "section": "Title (http://purl.org/dc/elements/1.1/title)",
+          "tags": [
+            {
+              "name": "STAR",
+              "uri": "http://web.expasy.org/cellosaurus/CVCL_AR73"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Clinical Drug",
+          "exact_text": "aligner",
+          "prefix": "t universal RNA-seq ",
+          "postfix": ".\nAccurate alignment",
+          "section": "Title (http://purl.org/dc/elements/1.1/title)",
+          "tags": [
+            {
+              "name": "Align",
+              "uri": "http://purl.bioontology.org/ontology/RXNORM/827148"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Clinical Drug",
+          "exact_text": "alignment",
+          "prefix": "q aligner.\nAccurate ",
+          "postfix": " of high-throughput ",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "Align",
+              "uri": "http://purl.bioontology.org/ontology/RXNORM/827148"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Sequence",
+          "exact_text": "transcript",
+          "prefix": " the non-contiguous ",
+          "postfix": " structure, relative",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "transcript",
+              "uri": "http://purl.obolibrary.org/obo/SO_0000673"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Clinical Drug",
+          "exact_text": "aligners",
+          "prefix": "y available RNA-seq ",
+          "postfix": " suffer from high ma",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "Align",
+              "uri": "http://purl.bioontology.org/ontology/RXNORM/827148"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Clinical Drug",
+          "exact_text": "align",
+          "prefix": " mapping biases.\nTo ",
+          "postfix": " our large (>80 bill",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "Align",
+              "uri": "http://purl.bioontology.org/ontology/RXNORM/827148"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Sequence",
+          "exact_text": "Transcripts",
+          "prefix": "veloped the Spliced ",
+          "postfix": " Alignment to a Refe",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "transcript",
+              "uri": "http://purl.obolibrary.org/obo/SO_0000673"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Clinical Drug",
+          "exact_text": "Alignment",
+          "prefix": "Spliced Transcripts ",
+          "postfix": " to a Reference (STA",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "Align",
+              "uri": "http://purl.bioontology.org/ontology/RXNORM/827148"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Cell Line",
+          "exact_text": "STAR",
+          "prefix": "ent to a Reference (",
+          "postfix": ") software based on ",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "STAR",
+              "uri": "http://web.expasy.org/cellosaurus/CVCL_AR73"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Clinical Drug",
+          "exact_text": "alignment",
+          "prefix": "undescribed RNA-seq ",
+          "postfix": " algorithm that uses",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "Align",
+              "uri": "http://purl.bioontology.org/ontology/RXNORM/827148"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Cell Line",
+          "exact_text": "STAR",
+          "prefix": "titching procedure. ",
+          "postfix": " outperforms other a",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "STAR",
+              "uri": "http://web.expasy.org/cellosaurus/CVCL_AR73"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Clinical Drug",
+          "exact_text": "aligners",
+          "prefix": "R outperforms other ",
+          "postfix": " by a factor of >50 ",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "Align",
+              "uri": "http://purl.bioontology.org/ontology/RXNORM/827148"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Clinical Drug",
+          "exact_text": "aligning",
+          "prefix": "0 in mapping speed, ",
+          "postfix": " to the human genome",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "Align",
+              "uri": "http://purl.bioontology.org/ontology/RXNORM/827148"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Sequence",
+          "exact_text": "genome",
+          "prefix": "igning to the human ",
+          "postfix": " 550 million 2 \u00d7 76 ",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "genome",
+              "uri": "http://purl.obolibrary.org/obo/SO_0001026"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Sequence",
+          "exact_text": "bp",
+          "prefix": " 550 million 2 \u00d7 76 ",
+          "postfix": " paired-end reads pe",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "base_pair",
+              "uri": "http://purl.obolibrary.org/obo/SO_0000028"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Clinical Drug",
+          "exact_text": "alignment",
+          "prefix": "same time improving ",
+          "postfix": " sensitivity and pre",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "Align",
+              "uri": "http://purl.bioontology.org/ontology/RXNORM/827148"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Cell Line",
+          "exact_text": "STAR",
+          "prefix": "anonical junctions, ",
+          "postfix": " can discover non-ca",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "STAR",
+              "uri": "http://web.expasy.org/cellosaurus/CVCL_AR73"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Sequence",
+          "exact_text": "transcripts",
+          "prefix": "d chimeric (fusion) ",
+          "postfix": ", and is also capabl",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "transcript",
+              "uri": "http://purl.obolibrary.org/obo/SO_0000673"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Cell Line",
+          "exact_text": "STAR",
+          "prefix": "gh precision of the ",
+          "postfix": " mapping strategy.\nS",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "STAR",
+              "uri": "http://web.expasy.org/cellosaurus/CVCL_AR73"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Cell Line",
+          "exact_text": "STAR",
+          "prefix": "R mapping strategy.\n",
+          "postfix": " is implemented as a",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "STAR",
+              "uri": "http://web.expasy.org/cellosaurus/CVCL_AR73"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Cell Line",
+          "exact_text": "STAR",
+          "prefix": "tandalone C++ code. ",
+          "postfix": " is free open source",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "STAR",
+              "uri": "http://web.expasy.org/cellosaurus/CVCL_AR73"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Cell Line",
+          "exact_text": "com",
+          "prefix": " http://code.google.",
+          "postfix": "/p/rna-star/.\n",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "CoMS",
+              "uri": "http://web.expasy.org/cellosaurus/CVCL_L345"
+            }
+          ],
+          "provider": "OntoGene",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Experimental Methods",
+          "exact_text": "RNA-seq",
+          "prefix": "alignment of high-throughput",
+          "postfix": "data is a",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "rnaseq",
+              "uri": "http://www.ebi.ac.uk/efo/EFO_0008896"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Experimental Methods",
+          "exact_text": "RNA-seq",
+          "prefix": "Currently available",
+          "postfix": "aligners suffer from",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "rnaseq",
+              "uri": "http://www.ebi.ac.uk/efo/EFO_0008896"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Experimental Methods",
+          "exact_text": "RNA-seq",
+          "prefix": "reads) ENCODE Transcriptome",
+          "postfix": "dataset, we developed",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "rnaseq",
+              "uri": "http://www.ebi.ac.uk/efo/EFO_0008896"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Experimental Methods",
+          "exact_text": "RNA-seq",
+          "prefix": "a previously undescribed",
+          "postfix": "alignment algorithm that",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "rnaseq",
+              "uri": "http://www.ebi.ac.uk/efo/EFO_0008896"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Organisms",
+          "exact_text": "human",
+          "prefix": "aligning to the",
+          "postfix": "genome 550 million",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "human",
+              "uri": "http://identifiers.org/taxonomy/9606"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Gene Ontology",
+          "exact_text": "reverse transcription",
+          "prefix": "454 sequencing of",
+          "postfix": "transcription polymerase chain",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "reverse transcription",
+              "uri": "http://identifiers.org/GO:0001171"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Experimental Methods",
+          "exact_text": "RNA-seq",
+          "prefix": "STAR: ultrafast universal",
+          "postfix": "aligner",
+          "section": "Title (http://purl.org/dc/elements/1.1/title)",
+          "tags": [
+            {
+              "name": "rnaseq",
+              "uri": "http://www.ebi.ac.uk/efo/EFO_0008896"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Gene_Proteins",
+          "exact_text": "polymerase",
+          "prefix": "of reverse transcription",
+          "postfix": "chain reaction amplicons,",
+          "section": "Abstract (http://purl.org/dc/terms/abstract)",
+          "tags": [
+            {
+              "name": "SPT_0170",
+              "uri": "https://www.uniprot.org/uniprotkb/C1CP08/entry"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Chemicals",
+          "exact_text": "nucleotide",
+          "tags": [
+            {
+              "name": "nucleotide",
+              "uri": "http://purl.obolibrary.org/obo/CHEBI_36976"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Experimental Methods",
+          "exact_text": "RNA-seq",
+          "tags": [
+            {
+              "name": "rnaseq",
+              "uri": "http://www.ebi.ac.uk/efo/EFO_0008896"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Organisms",
+          "exact_text": "mouse",
+          "tags": [
+            {
+              "name": "transgenic mice",
+              "uri": "http://identifiers.org/taxonomy/10090"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Organisms",
+          "exact_text": "human",
+          "tags": [
+            {
+              "name": "human",
+              "uri": "http://identifiers.org/taxonomy/9606"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Gene_Proteins",
+          "exact_text": "nuclease",
+          "tags": [
+            {
+              "name": "Plscr1",
+              "uri": "https://www.uniprot.org/uniprotkb/P58195/entry"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Experimental Methods",
+          "exact_text": "ChIP-seq",
+          "tags": [
+            {
+              "name": "chipseq",
+              "uri": "http://www.ebi.ac.uk/efo/EFO_0002692"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Gene Ontology",
+          "exact_text": "reverse transcription",
+          "tags": [
+            {
+              "name": "reverse transcription",
+              "uri": "http://identifiers.org/GO:0001171"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Gene_Proteins",
+          "exact_text": "polymerase",
+          "tags": [
+            {
+              "name": "SPT_0170",
+              "uri": "https://www.uniprot.org/uniprotkb/C1CP08/entry"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Accession Numbers",
+          "exact_text": "GSE38886",
+          "tags": [
+            {
+              "name": "GSE38886",
+              "uri": "http://identifiers.org/geo:GSE38886"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        },
+        {
+          "annotation_type": "Accession Numbers",
+          "exact_text": "GSE30567",
+          "tags": [
+            {
+              "name": "GSE30567",
+              "uri": "http://identifiers.org/geo:GSE30567"
+            }
+          ],
+          "provider": "Europe PMC",
+          "source": "europe_pmc_annotations"
+        }
+      ],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1093/bioinformatics/bts635",
+    "pmid": "23104886",
+    "pmcid": "PMC3530905",
+    "openalex_id": "https://openalex.org/W2169456326",
+    "handles": [],
+    "orcids": [
+      "0000-0001-5395-1457",
+      "0000-0001-9106-3573",
+      "0000-0002-4115-9128",
+      "0000-0003-4250-0663"
+    ],
+    "ror_ids": [
+      "https://ror.org/00fcszb13",
+      "https://ror.org/02qz8b764"
+    ],
+    "grant_ids": [
+      "U54HG004557"
+    ],
+    "nct_ids": [],
+    "pmid_source": "europe_pmc",
+    "pmcid_source": "europe_pmc"
+  },
+  "conflicts": {
+    "doi": "10.1093/bioinformatics/bts635",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 47246,
+          "openalex": 52894,
+          "europe_pmc": 40726
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 22,
+          "openalex": 25
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publication_year",
+        "values": {
+          "crossref": 2012,
+          "openalex": 2012,
+          "unpaywall": 2012,
+          "europe_pmc": 2013
+        },
+        "risk": "low"
+      },
+      {
+        "field": "is_oa",
+        "values": {
+          "openalex": true,
+          "unpaywall": true,
+          "europe_pmc": false
+        },
+        "risk": "medium"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 9,
+          "openalex": 9,
+          "unpaywall": 9,
+          "europe_pmc": 9,
+          "orcid": 3
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Oxford University Press (OUP)",
+          "openalex": "https://openalex.org/P4310311648",
+          "unpaywall": "Oxford University Press (OUP)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Bioinformatics",
+          "openalex": "Bioinformatics",
+          "unpaywall": "Bioinformatics",
+          "europe_pmc": "Bioinformatics (Oxford, England)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "mesh_term_count",
+        "values": {
+          "openalex": 27,
+          "europe_pmc": 11
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng"
+        },
+        "risk": "low"
+      }
+    ],
+    "agreement_count": 0,
+    "conflict_count": 10
+  },
+  "datacite_linked_datasets": [
+    {
+      "identifier": "10.26008/1912/bco-dmo.934800.1",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Bioproject accession information on tag-sequence data for Pisaster ochraceus samples collected from Bodega Bay, CA, in July 2019",
+      "publisher": "Biological and Chemical Oceanography Data Management Office (BCO-DMO)",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.26008/1912/bco-dmo.949777.1",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Transcriptomics of phytoplankton cultures grown on various phosphorus sources in a laboratory experiment",
+      "publisher": "Biological and Chemical Oceanography Data Management Office (BCO-DMO)",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.27042447.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Additional file 1 of Optimization of ribosome profiling in plants including structural analysis of rRNA fragments",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.26756164.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Audiovisual",
+      "title": "Additional file 1 of SMARCA4 controls state plasticity in small cell lung cancer through regulation of neuroendocrine transcription factors and REST splicing",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.20086171.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 9 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.20086168.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 8 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.20086162.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 6 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.20086165.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 7 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.20086156.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 5 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.20086153.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 4 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.20086147.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 2 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.20086144.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 1 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.20086150.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 3 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.20086141.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 17 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.20086135.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 15 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.20086138.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 16 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.20086123.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 11 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.20086126.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 12 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.20086129.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 13 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.20086132.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 14 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.20086120.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Text",
+      "title": "Additional file 10 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.19424934.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Additional file 8 of A comparison of transcriptome analysis methods with reference genome",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.27071887.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Additional file 8 of Recruitment of the m6A/m6Am demethylase FTO to target RNAs by the telomeric zinc finger protein ZBTB48",
+      "publisher": "figshare",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.4230/lipics.wabi.2017.15",
+      "identifier_type": "DOI",
+      "resource_type": "ConferencePaper",
+      "title": "abSNP: RNA-Seq SNP Calling in Repetitive Regions via Abundance Estimation",
+      "publisher": "Schloss Dagstuhl \u2013 Leibniz-Zentrum f\u00fcr Informatik",
+      "source": "datacite"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.19728043.v1",
+      "identifier_type": "DOI",
+      "resource_type": "Dataset",
+      "title": "Additional file 1 of Comparative 3D genome architecture in vertebrates",
+      "publisher": "figshare",
+      "source": "datacite"
+    }
+  ],
+  "analyses": {
+    "impact": {
+      "doi": "10.1093/bioinformatics/bts635",
+      "citation_comparison": {
+        "values": {
+          "crossref": 47246,
+          "openalex": 52894,
+          "europe_pmc": 40726
+        },
+        "min": 40726,
+        "max": 52894,
+        "spread": 12168,
+        "median": 47246
+      },
+      "fwci": 93.49001799,
+      "citation_percentile": 0.99982822,
+      "citation_trend": [
+        {
+          "year": 2012,
+          "count": 9
+        },
+        {
+          "year": 2013,
+          "count": 42
+        },
+        {
+          "year": 2014,
+          "count": 194
+        },
+        {
+          "year": 2015,
+          "count": 422
+        },
+        {
+          "year": 2016,
+          "count": 797
+        },
+        {
+          "year": 2017,
+          "count": 1510
+        },
+        {
+          "year": 2018,
+          "count": 2477
+        },
+        {
+          "year": 2019,
+          "count": 3600
+        },
+        {
+          "year": 2020,
+          "count": 5197
+        },
+        {
+          "year": 2021,
+          "count": 6602
+        },
+        {
+          "year": 2022,
+          "count": 6769
+        },
+        {
+          "year": 2023,
+          "count": 7406
+        },
+        {
+          "year": 2024,
+          "count": 9212
+        },
+        {
+          "year": 2025,
+          "count": 7884
+        },
+        {
+          "year": 2026,
+          "count": 756
+        }
+      ],
+      "trend_direction": "declining",
+      "dataset_reuse_count": 25,
+      "narrative": "Cited ~47246 times across sources. FWCI 93.5x field average. Citation trend: declining. 25 downstream datasets reference this work."
+    },
+    "funding": {
+      "doi": "10.1093/bioinformatics/bts635",
+      "total_funders": 1,
+      "total_grants": 1,
+      "entries": [
+        {
+          "grant_id": "U54HG004557",
+          "funder_name": "NHGRI NIH HHS",
+          "award_numbers": [],
+          "pi_names": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "nih_grants": [
+        {
+          "grant_id": "U54HG004557",
+          "funder_name": "NHGRI NIH HHS",
+          "award_numbers": [],
+          "pi_names": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "eu_grants": [],
+      "other_grants": [],
+      "funding_agencies": [
+        "NHGRI NIH HHS"
+      ],
+      "narrative": "Funded by 1 agencies across 1 grants. 1 NIH grants."
+    },
+    "dataset_reuse": {
+      "doi": "10.1093/bioinformatics/bts635",
+      "datacite_linked_datasets": [
+        {
+          "identifier": "10.26008/1912/bco-dmo.934800.1",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Bioproject accession information on tag-sequence data for Pisaster ochraceus samples collected from Bodega Bay, CA, in July 2019",
+          "publisher": "Biological and Chemical Oceanography Data Management Office (BCO-DMO)",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.26008/1912/bco-dmo.949777.1",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Transcriptomics of phytoplankton cultures grown on various phosphorus sources in a laboratory experiment",
+          "publisher": "Biological and Chemical Oceanography Data Management Office (BCO-DMO)",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.27042447.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Additional file 1 of Optimization of ribosome profiling in plants including structural analysis of rRNA fragments",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.26756164.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Audiovisual",
+          "title": "Additional file 1 of SMARCA4 controls state plasticity in small cell lung cancer through regulation of neuroendocrine transcription factors and REST splicing",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.20086171.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 9 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.20086168.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 8 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.20086162.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 6 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.20086165.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 7 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.20086156.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 5 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.20086153.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 4 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.20086147.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 2 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.20086144.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 1 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.20086150.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 3 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.20086141.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 17 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.20086135.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 15 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.20086138.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 16 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.20086123.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 11 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.20086126.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 12 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.20086129.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 13 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.20086132.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 14 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.20086120.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Text",
+          "title": "Additional file 10 of The extensive transgenerational transcriptomic effects of ocean acidification on the olfactory epithelium of a marine fish are associated with a better viral resistance",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.19424934.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Additional file 8 of A comparison of transcriptome analysis methods with reference genome",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.27071887.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Additional file 8 of Recruitment of the m6A/m6Am demethylase FTO to target RNAs by the telomeric zinc finger protein ZBTB48",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.4230/lipics.wabi.2017.15",
+          "identifier_type": "DOI",
+          "resource_type": "ConferencePaper",
+          "title": "abSNP: RNA-Seq SNP Calling in Repetitive Regions via Abundance Estimation",
+          "publisher": "Schloss Dagstuhl \u2013 Leibniz-Zentrum f\u00fcr Informatik",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        },
+        {
+          "identifier": "10.6084/m9.figshare.19728043.v1",
+          "identifier_type": "DOI",
+          "resource_type": "Dataset",
+          "title": "Additional file 1 of Comparative 3D genome architecture in vertebrates",
+          "publisher": "figshare",
+          "sources": [
+            "datacite_reverse_search"
+          ]
+        }
+      ],
+      "datacite_linked_count": 25,
+      "publishers_breakdown": {
+        "figshare": 22,
+        "Biological and Chemical Oceanography Data Management Office (BCO-DMO)": 2,
+        "Schloss Dagstuhl \u2013 Leibniz-Zentrum f\u00fcr Informatik": 1
+      },
+      "supplements_to": [],
+      "supplemented_by": [],
+      "cites": [],
+      "cited_by": [],
+      "derived_from": [],
+      "source_of": [],
+      "parts": [],
+      "other_relations": [],
+      "related_software": [],
+      "related_data": [],
+      "file_count": 0,
+      "file_types": [],
+      "narrative": "25 downstream datasets reference this work (mostly from figshare: 22)."
+    },
+    "authors": {
+      "doi": "10.1093/bioinformatics/bts635",
+      "authors": [
+        {
+          "given": "Alexander",
+          "family": "Dobin",
+          "full_name": "Alexander Dobin",
+          "orcid": "0000-0002-4115-9128",
+          "authenticated_orcid": false,
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5019977651",
+          "affiliations": [
+            {
+              "name": "Cold Spring Harbor Laboratory",
+              "ror_id": "https://ror.org/02qz8b764",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Pacific Biosciences (United States)",
+              "ror_id": "https://ror.org/00fcszb13",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA. dobin@cshl.edu",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "1 Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA and 2Pacific Biosciences, Menlo Park, CA, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "openalex",
+            "europe_pmc",
+            "orcid",
+            "crossref"
+          ],
+          "name_variants": [
+            "Alexander Dobin",
+            "Dobin A"
+          ]
+        },
+        {
+          "given": "Philippe",
+          "family": "Batut",
+          "full_name": "Philippe Batut",
+          "orcid": "0000-0003-4250-0663",
+          "authenticated_orcid": false,
+          "openalex_author_id": "https://openalex.org/A5026426674",
+          "affiliations": [
+            {
+              "name": "Cold Spring Harbor Laboratory",
+              "ror_id": "https://ror.org/02qz8b764",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Pacific Biosciences (United States)",
+              "ror_id": "https://ror.org/00fcszb13",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "1 Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA and 2Pacific Biosciences, Menlo Park, CA, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "openalex",
+            "europe_pmc",
+            "orcid",
+            "crossref"
+          ],
+          "name_variants": [
+            "Batut P",
+            "Philippe Batut"
+          ]
+        },
+        {
+          "full_name": "Mark Chaisson",
+          "orcid": "0000-0001-5395-1457",
+          "authenticated_orcid": false,
+          "openalex_author_id": "https://openalex.org/A5026460408",
+          "affiliations": [
+            {
+              "name": "Pacific Biosciences (United States)",
+              "ror_id": "https://ror.org/00fcszb13",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Cold Spring Harbor Laboratory",
+              "ror_id": "https://ror.org/02qz8b764",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": [
+            "Mark Chaisson"
+          ]
+        },
+        {
+          "given": "Thomas R",
+          "family": "Gingeras",
+          "full_name": "T Gingeras",
+          "orcid": "0000-0001-9106-3573",
+          "authenticated_orcid": false,
+          "openalex_author_id": "https://openalex.org/A5067538373",
+          "affiliations": [
+            {
+              "name": "Pacific Biosciences (United States)",
+              "ror_id": "https://ror.org/00fcszb13",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Cold Spring Harbor Laboratory",
+              "ror_id": "https://ror.org/02qz8b764",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex",
+            "europe_pmc",
+            "orcid"
+          ],
+          "name_variants": [
+            "Gingeras TR",
+            "T Gingeras",
+            "Thomas Gingeras"
+          ]
+        },
+        {
+          "given": "Carrie A.",
+          "family": "Davis",
+          "full_name": "Carrie A. Davis",
+          "authenticated_orcid": false,
+          "sequence": "additional",
+          "affiliations": [
+            {
+              "name": "1 Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA and 2Pacific Biosciences, Menlo Park, CA, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Felix",
+          "family": "Schlesinger",
+          "full_name": "Felix Schlesinger",
+          "authenticated_orcid": false,
+          "sequence": "additional",
+          "affiliations": [
+            {
+              "name": "1 Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA and 2Pacific Biosciences, Menlo Park, CA, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref",
+            "europe_pmc"
+          ],
+          "name_variants": [
+            "Schlesinger F"
+          ]
+        },
+        {
+          "given": "Jorg",
+          "family": "Drenkow",
+          "full_name": "Jorg Drenkow",
+          "authenticated_orcid": false,
+          "sequence": "additional",
+          "affiliations": [
+            {
+              "name": "1 Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA and 2Pacific Biosciences, Menlo Park, CA, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref",
+            "europe_pmc"
+          ],
+          "name_variants": [
+            "Drenkow J"
+          ]
+        },
+        {
+          "given": "Chris",
+          "family": "Zaleski",
+          "full_name": "Chris Zaleski",
+          "authenticated_orcid": false,
+          "sequence": "additional",
+          "affiliations": [
+            {
+              "name": "1 Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA and 2Pacific Biosciences, Menlo Park, CA, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref",
+            "europe_pmc"
+          ],
+          "name_variants": [
+            "Zaleski C"
+          ]
+        },
+        {
+          "given": "Sonali",
+          "family": "Jha",
+          "full_name": "Sonali Jha",
+          "authenticated_orcid": false,
+          "sequence": "additional",
+          "affiliations": [
+            {
+              "name": "1 Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA and 2Pacific Biosciences, Menlo Park, CA, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref",
+            "europe_pmc"
+          ],
+          "name_variants": [
+            "Jha S"
+          ]
+        },
+        {
+          "given": "Mark",
+          "family": "Chaisson",
+          "full_name": "Mark Chaisson",
+          "authenticated_orcid": false,
+          "sequence": "additional",
+          "affiliations": [
+            {
+              "name": "1 Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA and 2Pacific Biosciences, Menlo Park, CA, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref",
+            "europe_pmc"
+          ],
+          "name_variants": [
+            "Chaisson M"
+          ]
+        },
+        {
+          "given": "Thomas R.",
+          "family": "Gingeras",
+          "full_name": "Thomas R. Gingeras",
+          "authenticated_orcid": false,
+          "sequence": "additional",
+          "affiliations": [
+            {
+              "name": "1 Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA and 2Pacific Biosciences, Menlo Park, CA, USA",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Carrie Davis",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5111593857",
+          "affiliations": [
+            {
+              "name": "Cold Spring Harbor Laboratory",
+              "ror_id": "https://ror.org/02qz8b764",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Pacific Biosciences (United States)",
+              "ror_id": "https://ror.org/00fcszb13",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Felix Schlesinger",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5029421561",
+          "affiliations": [
+            {
+              "name": "Pacific Biosciences (United States)",
+              "ror_id": "https://ror.org/00fcszb13",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Cold Spring Harbor Laboratory",
+              "ror_id": "https://ror.org/02qz8b764",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "J\u00f6rg Drenkow",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5111957142",
+          "affiliations": [
+            {
+              "name": "Pacific Biosciences (United States)",
+              "ror_id": "https://ror.org/00fcszb13",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Cold Spring Harbor Laboratory",
+              "ror_id": "https://ror.org/02qz8b764",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Chris Zaleski",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5027700148",
+          "affiliations": [
+            {
+              "name": "Pacific Biosciences (United States)",
+              "ror_id": "https://ror.org/00fcszb13",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Cold Spring Harbor Laboratory",
+              "ror_id": "https://ror.org/02qz8b764",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "full_name": "Sonali Jha",
+          "authenticated_orcid": false,
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5071496329",
+          "affiliations": [
+            {
+              "name": "Pacific Biosciences (United States)",
+              "ror_id": "https://ror.org/00fcszb13",
+              "country_code": "US",
+              "source": "openalex"
+            },
+            {
+              "name": "Cold Spring Harbor Laboratory",
+              "ror_id": "https://ror.org/02qz8b764",
+              "country_code": "US",
+              "source": "openalex"
+            }
+          ],
+          "sources": [
+            "openalex"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ],
+          "name_variants": []
+        },
+        {
+          "given": "Carrie A",
+          "family": "Davis",
+          "full_name": "Davis CA",
+          "authenticated_orcid": false,
+          "affiliations": [],
+          "sources": [
+            "europe_pmc"
+          ],
+          "name_variants": []
+        }
+      ],
+      "total_authors": 26,
+      "authors_with_orcid": 4,
+      "authors_with_authenticated_orcid": 0,
+      "unique_institutions": [
+        "1 Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA and 2Pacific Biosciences, Menlo Park, CA, USA",
+        "Cold Spring Harbor Laboratory",
+        "Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA. dobin@cshl.edu",
+        "Pacific Biosciences (United States)"
+      ],
+      "unique_countries": [
+        "US"
+      ],
+      "orcid_coverage": 0.154,
+      "author_count_by_source": {
+        "crossref": 9,
+        "openalex": 9,
+        "unpaywall": 9,
+        "europe_pmc": 9,
+        "orcid": 3
+      },
+      "narrative": "26 unique authors across 5 sources. 4 have ORCID (15% coverage). 4 institutions. Spanning 1 countries (US). Author count varies: 3\u20139 across sources. 8 authors confirmed by multiple sources."
+    },
+    "grant_siblings": {
+      "doi": "10.1093/bioinformatics/bts635",
+      "grants_with_siblings": [
+        {
+          "grant_id": "U54HG004557",
+          "agency": "NHGRI NIH HHS",
+          "pi_names": [],
+          "sibling_pmid_count": 0,
+          "sibling_pmids": [],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "total_sibling_pmids": 0,
+      "unique_sibling_pmids": 0,
+      "most_prolific_count": 0,
+      "multi_grant_pmids": 0,
+      "narrative": "1 grants identified but no sibling publication data available."
+    },
+    "oa_audit": {
+      "doi": "10.1093/bioinformatics/bts635",
+      "source_claims": [
+        {
+          "source": "openalex",
+          "is_oa": true,
+          "oa_status": "bronze",
+          "best_url": "https://academic.oup.com/bioinformatics/article-pdf/29/1/15/17101697/bts635.pdf",
+          "version": "publishedVersion",
+          "host_type": "journal"
+        },
+        {
+          "source": "unpaywall",
+          "is_oa": true,
+          "oa_status": "bronze",
+          "best_url": "https://academic.oup.com/bioinformatics/article-pdf/29/1/15/17101697/bts635.pdf",
+          "version": "publishedVersion",
+          "host_type": "publisher",
+          "evidence": "deprecated"
+        },
+        {
+          "source": "europe_pmc",
+          "is_oa": false
+        }
+      ],
+      "consensus_is_oa": true,
+      "consensus_status": "bronze",
+      "status_agrees": true,
+      "all_locations": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/29/1/15/49060422/bioinformatics_29_1_15.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "url": "https://doi.org/10.1093/bioinformatics/bts635",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/29/1/15/17101697/bts635.pdf",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "repository": "https://openalex.org/P4310311648",
+          "is_best": true,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23104886",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "repository": "https://openalex.org/I1299303238",
+          "is_best": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "url": "http://repository.cshl.edu/id/eprint/28071/",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "repository": "https://openalex.org/I2750212522",
+          "is_best": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3530905",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "repository": "https://openalex.org/I1299303238",
+          "is_best": false,
+          "sources": [
+            "openalex",
+            "unpaywall"
+          ]
+        },
+        {
+          "url": "https://academic.oup.com/bioinformatics/article-pdf/29/1/15/17101697/bts635.pdf",
+          "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/29/1/15/17101697/bts635.pdf",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "is_best": true,
+          "evidence": "deprecated",
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "total_locations": 6,
+      "has_publisher_version": true,
+      "has_accepted_manuscript": false,
+      "has_repository_copy": true,
+      "licenses_found": [],
+      "status_conflict": false,
+      "conflicting_statuses": {},
+      "narrative": "Open Access (bronze). 6 unique OA locations found. Publisher version available. Repository copy available. 1 locations confirmed by multiple sources."
+    },
+    "topics": {
+      "doi": "10.1093/bioinformatics/bts635",
+      "fields_of_study": [
+        {
+          "value": "Genomics and Phylogenetic Studies",
+          "scheme": "openalex_topic",
+          "score": 0.9998999834060669,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "RNA modifications and cancer",
+          "scheme": "openalex_topic",
+          "score": 0.9984999895095825,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "RNA and protein synthesis mechanisms",
+          "scheme": "openalex_topic",
+          "score": 0.998199999332428,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "value": "Computer science",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "JSON",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Computational biology",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Software",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "RNA-Seq",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Adapter (computing)",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Algorithm",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Biology",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Genetics",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Transcriptome",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Gene",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Database",
+          "scheme": "keyword",
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Algorithms",
+          "descriptor_ui": "D000465",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Humans",
+          "descriptor_ui": "D006801",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "RNA Splicing",
+          "descriptor_ui": "D012326",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "RNA Splicing",
+          "descriptor_ui": "D012326",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "RNA Splicing",
+          "descriptor_ui": "D012326",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Genome, Human",
+          "descriptor_ui": "D015894",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Genome, Human",
+          "descriptor_ui": "D015894",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Genome, Human",
+          "descriptor_ui": "D015894",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Cluster Analysis",
+          "descriptor_ui": "D016000",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Cluster Analysis",
+          "descriptor_ui": "D016000",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Cluster Analysis",
+          "descriptor_ui": "D016000",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Sequence Alignment",
+          "descriptor_ui": "D016415",
+          "qualifier": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Sequence Alignment",
+          "descriptor_ui": "D016415",
+          "qualifier": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Sequence Alignment",
+          "descriptor_ui": "D016415",
+          "qualifier": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Sequence Analysis, RNA",
+          "descriptor_ui": "D017423",
+          "qualifier": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Sequence Analysis, RNA",
+          "descriptor_ui": "D017423",
+          "qualifier": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Sequence Analysis, RNA",
+          "descriptor_ui": "D017423",
+          "qualifier": "methods",
+          "qualifier_ui": "Q000379",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Gene Expression Profiling",
+          "descriptor_ui": "D020869",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Gene Expression Profiling",
+          "descriptor_ui": "D020869",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Gene Expression Profiling",
+          "descriptor_ui": "D020869",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor": "Humans",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Cluster Analysis",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Gene Expression Profiling",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Sequence Alignment",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Sequence Alignment",
+          "qualifier": "methods",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Sequence Analysis, RNA",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Sequence Analysis, RNA",
+          "qualifier": "methods",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "RNA Splicing",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Genome, Human",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Algorithms",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor": "Software",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        }
+      ],
+      "sdg_mappings": [],
+      "openalex_concepts": [
+        {
+          "value": "Computational biology",
+          "scheme": "openalex_concept",
+          "score": 0.49607691168785095,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Algorithm",
+          "scheme": "openalex_concept",
+          "score": 0.38917243480682373,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Genetics",
+          "scheme": "openalex_concept",
+          "score": 0.2761869430541992,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Database",
+          "scheme": "openalex_concept",
+          "score": 0.17621901631355286,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Programming language",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Operating system",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "JSON",
+          "scheme": "openalex_concept",
+          "score": 0.5520739555358887,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Software",
+          "scheme": "openalex_concept",
+          "score": 0.47478267550468445,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Adapter (computing)",
+          "scheme": "openalex_concept",
+          "score": 0.4257257580757141,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Gene",
+          "scheme": "openalex_concept",
+          "score": 0.19036465883255005,
+          "level": 2,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Gene expression",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 3,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Transcriptome",
+          "scheme": "openalex_concept",
+          "score": 0.19421446323394775,
+          "level": 4,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "RNA-Seq",
+          "scheme": "openalex_concept",
+          "score": 0.4536069333553314,
+          "level": 5,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.6207780838012695,
+          "level": 0,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "value": "Biology",
+          "scheme": "openalex_concept",
+          "score": 0.3107697665691376,
+          "level": 0,
+          "is_major": false,
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "s2_fields": [],
+      "asjc_subjects": [],
+      "all_topics_flat": [
+        "Adapter (computing)",
+        "Algorithm",
+        "Algorithms",
+        "Biology",
+        "Cluster Analysis",
+        "Computational biology",
+        "Computer science",
+        "Database",
+        "Gene",
+        "Gene Expression Profiling",
+        "Gene expression",
+        "Genetics",
+        "Genome, Human",
+        "Genomics and Phylogenetic Studies",
+        "Humans",
+        "JSON",
+        "Operating system",
+        "Programming language",
+        "RNA Splicing",
+        "RNA and protein synthesis mechanisms",
+        "RNA modifications and cancer",
+        "RNA-Seq",
+        "Sequence Alignment",
+        "Sequence Analysis, RNA",
+        "Software",
+        "Transcriptome"
+      ],
+      "vocabulary_count": 4,
+      "topics_by_vocabulary": {
+        "openalex_topic": 1,
+        "OpenAlex_Concepts": 1,
+        "Keywords": 1,
+        "MeSH": 38
+      },
+      "narrative": "Classified in 4 vocabularies. Fields of study: Genomics and Phylogenetic Studies, RNA modifications and cancer, RNA and protein synthesis mechanisms. Major MeSH terms: Software, Software, Software. Broad concepts: Computational biology, Algorithm, Genetics. 12 unique keywords."
+    }
+  },
+  "discrepancy_report": {
+    "doi": "10.1093/bioinformatics/bts635",
+    "sources_queried": 11,
+    "sources_found": 7,
+    "sources_not_found": 5,
+    "sources_errored": 0,
+    "total_discrepancies": 8,
+    "high_risk_count": 2,
+    "medium_risk_count": 1,
+    "low_risk_count": 5,
+    "data_completeness_score": 0.875,
+    "source_coverage": [
+      {
+        "source": "crossref",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "datacite",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "openalex",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": false,
+        "has_subjects": true,
+        "has_related_works": false
+      },
+      {
+        "source": "semantic_scholar",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "unpaywall",
+        "found": true,
+        "has_title": true,
+        "has_citations": false,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "europe_pmc",
+        "found": true,
+        "has_title": true,
+        "has_citations": true,
+        "has_authors": true,
+        "has_oa_info": true,
+        "has_funding": true,
+        "has_subjects": true,
+        "has_related_works": false
+      },
+      {
+        "source": "nih_reporter",
+        "found": true,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "zenodo",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "dryad",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "orcid",
+        "found": true,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": true,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "entrez",
+        "found": false,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      },
+      {
+        "source": "europe_pmc_annotations",
+        "found": true,
+        "has_title": false,
+        "has_citations": false,
+        "has_authors": false,
+        "has_oa_info": false,
+        "has_funding": false,
+        "has_subjects": false,
+        "has_related_works": false
+      }
+    ],
+    "scalar_discrepancies": [
+      {
+        "field": "publication_year",
+        "values": {
+          "crossref": 2012,
+          "openalex": 2012,
+          "unpaywall": 2012,
+          "europe_pmc": 2013
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Oxford University Press (OUP)",
+          "openalex": "https://openalex.org/P4310311648",
+          "unpaywall": "Oxford University Press (OUP)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "container_title",
+        "values": {
+          "crossref": "Bioinformatics",
+          "openalex": "Bioinformatics",
+          "unpaywall": "Bioinformatics",
+          "europe_pmc": "Bioinformatics (Oxford, England)"
+        },
+        "risk": "low"
+      }
+    ],
+    "citations": {
+      "counts_by_source": {
+        "crossref": 47246,
+        "openalex": 52894,
+        "europe_pmc": 40726
+      },
+      "min_count": 40726,
+      "max_count": 52894,
+      "median_count": 47246,
+      "spread": 12168,
+      "spread_pct": 23.0,
+      "divergence_level": "medium",
+      "outlier_sources": []
+    },
+    "oa_status": {
+      "is_oa_by_source": {
+        "openalex": true,
+        "unpaywall": true,
+        "europe_pmc": false
+      },
+      "status_by_source": {
+        "openalex": "bronze",
+        "unpaywall": "bronze"
+      },
+      "is_oa_agrees": false,
+      "status_agrees": true,
+      "consensus_is_oa": true,
+      "consensus_status": "bronze",
+      "unique_oa_urls": 6,
+      "sources_only_in": {
+        "openalex": [
+          "https://pubmed.ncbi.nlm.nih.gov/23104886",
+          "http://repository.cshl.edu/id/eprint/28071/"
+        ]
+      }
+    },
+    "authors": {
+      "count_by_source": {
+        "crossref": 9,
+        "openalex": 9,
+        "unpaywall": 9,
+        "europe_pmc": 9,
+        "orcid": 3
+      },
+      "count_agrees": false,
+      "min_count": 3,
+      "max_count": 9,
+      "orcid_coverage": 0.154,
+      "sources_missing_orcids": [
+        "crossref",
+        "unpaywall"
+      ],
+      "name_variant_examples": [
+        "Alexander Dobin / Dobin A",
+        "Batut P / Philippe Batut",
+        "Gingeras TR / T Gingeras"
+      ]
+    },
+    "funding": {
+      "grant_count_by_source": {
+        "europe_pmc": 1
+      },
+      "total_unique_grants": 1,
+      "grants_single_source": 1,
+      "grants_multi_source": 0,
+      "sources_with_no_funding": [
+        "crossref",
+        "openalex",
+        "unpaywall",
+        "nih_reporter",
+        "orcid",
+        "europe_pmc_annotations"
+      ],
+      "sources_with_funding": [
+        "europe_pmc"
+      ]
+    },
+    "references": {
+      "count_by_source": {
+        "crossref": 22,
+        "openalex": 25
+      },
+      "count_agrees": false,
+      "min_count": 22,
+      "max_count": 25
+    },
+    "topics": {
+      "vocabulary_count": 4,
+      "topics_by_source": {
+        "openalex": 57,
+        "europe_pmc": 11
+      },
+      "multi_source_topics": 0,
+      "single_source_topics": 15
+    },
+    "related_works": {
+      "related_count_by_source": {},
+      "datacite_reverse_count": 25,
+      "software_links": 0,
+      "data_links": 0,
+      "has_version_chain": false
+    },
+    "narrative": "7 of 12 sources returned data. Data completeness: 87% of key fields have 2+ source coverage. CITATIONS: 40,726\u201352,894 across 3 sources (medium divergence, 23% spread). OA BOOLEAN CONFLICT: openalex: OA, unpaywall: OA, europe_pmc: closed. 2 OA URLs found by only one source. AUTHOR COUNT VARIES: 3\u20139 (crossref: 9, openalex: 9, unpaywall: 9, europe_pmc: 9, orcid: 3). Name variants detected: Alexander Dobin / Dobin A; Batut P / Philippe Batut. FUNDING: 1 unique grants \u2014 0 confirmed by multiple sources, 1 from single source only. REFERENCES: 22\u201325 across sources. PUBLICATION_YEAR DIFFERS: crossref: 2012, openalex: 2012, unpaywall: 2012, europe_pmc: 2013. WORK_TYPE DIFFERS: crossref: journal-article, openalex: article, unpaywall: journal-article. PUBLISHER DIFFERS: crossref: Oxford University Press (OUP), openalex: https://openalex.org/P4310311648, unpaywall: Oxford University Press (OUP). CONTAINER_TITLE DIFFERS: crossref: Bioinformatics, openalex: Bioinformatics, unpaywall: Bioinformatics, europe_pmc: Bioinformatics (Oxford, England). Total: 8 discrepancies (2 high, 1 medium, 5 low risk)."
+  },
+  "_benchmark": {
+    "doi": "10.1093/bioinformatics/bts635",
+    "fetched_at": "2026-02-11T13:20:07.587951+00:00"
+  }
+}

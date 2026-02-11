@@ -1,0 +1,5453 @@
+{
+  "doi": "10.1093/gigascience/giab060",
+  "registration_agency": "crossref",
+  "retrieved_at": "2026-02-11T18:47:41.651795Z",
+  "sources": {
+    "crossref": {
+      "source": "crossref",
+      "found": true,
+      "raw": {},
+      "title": "ISA API: An open platform for interoperable life science experimental metadata",
+      "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:sec>\n                    <jats:title>Background</jats:title>\n                    <jats:p>The Investigation/Study/Assay (ISA) Metadata Framework is an established and widely used set of open source community specifications and software tools for enabling discovery, exchange, and publication of metadata from experiments in the life sciences. The original ISA software suite provided a set of user-facing Java tools for creating and manipulating the information structured in ISA-Tab\u2014a now widely used tabular format. To make the ISA framework more accessible to machines and enable programmatic manipulation of experiment metadata, the JSON serialization ISA-JSON was developed.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results</jats:title>\n                    <jats:p>In this work, we present the ISA API, a Python library for the creation, editing, parsing, and validating of ISA-Tab and ISA-JSON formats by using a common data model engineered as Python object classes. We describe the ISA API feature set, early adopters, and its growing user community.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Conclusions</jats:title>\n                    <jats:p>The ISA API provides users with rich programmatic metadata-handling functionality to support automation, a common interface, and an interoperable medium between the 2 ISA formats, as well as with other life science data formats required for depositing data in public databases.</jats:p>\n                  </jats:sec>",
+      "publication_date": "2021-09",
+      "publication_year": 2021,
+      "work_type": "journal-article",
+      "language": "en",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "GigaScience",
+      "volume": "10",
+      "issue": "9",
+      "pages": "giab060",
+      "issn": [
+        "2047-217X"
+      ],
+      "doi": "10.1093/gigascience/giab060",
+      "authors": [
+        {
+          "name": {
+            "given": "David",
+            "family": "Johnson",
+            "full_name": "David Johnson",
+            "sequence": "first",
+            "orcid": "0000-0002-2323-6847",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Oxford e-Research Centre, Department of Engineering Science, University of Oxford , 7 Keble Road, Oxford, OX1 3QG,",
+              "source": "crossref"
+            },
+            {
+              "name": "Department of Informatics and Media, Uppsala University , Box 513, 75120 Uppsala,",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Dominique",
+            "family": "Batista",
+            "full_name": "Dominique Batista",
+            "sequence": "additional",
+            "orcid": "0000-0002-9563-4991",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Oxford e-Research Centre, Department of Engineering Science, University of Oxford , 7 Keble Road, Oxford, OX1 3QG,",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Keeva",
+            "family": "Cochrane",
+            "full_name": "Keeva Cochrane",
+            "sequence": "additional",
+            "orcid": "0000-0001-7961-0474",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI) , Wellcome Genome Campus, Hinxton, Cambridge, CB10 1SD,",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Robert P",
+            "family": "Davey",
+            "full_name": "Robert P Davey",
+            "sequence": "additional",
+            "orcid": "0000-0002-5589-7754",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Earlham Institute , , Norwich Research Park, Norwich NR4 7UZ,",
+              "source": "crossref"
+            },
+            {
+              "name": "Data infrastructure and algorithms , , Norwich Research Park, Norwich NR4 7UZ,",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Anthony",
+            "family": "Etuk",
+            "full_name": "Anthony Etuk",
+            "sequence": "additional",
+            "orcid": "0000-0001-8320-660X",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Earlham Institute , , Norwich Research Park, Norwich NR4 7UZ,",
+              "source": "crossref"
+            },
+            {
+              "name": "Data infrastructure and algorithms , , Norwich Research Park, Norwich NR4 7UZ,",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Alejandra",
+            "family": "Gonzalez-Beltran",
+            "full_name": "Alejandra Gonzalez-Beltran",
+            "sequence": "additional",
+            "orcid": "0000-0003-3499-8262",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Oxford e-Research Centre, Department of Engineering Science, University of Oxford , 7 Keble Road, Oxford, OX1 3QG,",
+              "source": "crossref"
+            },
+            {
+              "name": "Science and Technology Facilities Council , , Rutherford Appleton Laboratory, Harwell Campus, Didcot, OX11 0QX,",
+              "source": "crossref"
+            },
+            {
+              "name": "Scientific Computing Department , , Rutherford Appleton Laboratory, Harwell Campus, Didcot, OX11 0QX,",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Kenneth",
+            "family": "Haug",
+            "full_name": "Kenneth Haug",
+            "sequence": "additional",
+            "orcid": "0000-0003-3168-4145",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI) , Wellcome Genome Campus, Hinxton, Cambridge, CB10 1SD,",
+              "source": "crossref"
+            },
+            {
+              "name": "Genome Research Limited , , Wellcome Trust Genome Campus, Hinxton, Saffron Walden, CB10 1RQ,",
+              "source": "crossref"
+            },
+            {
+              "name": "Wellcome Sanger Institute , , Wellcome Trust Genome Campus, Hinxton, Saffron Walden, CB10 1RQ,",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Massimiliano",
+            "family": "Izzo",
+            "full_name": "Massimiliano Izzo",
+            "sequence": "additional",
+            "orcid": "0000-0002-8100-6142",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Oxford e-Research Centre, Department of Engineering Science, University of Oxford , 7 Keble Road, Oxford, OX1 3QG,",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Martin",
+            "family": "Larralde",
+            "full_name": "Martin Larralde",
+            "sequence": "additional",
+            "orcid": "0000-0002-3947-4444",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Structural and Computational Biology Unit , , Meyerhofstra\u00dfe 1, 69117 Heidelberg,",
+              "source": "crossref"
+            },
+            {
+              "name": "European Molecular Biology Laboratory (EMBL) , , Meyerhofstra\u00dfe 1, 69117 Heidelberg,",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Thomas N",
+            "family": "Lawson",
+            "full_name": "Thomas N Lawson",
+            "sequence": "additional",
+            "orcid": "0000-0002-5915-7980",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biosciences, University of Birmingham , Edgbaston, Birmingham, B15 2TT,",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Alice",
+            "family": "Minotto",
+            "full_name": "Alice Minotto",
+            "sequence": "additional",
+            "orcid": "0000-0002-1670-1675",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Earlham Institute , , Norwich Research Park, Norwich NR4 7UZ,",
+              "source": "crossref"
+            },
+            {
+              "name": "Data infrastructure and algorithms , , Norwich Research Park, Norwich NR4 7UZ,",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Pablo",
+            "family": "Moreno",
+            "full_name": "Pablo Moreno",
+            "sequence": "additional",
+            "orcid": "0000-0002-9856-1679",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI) , Wellcome Genome Campus, Hinxton, Cambridge, CB10 1SD,",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Venkata Chandrasekhar",
+            "family": "Nainala",
+            "full_name": "Venkata Chandrasekhar Nainala",
+            "sequence": "additional",
+            "orcid": "0000-0002-2564-3243",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI) , Wellcome Genome Campus, Hinxton, Cambridge, CB10 1SD,",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Claire",
+            "family": "O'Donovan",
+            "full_name": "Claire O'Donovan",
+            "sequence": "additional",
+            "orcid": "0000-0001-8051-7429",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI) , Wellcome Genome Campus, Hinxton, Cambridge, CB10 1SD,",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Luca",
+            "family": "Pireddu",
+            "full_name": "Luca Pireddu",
+            "sequence": "additional",
+            "orcid": "0000-0002-4663-5613",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Distributed Computing Group , , Research & Development in Sardinia, Pula 09050,",
+              "source": "crossref"
+            },
+            {
+              "name": "CRS4: Center for Advanced Studies , , Research & Development in Sardinia, Pula 09050,",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Pierrick",
+            "family": "Roger",
+            "full_name": "Pierrick Roger",
+            "sequence": "additional",
+            "orcid": "0000-0001-8177-4873",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "CEA, LIST, Laboratory for Data Analysis and Systems\u2019 Intelligence , MetaboHUB, Gif-Sur-Yvette F-91191,",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Felix",
+            "family": "Shaw",
+            "full_name": "Felix Shaw",
+            "sequence": "additional",
+            "orcid": "0000-0001-9649-5906",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Earlham Institute , , Norwich Research Park, Norwich NR4 7UZ,",
+              "source": "crossref"
+            },
+            {
+              "name": "Data infrastructure and algorithms , , Norwich Research Park, Norwich NR4 7UZ,",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Christoph",
+            "family": "Steinbeck",
+            "full_name": "Christoph Steinbeck",
+            "sequence": "additional",
+            "orcid": "0000-0001-6966-0814",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Cheminformatics and Computational Metabolomics , , Lessingstr. 8, 07743 Jena,",
+              "source": "crossref"
+            },
+            {
+              "name": "Institute for Analytical Chemistry , , Lessingstr. 8, 07743 Jena,",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ralf J M",
+            "family": "Weber",
+            "full_name": "Ralf J M Weber",
+            "sequence": "additional",
+            "orcid": "0000-0002-8796-4771",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biosciences, University of Birmingham , Edgbaston, Birmingham, B15 2TT,",
+              "source": "crossref"
+            },
+            {
+              "name": "Phenome Centre Birmingham, University of Birmingham , Edgbaston, Birmingham, B15 2TT,",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Susanna-Assunta",
+            "family": "Sansone",
+            "full_name": "Susanna-Assunta Sansone",
+            "sequence": "additional",
+            "orcid": "0000-0001-5306-5690",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Oxford e-Research Centre, Department of Engineering Science, University of Oxford , 7 Keble Road, Oxford, OX1 3QG,",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        },
+        {
+          "name": {
+            "given": "Philippe",
+            "family": "Rocca-Serra",
+            "full_name": "Philippe Rocca-Serra",
+            "sequence": "additional",
+            "orcid": "0000-0001-9853-5668",
+            "authenticated_orcid": false,
+            "source": "crossref"
+          },
+          "affiliations": [
+            {
+              "name": "Oxford e-Research Centre, Department of Engineering Science, University of Oxford , 7 Keble Road, Oxford, OX1 3QG,",
+              "source": "crossref"
+            }
+          ],
+          "sources": [
+            "crossref"
+          ]
+        }
+      ],
+      "citation_count": 30,
+      "reference_count": 84,
+      "references": [
+        {
+          "doi": "10.1162/dint_a_00037",
+          "title": "Helping the consumers and producers of standards, repositories and policies to enable FAIR Data",
+          "year": 2020,
+          "author": "McQuilton",
+          "key": "2024111606002210300_bib1",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.5281/zenodo.161355",
+          "year": 2009,
+          "author": "Rocca-Serra",
+          "key": "2024111606002210300_bib2",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.25504/FAIRsharing.53gp75",
+          "author": "FAIRsharing.org",
+          "key": "2024111606002210300_bib3",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.5281/zenodo.163640",
+          "year": 2016,
+          "author": "Sansone",
+          "key": "2024111606002210300_bib4",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.25504/FAIRsharing.yhLgTV",
+          "author": "FAIRsharing.org",
+          "key": "2024111606002210300_bib5",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1145/2872427.2883029",
+          "title": "Foundations of JSON Schema",
+          "year": 2016,
+          "author": "Pezoa",
+          "key": "2024111606002210300_bib6",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkr469",
+          "title": "BioPortal: enhanced functionality via new Web services from the National Center for Biomedical Ontology to access and use ontologies in software applications",
+          "year": 2011,
+          "author": "Whetzel",
+          "key": "2024111606002210300_bib7",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.25504/FAIRsharing.4m97ah",
+          "author": "FAIRsharing.org",
+          "key": "2024111606002210300_bib8",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "A new ontology lookup service at EMBL-EBI",
+          "year": 2015,
+          "author": "Jupp",
+          "key": "2024111606002210300_bib9",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.25504/FAIRsharing.Mkl9RR",
+          "author": "FAIRsharing.org",
+          "key": "2024111606002210300_bib10",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "ISA Model and Serialization Specifications",
+          "key": "2024111606002210300_bib11",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btq415",
+          "title": "ISA software suite: supporting standards-compliant experimental annotation and enabling curation at the community level",
+          "year": 2010,
+          "author": "Rocca-Serra",
+          "key": "2024111606002210300_bib12",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/bts718",
+          "title": "OntoMaton: a BioPortal powered ontology widget for Google Spreadsheets",
+          "year": 2013,
+          "author": "Maguire",
+          "key": "2024111606002210300_bib13",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "BioInvestigation Index",
+          "key": "2024111606002210300_bib14",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "ISA-explorer: A demo tool for discovering and exploring Scientific Data's ISA-tab metadata",
+          "author": "Gonzalez-Beltran",
+          "key": "2024111606002210300_bib15",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-15-S1-S11",
+          "title": "The Risa R/Bioconductor package: integrative data analysis from experimental metadata and back again",
+          "year": 2014,
+          "author": "Gonzalez-Beltran",
+          "key": "2024111606002210300_bib16",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2018,
+          "author": "ISA commons",
+          "key": "2024111606002210300_bib17",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.4337/9781849803311.00013",
+          "title": "Opening Platforms: How, when and why?",
+          "year": 2009,
+          "author": "Eisenmann",
+          "key": "2024111606002210300_bib18",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Jupyter Notebooks - a publishing format for reproducible computational workflows",
+          "year": 2016,
+          "author": "Kluyver",
+          "key": "2024111606002210300_bib19",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "ISA-tools/isa-api",
+          "key": "2024111606002210300_bib20",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "The Python Package Index",
+          "key": "2024111606002210300_bib21",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/s41592-018-0046-7",
+          "title": "Bioconda: sustainable and comprehensive software distribution for the life sciences",
+          "year": 2018,
+          "author": "Gr\u00fcning",
+          "key": "2024111606002210300_bib22",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "ISA API (isatools) on PyPI",
+          "key": "2024111606002210300_bib23",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "ISA API (isatools) on Bioconda",
+          "key": "2024111606002210300_bib24",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "bobular/Bio-Parser-ISATab on GitHub",
+          "key": "2024111606002210300_bib25",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "ISA-tools/biopy-isatab on GitHub",
+          "key": "2024111606002210300_bib26",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.5281/zenodo.4556385",
+          "year": 2021,
+          "author": "Chapman",
+          "key": "2024111606002210300_bib27",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.21105/joss.01610",
+          "title": "AltamISA: a Python API for ISA-Tab files",
+          "year": 2019,
+          "author": "Kuhring",
+          "key": "2024111606002210300_bib28",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.12688/f1000research.27188.1",
+          "title": "isa4j: a scalable Java library for creating ISA-Tab metadata",
+          "year": 2020,
+          "author": "Psaroudakis",
+          "key": "2024111606002210300_bib29",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1371/journal.pone.0205898",
+          "title": "A large-scale analysis of bioinformatics code on GitHub",
+          "year": 2018,
+          "author": "Russell",
+          "key": "2024111606002210300_bib30",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/MCSE.2007.53",
+          "title": "IPython: a system for interactive scientific computing",
+          "year": 2007,
+          "author": "P\u00e9rez",
+          "key": "2024111606002210300_bib31",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "MetaboLights RESTful WebService API specification",
+          "key": "2024111606002210300_bib32",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/1471-2105-7-489",
+          "title": "A simple spreadsheet-based, MIAME-supportive format for microarray data: MAGE-TAB",
+          "year": 2006,
+          "author": "Rayner",
+          "key": "2024111606002210300_bib33",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.25504/FAIRsharing.ak8p5g",
+          "author": "FAIRsharing.org",
+          "key": "2024111606002210300_bib34",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gky1061",
+          "title": "BioSamples database: an updated sample metadata hub",
+          "year": 2019,
+          "author": "Courtot",
+          "key": "2024111606002210300_bib35",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.25504/FAIRsharing.hgnk8v",
+          "author": "FAIRsharing.org",
+          "key": "2024111606002210300_bib36",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1074/mcp.R110.000133",
+          "title": "mzML-a community standard for mass spectrometry data",
+          "year": 2011,
+          "author": "Martens",
+          "key": "2024111606002210300_bib37",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.25504/FAIRsharing.26dmba",
+          "author": "FAIRsharing.org",
+          "key": "2024111606002210300_bib38",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1021/acs.analchem.7b02795",
+          "title": "nmrML: a community supported open data standard for the description, storage, and exchange of NMR data",
+          "year": 2018,
+          "author": "Schober",
+          "key": "2024111606002210300_bib39",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.25504/FAIRsharing.es03fk",
+          "author": "FAIRsharing.org",
+          "key": "2024111606002210300_bib40",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkr854",
+          "title": "The Sequence Read Archive: explosive growth of sequencing data",
+          "year": 2012,
+          "author": "Kodama",
+          "key": "2024111606002210300_bib41",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.25504/FAIRsharing.q72e3w",
+          "author": "FAIRsharing.org",
+          "key": "2024111606002210300_bib42",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btu813",
+          "title": "Workflow4Metabolomics: a collaborative research infrastructure for computational metabolomics",
+          "year": 2015,
+          "author": "Giacomoni",
+          "key": "2024111606002210300_bib43",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gky964",
+          "title": "ArrayExpress update\u2013from bulk to single-cell expression data",
+          "year": 2019,
+          "author": "Athar",
+          "key": "2024111606002210300_bib44",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "FAIRsharing.org",
+          "key": "2024111606002210300_bib45",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "The European Nucleotide Archive in 2019",
+          "year": 2020,
+          "author": "Amid",
+          "key": "2024111606002210300_bib46",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.25504/FAIRsharing.dj8nt8",
+          "author": "FAIRsharing.org",
+          "key": "2024111606002210300_bib47",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "MetaboLights: a resource evolving in response to the needs of its scientific community",
+          "year": 2020,
+          "author": "Haug",
+          "key": "2024111606002210300_bib48",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "FAIRsharing.org",
+          "key": "2024111606002210300_bib49",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/bts258",
+          "title": "graph2tab, a library to convert experimental workflow graphs into tabular formats",
+          "year": 2012,
+          "author": "Brandizi",
+          "key": "2024111606002210300_bib50",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "Google Colaboratory",
+          "key": "2024111606002210300_bib51",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "Microsoft Azure Notebooks",
+          "key": "2024111606002210300_bib52",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "Amazon SageMaker",
+          "key": "2024111606002210300_bib53",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "Example Jupyter notebooks using the ISA-API",
+          "key": "2024111606002210300_bib54",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "The ISA cookbook",
+          "key": "2024111606002210300_bib55",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/sdata.2016.18",
+          "title": "The FAIR Guiding Principles for scientific data management and stewardship",
+          "year": 2016,
+          "author": "Wilkinson",
+          "key": "2024111606002210300_bib56",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1145/2857274.2857276",
+          "title": "Schema.org: Evolution of structured data on the Web: Big data makes common schemas even more necessary",
+          "year": 2015,
+          "author": "Guha",
+          "key": "2024111606002210300_bib57",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1038/nbt1346",
+          "title": "The OBO Foundry: coordinated evolution of ontologies to support biomedical data integration",
+          "year": 2007,
+          "author": "Smith",
+          "key": "2024111606002210300_bib58",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/bty884",
+          "title": "GeneLab: Omics database for spaceflight experiments",
+          "year": 2019,
+          "author": "Ray",
+          "key": "2024111606002210300_bib59",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "FAIRsharing.org",
+          "key": "2024111606002210300_bib60",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "COPO - Linked open infrastructure for plant data",
+          "year": 2015,
+          "author": "Shaw",
+          "key": "2024111606002210300_bib61",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s12918-015-0174-y",
+          "title": "SEEK: a systems biology data and model management platform",
+          "year": 2015,
+          "author": "Wolstencroft",
+          "key": "2024111606002210300_bib62",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "FAIRsharing.org",
+          "key": "2024111606002210300_bib63",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/nar/gkr1051",
+          "title": "The Stem Cell Discovery Engine: an integrated repository and analysis system for cancer stem cell comparisons",
+          "year": 2012,
+          "author": "Ho\u00a0Sui",
+          "key": "2024111606002210300_bib64",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "FAIRsharing.org",
+          "key": "2024111606002210300_bib65",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.7490/f1000research.1115757.1",
+          "title": "ISAcreate Galaxy tool for prospective data management with ISA format support - application to metabolomics datasets (poster)",
+          "year": 2018,
+          "author": "Rocca-Serra",
+          "key": "2024111606002210300_bib66",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/gigascience/giy149",
+          "title": "PhenoMeNal: processing and analysis of metabolomics data in the cloud",
+          "year": 2019,
+          "author": "Peters",
+          "key": "2024111606002210300_bib67",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1101/488643",
+          "title": "Galaxy-Kubernetes integration: scaling bioinformatics workflows in the cloud",
+          "year": 2018,
+          "author": "Moreno",
+          "key": "2024111606002210300_bib68",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "ISA Galaxy tools, tours, and other enhancements",
+          "key": "2024111606002210300_bib69",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.12688/f1000research.23889.1",
+          "title": "COPO: a metadata platform for brokering FAIR data in the life sciences",
+          "year": 2020,
+          "author": "Shaw",
+          "key": "2024111606002210300_bib70",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/bioinformatics/btz190",
+          "title": "BrAPI\u2014an application programming interface for plant breeding applications",
+          "year": 2019,
+          "author": "Selby",
+          "key": "2024111606002210300_bib71",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1186/s13007-016-0144-4",
+          "title": "Measures for interoperability of phenotypic data: minimum information requirements and formatting",
+          "year": 2016,
+          "author": "\u0106wiek-Kupczy\u0144ska",
+          "key": "2024111606002210300_bib72",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.25504/FAIRsharing.nd9ce9",
+          "author": "FAIRsharing.org",
+          "key": "2024111606002210300_bib73",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "Analyzing PyPI package downloads - Python Packaging User Guide",
+          "key": "2024111606002210300_bib74",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "ELIXIR-NL represented at ELIXIR UK's \u201cISA as a FAIR research object\u201d event",
+          "key": "2024111606002210300_bib75",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "CUDDELing up to metabolomics in Hong Kong",
+          "key": "2024111606002210300_bib76",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1109/MC.2006.58",
+          "title": "Model-driven engineering",
+          "year": 2006,
+          "author": "Schmidt",
+          "key": "2024111606002210300_bib77",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "bcwaldon/warlock",
+          "key": "2024111606002210300_bib78",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "title": "Test-driven development as a defect-reduction practice",
+          "year": 2003,
+          "author": "Williams",
+          "key": "2024111606002210300_bib79",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "The Linehaul Statistics Daemon",
+          "key": "2024111606002210300_bib80",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "author": "BigQuery: Cloud Data Warehouse",
+          "key": "2024111606002210300_bib81",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2020,
+          "author": "Waskom",
+          "key": "2024111606002210300_bib82",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "year": 2020,
+          "author": "Johnson",
+          "key": "2024111606002210300_bib83",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        },
+        {
+          "doi": "10.1093/gigascience/giab060",
+          "unstructured": "Johnson D, Batista D, Cochrane K, et al. \u00a0Supporting data for \u201cISA API: An open platform for interoperable life science experimental metadata.\u201d. GigaScience Database. 2021. 10.5524/100907.",
+          "key": "2024111606002210300_bib84",
+          "intents": [],
+          "contexts": [],
+          "source": "crossref"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [
+        {
+          "url": "https://academic.oup.com/gigascience/article-pdf/10/9/giab060/60688674/giab060.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        },
+        {
+          "url": "https://academic.oup.com/gigascience/article-pdf/10/9/giab060/60688674/giab060.pdf",
+          "host_type": "publisher",
+          "is_best": false,
+          "source": "crossref"
+        }
+      ],
+      "funders": [
+        {
+          "name": "Horizon 2020 Framework Programme",
+          "doi": "10.13039/100010661",
+          "award_numbers": [
+            "EC654241"
+          ],
+          "source": "crossref"
+        },
+        {
+          "name": "Biotechnology and Biological Sciences Research Council",
+          "doi": "10.13039/501100000268",
+          "award_numbers": [
+            "BB/L021390/1"
+          ],
+          "source": "crossref"
+        },
+        {
+          "name": "Biotechnology and Biological Sciences Research Council",
+          "doi": "10.13039/501100000268",
+          "award_numbers": [
+            "BB/L024055/1"
+          ],
+          "source": "crossref"
+        },
+        {
+          "name": "Biotechnology and Biological Sciences Research Council",
+          "doi": "10.13039/501100000268",
+          "award_numbers": [
+            "BB/L024071/1"
+          ],
+          "source": "crossref"
+        },
+        {
+          "name": "Biotechnology and Biological Sciences Research Council",
+          "doi": "10.13039/501100000268",
+          "award_numbers": [
+            "BB/L024101/1"
+          ],
+          "source": "crossref"
+        },
+        {
+          "name": "Biotechnology and Biological Sciences Research Council",
+          "doi": "10.13039/501100000268",
+          "award_numbers": [
+            "BB/J020265/1"
+          ],
+          "source": "crossref"
+        },
+        {
+          "name": "Wellcome Trust",
+          "doi": "10.13039/100010269",
+          "award_numbers": [
+            "208381/A/17/ZUK"
+          ],
+          "source": "crossref"
+        },
+        {
+          "name": "National Eye Research Centre",
+          "doi": "10.13039/501100000305",
+          "award_numbers": [
+            "NE/L002493/1"
+          ],
+          "source": "crossref"
+        }
+      ],
+      "grants": [],
+      "licenses": [
+        {
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "content_version": "vor",
+          "delay_in_days": 15,
+          "source": "crossref"
+        }
+      ],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "datacite": {
+      "source": "datacite",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/gigascience/giab060",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openalex": {
+      "source": "openalex",
+      "found": true,
+      "raw": {},
+      "title": "ISA API: An open platform for interoperable life science experimental metadata",
+      "abstract": "Abstract Background The Investigation/Study/Assay (ISA) Metadata Framework is an established and widely used set of open source community specifications and software tools for enabling discovery, exchange, and publication of metadata from experiments in the life sciences. The original ISA software suite provided a set of user-facing Java tools for creating and manipulating the information structured in ISA-Tab\u2014a now widely used tabular format. To make the ISA framework more accessible to machines and enable programmatic manipulation of experiment metadata, the JSON serialization ISA-JSON was developed. Results In this work, we present the ISA API, a Python library for the creation, editing, parsing, and validating of ISA-Tab and ISA-JSON formats by using a common data model engineered as Python object classes. We describe the ISA API feature set, early adopters, and its growing user community. Conclusions The ISA API provides users with rich programmatic metadata-handling functionality to support automation, a common interface, and an interoperable medium between the 2 ISA formats, as well as with other life science data formats required for depositing data in public databases.",
+      "publication_date": "2021-09-01",
+      "publication_year": 2021,
+      "work_type": "article",
+      "language": "en",
+      "publisher": "https://openalex.org/P4310311647",
+      "container_title": "GigaScience",
+      "volume": "10",
+      "issue": "9",
+      "issn": [
+        "2047-217X"
+      ],
+      "doi": "10.1093/gigascience/giab060",
+      "pmid": "34528664",
+      "openalex_id": "https://openalex.org/W3199620625",
+      "authors": [
+        {
+          "name": {
+            "full_name": "David Johnson",
+            "orcid": "0000-0002-2323-6847",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Science Oxford",
+              "ror_id": "https://ror.org/04j8yhy50",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Oxford",
+              "ror_id": "https://ror.org/052gg0110",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "Uppsala University",
+              "ror_id": "https://ror.org/048a87296",
+              "country_code": "SE",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5065955048",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Dominique Batista",
+            "orcid": "0000-0002-2109-489X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Science Oxford",
+              "ror_id": "https://ror.org/04j8yhy50",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Oxford",
+              "ror_id": "https://ror.org/052gg0110",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5031565236",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Keeva Cochrane",
+            "orcid": "0000-0001-7961-0474",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "European Bioinformatics Institute",
+              "ror_id": "https://ror.org/02catss52",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "Bioinformatics Institute",
+              "ror_id": "https://ror.org/04btxg914",
+              "country_code": "RU",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5080504478",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Robert Davey",
+            "orcid": "0000-0002-5589-7754",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Norwich Research Park",
+              "ror_id": "https://ror.org/0062dz060",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "Earlham Institute",
+              "ror_id": "https://ror.org/018cxtf62",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5025528976",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Anthony Etuk",
+            "orcid": "0000-0001-8320-660X",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Earlham Institute",
+              "ror_id": "https://ror.org/018cxtf62",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "Norwich Research Park",
+              "ror_id": "https://ror.org/0062dz060",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5048606312",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Alejandra Gonz\u00e1lez-Beltr\u00e1n",
+            "orcid": "0000-0003-3499-8262",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Rutherford Appleton Laboratory",
+              "ror_id": "https://ror.org/03gq8fr08",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Oxford",
+              "ror_id": "https://ror.org/052gg0110",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "Science Oxford",
+              "ror_id": "https://ror.org/04j8yhy50",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "Science and Technology Facilities Council",
+              "ror_id": "https://ror.org/057g20z61",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5086246448",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Kenneth Haug",
+            "orcid": "0000-0003-3168-4145",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Bioinformatics Institute",
+              "ror_id": "https://ror.org/04btxg914",
+              "country_code": "RU",
+              "source": "openalex"
+            },
+            {
+              "name": "Wellcome Sanger Institute",
+              "ror_id": "https://ror.org/05cy4wa09",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "European Bioinformatics Institute",
+              "ror_id": "https://ror.org/02catss52",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5014348944",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Massimiliano Izzo",
+            "orcid": "0000-0002-8100-6142",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Science Oxford",
+              "ror_id": "https://ror.org/04j8yhy50",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Oxford",
+              "ror_id": "https://ror.org/052gg0110",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5000815495",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Martin Larralde",
+            "orcid": "0000-0002-3947-4444",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "European Molecular Biology Laboratory",
+              "ror_id": "https://ror.org/050589e39",
+              "country_code": "DE",
+              "source": "openalex"
+            },
+            {
+              "name": "European Bioinformatics Institute",
+              "ror_id": "https://ror.org/02catss52",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5061398546",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Thomas N. Lawson",
+            "orcid": "0000-0002-5915-7980",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Birmingham",
+              "ror_id": "https://ror.org/03angcq70",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5047088143",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Alice Minotto",
+            "orcid": "0000-0002-1670-1675",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Earlham Institute",
+              "ror_id": "https://ror.org/018cxtf62",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "Norwich Research Park",
+              "ror_id": "https://ror.org/0062dz060",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5022255321",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Pablo Moreno",
+            "orcid": "0000-0002-9856-1679",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Bioinformatics Institute",
+              "ror_id": "https://ror.org/04btxg914",
+              "country_code": "RU",
+              "source": "openalex"
+            },
+            {
+              "name": "European Bioinformatics Institute",
+              "ror_id": "https://ror.org/02catss52",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5101428806",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Venkata Chandrasekhar Nainala",
+            "orcid": "0000-0002-2564-3243",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "European Bioinformatics Institute",
+              "ror_id": "https://ror.org/02catss52",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "Bioinformatics Institute",
+              "ror_id": "https://ror.org/04btxg914",
+              "country_code": "RU",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5064873292",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Claire O\u2019Donovan",
+            "orcid": "0000-0001-8051-7429",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "European Bioinformatics Institute",
+              "ror_id": "https://ror.org/02catss52",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "Bioinformatics Institute",
+              "ror_id": "https://ror.org/04btxg914",
+              "country_code": "RU",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5066278201",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Luca Pireddu",
+            "orcid": "0000-0002-4663-5613",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Center for Advanced Studies Research and Development in Sardinia",
+              "ror_id": "https://ror.org/03jdxdk20",
+              "country_code": "IT",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5047833562",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Pierrick Roger",
+            "orcid": "0000-0001-8177-4873",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Laboratoire d'Int\u00e9gration des Syst\u00e8mes et des Technologies",
+              "ror_id": "https://ror.org/000dbcc61",
+              "country_code": "FR",
+              "source": "openalex"
+            },
+            {
+              "name": "Commissariat \u00e0 l'\u00c9nergie Atomique et aux \u00c9nergies Alternatives",
+              "ror_id": "https://ror.org/00jjx8s55",
+              "country_code": "FR",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5000556534",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Felix Shaw",
+            "orcid": "0000-0001-9649-5906",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Earlham Institute",
+              "ror_id": "https://ror.org/018cxtf62",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "Norwich Research Park",
+              "ror_id": "https://ror.org/0062dz060",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5002872376",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Christoph Steinbeck",
+            "orcid": "0000-0001-6966-0814",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5040194803",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Ralf J. M. Weber",
+            "orcid": "0000-0002-8796-4771",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Birmingham",
+              "ror_id": "https://ror.org/03angcq70",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": false,
+          "openalex_author_id": "https://openalex.org/A5013377183",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Susanna\u2010Assunta Sansone",
+            "orcid": "0000-0001-5306-5690",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "University of Oxford",
+              "ror_id": "https://ror.org/052gg0110",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "Science Oxford",
+              "ror_id": "https://ror.org/04j8yhy50",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5008806860",
+          "sources": [
+            "openalex"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Philippe Rocca\u2010Serra",
+            "orcid": "0000-0001-9853-5668",
+            "authenticated_orcid": false,
+            "source": "openalex"
+          },
+          "affiliations": [
+            {
+              "name": "Science Oxford",
+              "ror_id": "https://ror.org/04j8yhy50",
+              "country_code": "GB",
+              "source": "openalex"
+            },
+            {
+              "name": "University of Oxford",
+              "ror_id": "https://ror.org/052gg0110",
+              "country_code": "GB",
+              "source": "openalex"
+            }
+          ],
+          "is_corresponding": true,
+          "openalex_author_id": "https://openalex.org/A5018395535",
+          "sources": [
+            "openalex"
+          ]
+        }
+      ],
+      "citation_count": 33,
+      "reference_count": 61,
+      "references": [
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        },
+        {
+          "intents": [],
+          "contexts": [],
+          "source": "openalex"
+        }
+      ],
+      "citations": [],
+      "counts_by_year": {
+        "2026": 5,
+        "2025": 1,
+        "2024": 8,
+        "2023": 10,
+        "2022": 5,
+        "2021": 3,
+        "2020": 1
+      },
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1093/gigascience/giab060",
+          "pdf_url": "https://academic.oup.com/gigascience/article-pdf/10/9/giab060/40394485/giab060.pdf",
+          "landing_page_url": "https://doi.org/10.1093/gigascience/giab060",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": true,
+          "repository_institution": "https://openalex.org/P4310311647",
+          "source": "openalex"
+        },
+        {
+          "url": "https://doi.org/10.1093/gigascience/giab060",
+          "pdf_url": "https://academic.oup.com/gigascience/article-pdf/10/9/giab060/40394485/giab060.pdf",
+          "landing_page_url": "https://doi.org/10.1093/gigascience/giab060",
+          "host_type": "journal",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310311647",
+          "source": "openalex"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34528664",
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/34528664",
+          "host_type": "repository",
+          "version": "publishedVersion",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1299303238",
+          "source": "openalex"
+        },
+        {
+          "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-453419",
+          "landing_page_url": "http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-453419",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "is_best": false,
+          "source": "openalex"
+        },
+        {
+          "url": "https://hal.science/hal-04562617",
+          "landing_page_url": "https://hal.science/hal-04562617",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "is_best": false,
+          "source": "openalex"
+        },
+        {
+          "url": "http://europepmc.org/pmc/articles/PMC8444265",
+          "landing_page_url": "http://europepmc.org/pmc/articles/PMC8444265",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I1303153112",
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/8444265",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/8444265",
+          "host_type": "journal",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/P4310311647",
+          "source": "openalex"
+        },
+        {
+          "url": "http://purl.org/net/epubs/work/50684059",
+          "landing_page_url": "http://purl.org/net/epubs/work/50684059",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "is_best": false,
+          "repository_institution": "https://openalex.org/I162524378",
+          "source": "openalex"
+        }
+      ],
+      "best_oa_url": "https://academic.oup.com/gigascience/article-pdf/10/9/giab060/40394485/giab060.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [
+        {
+          "spdx_id": "cc-by",
+          "source": "openalex"
+        }
+      ],
+      "subjects": [
+        {
+          "value": "Biomedical Text Mining and Ontologies",
+          "scheme": "openalex_topic",
+          "score": 0.9976999759674072,
+          "source": "openalex"
+        },
+        {
+          "value": "Scientific Computing and Data Management",
+          "scheme": "openalex_topic",
+          "score": 0.9975000023841858,
+          "source": "openalex"
+        },
+        {
+          "value": "Research Data Management Practices",
+          "scheme": "openalex_topic",
+          "score": 0.9955999851226807,
+          "source": "openalex"
+        },
+        {
+          "value": "Interoperability",
+          "scheme": "openalex_concept",
+          "score": 0.8594657778739929,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Metadata",
+          "scheme": "openalex_concept",
+          "score": 0.8516377210617065,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Computer science",
+          "scheme": "openalex_concept",
+          "score": 0.6458719372749329,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "World Wide Web",
+          "scheme": "openalex_concept",
+          "score": 0.5577980279922485,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Open science",
+          "scheme": "openalex_concept",
+          "score": 0.44951701164245605,
+          "level": 2,
+          "source": "openalex"
+        },
+        {
+          "value": "Data science",
+          "scheme": "openalex_concept",
+          "score": 0.3973888158798218,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Information retrieval",
+          "scheme": "openalex_concept",
+          "score": 0.3365812301635742,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Physics",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 0,
+          "source": "openalex"
+        },
+        {
+          "value": "Astronomy",
+          "scheme": "openalex_concept",
+          "score": 0.0,
+          "level": 1,
+          "source": "openalex"
+        },
+        {
+          "value": "Responsible consumption and production",
+          "scheme": "SDG",
+          "score": 0.5699999928474426,
+          "source": "openalex"
+        }
+      ],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Metadata",
+          "descriptor_ui": "D000071253",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Metadata",
+          "descriptor_ui": "D000071253",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Metadata",
+          "descriptor_ui": "D000071253",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Metadata",
+          "descriptor_ui": "D000071253",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Metadata",
+          "descriptor_ui": "D000071253",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Metadata",
+          "descriptor_ui": "D000071253",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Metadata",
+          "descriptor_ui": "D000071253",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Biological Science Disciplines",
+          "descriptor_ui": "D001690",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Biological Science Disciplines",
+          "descriptor_ui": "D001690",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Biological Science Disciplines",
+          "descriptor_ui": "D001690",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Biological Science Disciplines",
+          "descriptor_ui": "D001690",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Biological Science Disciplines",
+          "descriptor_ui": "D001690",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Biological Science Disciplines",
+          "descriptor_ui": "D001690",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Biological Science Disciplines",
+          "descriptor_ui": "D001690",
+          "is_major_topic": true,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Software",
+          "descriptor_ui": "D012984",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Databases, Factual",
+          "descriptor_ui": "D016208",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Databases, Factual",
+          "descriptor_ui": "D016208",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Databases, Factual",
+          "descriptor_ui": "D016208",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Databases, Factual",
+          "descriptor_ui": "D016208",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Databases, Factual",
+          "descriptor_ui": "D016208",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Databases, Factual",
+          "descriptor_ui": "D016208",
+          "is_major_topic": false,
+          "source": "openalex"
+        },
+        {
+          "descriptor_name": "Databases, Factual",
+          "descriptor_ui": "D016208",
+          "is_major_topic": false,
+          "source": "openalex"
+        }
+      ],
+      "keywords": [
+        "Interoperability",
+        "Metadata",
+        "Computer science",
+        "World Wide Web",
+        "Open science",
+        "Data science",
+        "Information retrieval"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "fwci",
+          "value": 2.53584311,
+          "source": "openalex"
+        },
+        {
+          "name": "citation_normalized_percentile",
+          "value": 0.88222531,
+          "source": "openalex"
+        },
+        {
+          "name": "apc_list_usd",
+          "value": 2439.0,
+          "source": "openalex"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "semantic_scholar": {
+      "source": "semantic_scholar",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/gigascience/giab060",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "unpaywall": {
+      "source": "unpaywall",
+      "found": true,
+      "raw": {},
+      "title": "ISA API: An open platform for interoperable life science experimental metadata",
+      "publication_date": "2021-09-01",
+      "publication_year": 2021,
+      "work_type": "journal-article",
+      "publisher": "Oxford University Press (OUP)",
+      "container_title": "GigaScience",
+      "issn": [
+        "2047-217X"
+      ],
+      "doi": "10.1093/gigascience/giab060",
+      "authors": [
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        },
+        {
+          "name": {
+            "authenticated_orcid": false,
+            "source": "unpaywall"
+          },
+          "affiliations": [],
+          "sources": [
+            "unpaywall"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://academic.oup.com/gigascience/article-pdf/10/9/giab060/40394485/giab060.pdf",
+          "pdf_url": "https://academic.oup.com/gigascience/article-pdf/10/9/giab060/40394485/giab060.pdf",
+          "landing_page_url": "https://doi.org/10.1093/gigascience/giab060",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://academic.oup.com/gigascience/article-pdf/10/9/giab060/40394485/giab060.pdf",
+          "pdf_url": "https://academic.oup.com/gigascience/article-pdf/10/9/giab060/40394485/giab060.pdf",
+          "landing_page_url": "https://doi.org/10.1093/gigascience/giab060",
+          "host_type": "publisher",
+          "version": "publishedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": true,
+          "source": "unpaywall"
+        },
+        {
+          "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-453419",
+          "landing_page_url": "http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-453419",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "evidence": "deprecated",
+          "is_best": false,
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://hal.science/hal-04562617",
+          "landing_page_url": "https://hal.science/hal-04562617",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "evidence": "deprecated",
+          "is_best": false,
+          "source": "unpaywall"
+        },
+        {
+          "url": "http://europepmc.org/pmc/articles/PMC8444265",
+          "landing_page_url": "http://europepmc.org/pmc/articles/PMC8444265",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "European Bioinformatics Institute",
+          "source": "unpaywall"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/8444265",
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/8444265",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "other-oa",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "National Institutes of Health",
+          "source": "unpaywall"
+        },
+        {
+          "url": "http://purl.org/net/epubs/work/50684059",
+          "landing_page_url": "http://purl.org/net/epubs/work/50684059",
+          "host_type": "repository",
+          "version": "submittedVersion",
+          "license": "cc-by",
+          "evidence": "deprecated",
+          "is_best": false,
+          "repository_institution": "Science and Technology Facilities Council",
+          "source": "unpaywall"
+        }
+      ],
+      "best_oa_url": "https://academic.oup.com/gigascience/article-pdf/10/9/giab060/40394485/giab060.pdf",
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "europe_pmc": {
+      "source": "europe_pmc",
+      "found": true,
+      "raw": {},
+      "title": "ISA API: An open platform for interoperable life science experimental metadata.",
+      "abstract": "<h4>Background</h4>The Investigation/Study/Assay (ISA) Metadata Framework is an established and widely used set of open source community specifications and software tools for enabling discovery, exchange, and publication of metadata from experiments in the life sciences. The original ISA software suite provided a set of user-facing Java tools for creating and manipulating the information structured in ISA-Tab-a now widely used tabular format. To make the ISA framework more accessible to machines and enable programmatic manipulation of experiment metadata, the JSON serialization ISA-JSON was developed.<h4>Results</h4>In this work, we present the ISA API, a Python library for the creation, editing, parsing, and validating of ISA-Tab and ISA-JSON formats by using a common data model engineered as Python object classes. We describe the ISA API feature set, early adopters, and its growing user community.<h4>Conclusions</h4>The ISA API provides users with rich programmatic metadata-handling functionality to support automation, a common interface, and an interoperable medium between the 2 ISA formats, as well as with other life science data formats required for depositing data in public databases.",
+      "publication_year": 2021,
+      "language": "eng",
+      "container_title": "GigaScience",
+      "volume": "10",
+      "issue": "9",
+      "pages": "giab060",
+      "issn": [],
+      "doi": "10.1093/gigascience/giab060",
+      "pmid": "34528664",
+      "pmcid": "PMC8444265",
+      "authors": [
+        {
+          "name": {
+            "given": "David",
+            "family": "Johnson",
+            "full_name": "Johnson D",
+            "orcid": "0000-0002-2323-6847",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Oxford e-Research Centre, Department of Engineering Science, University of Oxford, 7 Keble Road, Oxford, OX1 3QG, UK.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Department of Informatics and Media, Uppsala University, Box 513, 75120 Uppsala, Sweden.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Dominique",
+            "family": "Batista",
+            "full_name": "Batista D",
+            "orcid": "0000-0002-9563-4991",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Oxford e-Research Centre, Department of Engineering Science, University of Oxford, 7 Keble Road, Oxford, OX1 3QG, UK.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Dominique",
+            "family": "Batista",
+            "full_name": "Batista D",
+            "orcid": "0000-0002-2109-489X",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Oxford e-Research Centre, Department of Engineering Science, University of Oxford, 7 Keble Road, Oxford, OX1 3QG, UK.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Keeva",
+            "family": "Cochrane",
+            "full_name": "Cochrane K",
+            "orcid": "0000-0001-7961-0474",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, Cambridge, CB10 1SD, UK.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Robert P",
+            "family": "Davey",
+            "full_name": "Davey RP",
+            "orcid": "0000-0002-5589-7754",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Earlham Institute, Data infrastructure and algorithms, Norwich Research Park, Norwich NR4 7UZ, UK.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Anthony",
+            "family": "Etuk",
+            "full_name": "Etuk A",
+            "orcid": "0000-0001-8320-660X",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Earlham Institute, Data infrastructure and algorithms, Norwich Research Park, Norwich NR4 7UZ, UK.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Alejandra",
+            "family": "Gonzalez-Beltran",
+            "full_name": "Gonzalez-Beltran A",
+            "orcid": "0000-0003-3499-8262",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Oxford e-Research Centre, Department of Engineering Science, University of Oxford, 7 Keble Road, Oxford, OX1 3QG, UK.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Science and Technology Facilities Council, Scientific Computing Department, Rutherford Appleton Laboratory, Harwell Campus, Didcot, OX11 0QX, UK.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Kenneth",
+            "family": "Haug",
+            "full_name": "Haug K",
+            "orcid": "0000-0003-3168-4145",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, Cambridge, CB10 1SD, UK.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Genome Research Limited, Wellcome Sanger Institute, Wellcome Trust Genome Campus, Hinxton, Saffron Walden, CB10 1RQ, UK.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Massimiliano",
+            "family": "Izzo",
+            "full_name": "Izzo M",
+            "orcid": "0000-0002-8100-6142",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Oxford e-Research Centre, Department of Engineering Science, University of Oxford, 7 Keble Road, Oxford, OX1 3QG, UK.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Martin",
+            "family": "Larralde",
+            "full_name": "Larralde M",
+            "orcid": "0000-0002-3947-4444",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Structural and Computational Biology Unit, European Molecular Biology Laboratory (EMBL), Meyerhofstra\u00dfe 1, 69117 Heidelberg, Germany.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Thomas N",
+            "family": "Lawson",
+            "full_name": "Lawson TN",
+            "orcid": "0000-0002-5915-7980",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biosciences, University of Birmingham, Edgbaston, Birmingham, B15 2TT, UK.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Alice",
+            "family": "Minotto",
+            "full_name": "Minotto A",
+            "orcid": "0000-0002-1670-1675",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Earlham Institute, Data infrastructure and algorithms, Norwich Research Park, Norwich NR4 7UZ, UK.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Pablo",
+            "family": "Moreno",
+            "full_name": "Moreno P",
+            "orcid": "0000-0002-9856-1679",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, Cambridge, CB10 1SD, UK.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Venkata Chandrasekhar",
+            "family": "Nainala",
+            "full_name": "Nainala VC",
+            "orcid": "0000-0002-2564-3243",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, Cambridge, CB10 1SD, UK.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Claire",
+            "family": "O'Donovan",
+            "full_name": "O'Donovan C",
+            "orcid": "0000-0001-8051-7429",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, Cambridge, CB10 1SD, UK.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Luca",
+            "family": "Pireddu",
+            "full_name": "Pireddu L",
+            "orcid": "0000-0002-4663-5613",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Distributed Computing Group, CRS4: Center for Advanced Studies, Research & Development in Sardinia, Pula 09050, Italy.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Pierrick",
+            "family": "Roger",
+            "full_name": "Roger P",
+            "orcid": "0000-0001-8177-4873",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "CEA, LIST, Laboratory for Data Analysis and Systems' Intelligence, MetaboHUB, Gif-Sur-Yvette F-91191, France.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Felix",
+            "family": "Shaw",
+            "full_name": "Shaw F",
+            "orcid": "0000-0001-9649-5906",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Earlham Institute, Data infrastructure and algorithms, Norwich Research Park, Norwich NR4 7UZ, UK.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Christoph",
+            "family": "Steinbeck",
+            "full_name": "Steinbeck C",
+            "orcid": "0000-0001-6966-0814",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Cheminformatics and Computational Metabolomics, Institute for Analytical Chemistry, Lessingstr. 8, 07743 Jena, Germany.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ralf J M",
+            "family": "Weber",
+            "full_name": "Weber RJM",
+            "orcid": "0000-0002-8796-4771",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "School of Biosciences, University of Birmingham, Edgbaston, Birmingham, B15 2TT, UK.",
+              "source": "europe_pmc"
+            },
+            {
+              "name": "Phenome Centre Birmingham, University of Birmingham, Edgbaston, Birmingham, B15 2TT, UK.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Susanna-Assunta",
+            "family": "Sansone",
+            "full_name": "Sansone SA",
+            "orcid": "0000-0001-5306-5690",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Oxford e-Research Centre, Department of Engineering Science, University of Oxford, 7 Keble Road, Oxford, OX1 3QG, UK.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        },
+        {
+          "name": {
+            "given": "Philippe",
+            "family": "Rocca-Serra",
+            "full_name": "Rocca-Serra P",
+            "orcid": "0000-0001-9853-5668",
+            "authenticated_orcid": false,
+            "source": "europe_pmc"
+          },
+          "affiliations": [
+            {
+              "name": "Oxford e-Research Centre, Department of Engineering Science, University of Oxford, 7 Keble Road, Oxford, OX1 3QG, UK.",
+              "source": "europe_pmc"
+            }
+          ],
+          "sources": [
+            "europe_pmc"
+          ]
+        }
+      ],
+      "citation_count": 18,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "is_oa": true,
+      "oa_locations": [
+        {
+          "url": "https://europepmc.org/articles/PMC8444265",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC8444265?pdf=render",
+          "host_type": "Europe_PMC",
+          "is_best": false,
+          "source": "europe_pmc"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "208381/A/17/ZUK",
+          "agency": "Wellcome Trust",
+          "agency_abbreviation": "WT_",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "BB/I000771/1",
+          "agency": "Biotechnology and Biological Sciences Research Council",
+          "agency_abbreviation": "BB_",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "208381/A/17/Z",
+          "agency": "Wellcome Trust",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "BB/L021390/1",
+          "agency": "Biotechnology and Biological Sciences Research Council",
+          "agency_abbreviation": "BB_",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "BBS/E/T/000PR9817",
+          "agency": "Biotechnology and Biological Sciences Research Council",
+          "agency_abbreviation": "BB_",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "BB/L005042/1",
+          "agency": "Biotechnology and Biological Sciences Research Council",
+          "agency_abbreviation": "BB_",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "BB/P017193/1",
+          "agency": "Biotechnology and Biological Sciences Research Council",
+          "agency_abbreviation": "BB_",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "EC654241",
+          "agency": "Horizon 2020 Framework Programme",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "BB/I025840/1",
+          "agency": "Biotechnology and Biological Sciences Research Council",
+          "agency_abbreviation": "BB_",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "BB/J020265/1",
+          "agency": "Biotechnology and Biological Sciences Research Council",
+          "agency_abbreviation": "BB_",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "BB/L024055/1",
+          "agency": "Biotechnology and Biological Sciences Research Council",
+          "agency_abbreviation": "BB_",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "BB/L024101/1",
+          "agency": "Biotechnology and Biological Sciences Research Council",
+          "agency_abbreviation": "BB_",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "MR/M009157/1",
+          "agency": "Medical Research Council",
+          "agency_abbreviation": "MRC_",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "BB/M027635/1",
+          "agency": "Biotechnology and Biological Sciences Research Council",
+          "agency_abbreviation": "BB_",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "BBS/E/T/000PR9818",
+          "agency": "Biotechnology and Biological Sciences Research Council",
+          "agency_abbreviation": "BB_",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "BB/L021390/2",
+          "agency": "Biotechnology and Biological Sciences Research Council",
+          "agency_abbreviation": "BB_",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "BB/L024071/1",
+          "agency": "Biotechnology and Biological Sciences Research Council",
+          "agency_abbreviation": "BB_",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "BB/P026001/1",
+          "agency": "Biotechnology and Biological Sciences Research Council",
+          "agency_abbreviation": "BB_",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "grant_id": "NE/L002493/1",
+          "agency": "National Eye Research Centre",
+          "pi_names": [],
+          "source": "europe_pmc"
+        },
+        {
+          "agency": "Wellcome Trust",
+          "agency_abbreviation": "WT_",
+          "pi_names": [],
+          "source": "europe_pmc"
+        }
+      ],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [
+        {
+          "descriptor_name": "Software",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Databases, Factual",
+          "is_major_topic": false,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Biological Science Disciplines",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        },
+        {
+          "descriptor_name": "Metadata",
+          "is_major_topic": true,
+          "source": "europe_pmc"
+        }
+      ],
+      "keywords": [
+        "Life science",
+        "Reproducibility",
+        "standards",
+        "Open-source Software",
+        "Metadata",
+        "Api"
+      ],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "cited_by_count",
+          "value": 18.0,
+          "source": "europe_pmc"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [
+        "rrid",
+        "doi"
+      ],
+      "corrections": [
+        {
+          "type": "Preprint in",
+          "id": "PPR238867",
+          "source": "PPR"
+        }
+      ],
+      "full_text_urls": [
+        {
+          "url": "https://doi.org/10.1093/gigascience/giab060",
+          "availability": "Subscription required",
+          "document_style": "doi",
+          "site": "DOI"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC8444265",
+          "availability": "Open access",
+          "document_style": "html",
+          "site": "Europe_PMC"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC8444265?pdf=render",
+          "availability": "Open access",
+          "document_style": "pdf",
+          "site": "Europe_PMC"
+        }
+      ],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "openaire": {
+      "source": "openaire",
+      "found": true,
+      "raw": {},
+      "title": "ISA API: An open platform for interoperable life science experimental metadata",
+      "abstract": "<jats:title>Abstract</jats:title>                   <jats:sec>                     <jats:title>Background</jats:title>                     <jats:p>The Investigation/Study/Assay (ISA) Metadata Framework is an established and widely used set of open source community specifications and software tools for enabling discovery, exchange, and publication of metadata from experiments in the life sciences. The original ISA software suite provided a set of user-facing Java tools for creating and manipulating the information structured in ISA-Tab\u2014a now widely used tabular format. To make the ISA framework more accessible to machines and enable programmatic manipulation of experiment metadata, the JSON serialization ISA-JSON was developed.</jats:p>                   </jats:sec>                   <jats:sec>                     <jats:title>Results</jats:title>                     <jats:p>In this work, we present the ISA API, a Python library for the creation, editing, parsing, and validating of ISA-Tab and ISA-JSON formats by using a common data model engineered as Python object classes. We describe the ISA API feature set, early adopters, and its growing user community.</jats:p>                   </jats:sec>                   <jats:sec>                     <jats:title>Conclusions</jats:title>                     <jats:p>The ISA API provides users with rich programmatic metadata-handling functionality to support automation, a common interface, and an interoperable medium between the 2 ISA formats, as well as with other life science data formats required for depositing data in public databases.</jats:p>                   </jats:sec>",
+      "publication_date": "2021-09-01",
+      "publication_year": 2021,
+      "work_type": "publication",
+      "language": "eng",
+      "publisher": "Oxford University Press (OUP)",
+      "issn": [],
+      "doi": "10.1093/gigascience/giab060",
+      "pmid": "34528664",
+      "authors": [
+        {
+          "name": {
+            "full_name": "Johnson, David",
+            "orcid": "0000-0002-2323-6847",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Batista, Dominique",
+            "orcid": "0000-0002-2109-489x",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Cochrane, Keeva",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Davey, Robert",
+            "orcid": "0000-0002-5589-7754",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Etuk, Anthony",
+            "orcid": "0000-0001-8320-660x",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Gonzalez-Beltran, Alejandra",
+            "orcid": "0000-0003-3499-8262",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Haug, Kenneth",
+            "orcid": "0000-0003-3168-4145",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Izzo, Massimiliano",
+            "orcid": "0000-0002-8100-6142",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Larralde, Martin",
+            "orcid": "0000-0002-3947-4444",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Lawson, Thomas",
+            "orcid": "0000-0002-5915-7980",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Minotto, Alice",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Moreno, Pablo",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Nainala, Venkata Chandrasekhar",
+            "orcid": "0000-0002-2564-3243",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "O'Donovan, Claire",
+            "orcid": "0000-0001-8051-7429",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Pireddu, Luca",
+            "orcid": "0000-0002-4663-5613",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Mele, Pierrick Roger",
+            "orcid": "0000-0001-8177-4873",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Shaw, Felix",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Steinbeck, Christoph",
+            "orcid": "0000-0001-6966-0814",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Weber, Ralf",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Sansone, Susanna-Assunta",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        },
+        {
+          "name": {
+            "full_name": "Rocca-Serra, Philippe",
+            "authenticated_orcid": false,
+            "source": "openaire"
+          },
+          "affiliations": [],
+          "sources": [
+            "openaire"
+          ]
+        }
+      ],
+      "citation_count": 22,
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_status": "gold",
+      "oa_locations": [
+        {
+          "url": "https://doi.org/10.1093/gigascience/giab060",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://academic.oup.com/gigascience/article-pdf/10/9/giab060/40394485/giab060.pdf",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34528664",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://dx.doi.org/10.1093/gigascience/giab060",
+          "version": "Other literature type",
+          "license": "http://creativecommons.org/licenses/by/4.0/This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://dx.doi.org/10.1093/gigascience/giab060",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://ora.ox.ac.uk/objects/uuid:63193f82-fa38-416f-9ccf-ba0edf47de70",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1093/gigascience/giab060",
+          "version": "Article",
+          "license": "CC BY",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://hal.science/hal-04562617v1",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://hal.science/hal-04562617v1/document",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1093/gigascience/giab060",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://hal.science/hal-04562617v1",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://hal.science/hal-04562617v1/document",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "https://doi.org/10.1093/gigascience/giab060",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-453419",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        },
+        {
+          "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-453419",
+          "version": "Article",
+          "is_best": false,
+          "source": "openaire"
+        }
+      ],
+      "funders": [],
+      "grants": [
+        {
+          "grant_id": "BB/J020265/1",
+          "agency": "UK Research and Innovation",
+          "title": "Establishing common standards and curation practices: towards real world biosharing.",
+          "pi_names": [],
+          "openaire_project_id": "ukri________::c76db3d3b3902488c747586ec5fc812f",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "208381",
+          "agency": "Wellcome Trust",
+          "title": "ISA-InterMine: accelerating and rewarding data sharing",
+          "pi_names": [],
+          "openaire_project_id": "wt__________::edfc44e393e4533f75010b602ff36add",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "BB/L024101/1",
+          "agency": "UK Research and Innovation",
+          "title": "COpenPlantOmics (COPO): a Collaborative Bioinformatics Plant Science Platform",
+          "pi_names": [],
+          "openaire_project_id": "ukri________::d3bfa3e00093b57249576a014c8d527f",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "BB/L021390/1",
+          "agency": "UK Research and Innovation",
+          "title": "COpenPlantOmics (COPO): a Collaborative Bioinformatics Plant Science Platform",
+          "pi_names": [],
+          "openaire_project_id": "ukri________::8065730dc515200ea208bd2dd9999369",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "BB/L024071/1",
+          "agency": "UK Research and Innovation",
+          "title": "COpenPlantOmics (COPO): a Collaborative Bioinformatics Plant Science Platform",
+          "pi_names": [],
+          "openaire_project_id": "ukri________::36a3c96082acdbe81ff6270cd439b3d4",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "BB/L024055/1",
+          "agency": "UK Research and Innovation",
+          "title": "COpenPlantOmics (COPO): a Collaborative Bioinformatics Plant Science Platform",
+          "pi_names": [],
+          "openaire_project_id": "ukri________::9da49cc7e2a5b9aee942dbdd3bd4c69e",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "654241",
+          "agency": "European Commission",
+          "title": "PhenoMeNal: A comprehensive and standardised e-infrastructure for analysing medical metabolic phenotype data",
+          "pi_names": [],
+          "openaire_project_id": "corda__h2020::8bffd9dc86f7cc574a0d7075a271af96",
+          "source": "openaire"
+        }
+      ],
+      "licenses": [],
+      "subjects": [
+        {
+          "value": "0301 basic medicine",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "[INFO.INFO-AR] Computer Science [cs]/Hardware Architecture [cs.AR]",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Databases, Factual",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "life science",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "open-source software",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "user-facing Java tools",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "0206 medical engineering",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "interoperability",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "[INFO.INFO-DS] Computer Science [cs]/Data Structures and Algorithms [cs.DS]",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "02 engineering and technology",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "ISA framework",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Biological Science Disciplines",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "JSON serialization",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "03 medical and health sciences",
+          "scheme": "FOS",
+          "source": "openaire"
+        },
+        {
+          "value": "ISA-Tab",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Python object class",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "metadata-handling functionality",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Technical Note",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "reproducibility",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "[INFO.INFO-BI] Computer Science [cs]/Bioinformatics [q-bio.QM]",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Bioinformatics (Computational Biology)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Metadata",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Computer Sciences",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Python library",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "experiment metadata",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "metadata",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Metadata Framework",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Datavetenskap (datalogi)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "API",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "ISA API",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "standards",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Bioinformatik (ber\u00e4kningsbiologi)",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "ISA software suite",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "open source community",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "[INFO.INFO-HC] Computer Science [cs]/Human-Computer Interaction [cs.HC]",
+          "scheme": "keyword",
+          "source": "openaire"
+        },
+        {
+          "value": "Software",
+          "scheme": "keyword",
+          "source": "openaire"
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [
+        {
+          "name": "bip_citationCount",
+          "value": 22.0,
+          "class_label": "C4",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_influence",
+          "value": 3.7405106e-09,
+          "class_label": "C4",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_popularity",
+          "value": 1.9220252e-08,
+          "class_label": "C4",
+          "source": "openaire"
+        },
+        {
+          "name": "bip_impulse",
+          "value": 20.0,
+          "class_label": "C4",
+          "source": "openaire"
+        }
+      ],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [
+        {
+          "grant_id": "BB/J020265/1",
+          "agency": "UK Research and Innovation",
+          "title": "Establishing common standards and curation practices: towards real world biosharing.",
+          "pi_names": [],
+          "openaire_project_id": "ukri________::c76db3d3b3902488c747586ec5fc812f",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "208381",
+          "agency": "Wellcome Trust",
+          "title": "ISA-InterMine: accelerating and rewarding data sharing",
+          "pi_names": [],
+          "openaire_project_id": "wt__________::edfc44e393e4533f75010b602ff36add",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "BB/L024101/1",
+          "agency": "UK Research and Innovation",
+          "title": "COpenPlantOmics (COPO): a Collaborative Bioinformatics Plant Science Platform",
+          "pi_names": [],
+          "openaire_project_id": "ukri________::d3bfa3e00093b57249576a014c8d527f",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "BB/L021390/1",
+          "agency": "UK Research and Innovation",
+          "title": "COpenPlantOmics (COPO): a Collaborative Bioinformatics Plant Science Platform",
+          "pi_names": [],
+          "openaire_project_id": "ukri________::8065730dc515200ea208bd2dd9999369",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "BB/L024071/1",
+          "agency": "UK Research and Innovation",
+          "title": "COpenPlantOmics (COPO): a Collaborative Bioinformatics Plant Science Platform",
+          "pi_names": [],
+          "openaire_project_id": "ukri________::36a3c96082acdbe81ff6270cd439b3d4",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "BB/L024055/1",
+          "agency": "UK Research and Innovation",
+          "title": "COpenPlantOmics (COPO): a Collaborative Bioinformatics Plant Science Platform",
+          "pi_names": [],
+          "openaire_project_id": "ukri________::9da49cc7e2a5b9aee942dbdd3bd4c69e",
+          "source": "openaire"
+        },
+        {
+          "grant_id": "654241",
+          "agency": "European Commission",
+          "title": "PhenoMeNal: A comprehensive and standardised e-infrastructure for analysing medical metabolic phenotype data",
+          "pi_names": [],
+          "openaire_project_id": "corda__h2020::8bffd9dc86f7cc574a0d7075a271af96",
+          "source": "openaire"
+        }
+      ],
+      "alternate_ids": [
+        "doi:10.1093/gigascience/giab060",
+        "doi:10.1093/gigascience/giab060",
+        "pmid:34528664",
+        "pmc:PMC8444265",
+        "doi:10.1093/gigascience/giab060",
+        "doi:10.1093/gigascience/giab060",
+        "mag_id:3199620625",
+        "doi:10.1093/gigascience/giab060",
+        "pmid:34528664",
+        "doi:10.1093/gigascience/giab060",
+        "doi:10.1093/gigascience/giab060",
+        "doi:10.1093/gigascience/giab060",
+        "doi:10.1093/gigascience/giab060"
+      ],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "nih_reporter": {
+      "source": "nih_reporter",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/gigascience/giab060",
+      "pmid": "19683066",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "zenodo": {
+      "source": "zenodo",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/gigascience/giab060",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "dryad": {
+      "source": "dryad",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/gigascience/giab060",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "orcid": {
+      "source": "orcid",
+      "found": true,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/gigascience/giab060",
+      "authors": [
+        {
+          "name": {
+            "given": "Claire",
+            "family": "O'Donovan",
+            "full_name": "C. O'Donovan",
+            "orcid": "0000-0001-8051-7429",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Michael",
+            "family": "Uhl",
+            "full_name": "Michael Uhl",
+            "orcid": "0000-0002-9563-4991",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Thomas N",
+            "family": "Lawson",
+            "full_name": "Thomas N Lawson",
+            "orcid": "0000-0002-5915-7980",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Luca",
+            "family": "Pireddu",
+            "full_name": "Luca Pireddu",
+            "orcid": "0000-0002-4663-5613",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Dominique",
+            "family": "Batista",
+            "full_name": "Dominique Batista",
+            "orcid": "0000-0002-2109-489X",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Ove Kenneth",
+            "family": "Haug",
+            "full_name": "Ove Kenneth Haug",
+            "orcid": "0000-0003-3168-4145",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Anthony",
+            "family": "Etuk",
+            "full_name": "Anthony Etuk",
+            "orcid": "0000-0001-8320-660X",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Massimiliano",
+            "family": "Izzo",
+            "full_name": "Massimiliano Izzo",
+            "orcid": "0000-0002-8100-6142",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "David",
+            "family": "Johnson",
+            "full_name": "Dr David Johnson",
+            "orcid": "0000-0002-2323-6847",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Venkata Chandrasekhar",
+            "family": "Nainala",
+            "full_name": "Venkata Chandrasekhar",
+            "orcid": "0000-0002-2564-3243",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Alejandra",
+            "family": "Gonzalez-Beltran",
+            "full_name": "Alejandra Gonzalez-Beltran",
+            "orcid": "0000-0003-3499-8262",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Pierrick",
+            "family": "Roger",
+            "full_name": "Pierrick Roger",
+            "orcid": "0000-0001-8177-4873",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Robert",
+            "family": "Davey",
+            "full_name": "Robert Davey",
+            "orcid": "0000-0002-5589-7754",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Martin",
+            "family": "Larralde",
+            "full_name": "Martin Larralde",
+            "orcid": "0000-0002-3947-4444",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        },
+        {
+          "name": {
+            "given": "Christoph",
+            "family": "Steinbeck",
+            "full_name": "Christoph Steinbeck",
+            "orcid": "0000-0001-6966-0814",
+            "authenticated_orcid": false,
+            "source": "orcid"
+          },
+          "affiliations": [],
+          "sources": [
+            "orcid"
+          ]
+        }
+      ],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [
+        {
+          "orcid_id": "0000-0001-8051-7429",
+          "given_names": "Claire",
+          "family_names": "O'Donovan",
+          "credit_name": "C. O'Donovan",
+          "other_names": [],
+          "institutions": [
+            "European Bioinformatics Institute",
+            "University College Cork"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-9563-4991",
+          "given_names": "Michael",
+          "family_names": "Uhl",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "University of Freiburg"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-5915-7980",
+          "given_names": "Thomas N",
+          "family_names": "Lawson",
+          "credit_name": "Thomas N Lawson",
+          "other_names": [
+            "Tom Lawson",
+            "Thomas Lawson",
+            "Thomas Nigel Lawson"
+          ],
+          "institutions": [
+            "Michabo Health Science Ltd.",
+            "University of Birmingham"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-4663-5613",
+          "given_names": "Luca",
+          "family_names": "Pireddu",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Center for Advanced Studies Research and Development (CRS4)",
+            "Laurentian University",
+            "University of Alberta",
+            "Universit\u00e0 degli Studi di Cagliari"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-2109-489X",
+          "given_names": "Dominique",
+          "family_names": "Batista",
+          "credit_name": null,
+          "other_names": [
+            "Terazus"
+          ],
+          "institutions": [
+            "Aix-Marseille Universit\u00e9",
+            "CNRS D\u00e9l\u00e9gation Ile-de-France Sud",
+            "T-Cypher Bio",
+            "University of Birmingham",
+            "University of Oxford Linacre College",
+            "University of Oxford e-Research Centre",
+            "Universit\u00e9 de Bordeaux"
+          ],
+          "emails": [
+            "dominique.batista@oerc.ox.ac.uk"
+          ]
+        },
+        {
+          "orcid_id": "0000-0003-3168-4145",
+          "given_names": "Ove Kenneth",
+          "family_names": "Haug",
+          "credit_name": null,
+          "other_names": [
+            "Ken"
+          ],
+          "institutions": [
+            "Genome Research Ltd"
+          ],
+          "emails": [
+            "kh14@sanger.ac.uk"
+          ]
+        },
+        {
+          "orcid_id": "0000-0001-8320-660X",
+          "given_names": "Anthony",
+          "family_names": "Etuk",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Genome Analysis Centre",
+            "University of Aberdeen"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-8100-6142",
+          "given_names": "Massimiliano",
+          "family_names": "Izzo",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "Istituto Giannina Gaslini",
+            "University of Oxford",
+            "Universit\u00e0 degli Studi di Genova"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-2323-6847",
+          "given_names": "David",
+          "family_names": "Johnson",
+          "credit_name": "Dr David Johnson",
+          "other_names": [],
+          "institutions": [
+            "Association for Computing Machinery",
+            "Imperial College London",
+            "University of Oxford",
+            "University of Reading",
+            "Uppsala Universitet",
+            "Uppsala University"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-2564-3243",
+          "given_names": "Venkata Chandrasekhar",
+          "family_names": "Nainala",
+          "credit_name": "Venkata Chandrasekhar",
+          "other_names": [],
+          "institutions": [
+            "ADITYA INSTITUTE OF PHARMACEUTICAL SCIENCES AND REASEARCH",
+            "European Bioinformatics Institute",
+            "Friedrich Schiller University Jena",
+            "National Institute of Pharmaceutical Education and Research Hajipur"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0003-3499-8262",
+          "given_names": "Alejandra",
+          "family_names": "Gonzalez-Beltran",
+          "credit_name": null,
+          "other_names": [
+            "Alejandra Noem\u00ed Gonz\u00e1lez Beltr\u00e1n"
+          ],
+          "institutions": [
+            "Queen's University Belfast",
+            "Science and Technology Facilities Council",
+            "University of Oxford"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0001-8177-4873",
+          "given_names": "Pierrick",
+          "family_names": "Roger",
+          "credit_name": null,
+          "other_names": [
+            "Pierrick Roger Mele"
+          ],
+          "institutions": [
+            "CEA Fontenay-aux-Roses",
+            "ESPCI ParisTech",
+            "Mines ParisTech"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-5589-7754",
+          "given_names": "Robert",
+          "family_names": "Davey",
+          "credit_name": null,
+          "other_names": [
+            "froggleston"
+          ],
+          "institutions": [
+            "DivSeek",
+            "Earlham Institute",
+            "The Carpentries",
+            "University of East Anglia"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0002-3947-4444",
+          "given_names": "Martin",
+          "family_names": "Larralde",
+          "credit_name": null,
+          "other_names": [],
+          "institutions": [
+            "CRC 1371",
+            "EMBL",
+            "Ecole Normale Sup\u00e9rieure Paris-Saclay",
+            "Leiden University Medical Center",
+            "Universit\u00e9 Paris-Sud"
+          ],
+          "emails": []
+        },
+        {
+          "orcid_id": "0000-0001-6966-0814",
+          "given_names": "Christoph",
+          "family_names": "Steinbeck",
+          "credit_name": "Christoph Steinbeck",
+          "other_names": [],
+          "institutions": [
+            "Eberhard Karls Universit\u00e4t T\u00fcbingen",
+            "European Bioinformatics Institute",
+            "Friedrich-Schiller-Universitat Jena",
+            "Friedrich-Schiller-Universit\u00e4t Jena",
+            "Max-Planck-Institute for Chemical Ecology",
+            "Rheinische Friedrich Wilhelms Universitat Bonn",
+            "Tufts University",
+            "Universit\u00e4t zu K\u00f6ln"
+          ],
+          "emails": [
+            "christoph.steinbeck@uni-jena.de"
+          ]
+        }
+      ],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    },
+    "entrez": {
+      "source": "entrez",
+      "found": false,
+      "raw": {},
+      "issn": [],
+      "doi": "10.1093/gigascience/giab060",
+      "authors": [],
+      "references": [],
+      "citations": [],
+      "counts_by_year": {},
+      "oa_locations": [],
+      "funders": [],
+      "grants": [],
+      "licenses": [],
+      "subjects": [],
+      "mesh_terms": [],
+      "keywords": [],
+      "related_works": [],
+      "files": [],
+      "impact_indicators": [],
+      "citation_styles": {},
+      "related_software": [],
+      "related_data": [],
+      "openaire_projects": [],
+      "alternate_ids": [],
+      "chemicals": [],
+      "text_mined_accessions": [],
+      "corrections": [],
+      "full_text_urls": [],
+      "nih_grants": [],
+      "sibling_pmids": [],
+      "crossmark_assertions": [],
+      "clinical_trial_numbers": [],
+      "update_to": [],
+      "orcid_records": [],
+      "communities": [],
+      "publication_types": [],
+      "gene_symbols": [],
+      "databank_accessions": [],
+      "article_dates": {},
+      "structured_abstract": {},
+      "comment_corrections": [],
+      "supplementary_mesh": [],
+      "investigators": [],
+      "other_abstracts": [],
+      "citation_subsets": [],
+      "major_topic_keywords": [],
+      "personal_name_subjects": [],
+      "objects": [],
+      "annotations": [],
+      "clinical_trials": [],
+      "nct_ids": []
+    }
+  },
+  "crosswalk": {
+    "doi": "10.1093/gigascience/giab060",
+    "pmid": "34528664",
+    "pmcid": "PMC8444265",
+    "mag_id": "3199620625",
+    "openalex_id": "https://openalex.org/W3199620625",
+    "handles": [],
+    "orcids": [
+      "0000-0001-5306-5690",
+      "0000-0001-6966-0814",
+      "0000-0001-7961-0474",
+      "0000-0001-8051-7429",
+      "0000-0001-8177-4873",
+      "0000-0001-8320-660X",
+      "0000-0001-8320-660x",
+      "0000-0001-9649-5906",
+      "0000-0001-9853-5668",
+      "0000-0002-1670-1675",
+      "0000-0002-2109-489X",
+      "0000-0002-2109-489x",
+      "0000-0002-2323-6847",
+      "0000-0002-2564-3243",
+      "0000-0002-3947-4444",
+      "0000-0002-4663-5613",
+      "0000-0002-5589-7754",
+      "0000-0002-5915-7980",
+      "0000-0002-8100-6142",
+      "0000-0002-8796-4771",
+      "0000-0002-9563-4991",
+      "0000-0002-9856-1679",
+      "0000-0003-3168-4145",
+      "0000-0003-3499-8262"
+    ],
+    "ror_ids": [
+      "https://ror.org/000dbcc61",
+      "https://ror.org/0062dz060",
+      "https://ror.org/00jjx8s55",
+      "https://ror.org/018cxtf62",
+      "https://ror.org/02catss52",
+      "https://ror.org/03angcq70",
+      "https://ror.org/03gq8fr08",
+      "https://ror.org/03jdxdk20",
+      "https://ror.org/048a87296",
+      "https://ror.org/04btxg914",
+      "https://ror.org/04j8yhy50",
+      "https://ror.org/050589e39",
+      "https://ror.org/052gg0110",
+      "https://ror.org/057g20z61",
+      "https://ror.org/05cy4wa09"
+    ],
+    "grant_ids": [
+      "208381",
+      "208381/A/17/Z",
+      "208381/A/17/ZUK",
+      "654241",
+      "BB/I000771/1",
+      "BB/I025840/1",
+      "BB/J020265/1",
+      "BB/L005042/1",
+      "BB/L021390/1",
+      "BB/L021390/2",
+      "BB/L024055/1",
+      "BB/L024071/1",
+      "BB/L024101/1",
+      "BB/M027635/1",
+      "BB/P017193/1",
+      "BB/P026001/1",
+      "BBS/E/T/000PR9817",
+      "BBS/E/T/000PR9818",
+      "EC654241",
+      "MR/M009157/1",
+      "NE/L002493/1"
+    ],
+    "nct_ids": [],
+    "pmid_source": "europe_pmc",
+    "pmcid_source": "europe_pmc"
+  },
+  "conflicts": {
+    "doi": "10.1093/gigascience/giab060",
+    "conflicts": [
+      {
+        "field": "citation_count",
+        "values": {
+          "crossref": 30,
+          "openalex": 33,
+          "europe_pmc": 18,
+          "openaire": 22
+        },
+        "risk": "high"
+      },
+      {
+        "field": "reference_count",
+        "values": {
+          "crossref": 84,
+          "openalex": 61
+        },
+        "risk": "low"
+      },
+      {
+        "field": "work_type",
+        "values": {
+          "crossref": "journal-article",
+          "openalex": "article",
+          "unpaywall": "journal-article",
+          "openaire": "publication"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "author_count",
+        "values": {
+          "crossref": 21,
+          "openalex": 21,
+          "unpaywall": 21,
+          "europe_pmc": 22,
+          "openaire": 21,
+          "orcid": 15
+        },
+        "risk": "high"
+      },
+      {
+        "field": "publisher",
+        "values": {
+          "crossref": "Oxford University Press (OUP)",
+          "openalex": "https://openalex.org/P4310311647",
+          "unpaywall": "Oxford University Press (OUP)",
+          "openaire": "Oxford University Press (OUP)"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "mesh_term_count",
+        "values": {
+          "openalex": 28,
+          "europe_pmc": 4
+        },
+        "risk": "low"
+      },
+      {
+        "field": "language",
+        "values": {
+          "crossref": "en",
+          "openalex": "en",
+          "europe_pmc": "eng",
+          "openaire": "eng"
+        },
+        "risk": "low"
+      },
+      {
+        "field": "grant_count",
+        "values": {
+          "europe_pmc": 20,
+          "openaire": 7
+        },
+        "risk": "medium"
+      }
+    ],
+    "agreement_count": 2,
+    "conflict_count": 8
+  },
+  "datacite_linked_datasets": [],
+  "analyses": {
+    "impact": {},
+    "funding": {},
+    "dataset_reuse": {},
+    "authors": {},
+    "grant_siblings": {},
+    "oa_audit": {},
+    "topics": {}
+  },
+  "_benchmark": {
+    "doi": "10.1093/gigascience/giab060",
+    "fetched_at": "2026-02-11T18:47:41.653329+00:00"
+  }
+}
