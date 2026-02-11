@@ -186,6 +186,8 @@ class Reference(BaseModel):
     unstructured: str | None = None
     # From CrossRef
     key: str | None = None
+    # From OpenAlex
+    openalex_id: str | None = None
     # From S2
     s2_paper_id: str | None = None
     intents: list[str] = Field(default_factory=list)  # Background, Methodology, ResultComparison

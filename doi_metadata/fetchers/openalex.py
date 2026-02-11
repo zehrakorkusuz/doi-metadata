@@ -174,7 +174,7 @@ async def fetch_openalex(doi: str) -> SourceResult:
 
     # Referenced works (OpenAlex IDs)
     for ref_id in data.get("referenced_works", []):
-        result.references.append(Reference(doi=None, title=None, source=SOURCE))
+        result.references.append(Reference(openalex_id=ref_id, source=SOURCE))
 
     # Open access
     oa = data.get("open_access", {}) or {}
