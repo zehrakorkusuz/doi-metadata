@@ -509,6 +509,7 @@ class AggregatedResult(BaseModel):
     conflicts: ConflictReport
     # Phase 3 discoveries
     datacite_linked_datasets: list[RelatedWork] = Field(default_factory=list)
+    datacite_linked_total: int = 0  # Uncapped count from DataCite API meta.total
     # Derived analyses (populated after aggregation)
     analyses: AnalysesResult = Field(default_factory=AnalysesResult)
     # Comprehensive cross-source discrepancy report

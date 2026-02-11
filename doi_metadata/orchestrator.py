@@ -60,11 +60,13 @@ async def lookup(doi: str, *, include_raw: bool = False, follow_links: bool = Tr
 
     # Phase 3: Follow discovered links
     datacite_linked_datasets: list[RelatedWork] = []
+    datacite_linked_total: int = 0
     if follow_links:
         logger.info("Phase 3: Following discovered links...")
-        datacite_linked_datasets = await _datacite_reverse_search(doi)
-        if datacite_linked_datasets:
-            logger.info("  DataCite reverse search: %d linked datasets", len(datacite_linked_datasets))
+        datacite_linked_datasets, datacite_linked_total = await _datacite_reverse_search(doi)
+        if datacite_linked_total:
+            logger.info("  DataCite reverse search: %d linked datasets (total: %d)",
+                        len(datacite_linked_datasets), datacite_linked_total)
 
         # Europe PMC Annotations: fetch text-mined entities if we have a PMCID
         if crosswalk.pmcid:
@@ -105,6 +107,7 @@ async def lookup(doi: str, *, include_raw: bool = False, follow_links: bool = Tr
         crosswalk=crosswalk,
         conflicts=conflicts,
         datacite_linked_datasets=datacite_linked_datasets,
+        datacite_linked_total=datacite_linked_total,
     )
 
     # Phase 4: Derived analyses
@@ -174,8 +177,14 @@ def _collect_nct_ids(results: dict[str, SourceResult]) -> list[str]:
     return sorted(nct_ids)
 
 
-async def _datacite_reverse_search(doi: str, max_results: int = 25) -> list[RelatedWork]:
-    """Find DataCite records that reference this DOI (dataset reuse discovery)."""
+async def _datacite_reverse_search(
+    doi: str, max_results: int = 25,
+) -> tuple[list[RelatedWork], int]:
+    """Find DataCite records that reference this DOI (dataset reuse discovery).
+
+    Returns (list of related works up to *max_results*, total count from API).
+    The total count is the uncapped number of DataCite records referencing this DOI.
+    """
     try:
         data = await fetch_json(
             "https://api.datacite.org/dois",
@@ -187,10 +196,12 @@ async def _datacite_reverse_search(doi: str, max_results: int = 25) -> list[Rela
         )
     except Exception:
         logger.debug("DataCite reverse search failed for %s", doi)
-        return []
+        return [], 0
 
     if not data:
-        return []
+        return [], 0
+
+    total = data.get("meta", {}).get("total", 0)
 
     datasets = []
     for item in data.get("data", []):
@@ -208,4 +219,4 @@ async def _datacite_reverse_search(doi: str, max_results: int = 25) -> list[Rela
             )
         )
 
-    return datasets
+    return datasets, total
