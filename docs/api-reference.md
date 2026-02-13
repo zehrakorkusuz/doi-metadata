@@ -1,5 +1,7 @@
 # API Reference: All Data Sources
 
+**DOIphin 🐬 Documentation**
+
 Complete reference for every API the DOI metadata aggregator calls. Each section covers: how to call it, authentication, rate limits, the full response JSON key hierarchy, and what unique data it provides.
 
 Test DOIs used throughout:
@@ -16,7 +18,7 @@ Test DOIs used throughout:
 GET https://api.crossref.org/works/{doi}?mailto={email}
 ```
 
-**Headers:** `User-Agent: DOIMetadataAggregator/1.0 (mailto:{email})`
+**Headers:** `User-Agent: DOIphin/1.0 (mailto:{email})`
 
 **Auth:** None. `mailto` param routes to polite pool (better rate limits).
 
