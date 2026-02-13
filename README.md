@@ -1,4 +1,6 @@
-# DOI Metadata Aggregator
+# DOIphin 🐬
+
+**DOI Metadata Aggregator**
 
 Given a DOI, query 14 scholarly APIs in parallel (12 Phase 1 + 2 Phase 3), normalize the results, detect cross-source conflicts, and return unified metadata with derived analyses.
 

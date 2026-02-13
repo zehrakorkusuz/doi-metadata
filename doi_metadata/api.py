@@ -24,9 +24,9 @@ from doi_metadata.models import AggregatedResult
 logger = logging.getLogger(__name__)
 
 app = FastAPI(
-    title="DOI Metadata Aggregator",
+    title="DOIphin 🐬 - DOI Metadata Aggregator",
     description=(
-        "Given a DOI, query 11 scholarly APIs in parallel, normalize, reconcile conflicts, "
+        "Given a DOI, query 14 scholarly APIs in parallel, normalize, reconcile conflicts, "
         "and return unified metadata with derived analyses."
     ),
     version="0.1.0",
@@ -45,9 +45,10 @@ async def health() -> dict[str, str]:
     response_model_exclude_none=True,
     summary="Look up metadata for a DOI",
     description=(
-        "Fetches metadata from 11 scholarly APIs (CrossRef, DataCite, OpenAlex, "
+        "Fetches metadata from 14 scholarly APIs (CrossRef, DataCite, OpenAlex, "
         "Semantic Scholar, Unpaywall, Europe PMC, OpenAIRE, NIH Reporter, Zenodo, "
-        "Dryad, ORCID), builds identifier crosswalk, detects conflicts, and runs "
+        "Dryad, ORCID, Entrez/PubMed, Europe PMC Annotations, ClinicalTrials.gov), "
+        "builds identifier crosswalk, detects conflicts, and runs "
         "7 derived analyses (impact, funding, dataset reuse, authors, grant siblings, "
         "OA audit, topics)."
     ),

@@ -1,4 +1,6 @@
-# DOI Metadata Aggregator
+# DOIphin 🐬
+
+**DOI Metadata Aggregator**
 
 ## Project Purpose
 

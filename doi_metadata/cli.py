@@ -11,7 +11,7 @@ from typing import Optional
 import typer
 from rich.console import Console
 
-app = typer.Typer(name="doi-metadata", help="Aggregate scholarly metadata from 11 APIs for a given DOI.")
+app = typer.Typer(name="doi-metadata", help="DOIphin 🐬 - Aggregate scholarly metadata from 14 APIs for a given DOI.")
 console = Console()
 
 
