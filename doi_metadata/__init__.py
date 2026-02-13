@@ -1,4 +1,6 @@
-"""DOI Metadata Aggregator — query 11 scholarly APIs, normalize, reconcile.
+"""DOIphin 🐬 — DOI Metadata Aggregator
+
+Query 14 scholarly APIs, normalize, and reconcile metadata.
 
 Library usage:
 
