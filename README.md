@@ -12,7 +12,7 @@ Given a DOI, query 14 scholarly APIs in parallel (12 Phase 1 + 2 Phase 3), norma
 
 ```bash
 # Clone and install
-git clone https://github.com/zehrakorkusuz/doi-metadata.git
+git clone https://github.com/Kaimen-Inc/doi-metadata.git
 cd doi-metadata
 pip install -e ".[dev]"
 

@@ -41,7 +41,7 @@ class Settings(BaseSettings):
     http_max_retries: int = 3
 
     # User-Agent
-    user_agent: str = "DOIphin/0.1 (https://github.com/zehrakorkusuz/doi-metadata)"
+    user_agent: str = "DOIphin/0.1 (https://github.com/Kaimen-Inc/doi-metadata)"
 
     model_config = {"env_file": str(Path.cwd() / ".env"), "env_file_encoding": "utf-8", "extra": "ignore"}
 
